@@ -80,6 +80,19 @@ function setStatus(message, mode = "") {
   el.statusMessage.className = mode ? `status ${mode}` : "status";
 }
 
+function formatQuestionBankStats(stats) {
+  const questionCount = Number(stats?.questionCount) || 0;
+  const bookCount = Number(stats?.bookCount) || 0;
+  const questionLabel = questionCount === 1 ? "question" : "questions";
+  const bookLabel = bookCount === 1 ? "book" : "books";
+
+  return `${questionCount.toLocaleString()} ${questionLabel} across ${bookCount.toLocaleString()} ${bookLabel}`;
+}
+
+function renderQuestionBankStats(stats) {
+  el.questionBankStats.textContent = formatQuestionBankStats(stats);
+}
+
 function ensureProfileState() {
   const active = getActiveProfile(appState.storage);
   active.settings = { ...DEFAULT_SETTINGS, ...active.settings };
@@ -769,6 +782,7 @@ async function generateAndRender() {
   appState.generatedQuestions = result.questions;
   appState.unmet = result.unmet;
 
+  renderQuestionBankStats(result.stats);
   renderPreview(el.previewList, el.questionCardTemplate, result.questions);
   renderPreviewMeta(el.previewMeta, result.questions, active.settings, result.unmet);
 
@@ -889,9 +903,6 @@ async function bootstrap() {
     if (!Object.keys(active.selectedScope).length) {
       active.selectedScope = structuredClone(appState.years[0].scope);
     }
-
-    const total = dataService.countQuestionsInManifest(appState.manifest);
-    el.questionBankStats.textContent = `${total} questions across ${appState.manifest.books.length} books`;
 
     renderProfileArea();
     renderControls();

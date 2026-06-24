@@ -42,6 +42,13 @@ function questionMatchesSelectedVerses(question, selectedVerseSets) {
   return false;
 }
 
+function buildCandidateStats(candidates) {
+  return {
+    questionCount: candidates.length,
+    bookCount: new Set(candidates.map((question) => question.bookId)).size,
+  };
+}
+
 export async function generateQuestions({
   dataService,
   year,
@@ -61,7 +68,11 @@ export async function generateQuestions({
   }
 
   if (chapterPairs.length === 0) {
-    return { questions: [], unmet: ["No books/chapters selected for the active year."] };
+    return {
+      questions: [],
+      unmet: ["No books/chapters selected for the active year."],
+      stats: { questionCount: 0, bookCount: 0 },
+    };
   }
 
   const loaded = await Promise.all(
@@ -94,11 +105,13 @@ export async function generateQuestions({
 
   candidates = candidates.filter((question) => typeSet.has(question.type));
   candidates = candidates.filter((question) => difficultyMatch(question, settings.difficulty));
+  const stats = buildCandidateStats(candidates);
 
   if (candidates.length === 0) {
     return {
       questions: [],
       unmet: ["No questions match the current filters. Try widening type, difficulty, or review filters."],
+      stats,
     };
   }
 
@@ -139,5 +152,6 @@ export async function generateQuestions({
   return {
     questions: selected,
     unmet,
+    stats,
   };
 }
