@@ -9,11 +9,7 @@ export const QUESTION_TYPES = [
   "other",
 ];
 
-export const DIFFICULTY_POINTS_MAP = {
-  easy: [1],
-  medium: [2],
-  hard: [5],
-};
+export const QUESTION_DIFFICULTIES = ["easy", "medium", "hard"];
 
 export const STORAGE_KEY = "pbe_quiz_profiles_v1";
 
@@ -24,7 +20,7 @@ export const DEFAULT_SETTINGS = {
   yearId: "current-year",
   totalCount: 25,
   perVerse: 2,
-  difficulty: "all",
+  selectedDifficulties: [...QUESTION_DIFFICULTIES],
   humanReviewedOnly: false,
   selectedTypes: [...QUESTION_TYPES],
 };

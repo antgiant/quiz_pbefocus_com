@@ -53,15 +53,10 @@
             <input id="perVerseInput" type="number" min="1" value="2" />
           </label>
 
-          <label>
-            Difficulty
-            <select id="difficultySelect">
-              <option value="all">All (metadata not yet added)</option>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
-            </select>
-          </label>
+          <fieldset class="compact-fieldset">
+            <legend>Difficulty</legend>
+            <div id="difficultyCheckboxes" class="chips"></div>
+          </fieldset>
 
           <label class="checkbox-row">
             <input id="humanReviewedOnlyInput" type="checkbox" />

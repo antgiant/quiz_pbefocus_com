@@ -25,6 +25,15 @@ async function readJsonIfExists(filePath) {
   }
 }
 
+async function fileExists(filePath) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function main() {
   const manifest = await readJson(manifestPath);
   let years = null;
@@ -64,13 +73,17 @@ async function main() {
   await fs.writeFile(outPath, content, "utf8");
   console.log(`Wrote ${outPath}`);
 
-  const templateBytes = await fs.readFile(templatePptxPath);
-  const templateBase64 = templateBytes.toString("base64");
-  const templateBundle =
-    "/* Auto-generated. Run: node scripts/build-local-bundle.mjs */\n" +
-    `window.PBE_TEMPLATE_PPTX_BASE64 = "${templateBase64}";\n`;
-  await fs.writeFile(templateBundleOutPath, templateBundle, "utf8");
-  console.log(`Wrote ${templateBundleOutPath}`);
+  if (await fileExists(templatePptxPath)) {
+    const templateBytes = await fs.readFile(templatePptxPath);
+    const templateBase64 = templateBytes.toString("base64");
+    const templateBundle =
+      "/* Auto-generated. Run: node scripts/build-local-bundle.mjs */\n" +
+      `window.PBE_TEMPLATE_PPTX_BASE64 = "${templateBase64}";\n`;
+    await fs.writeFile(templateBundleOutPath, templateBundle, "utf8");
+    console.log(`Wrote ${templateBundleOutPath}`);
+  } else {
+    console.log(`Skipped ${templateBundleOutPath}; missing optional ${templatePptxPath}`);
+  }
 
   if (skipped.length) {
     console.log(`Skipped missing chapters: ${skipped.join(", ")}`);

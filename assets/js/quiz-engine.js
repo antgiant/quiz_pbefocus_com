@@ -1,13 +1,24 @@
-import { DIFFICULTY_POINTS_MAP } from "./constants.js";
+import { QUESTION_DIFFICULTIES } from "./constants.js";
 import { shuffle, uniqueById } from "./utils.js";
 
-function difficultyMatch(question, difficulty) {
-  if (difficulty === "all") {
-    return true;
+function getSelectedDifficultySet(settings) {
+  if (Array.isArray(settings.selectedDifficulties)) {
+    return new Set(
+      settings.selectedDifficulties.filter((difficulty) =>
+        QUESTION_DIFFICULTIES.includes(difficulty)
+      )
+    );
   }
 
-  const allowedPoints = DIFFICULTY_POINTS_MAP[difficulty] || [];
-  return allowedPoints.includes(question.points);
+  if (QUESTION_DIFFICULTIES.includes(settings.difficulty)) {
+    return new Set([settings.difficulty]);
+  }
+
+  return new Set(QUESTION_DIFFICULTIES);
+}
+
+function difficultyMatch(question, selectedDifficulties) {
+  return selectedDifficulties.has(question.difficulty);
 }
 
 function getVerseKey(question) {
@@ -58,6 +69,7 @@ export async function generateQuestions({
   seed,
 }) {
   const typeSet = new Set(settings.selectedTypes);
+  const difficultySet = getSelectedDifficultySet(settings);
   const unmet = [];
   const chapterPairs = [];
 
@@ -104,7 +116,7 @@ export async function generateQuestions({
   }
 
   candidates = candidates.filter((question) => typeSet.has(question.type));
-  candidates = candidates.filter((question) => difficultyMatch(question, settings.difficulty));
+  candidates = candidates.filter((question) => difficultyMatch(question, difficultySet));
   const stats = buildCandidateStats(candidates);
 
   if (candidates.length === 0) {
@@ -139,10 +151,6 @@ export async function generateQuestions({
     unmet.push(
       `Requested ${settings.totalCount} questions, but only ${selected.length} satisfy all constraints.`
     );
-  }
-
-  if (settings.difficulty !== "all") {
-    unmet.push("Difficulty is currently inferred from points until explicit metadata is added.");
   }
 
   if (!year) {

@@ -1,9 +1,10 @@
-import { DEFAULT_SETTINGS, QUESTION_TYPES } from "./constants.js";
+import { DEFAULT_SETTINGS, QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
 import { DataService } from "./data-service.js";
 import { exportPowerPoint } from "./exporters.js";
 import { generateQuestions } from "./quiz-engine.js";
 import {
   createPrintSheets,
+  renderDifficultyCheckboxes,
   renderInteractive,
   renderPeopleSelector,
   renderPreview,
@@ -22,12 +23,6 @@ import {
 } from "./storage.js";
 import { formatInteractiveAnswer } from "./question-formatters.js";
 import { formatNumberRanges, normalizeText } from "./utils.js";
-
-const DIFFICULTY_POINTS_MAP = {
-  easy: [1],
-  medium: [2],
-  hard: [5],
-};
 
 const dataService = new DataService();
 const appState = {
@@ -50,7 +45,7 @@ const el = {
   yearSelect: document.getElementById("yearSelect"),
   totalCountInput: document.getElementById("totalCountInput"),
   perVerseInput: document.getElementById("perVerseInput"),
-  difficultySelect: document.getElementById("difficultySelect"),
+  difficultyCheckboxes: document.getElementById("difficultyCheckboxes"),
   humanReviewedOnlyInput: document.getElementById("humanReviewedOnlyInput"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
@@ -93,9 +88,28 @@ function renderQuestionBankStats(stats) {
   el.questionBankStats.textContent = formatQuestionBankStats(stats);
 }
 
+function normalizeSelectedDifficulties(selectedDifficulties, legacyDifficulty) {
+  if (Array.isArray(selectedDifficulties)) {
+    return selectedDifficulties.filter((difficulty) => QUESTION_DIFFICULTIES.includes(difficulty));
+  }
+
+  if (QUESTION_DIFFICULTIES.includes(legacyDifficulty)) {
+    return [legacyDifficulty];
+  }
+
+  return [...QUESTION_DIFFICULTIES];
+}
+
 function ensureProfileState() {
   const active = getActiveProfile(appState.storage);
+  const savedSelectedDifficulties = active.settings?.selectedDifficulties;
+  const savedDifficulty = active.settings?.difficulty;
   active.settings = { ...DEFAULT_SETTINGS, ...active.settings };
+  active.settings.selectedDifficulties = normalizeSelectedDifficulties(
+    savedSelectedDifficulties,
+    savedDifficulty
+  );
+  delete active.settings.difficulty;
 
   if (!Array.isArray(active.settings.selectedTypes) || !active.settings.selectedTypes.length) {
     active.settings.selectedTypes = [...QUESTION_TYPES];
@@ -131,14 +145,19 @@ function getScopeForActive() {
 function renderControls() {
   const active = getActiveProfile(appState.storage);
   const settings = active.settings;
+  settings.selectedDifficulties = normalizeSelectedDifficulties(settings.selectedDifficulties);
 
   renderYearOptions(el.yearSelect, appState.years);
   el.yearSelect.value = settings.yearId;
   el.totalCountInput.value = settings.totalCount;
   el.perVerseInput.value = settings.perVerse;
-  el.difficultySelect.value = settings.difficulty;
   el.humanReviewedOnlyInput.checked = settings.humanReviewedOnly;
 
+  renderDifficultyCheckboxes(
+    el.difficultyCheckboxes,
+    QUESTION_DIFFICULTIES,
+    settings.selectedDifficulties
+  );
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     selectedVerses: active.selectedVerses,
@@ -179,6 +198,7 @@ function pruneSelectedVersesToScope(selectedVerses, scope) {
 
 function questionMatchesAvailabilityFilters(question, settings) {
   const typeSet = new Set(settings.selectedTypes || []);
+  const difficultySet = new Set(settings.selectedDifficulties || []);
   if (!typeSet.has(question.type)) {
     return false;
   }
@@ -187,11 +207,8 @@ function questionMatchesAvailabilityFilters(question, settings) {
     return false;
   }
 
-  if (settings.difficulty !== "all") {
-    const allowedPoints = DIFFICULTY_POINTS_MAP[settings.difficulty] || [];
-    if (!allowedPoints.includes(question.points)) {
-      return false;
-    }
+  if (!difficultySet.has(question.difficulty)) {
+    return false;
   }
 
   return true;
@@ -235,8 +252,13 @@ async function refreshScopeSelectorForFilters() {
   const active = getActiveProfile(appState.storage);
   const scope = getScopeForActive();
   const settings = active.settings;
+  settings.selectedDifficulties = normalizeSelectedDifficulties(settings.selectedDifficulties);
 
-  if (!settings.selectedTypes || settings.selectedTypes.length === 0) {
+  if (
+    !settings.selectedTypes ||
+    settings.selectedTypes.length === 0 ||
+    settings.selectedDifficulties.length === 0
+  ) {
     active.selectedScope = {};
     active.selectedVerses = {};
     saveState(appState.storage);
@@ -250,7 +272,7 @@ async function refreshScopeSelectorForFilters() {
 
   const shouldFilterAvailability =
     settings.humanReviewedOnly ||
-    settings.difficulty !== "all" ||
+    settings.selectedDifficulties.length < QUESTION_DIFFICULTIES.length ||
     settings.selectedTypes.length < QUESTION_TYPES.length;
 
   if (!shouldFilterAvailability) {
@@ -293,8 +315,11 @@ function syncSettingsFromControls() {
   active.settings.yearId = el.yearSelect.value;
   active.settings.totalCount = Math.max(1, Number(el.totalCountInput.value) || 1);
   active.settings.perVerse = Math.max(1, Number(el.perVerseInput.value) || 1);
-  active.settings.difficulty = el.difficultySelect.value;
   active.settings.humanReviewedOnly = el.humanReviewedOnlyInput.checked;
+  active.settings.selectedDifficulties = Array.from(
+    el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
+  ).map((checkbox) => checkbox.value);
+  delete active.settings.difficulty;
 
   active.settings.selectedTypes = Array.from(
     el.typeCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
@@ -866,6 +891,11 @@ function wireEvents() {
     refreshScopeThenGenerate();
   });
 
+  el.difficultyCheckboxes.addEventListener("change", () => {
+    syncSettingsFromControls();
+    refreshScopeThenGenerate();
+  });
+
   el.yearSelect.addEventListener("change", () => {
     const active = getActiveProfile(appState.storage);
     active.settings.yearId = el.yearSelect.value;
@@ -876,7 +906,7 @@ function wireEvents() {
     refreshScopeThenGenerate();
   });
 
-  [el.totalCountInput, el.perVerseInput, el.difficultySelect, el.humanReviewedOnlyInput].forEach(
+  [el.totalCountInput, el.perVerseInput, el.humanReviewedOnlyInput].forEach(
     (control) => {
       control.addEventListener("change", () => {
         syncSettingsFromControls();

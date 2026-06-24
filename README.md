@@ -10,6 +10,7 @@ The app reads question files from `questions/v1` and runs without a backend, so 
 ## Current Features
 
 - Filter by question type
+- Filter by one or more difficulty metadata values
 - Select individual verses within selected chapters
 - Human-reviewed-only filter (`validatedBy = human`)
 - Total question count target
@@ -99,7 +100,7 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 
 ## Notes and Limits
 
-- Difficulty is currently approximated by points when explicit metadata is not present.
+- Difficulty filters use the `difficulty` field in each question (`easy`, `medium`, or `hard`) and can include any combination of those values.
 - PowerPoint export uses local vendored libraries in `assets/vendor/jszip.min.js` and `assets/vendor/pptxgen.min.js`, so CDN access is not required.
 - The included sample deck (`2023-NAD-PBE-Practice-Test.pptx`) is used as style direction, not binary template injection.
 - If `manifest.json` references a missing chapter file, bundling skips that chapter and logs it.
@@ -111,6 +112,5 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 
 ## Next Enhancements
 
-- Add explicit difficulty metadata to question files.
 - Add optional profile export/import JSON for sharing across devices.
 - Add fill-in-the-blank source integration when external API contract and CORS are finalized.

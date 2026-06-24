@@ -1,4 +1,4 @@
-import { QUESTION_TYPES } from "./constants.js";
+import { QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
 
 const MANIFEST_PATH = "questions/v1/manifest.json";
 const CHAPTER_BASE_PATH = "questions/v1";
@@ -10,6 +10,44 @@ function getLocalBundle() {
 
 function chapterCacheKey(bookId, chapterNumber) {
   return `${bookId}:${chapterNumber}`;
+}
+
+function fallbackDifficultyFromPoints(points) {
+  if (points === 1) {
+    return "easy";
+  }
+
+  if (points === 2) {
+    return "medium";
+  }
+
+  if (points === 5) {
+    return "hard";
+  }
+
+  return null;
+}
+
+function normalizeDifficulty(question) {
+  const difficulty = String(question.difficulty || "").toLowerCase();
+  if (QUESTION_DIFFICULTIES.includes(difficulty)) {
+    return difficulty;
+  }
+
+  return fallbackDifficultyFromPoints(Number(question.points));
+}
+
+function normalizeQuestion(question, bookId, chapterJson) {
+  return {
+    ...question,
+    bookId,
+    book: chapterJson.book,
+    chapter: chapterJson.chapter,
+    startVerse: question.ref?.startVerse,
+    endVerse: question.ref?.endVerse,
+    type: QUESTION_TYPES.includes(question.type) ? question.type : "other",
+    difficulty: normalizeDifficulty(question),
+  };
 }
 
 export class DataService {
@@ -47,15 +85,9 @@ export class DataService {
     const localBundle = getLocalBundle();
     const localChapter = localBundle?.chapters?.[key];
     if (localChapter) {
-      const normalizedLocal = (localChapter.questions || []).map((question) => ({
-        ...question,
-        bookId,
-        book: localChapter.book,
-        chapter: localChapter.chapter,
-        startVerse: question.ref?.startVerse,
-        endVerse: question.ref?.endVerse,
-        type: QUESTION_TYPES.includes(question.type) ? question.type : "other",
-      }));
+      const normalizedLocal = (localChapter.questions || []).map((question) =>
+        normalizeQuestion(question, bookId, localChapter)
+      );
       this.chapterCache.set(key, normalizedLocal);
       return normalizedLocal;
     }
@@ -87,15 +119,9 @@ export class DataService {
       return [];
     }
 
-    const normalized = (chapterJson.questions || []).map((question) => ({
-      ...question,
-      bookId,
-      book: chapterJson.book,
-      chapter: chapterJson.chapter,
-      startVerse: question.ref?.startVerse,
-      endVerse: question.ref?.endVerse,
-      type: QUESTION_TYPES.includes(question.type) ? question.type : "other",
-    }));
+    const normalized = (chapterJson.questions || []).map((question) =>
+      normalizeQuestion(question, bookId, chapterJson)
+    );
 
     this.chapterCache.set(key, normalized);
     return normalized;

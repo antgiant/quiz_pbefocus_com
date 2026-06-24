@@ -5,6 +5,11 @@ function formatRef(question) {
   return `${question.book} ${question.chapter}:${question.startVerse}-${question.endVerse}`;
 }
 
+function formatDifficulty(question) {
+  const difficulty = question.difficulty || "unknown";
+  return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
+}
+
 export function renderTypeCheckboxes(container, types, selectedTypes) {
   container.innerHTML = "";
   for (const type of types) {
@@ -14,6 +19,19 @@ export function renderTypeCheckboxes(container, types, selectedTypes) {
     checkbox.value = type;
     checkbox.checked = selectedTypes.includes(type);
     label.append(checkbox, document.createTextNode(type));
+    container.append(label);
+  }
+}
+
+export function renderDifficultyCheckboxes(container, difficulties, selectedDifficulties) {
+  container.innerHTML = "";
+  for (const difficulty of difficulties) {
+    const label = document.createElement("label");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = difficulty;
+    checkbox.checked = selectedDifficulties.includes(difficulty);
+    label.append(checkbox, document.createTextNode(formatDifficulty({ difficulty })));
     container.append(label);
   }
 }
@@ -265,7 +283,8 @@ export function renderPreview(previewList, template, questions) {
 
   for (const question of questions) {
     const node = template.content.firstElementChild.cloneNode(true);
-    node.querySelector("h3").textContent = `${question.type.toUpperCase()} | ${question.points} pt`;
+    node.querySelector("h3").textContent =
+      `${question.type.toUpperCase()} | ${formatDifficulty(question)} | ${question.points} pt`;
     node.querySelector(".meta").textContent = `${formatRef(question)} | ${question.validatedBy}`;
     node.querySelector(".question").textContent = question.question;
     node.querySelector(".answer").textContent = question.answer;
@@ -274,9 +293,13 @@ export function renderPreview(previewList, template, questions) {
 }
 
 export function renderPreviewMeta(container, questions, settings, unmetMessages) {
+  const difficultyLabels = (settings.selectedDifficulties || []).map((difficulty) =>
+    formatDifficulty({ difficulty })
+  );
   const lines = [
     `Selected: ${questions.length} questions`,
     `Types: ${csvJoin(settings.selectedTypes)}`,
+    `Difficulties: ${csvJoin(difficultyLabels)}`,
     `Generated: ${nowLabel()}`,
   ];
 

@@ -176,6 +176,10 @@ fieldset {
   padding: 0.75rem;
 }
 
+.compact-fieldset {
+  margin: 0;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;

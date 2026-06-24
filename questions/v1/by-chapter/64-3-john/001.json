@@ -1,0 +1,902 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "64-3-john",
+  "book": "3 John",
+  "chapter": 1,
+  "questions": [
+    {
+      "id": "64-001-001-001-89f5c66e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 3 John 1:1, how does the writer feel about Gaius?",
+      "answer": "I love",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "64-001-001-001-bae1d627"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-001-001-01467e4b",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 3 John 1:1, in what does the writer love Gaius?",
+      "answer": "in truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-001-001-ff11bfaf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-001-001-eaa46f55",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 3 John 1:1, to whom is the letter addressed? (be specific)",
+      "answer": "the beloved Gaius",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-001-001-80e9489a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-001-001-3a1da908",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 3 John 1:1, who wrote the letter?",
+      "answer": "The Elder",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-001-001-14fed52d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-001-001-2ffd6659",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to 3 John 1:1, the writer addresses Gaius as 'the beloved'.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "64-001-001-001-57f26e1f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-002-002-831fea74",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 3 John 1:2, how does the speaker pray the recipient will prosper?",
+      "answer": "in all things",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "64-001-002-002-56785fad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-002-002-5a72b56a",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 3 John 1:2, the speaker prays that the recipient may prosper in health just as what else happens? (be specific)",
+      "answer": "your soul prospers",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "64-001-002-002-3c5a5c35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-002-002-6d75c96d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 3 John 1:2, what address does the speaker use to refer to the recipient?",
+      "answer": "Beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-002-002-1f51b806"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-002-002-ebabadd0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 3 John 1:2, what state does the speaker pray for the recipient to be in concerning their physical condition?",
+      "answer": "in health",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-002-002-da2eadbc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-003-003-1383e9fa",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 3 John 1:3, besides testifying of the truth in the recipient, how else is the recipient described as living? (be specific)",
+      "answer": "you walk in the truth",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "64-001-003-003-573917a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-003-003-7c2ad5cf",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 3 John 1:3, what did the brethren do when they came?",
+      "answer": "testified of the truth that is in you",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "64-001-003-003-a922642b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-003-003-1a9d08d6",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 3 John 1:3, why did the speaker rejoice greatly?",
+      "answer": "when brethren came and testified of the truth that is in you",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "64-001-003-003-1dbcc9f6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-004-004-99f401ef",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 3 John 1:4, what is the speaker's greatest joy?",
+      "answer": "to hear that my children walk in truth",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "64-001-004-004-b1f75b38"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-004-004-05754f81",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to 3 John 1:4, the speaker has no greater joy than to hear that his children walk in truth.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "64-001-004-004-db452bac"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-005-005-8e50df35",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 3 John 1:5, for which two groups of people does the recipient faithfully do whatever they do? (be specific)",
+      "answer": "the brethren and for strangers",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "64-001-005-005-7b364e78"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-005-005-75f2de05",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 3 John 1:5, how does the recipient act regarding what they do for the brethren and strangers?",
+      "answer": "faithfully",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "64-001-005-005-cfe73e43"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-005-005-efcd2c0e",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 3 John 1:5, what word does the author use to address the person he is writing to?",
+      "answer": "Beloved",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "64-001-005-005-26370e7f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-006-006-65fd39b3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 3 John 1:6, if you send them forward on their journey in a manner worthy of God, what will you do?",
+      "answer": "you will do well",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-006-006-ca8362d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-006-006-10f1d509",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 3 John 1:6, where has the witness of the recipient's love been borne?",
+      "answer": "before the church",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "64-001-006-006-aa91ae73"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-006-006-9f348630",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 3 John 1:6, who has borne witness of the recipient's love before the church?",
+      "answer": "they",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-006-006-ac6c7938"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-007-007-f3658229",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 3 John 1:7, what did they take from the Gentiles?",
+      "answer": "nothing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-007-007-56c95dfc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-007-007-bf167eba",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 3 John 1:7, why did they go forth?",
+      "answer": "for His name’s sake",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "64-001-007-007-694e23f1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-008-008-22969c48",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 3 John 1:8, what do we therefore ought to do regarding such people?",
+      "answer": "receive such",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-008-008-da9b6d1a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-008-008-92543ba3",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 3 John 1:8, what may we become if we receive such people?",
+      "answer": "fellow workers for the truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-008-008-ed521148"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-009-009-e31671dc",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 3 John 1:9, to whom did the author write?",
+      "answer": "the church",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-009-009-e5a6bbca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-009-009-3a0b8d22",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 3 John 1:9, what does Diotrephes do regarding the author (us)?",
+      "answer": "does not receive us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-009-009-e5d4b54b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-009-009-e60c363c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 3 John 1:9, what does Diotrephes love to have among the church?",
+      "answer": "preeminence",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-009-009-86a84847"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-009-009-4c5268ca",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 3 John 1:9, who loves to have the preeminence among the church?",
+      "answer": "Diotrephes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-009-009-2d13ecbc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-010-010-a8939f7f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 3 John 1:10, list 2 things Diotrephes does regarding the brethren (be specific).",
+      "answer": "does not receive the brethren, and forbids those who wish to",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "64-001-010-010-c878d84f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-010-010-04065c2c",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 3 John 1:10, what does Diotrephes do to those who wish to receive the brethren?",
+      "answer": "putting them out of the church",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-010-010-8371ac20"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-010-010-a4f95daf",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 3 John 1:10, what does the author say he will do if he comes?",
+      "answer": "call to mind his deeds which he does",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "64-001-010-010-b7a4a0b1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-010-010-ac5d7d07",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 3 John 1:10, with what kind of words does Diotrephes prate against the author?",
+      "answer": "malicious words",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-010-010-045e0e99"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-011-011-c0df2262",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 3 John 1:11, of whom is the one who does good?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-011-011-43991859"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-011-011-6fd3d6bd",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 3 John 1:11, what does the person who does evil lack regarding God?",
+      "answer": "has not seen God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "64-001-011-011-9b8c78dc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-011-011-cbd08b0a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 3 John 1:11, what is the beloved told not to imitate?",
+      "answer": "what is evil",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-011-011-42b235f3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-011-011-3667a4a8",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 3 John 1:11, what is the beloved told to imitate (be specific)?",
+      "answer": "what is good",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-011-011-0fb36733"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-012-012-b438e668",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 3 John 1:12, from whom does Demetrius have a good testimony?",
+      "answer": "from all, and from the truth itself",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "64-001-012-012-c70f0a7c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-012-012-1b104617",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 3 John 1:12, what do we know about our testimony?",
+      "answer": "that our testimony is true",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-012-012-5f9e6b99"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-012-012-a03fa338",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 3 John 1:12, who else bears witness besides the truth?",
+      "answer": "we",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-012-012-94e3bddd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-012-012-1c1bf711",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 3 John 1:12, who has a good testimony from all?",
+      "answer": "Demetrius",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-012-012-7cbc2eb2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-012-012-70bee0a9",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to 3 John 1:12, Demetrius has a good testimony from all (be specific).",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "64-001-012-012-b26fd2a4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-013-013-19af745c",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 3 John 1:13, how did the writer state he did not wish to write to the recipient? (be specific)",
+      "answer": "with pen and ink",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "64-001-013-013-5ceb7b54"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-013-013-6fd6524d",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 3 John 1:13, what did the writer say he had many of?",
+      "answer": "things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-013-013-35abf841"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-014-014-30d4ea6a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 3 John 1:14, how does the writer expect he and the recipient will speak?",
+      "answer": "face to face",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "64-001-014-014-bc4c299f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-014-014-17292b65",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 3 John 1:14, in what manner should the recipient greet the friends? (be specific)",
+      "answer": "by name",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "64-001-014-014-b2df2782"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "64-001-014-014-d0c47b84",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 3 John 1:14, what does the writer wish upon the recipient?",
+      "answer": "Peace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-014-014-3d39b0b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-014-014-f0a0b450",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 3 John 1:14, what is the writer's hope regarding the recipient?",
+      "answer": "to see you shortly",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "64-001-014-014-ea2d2f5a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "64-001-014-014-be5267de",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 3 John 1:14, who sends their greetings to the recipient?",
+      "answer": "Our friends",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "64-001-014-014-eafac5f4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "64-001-001-001-89f5c66e",
+      "64-001-001-001-01467e4b",
+      "64-001-001-001-eaa46f55",
+      "64-001-001-001-3a1da908",
+      "64-001-001-001-2ffd6659"
+    ],
+    "2": [
+      "64-001-002-002-831fea74",
+      "64-001-002-002-5a72b56a",
+      "64-001-002-002-6d75c96d",
+      "64-001-002-002-ebabadd0"
+    ],
+    "3": [
+      "64-001-003-003-1383e9fa",
+      "64-001-003-003-7c2ad5cf",
+      "64-001-003-003-1a9d08d6"
+    ],
+    "4": [
+      "64-001-004-004-99f401ef",
+      "64-001-004-004-05754f81"
+    ],
+    "5": [
+      "64-001-005-005-8e50df35",
+      "64-001-005-005-75f2de05",
+      "64-001-005-005-efcd2c0e"
+    ],
+    "6": [
+      "64-001-006-006-65fd39b3",
+      "64-001-006-006-10f1d509",
+      "64-001-006-006-9f348630"
+    ],
+    "7": [
+      "64-001-007-007-f3658229",
+      "64-001-007-007-bf167eba"
+    ],
+    "8": [
+      "64-001-008-008-22969c48",
+      "64-001-008-008-92543ba3"
+    ],
+    "9": [
+      "64-001-009-009-e31671dc",
+      "64-001-009-009-3a0b8d22",
+      "64-001-009-009-e60c363c",
+      "64-001-009-009-4c5268ca"
+    ],
+    "10": [
+      "64-001-010-010-a8939f7f",
+      "64-001-010-010-04065c2c",
+      "64-001-010-010-a4f95daf",
+      "64-001-010-010-ac5d7d07"
+    ],
+    "11": [
+      "64-001-011-011-c0df2262",
+      "64-001-011-011-6fd3d6bd",
+      "64-001-011-011-cbd08b0a",
+      "64-001-011-011-3667a4a8"
+    ],
+    "12": [
+      "64-001-012-012-b438e668",
+      "64-001-012-012-1b104617",
+      "64-001-012-012-a03fa338",
+      "64-001-012-012-1c1bf711",
+      "64-001-012-012-70bee0a9"
+    ],
+    "13": [
+      "64-001-013-013-19af745c",
+      "64-001-013-013-6fd6524d"
+    ],
+    "14": [
+      "64-001-014-014-30d4ea6a",
+      "64-001-014-014-17292b65",
+      "64-001-014-014-d0c47b84",
+      "64-001-014-014-f0a0b450",
+      "64-001-014-014-be5267de"
+    ]
+  }
+}

@@ -18,7 +18,8 @@
         "41-011-001-001-3d6fc46e"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-001-001-50633c54",
@@ -34,7 +35,8 @@
         "41-011-001-001-50633c54"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-001-001-913e56c0",
@@ -50,7 +52,8 @@
         "41-011-001-001-913e56c0"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-001-001-81953034",
@@ -66,7 +69,8 @@
         "41-011-001-001-81953034"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-002-002-d675cd33",
@@ -82,7 +86,8 @@
         "41-011-002-002-9457b917"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-002-002-f696bf15",
@@ -98,7 +103,8 @@
         "41-011-002-002-e0aae605"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-002-002-65193269",
@@ -114,7 +120,8 @@
         "41-011-002-002-4087dacc"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-002-002-be8e431d",
@@ -130,7 +137,8 @@
         "41-011-002-002-5e9858aa"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-002-002-af1660f1",
@@ -146,7 +154,8 @@
         "41-011-002-002-af1660f1"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-003-003-5bab1d9b",
@@ -162,7 +171,8 @@
         "41-011-003-003-5bab1d9b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-003-003-7ff40b6c",
@@ -178,7 +188,8 @@
         "41-011-003-003-7ff40b6c"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-003-003-bb324bff",
@@ -194,7 +205,8 @@
         "41-011-003-003-bb324bff"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-004-004-d5d182e4",
@@ -210,7 +222,8 @@
         "41-011-004-004-71d9cedd"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-004-004-1cd103bf",
@@ -226,7 +239,8 @@
         "41-011-004-004-e0b91f63"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-004-004-5ef03617",
@@ -242,7 +256,8 @@
         "41-011-004-004-3235b2ad"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-004-004-fa339019",
@@ -258,7 +273,8 @@
         "41-011-004-004-fa339019"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-005-005-0f523cca",
@@ -274,7 +290,8 @@
         "41-011-005-005-0f523cca"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-005-005-893a4669",
@@ -290,7 +307,8 @@
         "41-011-005-005-893a4669"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-006-006-f385494d",
@@ -306,7 +324,8 @@
         "41-011-006-006-f385494d"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-006-006-8b2e4fad",
@@ -322,7 +341,8 @@
         "41-011-006-006-8b2e4fad"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-007-007-263a99f5",
@@ -338,7 +358,8 @@
         "41-011-007-007-263a99f5"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-007-007-e11e038b",
@@ -354,7 +375,8 @@
         "41-011-007-007-e11e038b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-007-007-22fde1ad",
@@ -370,7 +392,8 @@
         "41-011-007-007-a9f372df"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-008-008-68006db4",
@@ -386,7 +409,8 @@
         "41-011-008-008-68006db4"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-008-008-29b29f76",
@@ -402,7 +426,8 @@
         "41-011-008-008-29b29f76"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-008-008-66760731",
@@ -418,7 +443,8 @@
         "41-011-008-008-66760731"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-009-009-2b8c7a37",
@@ -434,7 +460,8 @@
         "41-011-009-009-7b48a0b0"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-009-009-de3ce521",
@@ -450,7 +477,8 @@
         "41-011-009-009-de3ce521"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-009-009-33cf39a0",
@@ -466,7 +494,8 @@
         "41-011-009-009-33cf39a0"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-010-010-a2cf9cd9",
@@ -482,7 +511,8 @@
         "41-011-010-010-a2cf9cd9"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-010-010-a861ad55",
@@ -498,7 +528,8 @@
         "41-011-010-010-a861ad55"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-010-010-8ac6bef9",
@@ -514,7 +545,8 @@
         "41-011-010-010-8ac6bef9"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-011-011-27376940",
@@ -530,7 +562,8 @@
         "41-011-011-011-27376940"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-011-011-cea0b46a",
@@ -546,7 +579,8 @@
         "41-011-011-011-cea0b46a"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-011-011-e48fa5cf",
@@ -562,7 +596,8 @@
         "41-011-011-011-ceb7d7f7"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-011-011-30431a01",
@@ -578,7 +613,8 @@
         "41-011-011-011-30431a01"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-011-011-f2a25db6",
@@ -594,7 +630,8 @@
         "41-011-011-011-f2a25db6"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-012-012-34cf2a7c",
@@ -610,7 +647,8 @@
         "41-011-012-012-3a0c2c0f"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-012-012-91e0d808",
@@ -626,7 +664,8 @@
         "41-011-012-012-30cfe196"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-012-012-a95bf7d2",
@@ -642,7 +681,8 @@
         "41-011-012-012-a95bf7d2"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-013-013-8e2d3dee",
@@ -658,7 +698,8 @@
         "41-011-013-013-8e2d3dee"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-013-013-2628d862",
@@ -674,7 +715,8 @@
         "41-011-013-013-2628d862"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-013-013-3fb5e11e",
@@ -690,7 +732,8 @@
         "41-011-013-013-3fb5e11e"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-013-013-907cd8c1",
@@ -706,7 +749,8 @@
         "41-011-013-013-907cd8c1"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-013-013-bdab949e",
@@ -722,7 +766,8 @@
         "41-011-013-013-bdab949e"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-014-014-a10ae65b",
@@ -738,7 +783,8 @@
         "41-011-014-014-a10ae65b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-014-014-af64bda7",
@@ -754,7 +800,8 @@
         "41-011-014-014-af64bda7"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-015-015-5b3afd16",
@@ -770,7 +817,8 @@
         "41-011-015-015-5b3afd16"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-015-015-bc6bbe17",
@@ -786,7 +834,8 @@
         "41-011-015-015-bc6bbe17"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-015-015-493495a9",
@@ -802,7 +851,8 @@
         "41-011-015-015-493495a9"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-015-015-20c6125c",
@@ -818,7 +868,8 @@
         "41-011-015-015-20c6125c"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-016-016-6b41a056",
@@ -834,7 +885,8 @@
         "41-011-016-016-6b41a056"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-017-017-f81acd9f",
@@ -850,7 +902,8 @@
         "41-011-017-017-9aa13137"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-017-017-1ad7d58a",
@@ -866,7 +919,8 @@
         "41-011-017-017-1ad7d58a"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-017-017-817cc101",
@@ -882,7 +936,8 @@
         "41-011-017-017-817cc101"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-018-018-2b860956",
@@ -898,7 +953,8 @@
         "41-011-018-018-2b860956"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-018-018-fdf63797",
@@ -914,7 +970,8 @@
         "41-011-018-018-c61a58f1"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-018-018-8ce6cfae",
@@ -930,7 +987,8 @@
         "41-011-018-018-8ce6cfae"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-018-018-c621c107",
@@ -946,7 +1004,8 @@
         "41-011-018-018-c621c107"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-019-019-a7fa3aff",
@@ -962,7 +1021,8 @@
         "41-011-019-019-a7fa3aff"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-019-019-bad94a9a",
@@ -978,7 +1038,8 @@
         "41-011-019-019-bad94a9a"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-020-020-c6640deb",
@@ -994,7 +1055,8 @@
         "41-011-020-020-c6640deb"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-020-020-fa79dbf5",
@@ -1010,7 +1072,8 @@
         "41-011-020-020-fa79dbf5"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-020-020-a7c08a38",
@@ -1026,7 +1089,8 @@
         "41-011-020-020-a7c08a38"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-021-021-d7a9f87a",
@@ -1042,7 +1106,8 @@
         "41-011-021-021-d0aa2ca8"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-021-021-5d5bed61",
@@ -1058,7 +1123,8 @@
         "41-011-021-021-5d5bed61"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-021-021-59117978",
@@ -1074,7 +1140,8 @@
         "41-011-021-021-59117978"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-021-021-5429996e",
@@ -1090,7 +1157,8 @@
         "41-011-021-021-5429996e"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-022-022-02dd4468",
@@ -1106,7 +1174,8 @@
         "41-011-022-022-02dd4468"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-022-022-5e713ab8",
@@ -1122,7 +1191,8 @@
         "41-011-022-022-5e713ab8"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-023-023-54d31649",
@@ -1138,7 +1208,8 @@
         "41-011-023-023-54d31649"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-023-023-1bad966a",
@@ -1154,7 +1225,8 @@
         "41-011-023-023-1bad966a"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-023-023-06e48b90",
@@ -1170,7 +1242,8 @@
         "41-011-023-023-06e48b90"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-023-023-ca814b3b",
@@ -1186,7 +1259,8 @@
         "41-011-023-023-ca814b3b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-023-023-9afe8b4a",
@@ -1202,7 +1276,8 @@
         "41-011-023-023-9afe8b4a"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-024-024-543dcd80",
@@ -1218,7 +1293,8 @@
         "41-011-024-024-543dcd80"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-024-024-7a221fb6",
@@ -1234,7 +1310,8 @@
         "41-011-024-024-7a221fb6"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-024-024-59d55f81",
@@ -1250,7 +1327,8 @@
         "41-011-024-024-59d55f81"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-025-025-60ca3b46",
@@ -1266,7 +1344,8 @@
         "41-011-025-025-60ca3b46"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-025-025-7ddbefb5",
@@ -1282,7 +1361,8 @@
         "41-011-025-025-7ddbefb5"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-025-025-b9ad2a78",
@@ -1298,7 +1378,8 @@
         "41-011-025-025-b9ad2a78"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-026-026-0831722f",
@@ -1314,7 +1395,8 @@
         "41-011-026-026-0831722f"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-027-027-e55fd84b",
@@ -1330,7 +1412,8 @@
         "41-011-027-027-e55fd84b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-027-027-19fe887e",
@@ -1346,7 +1429,8 @@
         "41-011-027-027-823a9b34"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-027-027-fd1b910d",
@@ -1362,7 +1446,8 @@
         "41-011-027-027-fd1b910d"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-027-027-676d94cb",
@@ -1378,7 +1463,8 @@
         "41-011-027-027-676d94cb"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-028-028-f6bbc5ff",
@@ -1394,7 +1480,8 @@
         "41-011-028-028-f6bbc5ff"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-028-028-a2db8796",
@@ -1410,7 +1497,8 @@
         "41-011-028-028-a2db8796"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-028-028-ec2a3979",
@@ -1426,7 +1514,8 @@
         "41-011-028-028-c15811ae"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-029-029-de9b7bcc",
@@ -1442,7 +1531,8 @@
         "41-011-029-029-de9b7bcc"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-029-029-6f5579d7",
@@ -1458,7 +1548,8 @@
         "41-011-029-029-6f5579d7"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-029-029-2c212eba",
@@ -1474,7 +1565,8 @@
         "41-011-029-029-2c212eba"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-029-029-1fe78205",
@@ -1490,7 +1582,8 @@
         "41-011-029-029-1fe78205"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-030-030-dc0b07f6",
@@ -1506,7 +1599,8 @@
         "41-011-030-030-dc0b07f6"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-030-030-55606ea8",
@@ -1522,7 +1616,8 @@
         "41-011-030-030-55606ea8"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-031-031-be6caa9f",
@@ -1538,7 +1633,8 @@
         "41-011-031-031-be6caa9f"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-031-031-ffe91bcf",
@@ -1554,7 +1650,8 @@
         "41-011-031-031-ffe91bcf"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-031-031-9374c284",
@@ -1570,7 +1667,8 @@
         "41-011-031-031-9374c284"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-032-032-5272589c",
@@ -1586,7 +1684,8 @@
         "41-011-032-032-97ed184b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-032-032-93739705",
@@ -1602,7 +1701,8 @@
         "41-011-032-032-93739705"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-032-032-6514f7f4",
@@ -1618,7 +1718,8 @@
         "41-011-032-032-1a96b443"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-033-033-43558d44",
@@ -1634,7 +1735,8 @@
         "41-011-033-033-43558d44"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-033-033-66f2d035",
@@ -1650,7 +1752,8 @@
         "41-011-033-033-66f2d035"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest"
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     }
   ],
   "byVerse": {
