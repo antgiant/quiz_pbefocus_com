@@ -1,5 +1,5 @@
 import { formatInteractivePrompt } from "./question-formatters.js";
-import { csvJoin, nowLabel } from "./utils.js";
+import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
 function formatRef(question) {
   return `${question.book} ${question.chapter}:${question.startVerse}-${question.endVerse}`;
@@ -55,6 +55,44 @@ export function renderYearOptions(select, years) {
 export function renderScopeSelector(container, manifest, selectedScope, options = {}) {
   const chapterAvailability = options.chapterAvailability || null;
   const hideUnavailable = Boolean(options.hideUnavailable);
+  const selectedVerses = options.selectedVerses || {};
+
+  function chapterKey(bookId, chapterNumber) {
+    return `${bookId}:${chapterNumber}`;
+  }
+
+  function normalizeVerseSelection(bookId, chapterNumber, totalVerses) {
+    const customVerses = selectedVerses[chapterKey(bookId, chapterNumber)];
+    if (!Array.isArray(customVerses)) {
+      return null;
+    }
+
+    const normalized = Array.from(
+      new Set(
+        customVerses
+          .map((value) => Number(value))
+          .filter((value) => Number.isInteger(value) && value >= 1 && value <= totalVerses)
+      )
+    ).sort((a, b) => a - b);
+
+    return normalized;
+  }
+
+  function verseSummaryForSelection(selection, totalVerses) {
+    if (totalVerses <= 0) {
+      return "No verse metadata";
+    }
+
+    if (selection === null || selection.length === totalVerses) {
+      return "All verses";
+    }
+
+    if (selection.length === 0) {
+      return "No verses";
+    }
+
+    return `v${formatNumberRanges(selection)}`;
+  }
 
   container.innerHTML = "";
   let renderedBookCount = 0;
@@ -96,6 +134,9 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     chapterWrap.className = "scope-chapters";
 
     for (const chapter of visibleChapters) {
+      const chapterRow = document.createElement("div");
+      chapterRow.className = "scope-chapter-row";
+
       const chapterLabel = document.createElement("label");
       const chapterToggle = document.createElement("input");
       chapterToggle.type = "checkbox";
@@ -104,7 +145,107 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       chapterToggle.dataset.role = "chapter-toggle";
       chapterToggle.checked = selectedChapters.includes(chapter.number);
       chapterLabel.append(chapterToggle, document.createTextNode(` Ch ${chapter.number}`));
-      chapterWrap.append(chapterLabel);
+
+      const verseToggleWrap = document.createElement("details");
+      verseToggleWrap.className = "scope-verse-details";
+      verseToggleWrap.dataset.bookId = book.id;
+      verseToggleWrap.dataset.chapter = String(chapter.number);
+      if (!chapterToggle.checked) {
+        verseToggleWrap.classList.add("is-disabled");
+      }
+
+      const totalVerses = Number(chapter.verses) || 0;
+      const verseSelection = normalizeVerseSelection(book.id, chapter.number, totalVerses);
+      const verseSummaryText = verseSummaryForSelection(verseSelection, totalVerses);
+
+      const verseSummary = document.createElement("summary");
+      verseSummary.dataset.role = "verse-summary";
+      verseSummary.textContent = `Verses: ${verseSummaryText}`;
+      verseToggleWrap.append(verseSummary);
+
+      const versesGrid = document.createElement("div");
+      versesGrid.className = "scope-verses-grid";
+
+      if (totalVerses > 0) {
+        const verseActions = document.createElement("div");
+        verseActions.className = "scope-verse-actions";
+
+        const allBtn = document.createElement("button");
+        allBtn.type = "button";
+        allBtn.dataset.role = "verse-select-all";
+        allBtn.dataset.bookId = book.id;
+        allBtn.dataset.chapter = String(chapter.number);
+        allBtn.textContent = "All";
+        allBtn.disabled = !chapterToggle.checked;
+
+        const clearBtn = document.createElement("button");
+        clearBtn.type = "button";
+        clearBtn.dataset.role = "verse-clear-all";
+        clearBtn.dataset.bookId = book.id;
+        clearBtn.dataset.chapter = String(chapter.number);
+        clearBtn.textContent = "Clear";
+        clearBtn.disabled = !chapterToggle.checked;
+
+        const rangeWrap = document.createElement("label");
+        rangeWrap.className = "scope-verse-range";
+        rangeWrap.textContent = "Range";
+
+        const rangeStart = document.createElement("input");
+        rangeStart.type = "number";
+        rangeStart.min = "1";
+        rangeStart.max = String(totalVerses);
+        rangeStart.placeholder = "1";
+        rangeStart.dataset.role = "verse-range-start";
+        rangeStart.dataset.bookId = book.id;
+        rangeStart.dataset.chapter = String(chapter.number);
+        rangeStart.disabled = !chapterToggle.checked;
+
+        const rangeEnd = document.createElement("input");
+        rangeEnd.type = "number";
+        rangeEnd.min = "1";
+        rangeEnd.max = String(totalVerses);
+        rangeEnd.placeholder = String(totalVerses);
+        rangeEnd.dataset.role = "verse-range-end";
+        rangeEnd.dataset.bookId = book.id;
+        rangeEnd.dataset.chapter = String(chapter.number);
+        rangeEnd.disabled = !chapterToggle.checked;
+
+        const rangeBtn = document.createElement("button");
+        rangeBtn.type = "button";
+        rangeBtn.dataset.role = "verse-apply-range";
+        rangeBtn.dataset.bookId = book.id;
+        rangeBtn.dataset.chapter = String(chapter.number);
+        rangeBtn.textContent = "Apply";
+        rangeBtn.disabled = !chapterToggle.checked;
+
+        rangeWrap.append(rangeStart, rangeEnd);
+        verseActions.append(allBtn, clearBtn, rangeWrap, rangeBtn);
+        verseToggleWrap.append(verseActions);
+
+        for (let verse = 1; verse <= totalVerses; verse += 1) {
+          const verseLabel = document.createElement("label");
+          const verseToggle = document.createElement("input");
+          verseToggle.type = "checkbox";
+          verseToggle.dataset.role = "verse-toggle";
+          verseToggle.dataset.bookId = book.id;
+          verseToggle.dataset.chapter = String(chapter.number);
+          verseToggle.dataset.verse = String(verse);
+          verseToggle.dataset.totalVerses = String(totalVerses);
+          verseToggle.disabled = !chapterToggle.checked;
+          verseToggle.checked = verseSelection ? verseSelection.includes(verse) : true;
+          verseLabel.append(verseToggle, document.createTextNode(` ${verse}`));
+          versesGrid.append(verseLabel);
+        }
+      } else {
+        const empty = document.createElement("p");
+        empty.className = "scope-empty";
+        empty.textContent = "No verse metadata";
+        versesGrid.append(empty);
+      }
+
+      verseToggleWrap.append(versesGrid);
+      chapterRow.append(chapterLabel, verseToggleWrap);
+      chapterWrap.append(chapterRow);
     }
 
     bookWrap.append(bookLabel, chapterWrap);

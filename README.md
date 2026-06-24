@@ -10,6 +10,7 @@ The app reads question files from `questions/v1` and runs without a backend, so 
 ## Current Features
 
 - Filter by question type
+- Select individual verses within selected chapters
 - Human-reviewed-only filter (`validatedBy = human`)
 - Total question count target
 - Number-per-verse cap
@@ -87,6 +88,14 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 ```
 
 `scope` is optional. If omitted, all manifest chapters are included for that year.
+
+## Verse Selection UX
+
+- Chapter checkboxes still control the primary scope.
+- Each selected chapter has a verse picker with `All verses` as the default.
+- Quick actions inside each chapter picker: `All`, `Clear`, and `Range` (`start` + `end` + `Apply`).
+- Choosing custom verses limits generation to questions whose references overlap those verses.
+- Custom verse choices are saved per person profile in localStorage.
 
 ## Notes and Limits
 

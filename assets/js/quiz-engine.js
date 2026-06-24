@@ -14,10 +14,39 @@ function getVerseKey(question) {
   return `${question.bookId}:${question.chapter}:${question.startVerse}`;
 }
 
+function chapterKey(bookId, chapter) {
+  return `${bookId}:${chapter}`;
+}
+
+function questionMatchesSelectedVerses(question, selectedVerseSets) {
+  const verses = selectedVerseSets.get(chapterKey(question.bookId, question.chapter));
+  if (!verses) {
+    return true;
+  }
+
+  if (verses.size === 0) {
+    return false;
+  }
+
+  const start = Number(question.startVerse) || 0;
+  const end = Number(question.endVerse) || start;
+  const lower = Math.max(1, Math.min(start, end));
+  const upper = Math.max(start, end, lower);
+
+  for (let verse = lower; verse <= upper; verse += 1) {
+    if (verses.has(verse)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 export async function generateQuestions({
   dataService,
   year,
   selectedScope,
+  selectedVerses,
   settings,
   seed,
 }) {
@@ -40,6 +69,24 @@ export async function generateQuestions({
   );
 
   let candidates = uniqueById(loaded.flat());
+
+  const selectedVerseSets = new Map();
+  for (const [key, verses] of Object.entries(selectedVerses || {})) {
+    if (!Array.isArray(verses)) {
+      continue;
+    }
+
+    selectedVerseSets.set(
+      key,
+      new Set(
+        verses
+          .map((value) => Number(value))
+          .filter((value) => Number.isInteger(value) && value > 0)
+      )
+    );
+  }
+
+  candidates = candidates.filter((question) => questionMatchesSelectedVerses(question, selectedVerseSets));
 
   if (settings.humanReviewedOnly) {
     candidates = candidates.filter((question) => question.validatedBy === "human");

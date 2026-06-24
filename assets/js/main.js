@@ -21,7 +21,7 @@ import {
   saveState,
 } from "./storage.js";
 import { formatInteractiveAnswer } from "./question-formatters.js";
-import { normalizeText } from "./utils.js";
+import { formatNumberRanges, normalizeText } from "./utils.js";
 
 const DIFFICULTY_POINTS_MAP = {
   easy: [1],
@@ -92,6 +92,10 @@ function ensureProfileState() {
     active.selectedScope = {};
   }
 
+  if (!active.selectedVerses || typeof active.selectedVerses !== "object") {
+    active.selectedVerses = {};
+  }
+
   if (!Array.isArray(appState.storage.selectedPrintPeopleIds)) {
     appState.storage.selectedPrintPeopleIds = [active.id];
   }
@@ -123,7 +127,41 @@ function renderControls() {
   el.humanReviewedOnlyInput.checked = settings.humanReviewedOnly;
 
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
-  renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive());
+  renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
+    selectedVerses: active.selectedVerses,
+  });
+}
+
+function chapterScopeKey(bookId, chapter) {
+  return `${bookId}:${chapter}`;
+}
+
+function pruneSelectedVersesToScope(selectedVerses, scope) {
+  const pruned = {};
+
+  for (const [key, verses] of Object.entries(selectedVerses || {})) {
+    const [bookId, chapterText] = key.split(":");
+    const chapter = Number(chapterText);
+    if (!bookId || !Number.isInteger(chapter)) {
+      continue;
+    }
+
+    if (!(scope[bookId] || []).includes(chapter)) {
+      continue;
+    }
+
+    if (!Array.isArray(verses)) {
+      continue;
+    }
+
+    const normalized = Array.from(
+      new Set(verses.map((value) => Number(value)).filter((value) => Number.isInteger(value) && value > 0))
+    ).sort((a, b) => a - b);
+
+    pruned[key] = normalized;
+  }
+
+  return pruned;
 }
 
 function questionMatchesAvailabilityFilters(question, settings) {
@@ -187,10 +225,12 @@ async function refreshScopeSelectorForFilters() {
 
   if (!settings.selectedTypes || settings.selectedTypes.length === 0) {
     active.selectedScope = {};
+    active.selectedVerses = {};
     saveState(appState.storage);
     renderScopeSelector(el.scopeSelector, appState.manifest, {}, {
       chapterAvailability: new Map(),
       hideUnavailable: true,
+      selectedVerses: {},
     });
     return;
   }
@@ -201,19 +241,24 @@ async function refreshScopeSelectorForFilters() {
     settings.selectedTypes.length < QUESTION_TYPES.length;
 
   if (!shouldFilterAvailability) {
-    renderScopeSelector(el.scopeSelector, appState.manifest, scope);
+    renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
+      selectedVerses: active.selectedVerses,
+    });
     return;
   }
 
   const availability = await buildAvailabilityMap(settings);
   const prunedScope = pruneScopeToAvailability(scope, availability);
+  const prunedSelectedVerses = pruneSelectedVersesToScope(active.selectedVerses, prunedScope);
 
   active.selectedScope = prunedScope;
+  active.selectedVerses = prunedSelectedVerses;
   saveState(appState.storage);
 
   renderScopeSelector(el.scopeSelector, appState.manifest, prunedScope, {
     chapterAvailability: availability,
     hideUnavailable: true,
+    selectedVerses: prunedSelectedVerses,
   });
 }
 
@@ -267,6 +312,7 @@ function refreshScopeThenGenerate() {
 function syncScopeFromControls() {
   const active = getActiveProfile(appState.storage);
   const scope = {};
+  const selectedVerses = {};
 
   el.scopeSelector.querySelectorAll('[data-role="chapter-toggle"]').forEach((toggle) => {
     if (!toggle.checked) {
@@ -279,10 +325,172 @@ function syncScopeFromControls() {
       scope[bookId] = [];
     }
     scope[bookId].push(chapter);
+
+    const verseToggles = Array.from(
+      el.scopeSelector.querySelectorAll(
+        `input[data-role="verse-toggle"][data-book-id="${bookId}"][data-chapter="${chapter}"]`
+      )
+    );
+
+    if (!verseToggles.length) {
+      return;
+    }
+
+    const totalVerses = Number(verseToggles[0].dataset.totalVerses || verseToggles.length);
+    const checkedVerses = verseToggles
+      .filter((verseToggle) => verseToggle.checked)
+      .map((verseToggle) => Number(verseToggle.dataset.verse))
+      .filter((verse) => Number.isInteger(verse))
+      .sort((a, b) => a - b);
+
+    if (checkedVerses.length !== totalVerses) {
+      selectedVerses[chapterScopeKey(bookId, chapter)] = checkedVerses;
+    }
   });
 
   active.selectedScope = scope;
+  active.selectedVerses = selectedVerses;
   saveState(appState.storage);
+}
+
+function updateChapterVerseSummary(bookId, chapter) {
+  const details = el.scopeSelector.querySelector(
+    `.scope-verse-details[data-book-id="${bookId}"][data-chapter="${chapter}"]`
+  );
+  if (!details) {
+    return;
+  }
+
+  const summaryNode = details.querySelector('summary[data-role="verse-summary"]');
+  if (!summaryNode) {
+    return;
+  }
+
+  const verseToggles = Array.from(
+    details.querySelectorAll('input[data-role="verse-toggle"]')
+  );
+
+  if (!verseToggles.length) {
+    summaryNode.textContent = "Verses: No verse metadata";
+    return;
+  }
+
+  const totalVerses = Number(verseToggles[0].dataset.totalVerses || verseToggles.length);
+  const checkedVerses = verseToggles
+    .filter((verseToggle) => verseToggle.checked)
+    .map((verseToggle) => Number(verseToggle.dataset.verse))
+    .filter((verse) => Number.isInteger(verse));
+
+  if (checkedVerses.length === 0) {
+    summaryNode.textContent = "Verses: No verses";
+    return;
+  }
+
+  if (checkedVerses.length === totalVerses) {
+    summaryNode.textContent = "Verses: All verses";
+    return;
+  }
+
+  summaryNode.textContent = `Verses: v${formatNumberRanges(checkedVerses)}`;
+}
+
+function getChapterVerseControls(bookId, chapter) {
+  const details = el.scopeSelector.querySelector(
+    `.scope-verse-details[data-book-id="${bookId}"][data-chapter="${chapter}"]`
+  );
+  if (!details) {
+    return null;
+  }
+
+  const verseToggles = Array.from(details.querySelectorAll('input[data-role="verse-toggle"]'));
+  const rangeStart = details.querySelector('input[data-role="verse-range-start"]');
+  const rangeEnd = details.querySelector('input[data-role="verse-range-end"]');
+  const actionButtons = Array.from(
+    details.querySelectorAll('button[data-role="verse-select-all"], button[data-role="verse-clear-all"], button[data-role="verse-apply-range"]')
+  );
+
+  return {
+    details,
+    verseToggles,
+    rangeStart,
+    rangeEnd,
+    actionButtons,
+  };
+}
+
+function applyChapterVerseSelection(bookId, chapter, mode) {
+  const controls = getChapterVerseControls(bookId, chapter);
+  if (!controls || !controls.verseToggles.length) {
+    return;
+  }
+
+  if (mode === "all") {
+    controls.verseToggles.forEach((toggle) => {
+      toggle.checked = true;
+    });
+  }
+
+  if (mode === "clear") {
+    controls.verseToggles.forEach((toggle) => {
+      toggle.checked = false;
+    });
+  }
+
+  if (mode === "range") {
+    const maxVerse = Number(controls.verseToggles[0].dataset.totalVerses || controls.verseToggles.length);
+    const rawStart = Number(controls.rangeStart?.value);
+    const rawEnd = Number(controls.rangeEnd?.value);
+
+    if (!Number.isInteger(rawStart) || !Number.isInteger(rawEnd)) {
+      setStatus("Enter valid range start and end verse numbers.", "warn");
+      return;
+    }
+
+    const start = Math.max(1, Math.min(maxVerse, Math.min(rawStart, rawEnd)));
+    const end = Math.max(1, Math.min(maxVerse, Math.max(rawStart, rawEnd)));
+
+    controls.verseToggles.forEach((toggle) => {
+      const verse = Number(toggle.dataset.verse);
+      toggle.checked = verse >= start && verse <= end;
+    });
+
+    if (controls.rangeStart) {
+      controls.rangeStart.value = String(start);
+    }
+    if (controls.rangeEnd) {
+      controls.rangeEnd.value = String(end);
+    }
+  }
+
+  updateChapterVerseSummary(bookId, chapter);
+  syncScopeFromControls();
+  queueRealtimeGenerate();
+}
+
+function setChapterVerseControlsEnabled(bookId, chapter, enabled) {
+  const controls = getChapterVerseControls(bookId, chapter);
+  if (!controls) {
+    return;
+  }
+
+  controls.details.classList.toggle("is-disabled", !enabled);
+  if (!enabled) {
+    controls.details.open = false;
+  }
+
+  controls.verseToggles.forEach((toggle) => {
+    toggle.disabled = !enabled;
+  });
+
+  if (controls.rangeStart) {
+    controls.rangeStart.disabled = !enabled;
+  }
+  if (controls.rangeEnd) {
+    controls.rangeEnd.disabled = !enabled;
+  }
+  controls.actionButtons.forEach((button) => {
+    button.disabled = !enabled;
+  });
 }
 
 function wireScopeEvents() {
@@ -299,11 +507,49 @@ function wireScopeEvents() {
       );
       chapterToggles.forEach((toggle) => {
         toggle.checked = target.checked;
+        setChapterVerseControlsEnabled(bookId, Number(toggle.dataset.chapter), target.checked);
       });
+    }
+
+    if (target.dataset.role === "chapter-toggle") {
+      const bookId = target.dataset.bookId;
+      const chapter = Number(target.dataset.chapter);
+      setChapterVerseControlsEnabled(bookId, chapter, target.checked);
+    }
+
+    if (target.dataset.role === "verse-toggle") {
+      const bookId = target.dataset.bookId;
+      const chapter = Number(target.dataset.chapter);
+      updateChapterVerseSummary(bookId, chapter);
     }
 
     syncScopeFromControls();
     queueRealtimeGenerate();
+  });
+
+  el.scopeSelector.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLButtonElement)) {
+      return;
+    }
+
+    const bookId = target.dataset.bookId;
+    const chapter = Number(target.dataset.chapter);
+    if (!bookId || !Number.isInteger(chapter)) {
+      return;
+    }
+
+    if (target.dataset.role === "verse-select-all") {
+      applyChapterVerseSelection(bookId, chapter, "all");
+    }
+
+    if (target.dataset.role === "verse-clear-all") {
+      applyChapterVerseSelection(bookId, chapter, "clear");
+    }
+
+    if (target.dataset.role === "verse-apply-range") {
+      applyChapterVerseSelection(bookId, chapter, "range");
+    }
   });
 }
 
@@ -312,48 +558,44 @@ function buildSettingsLabel() {
   return `Year ${year?.name || "Unknown"}`;
 }
 
-function formatChapterRanges(chapters) {
-  const sorted = [...chapters].sort((a, b) => a - b);
-  const ranges = [];
-  let start = null;
-  let previous = null;
-
-  for (const chapter of sorted) {
-    if (start === null) {
-      start = chapter;
-      previous = chapter;
-      continue;
-    }
-
-    if (chapter === previous + 1) {
-      previous = chapter;
-      continue;
-    }
-
-    ranges.push(start === previous ? `${start}` : `${start}-${previous}`);
-    start = chapter;
-    previous = chapter;
-  }
-
-  if (start !== null) {
-    ranges.push(start === previous ? `${start}` : `${start}-${previous}`);
-  }
-
-  return ranges.join(", ");
-}
-
 function buildScopeLabel() {
   const scope = getScopeForActive();
+  const active = getActiveProfile(appState.storage);
+  const selectedVerses = active.selectedVerses || {};
   const parts = [];
 
   for (const book of appState.manifest.books) {
-    const selectedChapters = scope[book.id] || [];
+    const selectedChapters = [...(scope[book.id] || [])].sort((a, b) => a - b);
     if (!selectedChapters.length) {
       continue;
     }
 
-    const chapterLabel = formatChapterRanges(selectedChapters);
-    parts.push(chapterLabel ? `${book.name} ${chapterLabel}` : book.name);
+    const chapterRanges = [];
+    const verseParts = [];
+
+    for (const chapter of selectedChapters) {
+      const selectedForChapter = selectedVerses[chapterScopeKey(book.id, chapter)];
+      if (!Array.isArray(selectedForChapter)) {
+        chapterRanges.push(chapter);
+        continue;
+      }
+
+      if (!selectedForChapter.length) {
+        verseParts.push(`${chapter}(none)`);
+        continue;
+      }
+
+      verseParts.push(`${chapter}(v${formatNumberRanges(selectedForChapter)})`);
+    }
+
+    const chapterLabel = formatNumberRanges(chapterRanges);
+    const details = [];
+    if (chapterLabel) {
+      details.push(chapterLabel);
+    }
+    details.push(...verseParts);
+
+    parts.push(details.length ? `${book.name} ${details.join(", ")}` : book.name);
   }
 
   return parts.length ? `Scope ${parts.join("; ")}` : "Scope None selected";
@@ -519,6 +761,7 @@ async function generateAndRender() {
     dataService,
     year,
     selectedScope: scope,
+    selectedVerses: active.selectedVerses || {},
     settings: active.settings,
     seed: Date.now(),
   });
@@ -613,6 +856,7 @@ function wireEvents() {
     const active = getActiveProfile(appState.storage);
     active.settings.yearId = el.yearSelect.value;
     active.selectedScope = structuredClone(getActiveYear()?.scope || {});
+    active.selectedVerses = {};
     saveState(appState.storage);
     renderControls();
     refreshScopeThenGenerate();

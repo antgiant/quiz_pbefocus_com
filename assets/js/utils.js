@@ -41,6 +41,35 @@ export function csvJoin(values) {
   return values.filter(Boolean).join(", ");
 }
 
+export function formatNumberRanges(values) {
+  const normalized = Array.from(
+    new Set((values || []).map((value) => Number(value)).filter((value) => Number.isFinite(value)))
+  ).sort((a, b) => a - b);
+
+  if (!normalized.length) {
+    return "";
+  }
+
+  const ranges = [];
+  let start = normalized[0];
+  let previous = normalized[0];
+
+  for (let i = 1; i < normalized.length; i += 1) {
+    const current = normalized[i];
+    if (current === previous + 1) {
+      previous = current;
+      continue;
+    }
+
+    ranges.push(start === previous ? `${start}` : `${start}-${previous}`);
+    start = current;
+    previous = current;
+  }
+
+  ranges.push(start === previous ? `${start}` : `${start}-${previous}`);
+  return ranges.join(", ");
+}
+
 export function nowLabel() {
   return new Date().toLocaleString();
 }

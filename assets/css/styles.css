@@ -253,14 +253,102 @@ fieldset {
 }
 
 .scope-chapters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
+  display: grid;
+  gap: 0.4rem;
   margin-top: 0.4rem;
 }
 
-.scope-chapters label {
+.scope-chapter-row {
+  border: 1px solid #f0e2d7;
+  border-radius: 8px;
+  padding: 0.35rem 0.45rem;
+}
+
+.scope-chapter-row > label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.scope-verse-details {
+  margin-top: 0.3rem;
+}
+
+.scope-verse-details > summary {
+  cursor: pointer;
+  list-style: none;
   font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.scope-verse-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.scope-verse-details.is-disabled > summary {
+  cursor: default;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.scope-verse-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+}
+
+.scope-verse-actions button {
+  border: 1px solid #dcc7b7;
+  border-radius: 6px;
+  background: #fffaf6;
+  color: var(--ink);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+}
+
+.scope-verse-range {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.68rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.scope-verse-range input {
+  width: 3rem;
+  margin: 0;
+  padding: 0.12rem 0.2rem;
+  border-radius: 5px;
+  border: 1px solid #dbc7b7;
+  font-size: 0.68rem;
+}
+
+.scope-verses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 0.25rem;
+  margin-top: 0.35rem;
+}
+
+.scope-verses-grid label {
+  border: 1px solid #e8d8ca;
+  border-radius: 7px;
+  padding: 0.2rem 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.scope-verses-grid input[type="checkbox"] {
+  margin: 0;
+  width: auto;
 }
 
 .scope-empty {
