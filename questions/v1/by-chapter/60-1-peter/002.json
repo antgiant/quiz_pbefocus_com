@@ -1,0 +1,1420 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "60-1-peter",
+  "book": "1 Peter",
+  "chapter": 2,
+  "questions": [
+    {
+      "id": "60-002-001-001-e307b318",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 2:1, how many things are we instructed to lay aside?",
+      "answer": "5",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-002-001-001-e307b318"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-001-001-4ed21783",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 2:1, name all 5 things that we are to lay aside (be specific).",
+      "answer": "malice, deceit, hypocrisy, envy, and evil speaking",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "60-002-001-001-4ed21783"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-001-001-ce037678",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 2:1, what are we to do with malice, deceit, hypocrisy, envy, and evil speaking?",
+      "answer": "laying aside",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-001-001-ce037678"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-002-002-11dcc1ea",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 2:2, like what should we desire the pure milk of the word?",
+      "answer": "newborn babes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-002-002-11dcc1ea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-002-002-9f5704b7",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 2:2, what should we desire?",
+      "answer": "the pure milk of the word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-002-002-9f5704b7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-002-002-40952f78",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 2:2, why should we desire the pure milk of the word?",
+      "answer": "that you may grow thereby",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-002-002-40952f78"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-003-003-28c0fc39",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 2:3, what have you tasted?",
+      "answer": "that the Lord is gracious",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-003-003-28c0fc39"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-003-003-eb4e096b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "True or False: According to 1 Peter 2:3, we should desire the milk if we have tasted that the Lord is gracious.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-002-003-003-eb4e096b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-004-004-29057de7",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 2:4, by whom was the stone rejected?",
+      "answer": "men",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-004-004-29057de7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-004-004-ebc4853a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 2:4, how is the stone described that we are coming to?",
+      "answer": "living stone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-004-004-ebc4853a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-004-004-5e5f6d2f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 2:4, name the three ways the living stone is described in relation to God and its value. (be specific)",
+      "answer": "chosen by God and precious",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-002-004-004-5e5f6d2f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-004-004-9802d435",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 2:4, to whom are we coming?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-004-004-9802d435"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-005-005-521474bc",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 2:5, through whom are the spiritual sacrifices acceptable to God?",
+      "answer": "Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-005-005-521474bc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-005-005-d3833ad5",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 2:5, what are we being built up as?",
+      "answer": "living stones",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-005-005-d3833ad5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-005-005-af7ea5ce",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 2:5, what are we to offer up?",
+      "answer": "spiritual sacrifices",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-005-005-af7ea5ce"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-005-005-c42532e0",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 2:5, what is being built up by us as living stones?",
+      "answer": "a spiritual house",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-005-005-c42532e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-005-005-1bb5a7dd",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 2:5, what kind of priesthood are we?",
+      "answer": "a holy priesthood",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-005-005-1bb5a7dd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-006-006-828f7243",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 2:6, what two adjectives are used to describe the chief cornerstone?",
+      "answer": "elect, precious",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-006-006-828f7243"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-006-006-ff8ae825",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 2:6, what will happen to he who believes on Him?",
+      "answer": "he will by no means be put to shame",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-006-006-ff8ae825"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-006-006-b561ac24",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 2:6, where does the Lord lay the chief cornerstone? (be specific)",
+      "answer": "in Zion",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-002-006-006-b561ac24"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-006-006-c4363820",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 2:6, where is it contained that 'Behold, I lay in Zion A chief cornerstone'?",
+      "answer": "the Scripture",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-002-006-006-c4363820"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-007-007-e25569d0",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 2:7, how is the status of those who are disobedient described in relation to the stone?",
+      "answer": "the builders rejected",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-007-007-e25569d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-007-007-9de171be",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 2:7, to whom is He precious?",
+      "answer": "to you who believe",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-007-007-9de171be"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-007-007-d23506bc",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 2:7, what has the stone which the builders rejected become?",
+      "answer": "the chief cornerstone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-007-007-d23506bc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-008-008-4a53a296",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 2:8, to what were they appointed?",
+      "answer": "to the word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-008-008-4a53a296"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-008-008-f73a95d4",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 2:8, what are the two descriptions given for the stone?",
+      "answer": "A stone of stumbling And a rock of offense",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-008-008-f73a95d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-008-008-4acd9c34",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 2:8, why do they stumble?",
+      "answer": "being disobedient to the word",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-008-008-4acd9c34"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-009-009-1d844ba1",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 2:9, into what has He called you? (be specific)",
+      "answer": "His marvelous light",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-002-009-009-1d844ba1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-009-009-691507df",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 2:9, out of what did He call you?",
+      "answer": "darkness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-009-009-691507df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-009-009-5dc2cf8d",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 2:9, what are the four descriptions given for the believers?",
+      "answer": "a chosen generation, a royal priesthood, a holy nation, His own special people",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-002-009-009-5dc2cf8d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-009-009-1ca34048",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 2:9, why are believers called a chosen generation, a royal priesthood, a holy nation, and His own special people?",
+      "answer": "that you may proclaim the praises of Him who called you out of darkness into His marvelous light",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-009-009-1ca34048"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-010-010-98d89c65",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 2:10, what are those who once were not a people now called?",
+      "answer": "the people of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-010-010-98d89c65"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-010-010-89f9f40b",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 2:10, what had those who have now obtained mercy not obtained before? (be specific)",
+      "answer": "mercy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-010-010-89f9f40b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-010-010-ebbd52a5",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 2:10, what were those who are now the people of God previously?",
+      "answer": "not a people",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-010-010-ebbd52a5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-011-011-3c835e46",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 2:11, how does the writer address those he is writing to?",
+      "answer": "Beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-011-011-3c835e46"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-011-011-03587bd2",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 2:11, what do fleshly lusts war against?",
+      "answer": "the soul",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-011-011-03587bd2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-011-011-f45e9c16",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 2:11, what does the writer beg the beloved to abstain from?",
+      "answer": "fleshly lusts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-011-011-f45e9c16"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-011-011-0f7ba56e",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 2:11, what two terms are used to describe the status of those the writer is addressing? (be specific)",
+      "answer": "sojourners and pilgrims",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-011-011-0f7ba56e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-012-012-69b1c446",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 2:12, by what means will the Gentiles glorify God in the day of visitation?",
+      "answer": "by your good works which they observe",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-012-012-69b1c446"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-012-012-12da749d",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 2:12, what should the conduct of the believers be among the Gentiles?",
+      "answer": "honorable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-012-012-12da749d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-012-012-1bd4c605",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 2:12, when the Gentiles speak against the believers, what do they call them?",
+      "answer": "evildoers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-012-012-1bd4c605"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-012-012-620b111e",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 2:12, when will the Gentiles glorify God?",
+      "answer": "in the day of visitation",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-002-012-012-620b111e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-012-012-950cb664",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to 1 Peter 2:12, the Gentiles observe the good works of the believers.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-002-012-012-950cb664"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-013-013-44960c1b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 2:13, for whose sake should believers submit themselves to every ordinance of man?",
+      "answer": "the Lord’s sake",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-013-013-44960c1b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-013-013-6bdf041b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 2:13, to whom are believers to submit as supreme?",
+      "answer": "the king",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-013-013-6bdf041b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-013-013-52da4315",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 2:13, what are believers instructed to do regarding every ordinance of man?",
+      "answer": "submit yourselves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-013-013-52da4315"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-014-014-edda0f72",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 2:14, besides the king, to whom else are believers to submit?",
+      "answer": "governors",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-014-014-edda0f72"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-014-014-75b6e860",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 2:14, what are the two specific purposes for which governors are sent? (be specific)",
+      "answer": "for the punishment of evildoers and for the praise of those who do good",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-014-014-75b6e860"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-014-014-89cdae01",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 2:14, who is sent by the king for the punishment of evildoers and the praise of those who do good?",
+      "answer": "governors",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-014-014-89cdae01"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-015-015-98956d08",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 2:15, by doing what can you put to silence the ignorance of foolish men?",
+      "answer": "doing good",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-015-015-98956d08"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-015-015-ddf18335",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 2:15, what is the will of God regarding the way believers behave?",
+      "answer": "that by doing good you may put to silence the ignorance of foolish men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-015-015-ddf18335"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-015-015-c2dae0b5",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 2:15, whose ignorance are you to put to silence by doing good? (be specific)",
+      "answer": "foolish men",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-015-015-c2dae0b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-016-016-87176669",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 2:16, as what are believers to live?",
+      "answer": "as free",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-016-016-87176669"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-016-016-d67f5f12",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 2:16, as what should believers act if they are not using liberty as a cloak for vice?",
+      "answer": "as bondservants of God",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-016-016-d67f5f12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-016-016-e6cebd69",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 2:16, what should believers not use as a cloak for vice?",
+      "answer": "liberty",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-016-016-e6cebd69"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-017-017-cec0954f",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 2:17, list all four of the instructions given.",
+      "answer": "Honor all people. Love the brotherhood. Fear God. Honor the king.",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-002-017-017-cec0954f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-017-017-9dfa784d",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 2:17, what is the specific relationship group that believers are told to love?",
+      "answer": "the brotherhood",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-017-017-9dfa784d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-017-017-cf48cc4d",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 2:17, whom are believers told to honor?",
+      "answer": "all people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-017-017-cf48cc4d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-017-017-7486885d",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "True or False: According to 1 Peter 2:17, believers are instructed to fear God.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-002-017-017-7486885d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-018-018-04f111b6",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 2:18, name the 2 types of masters to whom servants should be submissive (be specific).",
+      "answer": "good and gentle, harsh",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-018-018-04f111b6"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-018-018-bda188d8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 2:18, who is exhorted to be submissive to their masters?",
+      "answer": "Servants",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-018-018-bda188d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-018-018-33179013",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 2:18, with what attitude are servants to be submissive to their masters?",
+      "answer": "with all fear",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-018-018-33179013"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-019-019-1158cc90",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 2:19, what does one endure when having conscience toward God?",
+      "answer": "grief, suffering wrongfully",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-002-019-019-1158cc90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-019-019-d891cb5b",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 2:19, what makes enduring grief, suffering wrongfully, commendable?",
+      "answer": "because of conscience toward God",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-019-019-d891cb5b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-020-020-c4d44943",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 2:20, what 2 things must happen for an action to be commendable before God (be specific)?",
+      "answer": "you do good and suffer, if you take it patiently",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-002-020-020-c4d44943"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-020-020-09593039",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 2:20, what is the result if you are beaten for your faults and take it patiently?",
+      "answer": "For what credit is it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-020-020-09593039"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-020-020-75a349e8",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "True or False: According to 1 Peter 2:20, if you do good and suffer, and take it patiently, this is commendable before God.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-002-020-020-75a349e8"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-021-021-a2da63c1",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 2:21, for what were you called?",
+      "answer": "Christ also suffered for us",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-021-021-a2da63c1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-021-021-b62fa65c",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 2:21, what did Christ leave us?",
+      "answer": "an example",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-021-021-b62fa65c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-021-021-1ab4900b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 2:21, why did Christ leave us an example?",
+      "answer": "that you should follow His steps",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-002-021-021-1ab4900b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-022-022-4c58445f",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 2:22, what did Christ commit?",
+      "answer": "no sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-022-022-4c58445f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-022-022-0b220d03",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 2:22, what was not found in His mouth?",
+      "answer": "deceit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-022-022-0b220d03"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-023-023-f4415993",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 2:23, to whom did He commit Himself?",
+      "answer": "Him who judges righteously",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-002-023-023-f4415993"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-023-023-5e796125",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 2:23, what did He not do when He suffered? (be specific)",
+      "answer": "did not threaten",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-023-023-5e796125"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-023-023-d67ce3fb",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 2:23, what did He not do when He was reviled?",
+      "answer": "did not revile in return",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-023-023-d67ce3fb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-024-024-83e36ad7",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 2:24, by what were you healed?",
+      "answer": "His stripes",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-002-024-024-83e36ad7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-024-024-159a3033",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 2:24, where did He bear our sins?",
+      "answer": "in His own body on the tree",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "60-002-024-024-159a3033"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-024-024-b3c171d8",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 2:24, why did He bear our sins in His own body on the tree? (be specific)",
+      "answer": "that we, having died to sins, might live for righteousness",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "60-002-024-024-b3c171d8"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-025-025-4b72141c",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 Peter 2:25, to whom have you now returned? (be specific)",
+      "answer": "the Shepherd and Overseer of your souls",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "60-002-025-025-4b72141c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-002-025-025-661f4127",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 Peter 2:25, what were you like?",
+      "answer": "like sheep going astray",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-002-025-025-661f4127"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "60-002-001-001-e307b318",
+      "60-002-001-001-4ed21783",
+      "60-002-001-001-ce037678"
+    ],
+    "2": [
+      "60-002-002-002-11dcc1ea",
+      "60-002-002-002-9f5704b7",
+      "60-002-002-002-40952f78"
+    ],
+    "3": [
+      "60-002-003-003-28c0fc39",
+      "60-002-003-003-eb4e096b"
+    ],
+    "4": [
+      "60-002-004-004-29057de7",
+      "60-002-004-004-ebc4853a",
+      "60-002-004-004-5e5f6d2f",
+      "60-002-004-004-9802d435"
+    ],
+    "5": [
+      "60-002-005-005-521474bc",
+      "60-002-005-005-d3833ad5",
+      "60-002-005-005-af7ea5ce",
+      "60-002-005-005-c42532e0",
+      "60-002-005-005-1bb5a7dd"
+    ],
+    "6": [
+      "60-002-006-006-828f7243",
+      "60-002-006-006-ff8ae825",
+      "60-002-006-006-b561ac24",
+      "60-002-006-006-c4363820"
+    ],
+    "7": [
+      "60-002-007-007-e25569d0",
+      "60-002-007-007-9de171be",
+      "60-002-007-007-d23506bc"
+    ],
+    "8": [
+      "60-002-008-008-4a53a296",
+      "60-002-008-008-f73a95d4",
+      "60-002-008-008-4acd9c34"
+    ],
+    "9": [
+      "60-002-009-009-1d844ba1",
+      "60-002-009-009-691507df",
+      "60-002-009-009-5dc2cf8d",
+      "60-002-009-009-1ca34048"
+    ],
+    "10": [
+      "60-002-010-010-98d89c65",
+      "60-002-010-010-89f9f40b",
+      "60-002-010-010-ebbd52a5"
+    ],
+    "11": [
+      "60-002-011-011-3c835e46",
+      "60-002-011-011-03587bd2",
+      "60-002-011-011-f45e9c16",
+      "60-002-011-011-0f7ba56e"
+    ],
+    "12": [
+      "60-002-012-012-69b1c446",
+      "60-002-012-012-12da749d",
+      "60-002-012-012-1bd4c605",
+      "60-002-012-012-620b111e",
+      "60-002-012-012-950cb664"
+    ],
+    "13": [
+      "60-002-013-013-44960c1b",
+      "60-002-013-013-6bdf041b",
+      "60-002-013-013-52da4315"
+    ],
+    "14": [
+      "60-002-014-014-edda0f72",
+      "60-002-014-014-75b6e860",
+      "60-002-014-014-89cdae01"
+    ],
+    "15": [
+      "60-002-015-015-98956d08",
+      "60-002-015-015-ddf18335",
+      "60-002-015-015-c2dae0b5"
+    ],
+    "16": [
+      "60-002-016-016-87176669",
+      "60-002-016-016-d67f5f12",
+      "60-002-016-016-e6cebd69"
+    ],
+    "17": [
+      "60-002-017-017-cec0954f",
+      "60-002-017-017-9dfa784d",
+      "60-002-017-017-cf48cc4d",
+      "60-002-017-017-7486885d"
+    ],
+    "18": [
+      "60-002-018-018-04f111b6",
+      "60-002-018-018-bda188d8",
+      "60-002-018-018-33179013"
+    ],
+    "19": [
+      "60-002-019-019-1158cc90",
+      "60-002-019-019-d891cb5b"
+    ],
+    "20": [
+      "60-002-020-020-c4d44943",
+      "60-002-020-020-09593039",
+      "60-002-020-020-75a349e8"
+    ],
+    "21": [
+      "60-002-021-021-a2da63c1",
+      "60-002-021-021-b62fa65c",
+      "60-002-021-021-1ab4900b"
+    ],
+    "22": [
+      "60-002-022-022-4c58445f",
+      "60-002-022-022-0b220d03"
+    ],
+    "23": [
+      "60-002-023-023-f4415993",
+      "60-002-023-023-5e796125",
+      "60-002-023-023-d67ce3fb"
+    ],
+    "24": [
+      "60-002-024-024-83e36ad7",
+      "60-002-024-024-159a3033",
+      "60-002-024-024-b3c171d8"
+    ],
+    "25": [
+      "60-002-025-025-4b72141c",
+      "60-002-025-025-661f4127"
+    ]
+  }
+}

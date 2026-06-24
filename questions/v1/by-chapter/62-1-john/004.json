@@ -1,0 +1,1344 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "62-1-john",
+  "book": "1 John",
+  "chapter": 4,
+  "questions": [
+    {
+      "id": "62-004-001-001-bb00eab5",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 4:1, how many false prophets have gone out into the world?",
+      "answer": "many",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "62-004-001-001-bb00eab5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-001-001-3a0eee0c",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 4:1, what action should be taken regarding the spirits? (be specific)",
+      "answer": "test the spirits, whether they are of God",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-004-001-001-3a0eee0c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-001-001-c7fd96bd",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 4:1, what are the beloved told not to do regarding spirits?",
+      "answer": "do not believe every spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-001-001-c7fd96bd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-001-001-88219b28",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 4:1, why must the spirits be tested?",
+      "answer": "because many false prophets have gone out into the world",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-004-001-001-88219b28"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-001-001-2e5e4e4c",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to 1 John 4:1, all prophets have gone out into the world.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-004-001-001-2e5e4e4c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-002-002-ddb3a757",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 4:2, by what means do you know the Spirit of God?",
+      "answer": "By this",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-004-002-002-ddb3a757"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-002-002-497d7087",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 4:2, what does every spirit that is of God confess about Jesus Christ?",
+      "answer": "that Jesus Christ has come in the flesh",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-002-002-497d7087"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-002-002-0107c36d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 4:2, what is the description of the spirit that is of God? (be specific)",
+      "answer": "Every spirit that confesses that Jesus Christ has come in the flesh",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "62-004-002-002-0107c36d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-003-003-b42ed2b2",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 4:3, what had the audience heard regarding the spirit of the Antichrist?",
+      "answer": "was coming",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-003-003-b42ed2b2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-003-003-4e0ed3b3",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 4:3, what is the consequence for a spirit that does not confess that Jesus Christ has come in the flesh?",
+      "answer": "is not of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-003-003-4e0ed3b3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-003-003-80a4349b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 4:3, what specific spirit is identified as the one that does not confess that Jesus Christ has come in the flesh?",
+      "answer": "the spirit of the Antichrist",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-003-003-80a4349b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-003-003-01cd58a3",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 4:3, where is the spirit of the Antichrist now?",
+      "answer": "in the world",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-004-003-003-01cd58a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-004-004-578cfcc2",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 4:4, what have the little children of God done to them?",
+      "answer": "overcome them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-004-004-578cfcc2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-004-004-5bca718e",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 4:4, who are the children that are of God?",
+      "answer": "little children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-004-004-5bca718e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-004-004-3c100d3c",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 4:4, who is described as being in you? (be specific)",
+      "answer": "He who is in you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-004-004-3c100d3c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-004-004-d278d018",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 4:4, why have the children of God overcome them?",
+      "answer": "because He who is in you is greater than he who is in the world",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-004-004-004-d278d018"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-005-005-fea98a0b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 4:5, how do they speak?",
+      "answer": "as of the world",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-004-005-005-fea98a0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-005-005-f4895491",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 4:5, who are of the world?",
+      "answer": "They",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-005-005-f4895491"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-005-005-eb07e204",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 4:5, who hears them?",
+      "answer": "the world",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-005-005-eb07e204"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-006-006-5087379c",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 4:6, list the 2 spirits we know by this.",
+      "answer": "the spirit of truth and the spirit of error",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-004-006-006-5087379c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-006-006-5cb30124",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 4:6, what does he who is not of God do?",
+      "answer": "does not hear us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-006-006-5cb30124"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-006-006-b60fcdeb",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 4:6, who are of God?",
+      "answer": "We",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-006-006-b60fcdeb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-006-006-4b6effe3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 4:6, who hears us?",
+      "answer": "He who knows God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-006-006-4b6effe3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-007-007-44caab6b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 4:7, from whom is love?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-007-007-44caab6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-007-007-364d6c0a",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 4:7, how are the readers addressed?",
+      "answer": "Beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-007-007-364d6c0a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-007-007-16900811",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 4:7, what are the readers encouraged to do to one another?",
+      "answer": "love one another",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-007-007-16900811"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-007-007-c4564148",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 4:7, what two things are true of everyone who loves? (be specific)",
+      "answer": "is born of God and knows God",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-004-007-007-c4564148"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-008-008-b0aba2a1",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 4:8, what is true of the person who does not love?",
+      "answer": "does not know God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-008-008-b0aba2a1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-008-008-8552625e",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 4:8, why does he who does not love not know God?",
+      "answer": "for God is love",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-004-008-008-8552625e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-008-008-60f8b590",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "True or False: According to 1 John 4:8, God is love.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-004-008-008-60f8b590"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-009-009-702e160b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 4:9, what was manifested toward us?",
+      "answer": "the love of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-009-009-702e160b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-009-009-98aaea81",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 4:9, whom did God send into the world?",
+      "answer": "His only begotten Son",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-009-009-98aaea81"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-009-009-3cbfc49c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 4:9, why did God send His only begotten Son into the world? (be specific)",
+      "answer": "that we might live through Him",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-004-009-009-3cbfc49c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-010-010-5a4fdf13",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 4:10, for what purpose did God send His Son?",
+      "answer": "to be the propitiation for our sins",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-004-010-010-5a4fdf13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-010-010-155aaf26",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 4:10, what was not the manifestation of love?",
+      "answer": "that we loved God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-010-010-155aaf26"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-010-010-5fcf51c2",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 4:10, what was the actual manifestation of love?",
+      "answer": "that He loved us and sent His Son to be the propitiation for our sins",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-010-010-5fcf51c2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-011-011-b2b02f4d",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 4:11, how are those addressed described?",
+      "answer": "Beloved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-011-011-b2b02f4d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-011-011-dbe89afc",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 4:11, if God so loved us, what ought we to do?",
+      "answer": "we also ought to love one another",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-011-011-dbe89afc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-011-011-332da1f1",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 4:11, what is the condition given for us to love one another? (be specific)",
+      "answer": "if God so loved us",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-004-011-011-332da1f1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-012-012-d591f765",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 4:12, if we love one another, where does God abide?",
+      "answer": "in us",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-004-012-012-d591f765"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-012-012-268c3426",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 4:12, what happens in us if we love one another and God abides in us?",
+      "answer": "His love has been perfected in us",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-012-012-268c3426"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-012-012-52374d32",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 4:12, what has no one seen at any time?",
+      "answer": "God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-012-012-52374d32"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-012-012-92461ed1",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 4:12, who has been seen at any time?",
+      "answer": "No one",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-012-012-92461ed1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-013-013-ce6308f8",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 4:13, by what means do we know that we abide in Him, and He in us?",
+      "answer": "because He has given us of His Spirit",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-004-013-013-ce6308f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-013-013-274895f5",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 4:13, name the two parties that are abiding in one another (be specific).",
+      "answer": "we and He",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-004-013-013-274895f5"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-013-013-5db03b45",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 4:13, what has He given us?",
+      "answer": "of His Spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-013-013-5db03b45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-013-013-632c9c6b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 4:13, who has given us of His Spirit?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-013-013-632c9c6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-014-014-1df84d77",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 4:14, what have we done in relation to the Father sending the Son?",
+      "answer": "seen and testify",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-014-014-1df84d77"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-014-014-2207026e",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 4:14, what title is given to the Son regarding His role in the world (be specific)?",
+      "answer": "Savior of the world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-014-014-2207026e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-014-014-d0b6e2a2",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 4:14, who did the Father send?",
+      "answer": "the Son",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-014-014-d0b6e2a2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-014-014-d66d6d7d",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 4:14, who sent the Son?",
+      "answer": "the Father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-014-014-d66d6d7d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-015-015-8a365650",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 4:15, what happens to the person who confesses that Jesus is the Son of God?",
+      "answer": "God abides in him, and he in God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-004-015-015-8a365650"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-015-015-4695fef7",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 4:15, what must a person confess for God to abide in him?",
+      "answer": "that Jesus is the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-015-015-4695fef7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-015-015-6687e515",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "True or False: According to 1 John 4:15, whoever confesses that Jesus is the Son of God, God abides in him, and he in God.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-004-015-015-6687e515"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-016-016-6ce8ddaf",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 4:16, he who abides in love abides in whom?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-016-016-6ce8ddaf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-016-016-abafb5af",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 4:16, what happens to the person who abides in love? (be specific)",
+      "answer": "he who abides in love abides in God, and God in him",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "62-004-016-016-abafb5af"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-016-016-6d6bd17e",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 4:16, what short definition is given for God?",
+      "answer": "God is love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-016-016-6d6bd17e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-016-016-c0702fea",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 4:16, what two things have we done regarding the love that God has for us?",
+      "answer": "known and believed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-004-016-016-c0702fea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-016-016-beb6a85c",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "True or False: According to 1 John 4:16, God abides in him who abides in love.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-004-016-016-beb6a85c"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-017-017-0d718f8d",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 4:17, what has been perfected among us?",
+      "answer": "Love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-017-017-0d718f8d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-017-017-be6b0b99",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 4:17, what is the comparison made regarding how we are in this world?",
+      "answer": "as He is, so are we in this world",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "62-004-017-017-be6b0b99"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-017-017-00e0452c",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 4:17, why is love perfected among us?",
+      "answer": "that we may have boldness in the day of judgment",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-004-017-017-00e0452c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-018-018-693272c5",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 4:18, what does perfect love do to fear?",
+      "answer": "casts out fear",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-018-018-693272c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-018-018-a46eb9b5",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 4:18, what is the status of a person who fears in relation to love? (be specific)",
+      "answer": "he who fears has not been made perfect in love",
+      "type": "other",
+      "points": 3,
+      "originalIds": [
+        "62-004-018-018-a46eb9b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-018-018-f4b35e47",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 4:18, what is there no fear in?",
+      "answer": "love",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-004-018-018-f4b35e47"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-018-018-7c6e2caa",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 4:18, why does perfect love cast out fear?",
+      "answer": "because fear involves torment",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-004-018-018-7c6e2caa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-018-018-afbd8377",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "True or False: According to 1 John 4:18, fear involves torment.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-004-018-018-afbd8377"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-019-019-19a25023",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 4:19, who first loved us?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-019-019-19a25023"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-019-019-9a2531cd",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 4:19, why do we love Him?",
+      "answer": "because He first loved us",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-004-019-019-9a2531cd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-020-020-f6f7b53f",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 4:20, how can a man love God whom he has not seen if he does not do what?",
+      "answer": "love his brother whom he has seen",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-004-020-020-f6f7b53f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-020-020-adae838e",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 4:20, if someone says 'I love God' but hates his brother, what is he?",
+      "answer": "a liar",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-020-020-adae838e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-020-020-0591d6ee",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 4:20, what is the description of God whom the person has not seen? (be specific)",
+      "answer": "whom he has not seen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-020-020-0591d6ee"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-020-020-8a3048a1",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 4:20, what is the description of the brother that the person has seen? (be specific)",
+      "answer": "whom he has seen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-020-020-8a3048a1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-021-021-079e393b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 4:21, what do we have from Him?",
+      "answer": "this commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-021-021-079e393b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-021-021-2af4e229",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 4:21, what must he who loves God also do?",
+      "answer": "love his brother",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-004-021-021-2af4e229"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-004-021-021-e05fda8b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 4:21, who is the one that must love his brother also?",
+      "answer": "he who loves God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-004-021-021-e05fda8b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "62-004-001-001-bb00eab5",
+      "62-004-001-001-3a0eee0c",
+      "62-004-001-001-c7fd96bd",
+      "62-004-001-001-88219b28",
+      "62-004-001-001-2e5e4e4c"
+    ],
+    "2": [
+      "62-004-002-002-ddb3a757",
+      "62-004-002-002-497d7087",
+      "62-004-002-002-0107c36d"
+    ],
+    "3": [
+      "62-004-003-003-b42ed2b2",
+      "62-004-003-003-4e0ed3b3",
+      "62-004-003-003-80a4349b",
+      "62-004-003-003-01cd58a3"
+    ],
+    "4": [
+      "62-004-004-004-578cfcc2",
+      "62-004-004-004-5bca718e",
+      "62-004-004-004-3c100d3c",
+      "62-004-004-004-d278d018"
+    ],
+    "5": [
+      "62-004-005-005-fea98a0b",
+      "62-004-005-005-f4895491",
+      "62-004-005-005-eb07e204"
+    ],
+    "6": [
+      "62-004-006-006-5087379c",
+      "62-004-006-006-5cb30124",
+      "62-004-006-006-b60fcdeb",
+      "62-004-006-006-4b6effe3"
+    ],
+    "7": [
+      "62-004-007-007-44caab6b",
+      "62-004-007-007-364d6c0a",
+      "62-004-007-007-16900811",
+      "62-004-007-007-c4564148"
+    ],
+    "8": [
+      "62-004-008-008-b0aba2a1",
+      "62-004-008-008-8552625e",
+      "62-004-008-008-60f8b590"
+    ],
+    "9": [
+      "62-004-009-009-702e160b",
+      "62-004-009-009-98aaea81",
+      "62-004-009-009-3cbfc49c"
+    ],
+    "10": [
+      "62-004-010-010-5a4fdf13",
+      "62-004-010-010-155aaf26",
+      "62-004-010-010-5fcf51c2"
+    ],
+    "11": [
+      "62-004-011-011-b2b02f4d",
+      "62-004-011-011-dbe89afc",
+      "62-004-011-011-332da1f1"
+    ],
+    "12": [
+      "62-004-012-012-d591f765",
+      "62-004-012-012-268c3426",
+      "62-004-012-012-52374d32",
+      "62-004-012-012-92461ed1"
+    ],
+    "13": [
+      "62-004-013-013-ce6308f8",
+      "62-004-013-013-274895f5",
+      "62-004-013-013-5db03b45",
+      "62-004-013-013-632c9c6b"
+    ],
+    "14": [
+      "62-004-014-014-1df84d77",
+      "62-004-014-014-2207026e",
+      "62-004-014-014-d0b6e2a2",
+      "62-004-014-014-d66d6d7d"
+    ],
+    "15": [
+      "62-004-015-015-8a365650",
+      "62-004-015-015-4695fef7",
+      "62-004-015-015-6687e515"
+    ],
+    "16": [
+      "62-004-016-016-6ce8ddaf",
+      "62-004-016-016-abafb5af",
+      "62-004-016-016-6d6bd17e",
+      "62-004-016-016-c0702fea",
+      "62-004-016-016-beb6a85c"
+    ],
+    "17": [
+      "62-004-017-017-0d718f8d",
+      "62-004-017-017-be6b0b99",
+      "62-004-017-017-00e0452c"
+    ],
+    "18": [
+      "62-004-018-018-693272c5",
+      "62-004-018-018-a46eb9b5",
+      "62-004-018-018-f4b35e47",
+      "62-004-018-018-7c6e2caa",
+      "62-004-018-018-afbd8377"
+    ],
+    "19": [
+      "62-004-019-019-19a25023",
+      "62-004-019-019-9a2531cd"
+    ],
+    "20": [
+      "62-004-020-020-f6f7b53f",
+      "62-004-020-020-adae838e",
+      "62-004-020-020-0591d6ee",
+      "62-004-020-020-8a3048a1"
+    ],
+    "21": [
+      "62-004-021-021-079e393b",
+      "62-004-021-021-2af4e229",
+      "62-004-021-021-e05fda8b"
+    ]
+  }
+}

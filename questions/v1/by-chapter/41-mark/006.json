@@ -1,0 +1,3164 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 6,
+  "questions": [
+    {
+      "id": "41-006-001-001-9f5dc341",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 6:1, from where did He go out?",
+      "answer": "there",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-001-001-35181117"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-001-001-19b42d82",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 6:1, list the two actions He performed (be specific).",
+      "answer": "went out from there; came to His own country",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-001-001-4995883c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-001-001-b98f934c",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 6:1, where did He come to?",
+      "answer": "His own country",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-001-001-f70caf53"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-001-001-2d149b8d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 6:1, who followed Him?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-001-001-72e2cd43"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-001-001-830f59d0",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to Mark 6:1, He commanded His disciples not to follow Him.",
+      "answer": "False, and His disciples followed Him",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-006-001-001-1b65a154",
+        "41-006-001-001-950ea290"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-002-002-993e38f5",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 6:2, how did the many who heard Him react?",
+      "answer": "they were astonished",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-002-002-6e44d925"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-002-002-a57ef120",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 6:2, what two specific questions did the people ask regarding the Man?",
+      "answer": "Where did this Man get these things? And what wisdom is this which is given to Him, that such mighty works are performed by His hands!",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-002-002-c0bd9f1a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-002-002-b6c0258b",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 6:2, when did He begin to teach in the synagogue?",
+      "answer": "the Sabbath",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-002-002-d783108e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-002-002-fe5f7bb9",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 6:2, where did He begin to teach?",
+      "answer": "in the synagogue",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-002-002-1ee213e8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-003-003-d6189eb9",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 6:3, how did the people feel toward Him and why?",
+      "answer": "they were offended at Him, they were familiar with His family",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-006-003-003-98070e57",
+        "41-006-003-003-e411478d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-003-003-a2ef181c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 6:3, list the 4 brothers of the Man mentioned.",
+      "answer": "James, Joses, Judas, and Simon",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-006-003-003-46f5cae6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-003-003-fefd8ba5",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 6:3, what profession do the people identify the Man with? (be specific)",
+      "answer": "the carpenter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-003-003-0d8fc7af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-003-003-aaa23fdc",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 6:3, what rhetorical question is asked regarding His sisters?",
+      "answer": "And are not His sisters here with us?",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-006-003-003-6cf919c5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-003-003-00c90036",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 6:3, whose son do the people call Him?",
+      "answer": "Mary",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-003-003-acf38763"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-004-004-e86804e2",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 6:4, list the 3 locations or groups where a prophet is without honor. (be specific)",
+      "answer": "in his own country, among his own relatives, and in his own house",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-004-004-2efda9c9",
+        "41-006-004-004-5e69fc32"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-004-004-f0cd851e",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 6:4, who is not without honor except in his own country, among his own relatives, and in his own house.",
+      "answer": "A prophet",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-004-004-e3ff4121",
+        "41-006-004-004-ec98036b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-005-005-45be0cbd",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 6:5, upon whom did Jesus lay His hands?",
+      "answer": "a few sick people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-005-005-6f676388"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-005-005-3d7d077d",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 6:5, what could Jesus do there?",
+      "answer": "no mighty work",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-005-005-f49f8794",
+        "41-006-005-005-f9ddb7fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-005-005-9e30fdbb",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 6:5, what is the only exception to the statement that Jesus could do no mighty work there?",
+      "answer": "except that He laid His hands on a few sick people and healed them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-005-005-80992c1a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-006-006-85c0787d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 6:6, after Jesus marveled, what did He do?",
+      "answer": "He went about the villages in a circuit, teaching",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-006-006-0045c484"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-006-006-60c669e8",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 6:6, what was Jesus doing while He went about the villages in a circuit? (be specific)",
+      "answer": "teaching",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-006-006-173fc394"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-006-006-708acb22",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 6:6, where did Jesus go in a circuit?",
+      "answer": "the villages",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-006-006-f1963b63"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-006-006-992c4411",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 6:6, why did Jesus marvel?",
+      "answer": "because of their unbelief",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-006-006-25262f93"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-007-007-38a9c296",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 6:7, how were the twelve sent out?",
+      "answer": "two by two",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-007-007-c3e344a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-007-007-cc3f91b2",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 6:7, what did Jesus give the twelve?",
+      "answer": "power over unclean spirits",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-007-007-55d0a645",
+        "41-006-007-007-e42bbb48"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-007-007-dbcf9839",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 6:7, whom did Jesus call to Himself?",
+      "answer": "the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-007-007-07ed02b6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-008-008-7166587b",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 6:8, list the 3 things that the twelve were commanded not to take for the journey. (be specific)",
+      "answer": "no bag, no bread, no copper in their money belts",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-008-008-0434639d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-008-008-dfc438f6",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 6:8, what did Jesus command the twelve to take for the journey?",
+      "answer": "a staff",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-008-008-0d7c5373"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-009-009-ea42e14c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 6:9, what were the twelve commanded not to put on?",
+      "answer": "two tunics",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-009-009-f1b5a71d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-009-009-a38f58e2",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 6:9, what were the twelve told to wear?",
+      "answer": "sandals",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-009-009-2781e484"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-010-010-f6d61511",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 6:10, what should a person do once they enter a house until when?",
+      "answer": "stay there, till you depart from that place",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-010-010-2ed5cbd3",
+        "41-006-010-010-f82e77ea"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-010-010-c0c9b861",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 6:10, when entering a house, how long should one stay there?",
+      "answer": "till you depart from that place",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-010-010-dd3cf30a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-011-011-a9605d83",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 6:11, name the 2 cities that it will be more tolerable for in the day of judgment than for that city. (be specific)",
+      "answer": "Sodom and Gomorrah",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-011-011-bfba67b4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-011-011-d24b0207",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 6:11, what is the purpose of shaking off the dust under your feet?",
+      "answer": "as a testimony against them",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-011-011-7886a4bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-011-011-0ea4d504",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 6:11, what should one do when departing from a place where people will not receive or hear them?",
+      "answer": "shake off the dust under your feet",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-011-011-cbb38cf7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-011-011-e2fd7168",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 6:11, what will happen in the day of judgment regarding the city that will not receive or hear them?",
+      "answer": "it will be more tolerable for Sodom and Gomorrah",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-011-011-2512310e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-012-012-c922ce81",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 6:12, what did they do after they went out?",
+      "answer": "preached that people should repent",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-012-012-c4a20f77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-012-012-ae46395e",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 6:12, what was the specific message the people were told to do?",
+      "answer": "repent",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-012-012-a3d6046c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-013-013-72083962",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 6:13, how did they treat those who were sick?",
+      "answer": "anointed with oil",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-013-013-05e7fae7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-013-013-74062a10",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 6:13, name the three actions they performed (be specific).",
+      "answer": "cast out many demons, anointed with oil many who were sick, and healed them",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-013-013-7a8d7826"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-013-013-c462bb76",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 6:13, what is the first action listed?",
+      "answer": "cast out many demons",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-013-013-0c3582f3",
+        "41-006-013-013-ac508aae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-013-013-b5649bc9",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 6:13, what two actions did they do to many who were sick?",
+      "answer": "anointed with oil, healed them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-013-013-fac91e6a",
+        "41-006-013-013-80d59a11"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-014-014-0c7e7673",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 6:14, who's power did King Herod say was at work in Him and how?",
+      "answer": "John the Baptist, risen from the dead",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-014-014-a17de20d",
+        "41-006-014-014-c9d8b9e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-014-014-e6afbe5c",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 6:14, who did King Herod say had risen from the dead? (be specific)",
+      "answer": "John the Baptist",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-014-014-b747c211"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-014-014-7ee3e7d9",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 6:14, who heard of Him and why?",
+      "answer": "King Herod, His name had become well known",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-006-014-014-bc75c2c4",
+        "41-006-014-014-78ba01f4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-014-014-b33061de",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 6:14, why had King Herod heard of Him?",
+      "answer": "for His name had become well known",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-014-014-8f66b13c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-015-015-32a8882d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 6:15, list the three things otheres said.",
+      "answer": "Elija, the Prophet, like one of the prophets",
+      "type": "how_many",
+      "points": 3,
+      "originalIds": [
+        "41-006-015-015-02a7e1a6",
+        "41-006-015-015-95db0e91"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-015-015-41f03cc3",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 6:15, list the three identities suggested by 'others' regarding who He was. (be specific)",
+      "answer": "Elijah, the Prophet, or like one of the prophets",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-015-015-44a355e5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-015-015-bc8d828e",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 6:15, what was the first identity suggested by 'others'?",
+      "answer": "Elijah",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-015-015-89dd7d26"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-016-016-399c6b47",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 6:16, How did Herod identify John?",
+      "answer": "whom I beheaded",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-016-016-cd7615c6",
+        "41-006-016-016-12973e99"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-016-016-f9fcecd1",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 6:16, what does Herod claim has now happened to John?",
+      "answer": "he has been raised from the dead",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-016-016-174d186d",
+        "41-006-016-016-78f485de"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-016-016-ca8d9d8e",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 6:16, who did Herod say this was when he heard?",
+      "answer": "John",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-016-016-b9ead837"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-017-017-d2f12063",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 6:17, for whose sake did Herod have John bound, and how were they identified? (be specific)",
+      "answer": "Herodias, his brother Philip’s wife",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-006-017-017-00cc0135",
+        "41-006-017-017-6b3b4ffc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-017-017-dc5990f8",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 6:17, where did Herod have John bound?",
+      "answer": "in prison",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-017-017-6e47fccb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-017-017-54e7c590",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 6:17, who had sent and laid hold of John?",
+      "answer": "Herod himself",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-017-017-01db5ef3",
+        "41-006-017-017-11111270"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-017-017-4a7cfbb8",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 6:17, why was Herodias being the wife of Philip significant?",
+      "answer": "Herod married her",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-017-017-88c6c507",
+        "41-006-017-017-bd12956f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-018-018-f7ccde46",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 6:18, what had John said to Herod regarding his wife?",
+      "answer": "It is not lawful for you to have your brother’s wife.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-018-018-24bc171a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-019-019-3d435e8d",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 6:19, was Herodias successful in killing John?",
+      "answer": "she could not",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-006-019-019-9690d651"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-019-019-d823abb2",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 6:19, what did Herodias want to do to John?",
+      "answer": "kill him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-019-019-71ea984c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-019-019-d2cf6603",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 6:19, who held it against John?",
+      "answer": "Herodias",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-019-019-8fec68a3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-020-020-6176ffc5",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 6:20, how did Herod describe John's character? (be specific)",
+      "answer": "a just and holy man",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-006-020-020-db04a7d3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-020-020-8c658438",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 6:20, what was the result of Herod hearing John?",
+      "answer": "he did many things, and heard him gladly",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-020-020-c771059c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-020-020-e47987e9",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 6:20, why did Herod protect John?",
+      "answer": "Herod feared John, knowing he was a just and holy man",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "41-006-020-020-3f3b64b2",
+        "41-006-020-020-e694d7b7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-020-020-807e9e1b",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "True or False: According to Mark 6:20, Herod feared John.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-006-020-020-c2ec75d3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-021-021-f9b36dac",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 6:21, list the three groups of people for whom Herod gave a feast (be specific).",
+      "answer": "his nobles, the high officers, and the chief men of Galilee",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-021-021-ddd25bb1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-021-021-a3dba6aa",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 6:21, what did Herod give for his nobles, high officers, and chief men?",
+      "answer": "a feast",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-021-021-801434ea"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-021-021-99c5b84a",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 6:21, when did the opportune day arrive?",
+      "answer": "on Herod's birthday",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-021-021-cf519a42",
+        "41-006-021-021-ed5256c8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-021-021-118ee872",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 6:21, where were the chief men mentioned from?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-021-021-b86f0ca5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-022-022-a2fa6027",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 6:22, what did the king tell the girl to do?",
+      "answer": "Ask me whatever you want, and I will give it to you",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-022-022-2ca5da02",
+        "41-006-022-022-a2fa6027"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-022-022-dcf4d4f7",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 6:22, who came in and danced?",
+      "answer": "Herodias’ daughter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-022-022-7ac6a757"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-022-022-573fd48c",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 6:22, whom did the girl's dancing please?",
+      "answer": "Herod and those who sat with him",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-006-022-022-c5c3cbb4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-023-023-cae5576d",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 6:23, what did he also do regarding his offer?",
+      "answer": "He also swore to her",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-023-023-a217fedb",
+        "41-006-023-023-0289bd90"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-023-023-7e3117d6",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 6:23, what was the maximum amount the king promised to give the girl?",
+      "answer": "up to half my kingdom",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-023-023-1b415298"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-023-023-1dafb802",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "True or False: According to Mark 6:23, the king swore he would give the girl whatever she asked, up to all the kingdom.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-006-023-023-5b7fd13d",
+        "41-006-023-023-745ae2f6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-024-024-5cdf6d8e",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 6:24, what did the mother tell her daughter to ask for? (be specific)",
+      "answer": "The head of John the Baptist!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-024-024-ece07868"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-024-024-a255ab97",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 6:24, what did she ask her mother?",
+      "answer": "What shall I ask?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-024-024-2aae6834",
+        "41-006-024-024-d001be95"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-024-024-3265a83f",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 6:24, who went out and spoke to her mother?",
+      "answer": "she",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-024-024-80c845b6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-025-025-5dcc5b26",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 6:25, to whom did the girl go in haste?",
+      "answer": "the king",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-025-025-fbd70ad0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-025-025-cbf58278",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 6:25, what did the girl say she wanted the king to give her, on what, and when? (be specific)",
+      "answer": "the head of John the Baptist, on a platter, at once",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-006-025-025-d7e43408",
+        "41-006-025-025-081af85a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-025-025-07907c78",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 6:25, when did the girl ask the king to give her the head of John the Baptist?",
+      "answer": "at once",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-025-025-40bda19d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-025-025-7b285855",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 6:25, with what disposition did she come into the king?",
+      "answer": "with haste",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-025-025-d228f6cd",
+        "41-006-025-025-083c346a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-026-026-66bbf67f",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 6:26, how did the king feel regarding the request?",
+      "answer": "exceedingly sorry",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-026-026-2feefb7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-026-026-7dfdbe45",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 6:26, list the 2 reasons the king did not want to refuse her.",
+      "answer": "because of the oaths and because of those who sat with him",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-026-026-6b247180"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-026-026-dfb480b4",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 6:26, who did the king not want to refuse?",
+      "answer": "her",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-026-026-6ea70f7b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-027-027-2218d585",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 6:27, who did the king send, and what did he command to be brought?",
+      "answer": "executioner, his head",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-027-027-216ebb97",
+        "41-006-027-027-86637bf3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-027-027-f2605863",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 6:27, when did the king send an executioner?",
+      "answer": "Immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-027-027-70f58b91"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-027-027-72d8b479",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 6:27, where did the executioner behead him?",
+      "answer": "in prison",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-027-027-c343d577",
+        "41-006-027-027-8f4430a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-028-028-eb15b653",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 6:28, where did the girl do with the head?",
+      "answer": "gave it to her mother",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-028-028-4d288967",
+        "41-006-028-028-f91916e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-028-028-d672082f",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 6:28, upon what object was the head brought?",
+      "answer": "a platter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-028-028-fc0c5a97"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-028-028-ff125da0",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 6:28, who was given the head?",
+      "answer": "the girl",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-028-028-1a81a65f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-029-029-a8d8cbe0",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 6:29, what did the disciples do with the corpse? (be specific)",
+      "answer": "came and took away his corpse and laid it in a tomb",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-029-029-6328a9d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-029-029-38c3b562",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 6:29, where was the corpse laid?",
+      "answer": "in a tomb",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-029-029-d52f2a09"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-029-029-b3fc7227",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 6:29, who heard of the event?",
+      "answer": "his disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-029-029-cb5e8af2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-030-030-bbb6f953",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 6:30, list the 2 things the apostles told Jesus regarding their activities. (be specific)",
+      "answer": "what they had done and what they had taught",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-030-030-f70f1d7d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-030-030-e2796130",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 6:30, what did the apostles tell Jesus?",
+      "answer": "all things, both what they had done and what they had taught",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-006-030-030-6e1f4ded",
+        "41-006-030-030-e2796130"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-030-030-b0a1578c",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 6:30, who gathered to Jesus?",
+      "answer": "the apostles",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-030-030-32aeec42"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-031-031-af222469",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 6:31, what did Jesus invite the apostles to do, with who, where, for how long?",
+      "answer": "Come aside and rest, by yourselves, to a deserted place, a while",
+      "type": "what",
+      "points": 5,
+      "originalIds": [
+        "41-006-031-031-c079b260",
+        "41-006-031-031-8d3538fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-031-031-878954f6",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 6:31, where did Jesus tell the apostles to go?",
+      "answer": "to a deserted place",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-031-031-4cc93140"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-031-031-26a9add1",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 6:31, why did Jesus tell the apostles to come aside and rest?",
+      "answer": "there were many coming and going, and they did not even have time to eat",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-006-031-031-6283ebf8",
+        "41-006-031-031-26a9add1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-031-031-4a83612e",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 6:31, why was there no time for the apostles to eat?",
+      "answer": "there were many coming and going",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-031-031-3dbc35e0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-032-032-85d7a415",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 6:32, what did they do, where, in what, with who?",
+      "answer": "they departed, to a deserted place, in the boat, by themselves",
+      "type": "how",
+      "points": 4,
+      "originalIds": [
+        "41-006-032-032-24e223c0",
+        "41-006-032-032-047567fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-032-032-07195c9f",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 6:32, what method was used to depart?",
+      "answer": "the boat",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-006-032-032-8f6e44b8",
+        "41-006-032-032-038307c5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-032-032-9161c871",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 6:32, where did the apostles and Jesus depart to?",
+      "answer": "a deserted place",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-032-032-b574ca8f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-033-033-0aa0fa37",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 6:33, how did the people travel from all the cities? (be specific)",
+      "answer": "on foot",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-033-033-ba805f19"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-033-033-e5dd95ab",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 6:33, what did the multitudes see the disciples and Jesus doing?",
+      "answer": "departing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-033-033-2c91ca7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-033-033-db27de9c",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 6:33, when did the multitude arrive and what did they do?",
+      "answer": "They arrived before them and came together to Him",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-006-033-033-4b0e3923",
+        "41-006-033-033-24920884"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-033-033-8d97e6ee",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 6:33, why were they able to run there on foot from al the cities?",
+      "answer": "many knew Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-033-033-764dfce2",
+        "41-006-033-033-90d0ab69"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-034-034-8a42c950",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 6:34, when Jesus came out how did He feel, why did He feel that way, what did He see, so what did He begin to do?",
+      "answer": "moved with compassion for them, because they were like sheep not having a shepherd, saw a great multitude, so He began to teach them many things",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-006-034-034-81c0f480",
+        "41-006-034-034-5ba02b85"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-034-034-07074d8f",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 6:34, what did Jesus see when He came out?",
+      "answer": "a great multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-034-034-49d49074"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-034-034-db0fcf50",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 6:34, why was Jesus moved with compassion for the multitude? (be specific)",
+      "answer": "because they were like sheep not having a shepherd",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-006-034-034-322126da",
+        "41-006-034-034-db0fcf50"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-034-034-1a5b9ad9",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "True or False: According to Mark 6:34, Jesus was moved with compassion for the multitude.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-006-034-034-3537e6fd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-035-035-4018c3f3",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 6:35, how did the disciples describe the location where they were?",
+      "answer": "This is a deserted place",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-035-035-ade63b33"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-035-035-f4793d49",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 6:35, what did the disciples say about the hour?",
+      "answer": "already the hour is late",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-035-035-2b17eb4f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-035-035-b73fd61e",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 6:35, when did His disciples come to Him?",
+      "answer": "when the day was now far spent",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-035-035-c293b557",
+        "41-006-035-035-4275f420"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-035-035-b0b4bf80",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 6:35, who came to Jesus?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-035-035-83649b6d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-036-036-e87380c7",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 6:36, what did the disciples suggest Jesus do with the people?",
+      "answer": "Send them away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-036-036-d94b8684"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-036-036-57c2e34b",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 6:36, what two places did the disciples thing the people should go, do do what, and why?",
+      "answer": "go into the surrounding country and villages, buy themselves bread, for they have nothing to eat",
+      "type": "why",
+      "points": 4,
+      "originalIds": [
+        "41-006-036-036-e04d811f",
+        "41-006-036-036-74b101fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-036-036-3dcd1036",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 6:36, what were the people supposed to buy for themselves?",
+      "answer": "bread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-036-036-9a5099c6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-036-036-ed7adc0a",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 6:36, where did the disciples suggest the people go to buy food? (be specific)",
+      "answer": "into the surrounding country and villages",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-006-036-036-3e2684bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-037-037-c4461b4d",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 6:37, what amount of money did the disciples mention in their response to Jesus?",
+      "answer": "two hundred denarii",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-006-037-037-7be53eeb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-037-037-41e0204a",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 6:37, what did Jesus tell the disciples to do regarding the crowd?",
+      "answer": "You give them something to eat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-037-037-d9866d9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-037-037-645ca702",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 6:37, in the disciples's response, what were they buying, worth how much, for what reason?",
+      "answer": "bread, two hundred denarii, to give them something to eat",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-006-037-037-6a14a2fc",
+        "41-006-037-037-59fb8c9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-038-038-e4924b0b",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 6:38, what command did Jesus give to the disciples to find out how many loaves they had? (be specific)",
+      "answer": "Go and see.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-038-038-6e9ef33a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-038-038-238ddb41",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 6:38, what did the disciples report when they went to see?",
+      "answer": "Five loaves, and two fish",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-038-038-fac75342",
+        "41-006-038-038-8c6b423d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-038-038-94d55265",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 6:38, what was the question Jesus asked the disciple?",
+      "answer": "How many loaves do you have?",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-006-038-038-e72b7715",
+        "41-006-038-038-9c5d02ee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-039-039-0364c61f",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 6:39, where were they commanded to make all the people sit and how to seat them? (be specific)",
+      "answer": "green grass, in groups",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-039-039-55c8ec8e",
+        "41-006-039-039-98cb2763"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-039-039-70db2a50",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 6:39, what did Jesus command the disciples to make the people do?",
+      "answer": "sit down in groups on the green grass",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-039-039-fc003f91"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-040-040-fa1b340b",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 6:40, in what formation did the people sit down?",
+      "answer": "in ranks, in hundreds, in fifties",
+      "type": "how",
+      "points": 3,
+      "originalIds": [
+        "41-006-040-040-5dfbfd7b",
+        "41-006-040-040-49f7f341"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-040-040-308e3052",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 6:40, list the number groupings in which the people sat down. (be specific)",
+      "answer": "hundreds and in fifties",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-006-040-040-281949b0",
+        "41-006-040-040-43a9072f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-041-041-6c17bb0e",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 6:41, how many loaves and fish did Jesus take?",
+      "answer": "five loaves and the two fish",
+      "type": "how_many",
+      "points": 2,
+      "originalIds": [
+        "41-006-041-041-d85cca6f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-041-041-71b08a8c",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 6:41, what did Jesus do with the two fish?",
+      "answer": "He divided among them all",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-041-041-c09b2588",
+        "41-006-041-041-71b08a8c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-041-041-50db71ce",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 6:41, what three actions did Jesus perform regarding the bread after looking up to heaven? (be specific)",
+      "answer": "blessed, and broke the loaves, and gave them to His disciples to set before them",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-041-041-0659f460",
+        "41-006-041-041-3bf2f9e5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-041-041-4a945ec5",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 6:41, where did Jesus look when He took the loaves and fish?",
+      "answer": "to heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-041-041-70bc7d31"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-042-042-50526fc9",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 6:42, what happened after the people ate?",
+      "answer": "and were filled",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-042-042-7062671a",
+        "41-006-042-042-468a9542"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-042-042-0ec5108e",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "True or False: According to Mark 6:42, the people ate and took food home",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-006-042-042-0c449b20",
+        "41-006-042-042-db585641"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-043-043-a9be1a46",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 6:43, how many baskets did they take up?",
+      "answer": "twelve baskets full",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-006-043-043-ad50fe98",
+        "41-006-043-043-9f357094"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-043-043-1b8ce2ad",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 6:43, what did the twelve baskets contain?",
+      "answer": "fragments and of the fish",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-043-043-8238ed12",
+        "41-006-043-043-1b8ce2ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-044-044-f35a37c9",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 6:44, how many men had eaten the loaves?",
+      "answer": "five thousand",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-006-044-044-06e0fd3c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-044-044-93e774d8",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 6:44, what had the five thousand men eaten?",
+      "answer": "the loaves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-044-044-98c59b3b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-045-045-a6accd8a",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 6:45, what did Jesus do while the disciples were getting into the boat?",
+      "answer": "He sent the multitude away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-045-045-ea4c9a93"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-045-045-092d4732",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 6:45, what did Jesus ask His disciples to do, how did He ask, when did He ask, where were they going, to what city",
+      "answer": "get into the boat, made, immediately, before Him to the other side, to Bethsaida",
+      "type": "what",
+      "points": 5,
+      "originalIds": [
+        "41-006-045-045-48a1693a",
+        "41-006-045-045-de9ddc81"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-045-045-b3e49415",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 6:45, where were the disciples instructed to go? (be specific)",
+      "answer": "before Him, to the other side, to Bethsaida",
+      "type": "where",
+      "points": 3,
+      "originalIds": [
+        "41-006-045-045-5ea784db",
+        "41-006-045-045-d4d864e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-046-046-2654cac1",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 6:46, what did Jesus do after He had sent them away?",
+      "answer": "He departed to the mountain to pray",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-046-046-c4d3f48b",
+        "41-006-046-046-89430e68"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-046-046-cb54ca43",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 6:46, why did Jesus depart to the mountain?",
+      "answer": "to pray",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-046-046-0e2d4f80"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-047-047-a1db911e",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 6:47, when evening came, where was Jesus and with who? (be specific)",
+      "answer": "on the land, He was alone",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-047-047-81af1db7",
+        "41-006-047-047-b6fb16e0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-047-047-a7e23355",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 6:47, when the evening came, where was the boat?",
+      "answer": "in the middle of the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-047-047-aee64883"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-048-048-42e0f97a",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, when did Jesus come to them?",
+      "answer": "about the fourth watch of the night",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-bcd56246",
+        "41-006-048-048-88869f73"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-048-048-d930919a",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, how was Jesus moving when He came to the disciples?",
+      "answer": "walking on the sea",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-cff835c8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-048-048-e94764e5",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, what did Jesus see the disciples doing?",
+      "answer": "straining at rowing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-c571cf85"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-048-048-93304c0d",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, what would Jesus have done as He approached the disciples?",
+      "answer": "would have passed them by",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-3392bfd8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-048-048-d4ac5ab7",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, why were the disciples straining at rowing?",
+      "answer": "for the wind was against them",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-c839b653"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-049-049-c38fa399",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 6:49, what did the disciples do when they saw Him?",
+      "answer": "they supposed it was a ghost, cried out",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-049-049-072d1c8d",
+        "41-006-049-049-acd75ec1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-049-049-d1867a02",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 6:49, what did the disciples suppose Jesus was when they saw Him walking on the sea?",
+      "answer": "a ghost",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-049-049-932cc8bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-050-050-e2e44b62",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 6:50, what two commands did He give them, and who did He say He was?",
+      "answer": "Be of good cheer!, do not be afraid, it is I",
+      "type": "other",
+      "points": 3,
+      "originalIds": [
+        "41-006-050-050-580ef3c6",
+        "41-006-050-050-c60ca2c7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-050-050-5b5da173",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 6:50, what did Jesus tell the disciples TO do?",
+      "answer": "Be of good cheer",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-006-050-050-ec3e6f18",
+        "41-006-050-050-5b5da173"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-050-050-d4a5e136",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 6:50, what phrase did Jesus use to identify Himself to the disciples? (be specific)",
+      "answer": "It is I",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-050-050-d7b8e1a7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-050-050-1fed3830",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 6:50, who saw Him and how did they react?",
+      "answer": "for they all saw Him, and were troubled",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-006-050-050-46901594",
+        "41-006-050-050-9da84171"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-051-051-0ae1f7e8",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 6:51, how were they amazed in themselves?",
+      "answer": "beyond measure",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-006-051-051-486c22d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-051-051-c0fe0cde",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 6:51, name the two reactions the men had when He went into the boat and to what degree (be specific).",
+      "answer": "greatly amazed in themselves, marveled,  beyond measure",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-051-051-c284eb4c",
+        "41-006-051-051-cb725250"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-051-051-cbfa71c0",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 6:51, what happened when He went into the boat?",
+      "answer": "the wind ceased",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-051-051-21a22388"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-051-051-6e1f5e78",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 6:51, where did He go to them?",
+      "answer": "into the boat",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-051-051-60a2e063",
+        "41-006-051-051-6e1f5e78"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-052-052-4229630c",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 6:52, what had they not understood?",
+      "answer": "about the loaves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-052-052-874b1e7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-052-052-e0033c1b",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 6:52, what happened to their hearts?",
+      "answer": "their heart was hardened",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-052-052-9a422b04",
+        "41-006-052-052-aa92608f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-052-052-d83615d7",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 6:52, why did they not understand about the loaves?",
+      "answer": "because their heart was hardened",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-006-052-052-f3e667ab",
+        "41-006-052-052-d83615d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-053-053-4ac6678d",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 6:53, once they crossed over, what did they do and where were they?",
+      "answer": "and anchored there, they came to the land of Gennesaret",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-053-053-60721594",
+        "41-006-053-053-1cd15a5f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-053-053-5530be61",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 6:53, where did they anchor?",
+      "answer": "the land of Gennesaret",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-053-053-31facd61"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-054-054-34f870b9",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 6:54, what did the people do immediately when they came out of the boat?",
+      "answer": "recognized Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-054-054-8bc40e69"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-054-054-087febb7",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 6:54, who immediately recognized Him?",
+      "answer": "the people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-054-054-5fe6d37a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-055-055-710c597e",
+      "ref": {
+        "startVerse": 55,
+        "endVerse": 55
+      },
+      "question": "According to Mark 6:55, to where did they carry the sick?",
+      "answer": "to wherever they heard He was",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-055-055-0807c694"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-055-055-2011b5cb",
+      "ref": {
+        "startVerse": 55,
+        "endVerse": 55
+      },
+      "question": "According to Mark 6:55, what did they begin to carry about and on what?",
+      "answer": "those who were sick, on beds",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-055-055-1006de38",
+        "41-006-055-055-b903250c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-055-055-0306ce6c",
+      "ref": {
+        "startVerse": 55,
+        "endVerse": 55
+      },
+      "question": "According to Mark 6:55, where did the people run?",
+      "answer": "through that whole surrounding region",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-055-055-af1192e6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-056-056-ca07c40b",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 6:56, list the 3 locations He entered.",
+      "answer": "villages, cities, or the country",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-056-056-e24adc3f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-056-056-ef5dcdef",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 6:56, what did the people beg Him that they might do (be specific)?",
+      "answer": "just touch the hem of His garment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-056-056-7e0d1d21"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-056-056-a0a7c6d9",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 6:56, what happened to as many as touched Him? (be specific)",
+      "answer": "were made well",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-056-056-8c7cc7e6",
+        "41-006-056-056-e01abe38"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-006-056-056-7eeb3bf8",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 6:56, where did they lay the sick?",
+      "answer": "in the marketplaces",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-006-056-056-1adbf9b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-006-001-001-9f5dc341",
+      "41-006-001-001-19b42d82",
+      "41-006-001-001-b98f934c",
+      "41-006-001-001-2d149b8d",
+      "41-006-001-001-830f59d0"
+    ],
+    "2": [
+      "41-006-002-002-993e38f5",
+      "41-006-002-002-a57ef120",
+      "41-006-002-002-b6c0258b",
+      "41-006-002-002-fe5f7bb9"
+    ],
+    "3": [
+      "41-006-003-003-d6189eb9",
+      "41-006-003-003-a2ef181c",
+      "41-006-003-003-fefd8ba5",
+      "41-006-003-003-aaa23fdc",
+      "41-006-003-003-00c90036"
+    ],
+    "4": [
+      "41-006-004-004-e86804e2",
+      "41-006-004-004-f0cd851e"
+    ],
+    "5": [
+      "41-006-005-005-45be0cbd",
+      "41-006-005-005-3d7d077d",
+      "41-006-005-005-9e30fdbb"
+    ],
+    "6": [
+      "41-006-006-006-85c0787d",
+      "41-006-006-006-60c669e8",
+      "41-006-006-006-708acb22",
+      "41-006-006-006-992c4411"
+    ],
+    "7": [
+      "41-006-007-007-38a9c296",
+      "41-006-007-007-cc3f91b2",
+      "41-006-007-007-dbcf9839"
+    ],
+    "8": [
+      "41-006-008-008-7166587b",
+      "41-006-008-008-dfc438f6"
+    ],
+    "9": [
+      "41-006-009-009-ea42e14c",
+      "41-006-009-009-a38f58e2"
+    ],
+    "10": [
+      "41-006-010-010-f6d61511",
+      "41-006-010-010-c0c9b861"
+    ],
+    "11": [
+      "41-006-011-011-a9605d83",
+      "41-006-011-011-d24b0207",
+      "41-006-011-011-0ea4d504",
+      "41-006-011-011-e2fd7168"
+    ],
+    "12": [
+      "41-006-012-012-c922ce81",
+      "41-006-012-012-ae46395e"
+    ],
+    "13": [
+      "41-006-013-013-72083962",
+      "41-006-013-013-74062a10",
+      "41-006-013-013-c462bb76",
+      "41-006-013-013-b5649bc9"
+    ],
+    "14": [
+      "41-006-014-014-0c7e7673",
+      "41-006-014-014-e6afbe5c",
+      "41-006-014-014-7ee3e7d9",
+      "41-006-014-014-b33061de"
+    ],
+    "15": [
+      "41-006-015-015-32a8882d",
+      "41-006-015-015-41f03cc3",
+      "41-006-015-015-bc8d828e"
+    ],
+    "16": [
+      "41-006-016-016-399c6b47",
+      "41-006-016-016-f9fcecd1",
+      "41-006-016-016-ca8d9d8e"
+    ],
+    "17": [
+      "41-006-017-017-d2f12063",
+      "41-006-017-017-dc5990f8",
+      "41-006-017-017-54e7c590",
+      "41-006-017-017-4a7cfbb8"
+    ],
+    "18": [
+      "41-006-018-018-f7ccde46"
+    ],
+    "19": [
+      "41-006-019-019-3d435e8d",
+      "41-006-019-019-d823abb2",
+      "41-006-019-019-d2cf6603"
+    ],
+    "20": [
+      "41-006-020-020-6176ffc5",
+      "41-006-020-020-8c658438",
+      "41-006-020-020-e47987e9",
+      "41-006-020-020-807e9e1b"
+    ],
+    "21": [
+      "41-006-021-021-f9b36dac",
+      "41-006-021-021-a3dba6aa",
+      "41-006-021-021-99c5b84a",
+      "41-006-021-021-118ee872"
+    ],
+    "22": [
+      "41-006-022-022-a2fa6027",
+      "41-006-022-022-dcf4d4f7",
+      "41-006-022-022-573fd48c"
+    ],
+    "23": [
+      "41-006-023-023-cae5576d",
+      "41-006-023-023-7e3117d6",
+      "41-006-023-023-1dafb802"
+    ],
+    "24": [
+      "41-006-024-024-5cdf6d8e",
+      "41-006-024-024-a255ab97",
+      "41-006-024-024-3265a83f"
+    ],
+    "25": [
+      "41-006-025-025-5dcc5b26",
+      "41-006-025-025-cbf58278",
+      "41-006-025-025-07907c78",
+      "41-006-025-025-7b285855"
+    ],
+    "26": [
+      "41-006-026-026-66bbf67f",
+      "41-006-026-026-7dfdbe45",
+      "41-006-026-026-dfb480b4"
+    ],
+    "27": [
+      "41-006-027-027-2218d585",
+      "41-006-027-027-f2605863",
+      "41-006-027-027-72d8b479"
+    ],
+    "28": [
+      "41-006-028-028-eb15b653",
+      "41-006-028-028-d672082f",
+      "41-006-028-028-ff125da0"
+    ],
+    "29": [
+      "41-006-029-029-a8d8cbe0",
+      "41-006-029-029-38c3b562",
+      "41-006-029-029-b3fc7227"
+    ],
+    "30": [
+      "41-006-030-030-bbb6f953",
+      "41-006-030-030-e2796130",
+      "41-006-030-030-b0a1578c"
+    ],
+    "31": [
+      "41-006-031-031-af222469",
+      "41-006-031-031-878954f6",
+      "41-006-031-031-26a9add1",
+      "41-006-031-031-4a83612e"
+    ],
+    "32": [
+      "41-006-032-032-85d7a415",
+      "41-006-032-032-07195c9f",
+      "41-006-032-032-9161c871"
+    ],
+    "33": [
+      "41-006-033-033-0aa0fa37",
+      "41-006-033-033-e5dd95ab",
+      "41-006-033-033-db27de9c",
+      "41-006-033-033-8d97e6ee"
+    ],
+    "34": [
+      "41-006-034-034-8a42c950",
+      "41-006-034-034-07074d8f",
+      "41-006-034-034-db0fcf50",
+      "41-006-034-034-1a5b9ad9"
+    ],
+    "35": [
+      "41-006-035-035-4018c3f3",
+      "41-006-035-035-f4793d49",
+      "41-006-035-035-b73fd61e",
+      "41-006-035-035-b0b4bf80"
+    ],
+    "36": [
+      "41-006-036-036-e87380c7",
+      "41-006-036-036-57c2e34b",
+      "41-006-036-036-3dcd1036",
+      "41-006-036-036-ed7adc0a"
+    ],
+    "37": [
+      "41-006-037-037-c4461b4d",
+      "41-006-037-037-41e0204a",
+      "41-006-037-037-645ca702"
+    ],
+    "38": [
+      "41-006-038-038-e4924b0b",
+      "41-006-038-038-238ddb41",
+      "41-006-038-038-94d55265"
+    ],
+    "39": [
+      "41-006-039-039-0364c61f",
+      "41-006-039-039-70db2a50"
+    ],
+    "40": [
+      "41-006-040-040-fa1b340b",
+      "41-006-040-040-308e3052"
+    ],
+    "41": [
+      "41-006-041-041-6c17bb0e",
+      "41-006-041-041-71b08a8c",
+      "41-006-041-041-50db71ce",
+      "41-006-041-041-4a945ec5"
+    ],
+    "42": [
+      "41-006-042-042-50526fc9",
+      "41-006-042-042-0ec5108e"
+    ],
+    "43": [
+      "41-006-043-043-a9be1a46",
+      "41-006-043-043-1b8ce2ad"
+    ],
+    "44": [
+      "41-006-044-044-f35a37c9",
+      "41-006-044-044-93e774d8"
+    ],
+    "45": [
+      "41-006-045-045-a6accd8a",
+      "41-006-045-045-092d4732",
+      "41-006-045-045-b3e49415"
+    ],
+    "46": [
+      "41-006-046-046-2654cac1",
+      "41-006-046-046-cb54ca43"
+    ],
+    "47": [
+      "41-006-047-047-a1db911e",
+      "41-006-047-047-a7e23355"
+    ],
+    "48": [
+      "41-006-048-048-42e0f97a",
+      "41-006-048-048-d930919a",
+      "41-006-048-048-e94764e5",
+      "41-006-048-048-93304c0d",
+      "41-006-048-048-d4ac5ab7"
+    ],
+    "49": [
+      "41-006-049-049-c38fa399",
+      "41-006-049-049-d1867a02"
+    ],
+    "50": [
+      "41-006-050-050-e2e44b62",
+      "41-006-050-050-5b5da173",
+      "41-006-050-050-d4a5e136",
+      "41-006-050-050-1fed3830"
+    ],
+    "51": [
+      "41-006-051-051-0ae1f7e8",
+      "41-006-051-051-c0fe0cde",
+      "41-006-051-051-cbfa71c0",
+      "41-006-051-051-6e1f5e78"
+    ],
+    "52": [
+      "41-006-052-052-4229630c",
+      "41-006-052-052-e0033c1b",
+      "41-006-052-052-d83615d7"
+    ],
+    "53": [
+      "41-006-053-053-4ac6678d",
+      "41-006-053-053-5530be61"
+    ],
+    "54": [
+      "41-006-054-054-34f870b9",
+      "41-006-054-054-087febb7"
+    ],
+    "55": [
+      "41-006-055-055-710c597e",
+      "41-006-055-055-2011b5cb",
+      "41-006-055-055-0306ce6c"
+    ],
+    "56": [
+      "41-006-056-056-ca07c40b",
+      "41-006-056-056-ef5dcdef",
+      "41-006-056-056-a0a7c6d9",
+      "41-006-056-056-7eeb3bf8"
+    ]
+  }
+}

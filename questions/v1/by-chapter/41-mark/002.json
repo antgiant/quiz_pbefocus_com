@@ -1,0 +1,1643 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 2,
+  "questions": [
+    {
+      "id": "41-002-001-001-a9d10063",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 2:1, how long was it before He entered Capernaum again?",
+      "answer": "after some days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-002-001-001-71ac7085"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-001-001-7a9068dd",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 2:1, into what city did He enter after some days?",
+      "answer": "Capernaum",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-001-001-a68598da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-001-001-f1cdb306",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 2:1, where was it heard that He was?",
+      "answer": "in the house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-001-001-b14e8a7f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-002-002-f6fcc4e4",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 2:2, how soon did many gather together after it was heard He was in the house?",
+      "answer": "Immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-002-002-002-74c8b97d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-002-002-2795fbda",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 2:2, what did He do to those gathered?",
+      "answer": "He preached the word to them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-002-002-9dbc979d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-002-002-7b6a9d26",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 2:2, what specific location inside the house was mentioned where there was no longer room? (be specific)",
+      "answer": "near the door",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-002-002-ba59e5ef",
+        "41-002-002-002-63c1d3d6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-002-002-454386a7",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 2:2, what was the result of many gathering together?",
+      "answer": "so that there was no longer room to receive them, not even near the door",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-002-002-c40cfe99",
+        "41-002-002-002-454386a7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-003-003-3678fd4b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 2:3, how many men carried the paralytic?",
+      "answer": "four",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-002-003-003-4986b8db"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-003-003-dd005dd9",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 2:3, who did they come to?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-003-003-fb51c731"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-003-003-dc96acc8",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 2:3, who were they bringing?",
+      "answer": "a paralytic",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-003-003-2b18aa49"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-004-004-812e51bc",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 2:4, describe the state of the bed being let down (be specific).",
+      "answer": "the bed on which the paralytic was lying",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-002-004-004-968f357a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-004-004-5439a899",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 2:4, what did they do after they had broken through?",
+      "answer": "they let down the bed on which the paralytic was lying",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-004-004-a6fb2232"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-004-004-1136d86f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 2:4, what did they uncover?",
+      "answer": "the roof where He was",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-004-004-d2cca189",
+        "41-002-004-004-54271ebf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-004-004-c9106c6d",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 2:4, why could they not come near Him?",
+      "answer": "because of the crowd",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-004-004-4f823ae9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-004-004-bddd79c3",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to Mark 2:4, they were unable to come near Him because the priests would not let them in.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-002-004-004-b3aeebe7",
+        "41-002-004-004-b6613900"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-005-005-632e5377",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 2:5, to whom did Jesus speak after seeing their faith?",
+      "answer": "the paralytic",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-005-005-96258624"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-005-005-8ab3da76",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 2:5, what did Jesus see that caused Him to speak to the paralytic?",
+      "answer": "their faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-005-005-f23bc1aa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-005-005-72b6e923",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 2:5, what statement did Jesus make after seeing their faith?",
+      "answer": "Son, your sins are forgiven you",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-005-005-cdf0e71e",
+        "41-002-005-005-a82ae195"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-005-005-c2fb1efa",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 2:5, what title did Jesus use when addressing the paralytic? (be specific)",
+      "answer": "Son",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-002-005-005-afaf2100"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-005-005-a9f731a8",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "True or False: According to Mark 2:5, Jesus told the paralytic that his sins were forgiven.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-002-005-005-9c0e0882"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-006-006-e49d105e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 2:6, what were some of the scribes doing while sitting there? (be specific)",
+      "answer": "reasoning in their hearts",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-006-006-2fbe77d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-006-006-79cfbef3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 2:6, who was sitting there?",
+      "answer": "some of the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-006-006-8fe09f92"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-007-007-6ae1afba",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 2:7, what did the scribes accuse the Man of speaking?",
+      "answer": "blasphemies",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-007-007-55af3cc8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-007-007-c8eff582",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 2:7, what kind of act did the scribes imply was happening when they asked who can forgive sins?",
+      "answer": "blasphemies",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-007-007-9e4711e8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-007-007-1e7bb2d7",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 2:7, what rhetorical question did the scribes ask regarding who can forgive sins? (be specific)",
+      "answer": "Who can forgive sins but God alone?",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-002-007-007-cf4c464d",
+        "41-002-007-007-1e7bb2d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-008-008-c5ea8592",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 2:8, what question did Jesus ask them regarding their reasoning?",
+      "answer": "Why do you reason about these things in your hearts?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-008-008-1dc00403"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-008-008-d42328ec",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 2:8, when did Jesus speak to them after he percieved in His spirity that they reasoned within themselves?",
+      "answer": "immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-002-008-008-da62aecd",
+        "41-002-008-008-f015e65e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-008-008-2943c88d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 2:8, where did Jesus perceive that they reasoned?",
+      "answer": "in His spirit",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-008-008-c9782547"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-009-009-a060af2c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 2:9, what question did Jesus ask?",
+      "answer": "Which is easier, to say to the paralytic, ' Your sins are forgiven you,' or to say, 'Arise, take up your bed and walk'?",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-002-009-009-9f959db2",
+        "41-002-009-009-7c46e398"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-010-010-2a7a9f03",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 2:10, what does the Son of Man have power to do on earth?",
+      "answer": "forgive sins",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-010-010-253f512e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-010-010-5a08b8b4",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 2:10, what does the Son of Man have power to do and where does it say he may use that power?",
+      "answer": "forgive sins, on earth",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-002-010-010-0f8d4ba1",
+        "41-002-010-010-017ce07f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-011-011-aa8c325c",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 2:11, what were the 3 commands Jesus gave to the paralytic? (be specific)",
+      "answer": "arise, take up your bed, and go to your house",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-002-011-011-c1215124"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-012-012-7649d9e4",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 2:12, how did the people react to the man's actions?",
+      "answer": "all were amazed and glorified God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-012-012-2e3ae87d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-012-012-70efe9ec",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 2:12, what did the man do immediately after Jesus spoke to him?",
+      "answer": "he arose, took up the bed, and went out in the presence of them all",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-002-012-012-bada14bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-012-012-39c825d8",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 2:12, what did the people say after being amazed? (be specific)",
+      "answer": "We never saw anything like this!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-012-012-601a2438",
+        "41-002-012-012-dc1aa9b4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-013-013-e7b47986",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 2:13, what did He do for the multitude?",
+      "answer": "He taught them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-013-013-e296dbfa",
+        "41-002-013-013-faaaa63d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-013-013-8b682a4f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 2:13, where did He go out to again?",
+      "answer": "by the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-013-013-a0860b76"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-013-013-2d7ea77b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 2:13, who came to Him?",
+      "answer": "all the multitude",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-013-013-f3bbfe1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-014-014-4f141d46",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 2:14, as He passed by, who did He see?",
+      "answer": "Levi the son of Alphaeus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-014-014-6dc4664f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-014-014-cf83b36b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 2:14, what did Levi do after He said, 'Follow Me'?",
+      "answer": "he arose and followed Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-014-014-a269f732",
+        "41-002-014-014-cf83b36b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-014-014-3d10a575",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 2:14, what were the two words He said to Levi?",
+      "answer": "Follow Me",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-014-014-4add00fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-014-014-2710b467",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 2:14, where was Levi sitting?",
+      "answer": "at the tax office",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-014-014-dc000c5a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-015-015-e0728602",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 2:15, what was Jesus doing in Levi's house?",
+      "answer": "dining",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-015-015-c6484efb",
+        "41-002-015-015-dbaa568a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-015-015-0bff4890",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 2:15, where did the event of Jesus dining take place?",
+      "answer": "Levi’s house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-015-015-14752e08"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-015-015-f9e94126",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 2:15, who besides Jesus and His disciples sat together?",
+      "answer": "many tax collectors and sinners",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-002-015-015-a082944a",
+        "41-002-015-015-46c57aa4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-015-015-614cb53e",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 2:15, why were many tax collectors and sinners sitting with Jesus?",
+      "answer": "they followed Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-015-015-62b94055",
+        "41-002-015-015-a31c48b6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-016-016-d00d9664",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 2:16, what did the scribes and Pharisees ask the disciples regarding Jesus' actions? (be specific)",
+      "answer": "How is it that He eats and drinks with tax collectors and sinners?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-016-016-f36e683b",
+        "41-002-016-016-d00d9664"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-016-016-47ee49e2",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 2:16, which two groups of people saw Jesus eating with tax collectors and sinners?",
+      "answer": "the scribes and Pharisees",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-002-016-016-ab10a104"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-016-016-e5f04132",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 2:16, who did the scribes and Pharisees address their question to?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-016-016-da78ad85"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-017-017-386e88d5",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 2:17, Jesus said He did not come to call the righteous, but whom?",
+      "answer": "sinners",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-017-017-0d9d7f30"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-017-017-e45bed8a",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 2:17, for what purpose did Jesus come to call sinners? (be specific)",
+      "answer": "to repentance",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-017-017-34b7c965"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-017-017-47929b08",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 2:17, to whom did Jesus speak when He heard the scribes and Pharisees?",
+      "answer": "them",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-017-017-9bf1e03a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-017-017-dfa1c473",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 2:17, who does Jesus say has no need of a physician?",
+      "answer": "Those who are well",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-017-017-8f6a6a23"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-017-017-b9ac034b",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 2:17, who does Jesus say needs a physician?",
+      "answer": "those who are sick",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-017-017-b6c0d2cf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-018-018-39161858",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 2:18, what action were the disciples of John and the Pharisees doing?",
+      "answer": "fasting",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-018-018-d058faad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-018-018-6ec70966",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 2:18, what did the people ask Jesus regarding his disciples?",
+      "answer": "Why do the disciples of John and of the Pharisees fast, but Your disciples do not fast?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-018-018-39c40c3d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-018-018-6815e2de",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 2:18, which two groups of people were fasting?",
+      "answer": "John and of the Pharisees",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-002-018-018-f699ad5e",
+        "41-002-018-018-f4ee2720"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-019-019-e1b30b32",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 2:19, who did Jesus say cannot fast while the bridegroom is with them?",
+      "answer": "the friends of the bridegroom",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-019-019-83b28741"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-019-019-63486c4c",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 2:19, why can the friends of the bridegroom not fast? (be specific)",
+      "answer": "As long as they have the bridegroom with them they cannot fast",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-002-019-019-d67892b3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-019-019-28984393",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "True or False: According to Mark 2:19, Jesus asked if the friends of the bridegroom can eat while the bridegroom is with them.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-002-019-019-806cc46e",
+        "41-002-019-019-592d21af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-020-020-77ae16af",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 2:20, what will happen to the bridegroom in the days to come?",
+      "answer": "the bridegroom will be taken away from them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-020-020-a3cef520"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-020-020-ae38a0dd",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 2:20, when will the friends of the bridegroom fast?",
+      "answer": "in those days, when the bridegroom is taken away from them",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-002-020-020-e70f6189",
+        "41-002-020-020-00ddfb52"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-021-021-b481aed0",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 2:21, what happens if you sew a piece of unshrunk cloth on an old garment?",
+      "answer": "the new piece pulls away from the old, and the tear is made worse",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-021-021-e5e10b4b",
+        "41-002-021-021-b481aed0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-021-021-668e0b3a",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 2:21, what is the consequence of sewing a piece of unshrunk cloth on an old garment? (be specific)",
+      "answer": "the new piece pulls away from the old, and the tear is made worse",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-002-021-021-025d854b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-021-021-d81212d9",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 2:21, what should no one sew on an old garment?",
+      "answer": "a piece of unshrunk cloth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-021-021-fda34c29"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-022-022-8847bc46",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 2:22, how must new wine be stored?",
+      "answer": "must be put into new wineskins",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-002-022-022-b73f29f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-022-022-112f61f5",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 2:22, name the 3 things that happen when new wine is put into old wineskins.",
+      "answer": "the new wine bursts the wineskins, the wine is spilled, and the wineskins are ruined",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-002-022-022-484e99c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-022-022-215712ca",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 2:22, where should no one put new wine?",
+      "answer": "into old wineskins",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-022-022-d09503d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-022-022-5b75b14e",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "True or False: According to Mark 2:22, new wine causes old wineskins to be restored.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-002-022-022-8938cf8a",
+        "41-002-022-022-4bb2d5d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-023-023-6a9d079b",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 2:23, what did the disciples begin to do as they went?",
+      "answer": "pluck the heads of grain",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-023-023-4c60bf20",
+        "41-002-023-023-be549062"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-023-023-8c7d07fb",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 2:23, what were the disciples doing as they went through the grainfields?",
+      "answer": "pluck the heads of grain",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-023-023-b0f5fb70"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-023-023-15f00cf3",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 2:23, where did He go on the Sabbath?",
+      "answer": "through the grainfields",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-023-023-462454ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-023-023-aa67c4b1",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 2:23, who began to pluck the heads of grain?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-023-023-1a52faf0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-024-024-04f1d1ad",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 2:23-24, what did the Pharisees claim was not lawful on the Sabbath?",
+      "answer": "pluck heads of grain",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-024-024-43a83b6b",
+        "41-002-024-024-bb79c733"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-024-024-f7d9580c",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 2:24, what did the Pharisees say to Him? (be specific)",
+      "answer": "Look, why do they do what is not lawful on the Sabbath?",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-002-024-024-8fbbdf10"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-024-024-36e830aa",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 2:24, who questioned why the disciples were doing what is not lawful on the Sabbath?",
+      "answer": "the Pharisees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-024-024-ceb47f90"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-025-025-4673d59b",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 2:24-25, to whom was Jesus speaking when He asked about David?",
+      "answer": "the Pharisees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-025-025-58257d4b",
+        "41-002-025-025-1d6c06a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-025-025-ab610d3d",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 2:25, what did Jesus say to them?",
+      "answer": "Have you never read what David did when he was in need and hungry, he and those with him",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-002-025-025-948a0e1c",
+        "41-002-025-025-3920e385"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-025-025-a0204894",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 2:25, what two conditions were David and those with him experiencing?",
+      "answer": "in need and hungry",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-002-025-025-7e8d59e6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-026-026-b21c30fb",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 2:26, for whom is it lawful to eat the showbread? (be specific)",
+      "answer": "the priests",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-026-026-4a5a1148"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-026-026-3783d44c",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 2:26, in whose days did David enter the house of God and what was that person's title??",
+      "answer": "Abiathar the high priest",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-002-026-026-710d989a",
+        "41-002-026-026-96c24f04"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-026-026-6619f5f6",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 2:26, what did David do with the showbread besides eat it?",
+      "answer": "gave some to those who were with him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-026-026-2d0a998c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-026-026-45874705",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 2:26, what did David eat in the house of God?",
+      "answer": "the showbread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-026-026-c430b539"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-026-026-68e2ca78",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 2:26, where did David go?",
+      "answer": "into the house of God",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-002-026-026-726ebd48",
+        "41-002-026-026-c6a325fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-027-027-53ee3bb2",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 2:27, for whom was the Sabbath made?",
+      "answer": "man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-027-027-e7a43497"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-027-027-492f3833",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 2:27, what was made for man?",
+      "answer": "The Sabbath",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-027-027-ff8cb072"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-027-027-e33a85c4",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 2:27, what was not made for the Sabbath (be specific)?",
+      "answer": "man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-027-027-726d0db1",
+        "41-002-027-027-e33a85c4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-027-027-1b79b8ec",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "True or False: According to Mark 2:27, the Sabbath was made for man.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-002-027-027-efad84ee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-028-028-34e94624",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 2:28, of what is the Son of Man also?",
+      "answer": "Lord of the Sabbath",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-028-028-0d34080f",
+        "41-002-028-028-63c89e88"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-028-028-de5594c8",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 2:28, what title is given to the Son of Man? (be specific)",
+      "answer": "Lord of the Sabbath",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-002-028-028-885ec21b",
+        "41-002-028-028-2f032bc5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-002-028-028-c0ecff9e",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 2:28, who is Lord of the Sabbath?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-002-028-028-02d86ce9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-002-001-001-a9d10063",
+      "41-002-001-001-7a9068dd",
+      "41-002-001-001-f1cdb306"
+    ],
+    "2": [
+      "41-002-002-002-f6fcc4e4",
+      "41-002-002-002-2795fbda",
+      "41-002-002-002-7b6a9d26",
+      "41-002-002-002-454386a7"
+    ],
+    "3": [
+      "41-002-003-003-3678fd4b",
+      "41-002-003-003-dd005dd9",
+      "41-002-003-003-dc96acc8"
+    ],
+    "4": [
+      "41-002-004-004-812e51bc",
+      "41-002-004-004-5439a899",
+      "41-002-004-004-1136d86f",
+      "41-002-004-004-c9106c6d",
+      "41-002-004-004-bddd79c3"
+    ],
+    "5": [
+      "41-002-005-005-632e5377",
+      "41-002-005-005-8ab3da76",
+      "41-002-005-005-72b6e923",
+      "41-002-005-005-c2fb1efa",
+      "41-002-005-005-a9f731a8"
+    ],
+    "6": [
+      "41-002-006-006-e49d105e",
+      "41-002-006-006-79cfbef3"
+    ],
+    "7": [
+      "41-002-007-007-6ae1afba",
+      "41-002-007-007-c8eff582",
+      "41-002-007-007-1e7bb2d7"
+    ],
+    "8": [
+      "41-002-008-008-c5ea8592",
+      "41-002-008-008-d42328ec",
+      "41-002-008-008-2943c88d"
+    ],
+    "9": [
+      "41-002-009-009-a060af2c"
+    ],
+    "10": [
+      "41-002-010-010-2a7a9f03",
+      "41-002-010-010-5a08b8b4"
+    ],
+    "11": [
+      "41-002-011-011-aa8c325c"
+    ],
+    "12": [
+      "41-002-012-012-7649d9e4",
+      "41-002-012-012-70efe9ec",
+      "41-002-012-012-39c825d8"
+    ],
+    "13": [
+      "41-002-013-013-e7b47986",
+      "41-002-013-013-8b682a4f",
+      "41-002-013-013-2d7ea77b"
+    ],
+    "14": [
+      "41-002-014-014-4f141d46",
+      "41-002-014-014-cf83b36b",
+      "41-002-014-014-3d10a575",
+      "41-002-014-014-2710b467"
+    ],
+    "15": [
+      "41-002-015-015-e0728602",
+      "41-002-015-015-0bff4890",
+      "41-002-015-015-f9e94126",
+      "41-002-015-015-614cb53e"
+    ],
+    "16": [
+      "41-002-016-016-d00d9664",
+      "41-002-016-016-47ee49e2",
+      "41-002-016-016-e5f04132"
+    ],
+    "17": [
+      "41-002-017-017-386e88d5",
+      "41-002-017-017-e45bed8a",
+      "41-002-017-017-47929b08",
+      "41-002-017-017-dfa1c473",
+      "41-002-017-017-b9ac034b"
+    ],
+    "18": [
+      "41-002-018-018-39161858",
+      "41-002-018-018-6ec70966",
+      "41-002-018-018-6815e2de"
+    ],
+    "19": [
+      "41-002-019-019-e1b30b32",
+      "41-002-019-019-63486c4c",
+      "41-002-019-019-28984393"
+    ],
+    "20": [
+      "41-002-020-020-77ae16af",
+      "41-002-020-020-ae38a0dd"
+    ],
+    "21": [
+      "41-002-021-021-b481aed0",
+      "41-002-021-021-668e0b3a",
+      "41-002-021-021-d81212d9"
+    ],
+    "22": [
+      "41-002-022-022-8847bc46",
+      "41-002-022-022-112f61f5",
+      "41-002-022-022-215712ca",
+      "41-002-022-022-5b75b14e"
+    ],
+    "23": [
+      "41-002-023-023-6a9d079b",
+      "41-002-023-023-8c7d07fb",
+      "41-002-023-023-15f00cf3",
+      "41-002-023-023-aa67c4b1"
+    ],
+    "24": [
+      "41-002-024-024-04f1d1ad",
+      "41-002-024-024-f7d9580c",
+      "41-002-024-024-36e830aa"
+    ],
+    "25": [
+      "41-002-025-025-4673d59b",
+      "41-002-025-025-ab610d3d",
+      "41-002-025-025-a0204894"
+    ],
+    "26": [
+      "41-002-026-026-b21c30fb",
+      "41-002-026-026-3783d44c",
+      "41-002-026-026-6619f5f6",
+      "41-002-026-026-45874705",
+      "41-002-026-026-68e2ca78"
+    ],
+    "27": [
+      "41-002-027-027-53ee3bb2",
+      "41-002-027-027-492f3833",
+      "41-002-027-027-e33a85c4",
+      "41-002-027-027-1b79b8ec"
+    ],
+    "28": [
+      "41-002-028-028-34e94624",
+      "41-002-028-028-de5594c8",
+      "41-002-028-028-c0ecff9e"
+    ]
+  }
+}

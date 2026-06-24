@@ -1,0 +1,1299 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "62-1-john",
+  "book": "1 John",
+  "chapter": 3,
+  "questions": [
+    {
+      "id": "62-003-001-001-3d0fa04d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 3:1, what are we called because of the love the Father has bestowed on us?",
+      "answer": "children of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-001-001-3d0fa04d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-001-001-621a66f5",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 3:1, what does the author tell us to behold regarding the love the Father has bestowed on us?",
+      "answer": "what manner of love the Father has bestowed on us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-001-001-621a66f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-001-001-861aa09b",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 3:1, why does the world not know us?",
+      "answer": "because it did not know Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-003-001-001-861aa09b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-002-002-5a043a13",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 3:2, what are we currently?",
+      "answer": "children of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-002-002-5a043a13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-002-002-3b22e5c1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 3:2, what do we know will happen when He is revealed?",
+      "answer": "we shall be like Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-002-002-3b22e5c1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-002-002-ba8a651d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 3:2, what has not yet been revealed?",
+      "answer": "what we shall be",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-002-002-ba8a651d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-002-002-cce2d148",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 3:2, why will we be like Him? (be specific)",
+      "answer": "for we shall see Him as He is",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-003-002-002-cce2d148"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-003-003-1a5434a1",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 3:3, to what standard does the person with this hope purify himself? (be specific)",
+      "answer": "just as He is pure",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-003-003-003-1a5434a1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-003-003-9d4df8a5",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 3:3, who purifies himself?",
+      "answer": "everyone who has this hope in Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-003-003-9d4df8a5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-003-003-5d2b57f2",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "True or False: According to 1 John 3:3, everyone who has this hope in Him purifies himself.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-003-003-003-5d2b57f2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-004-004-0d7fc104",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 3:4, what does whoever commits sin also commit?",
+      "answer": "lawlessness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-004-004-0d7fc104"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-004-004-ee725dbe",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 3:4, what is sin defined as? (be specific)",
+      "answer": "lawlessness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-004-004-ee725dbe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-005-005-9cff1cbb",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 3:5, what do we know about Him? (be specific)",
+      "answer": "He was manifested to take away our sins, and in Him there is no sin",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-003-005-005-9cff1cbb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-005-005-a7a4a083",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 3:5, what is there in Him?",
+      "answer": "no sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-005-005-a7a4a083"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-005-005-45b30ed2",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 3:5, why was He manifested?",
+      "answer": "to take away our sins",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-003-005-005-45b30ed2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-006-006-3106d87e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 3:6, what does someone who abides in Him not do?",
+      "answer": "sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-006-006-3106d87e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-006-006-7d179636",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 3:6, what happens to whoever abides in Him?",
+      "answer": "does not sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-006-006-7d179636"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-006-006-effbe754",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 3:6, what is true of whoever sins?",
+      "answer": "has neither seen Him nor known Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-003-006-006-effbe754"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-006-006-355dd6c7",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "List the two things that whoever sins has neither done, According to 1 John 3:6.",
+      "answer": "seen Him, known Him",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-003-006-006-355dd6c7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-007-007-da12c083",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 3:7, how does the author address the readers?",
+      "answer": "Little children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-007-007-da12c083"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-007-007-372abe1b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 3:7, what is said about the person who practices righteousness? (be specific)",
+      "answer": "He is righteous, just as He is righteous",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-003-007-007-372abe1b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-007-007-fefd000d",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 3:7, what should the readers not let anyone do?",
+      "answer": "deceive you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-007-007-fefd000d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-008-008-e5485a71",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 3:8, from what point in time has the devil sinned?",
+      "answer": "from the beginning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "62-003-008-008-e5485a71"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-008-008-13c46214",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 3:8, of whom is the one who sins?",
+      "answer": "the devil",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-008-008-13c46214"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-008-008-57a7fd36",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 3:8, why was the Son of God manifested?",
+      "answer": "that He might destroy the works of the devil",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-003-008-008-57a7fd36"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-009-009-d2d9338a",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 3:9, what does whoever has been born of God not do?",
+      "answer": "sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-009-009-d2d9338a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-009-009-c591948e",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 3:9, what remains in the one who has been born of God?",
+      "answer": "His seed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-009-009-c591948e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-009-009-c361ed92",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 3:9, why can the one who is born of God not sin? (be specific)",
+      "answer": "His seed remains in him; and he cannot sin, because he has been born of God",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "62-003-009-009-c361ed92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-010-010-2b84321a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 3:10, what is the first condition given for someone not being of God?",
+      "answer": "Whoever does not practice righteousness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-010-010-2b84321a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-010-010-76cbad73",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 3:10, what is the second condition given for someone not being of God? (be specific)",
+      "answer": "he who does not love his brother",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-010-010-76cbad73"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-010-010-00cb7858",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 3:10, what two groups are manifest in this?",
+      "answer": "the children of God and the children of the devil",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-003-010-010-00cb7858"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-011-011-cb6a003c",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 3:11, what is the message that you heard from the beginning?",
+      "answer": "that we should love one another",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-011-011-cb6a003c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-011-011-01a4f658",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 3:11, when did you hear this message?",
+      "answer": "from the beginning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "62-003-011-011-01a4f658"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-012-012-2d15e300",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 3:12, of whom was Cain?",
+      "answer": "of the wicked one",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-012-012-2d15e300"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-012-012-98132a6c",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 3:12, what did Cain do to his brother?",
+      "answer": "murdered his brother",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-012-012-98132a6c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-012-012-8488b738",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 3:12, who are we not to be like?",
+      "answer": "Cain",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-012-012-8488b738"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-012-012-ae67ddd0",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 3:12, why did Cain murder his brother? (be specific)",
+      "answer": "Because his works were evil and his brother’s righteous",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-003-012-012-ae67ddd0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-013-013-926f2ad0",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 3:13, what feeling might the world have toward the brethren? (be specific)",
+      "answer": "hates you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-013-013-926f2ad0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-013-013-f69f45ab",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 3:13, what should brethren not do if the world hates them?",
+      "answer": "marvel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-013-013-f69f45ab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-013-013-6f6c7c0d",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 3:13, who should not marvel if the world hates them?",
+      "answer": "my brethren",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-013-013-6f6c7c0d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-014-014-89901568",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 3:14, how do we know that we have passed from death to life?",
+      "answer": "because we love the brethren",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-003-014-014-89901568"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-014-014-7bd1ce15",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 3:14, what do we know because we love the brethren?",
+      "answer": "we have passed from death to life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-014-014-7bd1ce15"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-014-014-81102d10",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 3:14, what happens to him who does not love his brother?",
+      "answer": "abides in death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-014-014-81102d10"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-015-015-35b419d8",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 3:15, what is a person called if they hate their brother?",
+      "answer": "a murderer",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-015-015-35b419d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-015-015-a8a06826",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 3:15, what is it that we know about a murderer?",
+      "answer": "no murderer has eternal life abiding in him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-015-015-a8a06826"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-016-016-16ac0972",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 3:16, for whom ought we to lay down our lives? (be specific)",
+      "answer": "the brethren",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-016-016-16ac0972"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-016-016-ee701e7a",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 3:16, how do we know love?",
+      "answer": "because He laid down His life for us",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-003-016-016-ee701e7a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-016-016-f0e1d175",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 3:16, what did He lay down for us?",
+      "answer": "His life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-016-016-f0e1d175"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-016-016-5fec8a2f",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 3:16, who ought to lay down their lives for the brethren?",
+      "answer": "we",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-016-016-5fec8a2f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-017-017-53f10dbc",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 3:17, what does a person do when he sees his brother in need but shuts up his heart?",
+      "answer": "shuts up his heart from him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-017-017-53f10dbc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-017-017-e4b76b14",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 3:17, what does a person have who sees his brother in need?",
+      "answer": "this world’s goods",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-017-017-e4b76b14"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-017-017-57d5de2a",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 3:17, what rhetorical question is asked regarding a person who has this world's goods but shuts up his heart from his brother in need? (be specific)",
+      "answer": "how does the love of God abide in him?",
+      "type": "other",
+      "points": 3,
+      "originalIds": [
+        "62-003-017-017-57d5de2a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-018-018-77076b1f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 3:18, how does the author address the readers?",
+      "answer": "My little children",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-003-018-018-77076b1f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-018-018-8690c41a",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 3:18, list the 2 ways we are told to love. (be specific)",
+      "answer": "in deed, in truth",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-003-018-018-8690c41a"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-019-019-034092e0",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 3:19, by what do we know that we are of the truth?",
+      "answer": "this",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-003-019-019-034092e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-019-019-e52cc9e3",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 3:19, what shall we assure before Him?",
+      "answer": "our hearts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-019-019-e52cc9e3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-019-019-4aeb6803",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 3:19, where shall we assure our hearts?",
+      "answer": "before Him",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-003-019-019-4aeb6803"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-020-020-1e8761d8",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 3:20, what does God know?",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-020-020-1e8761d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-020-020-24687001",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 3:20, what is the relationship between God and our heart? (be specific)",
+      "answer": "God is greater than our heart",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-003-020-020-24687001"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-020-020-23cde798",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 3:20, what might our heart do to us?",
+      "answer": "condemns us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-020-020-23cde798"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-020-020-818f44fa",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 3:20, who is greater than our heart?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-020-020-818f44fa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-021-021-6072315e",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 3:21, how is the recipient of the letter addressed?",
+      "answer": "Beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-021-021-6072315e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-021-021-2cc573f6",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 3:21, what do we have toward God if our heart does not condemn us?",
+      "answer": "confidence",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-021-021-2cc573f6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-021-021-7c73dc6a",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 3:21, what must our heart NOT do in order to have confidence toward God? (be specific)",
+      "answer": "condemn us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-021-021-7c73dc6a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-022-022-804b99bb",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 3:22, list the 2 conditions mentioned that lead to receiving whatever we ask from Him.",
+      "answer": "1. we keep His commandments, 2. do those things that are pleasing in His sight",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-003-022-022-804b99bb"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-022-022-b6ec2d9c",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 3:22, what do we receive from Him when we ask?",
+      "answer": "whatever we ask",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-022-022-b6ec2d9c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-022-022-53cc518d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 3:22, why do we receive whatever we ask from Him? (be specific)",
+      "answer": "because we keep His commandments and do those things that are pleasing in His sight",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-003-022-022-53cc518d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-023-023-5a5a4738",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 3:23, list the 2 actions required by His commandment. (be specific)",
+      "answer": "1. believe on the name of His Son Jesus Christ, 2. love one another",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-003-023-023-5a5a4738"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-023-023-11b0adc3",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 3:23, what is His commandment?",
+      "answer": "that we should believe on the name of His Son Jesus Christ and love one another, as He gave us commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-023-023-11b0adc3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-023-023-d25eb090",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "True or False: According to 1 John 3:23, we are commanded to believe on the name of His Son Jesus Christ.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-003-023-023-d25eb090"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-024-024-d783b636",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 John 3:24, by what do we know that He abides in us?",
+      "answer": "by the Spirit whom He has given us",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-003-024-024-d783b636"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-024-024-b059f28e",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 John 3:24, what happens to the one who keeps His commandments?",
+      "answer": "abides in Him, and He in him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-003-024-024-b059f28e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-003-024-024-ab7de2fc",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 John 3:24, who has been given to us? (be specific)",
+      "answer": "the Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-003-024-024-ab7de2fc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "62-003-001-001-3d0fa04d",
+      "62-003-001-001-621a66f5",
+      "62-003-001-001-861aa09b"
+    ],
+    "2": [
+      "62-003-002-002-5a043a13",
+      "62-003-002-002-3b22e5c1",
+      "62-003-002-002-ba8a651d",
+      "62-003-002-002-cce2d148"
+    ],
+    "3": [
+      "62-003-003-003-1a5434a1",
+      "62-003-003-003-9d4df8a5",
+      "62-003-003-003-5d2b57f2"
+    ],
+    "4": [
+      "62-003-004-004-0d7fc104",
+      "62-003-004-004-ee725dbe"
+    ],
+    "5": [
+      "62-003-005-005-9cff1cbb",
+      "62-003-005-005-a7a4a083",
+      "62-003-005-005-45b30ed2"
+    ],
+    "6": [
+      "62-003-006-006-3106d87e",
+      "62-003-006-006-7d179636",
+      "62-003-006-006-effbe754",
+      "62-003-006-006-355dd6c7"
+    ],
+    "7": [
+      "62-003-007-007-da12c083",
+      "62-003-007-007-372abe1b",
+      "62-003-007-007-fefd000d"
+    ],
+    "8": [
+      "62-003-008-008-e5485a71",
+      "62-003-008-008-13c46214",
+      "62-003-008-008-57a7fd36"
+    ],
+    "9": [
+      "62-003-009-009-d2d9338a",
+      "62-003-009-009-c591948e",
+      "62-003-009-009-c361ed92"
+    ],
+    "10": [
+      "62-003-010-010-2b84321a",
+      "62-003-010-010-76cbad73",
+      "62-003-010-010-00cb7858"
+    ],
+    "11": [
+      "62-003-011-011-cb6a003c",
+      "62-003-011-011-01a4f658"
+    ],
+    "12": [
+      "62-003-012-012-2d15e300",
+      "62-003-012-012-98132a6c",
+      "62-003-012-012-8488b738",
+      "62-003-012-012-ae67ddd0"
+    ],
+    "13": [
+      "62-003-013-013-926f2ad0",
+      "62-003-013-013-f69f45ab",
+      "62-003-013-013-6f6c7c0d"
+    ],
+    "14": [
+      "62-003-014-014-89901568",
+      "62-003-014-014-7bd1ce15",
+      "62-003-014-014-81102d10"
+    ],
+    "15": [
+      "62-003-015-015-35b419d8",
+      "62-003-015-015-a8a06826"
+    ],
+    "16": [
+      "62-003-016-016-16ac0972",
+      "62-003-016-016-ee701e7a",
+      "62-003-016-016-f0e1d175",
+      "62-003-016-016-5fec8a2f"
+    ],
+    "17": [
+      "62-003-017-017-53f10dbc",
+      "62-003-017-017-e4b76b14",
+      "62-003-017-017-57d5de2a"
+    ],
+    "18": [
+      "62-003-018-018-77076b1f",
+      "62-003-018-018-8690c41a"
+    ],
+    "19": [
+      "62-003-019-019-034092e0",
+      "62-003-019-019-e52cc9e3",
+      "62-003-019-019-4aeb6803"
+    ],
+    "20": [
+      "62-003-020-020-1e8761d8",
+      "62-003-020-020-24687001",
+      "62-003-020-020-23cde798",
+      "62-003-020-020-818f44fa"
+    ],
+    "21": [
+      "62-003-021-021-6072315e",
+      "62-003-021-021-2cc573f6",
+      "62-003-021-021-7c73dc6a"
+    ],
+    "22": [
+      "62-003-022-022-804b99bb",
+      "62-003-022-022-b6ec2d9c",
+      "62-003-022-022-53cc518d"
+    ],
+    "23": [
+      "62-003-023-023-5a5a4738",
+      "62-003-023-023-11b0adc3",
+      "62-003-023-023-d25eb090"
+    ],
+    "24": [
+      "62-003-024-024-d783b636",
+      "62-003-024-024-b059f28e",
+      "62-003-024-024-ab7de2fc"
+    ]
+  }
+}

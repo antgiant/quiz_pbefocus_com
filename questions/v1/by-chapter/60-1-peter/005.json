@@ -1,0 +1,990 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "60-1-peter",
+  "book": "1 Peter",
+  "chapter": 5,
+  "questions": [
+    {
+      "id": "60-005-001-001-c9819d1a",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 5:1, of what two specific things is the author a witness and a partaker? (be specific)",
+      "answer": "The sufferings of Christ, and also a partaker of the glory that will be revealed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-005-001-001-c9819d1a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-001-001-0f49360a",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 5:1, what does the author call himself in relation to the elders he is exhorting?",
+      "answer": "A fellow elder",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-001-001-0f49360a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-001-001-74c55e4e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 5:1, what will be revealed in the future?",
+      "answer": "The glory",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-001-001-74c55e4e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-001-001-0fffb341",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 5:1, who does the author exhort?",
+      "answer": "The elders who are among you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-001-001-0fffb341"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-002-002-f1ee3560",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 5:2, in what role are those who shepherd the flock of God serving?",
+      "answer": "overseers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-002-002-f1ee3560"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-002-002-52fd01be",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 5:2, name the two ways the flock IS to be shepherded (be specific).",
+      "answer": "willingly; eagerly",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-005-002-002-52fd01be"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-002-002-cc9f4049",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 5:2, what are the elders told to do with the flock of God which is among them?",
+      "answer": "Shepherd",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-002-002-cc9f4049"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-003-003-0fe7dca1",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 5:3, instead of being lords, what should the leaders be to the flock?",
+      "answer": "examples",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-003-003-0fe7dca1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-003-003-20f0abe4",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 5:3, what are the leaders not to be doing regarding those entrusted to them?",
+      "answer": "being lords",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-003-003-20f0abe4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-003-003-7e109210",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "True or False: According to 1 Peter 5:3, the flock is referred to as those entrusted to the leaders.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-005-003-003-7e109210"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-004-004-918df3c1",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 5:4, what is the description of the crown of glory?",
+      "answer": "that does not fade away",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-005-004-004-918df3c1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-004-004-9293e5c7",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 5:4, what will you receive when the Chief Shepherd appears?",
+      "answer": "the crown of glory",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-004-004-9293e5c7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-004-004-64409a9a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 5:4, who will appear?",
+      "answer": "the Chief Shepherd",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-004-004-64409a9a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-2786e817",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, complete the following: 'God resists the proud, But gives _________ to the humble.'",
+      "answer": "grace",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-2786e817"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-0cd50f86",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, how should all of you be toward one another?",
+      "answer": "be submissive",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-0cd50f86"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-52195297",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, what does God do to the proud? (be specific)",
+      "answer": "God resists the proud",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-52195297"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-5c64cacb",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, what does God give to the humble?",
+      "answer": "grace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-5c64cacb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-3c2de9ef",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, what should you be clothed with?",
+      "answer": "humility",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-3c2de9ef"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-e46dac6a",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, what should younger people do in relation to their elders?",
+      "answer": "submit yourselves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-e46dac6a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-005-005-72dc17ac",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 5:5, who should submit themselves to their elders?",
+      "answer": "you younger people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-005-005-72dc17ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-006-006-cf6ecb64",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 5:6, under whose mighty hand are we to humble ourselves?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-006-006-cf6ecb64"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-006-006-28134111",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 5:6, what are we instructed to do under the mighty hand of God?",
+      "answer": "humble yourselves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-006-006-28134111"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-006-006-b628b801",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 5:6, when will God exalt you?",
+      "answer": "in due time",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-005-006-006-b628b801"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-006-006-cfe55dff",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 5:6, why should we humble ourselves under the mighty hand of God? (be specific)",
+      "answer": "that He may exalt you in due time",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "60-005-006-006-cfe55dff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-007-007-012dc7a3",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 5:7, how much of our care should be cast upon Him? (be specific)",
+      "answer": "all",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-005-007-007-012dc7a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-007-007-960787ef",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 5:7, what action are we to take with our care?",
+      "answer": "casting all your care upon Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-007-007-960787ef"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-007-007-5ff4f048",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 5:7, why should we cast our care upon Him?",
+      "answer": "for He cares for you",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "60-005-007-007-5ff4f048"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-008-008-952bc0eb",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 5:8, how does the devil walk about?",
+      "answer": "like a roaring lion",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-005-008-008-952bc0eb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-008-008-16410b13",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 5:8, what are two commands given to the reader regarding their state of mind and awareness?",
+      "answer": "Be sober, be vigilant",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-005-008-008-16410b13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-008-008-78135bbe",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 5:8, what is the devil seeking? (be specific)",
+      "answer": "whom he may devour",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-008-008-78135bbe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-008-008-ff6992c3",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 5:8, who is described as our adversary?",
+      "answer": "the devil",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-008-008-ff6992c3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-009-009-9ecb4082",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 5:9, in what manner should we resist him?",
+      "answer": "steadfast in the faith",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-005-009-009-9ecb4082"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-009-009-e0937e8e",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 5:9, what are we commanded to do to the devil?",
+      "answer": "Resist him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-009-009-e0937e8e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-009-009-e21721df",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 5:9, what are we to know regarding our brotherhood in the world?",
+      "answer": "the same sufferings are experienced by your brotherhood in the world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-009-009-e21721df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-009-009-82066e4e",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "True or False: According to 1 Peter 5:9, the same sufferings are experienced by your brotherhood in the world.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-005-009-009-82066e4e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-010-010-e4c2ea52",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 5:10, by whom did God call us to His eternal glory?",
+      "answer": "Christ Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-010-010-e4c2ea52"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-010-010-44ae7879",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 5:10, list the 4 things God will do to you after you have suffered a while. (be specific)",
+      "answer": "perfect, establish, strengthen, and settle",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-005-010-010-44ae7879"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-010-010-68b38619",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 5:10, of what is God the possessor?",
+      "answer": "all grace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-010-010-68b38619"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-010-010-8f771d0d",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 5:10, to what did God call us?",
+      "answer": "His eternal glory",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-010-010-8f771d0d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-010-010-03aeb75a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 5:10, what must happen after you have suffered a while for God to perfect, establish, strengthen, and settle you?",
+      "answer": "you have suffered a while",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-005-010-010-03aeb75a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-011-011-7b2174bf",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 5:11, for what duration is the glory and dominion to be to Him?",
+      "answer": "forever and ever",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-005-011-011-7b2174bf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-011-011-8a960a12",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 5:11, what two things are to be to Him?",
+      "answer": "glory and the dominion",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-005-011-011-8a960a12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-011-011-1a655585",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "True or False: According to 1 Peter 5:11, the word 'Amen' is included.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-005-011-011-1a655585"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-26925e32",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 5:12, by whom was the letter written?",
+      "answer": "Silvanus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-012-012-26925e32"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-87197c85",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 5:12, how does Peter describe Silvanus?",
+      "answer": "our faithful brother",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-005-012-012-87197c85"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-a4d50156",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 5:12, in what manner did the author write to the recipients? (be specific)",
+      "answer": "briefly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-005-012-012-a4d50156"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-31c4b3ab",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 5:12, what are the two actions Peter performed in his writing?",
+      "answer": "exhorting and testifying",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-005-012-012-31c4b3ab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-98763442",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 5:12, what does Peter say the recipients are standing in?",
+      "answer": "the true grace of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-012-012-98763442"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-012-012-efc810ba",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to 1 Peter 5:12, Peter considers Silvanus to be a faithful brother.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-005-012-012-efc810ba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-013-013-58374c20",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 5:13, what title does Peter use for Mark?",
+      "answer": "my son",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-013-013-58374c20"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-013-013-539105b0",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 5:13, where is the person who greets the readers located?",
+      "answer": "Babylon",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-005-013-013-539105b0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-013-013-ade99047",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 5:13, who else besides the one in Babylon sends greetings?",
+      "answer": "Mark my son",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-013-013-ade99047"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-013-013-14f037fd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 5:13, who greets you from Babylon?",
+      "answer": "She who is in Babylon, elect together with you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-013-013-14f037fd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-014-014-78898b6b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 5:14, to whom is peace offered? (be specific)",
+      "answer": "you all who are in Christ Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-005-014-014-78898b6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-014-014-b07167d5",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 5:14, what is the final word spoken in the verse?",
+      "answer": "Amen",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-005-014-014-b07167d5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-005-014-014-b8151e7c",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 5:14, with what should you greet one another?",
+      "answer": "a kiss of love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-005-014-014-b8151e7c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "60-005-001-001-c9819d1a",
+      "60-005-001-001-0f49360a",
+      "60-005-001-001-74c55e4e",
+      "60-005-001-001-0fffb341"
+    ],
+    "2": [
+      "60-005-002-002-f1ee3560",
+      "60-005-002-002-52fd01be",
+      "60-005-002-002-cc9f4049"
+    ],
+    "3": [
+      "60-005-003-003-0fe7dca1",
+      "60-005-003-003-20f0abe4",
+      "60-005-003-003-7e109210"
+    ],
+    "4": [
+      "60-005-004-004-918df3c1",
+      "60-005-004-004-9293e5c7",
+      "60-005-004-004-64409a9a"
+    ],
+    "5": [
+      "60-005-005-005-2786e817",
+      "60-005-005-005-0cd50f86",
+      "60-005-005-005-52195297",
+      "60-005-005-005-5c64cacb",
+      "60-005-005-005-3c2de9ef",
+      "60-005-005-005-e46dac6a",
+      "60-005-005-005-72dc17ac"
+    ],
+    "6": [
+      "60-005-006-006-cf6ecb64",
+      "60-005-006-006-28134111",
+      "60-005-006-006-b628b801",
+      "60-005-006-006-cfe55dff"
+    ],
+    "7": [
+      "60-005-007-007-012dc7a3",
+      "60-005-007-007-960787ef",
+      "60-005-007-007-5ff4f048"
+    ],
+    "8": [
+      "60-005-008-008-952bc0eb",
+      "60-005-008-008-16410b13",
+      "60-005-008-008-78135bbe",
+      "60-005-008-008-ff6992c3"
+    ],
+    "9": [
+      "60-005-009-009-9ecb4082",
+      "60-005-009-009-e0937e8e",
+      "60-005-009-009-e21721df",
+      "60-005-009-009-82066e4e"
+    ],
+    "10": [
+      "60-005-010-010-e4c2ea52",
+      "60-005-010-010-44ae7879",
+      "60-005-010-010-68b38619",
+      "60-005-010-010-8f771d0d",
+      "60-005-010-010-03aeb75a"
+    ],
+    "11": [
+      "60-005-011-011-7b2174bf",
+      "60-005-011-011-8a960a12",
+      "60-005-011-011-1a655585"
+    ],
+    "12": [
+      "60-005-012-012-26925e32",
+      "60-005-012-012-87197c85",
+      "60-005-012-012-a4d50156",
+      "60-005-012-012-31c4b3ab",
+      "60-005-012-012-98763442",
+      "60-005-012-012-efc810ba"
+    ],
+    "13": [
+      "60-005-013-013-58374c20",
+      "60-005-013-013-539105b0",
+      "60-005-013-013-ade99047",
+      "60-005-013-013-14f037fd"
+    ],
+    "14": [
+      "60-005-014-014-78898b6b",
+      "60-005-014-014-b07167d5",
+      "60-005-014-014-b8151e7c"
+    ]
+  }
+}

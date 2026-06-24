@@ -1,0 +1,699 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "63-2-john",
+  "book": "2 John",
+  "chapter": 1,
+  "questions": [
+    {
+      "id": "63-001-001-001-b7028fe1",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 John 1:1, besides the author, who else loves the elect lady and her children?",
+      "answer": "all those who have known the truth",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "63-001-001-001-b7028fe1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-001-001-e37c03fa",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 John 1:1, how does the author feel about the elect lady and her children?",
+      "answer": "whom I love in truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-001-001-e37c03fa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-001-001-98523f9f",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 John 1:1, how does the author identify himself?",
+      "answer": "The Elder",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "63-001-001-001-98523f9f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-001-001-f51563b6",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 John 1:1, to whom is the letter addressed?",
+      "answer": "the elect lady and her children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "63-001-001-001-f51563b6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-002-002-617a8544",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 John 1:2, how long will the truth be with us?",
+      "answer": "forever",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "63-001-002-002-617a8544"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-002-002-5e8eece3",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 John 1:2, what is the reason for the love described in Verse 1?",
+      "answer": "because of the truth which abides in us and will be with us forever",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "63-001-002-002-5e8eece3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-002-002-b2f4ec05",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 John 1:2, where does the truth reside regarding us?",
+      "answer": "abides in us",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "63-001-002-002-b2f4ec05"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-003-003-09f74907",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 John 1:3, from whom will grace, mercy, and peace come?",
+      "answer": "from God the Father and from the Lord Jesus Christ, the Son of the Father",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "63-001-003-003-09f74907"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-003-003-9aa6b4f5",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 John 1:3, in what context will grace, mercy, and peace be with you (be specific)?",
+      "answer": "in truth and love",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "63-001-003-003-9aa6b4f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-003-003-aa93c030",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 John 1:3, list the three things that will be with you (be specific).",
+      "answer": "Grace, mercy, and peace",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "63-001-003-003-aa93c030"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-004-004-e7fa6d14",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 John 1:4, from whom did we receive the commandment mentioned?",
+      "answer": "the Father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "63-001-004-004-e7fa6d14"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-004-004-5812b79b",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 John 1:4, how did the writer feel upon finding some of the children walking in truth?",
+      "answer": "I rejoiced greatly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "63-001-004-004-5812b79b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-004-004-965c9242",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 John 1:4, what did the writer find some of the children doing?",
+      "answer": "walking in truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-004-004-965c9242"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-005-005-0133a7b7",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 John 1:5, how does the writer describe the commandment being written?",
+      "answer": "not as though I wrote a new commandment to you, but that which we have had from the beginning",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "63-001-005-005-0133a7b7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-005-005-26677cae",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 John 1:5, what does the writer do to the lady?",
+      "answer": "plead with you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-005-005-26677cae"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-005-005-35306fa6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 John 1:5, what is the commandment that we have had from the beginning?",
+      "answer": "that we love one another",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-005-005-35306fa6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-006-006-f780fdd2",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 John 1:6, how is love defined (be specific)?",
+      "answer": "that we walk according to His commandments",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "63-001-006-006-f780fdd2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-006-006-07060514",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 John 1:6, what is identified as the commandment?",
+      "answer": "that as you have heard from the beginning, you should walk in it",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "63-001-006-006-07060514"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-006-006-8855e4c0",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "True or False: According to 2 John 1:6, you should walk in the commandment that you have heard from the beginning.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "63-001-006-006-8855e4c0"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-007-007-20f91f75",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 John 1:7, what do the many deceivers not confess concerning Jesus Christ?",
+      "answer": "as coming in the flesh",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-007-007-20f91f75"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-007-007-1ca4fb13",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 John 1:7, what have many gone out into the world?",
+      "answer": "deceivers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-007-007-1ca4fb13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-007-007-20afb684",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 John 1:7, what two things is a person described as if they do not confess Jesus Christ as coming in the flesh? (be specific)",
+      "answer": "a deceiver and an antichrist",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "63-001-007-007-20afb684"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-008-008-2767dd7a",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 John 1:8, what are we cautioned that we do not lose?",
+      "answer": "those things we worked for",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-008-008-2767dd7a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-008-008-309f3066",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 John 1:8, what are we told to look to?",
+      "answer": "yourselves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-008-008-309f3066"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-008-008-f8e7687c",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 John 1:8, what may we receive?",
+      "answer": "a full reward",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-008-008-f8e7687c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-009-009-fbb4e5d7",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 John 1:9, what does a person do that results in them not having God?",
+      "answer": "transgresses and does not abide in the doctrine of Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-009-009-fbb4e5d7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-009-009-c52b5c8c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 John 1:9, what does the person who abides in the doctrine of Christ have? (be specific)",
+      "answer": "both the Father and the Son",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "63-001-009-009-c52b5c8c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-010-010-3efc78c4",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 John 1:10, if anyone comes to you and does not bring this doctrine, where should you not receive him?",
+      "answer": "into your house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "63-001-010-010-3efc78c4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-010-010-e52393d3",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 John 1:10, what are you told not to do if anyone comes to you and does not bring this doctrine?",
+      "answer": "do not receive him into your house nor greet him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "63-001-010-010-e52393d3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-010-010-3484e87e",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 John 1:10, what should you do if anyone comes to you but does not bring this doctrine (be specific)?",
+      "answer": "do not receive him into your house nor greet him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "63-001-010-010-3484e87e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-010-010-b8441855",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 John 1:10, what specific action are you forbidden from performing towards someone who does not bring this doctrine?",
+      "answer": "greet him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-010-010-b8441855"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-011-011-8c9ed48e",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 John 1:11, what does he who greets him share in?",
+      "answer": "his evil deeds",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-011-011-8c9ed48e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-011-011-7f14d212",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 John 1:11, what is the consequence of greeting him?",
+      "answer": "he who greets him shares in his evil deeds",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "63-001-011-011-7f14d212"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-012-012-a2d5d87f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 John 1:12, what did the author have many of, but did not wish to use paper and ink for?",
+      "answer": "things to write to you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-012-012-a2d5d87f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-012-012-5f559915",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 John 1:12, what does the author hope to do instead of writing with paper and ink? (be specific)",
+      "answer": "come to you and speak face to face",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "63-001-012-012-5f559915"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-012-012-09d78a5f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 John 1:12, what two physical materials did the author not wish to use to write to the recipient?",
+      "answer": "paper and ink",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "63-001-012-012-09d78a5f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-012-012-73c23194",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 John 1:12, why does the author hope to come and speak face to face?",
+      "answer": "that our joy may be full",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "63-001-012-012-73c23194"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-013-013-74512170",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 John 1:13, what word concludes the verse?",
+      "answer": "Amen",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "63-001-013-013-74512170"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "63-001-013-013-12347bf5",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 John 1:13, who sends greetings to the recipient?",
+      "answer": "The children of your elect sister",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "63-001-013-013-12347bf5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "63-001-001-001-b7028fe1",
+      "63-001-001-001-e37c03fa",
+      "63-001-001-001-98523f9f",
+      "63-001-001-001-f51563b6"
+    ],
+    "2": [
+      "63-001-002-002-617a8544",
+      "63-001-002-002-5e8eece3",
+      "63-001-002-002-b2f4ec05"
+    ],
+    "3": [
+      "63-001-003-003-09f74907",
+      "63-001-003-003-9aa6b4f5",
+      "63-001-003-003-aa93c030"
+    ],
+    "4": [
+      "63-001-004-004-e7fa6d14",
+      "63-001-004-004-5812b79b",
+      "63-001-004-004-965c9242"
+    ],
+    "5": [
+      "63-001-005-005-0133a7b7",
+      "63-001-005-005-26677cae",
+      "63-001-005-005-35306fa6"
+    ],
+    "6": [
+      "63-001-006-006-f780fdd2",
+      "63-001-006-006-07060514",
+      "63-001-006-006-8855e4c0"
+    ],
+    "7": [
+      "63-001-007-007-20f91f75",
+      "63-001-007-007-1ca4fb13",
+      "63-001-007-007-20afb684"
+    ],
+    "8": [
+      "63-001-008-008-2767dd7a",
+      "63-001-008-008-309f3066",
+      "63-001-008-008-f8e7687c"
+    ],
+    "9": [
+      "63-001-009-009-fbb4e5d7",
+      "63-001-009-009-c52b5c8c"
+    ],
+    "10": [
+      "63-001-010-010-3efc78c4",
+      "63-001-010-010-e52393d3",
+      "63-001-010-010-3484e87e",
+      "63-001-010-010-b8441855"
+    ],
+    "11": [
+      "63-001-011-011-8c9ed48e",
+      "63-001-011-011-7f14d212"
+    ],
+    "12": [
+      "63-001-012-012-a2d5d87f",
+      "63-001-012-012-5f559915",
+      "63-001-012-012-09d78a5f",
+      "63-001-012-012-73c23194"
+    ],
+    "13": [
+      "63-001-013-013-74512170",
+      "63-001-013-013-12347bf5"
+    ]
+  }
+}

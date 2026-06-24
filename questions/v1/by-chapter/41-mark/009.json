@@ -1,0 +1,3040 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 9,
+  "questions": [
+    {
+      "id": "41-009-001-001-8e23ebb1",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 9:1, how will they see the kingdom of God?",
+      "answer": "present with power",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-009-001-001-d020892b",
+        "41-009-001-001-50ce88ce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-001-001-877210b6",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 9:1, what phrase does Jesus use to introduce His statement?",
+      "answer": "Assuredly, I say to you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-001-001-1557e91e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-001-001-09a74959",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 9:1, what will some standing there not do, till when, present with what?",
+      "answer": "taste death, they see the Kingdom of God, power",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-009-001-001-295efda8",
+        "41-009-001-001-cf9f9410"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-001-001-6eb347a0",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 9:1, who will not taste death until they see the kingdom of God present with power?",
+      "answer": "some standing here",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-001-001-d66e6604"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-002-002-806b8b43",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 9:2, how many days passed before Jesus took Peter, James, and John up on a high mountain?",
+      "answer": "six",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-009-002-002-cc25c217"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-002-002-37eb28d9",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 9:2, name the three disciples that Jesus took up on a high mountain.",
+      "answer": "Peter, James, and John",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-002-002-62efb239"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-002-002-54366501",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 9:2, what happened to Jesus while he was with the three disciples on the mountain? (be specific)",
+      "answer": "He was transfigured before them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-002-002-5b248543",
+        "41-009-002-002-54366501"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-002-002-c1c9c7b0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 9:2, where did Jesus lead them, after how long did they leave, who did He lead, with who, what happened to Jesus?",
+      "answer": "up on a high mountain, after six days, Peter James and John, apart by themselves, He was transfigured before them",
+      "type": "where",
+      "points": 7,
+      "originalIds": [
+        "41-009-002-002-887f4ff2",
+        "41-009-002-002-0e978e93"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-003-003-f242c46d",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 9:3, to what four descriptions were used for Jesus' clothes?",
+      "answer": "shining, exceedingly white, like snow, such as no launderer on earth can whiten them",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-009-003-003-e29f04e9",
+        "41-009-003-003-229d2f5c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-003-003-17f977e8",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 9:3, what became shining and exceedingly white?",
+      "answer": "His clothes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-003-003-09e37338"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-003-003-5624660c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 9:3, what type of person on earth cannot whiten clothes to the state that Jesus' clothes were? (be specific)",
+      "answer": "launderer",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-003-003-498dff64"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-003-003-6ba8b731",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "True or False: According to Mark 9:3, Jesus' clothes became shining and exceedingly white.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-009-003-003-cc511722"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-004-004-f92630bb",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, which two people appeared to them?",
+      "answer": "Elijah and Moses",
+      "type": "how_many",
+      "points": 2,
+      "originalIds": [
+        "41-009-004-004-c624c85f",
+        "41-009-004-004-1181cfdf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-004-004-39808fa9",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, name the two individuals who appeared to them.",
+      "answer": "Elijah and Moses",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-004-004-f01d0e31"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-004-004-0eb0393c",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, what were the two figures doing with Jesus? (be specific)",
+      "answer": "talking with Jesus",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-004-004-cef6e93a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-004-004-9fc0791b",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, who appeared with Moses?",
+      "answer": "Elijah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-004-004-e6c8fa8b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-004-004-b7843d82",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to Mark 9:4, Elisha and Moses were talking with Jesus.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-009-004-004-d6bba33d",
+        "41-009-004-004-673db61e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-005-005-29139fa6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 9:5, who answered Jesus, how did he address Jesus, it was good for what, make what, how many, and for who?",
+      "answer": "Peter, Rabbi, us to be here, tabernacles, three, YOu Moses and ELijah",
+      "type": "how_many",
+      "points": 6,
+      "originalIds": [
+        "41-009-005-005-d6adaceb",
+        "41-009-005-005-68a18afc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-005-005-8b30d50b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 9:5, name the three people for whom Peter wanted to make tabernacles. (be specific)",
+      "answer": "Jesus, Moses, and Elijah",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-005-005-d21fb8d9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-005-005-9652024a",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 9:5, what did Peter call Jesus?",
+      "answer": "Rabbi",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-005-005-ac6d4e0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-005-005-7c5492c3",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 9:5, who answered and said to Jesus, “Rabbi, it is good for us to be here”?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-005-005-50c18acb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-006-006-7d15b827",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 9:6, what was the emotional state of the group?",
+      "answer": "they were greatly afraid",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-006-006-00474211"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-006-006-1ceb3de6",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 9:6, why did Peter suggest making three tabernacles?",
+      "answer": "he did not know what to say",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-006-006-255b85bd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-007-007-83b97c32",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 9:7, how did the voice describe the person it was speaking about? (be specific)",
+      "answer": "My beloved Son",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-007-007-ed2451cb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-007-007-96dee4bd",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 9:7, what came and overshadowed them?",
+      "answer": "a cloud",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-007-007-ae665807"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-007-007-5617e509",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 9:7, what command was given concerning the Son?",
+      "answer": "Hear Him!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-007-007-9bd7211f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-007-007-71663e53",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 9:7, where did the voice come from?",
+      "answer": "out of the cloud",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-007-007-379c5249"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-008-008-4f7f8773",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 9:8, how quickly did the state of things change after they looked around?",
+      "answer": "Suddenly",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-009-008-008-acb2a4a6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-008-008-2f958255",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 9:8, what did they do before they saw no one anymore?",
+      "answer": "looked around",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-008-008-680e9b2a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-008-008-b8027e63",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 9:8, when they looked around, who remained with them?",
+      "answer": "only Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-008-008-883785d2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-009-009-377ee480",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 9:9, until what event were they commanded to tell no one the things they had seen? (be specific)",
+      "answer": "the Son of Man had risen from the dead",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-009-009-009-874605b7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-009-009-dd8fba1f",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 9:9, where were they coming?",
+      "answer": "down from the mountain",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-009-009-707f78ff",
+        "41-009-009-009-f3e2adfe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-009-009-139415b6",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 9:9, who commanded them to tell no one the things they had seen?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-009-009-80647985"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-010-010-8d4a986a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 9:10, what did they do with the word they were told?",
+      "answer": "kept this word to themselves, questioning what the rising from the dead meant",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-010-010-435c7117",
+        "41-009-010-010-4c60e5c9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-010-010-91435799",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 9:10, what specific subject were they questioning the meaning of? (be specific)",
+      "answer": "the rising from the dead",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-010-010-c62da30f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-010-010-c81a63af",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 9:10, what were they doing regarding the rising from the dead?",
+      "answer": "questioning what it meant",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-010-010-287af39e",
+        "41-009-010-010-392d6ee2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-011-011-c81e79fb",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 9:11, what is the specific question asked by the people regarding the scribes?",
+      "answer": "Why do the scribes say that Elijah must come first?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-011-011-4fbd0510",
+        "41-009-011-011-c81e79fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-011-011-741c801a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 9:11, which group of people did the questioners mention regarding the coming of Elijah?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-011-011-179d593a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-011-011-90e5080a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 9:11, who said that which prophet must come first?",
+      "answer": "scribes, Elijah",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-009-011-011-bf8c9ec7",
+        "41-009-011-011-d9c54bb8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-011-011-ce54b988",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 9:11, who were the people asking the question about Elijah?",
+      "answer": "they",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-011-011-d3666aaa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-012-012-4bdde09f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 9:12, list the two things that the Son of Man must experience as written in scripture (be specific).",
+      "answer": "suffer many things and be treated with contempt",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-012-012-933ea679"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-012-012-22a4de4f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 9:12, what does Elijah do when he comes first?",
+      "answer": "restores all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-012-012-d44cee4a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-012-012-1ae1a442",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 9:12, what title is used to refer to the person who must suffer many things and be treated with contempt?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-012-012-646079df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-012-012-edd1315f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 9:12, who is coming first and restores all things?",
+      "answer": "Elijah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-012-012-de1a0aa2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-013-013-3e507501",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 9:13, what did they do to Elijah when he came?",
+      "answer": "they did to him whatever they wished",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-013-013-aa8ce745"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-013-013-e439bdef",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 9:13, how does He indicate that what happened to Elija was in prophesy?",
+      "answer": "as it is written of him",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-013-013-10ef311c",
+        "41-009-013-013-5f387107"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-013-013-18c20f55",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 9:13, who will come, what did they do, and how do we know it was prophesy?",
+      "answer": "Elijah, whatever they wished, as it is written of him",
+      "type": "who",
+      "points": 3,
+      "originalIds": [
+        "41-009-013-013-36d94133",
+        "41-009-013-013-fbfc6d1c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-014-014-f053a760",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 9:14, what did He see around the disciples?",
+      "answer": "a great multitude, scribes disputing with them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-014-014-ca75db9b",
+        "41-009-014-014-0de76cc3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-014-014-fcc53d27",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 9:14, what were the scribes doing with the disciples? (be specific)",
+      "answer": "disputing with them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-014-014-529c50f6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-014-014-1347eee6",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 9:14, who came to the disciples?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-014-014-671908ab"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-014-014-10142a81",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 9:14, who was disputing with the disciples?",
+      "answer": "scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-014-014-9e1149b9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-015-015-754bdded",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 9:15, how did the people feel when they saw Him?",
+      "answer": "greatly amazed",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-009-015-015-2b3a2918"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-015-015-d1d1cf6b",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 9:15, what happened when they saw Him?",
+      "answer": "people were greatly amazed, running to Him, greeted Him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-015-015-957f79cc",
+        "41-009-015-015-8bd64476"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-015-015-f75b3560",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 9:15, when did the people see Him?",
+      "answer": "Immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-009-015-015-81e5e5c6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-016-016-c944ab59",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 9:16, what question did He ask the scribes? (be specific)",
+      "answer": "What are you discussing with them?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-016-016-7094d7f6",
+        "41-009-016-016-c944ab59"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-016-016-8e777e9a",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 9:16, who did He ask a question to?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-016-016-0dab33bf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-017-017-f7abc11f",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 9:17, what kind of spirit did the man's son have?",
+      "answer": "a mute spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-017-017-561781b9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-017-017-b735db2a",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 9:17, what title did the person use to address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-017-017-16b01c77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-017-017-7f5287d5",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 9:17, who answered the Teacher?",
+      "answer": "one of the crowd",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-017-017-3a11d78b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-017-017-1f0ed0ae",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 9:17, who did the man bring to the Teacher?",
+      "answer": "my son",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-017-017-1050dcfc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-018-018-53353a89",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 9:18, what does the spirit do to the boy?.",
+      "answer": "seizes him, throws him down, he foams at the mouth, gnashes his teeth, and becomes rigid",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-009-018-018-b41984a1",
+        "41-009-018-018-71aaf553"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-018-018-2d3c6523",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 9:18, to whom did the man speak?",
+      "answer": "Your disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-018-018-a0b7215b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-018-018-7e866a40",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 9:18, what did the man ask the disciples to do?",
+      "answer": "that they should cast it out",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-018-018-0301ecb6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-018-018-0b913da2",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 9:18, what happens to the boy whenever the spirit seizes him?",
+      "answer": "it throws him down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-018-018-674a874f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-019-019-e90d88ca",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 9:19, how did Jesus describe the generation?",
+      "answer": "O faithless generation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-019-019-0394e9ce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-019-019-2dbf7dbf",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 9:19, what command did Jesus give concerning the boy?",
+      "answer": "Bring him to Me.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-019-019-e599903b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-019-019-a1026cc1",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 9:19, what two questions did Jesus ask?",
+      "answer": "How long shall I be with you? How long shall I bear with you?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-019-019-12a65f2c",
+        "41-009-019-019-de0b28e8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-020-020-89a9503b",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 9:20, what did the boy do after the spirit convulsed him? (be specific)",
+      "answer": "he fell on the ground and wallowed, foaming at the mouth",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-020-020-ea6c4f09"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-020-020-4cc2e97c",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 9:20, what did the spirit do to him and when did the spirit do it?",
+      "answer": "convulsed him, immediately",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-020-020-c990d6ad",
+        "41-009-020-020-28126964"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-020-020-4cc68a73",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 9:20, where did the boy fall?",
+      "answer": "on the ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-020-020-2e5ff35d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-021-021-fb2159f6",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 9:21, what did He ask the father?",
+      "answer": "How long has this been happening to him?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-021-021-5dea8816"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-021-021-993e8215",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 9:21, what did the father reply to Jesus?",
+      "answer": "From childhood",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-009-021-021-2f768d66",
+        "41-009-021-021-8d8531f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-021-021-c0d5cd7f",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 9:21, who was Jesus questioning? (be specific)",
+      "answer": "his father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-021-021-61288dca",
+        "41-009-021-021-bee78aae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-022-022-02f6b62f",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 9:22, what are the two places the spirit would often throw him and why?",
+      "answer": "the fire, into the water, to destroy him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-022-022-2847345d",
+        "41-009-022-022-034f2503"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-022-022-af27551d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 9:22, what did the father ask the individual to do if He could do anything?",
+      "answer": "have compassion on us and help us",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-022-022-9f35655b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-022-022-fb0a6148",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 9:22, what was the stated purpose for the boy being thrown into the fire and water?",
+      "answer": "to destroy him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-022-022-ca3ba0ea"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-023-023-f64fa383",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 9:23, to whom are all things possible?",
+      "answer": "him who believes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-023-023-4603e042"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-023-023-6e98fc23",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 9:23, what is possible to him who believes? (be specific)",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-023-023-831c6113",
+        "41-009-023-023-6e98fc23"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-023-023-8fca80fe",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 9:23, who said, \"If you can believe, all things are possible to him who believes.\"",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-023-023-25548182",
+        "41-009-023-023-8fca80fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-024-024-60245099",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 9:24, how did the father of the child express his emotion while crying out?",
+      "answer": "with tears",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-009-024-024-bf48e21a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-024-024-26d6967d",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 9:24, what two things did the father of the child say to the Lord? (be specific)",
+      "answer": "I believe; help my unbelief",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-024-024-d0c6bb2a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-024-024-e9b86438",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 9:24, when did the father of the child cry out?",
+      "answer": "Immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-009-024-024-570778be"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-024-024-b8173449",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 9:24, who cried out and said with tears, \"Lord, I believe; help my unbelief!\"",
+      "answer": "the father of the child",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-024-024-3e3b0928"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-025-025-93dfe31e",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 9:25, how did Jesus address the unclean spirit?",
+      "answer": "Deaf and dumb spirit",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-025-025-eeed223c",
+        "41-009-025-025-93dfe31e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-025-025-2612d5fd",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 9:25, what happened that caused Jesus to rebuke the unclean spirit?",
+      "answer": "the people came running together",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-025-025-b660c6a2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-025-025-2685fc0b",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 9:25, what two commands did Jesus give to the unclean spirit? (be specific)",
+      "answer": "come out of him and enter him no more",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-025-025-6dcf057d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-026-026-798dd826",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 9:26, what did many people say about the boy?",
+      "answer": "He is dead",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-026-026-20ec1a7e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-026-026-d6260d56",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 9:26, what three actions did the spirit take upon leaving the boy? (be specific)",
+      "answer": "cried out, convulsed him greatly, and came out of him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-009-026-026-1883ecfd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-026-026-fd6df113",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 9:26, what was the physical condition of the boy after the spirit came out of him?",
+      "answer": "he became as one dead",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-026-026-e6d740c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-027-027-87b736ec",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 9:27, what did Jesus do to the boy?",
+      "answer": "took him by the hand and lifted him up",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-027-027-e14ee4b9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-027-027-e9cc2abd",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 9:27, what happened once Jesus lifted the boy up?",
+      "answer": "he arose",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-027-027-0a00dfc6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-028-028-ab1a2d68",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 9:28, in what manner did the disciples ask Jesus their question?",
+      "answer": "privately",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-009-028-028-17e8df7d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-028-028-27825923",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 9:28, what was the question the disciples asked Jesus?",
+      "answer": "Why could we not cast it out?",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-009-028-028-7296f51d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-028-028-a903e570",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 9:28, where did the disciples ask Jesus their question?",
+      "answer": "into the house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-028-028-772a5ec9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-028-028-b3c592fb",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 9:28, who asked Jesus a question privately?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-028-028-1beaa652"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-029-029-98143435",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 9:29, list the 2 things required for this kind to come out (be specific).",
+      "answer": "prayer and fasting",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-029-029-bd77e409"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-029-029-886e6e80",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 9:29, to whom did Jesus speak?",
+      "answer": "them",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-029-029-7aded1ca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-029-029-8df8312a",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 9:29, what does Jesus say is the only way this kind can come out?",
+      "answer": "by nothing but prayer and fasting",
+      "type": "how",
+      "points": 3,
+      "originalIds": [
+        "41-009-029-029-ab9f0131",
+        "41-009-029-029-8df8312a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-030-030-cc99d894",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 9:30, what did 'He' not want anyone to know?",
+      "answer": "that they departed from there and passed through Galilee",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-030-030-0f1f9e50",
+        "41-009-030-030-cc99d894"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-030-030-0713b940",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 9:30, what did they do after they departed from there? (be specific)",
+      "answer": "passed through Galilee",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-030-030-0fc854cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-030-030-276e331f",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 9:30, where did they pass through?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-030-030-26500e2b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-031-031-51f66973",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, where is the Son of Man being betrayed?",
+      "answer": "the hands of men",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-009-031-031-3011a114",
+        "41-009-031-031-f608c1f4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-031-031-d815c0cd",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, list the 2 things that will happen to the Son of Man after He is betrayed into the hands of men. (be specific)",
+      "answer": "they will kill Him; He will rise the third day",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-031-031-ba6add20"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-031-031-d36e667c",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, what will men do to the Son of Man?",
+      "answer": "kill Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-031-031-289770c4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-031-031-b0c95074",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, what wil happen after he is killed and when?",
+      "answer": "He will rise on the third day",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-009-031-031-46e95b01",
+        "41-009-031-031-2dbe8d1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-031-031-29c1816e",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, whom did He teach?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-031-031-947271a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-032-032-eb897f7d",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 9:32, what was the disciples' reaction and why?",
+      "answer": "they did not understand this saying, and were afraid to ask Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-032-032-5216b4b2",
+        "41-009-032-032-6a9d754c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-032-032-5b9b7029",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 9:32, what were the disciples afraid to do?",
+      "answer": "to ask Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-032-032-a240267b",
+        "41-009-032-032-8ebeb4d3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-033-033-8cb67683",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 9:33, what did He ask them?",
+      "answer": "What was it you disputed among yourselves on the road?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-033-033-768b2c45",
+        "41-009-033-033-67eeab0a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-033-033-fcd98356",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 9:33, where did He come to?",
+      "answer": "Capernaum",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-033-033-6524b41f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-033-033-45e38c67",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 9:33, where was He when He asked the disciples a question?",
+      "answer": "in the house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-033-033-f25024eb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-034-034-b9d6573a",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 9:34, how did they answer Jesus? What had they been doing? About what? Where?",
+      "answer": "they kept silent, disputing among themselves, who would be greatest, on the road",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-009-034-034-4cd7147d",
+        "41-009-034-034-c6c0d308"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-034-034-85c198cb",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 9:34, why did the disciples keep silent?",
+      "answer": "for on the road they had disputed among themselves who would be the greatest",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-009-034-034-41b4919c",
+        "41-009-034-034-85c198cb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-034-034-717bf249",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "True or False: According to Mark 9:34, the disciples had been arguing about who would be the greatest while on the road.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-009-034-034-7283273a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-035-035-6198e343",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 9:35, what did Jesus say was the case if anyone desires to be first? (be specific)",
+      "answer": "he shall be last of all and servant of all",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-035-035-8f86a668",
+        "41-009-035-035-94713190"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-035-035-3c71a94f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 9:35, what did Jesus do before calling the twelve?",
+      "answer": "He sat down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-035-035-5c138f55"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-035-035-4205ba82",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 9:35, what is the implied resultof being last of all and servant of all?",
+      "answer": "to be first",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-035-035-2bdaa436",
+        "41-009-035-035-f35f8175"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-035-035-f1b862df",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 9:35, whom did Jesus call after He sat down? (be specific)",
+      "answer": "the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-035-035-c8512e79",
+        "41-009-035-035-9142ee03"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-036-036-16a42905",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 9:36, what 3 things did Jesus do to the child?",
+      "answer": "took him, set him in their midst, take him in His arms",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-009-036-036-167b7fc6",
+        "41-009-036-036-4647b027"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-036-036-45715d31",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 9:36, where did Jesus set the little child?",
+      "answer": "in the midst of them",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-036-036-9adc5b9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-036-036-7904c4b8",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 9:36, who did Jesus take and set in the midst of them?",
+      "answer": "a little child",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-036-036-c6bb4eed"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-037-037-fb5654b6",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 9:37, what two things is someone receiving if the receive one of these little children?",
+      "answer": "Me; and Him who sent Me",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-037-037-7e9240a8",
+        "41-009-037-037-f9c49b72"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-037-037-4794537c",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 9:37, what was the example action, and how was it done, to recieve Me and Him who sent Me?",
+      "answer": "receive one of these little children in My name",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-037-037-4133c286",
+        "41-009-037-037-f7640b5e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-037-037-a6376465",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 9:37, whoever receives Jesus does not receive Him, but receives whom?",
+      "answer": "Him who sent Me",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-037-037-01d1227a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-038-038-4ca3a3dd",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 9:38, what title did John use to address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-038-038-cc77deb6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-038-038-488b04be",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 9:38, what was the man doing in Jesus' name?",
+      "answer": "casting out demons",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-038-038-23820c8e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-038-038-49b68a92",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 9:38, who answered Jesus?",
+      "answer": "John",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-038-038-fd06e28d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-038-038-04a25277",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 9:38, why did the disciples forbid the man?",
+      "answer": "because he does not follow us",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-038-038-d422f701"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-039-039-3751871b",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 9:39, what command did Jesus give regarding the man who was casting out demons and why?",
+      "answer": "Do not forbid him, no one who works a miracle in My name can soon afterward speak evil of Me",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-009-039-039-d3e7c8b3",
+        "41-009-039-039-f2ea963f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-039-039-3a96ec58",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 9:39, why should the man not be forbidden?",
+      "answer": "for no one who works a miracle in My name can soon afterward speak evil of Me",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-009-039-039-d2d8a394",
+        "41-009-039-039-3a96ec58"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-040-040-e20efab1",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 9:40, what is the status of the person who is not against them?",
+      "answer": "he is on our side",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-040-040-4936646e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-041-041-5172b94c",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 9:41, what do they give, to do what, who do they give it to, in what authority, why do they give it, and what does he not lose?",
+      "answer": "a cup of water, to drink, gives you, in My name, you belong to Christ, his reward",
+      "type": "what",
+      "points": 6,
+      "originalIds": [
+        "41-009-041-041-c47441d1",
+        "41-009-041-041-61ee2eba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-041-041-cbd49f50",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 9:41, what will happen to the one who gives a cup of water in Christ's name?",
+      "answer": "he will by no means lose his reward",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-041-041-aab831e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-041-041-c2e34f92",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 9:41, what can make him who gives you a cup of water to drink in My name, because you belong to Christ lose his reward?",
+      "answer": "no means",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-041-041-a6a2e12c",
+        "41-009-041-041-ec08c4b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-042-042-9950cbeb",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 9:42, what situation is better than causing a little one who beleives in Jesus to stumble?",
+      "answer": "a millstone hung around his neck, and thrown into the sea",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-042-042-0cdccfb4",
+        "41-009-042-042-07a25c9c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-042-042-1b261698",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 9:42, what is hung around his neck?",
+      "answer": "millstone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-042-042-844cb38c",
+        "41-009-042-042-8b474988"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-042-042-6f7e1746",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 9:42, where should a person who causes a little one to stumble be thrown if they have a millstone hung around their neck?",
+      "answer": "into the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-042-042-72abde2e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-042-042-c21ff282",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 9:42, who do we not want to cause to stumble?",
+      "answer": "one of these little ones, who believe in Jesus",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-009-042-042-9c5eda39",
+        "41-009-042-042-7c5d7b74"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-042-042-72b6ece0",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "True or False: According to Mark 9:42, the millstone should be hung around the neck of one who causes a little one who believes in Jesus to stumble.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-009-042-042-86284144"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-043-043-9703d371",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, how is the fire of hell described?",
+      "answer": "the fire that shall never be quenched",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-043-043-1896620c",
+        "41-009-043-043-9296e86a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-043-043-b17d21bd",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, what body part is referenced? What should you do with it if it causes you to sin? How is it better to enter into life? Rather than having what number? Rather than going where? Into what? That is never what?",
+      "answer": "hand, cut it off, maimed, two, hell, fire, quenched",
+      "type": "how_many",
+      "points": 7,
+      "originalIds": [
+        "41-009-043-043-78e86ffa",
+        "41-009-043-043-a0ccb878"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-043-043-d7dce857",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, into what place shall the person with two hands go?",
+      "answer": "hell",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-043-043-4630a49b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-043-043-cb44ea77",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, what is it better to enter into and how, rather than having two hands and going to hell?",
+      "answer": "life, maimed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-043-043-a5d8846c",
+        "41-009-043-043-8c8831d0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-043-043-4d856512",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, what should you do if your hand causes you to sin?",
+      "answer": "cut it off",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-043-043-99c0b761"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-044-044-e2a2c0dd",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 9:44, list the 2 things mentioned that happen in this place. (be specific)",
+      "answer": "Their worm does not die; the fire is not quenched",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-044-044-391c4e94"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-044-044-094b67de",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 9:44, what does not die?",
+      "answer": "Their worm",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-044-044-fe6dc00b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-044-044-c156f7f7",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 9:44, what is not quenched?",
+      "answer": "the fire",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-044-044-312fe8e1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-045-045-68bebe98",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, how is it better to enter life?",
+      "answer": "lame",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-009-045-045-19251fc9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-045-045-e9c94b57",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, what body part is referenced? What should you do with it if it causes you to sin? How is it better to enter into life? Rather than having what number? Rather than going where? Into what? That is never what?",
+      "answer": "foot, cut it off, lame, two, hell, fire, quenched",
+      "type": "how_many",
+      "points": 7,
+      "originalIds": [
+        "41-009-045-045-68e37b40",
+        "41-009-045-045-f4bf01fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-045-045-00fea3bd",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, what action should you take if your foot causes you to sin?",
+      "answer": "cut it off",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-045-045-124b87cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-045-045-970408f7",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, what body part should be cut off if it causes you to sin?",
+      "answer": "foot",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-045-045-5ac75b71"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-045-045-d9e7f536",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, what is the alternative to entering life lame if you refuse to cut off your foot that is causing you to sin?",
+      "answer": "having two feet, to be cast into hell",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-045-045-b46304b4",
+        "41-009-045-045-8e4bba22"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-046-046-5adc9e64",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 9:46, what happens to 'their worm'?",
+      "answer": "does not die",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-046-046-86628369"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-046-046-ffeb9a24",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 9:46, what happens to the fire?",
+      "answer": "is not quenched",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-046-046-a4d0d495"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-047-047-4cbb8f17",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, how many eyes is it better to have when entering the kingdom of God compared to being cast into hell fire? (be specific)",
+      "answer": "one eye",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-009-047-047-c9ada49f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-047-047-830fbc30",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, what body part is referenced? What should you do with it if it causes you to sin? It is better to enter what with what? Rather than having what number? Rather than being cast into what?",
+      "answer": "eye, pluck it out, the kingdom of God, one eye, two eyes, hell fire",
+      "type": "how_many",
+      "points": 6,
+      "originalIds": [
+        "41-009-047-047-2e865f82",
+        "41-009-047-047-713a0943"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-047-047-beb8a2c2",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, what body part should be plucked out if it causes you to sin?",
+      "answer": "your eye",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-047-047-00c1434e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-047-047-5cdee73a",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, what is it better to enter than to be cast into hell fire?",
+      "answer": "the kingdom of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-047-047-5b1297b4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-047-047-cf068556",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, what is the specific location where one would be cast if they have two eyes because they refused to pluck out the eye that caused them to sin? (be specific)",
+      "answer": "hell fire",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-047-047-eeba655a",
+        "41-009-047-047-a004a6d2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-048-048-62891fc3",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 9:48, list the two things that describe the conditions in the place where the fire is not quenched. (be specific)",
+      "answer": "Their worm does not die, the fire is not quenched",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-048-048-f2f114f9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-048-048-88e02090",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 9:48, what does not die?",
+      "answer": "Their worm",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-048-048-18996a77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-048-048-bfabb49a",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 9:48, what is not quenched?",
+      "answer": "the fire",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-048-048-a96f44eb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-049-049-54025385",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 9:49, what will be seasoned with salt? (be specific)",
+      "answer": "every sacrifice",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-049-049-57d730fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-049-049-bbe59215",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 9:49, what will every sacrifice be seasoned with?",
+      "answer": "salt",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-049-049-fd025290"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-049-049-90d02890",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 9:49, what will everyone be seasoned with?",
+      "answer": "fire",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-049-049-68c8397c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-050-050-f19cb791",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 9:50, list the two commands given?",
+      "answer": "Have salt in yourselves, and have peace with one another",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-050-050-09c8b472",
+        "41-009-050-050-10164b16"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-050-050-d0cc0e73",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 9:50, what is described as good?",
+      "answer": "Salt",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-050-050-c22f1d72"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-050-050-72dca29e",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 9:50, what question is asked regarding salt if it loses its flavor?",
+      "answer": "how will you season it?",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-009-050-050-d039142d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-009-050-050-2cc59ef4",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 9:50, what should you have with one another?",
+      "answer": "peace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-050-050-67878dba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-009-001-001-8e23ebb1",
+      "41-009-001-001-877210b6",
+      "41-009-001-001-09a74959",
+      "41-009-001-001-6eb347a0"
+    ],
+    "2": [
+      "41-009-002-002-806b8b43",
+      "41-009-002-002-37eb28d9",
+      "41-009-002-002-54366501",
+      "41-009-002-002-c1c9c7b0"
+    ],
+    "3": [
+      "41-009-003-003-f242c46d",
+      "41-009-003-003-17f977e8",
+      "41-009-003-003-5624660c",
+      "41-009-003-003-6ba8b731"
+    ],
+    "4": [
+      "41-009-004-004-f92630bb",
+      "41-009-004-004-39808fa9",
+      "41-009-004-004-0eb0393c",
+      "41-009-004-004-9fc0791b",
+      "41-009-004-004-b7843d82"
+    ],
+    "5": [
+      "41-009-005-005-29139fa6",
+      "41-009-005-005-8b30d50b",
+      "41-009-005-005-9652024a",
+      "41-009-005-005-7c5492c3"
+    ],
+    "6": [
+      "41-009-006-006-7d15b827",
+      "41-009-006-006-1ceb3de6"
+    ],
+    "7": [
+      "41-009-007-007-83b97c32",
+      "41-009-007-007-96dee4bd",
+      "41-009-007-007-5617e509",
+      "41-009-007-007-71663e53"
+    ],
+    "8": [
+      "41-009-008-008-4f7f8773",
+      "41-009-008-008-2f958255",
+      "41-009-008-008-b8027e63"
+    ],
+    "9": [
+      "41-009-009-009-377ee480",
+      "41-009-009-009-dd8fba1f",
+      "41-009-009-009-139415b6"
+    ],
+    "10": [
+      "41-009-010-010-8d4a986a",
+      "41-009-010-010-91435799",
+      "41-009-010-010-c81a63af"
+    ],
+    "11": [
+      "41-009-011-011-c81e79fb",
+      "41-009-011-011-741c801a",
+      "41-009-011-011-90e5080a",
+      "41-009-011-011-ce54b988"
+    ],
+    "12": [
+      "41-009-012-012-4bdde09f",
+      "41-009-012-012-22a4de4f",
+      "41-009-012-012-1ae1a442",
+      "41-009-012-012-edd1315f"
+    ],
+    "13": [
+      "41-009-013-013-3e507501",
+      "41-009-013-013-e439bdef",
+      "41-009-013-013-18c20f55"
+    ],
+    "14": [
+      "41-009-014-014-f053a760",
+      "41-009-014-014-fcc53d27",
+      "41-009-014-014-1347eee6",
+      "41-009-014-014-10142a81"
+    ],
+    "15": [
+      "41-009-015-015-754bdded",
+      "41-009-015-015-d1d1cf6b",
+      "41-009-015-015-f75b3560"
+    ],
+    "16": [
+      "41-009-016-016-c944ab59",
+      "41-009-016-016-8e777e9a"
+    ],
+    "17": [
+      "41-009-017-017-f7abc11f",
+      "41-009-017-017-b735db2a",
+      "41-009-017-017-7f5287d5",
+      "41-009-017-017-1f0ed0ae"
+    ],
+    "18": [
+      "41-009-018-018-53353a89",
+      "41-009-018-018-2d3c6523",
+      "41-009-018-018-7e866a40",
+      "41-009-018-018-0b913da2"
+    ],
+    "19": [
+      "41-009-019-019-e90d88ca",
+      "41-009-019-019-2dbf7dbf",
+      "41-009-019-019-a1026cc1"
+    ],
+    "20": [
+      "41-009-020-020-89a9503b",
+      "41-009-020-020-4cc2e97c",
+      "41-009-020-020-4cc68a73"
+    ],
+    "21": [
+      "41-009-021-021-fb2159f6",
+      "41-009-021-021-993e8215",
+      "41-009-021-021-c0d5cd7f"
+    ],
+    "22": [
+      "41-009-022-022-02f6b62f",
+      "41-009-022-022-af27551d",
+      "41-009-022-022-fb0a6148"
+    ],
+    "23": [
+      "41-009-023-023-f64fa383",
+      "41-009-023-023-6e98fc23",
+      "41-009-023-023-8fca80fe"
+    ],
+    "24": [
+      "41-009-024-024-60245099",
+      "41-009-024-024-26d6967d",
+      "41-009-024-024-e9b86438",
+      "41-009-024-024-b8173449"
+    ],
+    "25": [
+      "41-009-025-025-93dfe31e",
+      "41-009-025-025-2612d5fd",
+      "41-009-025-025-2685fc0b"
+    ],
+    "26": [
+      "41-009-026-026-798dd826",
+      "41-009-026-026-d6260d56",
+      "41-009-026-026-fd6df113"
+    ],
+    "27": [
+      "41-009-027-027-87b736ec",
+      "41-009-027-027-e9cc2abd"
+    ],
+    "28": [
+      "41-009-028-028-ab1a2d68",
+      "41-009-028-028-27825923",
+      "41-009-028-028-a903e570",
+      "41-009-028-028-b3c592fb"
+    ],
+    "29": [
+      "41-009-029-029-98143435",
+      "41-009-029-029-886e6e80",
+      "41-009-029-029-8df8312a"
+    ],
+    "30": [
+      "41-009-030-030-cc99d894",
+      "41-009-030-030-0713b940",
+      "41-009-030-030-276e331f"
+    ],
+    "31": [
+      "41-009-031-031-51f66973",
+      "41-009-031-031-d815c0cd",
+      "41-009-031-031-d36e667c",
+      "41-009-031-031-b0c95074",
+      "41-009-031-031-29c1816e"
+    ],
+    "32": [
+      "41-009-032-032-eb897f7d",
+      "41-009-032-032-5b9b7029"
+    ],
+    "33": [
+      "41-009-033-033-8cb67683",
+      "41-009-033-033-fcd98356",
+      "41-009-033-033-45e38c67"
+    ],
+    "34": [
+      "41-009-034-034-b9d6573a",
+      "41-009-034-034-85c198cb",
+      "41-009-034-034-717bf249"
+    ],
+    "35": [
+      "41-009-035-035-6198e343",
+      "41-009-035-035-3c71a94f",
+      "41-009-035-035-4205ba82",
+      "41-009-035-035-f1b862df"
+    ],
+    "36": [
+      "41-009-036-036-16a42905",
+      "41-009-036-036-45715d31",
+      "41-009-036-036-7904c4b8"
+    ],
+    "37": [
+      "41-009-037-037-fb5654b6",
+      "41-009-037-037-4794537c",
+      "41-009-037-037-a6376465"
+    ],
+    "38": [
+      "41-009-038-038-4ca3a3dd",
+      "41-009-038-038-488b04be",
+      "41-009-038-038-49b68a92",
+      "41-009-038-038-04a25277"
+    ],
+    "39": [
+      "41-009-039-039-3751871b",
+      "41-009-039-039-3a96ec58"
+    ],
+    "40": [
+      "41-009-040-040-e20efab1"
+    ],
+    "41": [
+      "41-009-041-041-5172b94c",
+      "41-009-041-041-cbd49f50",
+      "41-009-041-041-c2e34f92"
+    ],
+    "42": [
+      "41-009-042-042-9950cbeb",
+      "41-009-042-042-1b261698",
+      "41-009-042-042-6f7e1746",
+      "41-009-042-042-c21ff282",
+      "41-009-042-042-72b6ece0"
+    ],
+    "43": [
+      "41-009-043-043-9703d371",
+      "41-009-043-043-b17d21bd",
+      "41-009-043-043-d7dce857",
+      "41-009-043-043-cb44ea77",
+      "41-009-043-043-4d856512"
+    ],
+    "44": [
+      "41-009-044-044-e2a2c0dd",
+      "41-009-044-044-094b67de",
+      "41-009-044-044-c156f7f7"
+    ],
+    "45": [
+      "41-009-045-045-68bebe98",
+      "41-009-045-045-e9c94b57",
+      "41-009-045-045-00fea3bd",
+      "41-009-045-045-970408f7",
+      "41-009-045-045-d9e7f536"
+    ],
+    "46": [
+      "41-009-046-046-5adc9e64",
+      "41-009-046-046-ffeb9a24"
+    ],
+    "47": [
+      "41-009-047-047-4cbb8f17",
+      "41-009-047-047-830fbc30",
+      "41-009-047-047-beb8a2c2",
+      "41-009-047-047-5cdee73a",
+      "41-009-047-047-cf068556"
+    ],
+    "48": [
+      "41-009-048-048-62891fc3",
+      "41-009-048-048-88e02090",
+      "41-009-048-048-bfabb49a"
+    ],
+    "49": [
+      "41-009-049-049-54025385",
+      "41-009-049-049-bbe59215",
+      "41-009-049-049-90d02890"
+    ],
+    "50": [
+      "41-009-050-050-f19cb791",
+      "41-009-050-050-d0cc0e73",
+      "41-009-050-050-72dca29e",
+      "41-009-050-050-2cc59ef4"
+    ]
+  }
+}

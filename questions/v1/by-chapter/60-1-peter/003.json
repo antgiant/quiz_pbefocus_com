@@ -1,0 +1,1465 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "60-1-peter",
+  "book": "1 Peter",
+  "chapter": 3,
+  "questions": [
+    {
+      "id": "60-003-001-001-ffe537d8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 3:1, how might husbands be won without a word?",
+      "answer": "by the conduct of their wives",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-003-001-001-ffe537d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-001-001-2d7e58d8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 3:1, to whom are wives commanded to be submissive?",
+      "answer": "their own husbands",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-001-001-2d7e58d8"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-001-001-4e6ac3e1",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 3:1, what might husbands who do not obey the word be won by? (be specific)",
+      "answer": "the conduct of their wives",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-003-001-001-4e6ac3e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-001-001-89613c24",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 3:1, who are commanded to be submissive to their own husbands?",
+      "answer": "Wives",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-001-001-89613c24"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-002-002-9fa2f6e6",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 3:2, what action do husbands perform regarding the wives' conduct? (be specific)",
+      "answer": "observe your chaste conduct accompanied by fear",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "60-003-002-002-9fa2f6e6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-002-002-132cfcc1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 3:2, what is the chaste conduct of wives accompanied by?",
+      "answer": "fear",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-002-002-132cfcc1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-002-002-24bfcf67",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 3:2, what type of conduct do husbands observe in their wives?",
+      "answer": "chaste conduct",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-002-002-24bfcf67"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-003-003-b690ea03",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 3:3, true or false: The verse instructs not to let adornment be merely outward.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-003-003-003-b690ea03"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-003-003-e323b88f",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 3:3, what are the three specific ways of outward adornment mentioned? (be specific)",
+      "answer": "arranging the hair, wearing gold, or putting on fine apparel",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-003-003-003-e323b88f"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-003-003-f0e59e7c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 3:3, what should your adornment not merely be?",
+      "answer": "outward",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-003-003-f0e59e7c"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-003-003-508ac153",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 3:3, what specific type of metal is mentioned regarding outward adornment?",
+      "answer": "gold",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-003-003-508ac153"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-004-004-90ce5086",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 3:4, how is the gentle and quiet spirit described in the sight of God? (be specific)",
+      "answer": "very precious",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-003-004-004-90ce5086"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-004-004-1e139e65",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 3:4, in whose sight is a gentle and quiet spirit very precious?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-004-004-1e139e65"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-004-004-01dae856",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 3:4, instead of outward adornment, what should let it be?",
+      "answer": "the hidden person of the heart",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-004-004-01dae856"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-004-004-a65e488a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 3:4, list the two adjectives used to describe the beauty of the spirit.",
+      "answer": "gentle and quiet",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-004-004-a65e488a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-004-004-a3531801",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 3:4, what kind of beauty is associated with the hidden person of the heart?",
+      "answer": "the incorruptible beauty of a gentle and quiet spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-004-004-a3531801"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-005-005-63db69a5",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 3:5, how did holy women in former times adorn themselves? (be specific)",
+      "answer": "being submissive to their own husbands",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "60-003-005-005-63db69a5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-005-005-1a2cdd32",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 3:5, what did the holy women of former times trust in?",
+      "answer": "God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-005-005-1a2cdd32"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-005-005-45a72ccb",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 3:5, who in former times adorned themselves by being submissive to their own husbands?",
+      "answer": "the holy women",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-005-005-45a72ccb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-006-006-f2a58fd3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 3:6, what title did Sarah call Abraham?",
+      "answer": "lord",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-006-006-f2a58fd3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-006-006-b9fe1fcc",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 3:6, what two conditions must be met for women to be considered daughters of Sarah?",
+      "answer": "if you do good and are not afraid with any terror",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-006-006-b9fe1fcc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-006-006-b2db3749",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 3:6, who obeyed Abraham?",
+      "answer": "Sarah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-006-006-b2db3749"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-006-006-410a2244",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 3:6, whose daughters are you if you do good and are not afraid with any terror? (be specific)",
+      "answer": "Sarah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-006-006-410a2244"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-bee018fe",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, as what are husbands to view the wife when giving honor?",
+      "answer": "the weaker vessel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-007-007-bee018fe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-91ea4c8a",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, how are husbands to dwell with their wives?",
+      "answer": "with understanding",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-003-007-007-91ea4c8a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-777b7500",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, what are husbands instructed to give to the wife?",
+      "answer": "honor",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-007-007-777b7500"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-e1a06f12",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, what is it that husbands and wives are heirs together of? (be specific)",
+      "answer": "the grace of life",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-003-007-007-e1a06f12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-b05b5a30",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, whom is the instruction to 'dwell with them with understanding' addressed to?",
+      "answer": "Husbands",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-007-007-b05b5a30"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-c5d8d328",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 3:7, why should husbands dwell with their wives with understanding and give them honor?",
+      "answer": "that your prayers may not be hindered",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "60-003-007-007-c5d8d328"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-007-007-39e6f97d",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "True or False: According to 1 Peter 3:7, husbands are commanded to dwell with their wives with understanding.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-003-007-007-39e6f97d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-008-008-7ee32f5b",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 3:8, name the 5 characteristics that the people should have toward one another. (be specific)",
+      "answer": "compassion for one another, love as brothers, tenderhearted, courteous",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-003-008-008-7ee32f5b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-008-008-607b5d40",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 3:8, what are all of the people told to be of?",
+      "answer": "one mind",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-008-008-607b5d40"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-009-009-8d842310",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 3:9, what are believers told not to return for evil?",
+      "answer": "evil",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-009-009-8d842310"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-009-009-5c2a7ecc",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 3:9, what are believers told not to return for reviling?",
+      "answer": "reviling",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-009-009-5c2a7ecc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-009-009-cbc25fbc",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 3:9, what should believers do on the contrary instead of returning evil or reviling?",
+      "answer": "blessing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-009-009-cbc25fbc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-009-009-76d92cea",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 3:9, what should the believer know regarding why they were called?",
+      "answer": "that you were called to this",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-009-009-76d92cea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-009-009-42bdf13e",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 3:9, why are believers called to return blessing instead of evil or reviling? (be specific)",
+      "answer": "that you may inherit a blessing",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-003-009-009-42bdf13e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-010-010-053729bb",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 3:10, what are the two things a person who would love life and see good days must refrain from? (be specific)",
+      "answer": "his tongue from evil, And his lips from speaking deceit",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-010-010-053729bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-010-010-f80734a8",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 3:10, what must a person do if they would love life and see good days?",
+      "answer": "refrain his tongue from evil, And his lips from speaking deceit",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-010-010-f80734a8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-010-010-a0b81ae5",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "True or False: According to 1 Peter 3:10, a person who would love life and see good days must refrain his tongue from evil.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-003-010-010-a0b81ae5"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-011-011-e79753ea",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 3:11, besides turning away from evil, what else should a person do?",
+      "answer": "do good",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-011-011-e79753ea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-011-011-a0331d82",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 3:11, list the four actions a person is told to take. (be specific)",
+      "answer": "turn away from evil, do good, seek peace, pursue it",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-003-011-011-a0331d82"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-011-011-84740880",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 3:11, what is the first thing a person should do regarding evil?",
+      "answer": "turn away from evil",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-011-011-84740880"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-011-011-eb52b43b",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 3:11, what should a person seek and pursue?",
+      "answer": "peace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-011-011-eb52b43b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-012-012-00a028a6",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 3:12, against whom is the face of the LORD?",
+      "answer": "those who do evil",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-012-012-00a028a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-012-012-9ced77a2",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 3:12, upon whom are the eyes of the LORD?",
+      "answer": "the righteous",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-012-012-9ced77a2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-012-012-74373f10",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 3:12, what is the state of the LORD's ears regarding the righteous?",
+      "answer": "His ears are open to their prayers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-012-012-74373f10"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-012-012-5be5720d",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 3:12, what two things are mentioned regarding how the LORD interacts with the righteous? (be specific)",
+      "answer": "the eyes of the LORD are on the righteous, And His ears are open to their prayers",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-012-012-5be5720d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-013-013-761588cc",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 3:13, what are you to become followers of?",
+      "answer": "what is good",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-013-013-761588cc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-013-013-1785fded",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 3:13, what condition must be met in order to ask who will harm you? (be specific)",
+      "answer": "if you become followers of what is good",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-003-013-013-1785fded"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-013-013-003fabda",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 3:13, who is it that will harm you if you become followers of what is good?",
+      "answer": "he",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-013-013-003fabda"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-014-014-d5cac00f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 3:14, for what cause might you suffer?",
+      "answer": "righteousness’ sake",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-003-014-014-d5cac00f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-014-014-3d6407e3",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 3:14, what 2 things should you not be concerning their threats? (be specific)",
+      "answer": "afraid and troubled",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-014-014-3d6407e3"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-014-014-d37272bb",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 3:14, what is the result if you should suffer for righteousness’ sake?",
+      "answer": "you are blessed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-014-014-d37272bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-015-015-c676b4ff",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 3:15, to whom should you be ready to give a defense?",
+      "answer": "everyone who asks you a reason for the hope that is in you",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "60-003-015-015-c676b4ff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-015-015-7b7b8ba5",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 3:15, what should you sanctify in your hearts?",
+      "answer": "the Lord God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-015-015-7b7b8ba5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-015-015-0c548635",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 3:15, when should you be ready to give a defense?",
+      "answer": "always",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-003-015-015-0c548635"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-015-015-cae58982",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 3:15, with what two attitudes should you give a defense? (be specific)",
+      "answer": "meekness and fear",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-015-015-cae58982"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-016-016-b59ecc69",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 3:16, what are those who revile your conduct specifically criticizing?",
+      "answer": "your good conduct in Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-016-016-b59ecc69"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-016-016-05588f89",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 3:16, what should you have to ensure that those who revile your good conduct may be ashamed?",
+      "answer": "a good conscience",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-016-016-05588f89"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-016-016-e0441201",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 3:16, when will those who revile your conduct be ashamed?",
+      "answer": "when they defame you as evildoers",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "60-003-016-016-e0441201"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-017-017-fe06e2f2",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 3:17, what is better than suffering for doing evil?",
+      "answer": "to suffer for doing good",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-017-017-fe06e2f2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-017-017-51d5c7d6",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 3:17, what must be the case for it to be better to suffer for doing good?",
+      "answer": "if it is the will of God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-003-017-017-51d5c7d6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-018-018-e203d8e8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 3:18, how is the sufferer described in relation to the unjust?",
+      "answer": "the just",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-003-018-018-e203d8e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-018-018-92c5d493",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 3:18, what two things happened to Christ regarding his physical and spiritual state? (be specific)",
+      "answer": "being put to death in the flesh but made alive by the Spirit",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-003-018-018-92c5d493"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-018-018-c13fed97",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 3:18, what was the status of the people Christ suffered for?",
+      "answer": "the unjust",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-018-018-c13fed97"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-018-018-ddacc32c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 3:18, who suffered once for sins?",
+      "answer": "Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-018-018-ddacc32c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-018-018-47f4fef1",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 3:18, why did Christ suffer for sins?",
+      "answer": "that He might bring us to God",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-003-018-018-47f4fef1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-019-019-ca92caec",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 3:19, what did Christ do by the Spirit?",
+      "answer": "preached",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-019-019-ca92caec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-019-019-d5c7c30f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 3:19, who did Christ preach to?",
+      "answer": "the spirits in prison",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-003-019-019-d5c7c30f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-e4ddb30e",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 3:20, how many souls were saved through water?",
+      "answer": "eight",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-e4ddb30e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-a823bc90",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 3:20, how were the spirits in prison formerly described?",
+      "answer": "disobedient",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-a823bc90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-32d438e8",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 3:20, through what were the eight souls saved?",
+      "answer": "water",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-32d438e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-963797d0",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 3:20, what Divine attribute waited in the days of Noah?",
+      "answer": "longsuffering",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-963797d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-437f29ac",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 3:20, while the ark was being prepared, what was happening?",
+      "answer": "the Divine longsuffering waited",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-437f29ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-020-020-d1fb5282",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "True or False: According to 1 Peter 3:20, the Divine longsuffering waited during the days of Noah.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-003-020-020-d1fb5282"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-021-021-4dfbbc14",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 3:21, through what is the antitype that saves us provided?",
+      "answer": "the resurrection of Jesus Christ",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-003-021-021-4dfbbc14"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-021-021-75f1a23b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 3:21, what is baptism not, regarding the flesh? (be specific)",
+      "answer": "the removal of the filth of the flesh",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-021-021-75f1a23b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-021-021-4663f6df",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 3:21, what is baptism, describing the answer of a good conscience toward God? (be specific)",
+      "answer": "the answer of a good conscience toward God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-021-021-4663f6df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-021-021-d2b2f774",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 3:21, what is the antitype which now saves us?",
+      "answer": "baptism",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-003-021-021-d2b2f774"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-022-022-b26516cc",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 3:22, list the 3 things that have been made subject to Him. (be specific)",
+      "answer": "angels and authorities and powers",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-003-022-022-b26516cc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-022-022-bdae0964",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 3:22, where has He gone?",
+      "answer": "into heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-003-022-022-bdae0964"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-003-022-022-55db444a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 3:22, where is He currently located?",
+      "answer": "at the right hand of God",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-003-022-022-55db444a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "60-003-001-001-ffe537d8",
+      "60-003-001-001-2d7e58d8",
+      "60-003-001-001-4e6ac3e1",
+      "60-003-001-001-89613c24"
+    ],
+    "2": [
+      "60-003-002-002-9fa2f6e6",
+      "60-003-002-002-132cfcc1",
+      "60-003-002-002-24bfcf67"
+    ],
+    "3": [
+      "60-003-003-003-b690ea03",
+      "60-003-003-003-e323b88f",
+      "60-003-003-003-f0e59e7c",
+      "60-003-003-003-508ac153"
+    ],
+    "4": [
+      "60-003-004-004-90ce5086",
+      "60-003-004-004-1e139e65",
+      "60-003-004-004-01dae856",
+      "60-003-004-004-a65e488a",
+      "60-003-004-004-a3531801"
+    ],
+    "5": [
+      "60-003-005-005-63db69a5",
+      "60-003-005-005-1a2cdd32",
+      "60-003-005-005-45a72ccb"
+    ],
+    "6": [
+      "60-003-006-006-f2a58fd3",
+      "60-003-006-006-b9fe1fcc",
+      "60-003-006-006-b2db3749",
+      "60-003-006-006-410a2244"
+    ],
+    "7": [
+      "60-003-007-007-bee018fe",
+      "60-003-007-007-91ea4c8a",
+      "60-003-007-007-777b7500",
+      "60-003-007-007-e1a06f12",
+      "60-003-007-007-b05b5a30",
+      "60-003-007-007-c5d8d328",
+      "60-003-007-007-39e6f97d"
+    ],
+    "8": [
+      "60-003-008-008-7ee32f5b",
+      "60-003-008-008-607b5d40"
+    ],
+    "9": [
+      "60-003-009-009-8d842310",
+      "60-003-009-009-5c2a7ecc",
+      "60-003-009-009-cbc25fbc",
+      "60-003-009-009-76d92cea",
+      "60-003-009-009-42bdf13e"
+    ],
+    "10": [
+      "60-003-010-010-053729bb",
+      "60-003-010-010-f80734a8",
+      "60-003-010-010-a0b81ae5"
+    ],
+    "11": [
+      "60-003-011-011-e79753ea",
+      "60-003-011-011-a0331d82",
+      "60-003-011-011-84740880",
+      "60-003-011-011-eb52b43b"
+    ],
+    "12": [
+      "60-003-012-012-00a028a6",
+      "60-003-012-012-9ced77a2",
+      "60-003-012-012-74373f10",
+      "60-003-012-012-5be5720d"
+    ],
+    "13": [
+      "60-003-013-013-761588cc",
+      "60-003-013-013-1785fded",
+      "60-003-013-013-003fabda"
+    ],
+    "14": [
+      "60-003-014-014-d5cac00f",
+      "60-003-014-014-3d6407e3",
+      "60-003-014-014-d37272bb"
+    ],
+    "15": [
+      "60-003-015-015-c676b4ff",
+      "60-003-015-015-7b7b8ba5",
+      "60-003-015-015-0c548635",
+      "60-003-015-015-cae58982"
+    ],
+    "16": [
+      "60-003-016-016-b59ecc69",
+      "60-003-016-016-05588f89",
+      "60-003-016-016-e0441201"
+    ],
+    "17": [
+      "60-003-017-017-fe06e2f2",
+      "60-003-017-017-51d5c7d6"
+    ],
+    "18": [
+      "60-003-018-018-e203d8e8",
+      "60-003-018-018-92c5d493",
+      "60-003-018-018-c13fed97",
+      "60-003-018-018-ddacc32c",
+      "60-003-018-018-47f4fef1"
+    ],
+    "19": [
+      "60-003-019-019-ca92caec",
+      "60-003-019-019-d5c7c30f"
+    ],
+    "20": [
+      "60-003-020-020-e4ddb30e",
+      "60-003-020-020-a823bc90",
+      "60-003-020-020-32d438e8",
+      "60-003-020-020-963797d0",
+      "60-003-020-020-437f29ac",
+      "60-003-020-020-d1fb5282"
+    ],
+    "21": [
+      "60-003-021-021-4dfbbc14",
+      "60-003-021-021-75f1a23b",
+      "60-003-021-021-4663f6df",
+      "60-003-021-021-d2b2f774"
+    ],
+    "22": [
+      "60-003-022-022-b26516cc",
+      "60-003-022-022-bdae0964",
+      "60-003-022-022-55db444a"
+    ]
+  }
+}

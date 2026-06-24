@@ -1,0 +1,2722 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 1,
+  "questions": [
+    {
+      "id": "41-001-001-001-4332c6b8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 1:1, of whom is the gospel (be specific)?",
+      "answer": "Jesus Christ, the Son of God",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-001-001-2fc08b85"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-001-001-feb776c8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 1:1, what is Jesus Christ identified as?",
+      "answer": "the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-001-001-2e6e28bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-001-001-6c3ce326",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 1:1, what is the beginning of the gospel of Jesus Christ?",
+      "answer": "the gospel of Jesus Christ, the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-001-001-adb571bf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-001-001-dc93ca05",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to Mark 1:1, this is the beginning of the gospel of Jesus Christ.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-001-001-001-c2cdbbcb"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-002-002-ea5fba08",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 1:2, Where was it written?",
+      "answer": "in the Prophets",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-002-002-38f536ab",
+        "41-001-002-002-e609a5ba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-002-002-419d4bfb",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 1:2, What will the messenger do before your face?",
+      "answer": "prepare Your way before You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-002-002-fc152d5b",
+        "41-001-002-002-e9620aa5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-002-002-08bba1e0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 1:2, what word is used to introduce the instruction given to the messenger?",
+      "answer": "Behold",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-001-002-002-fe06d8c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-002-002-d1bc1bdb",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 1:2, where will the messenger be sent?",
+      "answer": "before Your face",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-002-002-b996af15"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-003-003-a47e47da",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, what are the two instructions given by the voice of the one crying in the wilderness?",
+      "answer": "Prepare the way of the LORD; Make His paths straight",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-003-003-18013379",
+        "41-001-003-003-92f6d18f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-003-003-c92fbef2",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, what is the description of the voice?",
+      "answer": "one crying in the wilderness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-003-003-84d90180",
+        "41-001-003-003-82e7ab6a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-003-003-b0582921",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, what is the voice described as doing?",
+      "answer": "crying in the wilderness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-003-003-89fbd5da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-003-003-ca8db296",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, where is the voice crying?",
+      "answer": "in the wilderness",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-003-003-7146202c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-003-003-a70e2872",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, whose way is the voice commanded to prepare?",
+      "answer": "the LORD",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-003-003-c7adf905"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-004-004-88081a9d",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, for what purpose was the baptism of repentance preached?",
+      "answer": "for the remission of sins",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-004-004-7d0920d2",
+        "41-001-004-004-88081a9d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-004-004-eea49d98",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, what was John preaching? (be specific)",
+      "answer": "a baptism of repentance for the remission of sins",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-004-004-df972a0f",
+        "41-001-004-004-eea49d98"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-004-004-68794ae2",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, where was John baptizing?",
+      "answer": "in the wilderness",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-004-004-5b2c983a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-004-004-134b5303",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, who came baptizing in the wilderness?",
+      "answer": "John",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-004-004-8cd7c252"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-005-005-cfbcf204",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 1:5, what did the people do while being baptized? (be specific)",
+      "answer": "confessing their sins",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-005-005-7469395f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-005-005-63e99a42",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 1:5, what group of people went out to John?",
+      "answer": "all the land of Judea, and those from Jerusalem",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-005-005-e5a3f4a1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-005-005-2d0a4080",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 1:5, where were the people baptized by John?",
+      "answer": "in the Jordan River",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-005-005-93e0c501"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-006-006-a97bb94f",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, what is John's belt made of?",
+      "answer": "leather",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-006-006-e9eb274c",
+        "41-001-006-006-644cdec0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-006-006-ad0dfe4e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, name the 2 things John ate.",
+      "answer": "locusts and wild honey",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-006-006-78e888e6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-006-006-0750d892",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, what did John wear around his waist? (be specific)",
+      "answer": "a leather belt",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-006-006-3b1c894c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-006-006-eaae3ef9",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, what was John clothed with?",
+      "answer": "camel’s hair",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-006-006-e11fa7ca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-007-007-d48573da",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 1:7, how is the person coming after the preacher described in terms of strength?",
+      "answer": "mightier than I",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-001-007-007-9e701c2b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-007-007-cb1d6dec",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 1:7, what actions is the preacher not worthy to perform in regard to the one coming after him?",
+      "answer": "stoop down and loose their sandal strap",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-007-007-45c7c39b",
+        "41-001-007-007-44d4c0ac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-007-007-d8f6ff19",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 1:7, what did the one preaching say was coming after him?",
+      "answer": "One mightier than I",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-007-007-b5eecc91",
+        "41-001-007-007-61bb3221"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-007-007-916dfb8b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 1:7, what part of the one coming after the preacher is the preacher not worthy to stoop down and loose? (be specific)",
+      "answer": "sandal strap",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-007-007-1fdf0b0a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-008-008-1c352ffa",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 1:8, list the two things the people were baptized with or will be baptized with. (be specific)",
+      "answer": "water, the Holy Spirit",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-008-008-8b039e9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-008-008-35e4a458",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 1:8, with what did the preacher say he baptized the people?",
+      "answer": "water",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-008-008-0f33b9f7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-008-008-6d57bc4d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 1:8, with what will He who comes after the preacher baptize the people?",
+      "answer": "the Holy Spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-008-008-2ad8d119",
+        "41-001-008-008-67f2e275"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-009-009-b75c5bfb",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, from what city and region did Jesus come?",
+      "answer": "Nazareth of Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-009-009-a9669226"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-009-009-e0d3f04b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, in what river was Jesus baptized?",
+      "answer": "Jordan",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-009-009-5b0e2570"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-009-009-8d9be86c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, when did it come to pass that Jesus was baptized?",
+      "answer": "in those days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-009-009-41bc3439"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-009-009-5bacf6c7",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, who baptized Jesus?",
+      "answer": "John",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-009-009-fb08bd07"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-010-010-07b3a26f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, how did the Spirit descend upon Jesus?",
+      "answer": "like a dove",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-010-010-dd9f5a08"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-010-010-e71de1bd",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, what did Jesus see descending upon Him and in what manner?",
+      "answer": "the Spirit, like a dove",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-010-010-1a9f4caf",
+        "41-001-010-010-48badc74"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-010-010-12a008e6",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, what happened to the heavens when Jesus was coming up from the water? (be specific)",
+      "answer": "the heavens parting",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-010-010-57dae067"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-010-010-85b1cb93",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, what was Jesus doing when He saw the heavens parting?",
+      "answer": "coming up from the water",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-010-010-1737c94d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-011-011-a2e5b9ee",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 1:11, what did the voice from heaven call Jesus?",
+      "answer": "My beloved Son",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-011-011-27afca84"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-011-011-1a1a7186",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 1:11, what did the voice say after declaring Jesus 'My beloved Son'? (be specific)",
+      "answer": "in whom I am well pleased",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-011-011-faa52e61",
+        "41-001-011-011-fa7dd1e4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-011-011-ac2a850d",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 1:11, where did the voice come from?",
+      "answer": "heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-011-011-1de3d913"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-012-012-927d4f80",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 1:12, what drove Jesus into the wilderness?",
+      "answer": "the Spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-012-012-c0b97962"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-012-012-0406489f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 1:12, when did the Spirit drive Him into the wilderness?",
+      "answer": "Immediately",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-012-012-1dd37826"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-012-012-0ab4dcec",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 1:12, where did the Spirit drive Jesus?",
+      "answer": "into the wilderness",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-012-012-d3fb40ae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-013-013-7c2c7e65",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, how many days was He in the wilderness?",
+      "answer": "forty days",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-001-013-013-611d9cc1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-013-013-7a39e74f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, where was He, for how long, tempted by who, with what, and ministered to by what?",
+      "answer": "wilderness, 40 days, Satan, wild beasts, angels",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-001-013-013-ddd2c078",
+        "41-001-013-013-86958915"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-013-013-6991fdc6",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, what was He with while in the wilderness?",
+      "answer": "the wild beasts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-013-013-a7bfd319"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-013-013-5d95426d",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, who ministered to Him in the wilderness?",
+      "answer": "the angels",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-013-013-fa788fde"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-013-013-6de99411",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, who tempted Jesus in the wilderness?",
+      "answer": "Satan",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-013-013-ce9a5cac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-014-014-eeacda43",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 1:14, what happened to John that preceded Jesus coming to Galilee?",
+      "answer": "John was put in prison",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-014-014-3634810b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-014-014-909127e9",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 1:14, what was Jesus doing after He came to Galilee?",
+      "answer": "preaching the gospel of the kingdom of God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-014-014-fadddc9d",
+        "41-001-014-014-5b628803"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-014-014-fafa8c9f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 1:14, where did Jesus go after John was put in prison?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-014-014-4551e07d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-015-015-e8ffac31",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 1:15, list the two commands given to the people. (be specific)",
+      "answer": "Repent, and believe in the gospel",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-015-015-7adee450"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-015-015-6085afa8",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 1:15, what is described as being at hand?",
+      "answer": "the kingdom of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-015-015-5e14ad34"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-015-015-57229029",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 1:15, what is said to be fulfilled?",
+      "answer": "The time",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-015-015-1ea70169"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-016-016-17a51b80",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 1:16, what was the occupation of Simon and Andrew? (be specific)",
+      "answer": "fishermen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-016-016-04089155"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-016-016-38ae6f03",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 1:16, what were Simon and Andrew doing when Jesus saw them?",
+      "answer": "casting a net into the sea",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-016-016-6450c7fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-016-016-35b328d7",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 1:16, where was Jesus walking?",
+      "answer": "by the Sea of Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-016-016-f60e1521"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-016-016-ed82a8ac",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 1:16, whom did Jesus see while walking by the Sea of Galilee?",
+      "answer": "Simon and Andrew his brother",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-016-016-52128495"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-017-017-1dfb1101",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 1:17, what command did Jesus give to Simon and Andrew?",
+      "answer": "Follow Me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-017-017-d39398fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-017-017-6dec4b70",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 1:17, what did Jesus promise He would make Simon and Andrew become?",
+      "answer": "fishers of men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-017-017-d33babb1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-017-017-4e5d31aa",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 1:17, who said, 'Follow Me, and I will make you become fishers of men'?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-017-017-9b371225"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-018-018-59b80401",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 1:18, what action did the men take immediately after leaving their nets?",
+      "answer": "followed Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-018-018-1459a9da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-018-018-98190715",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 1:18, what did the men immediately leave?",
+      "answer": "their nets",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-018-018-c7cea530"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-019-019-e59f7ab5",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, what specific object were James and John in?",
+      "answer": "the boat",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-019-019-7ef8e76d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-019-019-0af9237d",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, what were James and John doing in the boat? (be specific)",
+      "answer": "mending their nets",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-019-019-4d2dbf71"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-019-019-22544c38",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, who did Jesus see a little farther from where He had been?",
+      "answer": "James the son of Zebedee, and John his brother",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-019-019-f96d012a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-019-019-5694b27d",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, whose son was James?",
+      "answer": "Zebedee",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-019-019-a56f366e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-020-020-64e1a022",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, what two things did James and John do after they were called by Jesus?",
+      "answer": "they left their father Zebedee in the boat with the hired servants, and went after Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-020-020-8fff5ce2",
+        "41-001-020-020-9e5f4ed1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-020-020-e6eea00d",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, what did Jesus do immediately after seeing them?",
+      "answer": "He called them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-020-020-b496cc35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-020-020-6a002725",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, who did James and John leave in the boat? (be specific)",
+      "answer": "their father Zebedee and the hired servants",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-020-020-3279a9c5",
+        "41-001-020-020-36d3332e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-020-020-2d9580fc",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, who was left in the boat with Zebedee?",
+      "answer": "the hired servants",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-020-020-70d8a362"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-021-021-bef08ea4",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, how soon after going into Capernaum did He enter the synagogue on the Sabbath?",
+      "answer": "immediately",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-021-021-fa639562"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-021-021-7befc63c",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, into what city did they go?",
+      "answer": "Capernaum",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-021-021-9599a691"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-021-021-9ef017b8",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, what did He do after entering the synagogue?",
+      "answer": "taught",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-021-021-4eaabeb8",
+        "41-001-021-021-2235509b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-021-021-4b4bb386",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, when did He enter the synagogue?",
+      "answer": "on the Sabbath",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-021-021-34cfd829"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-022-022-5c05275a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 1:22, how did the people react to His teaching?",
+      "answer": "they were astonished",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-022-022-f775e7cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-022-022-f3cc2be9",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 1:22, who did He teach differently than?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-022-022-093c38c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-022-022-7e1ab8f9",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 1:22, why were they astonished at His teaching?",
+      "answer": "for He taught them as one having authority",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-022-022-8f738be3",
+        "41-001-022-022-988f48a4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-023-023-f8640e74",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 1:23, what did the man with the unclean spirit do when he was in the synagogue?",
+      "answer": "He cried out",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-023-023-9ecc8024"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-023-023-749adc8e",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 1:23, what kind of spirit did the man in the synagogue have?",
+      "answer": "unclean spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-023-023-4f8bb176"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-023-023-dfb39c94",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 1:23, where was the man with an unclean spirit located?",
+      "answer": "in their synagogue",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-023-023-05d37a73"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-024-024-a37a8c58",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 1:24, how did the man address Jesus? (be specific)",
+      "answer": "Jesus of Nazareth",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-024-024-22fea773"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-024-024-6c24f7b8",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 1:24, what two questions did the man ask regarding Jesus' purpose?",
+      "answer": "What have we to do with you? Did You come to destroy us?",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-001-024-024-e12c38e9",
+        "41-001-024-024-d4498502"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-024-024-e5085e71",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 1:24, what title did the man with the unclean spirit use to describe who he knew Jesus was?",
+      "answer": "the Holy One of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-024-024-79861e42"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-024-024-8ff11b7a",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 1:24, what was the first thing the man with the unclean spirit said?",
+      "answer": "Let us alone!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-024-024-bb0647cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-025-025-0050664f",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 1:25, what were the two commands Jesus gave to the unclean spirit? (be specific)",
+      "answer": "Be quiet, and come out of him",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-025-025-c18f438a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-025-025-caead9a4",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 1:25, who rebuked the unclean spirit?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-025-025-a22cefc7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-025-025-b33d32fb",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "True or False: According to Mark 1:25, Jesus said, \"Peace, be still. Come out of him!\"",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-001-025-025-8e4fee63",
+        "41-001-025-025-da2f9229"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-026-026-ceb4a759",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 1:26, how did the unclean spirit cry out?",
+      "answer": "with a loud voice",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-026-026-9be99d3f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-026-026-c1bca3cf",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 1:26, what did the unclean spirit do to the man before coming out?",
+      "answer": "convulsed him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-026-026-408a97be"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-026-026-5ff8d1e6",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 1:26, what finally happened to the unclean spirit?",
+      "answer": "he came out of him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-026-026-ce7ff9a3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-026-026-5d746070",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 1:26, what were the two actions the unclean spirit performed before coming out of the man? (be specific)",
+      "answer": "convulsed him and cried out with a loud voice",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-026-026-8e758f6a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-027-027-aeb468f9",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 1:27, what does He command with authority?",
+      "answer": "unclean spirits",
+      "type": "list",
+      "points": 1,
+      "originalIds": [
+        "41-001-027-027-940ebde6",
+        "41-001-027-027-11975f77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-027-027-e3e46726",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 1:27, what did the people do after they were amazed?",
+      "answer": "they questioned among themselves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-027-027-ecc648af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-027-027-9acea5b9",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 1:27, what do the unclean spirits do when commanded by Him? (be specific)",
+      "answer": "they obey Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-027-027-1ddceea0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-027-027-2cb18478",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 1:27, what two questions were asked regarding the nature of the teaching?",
+      "answer": "What is this? What new doctrine is this?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-027-027-2fcdb628",
+        "41-001-027-027-49a997a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-027-027-f4280047",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 1:27, what was the reaction of those who witnessed the event?",
+      "answer": "amazed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-027-027-b4e81b10"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-028-028-c10c80da",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, what happened immediately following the event?",
+      "answer": "His fame spread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-028-028-9ee6250f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-028-028-a0bb0f11",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, where did His fame spread throughout? (be specific)",
+      "answer": "all the region around Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-028-028-661afb7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-029-029-8468b420",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 1:29, list the two people who accompanied them into the house.",
+      "answer": "James and John",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-029-029-a496af5b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-029-029-0626f063",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 1:29, what did they come out of before entering the house of Simon and Andrew?",
+      "answer": "synagogue",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-029-029-751be447"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-029-029-503e2d6a",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 1:29, when did they enter the house of Simon and Andrew? (be specific)",
+      "answer": "as soon as they had come out of the synagogue",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-029-029-84e53512"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-029-029-3df115b7",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 1:29, whose house did they enter?",
+      "answer": "Simon and Andrew",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-029-029-d3ed7a67",
+        "41-001-029-029-3df115b7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-030-030-77726f69",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 1:30, what was the condition of Simon's wife's mother?",
+      "answer": "lay sick with a fever",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-030-030-ad0c9ed0",
+        "41-001-030-030-77726f69"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-030-030-da03e8a5",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 1:30, when did they tell Him about her?",
+      "answer": "at once",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-030-030-3b511ccb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-030-030-bd4f3910",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 1:30, who lay sick with a fever?",
+      "answer": "Simon’s wife’s mother",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-030-030-4aef2f5d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-031-031-1b6933b0",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 1:31, how did He lift her up?",
+      "answer": "took her by the hand",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-031-031-ed93693d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-031-031-e2433e0d",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 1:31, what did she do after the fever left her?",
+      "answer": "she served them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-031-031-1f8bcb70"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-031-031-e203b541",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 1:31, what happened immediately after He lifted her up?",
+      "answer": "the fever left her",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-031-031-4310cb31"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-031-031-3cfb5607",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "True or False: According to Mark 1:31, He took her hands to help her.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-001-031-031-241bac90",
+        "41-001-031-031-8d716667"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-032-032-16e5b550",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 1:32, what two groups of people were brought to Him? (be specific)",
+      "answer": "all who were sick and those who were demon-possessed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-032-032-675dc751"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-032-032-43e0d3ec",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 1:32, what was the state of the people who were brought to Him?",
+      "answer": "sick and those who were demon-possessed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-032-032-415b1cf1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-032-032-f0fcaa1a",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 1:32, when did they bring the sick and demon-possessed to Him?",
+      "answer": "At evening, when the sun had set",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-001-032-032-6188171b",
+        "41-001-032-032-f0fcaa1a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-033-033-8c04e56b",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 1:33, where was the whole city?",
+      "answer": "was gathered together at the door",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-033-033-9bb8c99b",
+        "41-001-033-033-6250d3bf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-033-033-f90f4ef2",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 1:33, where was the whole city gathered?",
+      "answer": "at the door",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-033-033-d42d6569"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-034-034-1020a36b",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 1:34, how many demons did He cast out?",
+      "answer": "many",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-001-034-034-c8c81905"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-034-034-78aa9db1",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 1:34, what did He do for the sick?",
+      "answer": "healed many",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-034-034-66f5b35a",
+        "41-001-034-034-7ac1fe44"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-034-034-fec522c4",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 1:34, what were the people sick with He healed?",
+      "answer": "various diseases",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-034-034-c03d016e",
+        "41-001-034-034-efec6c01"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-034-034-ac874f01",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 1:34, why did He not allow the demons to speak? (be specific)",
+      "answer": "because they knew Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-034-034-9758f0e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-035-035-caad610f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 1:35, how long before daylight did He rise?",
+      "answer": "a long while",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-035-035-6c2c563e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-035-035-c03ef394",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 1:35, what did He do when He went to a solitary place?",
+      "answer": "He prayed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-035-035-b23c79da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-035-035-a33c600b",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 1:35, when did He rise?",
+      "answer": "in the morning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-035-035-c12e2526"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-035-035-cfc3a046",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 1:35, where did He go after He departed? (be specific)",
+      "answer": "to a solitary place",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-001-035-035-72bcd9bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-036-036-d1522430",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 1:36, who searched for Him? (be specific)",
+      "answer": "Simon and those who were with Him",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-036-036-c2495421"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-037-037-e153fba3",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 1:37, what did they say to Him when they found Him?",
+      "answer": "Everyone is looking for You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-037-037-e6039d10"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-038-038-8f83e8fd",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 1:38, what reason did Jesus give for why He came forth?",
+      "answer": "for this purpose to preach",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-038-038-28cae2cf",
+        "41-001-038-038-40abd46c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-038-038-a0c41178",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 1:38, where did Jesus suggest they go?",
+      "answer": "into the next towns",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-038-038-f65902cf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-038-038-95b931c9",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 1:38, why did Jesus want to go into the next towns? (be specific)",
+      "answer": "that I may preach there also",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-038-038-293aa83d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-039-039-b9078372",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 1:39, name the two actions Jesus was performing throughout Galilee.",
+      "answer": "preaching in their synagogues and casting out demons",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-039-039-b6a78626"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-039-039-3d83148b",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 1:39, throughout what region was Jesus preaching and casting out demons?",
+      "answer": "all Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-039-039-9ff4bae9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-039-039-d76c1dbd",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 1:39, where was Jesus preaching?",
+      "answer": "in their synagogues throughout all Galilee",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-001-039-039-1c564107",
+        "41-001-039-039-2f2235af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-040-040-1d978b34",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 1:40, what did the leper say to Jesus?",
+      "answer": "If You are willing, You can make me clean.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-040-040-984cb937",
+        "41-001-040-040-1d978b34"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-040-040-01d1ad26",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 1:40, what three actions did the leper take when coming to Jesus? (be specific)",
+      "answer": "imploring Him, kneeling down to Him and saying to Him, \"If you are willing, You can make me clean.\"",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-040-040-13af09f2",
+        "41-001-040-040-c132bc4b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-040-040-4156529f",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 1:40, who came to Jesus?",
+      "answer": "a leper",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-040-040-b2c40eb2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-041-041-0d6bc563",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 1:41, what three actions did Jesus perform?",
+      "answer": "stretched out His hand, touched him, and said to him, \"I am willing; be cleansed.\"",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-041-041-63f05fd2",
+        "41-001-041-041-b875021b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-041-041-c647120d",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 1:41, what was Jesus' internal state that led to His actions?",
+      "answer": "moved with compassion",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-041-041-a1ec47ea"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-041-041-b26a6762",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 1:41, what were the exact words Jesus said to the man?",
+      "answer": "I am willing; be cleansed.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-041-041-53a70211",
+        "41-001-041-041-b26a6762"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-042-042-c122333f",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 1:42, what happened to the man immediately after Jesus spoke? (be specific)",
+      "answer": "the leprosy left him, and he was cleansed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-042-042-b132e35e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-042-042-543a6d9f",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 1:42, when did the leprosy leave the man?",
+      "answer": "As soon as He had spoken",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-042-042-e75e73fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-043-043-265af99c",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 1:43, what did Jesus do to the man before sending him away?",
+      "answer": "He strictly warned him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-043-043-fa562a5a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-043-043-916ff4f7",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 1:43, when did Jesus send the man away?",
+      "answer": "at once",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-043-043-eafc781f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-044-044-7599faba",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, What was showing himself to the priest and offering the things Moses commanded to them?",
+      "answer": "a testimony",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-044-044-7a9fa4a2",
+        "41-001-044-044-3547f41f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-044-044-2e196cb5",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, list the 2 instructions given to the man regarding his cleansing (be specific).",
+      "answer": "show yourself to the priest, and offer for your cleansing those things which Moses commanded",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-044-044-6b524031"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-044-044-0b58482e",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, what did Jesus tell the man to say to anyone?",
+      "answer": "nothing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-044-044-7c0f1931"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-044-044-158e07c7",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, where did Jesus tell the man to go?",
+      "answer": "your way",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-044-044-147b9903"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-044-044-ddc915d3",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, who did Jesus tell the man to show himself to?",
+      "answer": "the priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-044-044-b05098fa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-045-045-ad5a327b",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 1:45, from where did people come to Jesus?",
+      "answer": "every direction",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-045-045-e1c0800b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-045-045-8d57a630",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 1:45, what did the man go out and do?",
+      "answer": "proclaim it freely, and spread the matter",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-045-045-6bb15278",
+        "41-001-045-045-9705f6b2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-045-045-2b05f065",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 1:45, what was the result of the man spreading the matter?",
+      "answer": "Jesus could no longer openly enter the city, but was outside in deserted places",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-045-045-587cef94",
+        "41-001-045-045-0b71475a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-001-045-045-fc6370cd",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 1:45, where was Jesus instead of in the city?",
+      "answer": "outside in deserted places",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-045-045-ec41ebc1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-001-001-001-4332c6b8",
+      "41-001-001-001-feb776c8",
+      "41-001-001-001-6c3ce326",
+      "41-001-001-001-dc93ca05"
+    ],
+    "2": [
+      "41-001-002-002-ea5fba08",
+      "41-001-002-002-419d4bfb",
+      "41-001-002-002-08bba1e0",
+      "41-001-002-002-d1bc1bdb"
+    ],
+    "3": [
+      "41-001-003-003-a47e47da",
+      "41-001-003-003-c92fbef2",
+      "41-001-003-003-b0582921",
+      "41-001-003-003-ca8db296",
+      "41-001-003-003-a70e2872"
+    ],
+    "4": [
+      "41-001-004-004-88081a9d",
+      "41-001-004-004-eea49d98",
+      "41-001-004-004-68794ae2",
+      "41-001-004-004-134b5303"
+    ],
+    "5": [
+      "41-001-005-005-cfbcf204",
+      "41-001-005-005-63e99a42",
+      "41-001-005-005-2d0a4080"
+    ],
+    "6": [
+      "41-001-006-006-a97bb94f",
+      "41-001-006-006-ad0dfe4e",
+      "41-001-006-006-0750d892",
+      "41-001-006-006-eaae3ef9"
+    ],
+    "7": [
+      "41-001-007-007-d48573da",
+      "41-001-007-007-cb1d6dec",
+      "41-001-007-007-d8f6ff19",
+      "41-001-007-007-916dfb8b"
+    ],
+    "8": [
+      "41-001-008-008-1c352ffa",
+      "41-001-008-008-35e4a458",
+      "41-001-008-008-6d57bc4d"
+    ],
+    "9": [
+      "41-001-009-009-b75c5bfb",
+      "41-001-009-009-e0d3f04b",
+      "41-001-009-009-8d9be86c",
+      "41-001-009-009-5bacf6c7"
+    ],
+    "10": [
+      "41-001-010-010-07b3a26f",
+      "41-001-010-010-e71de1bd",
+      "41-001-010-010-12a008e6",
+      "41-001-010-010-85b1cb93"
+    ],
+    "11": [
+      "41-001-011-011-a2e5b9ee",
+      "41-001-011-011-1a1a7186",
+      "41-001-011-011-ac2a850d"
+    ],
+    "12": [
+      "41-001-012-012-927d4f80",
+      "41-001-012-012-0406489f",
+      "41-001-012-012-0ab4dcec"
+    ],
+    "13": [
+      "41-001-013-013-7c2c7e65",
+      "41-001-013-013-7a39e74f",
+      "41-001-013-013-6991fdc6",
+      "41-001-013-013-5d95426d",
+      "41-001-013-013-6de99411"
+    ],
+    "14": [
+      "41-001-014-014-eeacda43",
+      "41-001-014-014-909127e9",
+      "41-001-014-014-fafa8c9f"
+    ],
+    "15": [
+      "41-001-015-015-e8ffac31",
+      "41-001-015-015-6085afa8",
+      "41-001-015-015-57229029"
+    ],
+    "16": [
+      "41-001-016-016-17a51b80",
+      "41-001-016-016-38ae6f03",
+      "41-001-016-016-35b328d7",
+      "41-001-016-016-ed82a8ac"
+    ],
+    "17": [
+      "41-001-017-017-1dfb1101",
+      "41-001-017-017-6dec4b70",
+      "41-001-017-017-4e5d31aa"
+    ],
+    "18": [
+      "41-001-018-018-59b80401",
+      "41-001-018-018-98190715"
+    ],
+    "19": [
+      "41-001-019-019-e59f7ab5",
+      "41-001-019-019-0af9237d",
+      "41-001-019-019-22544c38",
+      "41-001-019-019-5694b27d"
+    ],
+    "20": [
+      "41-001-020-020-64e1a022",
+      "41-001-020-020-e6eea00d",
+      "41-001-020-020-6a002725",
+      "41-001-020-020-2d9580fc"
+    ],
+    "21": [
+      "41-001-021-021-bef08ea4",
+      "41-001-021-021-7befc63c",
+      "41-001-021-021-9ef017b8",
+      "41-001-021-021-4b4bb386"
+    ],
+    "22": [
+      "41-001-022-022-5c05275a",
+      "41-001-022-022-f3cc2be9",
+      "41-001-022-022-7e1ab8f9"
+    ],
+    "23": [
+      "41-001-023-023-f8640e74",
+      "41-001-023-023-749adc8e",
+      "41-001-023-023-dfb39c94"
+    ],
+    "24": [
+      "41-001-024-024-a37a8c58",
+      "41-001-024-024-6c24f7b8",
+      "41-001-024-024-e5085e71",
+      "41-001-024-024-8ff11b7a"
+    ],
+    "25": [
+      "41-001-025-025-0050664f",
+      "41-001-025-025-caead9a4",
+      "41-001-025-025-b33d32fb"
+    ],
+    "26": [
+      "41-001-026-026-ceb4a759",
+      "41-001-026-026-c1bca3cf",
+      "41-001-026-026-5ff8d1e6",
+      "41-001-026-026-5d746070"
+    ],
+    "27": [
+      "41-001-027-027-aeb468f9",
+      "41-001-027-027-e3e46726",
+      "41-001-027-027-9acea5b9",
+      "41-001-027-027-2cb18478",
+      "41-001-027-027-f4280047"
+    ],
+    "28": [
+      "41-001-028-028-c10c80da",
+      "41-001-028-028-a0bb0f11"
+    ],
+    "29": [
+      "41-001-029-029-8468b420",
+      "41-001-029-029-0626f063",
+      "41-001-029-029-503e2d6a",
+      "41-001-029-029-3df115b7"
+    ],
+    "30": [
+      "41-001-030-030-77726f69",
+      "41-001-030-030-da03e8a5",
+      "41-001-030-030-bd4f3910"
+    ],
+    "31": [
+      "41-001-031-031-1b6933b0",
+      "41-001-031-031-e2433e0d",
+      "41-001-031-031-e203b541",
+      "41-001-031-031-3cfb5607"
+    ],
+    "32": [
+      "41-001-032-032-16e5b550",
+      "41-001-032-032-43e0d3ec",
+      "41-001-032-032-f0fcaa1a"
+    ],
+    "33": [
+      "41-001-033-033-8c04e56b",
+      "41-001-033-033-f90f4ef2"
+    ],
+    "34": [
+      "41-001-034-034-1020a36b",
+      "41-001-034-034-78aa9db1",
+      "41-001-034-034-fec522c4",
+      "41-001-034-034-ac874f01"
+    ],
+    "35": [
+      "41-001-035-035-caad610f",
+      "41-001-035-035-c03ef394",
+      "41-001-035-035-a33c600b",
+      "41-001-035-035-cfc3a046"
+    ],
+    "36": [
+      "41-001-036-036-d1522430"
+    ],
+    "37": [
+      "41-001-037-037-e153fba3"
+    ],
+    "38": [
+      "41-001-038-038-8f83e8fd",
+      "41-001-038-038-a0c41178",
+      "41-001-038-038-95b931c9"
+    ],
+    "39": [
+      "41-001-039-039-b9078372",
+      "41-001-039-039-3d83148b",
+      "41-001-039-039-d76c1dbd"
+    ],
+    "40": [
+      "41-001-040-040-1d978b34",
+      "41-001-040-040-01d1ad26",
+      "41-001-040-040-4156529f"
+    ],
+    "41": [
+      "41-001-041-041-0d6bc563",
+      "41-001-041-041-c647120d",
+      "41-001-041-041-b26a6762"
+    ],
+    "42": [
+      "41-001-042-042-c122333f",
+      "41-001-042-042-543a6d9f"
+    ],
+    "43": [
+      "41-001-043-043-265af99c",
+      "41-001-043-043-916ff4f7"
+    ],
+    "44": [
+      "41-001-044-044-7599faba",
+      "41-001-044-044-2e196cb5",
+      "41-001-044-044-0b58482e",
+      "41-001-044-044-158e07c7",
+      "41-001-044-044-ddc915d3"
+    ],
+    "45": [
+      "41-001-045-045-ad5a327b",
+      "41-001-045-045-8d57a630",
+      "41-001-045-045-2b05f065",
+      "41-001-045-045-fc6370cd"
+    ]
+  }
+}

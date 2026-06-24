@@ -1,0 +1,1675 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "60-1-peter",
+  "book": "1 Peter",
+  "chapter": 1,
+  "questions": [
+    {
+      "id": "60-001-001-001-619c51ad",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 1:1, how many locations are listed for the pilgrims of the Dispersion?",
+      "answer": "5",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-001-001-001-619c51ad"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-001-001-5497d505",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 1:1, list the 5 locations mentioned in the Dispersion. (be specific)",
+      "answer": "Pontus, Galatia, Cappadocia, Asia, and Bithynia",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "60-001-001-001-5497d505"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-001-001-e4cf1739",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 1:1, to whom is the letter addressed?",
+      "answer": "To the pilgrims of the Dispersion",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-001-001-e4cf1739"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-001-001-719f5a52",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 1:1, who identifies himself as an apostle of Jesus Christ?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-001-001-719f5a52"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-002-002-9085fe5e",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 1:2, by what means are the pilgrims elect in regards to the Spirit?",
+      "answer": "in sanctification of the Spirit",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-002-002-9085fe5e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-002-002-11e7a5d1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 1:2, for what two things are the pilgrims elect? (be specific)",
+      "answer": "for obedience and sprinkling of the blood of Jesus Christ",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-002-002-11e7a5d1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-002-002-212d5489",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 1:2, how are the pilgrims chosen?",
+      "answer": "elect according to the foreknowledge of God the Father",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-002-002-212d5489"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-002-002-9ed8f98e",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 1:2, what two things does Peter pray will be multiplied to the pilgrims?",
+      "answer": "Grace and peace",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-002-002-9ed8f98e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-003-003-59700344",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 1:3, according to what has God begotten us again?",
+      "answer": "His abundant mercy",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-003-003-59700344"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-003-003-aa3d2f73",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 1:3, through what has God begotten us again to a living hope?",
+      "answer": "the resurrection of Jesus Christ from the dead",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "60-001-003-003-aa3d2f73"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-003-003-bcccfd84",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 1:3, to what has God begotten us again?",
+      "answer": "a living hope",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-003-003-bcccfd84"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-003-003-114a384b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 1:3, who is to be blessed?",
+      "answer": "the God and Father of our Lord Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-003-003-114a384b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-004-004-926464f5",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 1:4, list the 3 descriptors of the inheritance mentioned.",
+      "answer": "incorruptible and undefiled and that does not fade away",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-001-004-004-926464f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-004-004-69772ba0",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 1:4, where is the inheritance reserved? (be specific)",
+      "answer": "in heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-001-004-004-69772ba0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-004-004-ca152ccf",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to 1 Peter 1:4, the inheritance is reserved for you.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-001-004-004-ca152ccf"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-005-005-3b75d08b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 1:5, by what are we kept?",
+      "answer": "the power of God",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-005-005-3b75d08b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-005-005-d82dd7db",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 1:5, for what are we kept by the power of God through faith?",
+      "answer": "salvation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-005-005-d82dd7db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-005-005-5091dacb",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 1:5, through what are we kept by the power of God?",
+      "answer": "faith",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-005-005-5091dacb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-005-005-1b5d9989",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 1:5, when is the salvation ready to be revealed?",
+      "answer": "in the last time",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-005-005-1b5d9989"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-006-006-af87ad1f",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 1:6, for how long do the people rejoice though they are grieved by trials?",
+      "answer": "for a little while",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-006-006-af87ad1f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-006-006-41788f9f",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 1:6, what do the people do in this?",
+      "answer": "greatly rejoice",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-006-006-41788f9f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-006-006-ff38c05e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 1:6, what has grieved the people if need be? (be specific)",
+      "answer": "various trials",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-006-006-ff38c05e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-007-007-cecba4d6",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 1:7, at what event may the genuineness of faith be found to praise, honor, and glory?",
+      "answer": "the revelation of Jesus Christ",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-007-007-cecba4d6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-007-007-73c09397",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 1:7, how is the gold that perishes described as being tested? (be specific)",
+      "answer": "tested by fire",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-007-007-73c09397"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-007-007-539779b9",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 1:7, list the 3 things that the genuineness of your faith may be found to at the revelation of Jesus Christ.",
+      "answer": "praise, honor, and glory",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-001-007-007-539779b9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-007-007-9e8d2c88",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 1:7, what is being tested by fire?",
+      "answer": "gold",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-007-007-9e8d2c88"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-007-007-ce1f30aa",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 1:7, what is described as being much more precious than gold that perishes?",
+      "answer": "the genuineness of your faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-007-007-ce1f30aa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-008-008-d7fc5dc0",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 1:8, although they have not seen Him, what do the people do?",
+      "answer": "you love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-008-008-d7fc5dc0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-008-008-fc3b75e2",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 1:8, describe the two qualities of the joy experienced by the believer (be specific).",
+      "answer": "inexpressible and full of glory",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-001-008-008-fc3b75e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-008-008-709ccd0f",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 1:8, even though you do not see Him now, what is the internal state of the person believing?",
+      "answer": "you rejoice with joy inexpressible and full of glory",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "60-001-008-008-709ccd0f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-009-009-12182199",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 1:9, what are the believers receiving?",
+      "answer": "the end of your faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-009-009-12182199"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-009-009-7696f78d",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 1:9, what is the end of your faith?",
+      "answer": "the salvation of your souls",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-009-009-7696f78d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-009-009-156c94f2",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 1:9, what is the specific part of the person that receives salvation?",
+      "answer": "your souls",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-009-009-156c94f2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-010-010-909d1a75",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 1:10, what action did the prophets take regarding this salvation? (be specific)",
+      "answer": "inquired and searched carefully",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-001-010-010-909d1a75"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-010-010-bd78bcd1",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 1:10, what did the prophets prophesy of that would come to you?",
+      "answer": "the grace",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-010-010-bd78bcd1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-010-010-c820951d",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 1:10, who have inquired and searched carefully regarding this salvation?",
+      "answer": "the prophets",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-010-010-c820951d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-011-011-d91d7290",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 1:11, what two specific things did the Spirit of Christ testify of beforehand? (be specific)",
+      "answer": "the sufferings of Christ and the glories that would follow",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-011-011-d91d7290"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-011-011-8ff500e9",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 1:11, what were the prophets searching for? (be specific)",
+      "answer": "what, or what manner of time",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-001-011-011-8ff500e9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-011-011-bac3083a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 1:11, who was in the prophets as they searched?",
+      "answer": "the Spirit of Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-011-011-bac3083a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-012-012-6678879f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 1:12, through whom have the things been reported to you?",
+      "answer": "those who have preached the gospel to you by the Holy Spirit sent from heaven",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-012-012-6678879f"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-012-012-a2783616",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 1:12, to whom was it revealed that they were not ministering to themselves?",
+      "answer": "To them",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-012-012-a2783616"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-012-012-e92d3721",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 1:12, to whom were the prophets ministering the things that have now been reported?",
+      "answer": "us",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-012-012-e92d3721"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-012-012-d5d00bb0",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 1:12, what was sent from heaven?",
+      "answer": "the Holy Spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-012-012-d5d00bb0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-012-012-f94405fe",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 1:12, who desires to look into these things?",
+      "answer": "angels",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-012-012-f94405fe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-013-013-400ce991",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 1:13, at what event is the grace to be brought to you?",
+      "answer": "the revelation of Jesus Christ",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-013-013-400ce991"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-013-013-6eab0b21",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 1:13, upon what should you rest your hope fully?",
+      "answer": "the grace that is to be brought to you at the revelation of Jesus Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-013-013-6eab0b21"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-013-013-2d2899f6",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 1:13, what part of your body are you told to gird up the loins of?",
+      "answer": "your mind",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-013-013-2d2899f6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-013-013-d8dcddbe",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 1:13, what should you be?",
+      "answer": "sober",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-013-013-d8dcddbe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-013-013-ede876bc",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "List the 3 things that believers are instructed to do in Verse 13.",
+      "answer": "gird up the loins of your mind, be sober, and rest your hope fully upon the grace that is to be brought to you at the revelation of Jesus Christ",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-001-013-013-ede876bc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-014-014-8977ae08",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 1:14, as what should you not conform yourselves to your former lusts?",
+      "answer": "obedient children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-014-014-8977ae08"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-014-014-972830ba",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 1:14, how are you instructed to behave regarding your former lusts? (be specific)",
+      "answer": "not conforming yourselves to the former lusts",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-014-014-972830ba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-014-014-e3ce483e",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 1:14, what should you not conform yourselves to?",
+      "answer": "the former lusts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-014-014-e3ce483e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-014-014-4f75e876",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 1:14, when did you have these former lusts?",
+      "answer": "in your ignorance",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-014-014-4f75e876"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-014-014-d0bc485b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "True or False: According to 1 Peter 1:14, believers are called obedient children.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-001-014-014-d0bc485b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-015-015-ba01d7b5",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 1:15, in what area of your life are you to be holy? (be specific)",
+      "answer": "in all your conduct",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-015-015-ba01d7b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-015-015-bfe06878",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 1:15, what are you to be, corresponding to the One who called you?",
+      "answer": "holy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-015-015-bfe06878"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-015-015-fc3d25a6",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 1:15, who is holy?",
+      "answer": "He who called you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-015-015-fc3d25a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-016-016-0d9f1163",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 1:16, what is written?",
+      "answer": "Be holy, for I am holy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-016-016-0d9f1163"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-016-016-d8cdfb6b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 1:16, why are you to be holy?",
+      "answer": "because it is written",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-001-016-016-d8cdfb6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-016-016-177510d9",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "True or False: According to 1 Peter 1:16, it is written, 'Be holy, for I am holy.'",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-001-016-016-177510d9"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-017-017-adda5012",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 1:17, according to what does the Father judge each one’s work?",
+      "answer": "without partiality",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-017-017-adda5012"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-017-017-88941886",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 1:17, describe the three things the Father does or how He judges? (be specific)",
+      "answer": "call on the Father, who without partiality judges according to each one’s work",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-001-017-017-88941886"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-017-017-7acc526b",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 1:17, how are believers to conduct themselves throughout the time of their stay here?",
+      "answer": "in fear",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-017-017-7acc526b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-017-017-4a00eb8e",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 1:17, how does the Father judge?",
+      "answer": "without partiality",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-017-017-4a00eb8e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-017-017-6a1f44e5",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 1:17, whom do you call on?",
+      "answer": "the Father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-017-017-6a1f44e5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-018-018-d9ac0908",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 1:18, how was the aimless conduct received?",
+      "answer": "by tradition from your fathers",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-018-018-d9ac0908"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-018-018-fc852ee5",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 1:18, list the 2 corruptible things mentioned that you were not redeemed with.",
+      "answer": "silver or gold",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-018-018-fc852ee5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-018-018-f45471b3",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 1:18, what type of conduct were you redeemed from? (be specific)",
+      "answer": "aimless conduct",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-018-018-f45471b3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-018-018-5890d9a1",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 1:18, with what were you not redeemed?",
+      "answer": "corruptible things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-018-018-5890d9a1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-019-019-1cb8cdf7",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 1:19, Christ is described as what, in relation to the blood?",
+      "answer": "as of a lamb without blemish and without spot",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-019-019-1cb8cdf7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-019-019-63a1753a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 1:19, list the 2 descriptors used for the lamb.",
+      "answer": "without blemish and without spot",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-019-019-63a1753a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-019-019-9a9e45a0",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 1:19, with what were you redeemed?",
+      "answer": "the precious blood of Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-019-019-9a9e45a0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-020-020-3b9bcc54",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 1:20, for whom was He manifest in these last times? (be specific)",
+      "answer": "for you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-020-020-3b9bcc54"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-020-020-7d311c28",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 1:20, when was He foreordained?",
+      "answer": "before the foundation of the world",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-020-020-7d311c28"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-020-020-ff8cc0e1",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 Peter 1:20, when was He manifest?",
+      "answer": "in these last times",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-001-020-020-ff8cc0e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-021-021-fd5b4881",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 1:21, through whom do you believe in God?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-021-021-fd5b4881"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-021-021-56e9a08a",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 1:21, what two things are in God as a result of Him being raised and glorified? (be specific)",
+      "answer": "faith and hope",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-021-021-56e9a08a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-021-021-4578bc41",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 Peter 1:21, what two things did God do to Him after He was raised from the dead?",
+      "answer": "raised Him from the dead and gave Him glory",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-021-021-4578bc41"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-021-021-38ba0138",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "True or False: According to 1 Peter 1:21, faith and hope are in God.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-001-021-021-38ba0138"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-022-022-f2c59f54",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 1:22, how are the readers commanded to love one another? (be specific)",
+      "answer": "fervently with a pure heart",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "60-001-022-022-f2c59f54"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-022-022-998b1156",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 1:22, through whom have the readers purified their souls?",
+      "answer": "the Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-001-022-022-998b1156"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-022-022-fb67ee8d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 1:22, what have the readers purified their souls in?",
+      "answer": "obeying the truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-022-022-fb67ee8d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-022-022-663de2ab",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 Peter 1:22, what kind of love of the brethren is mentioned?",
+      "answer": "sincere",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-022-022-663de2ab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-023-023-f05dae4a",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 1:23, the readers were born again not of what kind of seed?",
+      "answer": "corruptible",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-023-023-f05dae4a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-023-023-c3982b79",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 1:23, the readers were born again of what kind of seed?",
+      "answer": "incorruptible",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-023-023-c3982b79"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-023-023-00fb5512",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 1:23, through what are the readers born again? (be specific)",
+      "answer": "the word of God which lives and abides forever",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "60-001-023-023-00fb5512"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-023-023-2d6bfb85",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 1:23, what are the two things the word of God does?",
+      "answer": "lives and abides",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-001-023-023-2d6bfb85"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-023-023-1f2cce6c",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 Peter 1:23, what does the text say the readers have been?",
+      "answer": "born again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-023-023-1f2cce6c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-024-024-d04b2135",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 1:24, to what is all flesh compared?",
+      "answer": "grass",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-024-024-d04b2135"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-024-024-13caa2be",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 1:24, to what is all the glory of man compared? (be specific)",
+      "answer": "the flower of the grass",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-024-024-13caa2be"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-024-024-d24eba72",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 1:24, what happens to the flower of the grass?",
+      "answer": "its flower falls away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-024-024-d24eba72"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-024-024-9fd8d180",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 Peter 1:24, what happens to the grass?",
+      "answer": "The grass withers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-024-024-9fd8d180"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-025-025-64b510bf",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 Peter 1:25, by what was the word preached to you? (be specific)",
+      "answer": "the gospel",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-001-025-025-64b510bf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-025-025-616f4a0b",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 Peter 1:25, what endures forever?",
+      "answer": "the word of the LORD",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-025-025-616f4a0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-001-025-025-d3a2ed1a",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 Peter 1:25, what was preached to you?",
+      "answer": "the word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-001-025-025-d3a2ed1a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "60-001-001-001-619c51ad",
+      "60-001-001-001-5497d505",
+      "60-001-001-001-e4cf1739",
+      "60-001-001-001-719f5a52"
+    ],
+    "2": [
+      "60-001-002-002-9085fe5e",
+      "60-001-002-002-11e7a5d1",
+      "60-001-002-002-212d5489",
+      "60-001-002-002-9ed8f98e"
+    ],
+    "3": [
+      "60-001-003-003-59700344",
+      "60-001-003-003-aa3d2f73",
+      "60-001-003-003-bcccfd84",
+      "60-001-003-003-114a384b"
+    ],
+    "4": [
+      "60-001-004-004-926464f5",
+      "60-001-004-004-69772ba0",
+      "60-001-004-004-ca152ccf"
+    ],
+    "5": [
+      "60-001-005-005-3b75d08b",
+      "60-001-005-005-d82dd7db",
+      "60-001-005-005-5091dacb",
+      "60-001-005-005-1b5d9989"
+    ],
+    "6": [
+      "60-001-006-006-af87ad1f",
+      "60-001-006-006-41788f9f",
+      "60-001-006-006-ff38c05e"
+    ],
+    "7": [
+      "60-001-007-007-cecba4d6",
+      "60-001-007-007-73c09397",
+      "60-001-007-007-539779b9",
+      "60-001-007-007-9e8d2c88",
+      "60-001-007-007-ce1f30aa"
+    ],
+    "8": [
+      "60-001-008-008-d7fc5dc0",
+      "60-001-008-008-fc3b75e2",
+      "60-001-008-008-709ccd0f"
+    ],
+    "9": [
+      "60-001-009-009-12182199",
+      "60-001-009-009-7696f78d",
+      "60-001-009-009-156c94f2"
+    ],
+    "10": [
+      "60-001-010-010-909d1a75",
+      "60-001-010-010-bd78bcd1",
+      "60-001-010-010-c820951d"
+    ],
+    "11": [
+      "60-001-011-011-d91d7290",
+      "60-001-011-011-8ff500e9",
+      "60-001-011-011-bac3083a"
+    ],
+    "12": [
+      "60-001-012-012-6678879f",
+      "60-001-012-012-a2783616",
+      "60-001-012-012-e92d3721",
+      "60-001-012-012-d5d00bb0",
+      "60-001-012-012-f94405fe"
+    ],
+    "13": [
+      "60-001-013-013-400ce991",
+      "60-001-013-013-6eab0b21",
+      "60-001-013-013-2d2899f6",
+      "60-001-013-013-d8dcddbe",
+      "60-001-013-013-ede876bc"
+    ],
+    "14": [
+      "60-001-014-014-8977ae08",
+      "60-001-014-014-972830ba",
+      "60-001-014-014-e3ce483e",
+      "60-001-014-014-4f75e876",
+      "60-001-014-014-d0bc485b"
+    ],
+    "15": [
+      "60-001-015-015-ba01d7b5",
+      "60-001-015-015-bfe06878",
+      "60-001-015-015-fc3d25a6"
+    ],
+    "16": [
+      "60-001-016-016-0d9f1163",
+      "60-001-016-016-d8cdfb6b",
+      "60-001-016-016-177510d9"
+    ],
+    "17": [
+      "60-001-017-017-adda5012",
+      "60-001-017-017-88941886",
+      "60-001-017-017-7acc526b",
+      "60-001-017-017-4a00eb8e",
+      "60-001-017-017-6a1f44e5"
+    ],
+    "18": [
+      "60-001-018-018-d9ac0908",
+      "60-001-018-018-fc852ee5",
+      "60-001-018-018-f45471b3",
+      "60-001-018-018-5890d9a1"
+    ],
+    "19": [
+      "60-001-019-019-1cb8cdf7",
+      "60-001-019-019-63a1753a",
+      "60-001-019-019-9a9e45a0"
+    ],
+    "20": [
+      "60-001-020-020-3b9bcc54",
+      "60-001-020-020-7d311c28",
+      "60-001-020-020-ff8cc0e1"
+    ],
+    "21": [
+      "60-001-021-021-fd5b4881",
+      "60-001-021-021-56e9a08a",
+      "60-001-021-021-4578bc41",
+      "60-001-021-021-38ba0138"
+    ],
+    "22": [
+      "60-001-022-022-f2c59f54",
+      "60-001-022-022-998b1156",
+      "60-001-022-022-fb67ee8d",
+      "60-001-022-022-663de2ab"
+    ],
+    "23": [
+      "60-001-023-023-f05dae4a",
+      "60-001-023-023-c3982b79",
+      "60-001-023-023-00fb5512",
+      "60-001-023-023-2d6bfb85",
+      "60-001-023-023-1f2cce6c"
+    ],
+    "24": [
+      "60-001-024-024-d04b2135",
+      "60-001-024-024-13caa2be",
+      "60-001-024-024-d24eba72",
+      "60-001-024-024-9fd8d180"
+    ],
+    "25": [
+      "60-001-025-025-64b510bf",
+      "60-001-025-025-616f4a0b",
+      "60-001-025-025-d3a2ed1a"
+    ]
+  }
+}

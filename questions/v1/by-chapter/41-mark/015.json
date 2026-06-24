@@ -1,0 +1,2807 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 15,
+  "questions": [
+    {
+      "id": "41-015-001-001-839e07a4",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 15:1, list the 4 groups that held a consultation (be specific).",
+      "answer": "chief priests, elders, scribes, and the whole council",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-015-001-001-839e07a4"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-001-001-50c6d3fd",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 15:1, to whom did the council deliver Jesus?",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-001-001-50c6d3fd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-001-001-cffeca59",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 15:1, what 3 actions were taken against Jesus after the consultation?",
+      "answer": "bound Him, led Him away, and delivered Him to Pilate",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-015-001-001-cffeca59"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-001-001-55ac377e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 15:1, when did the chief priests hold a consultation?",
+      "answer": "Immediately, in the morning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-001-001-55ac377e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-001-001-748226ad",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 15:1, who held a consultation with the chief priests, scribes, and the whole council?",
+      "answer": "the elders",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-001-001-748226ad"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-002-002-068669bc",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 15:2, how did Jesus respond to Pilate’s question?",
+      "answer": "It is as you say.",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-015-002-002-068669bc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-002-002-c5969a9e",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 15:2, what specific title did Pilate ask if Jesus held? (be specific)",
+      "answer": "King of the Jews",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-002-002-c5969a9e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-002-002-4bd9eecc",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 15:2, who asked the question, “Are You the King of the Jews?”",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-002-002-4bd9eecc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-002-002-9044e17d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "True or False: According to Mark 15:2, Pilate asked if Jesus was the King of the Jews.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-002-002-9044e17d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-003-003-19acb4c5",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 15:3, how did Jesus respond to the accusations of the chief priests?",
+      "answer": "He answered nothing",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-003-003-19acb4c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-003-003-6a3c487d",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 15:3, of how many things did the chief priests accuse Jesus?",
+      "answer": "many things",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-015-003-003-6a3c487d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-003-003-6f9716c3",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 15:3, who accused Jesus of many things?",
+      "answer": "the chief priests",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-003-003-6f9716c3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-004-004-93b2dd44",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 15:4, what did Pilate ask Jesus regarding His silence? (be specific)",
+      "answer": "Do You answer nothing?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-004-004-93b2dd44"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-004-004-f6752a4e",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 15:4, what did Pilate tell Jesus to see regarding the things being testified against Him?",
+      "answer": "See how many things they testify against You!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-004-004-f6752a4e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-004-004-5cd2c376",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 15:4, who asked Jesus a question again?",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-004-004-5cd2c376"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-005-005-5fa9fb1c",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 15:5, what did Jesus do in response to Pilate's inquiry?",
+      "answer": "Jesus still answered nothing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-005-005-5fa9fb1c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-005-005-1f200bc2",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 15:5, what was Pilate's reaction to Jesus answering nothing?",
+      "answer": "Pilate marveled",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-005-005-1f200bc2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-006-006-c2804af8",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 15:6, what was he accustomed to doing for them at the feast?",
+      "answer": "releasing one prisoner to them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-006-006-c2804af8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-006-006-7d9d645b",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 15:6, when was he accustomed to releasing one prisoner to them?",
+      "answer": "at the feast",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-006-006-7d9d645b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-006-006-f550b02e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 15:6, which prisoner was he accustomed to releasing? (be specific)",
+      "answer": "whomever they requested",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-006-006-f550b02e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-007-007-460452f3",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 15:7, how was Barabbas described in relation to his fellow rebels?",
+      "answer": "chained with his fellow rebels",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-007-007-460452f3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-007-007-085fade9",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 15:7, name the 2 things that characterized the group Barabbas was with.",
+      "answer": "chained; committed murder in the rebellion",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-007-007-085fade9"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-007-007-fa6d633c",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 15:7, what act had Barabbas and his fellow rebels committed in the rebellion? (be specific)",
+      "answer": "murder",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-007-007-fa6d633c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-007-007-ed80c0a3",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 15:7, what was the name of the one prisoner?",
+      "answer": "Barabbas",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-007-007-ed80c0a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-008-008-a5191e07",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 15:8, what did the multitude want Pilate to do? (be specific)",
+      "answer": "do just as he had always done for them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-008-008-a5191e07"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-008-008-89c885a1",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 15:8, what were the multitude doing as they began to ask Pilate to do as he had always done?",
+      "answer": "crying aloud",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-008-008-89c885a1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-008-008-80a020d2",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 15:8, who began to ask him to do just as he had always done for them?",
+      "answer": "the multitude",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-008-008-80a020d2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-009-009-de689005",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 15:9, what specific title did Pilate use when asking if he should release Jesus to them? (be specific)",
+      "answer": "the King of the Jews",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-009-009-de689005"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-009-009-46521137",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 15:9, what was the question Pilate asked the multitude?",
+      "answer": "Do you want me to release to you the King of the Jews?",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-015-009-009-46521137"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-009-009-10dc48b2",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 15:9, who answered the multitude?",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-009-009-10dc48b2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-010-010-cffd8daa",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 15:10, for what reason did the chief priests hand Him over?",
+      "answer": "envy",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-015-010-010-cffd8daa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-010-010-9dc4c046",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 15:10, who did Pilate know had handed Him over?",
+      "answer": "the chief priests",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-010-010-9dc4c046"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-011-011-6dd1395c",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 15:11, what did the chief priests do to the crowd? (be specific)",
+      "answer": "stirred up",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-011-011-6dd1395c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-011-011-fc6fd2fd",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 15:11, who stirred up the crowd?",
+      "answer": "the chief priests",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-011-011-fc6fd2fd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-011-011-faca6561",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 15:11, whom did the chief priests want the crowd to have released instead of Jesus?",
+      "answer": "Barabbas",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-011-011-faca6561"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-012-012-f4f41d52",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 15:12, what question did Pilate ask regarding the man the people called the King of the Jews?",
+      "answer": "What then do you want me to do with Him whom you call the King of the Jews?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-012-012-f4f41d52"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-012-012-14f3e9c5",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 15:12, what title did the people use to refer to Him when speaking to Pilate? (be specific)",
+      "answer": "King of the Jews",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-015-012-012-14f3e9c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-012-012-6f28f32e",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 15:12, who answered and spoke to the crowd again?",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-012-012-6f28f32e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-013-013-27bd5915",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 15:13, what did the crowd do in response to Pilate?",
+      "answer": "cried out again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-013-013-27bd5915"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-013-013-c57a9bf5",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 15:13, what two words did the crowd cry out regarding Jesus? (be specific)",
+      "answer": "Crucify Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-013-013-c57a9bf5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-014-014-4aa30d3d",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 15:14, how intensely did the people cry out for Jesus to be crucified? (be specific)",
+      "answer": "all the more",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-014-014-4aa30d3d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-014-014-51a6e460",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 15:14, what did the people cry out when Pilate asked about the evil Jesus had done?",
+      "answer": "Crucify Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-014-014-51a6e460"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-014-014-799a4ff9",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 15:14, who asked, \"Why, what evil has He done?\"",
+      "answer": "Pilate",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-014-014-799a4ff9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-015-015-34c0a681",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 15:15, what did Pilate do to Jesus before delivering Him to be crucified?",
+      "answer": "scourged Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-015-015-34c0a681"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-015-015-ea335cbc",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 15:15, what happened to Jesus after He was scourged?",
+      "answer": "He was delivered to be crucified",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-015-015-ea335cbc"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-015-015-63ffbc9c",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 15:15, whom did Pilate release to the crowd?",
+      "answer": "Barabbas",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-015-015-63ffbc9c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-015-015-e160830e",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 15:15, why did Pilate release Barabbas to the crowd? (be specific)",
+      "answer": "wanting to gratify the crowd",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-015-015-015-e160830e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-016-016-ac75b3ba",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 15:16, what was the name of the hall the soldiers led Him into? (be specific)",
+      "answer": "Praetorium",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-016-016-ac75b3ba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-016-016-25ba377f",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 15:16, where did the soldiers lead Him?",
+      "answer": "into the hall called Praetorium",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-016-016-25ba377f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-016-016-93c884e6",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 15:16, who did the soldiers call together?",
+      "answer": "the whole garrison",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-016-016-93c884e6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-016-016-848eff76",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 15:16, who led Him away?",
+      "answer": "the soldiers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-016-016-848eff76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-017-017-26916ea1",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 15:17, what color of garment did they clothe Him with?",
+      "answer": "purple",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-017-017-26916ea1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-017-017-aa7cdc90",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 15:17, what did they do to the crown of thorns before putting it on His head?",
+      "answer": "they twisted a crown of thorns",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-017-017-aa7cdc90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-017-017-617a1c98",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 15:17, where did they put the crown of thorns?",
+      "answer": "on His head",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-017-017-617a1c98"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-018-018-6316df9c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 15:18, what did the soldiers begin to do?",
+      "answer": "salute Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-018-018-6316df9c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-018-018-04339da6",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 15:18, what exact phrase did they use to salute Him? (be specific)",
+      "answer": "Hail, King of the Jews!",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-015-018-018-04339da6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-018-018-046135ab",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "True or False: According to Mark 15:18, the soldiers saluted Him by calling Him the King of the Jews.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-018-018-046135ab"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-019-019-b3396b45",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 15:19, list the 3 actions taken against Him before they worshiped Him. (be specific)",
+      "answer": "struck Him on the head with a reed; spat on Him; bowing the knee",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-015-019-019-b3396b45"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-019-019-a756e27d",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 15:19, what action did they perform after striking and spitting on Him?",
+      "answer": "bowing the knee",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-019-019-a756e27d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-019-019-5969987f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 15:19, what did they do as they bowed the knee?",
+      "answer": "worshiped Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-019-019-5969987f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-019-019-d5d18cb2",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 15:19, what did they do to Him besides striking Him on the head with a reed?",
+      "answer": "spat on Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-019-019-d5d18cb2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-019-019-dea22676",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 15:19, with what did they strike Him on the head?",
+      "answer": "a reed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-019-019-dea22676"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-020-020-01f4b4cd",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 15:20, list the 3 actions performed by them after they had mocked Him. (be specific)",
+      "answer": "took the purple off Him; put His own clothes on Him; led Him out to crucify Him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-015-020-020-01f4b4cd"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-020-020-1a020122",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 15:20, what did they do when they had finished mocking Him?",
+      "answer": "they took the purple off Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-020-020-1a020122"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-020-020-c7f2c102",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 15:20, what did they put on Him after removing the purple?",
+      "answer": "His own clothes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-020-020-c7f2c102"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-020-020-4ec3de76",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 15:20, where did they lead Him after putting His own clothes on Him?",
+      "answer": "out to crucify Him",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-020-020-4ec3de76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-021-021-0ecc8a31",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 15:21, what was Simon doing when he was compelled to bear the cross?",
+      "answer": "passing by",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-021-021-0ecc8a31"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-021-021-5c2dc26b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 15:21, what was the occupation or status of Simon a Cyrenian as described by his sons?",
+      "answer": "the father of Alexander and Rufus",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-015-021-021-5c2dc26b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-021-021-874d6c76",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 15:21, what were the names of Simon the Cyrenian's two sons? (be specific)",
+      "answer": "Alexander and Rufus",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-021-021-874d6c76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-021-021-79a45b33",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 15:21, where was Simon a Cyrenian coming from when he was compelled to bear the cross?",
+      "answer": "the country",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-021-021-79a45b33"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-021-021-49ff1b4d",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 15:21, who did the soldiers compel to bear the cross?",
+      "answer": "Simon a Cyrenian",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-021-021-49ff1b4d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-022-022-0ee5b56a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 15:22, to what place did they bring Him?",
+      "answer": "Golgotha",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-022-022-0ee5b56a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-022-022-d581da12",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 15:22, what is the meaning of the word Golgotha?",
+      "answer": "Place of a Skull",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-022-022-d581da12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-023-023-89be0fdf",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 15:23, did Jesus take the drink offered to Him?",
+      "answer": "He did not take it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-023-023-89be0fdf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-023-023-e12bd4b9",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 15:23, what were they given to drink?",
+      "answer": "wine mingled with myrrh",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-023-023-e12bd4b9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-023-023-43647110",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 15:23, with what substance was the wine mingled?",
+      "answer": "myrrh",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-023-023-43647110"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-024-024-d3de7836",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 15:24, what action did they perform to determine what every man should take regarding His garments?",
+      "answer": "casting lots",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-024-024-d3de7836"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-024-024-595f9984",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 15:24, what did they do when they crucified Him?",
+      "answer": "divided His garments",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-024-024-595f9984"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-024-024-369acd2b",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 15:24, what was the specific object they cast lots for?",
+      "answer": "His garments",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-024-024-369acd2b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-024-024-c94711d9",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 15:24, why did they cast lots for His garments? (be specific)",
+      "answer": "to determine what every man should take",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-015-024-024-c94711d9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-025-025-72db554b",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 15:25, at what time of the day was it?",
+      "answer": "the third hour",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-025-025-72db554b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-025-025-66c9dff0",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 15:25, what did they do to Him?",
+      "answer": "crucified Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-025-025-66c9dff0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-026-026-bee9d295",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 15:26, what was the inscription described as? (be specific)",
+      "answer": "the inscription of His accusation",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-026-026-bee9d295"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-026-026-a7c590ad",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 15:26, what was written above Him?",
+      "answer": "THE KING OF THE JEWS",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-026-026-a7c590ad"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-027-027-f1124c69",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 15:27, how many robbers were crucified with Him?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-015-027-027-f1124c69"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-027-027-d96d45d4",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 15:27, where were the two robbers placed in relation to Him? (be specific)",
+      "answer": "one on His right and the other on His left",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-015-027-027-d96d45d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-027-027-13c7b6f1",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 15:27, who was crucified with Jesus?",
+      "answer": "two robbers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-027-027-13c7b6f1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-027-027-38ac1be4",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "True or False: According to Mark 15:27, two robbers were crucified with Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-027-027-38ac1be4"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-028-028-c146f9cc",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 15:28, what does the Scripture say was fulfilled regarding Him?",
+      "answer": "And He was numbered with the transgressors.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-028-028-c146f9cc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-028-028-2b15e596",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 15:28, what is the exact quote from Scripture concerning the one who was crucified?",
+      "answer": "And He was numbered with the transgressors.",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-015-028-028-2b15e596"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-028-028-e685ef61",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 15:28, what was fulfilled by the crucifixion of Jesus?",
+      "answer": "the Scripture",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-028-028-e685ef61"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-029-029-21699148",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 15:29, how did those who passed by express their blasphemy?",
+      "answer": "wagging their heads",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-029-029-21699148"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-029-029-8886ed7d",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 15:29, what did those who passed by do to Him?",
+      "answer": "blasphemed Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-029-029-8886ed7d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-029-029-9e505e66",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 15:29, what interjection did those who passed by use when addressing Him?",
+      "answer": "Aha!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-029-029-9e505e66"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-029-029-0d0e8f87",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 15:29, what two actions did the passersby claim He would perform? (be specific)",
+      "answer": "destroy the temple and build it in three days",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-029-029-0d0e8f87"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-030-030-46815cf8",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 15:30, from where did the passersby tell Him to come down?",
+      "answer": "the cross",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-030-030-46815cf8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-030-030-968196b7",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 15:30, what two imperatives did the passersby demand of Him?",
+      "answer": "save Yourself, and come down from the cross",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-030-030-968196b7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-030-030-7e8b43ab",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "True or False: According to Mark 15:30, the passersby asked Him to save Yourself.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-030-030-7e8b43ab"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-031-031-a858189f",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 15:31, what did the chief priests and scribes say about Himself? (be specific)",
+      "answer": "Himself He cannot save",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-031-031-a858189f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-031-031-46164a59",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 15:31, what did the chief priests and scribes say about those He saved?",
+      "answer": "He saved others",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-031-031-46164a59"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-031-031-b61dde78",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 15:31, what were the chief priests and scribes doing among themselves?",
+      "answer": "mocking",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-031-031-b61dde78"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-031-031-cd5a3fe7",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 15:31, which two groups of people were mocking among themselves?",
+      "answer": "chief priests and scribes",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-031-031-cd5a3fe7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-032-032-e7e4e70c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 15:32, what did the mockers want the person on the cross to do? (be specific)",
+      "answer": "descend now from the cross",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-032-032-e7e4e70c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-032-032-114ba73c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 15:32, what two titles did the mockers call the person on the cross?",
+      "answer": "the Christ, the King of Israel",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-032-032-114ba73c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-032-032-4ebec5ee",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 15:32, who else reviled Him?",
+      "answer": "those who were crucified with Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-032-032-4ebec5ee"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-032-032-fd1cfc84",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 15:32, why did the mockers want Him to descend from the cross?",
+      "answer": "that we may see and believe",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-015-032-032-fd1cfc84"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-033-033-e0758ea2",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 15:33, how many hours total did the darkness cover the land?",
+      "answer": "3",
+      "type": "how_many",
+      "points": 2,
+      "originalIds": [
+        "41-015-033-033-e0758ea2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-033-033-35061723",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 15:33, until what time did the darkness last? (be specific)",
+      "answer": "the ninth hour",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-033-033-35061723"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-033-033-7cbc130f",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 15:33, what happened over the whole land when the sixth hour had come?",
+      "answer": "there was darkness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-033-033-7cbc130f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-033-033-f4ba14b4",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 15:33, what time had come when the darkness appeared?",
+      "answer": "the sixth hour",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-033-033-f4ba14b4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-034-034-dd94dec9",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 15:34, at what time did Jesus cry out with a loud voice?",
+      "answer": "the ninth hour",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-034-034-dd94dec9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-034-034-0e4f5ed2",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 15:34, what did Jesus cry out in the Aramaic language?",
+      "answer": "Eloi, Eloi, lama sabachthani?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-034-034-0e4f5ed2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-034-034-a8d399a3",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 15:34, what is the English translation of the phrase Jesus cried out? (be specific)",
+      "answer": "My God, My God, why have You forsaken Me?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-034-034-a8d399a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-035-035-5c6cb27f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 15:35, what did some of those who stood by think Jesus was doing?",
+      "answer": "calling for Elijah",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-035-035-5c6cb27f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-035-035-2005e44a",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 15:35, who said, 'Look, He is calling for Elijah!'?",
+      "answer": "Some of those who stood by",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-035-035-2005e44a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-036-036-d75ae91b",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 15:36, upon what object did someone put the sponge filled with sour wine?",
+      "answer": "a reed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-036-036-d75ae91b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-036-036-620f06ec",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 15:36, what did someone run and fill full of sour wine?",
+      "answer": "a sponge",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-036-036-620f06ec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-036-036-c4dd91d5",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 15:36, what reason did the person give for letting Him alone? (be specific)",
+      "answer": "let us see if Elijah will come to take Him down",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-015-036-036-c4dd91d5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-036-036-4b85816f",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "True or False: According to Mark 15:36, the person offered Jesus the sour wine to drink.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-036-036-4b85816f"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-037-037-c662e85a",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 15:37, how did Jesus cry out? (be specific)",
+      "answer": "with a loud voice",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-015-037-037-c662e85a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-037-037-001bd979",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 15:37, what did Jesus do after crying out with a loud voice?",
+      "answer": "breathed His last",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-037-037-001bd979"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-037-037-ec45f326",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 15:37, what did Jesus do with a loud voice?",
+      "answer": "cried out",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-037-037-ec45f326"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-038-038-b58c3015",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 15:38, from what point to what point was the veil of the temple torn? (be specific)",
+      "answer": "from top to bottom",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-015-038-038-b58c3015"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-038-038-f537697c",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 15:38, how was the veil of the temple torn?",
+      "answer": "in two",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-015-038-038-f537697c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-038-038-413227fc",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 15:38, what was torn in two?",
+      "answer": "the veil of the temple",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-038-038-413227fc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-039-039-0d367f75",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 15:39, what did the centurion say about Jesus?",
+      "answer": "Truly this Man was the Son of God!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-039-039-0d367f75"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-039-039-e3c1baa2",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 15:39, what two things did the centurion see Jesus do? (be specific)",
+      "answer": "cried out like this and breathed His last",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-039-039-e3c1baa2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-039-039-a0a0f97d",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 15:39, who stood opposite Jesus?",
+      "answer": "the centurion",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-039-039-a0a0f97d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-039-039-c3ce615f",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "True or False: According to Mark 15:39, the centurion stood opposite Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-015-039-039-c3ce615f"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-040-040-91f8023f",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 15:40, name the three women mentioned by name who were looking on from afar.",
+      "answer": "Mary Magdalene, Mary the mother of James the Less and of Joses, and Salome",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-015-040-040-91f8023f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-040-040-92649083",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 15:40, what were the women doing from afar?",
+      "answer": "looking on",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-040-040-92649083"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-040-040-2de45ff6",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 15:40, who is described as the mother of James the Less and of Joses? (be specific)",
+      "answer": "Mary",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-040-040-2de45ff6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-041-041-c9355bec",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 15:41, describe the actions taken by the women who followed Him while He was in Galilee. (be specific)",
+      "answer": "followed Him and ministered to Him",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-015-041-041-c9355bec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-041-041-07af2e3f",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 15:41, to what location did the many other women come up with Him?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-041-041-07af2e3f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-041-041-a63ed67a",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 15:41, what did the women do when Jesus was in Galilee?",
+      "answer": "followed Him and ministered to Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-041-041-a63ed67a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-041-041-3bebcd73",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 15:41, where was Jesus when the women followed and ministered to Him?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-041-041-3bebcd73"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-041-041-150439c4",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 15:41, who else came up with Him to Jerusalem in addition to the named women?",
+      "answer": "many other women",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-041-041-150439c4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-042-042-e3944d76",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 15:42, what is another name given for the Preparation Day? (be specific)",
+      "answer": "the day before the Sabbath",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-042-042-e3944d76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-042-042-5ce61944",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 15:42, what was the day called that is defined as the day before the Sabbath?",
+      "answer": "the Preparation Day",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-042-042-5ce61944"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-042-042-bcc41971",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 15:42, when did the events described take place?",
+      "answer": "evening",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-015-042-042-bcc41971"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-043-043-73e61bb8",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 15:43, for what was Joseph of Arimathea waiting?",
+      "answer": "the kingdom of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-043-043-73e61bb8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-043-043-7e673cea",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 15:43, how did Joseph of Arimathea act before going in to Pilate?",
+      "answer": "coming and taking courage",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-015-043-043-7e673cea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-043-043-046e5680",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 15:43, how is Joseph of Arimathea described in terms of his status in the council? (be specific)",
+      "answer": "a prominent council member",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-015-043-043-046e5680"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-043-043-d6d533d9",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 15:43, what is the name of the man who went to Pilate?",
+      "answer": "Joseph of Arimathea",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-043-043-d6d533d9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-043-043-d12c763f",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 15:43, what two things did Joseph of Arimathea do after coming and taking courage?",
+      "answer": "went in to Pilate and asked for the body of Jesus",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-043-043-d12c763f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-044-044-6d778e02",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 15:44, what did Pilate ask the centurion?",
+      "answer": "if He had been dead for some time",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-044-044-6d778e02"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-044-044-23af99d7",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 15:44, what did Pilate do when he marveled that He was already dead?",
+      "answer": "summoning the centurion",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-044-044-23af99d7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-044-044-f9c29815",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 15:44, what was Pilate's reaction regarding the news that He was already dead? (be specific)",
+      "answer": "Pilate marveled",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-015-044-044-f9c29815"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-044-044-8ee6e240",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 15:44, who did Pilate summon?",
+      "answer": "the centurion",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-044-044-8ee6e240"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-045-045-0725c9d3",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 15:45, from whom did Pilate find out the information regarding the death of Jesus?",
+      "answer": "from the centurion",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-045-045-0725c9d3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-045-045-7b10726f",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 15:45, what action did Pilate take after finding out information from the centurion? (be specific)",
+      "answer": "he granted the body to Joseph",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-015-045-045-7b10726f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-045-045-fd6b62ae",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 15:45, what did Pilate grant to Joseph?",
+      "answer": "the body",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-045-045-fd6b62ae"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-046-046-ffd9a134",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 15:46, what did he buy?",
+      "answer": "fine linen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-046-046-ffd9a134"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-046-046-93dec089",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 15:46, what did he do with the fine linen after taking Him down?",
+      "answer": "wrapped Him in the linen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-046-046-93dec089"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-046-046-793fd5e2",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 15:46, what did he roll against the door of the tomb?",
+      "answer": "a stone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-046-046-793fd5e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-046-046-503b1445",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 15:46, where was the tomb hewn out of? (be specific)",
+      "answer": "the rock",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-015-046-046-503b1445"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-047-047-fd0563c5",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 15:47, name the 2 people who observed where He was laid.",
+      "answer": "Mary Magdalene and Mary the mother of Joses",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-015-047-047-fd0563c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-047-047-91a1f5f4",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 15:47, what did Mary Magdalene and Mary the mother of Joses do regarding where He was laid? (be specific)",
+      "answer": "observed where He was laid",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-015-047-047-91a1f5f4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-015-047-047-53d24e07",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 15:47, what was the mother of Joses named?",
+      "answer": "Mary",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-015-047-047-53d24e07"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-015-001-001-839e07a4",
+      "41-015-001-001-50c6d3fd",
+      "41-015-001-001-cffeca59",
+      "41-015-001-001-55ac377e",
+      "41-015-001-001-748226ad"
+    ],
+    "2": [
+      "41-015-002-002-068669bc",
+      "41-015-002-002-c5969a9e",
+      "41-015-002-002-4bd9eecc",
+      "41-015-002-002-9044e17d"
+    ],
+    "3": [
+      "41-015-003-003-19acb4c5",
+      "41-015-003-003-6a3c487d",
+      "41-015-003-003-6f9716c3"
+    ],
+    "4": [
+      "41-015-004-004-93b2dd44",
+      "41-015-004-004-f6752a4e",
+      "41-015-004-004-5cd2c376"
+    ],
+    "5": [
+      "41-015-005-005-5fa9fb1c",
+      "41-015-005-005-1f200bc2"
+    ],
+    "6": [
+      "41-015-006-006-c2804af8",
+      "41-015-006-006-7d9d645b",
+      "41-015-006-006-f550b02e"
+    ],
+    "7": [
+      "41-015-007-007-460452f3",
+      "41-015-007-007-085fade9",
+      "41-015-007-007-fa6d633c",
+      "41-015-007-007-ed80c0a3"
+    ],
+    "8": [
+      "41-015-008-008-a5191e07",
+      "41-015-008-008-89c885a1",
+      "41-015-008-008-80a020d2"
+    ],
+    "9": [
+      "41-015-009-009-de689005",
+      "41-015-009-009-46521137",
+      "41-015-009-009-10dc48b2"
+    ],
+    "10": [
+      "41-015-010-010-cffd8daa",
+      "41-015-010-010-9dc4c046"
+    ],
+    "11": [
+      "41-015-011-011-6dd1395c",
+      "41-015-011-011-fc6fd2fd",
+      "41-015-011-011-faca6561"
+    ],
+    "12": [
+      "41-015-012-012-f4f41d52",
+      "41-015-012-012-14f3e9c5",
+      "41-015-012-012-6f28f32e"
+    ],
+    "13": [
+      "41-015-013-013-27bd5915",
+      "41-015-013-013-c57a9bf5"
+    ],
+    "14": [
+      "41-015-014-014-4aa30d3d",
+      "41-015-014-014-51a6e460",
+      "41-015-014-014-799a4ff9"
+    ],
+    "15": [
+      "41-015-015-015-34c0a681",
+      "41-015-015-015-ea335cbc",
+      "41-015-015-015-63ffbc9c",
+      "41-015-015-015-e160830e"
+    ],
+    "16": [
+      "41-015-016-016-ac75b3ba",
+      "41-015-016-016-25ba377f",
+      "41-015-016-016-93c884e6",
+      "41-015-016-016-848eff76"
+    ],
+    "17": [
+      "41-015-017-017-26916ea1",
+      "41-015-017-017-aa7cdc90",
+      "41-015-017-017-617a1c98"
+    ],
+    "18": [
+      "41-015-018-018-6316df9c",
+      "41-015-018-018-04339da6",
+      "41-015-018-018-046135ab"
+    ],
+    "19": [
+      "41-015-019-019-b3396b45",
+      "41-015-019-019-a756e27d",
+      "41-015-019-019-5969987f",
+      "41-015-019-019-d5d18cb2",
+      "41-015-019-019-dea22676"
+    ],
+    "20": [
+      "41-015-020-020-01f4b4cd",
+      "41-015-020-020-1a020122",
+      "41-015-020-020-c7f2c102",
+      "41-015-020-020-4ec3de76"
+    ],
+    "21": [
+      "41-015-021-021-0ecc8a31",
+      "41-015-021-021-5c2dc26b",
+      "41-015-021-021-874d6c76",
+      "41-015-021-021-79a45b33",
+      "41-015-021-021-49ff1b4d"
+    ],
+    "22": [
+      "41-015-022-022-0ee5b56a",
+      "41-015-022-022-d581da12"
+    ],
+    "23": [
+      "41-015-023-023-89be0fdf",
+      "41-015-023-023-e12bd4b9",
+      "41-015-023-023-43647110"
+    ],
+    "24": [
+      "41-015-024-024-d3de7836",
+      "41-015-024-024-595f9984",
+      "41-015-024-024-369acd2b",
+      "41-015-024-024-c94711d9"
+    ],
+    "25": [
+      "41-015-025-025-72db554b",
+      "41-015-025-025-66c9dff0"
+    ],
+    "26": [
+      "41-015-026-026-bee9d295",
+      "41-015-026-026-a7c590ad"
+    ],
+    "27": [
+      "41-015-027-027-f1124c69",
+      "41-015-027-027-d96d45d4",
+      "41-015-027-027-13c7b6f1",
+      "41-015-027-027-38ac1be4"
+    ],
+    "28": [
+      "41-015-028-028-c146f9cc",
+      "41-015-028-028-2b15e596",
+      "41-015-028-028-e685ef61"
+    ],
+    "29": [
+      "41-015-029-029-21699148",
+      "41-015-029-029-8886ed7d",
+      "41-015-029-029-9e505e66",
+      "41-015-029-029-0d0e8f87"
+    ],
+    "30": [
+      "41-015-030-030-46815cf8",
+      "41-015-030-030-968196b7",
+      "41-015-030-030-7e8b43ab"
+    ],
+    "31": [
+      "41-015-031-031-a858189f",
+      "41-015-031-031-46164a59",
+      "41-015-031-031-b61dde78",
+      "41-015-031-031-cd5a3fe7"
+    ],
+    "32": [
+      "41-015-032-032-e7e4e70c",
+      "41-015-032-032-114ba73c",
+      "41-015-032-032-4ebec5ee",
+      "41-015-032-032-fd1cfc84"
+    ],
+    "33": [
+      "41-015-033-033-e0758ea2",
+      "41-015-033-033-35061723",
+      "41-015-033-033-7cbc130f",
+      "41-015-033-033-f4ba14b4"
+    ],
+    "34": [
+      "41-015-034-034-dd94dec9",
+      "41-015-034-034-0e4f5ed2",
+      "41-015-034-034-a8d399a3"
+    ],
+    "35": [
+      "41-015-035-035-5c6cb27f",
+      "41-015-035-035-2005e44a"
+    ],
+    "36": [
+      "41-015-036-036-d75ae91b",
+      "41-015-036-036-620f06ec",
+      "41-015-036-036-c4dd91d5",
+      "41-015-036-036-4b85816f"
+    ],
+    "37": [
+      "41-015-037-037-c662e85a",
+      "41-015-037-037-001bd979",
+      "41-015-037-037-ec45f326"
+    ],
+    "38": [
+      "41-015-038-038-b58c3015",
+      "41-015-038-038-f537697c",
+      "41-015-038-038-413227fc"
+    ],
+    "39": [
+      "41-015-039-039-0d367f75",
+      "41-015-039-039-e3c1baa2",
+      "41-015-039-039-a0a0f97d",
+      "41-015-039-039-c3ce615f"
+    ],
+    "40": [
+      "41-015-040-040-91f8023f",
+      "41-015-040-040-92649083",
+      "41-015-040-040-2de45ff6"
+    ],
+    "41": [
+      "41-015-041-041-c9355bec",
+      "41-015-041-041-07af2e3f",
+      "41-015-041-041-a63ed67a",
+      "41-015-041-041-3bebcd73",
+      "41-015-041-041-150439c4"
+    ],
+    "42": [
+      "41-015-042-042-e3944d76",
+      "41-015-042-042-5ce61944",
+      "41-015-042-042-bcc41971"
+    ],
+    "43": [
+      "41-015-043-043-73e61bb8",
+      "41-015-043-043-7e673cea",
+      "41-015-043-043-046e5680",
+      "41-015-043-043-d6d533d9",
+      "41-015-043-043-d12c763f"
+    ],
+    "44": [
+      "41-015-044-044-6d778e02",
+      "41-015-044-044-23af99d7",
+      "41-015-044-044-f9c29815",
+      "41-015-044-044-8ee6e240"
+    ],
+    "45": [
+      "41-015-045-045-0725c9d3",
+      "41-015-045-045-7b10726f",
+      "41-015-045-045-fd6b62ae"
+    ],
+    "46": [
+      "41-015-046-046-ffd9a134",
+      "41-015-046-046-93dec089",
+      "41-015-046-046-793fd5e2",
+      "41-015-046-046-503b1445"
+    ],
+    "47": [
+      "41-015-047-047-fd0563c5",
+      "41-015-047-047-91a1f5f4",
+      "41-015-047-047-53d24e07"
+    ]
+  }
+}

@@ -1,0 +1,1291 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 16,
+  "questions": [
+    {
+      "id": "41-016-001-001-fdaf96a4",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 16:1, name the 3 people who bought spices.",
+      "answer": "Mary Magdalene, Mary the mother of James, and Salome",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-016-001-001-fdaf96a4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-001-001-1182ed3d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 16:1, what did the women buy so that they might come and anoint Him? (be specific)",
+      "answer": "spices",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-001-001-1182ed3d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-001-001-e69c0f36",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 16:1, what time period was past when the women bought spices?",
+      "answer": "the Sabbath",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-016-001-001-e69c0f36"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-001-001-be98f592",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 16:1, why did the women buy spices?",
+      "answer": "that they might come and anoint Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-016-001-001-be98f592"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-002-002-ce8a07c2",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 16:2, how early did the women come to the tomb?",
+      "answer": "Very early in the morning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-016-002-002-ce8a07c2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-002-002-0b3b018c",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 16:2, on which day of the week did they come to the tomb?",
+      "answer": "the first day of the week",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-016-002-002-0b3b018c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-002-002-a5b43bc4",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 16:2, what had happened regarding the sun when they came to the tomb?",
+      "answer": "the sun had risen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-002-002-a5b43bc4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-002-002-df52adb0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 16:2, where did the women come? (be specific)",
+      "answer": "to the tomb",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-002-002-df52adb0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-003-003-418b825b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 16:3, what did they say among themselves regarding the stone?",
+      "answer": "Who will roll away the stone from the door of the tomb for us?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-003-003-418b825b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-003-003-6117dc48",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 16:3, where was the stone positioned that they were concerned about?",
+      "answer": "from the door of the tomb",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-003-003-6117dc48"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-003-003-ae8df6d1",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 16:3, who did they ask about rolling away the stone?",
+      "answer": "themselves",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-003-003-ae8df6d1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-004-004-a71fa7cb",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 16:4, how was the stone described? (be specific)",
+      "answer": "it was very large",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-016-004-004-a71fa7cb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-004-004-44d0a9a7",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 16:4, what happened when they looked up?",
+      "answer": "they saw that the stone had been rolled away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-004-004-44d0a9a7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-005-005-1bf5c458",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 16:5, what did they do before they saw a young man?",
+      "answer": "entering the tomb",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-005-005-1bf5c458"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-005-005-5272ce16",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 16:5, what was the emotional reaction of the women upon seeing the young man? (be specific)",
+      "answer": "they were alarmed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-005-005-5272ce16"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-005-005-79a0b303",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 16:5, what was the young man wearing?",
+      "answer": "a long white robe",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-005-005-79a0b303"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-005-005-c8f55117",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 16:5, where was the young man sitting?",
+      "answer": "on the right side",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-005-005-c8f55117"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-006-006-bf5c4ed8",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 16:6, what did the young man tell them to see?",
+      "answer": "the place where they laid Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-006-006-bf5c4ed8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-006-006-50b475bd",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 16:6, what had happened to Jesus?",
+      "answer": "He is risen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-006-006-50b475bd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-006-006-fd58a0c6",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 16:6, what was the first command the young man gave to them?",
+      "answer": "Do not be alarmed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-006-006-fd58a0c6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-006-006-929dc7d2",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 16:6, who were they seeking?",
+      "answer": "Jesus of Nazareth, who was crucified",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-006-006-929dc7d2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-007-007-281d7ddc",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 16:7, how did the disciples know Jesus would be there?",
+      "answer": "as He said to you",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-016-007-007-281d7ddc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-007-007-46ffa39e",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 16:7, to whom were the women supposed to go?",
+      "answer": "His disciples—and Peter",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-016-007-007-46ffa39e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-007-007-22525d25",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 16:7, what would the disciples do in Galilee?",
+      "answer": "you will see Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-007-007-22525d25"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-007-007-355d2052",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 16:7, where is Jesus going before the disciples?",
+      "answer": "into Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-007-007-355d2052"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-008-008-44dac90a",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 16:8, how did the women depart from the tomb?",
+      "answer": "quickly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-016-008-008-44dac90a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-008-008-666db064",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 16:8, what two physical or emotional reactions did the women have at the tomb? (be specific)",
+      "answer": "they trembled and were amazed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-008-008-666db064"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-008-008-3b7a16e5",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 16:8, where did the women flee from?",
+      "answer": "the tomb",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-008-008-3b7a16e5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-008-008-58874720",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 16:8, why did they say nothing to anyone?",
+      "answer": "for they were afraid",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-016-008-008-58874720"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-008-008-28606b01",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "True or False: According to Mark 16:8, the women told everyone what they saw at the tomb.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-016-008-008-28606b01"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-009-009-1744ad8c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 16:9, describe the state of Mary Magdalene regarding the demons mentioned (be specific).",
+      "answer": "out of whom He had cast seven demons",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-016-009-009-1744ad8c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-009-009-f0d6b861",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 16:9, how many demons had been cast out of Mary Magdalene?",
+      "answer": "seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-016-009-009-f0d6b861"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-009-009-65b37b7b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 16:9, to whom did He appear first?",
+      "answer": "Mary Magdalene",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-009-009-65b37b7b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-009-009-b68303f9",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 16:9, when did He rise?",
+      "answer": "early on the first day of the week",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-016-009-009-b68303f9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-010-010-7687b0e0",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 16:10, what were those who had been with Him doing when she went to them?",
+      "answer": "they mourned and wept",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-016-010-010-7687b0e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-010-010-9fa18c76",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 16:10, who went and told those who had been with Him?",
+      "answer": "She",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-010-010-9fa18c76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-010-010-d2281c30",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "True or False: According to Mark 16:10, she went and told those who had been with Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-016-010-010-d2281c30"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-011-011-a6850c29",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 16:11, what specifically did the people refuse to do regarding the news (be specific)?",
+      "answer": "they did not believe",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-016-011-011-a6850c29"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-011-011-fcca9f12",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 16:11, what was the reaction of those who heard that He was alive and had been seen by her?",
+      "answer": "they did not believe",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-016-011-011-fcca9f12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-011-011-4625e721",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 16:11, what were the two things they heard about Him?",
+      "answer": "He was alive and had been seen by her",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-011-011-4625e721"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-012-012-15eef28c",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 16:12, after what did Jesus appear in another form?",
+      "answer": "After that",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-016-012-012-15eef28c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-012-012-08ffd8db",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 16:12, to how many people did Jesus appear in another form?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-016-012-012-08ffd8db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-012-012-252dae81",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 16:12, what form did Jesus appear in to two of them?",
+      "answer": "another form",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-012-012-252dae81"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-012-012-d5e15429",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 16:12, where were the two people going when Jesus appeared to them? (be specific)",
+      "answer": "into the country",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-016-012-012-d5e15429"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-013-013-5602659c",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 16:13, to whom did the two people go and tell the news?",
+      "answer": "the rest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-013-013-5602659c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-013-013-110df43c",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 16:13, what did the people do after they were told about the appearance?",
+      "answer": "they did not believe them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-016-013-013-110df43c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-014-014-3884550f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 16:14, how many disciples did Jesus appear to as they sat at the table?",
+      "answer": "eleven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-016-014-014-3884550f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-014-014-6a1ec28b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 16:14, what did Jesus do to the eleven because of their unbelief and hardness of heart? (be specific)",
+      "answer": "He rebuked their unbelief and hardness of heart",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-016-014-014-6a1ec28b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-014-014-97bd9434",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 16:14, what two things in the eleven caused Jesus to rebuke them? (be specific)",
+      "answer": "unbelief and hardness of heart",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-014-014-97bd9434"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-014-014-962fac0b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 16:14, where were the eleven when Jesus appeared to them?",
+      "answer": "at the table",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-014-014-962fac0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-014-014-38e5ebaa",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 16:14, why did the eleven not believe those who had seen Jesus?",
+      "answer": "because they did not believe those who had seen Him after He had risen",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-016-014-014-38e5ebaa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-015-015-2c3d0e29",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 16:15, to whom is the gospel to be preached? (be specific)",
+      "answer": "every creature",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-015-015-2c3d0e29"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-015-015-e38adfd4",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 16:15, what are the disciples commanded to preach to every creature?",
+      "answer": "the gospel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-015-015-e38adfd4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-015-015-1adbe71b",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 16:15, where did Jesus command His disciples to go?",
+      "answer": "all the world",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-015-015-1adbe71b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-016-016-62963a9b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 16:16, what are the two actions required of a person to be saved?",
+      "answer": "believes and is baptized",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-016-016-62963a9b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-016-016-cfdbdd51",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 16:16, what will happen to him who does not believe?",
+      "answer": "will be condemned",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-016-016-cfdbdd51"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-016-016-40688c52",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 16:16, what will happen to the person who believes and is baptized?",
+      "answer": "will be saved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-016-016-40688c52"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-017-017-0261944f",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 16:17, in whose name will those who believe cast out demons?",
+      "answer": "My name",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-017-017-0261944f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-017-017-129595ba",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 16:17, list the 2 specific actions believers will perform in My name (be specific).",
+      "answer": "cast out demons; speak with new tongues",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-017-017-129595ba"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-017-017-7e8544de",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 16:17, what will follow those who believe?",
+      "answer": "these signs",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-017-017-7e8544de"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-017-017-95d39620",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "True or False: According to Mark 16:17, those who believe will cast out demons.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-016-017-017-95d39620"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-018-018-d51588d6",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 16:18, list the 4 specific things that will happen involving believers and the sick or dangerous items (be specific).",
+      "answer": "take up serpents; drink anything deadly; lay hands on the sick; they will recover",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-016-018-018-d51588d6"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-018-018-3d78b5bb",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 16:18, what will believers do to the sick?",
+      "answer": "lay hands on the sick",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-018-018-3d78b5bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-018-018-0ce56cec",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 16:18, what will believers take up?",
+      "answer": "serpents",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-018-018-0ce56cec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-018-018-8da7620d",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 16:18, what will happen if believers drink anything deadly?",
+      "answer": "it will by no means hurt them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-018-018-8da7620d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-018-018-b32e8417",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 16:18, what will happen to the sick after believers lay hands on them?",
+      "answer": "they will recover",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-018-018-b32e8417"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-019-019-bbb4475d",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 16:19, what happened after the Lord had spoken to them?",
+      "answer": "He was received up into heaven",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-019-019-bbb4475d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-019-019-e3e66bfb",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 16:19, what two things happened to the Lord after He spoke to them? (be specific)",
+      "answer": "He was received up into heaven, and sat down at the right hand of God",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-019-019-e3e66bfb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-019-019-9c95fce7",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 16:19, where did the Lord sit down after being received up into heaven?",
+      "answer": "at the right hand of God",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-016-019-019-9c95fce7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-020-020-4e1a2088",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 16:20, how did the Lord confirm the word?",
+      "answer": "through the accompanying signs",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-016-020-020-4e1a2088"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-020-020-67b98bcd",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 16:20, what did they do after the Lord was received up into heaven?",
+      "answer": "preached everywhere",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-016-020-020-67b98bcd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-020-020-dc119035",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 16:20, what two actions were performed by the Lord in relation to the word and the disciples? (be specific)",
+      "answer": "working with them and confirming the word",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-016-020-020-dc119035"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-016-020-020-38172b95",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 16:20, who was working with them?",
+      "answer": "the Lord",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-016-020-020-38172b95"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-016-001-001-fdaf96a4",
+      "41-016-001-001-1182ed3d",
+      "41-016-001-001-e69c0f36",
+      "41-016-001-001-be98f592"
+    ],
+    "2": [
+      "41-016-002-002-ce8a07c2",
+      "41-016-002-002-0b3b018c",
+      "41-016-002-002-a5b43bc4",
+      "41-016-002-002-df52adb0"
+    ],
+    "3": [
+      "41-016-003-003-418b825b",
+      "41-016-003-003-6117dc48",
+      "41-016-003-003-ae8df6d1"
+    ],
+    "4": [
+      "41-016-004-004-a71fa7cb",
+      "41-016-004-004-44d0a9a7"
+    ],
+    "5": [
+      "41-016-005-005-1bf5c458",
+      "41-016-005-005-5272ce16",
+      "41-016-005-005-79a0b303",
+      "41-016-005-005-c8f55117"
+    ],
+    "6": [
+      "41-016-006-006-bf5c4ed8",
+      "41-016-006-006-50b475bd",
+      "41-016-006-006-fd58a0c6",
+      "41-016-006-006-929dc7d2"
+    ],
+    "7": [
+      "41-016-007-007-281d7ddc",
+      "41-016-007-007-46ffa39e",
+      "41-016-007-007-22525d25",
+      "41-016-007-007-355d2052"
+    ],
+    "8": [
+      "41-016-008-008-44dac90a",
+      "41-016-008-008-666db064",
+      "41-016-008-008-3b7a16e5",
+      "41-016-008-008-58874720",
+      "41-016-008-008-28606b01"
+    ],
+    "9": [
+      "41-016-009-009-1744ad8c",
+      "41-016-009-009-f0d6b861",
+      "41-016-009-009-65b37b7b",
+      "41-016-009-009-b68303f9"
+    ],
+    "10": [
+      "41-016-010-010-7687b0e0",
+      "41-016-010-010-9fa18c76",
+      "41-016-010-010-d2281c30"
+    ],
+    "11": [
+      "41-016-011-011-a6850c29",
+      "41-016-011-011-fcca9f12",
+      "41-016-011-011-4625e721"
+    ],
+    "12": [
+      "41-016-012-012-15eef28c",
+      "41-016-012-012-08ffd8db",
+      "41-016-012-012-252dae81",
+      "41-016-012-012-d5e15429"
+    ],
+    "13": [
+      "41-016-013-013-5602659c",
+      "41-016-013-013-110df43c"
+    ],
+    "14": [
+      "41-016-014-014-3884550f",
+      "41-016-014-014-6a1ec28b",
+      "41-016-014-014-97bd9434",
+      "41-016-014-014-962fac0b",
+      "41-016-014-014-38e5ebaa"
+    ],
+    "15": [
+      "41-016-015-015-2c3d0e29",
+      "41-016-015-015-e38adfd4",
+      "41-016-015-015-1adbe71b"
+    ],
+    "16": [
+      "41-016-016-016-62963a9b",
+      "41-016-016-016-cfdbdd51",
+      "41-016-016-016-40688c52"
+    ],
+    "17": [
+      "41-016-017-017-0261944f",
+      "41-016-017-017-129595ba",
+      "41-016-017-017-7e8544de",
+      "41-016-017-017-95d39620"
+    ],
+    "18": [
+      "41-016-018-018-d51588d6",
+      "41-016-018-018-3d78b5bb",
+      "41-016-018-018-0ce56cec",
+      "41-016-018-018-8da7620d",
+      "41-016-018-018-b32e8417"
+    ],
+    "19": [
+      "41-016-019-019-bbb4475d",
+      "41-016-019-019-e3e66bfb",
+      "41-016-019-019-9c95fce7"
+    ],
+    "20": [
+      "41-016-020-020-4e1a2088",
+      "41-016-020-020-67b98bcd",
+      "41-016-020-020-dc119035",
+      "41-016-020-020-38172b95"
+    ]
+  }
+}

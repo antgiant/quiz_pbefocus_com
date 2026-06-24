@@ -1,0 +1,1827 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 11,
+  "questions": [
+    {
+      "id": "41-011-001-001-b7d5e7cb",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 11:1, at what location were the villages Bethphage and Bethany, and near what city?",
+      "answer": "at the Mount of Olives, Jerusalem",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-011-001-001-3d6fc46e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-001-001-50633c54",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 11:1, how many disciples did Jesus send?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-011-001-001-50633c54"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-001-001-913e56c0",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 11:1, name the two villages near Jerusalem mentioned (be specific).",
+      "answer": "Bethphage and Bethany",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-001-001-913e56c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-001-001-81953034",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 11:1, when did Jesus send two of His disciples?",
+      "answer": "when they drew near Jerusalem, to Bethphage and Bethany, at the Mount of Olives",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-011-001-001-81953034"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-002-002-d675cd33",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, list the three actions Jesus commanded.",
+      "answer": "go into the village opposite you, Loose it, and bring it",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-002-002-9457b917"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-002-002-f696bf15",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, what animal would the disciples find and in what two was was it to be identified?",
+      "answer": "a colt, tied and on which noone has sat",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-002-002-e0aae605"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-002-002-65193269",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, where would they find the colt and in what relation to them?",
+      "answer": "in the village, opposte you",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-011-002-002-4087dacc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-002-002-be8e431d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, how would they find the colt?",
+      "answer": "tied",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-002-002-5e9858aa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-002-002-af1660f1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, where did Jesus tell the disciples to go?",
+      "answer": "into the village opposite you",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-011-002-002-af1660f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-003-003-5bab1d9b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 11:3, what answer did Jesus tell the disciples to give if questioned?",
+      "answer": "The Lord has need of it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-003-003-5bab1d9b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-003-003-7ff40b6c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 11:3, what question did Jesus anticipate someone would ask the disciples?",
+      "answer": "Why are you doing this?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-003-003-7ff40b6c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-003-003-bb324bff",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 11:3, what will happen immediately after the disciples give the answer?",
+      "answer": "he will send it here",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-003-003-bb324bff"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-004-004-d5d182e4",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 11:4, what did they do to the colt?",
+      "answer": "found the colt, loosed it",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-004-004-71d9cedd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-004-004-1cd103bf",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 11:4, what was the colt tied by, where?",
+      "answer": "the door, outside on the street",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-011-004-004-e0b91f63"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-004-004-5ef03617",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 11:4, they found what, in what condition, where, and what did they do?",
+      "answer": "the colt, tied, outside on the street, loosed it",
+      "type": "where",
+      "points": 5,
+      "originalIds": [
+        "41-011-004-004-3235b2ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-004-004-fa339019",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 11:4, where was the colt tied relative to the door?",
+      "answer": "outside on the street",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-011-004-004-fa339019"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-005-005-0f523cca",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 11:5, what question did those who stood there ask the disciples? (be specific)",
+      "answer": "What are you doing, loosing the colt?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-005-005-0f523cca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-005-005-893a4669",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 11:5, who spoke to those who were loosing the colt?",
+      "answer": "some of those who stood there",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-005-005-893a4669"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-006-006-f385494d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 11:6, how did they speak to those who stood there?",
+      "answer": "just as Jesus had commanded",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-011-006-006-f385494d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-006-006-8b2e4fad",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 11:6, what was the result of them speaking as Jesus commanded?",
+      "answer": "So they let them go",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-006-006-8b2e4fad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-007-007-263a99f5",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 11:7, what did they bring to Jesus?",
+      "answer": "the colt",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-007-007-263a99f5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-007-007-e11e038b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 11:7, what did they throw on the colt?",
+      "answer": "their clothes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-007-007-e11e038b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-007-007-22fde1ad",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 11:7, they brought what to who, put what on it, and He did what to it?",
+      "answer": "the colt, Jesus, their clothes, He sat on it",
+      "type": "who",
+      "points": 4,
+      "originalIds": [
+        "41-011-007-007-a9f372df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-008-008-68006db4",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 11:8, what did others cut down from the trees?",
+      "answer": "leafy branches",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-008-008-68006db4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-008-008-29b29f76",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 11:8, where did many spread their clothes?",
+      "answer": "on the road",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-008-008-29b29f76"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-008-008-66760731",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 11:8, where did others spread the leafy branches? (be specific)",
+      "answer": "on the road",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-008-008-66760731"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-009-009-2b8c7a37",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 11:9, who did those who went before and those who followed declare blessed?",
+      "answer": "Blessed is He who comes in the name of the LORD!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-009-009-7b48a0b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-009-009-de3ce521",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 11:9, what was the first word cried out by those who went before and those who followed?",
+      "answer": "Hosanna",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-009-009-de3ce521"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-009-009-33cf39a0",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 11:9, who cried out?",
+      "answer": "those who went before and those who followed",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-011-009-009-33cf39a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-010-010-a2cf9cd9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 11:10, in whose name does the kingdom of our father David come?",
+      "answer": "the Lord",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-010-010-a2cf9cd9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-010-010-a861ad55",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 11:10, what phrase is repeated at the end of the proclamation?",
+      "answer": "Hosanna in the highest",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-010-010-a861ad55"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-010-010-8ac6bef9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 11:10, whose kingdom was blessed?",
+      "answer": "our father David",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-011-010-010-8ac6bef9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-011-011-27376940",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 11:11, into what two places did Jesus go?",
+      "answer": "Jerusalem and into the temple",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-011-011-27376940"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-011-011-cea0b46a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 11:11, what did Jesus do after He went into the temple? (be specific)",
+      "answer": "looked around at all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-011-011-cea0b46a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-011-011-e48fa5cf",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 11:11, where did Jesus go when He left the temple and why?",
+      "answer": "Bethany, the hour was already late",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-011-011-011-ceb7d7f7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-011-011-30431a01",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 11:11, who went with Jesus to Bethany?",
+      "answer": "the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-011-011-30431a01"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-011-011-f2a25db6",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 11:11, why did Jesus leave the temple?",
+      "answer": "as the hour was already late",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-011-011-f2a25db6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-012-012-34cf2a7c",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 11:12, from where had they come?",
+      "answer": "Bethany",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-012-012-3a0c2c0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-012-012-91e0d808",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 11:12, what sensation did He experience after coming out from Bethany?",
+      "answer": "He was hungry",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-012-012-30cfe196"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-012-012-a95bf7d2",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 11:12, when did they come out from Bethany?",
+      "answer": "the next day",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-011-012-012-a95bf7d2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-013-013-8e2d3dee",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 11:13, what did He hope to find on the fig tree when He came to it?",
+      "answer": "something",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-013-013-8e2d3dee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-013-013-2628d862",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 11:13, what did the fig tree have that made Him go to see it?",
+      "answer": "leaves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-013-013-2628d862"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-013-013-3fb5e11e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 11:13, what kind of tree did He see from afar?",
+      "answer": "a fig tree",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-013-013-3fb5e11e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-013-013-907cd8c1",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 11:13, what was the only thing He found on the tree when He came to it?",
+      "answer": "nothing but leaves",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-013-013-907cd8c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-013-013-bdab949e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 11:13, why was there nothing on the tree besides leaves? (be specific)",
+      "answer": "for it was not the season for figs",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-013-013-bdab949e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-014-014-a10ae65b",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 11:14, in response to the tree, what did Jesus say?",
+      "answer": "Let no one eat fruit from you ever again.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-014-014-a10ae65b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-014-014-af64bda7",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 11:14, who heard what Jesus said to the tree?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-014-014-af64bda7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-015-015-5b3afd16",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 11:15, what did Jesus do to those who bought and sold in the temple?",
+      "answer": "began to drive out",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-015-015-5b3afd16"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-015-015-bc6bbe17",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 11:15, what two things did Jesus overturn? (be specific)",
+      "answer": "the tables of the money changers and the seats of those who sold doves",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-015-015-bc6bbe17"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-015-015-493495a9",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 11:15, where did Jesus go after arriving in Jerusalem?",
+      "answer": "the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-015-015-493495a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-015-015-20c6125c",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 11:15, where did they come to?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-015-015-20c6125c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-016-016-6b41a056",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 11:16, what action did Jesus not allow anyone to do regarding the temple?",
+      "answer": "carry wares through the temple",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-016-016-6b41a056"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-017-017-f81acd9f",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 11:17, how was it written that the house should be called and for who?",
+      "answer": "a house of prayer, for all nations",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-017-017-9aa13137"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-017-017-1ad7d58a",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 11:17, what did Jesus say they had made the house?",
+      "answer": "a ‘den of thieves.’",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-017-017-1ad7d58a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-017-017-817cc101",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 11:17, what was Jesus doing when He spoke these words?",
+      "answer": "He taught",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-011-017-017-817cc101"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-018-018-2b860956",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 11:18, at what were all the people astonished?",
+      "answer": "His teaching",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-018-018-2b860956"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-018-018-fdf63797",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 11:18, what did the scribes and chief priests seek to do to Him? (be specific)",
+      "answer": "destroy Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-018-018-c61a58f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-018-018-8ce6cfae",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 11:18, which two groups of people heard what Jesus said?",
+      "answer": "the scribes and chief priests",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-018-018-8ce6cfae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-018-018-c621c107",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 11:18, why did the scribes and chief priests fear Him? (be specific)",
+      "answer": "because all the people were astonished at His teaching",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-018-018-c621c107"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-019-019-a7fa3aff",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 11:19, when did He go out of the city?",
+      "answer": "When evening had come",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-011-019-019-a7fa3aff"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-019-019-bad94a9a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 11:19, where did He go when evening had come?",
+      "answer": "out of the city",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-019-019-bad94a9a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-020-020-c6640deb",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 11:20, what state was the fig tree in when they saw it? (be specific)",
+      "answer": "dried up from the roots",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-020-020-c6640deb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-020-020-fa79dbf5",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 11:20, what were they doing as they saw the fig tree dried up?",
+      "answer": "passed by",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-020-020-fa79dbf5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-020-020-a7c08a38",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 11:20, when did they see the fig tree dried up from the roots?",
+      "answer": "in the morning",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-011-020-020-a7c08a38"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-021-021-d7a9f87a",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 11:21, what did Peter tell Him to look at and how did he idetify it from before? (be specific)",
+      "answer": "The fig tree, which You cursed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-021-021-d0aa2ca8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-021-021-5d5bed61",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 11:21, what had happened to the fig tree?",
+      "answer": "withered away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-021-021-5d5bed61"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-021-021-59117978",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 11:21, what title did Peter use to address Him?",
+      "answer": "Rabbi",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-021-021-59117978"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-021-021-5429996e",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 11:21, who was remembering?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-021-021-5429996e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-022-022-02dd4468",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 11:22, what did Jesus say to them after they spoke?",
+      "answer": "Have faith in God.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-022-022-02dd4468"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-022-022-5e713ab8",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 11:22, who answered?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-022-022-5e713ab8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-023-023-54d31649",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, what does Jesus say will happen to whoever says to the mountain 'Be removed and be cast into the sea' and does not doubt in his heart?",
+      "answer": "he will have whatever he says.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-023-023-54d31649"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-023-023-1bad966a",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, what must a person believe regarding the things he says?",
+      "answer": "that those things he says will be done",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-023-023-1bad966a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-023-023-06e48b90",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, what two actions are performed by someone who will have whatever he says?",
+      "answer": "does not doubt in his heart, but believes that those things he says will be done",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-023-023-06e48b90"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-023-023-ca814b3b",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, where is the mountain to be cast? (be specific)",
+      "answer": "into the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-023-023-ca814b3b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-023-023-9afe8b4a",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, where must a person not doubt?",
+      "answer": "in his heart",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-023-023-9afe8b4a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-024-024-543dcd80",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 11:24, what happens if you believe you receive the things you ask for when you pray?",
+      "answer": "you will have them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-024-024-543dcd80"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-024-024-7a221fb6",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 11:24, what is the instruction regarding the things you ask for when you pray? (be specific)",
+      "answer": "believe that you receive them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-024-024-7a221fb6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-024-024-59d55f81",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 11:24, when should you believe that you receive the things you ask for?",
+      "answer": "when you pray",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-011-024-024-59d55f81"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-025-025-60ca3b46",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 11:25, if you have anything against anyone while you stand praying, what are you commanded to do?",
+      "answer": "forgive him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-025-025-60ca3b46"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-025-025-7ddbefb5",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 11:25, when should you forgive anyone you have something against?",
+      "answer": "whenever you stand praying",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-011-025-025-7ddbefb5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-025-025-b9ad2a78",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 11:25, why should you forgive anyone you have something against while praying? (be specific)",
+      "answer": "that your Father in heaven may also forgive you your trespasses",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-025-025-b9ad2a78"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-026-026-0831722f",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 11:26, what is the consequence if you do not forgive?",
+      "answer": "neither will your Father in heaven forgive your trespasses",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-026-026-0831722f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-027-027-e55fd84b",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 11:27, list the 3 groups of people that came to Him in the temple (be specific).",
+      "answer": "chief priests, the scribes, and the elders",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-027-027-e55fd84b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-027-027-19fe887e",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 11:27, what was He doing as the chief priests, scribes, and elders came to him?",
+      "answer": "walking",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-027-027-823a9b34"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-027-027-fd1b910d",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 11:27, where did they come again?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-027-027-fd1b910d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-027-027-676d94cb",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 11:27, where was He walking when the chief priests, the scribes, and the elders came to Him?",
+      "answer": "in the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-027-027-676d94cb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-028-028-f6bbc5ff",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 11:28, what did they ask regarding who gave Him authority?",
+      "answer": "And who gave You this authority to do these things?",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-028-028-f6bbc5ff"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-028-028-a2db8796",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 11:28, what phrase did they repeat at the end of both questions (be specific)?",
+      "answer": "to do these things",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-011-028-028-a2db8796"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-028-028-ec2a3979",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 11:28, what question did they ask regarding His authority?",
+      "answer": "By what authority are You doing these things?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-028-028-c15811ae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-029-029-de9b7bcc",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 11:29, how many questions did Jesus say He would ask them?",
+      "answer": "one",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-011-029-029-de9b7bcc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-029-029-6f5579d7",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 11:29, what did Jesus promise to tell them if they answered Him?",
+      "answer": "by what authority I do these things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-029-029-6f5579d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-029-029-2c212eba",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 11:29, what did Jesus tell them to do after He asks His question? (be specific)",
+      "answer": "answer Me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-029-029-2c212eba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-029-029-1fe78205",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 11:29, who answered and said to them?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-011-029-029-1fe78205"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-030-030-dc0b07f6",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 11:30, what did Jesus command them to do?",
+      "answer": "Answer Me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-030-030-dc0b07f6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-030-030-55606ea8",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 11:30, what two possible sources did Jesus ask about regarding the baptism of John? (be specific)",
+      "answer": "heaven or from men",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-030-030-55606ea8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-031-031-be6caa9f",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 11:31, what is the specific phrase they reasoned Jesus would say if they claimed John's authority was from heaven? (be specific)",
+      "answer": "Why then did you not believe him?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-031-031-be6caa9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-031-031-ffe91bcf",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 11:31, what question did they reason the Lord would ask if they said 'From heaven'?",
+      "answer": "Why then did you not believe him?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-031-031-ffe91bcf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-031-031-9374c284",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 11:31, where did the men reason among themselves?",
+      "answer": "among themselves",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-011-031-031-9374c284"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-032-032-5272589c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 11:32, why did they fear the people if they answered, 'from men'?",
+      "answer": "all counted John to have been a prophet indeed",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-032-032-97ed184b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-032-032-93739705",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 11:32, what did the people count John to have been?",
+      "answer": "a prophet indeed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-032-032-93739705"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-032-032-6514f7f4",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 11:32, who did the men fear to say John's authority was from men and why?",
+      "answer": "they feared the people, for all counted John to have been a prophet indeed",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-011-032-032-1a96b443"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-033-033-43558d44",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 11:33, what answer did they give to Jesus?",
+      "answer": "We do not know",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-033-033-43558d44"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-011-033-033-66f2d035",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 11:33, what was Jesus' response after they said they did not know?",
+      "answer": "Neither will I tell you by what authority I do these things",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-033-033-66f2d035"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-011-001-001-b7d5e7cb",
+      "41-011-001-001-50633c54",
+      "41-011-001-001-913e56c0",
+      "41-011-001-001-81953034"
+    ],
+    "2": [
+      "41-011-002-002-d675cd33",
+      "41-011-002-002-f696bf15",
+      "41-011-002-002-65193269",
+      "41-011-002-002-be8e431d",
+      "41-011-002-002-af1660f1"
+    ],
+    "3": [
+      "41-011-003-003-5bab1d9b",
+      "41-011-003-003-7ff40b6c",
+      "41-011-003-003-bb324bff"
+    ],
+    "4": [
+      "41-011-004-004-d5d182e4",
+      "41-011-004-004-1cd103bf",
+      "41-011-004-004-5ef03617",
+      "41-011-004-004-fa339019"
+    ],
+    "5": [
+      "41-011-005-005-0f523cca",
+      "41-011-005-005-893a4669"
+    ],
+    "6": [
+      "41-011-006-006-f385494d",
+      "41-011-006-006-8b2e4fad"
+    ],
+    "7": [
+      "41-011-007-007-263a99f5",
+      "41-011-007-007-e11e038b",
+      "41-011-007-007-22fde1ad"
+    ],
+    "8": [
+      "41-011-008-008-68006db4",
+      "41-011-008-008-29b29f76",
+      "41-011-008-008-66760731"
+    ],
+    "9": [
+      "41-011-009-009-2b8c7a37",
+      "41-011-009-009-de3ce521",
+      "41-011-009-009-33cf39a0"
+    ],
+    "10": [
+      "41-011-010-010-a2cf9cd9",
+      "41-011-010-010-a861ad55",
+      "41-011-010-010-8ac6bef9"
+    ],
+    "11": [
+      "41-011-011-011-27376940",
+      "41-011-011-011-cea0b46a",
+      "41-011-011-011-e48fa5cf",
+      "41-011-011-011-30431a01",
+      "41-011-011-011-f2a25db6"
+    ],
+    "12": [
+      "41-011-012-012-34cf2a7c",
+      "41-011-012-012-91e0d808",
+      "41-011-012-012-a95bf7d2"
+    ],
+    "13": [
+      "41-011-013-013-8e2d3dee",
+      "41-011-013-013-2628d862",
+      "41-011-013-013-3fb5e11e",
+      "41-011-013-013-907cd8c1",
+      "41-011-013-013-bdab949e"
+    ],
+    "14": [
+      "41-011-014-014-a10ae65b",
+      "41-011-014-014-af64bda7"
+    ],
+    "15": [
+      "41-011-015-015-5b3afd16",
+      "41-011-015-015-bc6bbe17",
+      "41-011-015-015-493495a9",
+      "41-011-015-015-20c6125c"
+    ],
+    "16": [
+      "41-011-016-016-6b41a056"
+    ],
+    "17": [
+      "41-011-017-017-f81acd9f",
+      "41-011-017-017-1ad7d58a",
+      "41-011-017-017-817cc101"
+    ],
+    "18": [
+      "41-011-018-018-2b860956",
+      "41-011-018-018-fdf63797",
+      "41-011-018-018-8ce6cfae",
+      "41-011-018-018-c621c107"
+    ],
+    "19": [
+      "41-011-019-019-a7fa3aff",
+      "41-011-019-019-bad94a9a"
+    ],
+    "20": [
+      "41-011-020-020-c6640deb",
+      "41-011-020-020-fa79dbf5",
+      "41-011-020-020-a7c08a38"
+    ],
+    "21": [
+      "41-011-021-021-d7a9f87a",
+      "41-011-021-021-5d5bed61",
+      "41-011-021-021-59117978",
+      "41-011-021-021-5429996e"
+    ],
+    "22": [
+      "41-011-022-022-02dd4468",
+      "41-011-022-022-5e713ab8"
+    ],
+    "23": [
+      "41-011-023-023-54d31649",
+      "41-011-023-023-1bad966a",
+      "41-011-023-023-06e48b90",
+      "41-011-023-023-ca814b3b",
+      "41-011-023-023-9afe8b4a"
+    ],
+    "24": [
+      "41-011-024-024-543dcd80",
+      "41-011-024-024-7a221fb6",
+      "41-011-024-024-59d55f81"
+    ],
+    "25": [
+      "41-011-025-025-60ca3b46",
+      "41-011-025-025-7ddbefb5",
+      "41-011-025-025-b9ad2a78"
+    ],
+    "26": [
+      "41-011-026-026-0831722f"
+    ],
+    "27": [
+      "41-011-027-027-e55fd84b",
+      "41-011-027-027-19fe887e",
+      "41-011-027-027-fd1b910d",
+      "41-011-027-027-676d94cb"
+    ],
+    "28": [
+      "41-011-028-028-f6bbc5ff",
+      "41-011-028-028-a2db8796",
+      "41-011-028-028-ec2a3979"
+    ],
+    "29": [
+      "41-011-029-029-de9b7bcc",
+      "41-011-029-029-6f5579d7",
+      "41-011-029-029-2c212eba",
+      "41-011-029-029-1fe78205"
+    ],
+    "30": [
+      "41-011-030-030-dc0b07f6",
+      "41-011-030-030-55606ea8"
+    ],
+    "31": [
+      "41-011-031-031-be6caa9f",
+      "41-011-031-031-ffe91bcf",
+      "41-011-031-031-9374c284"
+    ],
+    "32": [
+      "41-011-032-032-5272589c",
+      "41-011-032-032-93739705",
+      "41-011-032-032-6514f7f4"
+    ],
+    "33": [
+      "41-011-033-033-43558d44",
+      "41-011-033-033-66f2d035"
+    ]
+  }
+}

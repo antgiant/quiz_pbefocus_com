@@ -1,0 +1,2022 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 13,
+  "questions": [
+    {
+      "id": "41-013-001-001-5bd537d3",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 13:1, what title did the disciple use to address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-001-001-5bd537d3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-001-001-290fcbd7",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 13:1, what two things did the disciple ask Jesus to see? (be specific)",
+      "answer": "what manner of stones and what buildings are here",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-001-001-290fcbd7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-001-001-c38b9835",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 13:1, where was Jesus as He went out?",
+      "answer": "the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-001-001-c38b9835"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-001-001-739073e5",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 13:1, who spoke to Jesus about the buildings?",
+      "answer": "one of His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-001-001-739073e5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-002-002-dad22983",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 13:2, how did Jesus respond to the disciple? (be specific)",
+      "answer": "Jesus answered and said to him",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-013-002-002-dad22983"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-002-002-2877da67",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 13:2, what did Jesus ask the disciple if he saw?",
+      "answer": "these great buildings",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-002-002-2877da67"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-002-002-4c555711",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 13:2, what will happen to the stones of the buildings?",
+      "answer": "Not one stone shall be left upon another, that shall not be thrown down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-002-002-4c555711"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-003-003-2ae2008a",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 13:3, how many disciples asked Jesus privately?",
+      "answer": "4",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-013-003-003-2ae2008a"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-003-003-32cd9916",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 13:3, in what manner did Peter, James, John, and Andrew approach Jesus?",
+      "answer": "privately",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-013-003-003-32cd9916"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-003-003-a4b82df9",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 13:3, name the four disciples who asked Jesus privately (be specific).",
+      "answer": "Peter, James, John, and Andrew",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-013-003-003-a4b82df9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-003-003-2009df8b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 13:3, where was Jesus sitting?",
+      "answer": "on the Mount of Olives opposite the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-003-003-2009df8b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-004-004-f7593256",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 13:4, what specific word did the disciples use to describe what they wanted to know regarding the fulfillment of all these things?",
+      "answer": "sign",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-004-004-f7593256"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-004-004-51dd00b2",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 13:4, what two things did the disciples ask Jesus to tell them (be specific)?",
+      "answer": "when will these things be? And what will be the sign when all these things will be fulfilled?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-004-004-51dd00b2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-005-005-d9b74194",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 13:5, what action did Jesus perform before He began to say something?",
+      "answer": "answering them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-005-005-d9b74194"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-005-005-2cdd2981",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 13:5, what did Jesus tell them to take heed of?",
+      "answer": "that no one deceives you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-005-005-2cdd2981"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-005-005-67079d3d",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 13:5, who began to answer and speak?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-005-005-67079d3d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-006-006-63516b7a",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 13:6, how many will come in My name?",
+      "answer": "many",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-013-006-006-63516b7a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-006-006-045ef26d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 13:6, what phrase will those coming in His name say?",
+      "answer": "I am He",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-006-006-045ef26d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-006-006-bf24abf3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 13:6, what will happen to many because of those coming in His name (be specific)?",
+      "answer": "will deceive many",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-006-006-bf24abf3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-007-007-565c6a2b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 13:7, what is the reason given that we should not be troubled when we hear of wars and rumors of wars? (be specific)",
+      "answer": "for such things must happen, but the end is not yet",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-013-007-007-565c6a2b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-007-007-c985c7b3",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 13:7, what two things regarding conflict might you hear of?",
+      "answer": "wars and rumors of wars",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-007-007-c985c7b3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-007-007-9bd3c883",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 13:7, when you hear of wars and rumors of wars, what are you commanded not to do?",
+      "answer": "do not be troubled",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-007-007-9bd3c883"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-008-008-5db929f7",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 13:8, name the 3 things that will occur besides nations and kingdoms rising against each other.",
+      "answer": "earthquakes in various places, and there will be famines and troubles",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-013-008-008-5db929f7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-008-008-e0e2af2b",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 13:8, what are the three things listed collectively called?",
+      "answer": "the beginnings of sorrows",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-008-008-e0e2af2b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-008-008-1dbed198",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 13:8, who will rise against whom?",
+      "answer": "nation will rise against nation, and kingdom against kingdom",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-013-008-008-1dbed198"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-65b88739",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, for whose sake will the people be brought before rulers and kings?",
+      "answer": "My sake",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-009-009-65b88739"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-55ce6390",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, name the two types of leaders the people will be brought before (be specific).",
+      "answer": "rulers and kings",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-009-009-55ce6390"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-6572f269",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, what does Jesus command the people to do concerning themselves?",
+      "answer": "watch out",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-009-009-6572f269"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-5ce49d01",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, where will the people be beaten?",
+      "answer": "in the synagogues",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-009-009-5ce49d01"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-f4abaac7",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, who will deliver the people up to councils?",
+      "answer": "they",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-009-009-f4abaac7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-009-009-36306dd3",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 13:9, why will the people be brought before rulers and kings?",
+      "answer": "for a testimony to them",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-013-009-009-36306dd3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-010-010-c4e16252",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 13:10, to whom must the gospel first be preached (be specific)?",
+      "answer": "all the nations",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-010-010-c4e16252"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-010-010-e5ef6b4b",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 13:10, what must first be preached to all the nations?",
+      "answer": "the gospel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-010-010-e5ef6b4b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-010-010-12b5d1dc",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "True or False: According to Mark 13:10, the gospel must first be preached to all the nations.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-013-010-010-12b5d1dc"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-011-011-ec7fe6e6",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 13:11, what are people told not to do beforehand when they are arrested and delivered up?",
+      "answer": "do not worry beforehand, or premeditate what you will speak",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-011-011-ec7fe6e6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-011-011-b98b0843",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 13:11, what should a person speak when they are arrested and delivered up (be specific)?",
+      "answer": "whatever is given you in that hour",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-011-011-b98b0843"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-011-011-97dc1bf9",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 13:11, who is the one speaking when believers are given words in that hour?",
+      "answer": "the Holy Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-011-011-97dc1bf9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-012-012-0208f70d",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 13:12, what will happen to a father regarding his child?",
+      "answer": "a father his child",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-012-012-0208f70d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-012-012-56f3b232",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 13:12, who will betray their own brother to death?",
+      "answer": "brother",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-012-012-56f3b232"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-012-012-1185fba7",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 13:12, who will cause their parents to be put to death?",
+      "answer": "children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-012-012-1185fba7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-013-013-0b9949ec",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 13:13, for whose sake will you be hated by all?",
+      "answer": "My name’s",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-013-013-013-0b9949ec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-013-013-8f650798",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 13:13, who shall be saved?",
+      "answer": "he who endures to the end",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-013-013-013-8f650798"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-014-014-c31d79fc",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 13:14, what is the specific phrase used to describe the object that is standing where it ought not? (be specific)",
+      "answer": "abomination of desolation",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-013-014-014-c31d79fc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-014-014-383c6cd3",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 13:14, what should the reader do when they see the 'abomination of desolation' standing where it ought not?",
+      "answer": "let the reader understand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-014-014-383c6cd3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-014-014-d646af69",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 13:14, where should those who are in Judea flee to?",
+      "answer": "the mountains",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-014-014-d646af69"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-014-014-091ce17c",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 13:14, who is the prophet spoken of by Jesus?",
+      "answer": "Daniel",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-014-014-091ce17c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-015-015-314e090a",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 13:15, when someone is on the housetop, what are the two things they are told not to do?",
+      "answer": "not go down into the house, nor enter to take anything out of his house",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-015-015-314e090a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-015-015-fed6ddac",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 13:15, where is the person who is told not to go down into the house?",
+      "answer": "on the housetop",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-015-015-fed6ddac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-016-016-907b63df",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 13:16, what should the person in the field not go back to get?",
+      "answer": "his clothes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-016-016-907b63df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-016-016-e3c4e0d4",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 13:16, what specific action is the person in the field instructed not to perform?",
+      "answer": "go back to get his clothes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-016-016-e3c4e0d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-016-016-997f4120",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 13:16, where is the person located who is told not to go back?",
+      "answer": "in the field",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-016-016-997f4120"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-017-017-6f2741a4",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 13:17, name the 2 groups of people for whom woe is pronounced.",
+      "answer": "those who are pregnant and those who are nursing babies",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-017-017-6f2741a4"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-017-017-52ffd17c",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 13:17, what condition must someone be in to have woe pronounced upon them, besides being nursing babies? (be specific)",
+      "answer": "pregnant",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-017-017-52ffd17c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-017-017-85a29d3c",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 13:17, what is pronounced upon those who are pregnant and those who are nursing babies in those days?",
+      "answer": "woe",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-017-017-85a29d3c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-018-018-e4936155",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 13:18, during which season should you pray your flight does not occur? (be specific)",
+      "answer": "winter",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-013-018-018-e4936155"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-018-018-735e24c8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 13:18, what action are you instructed to take regarding your flight?",
+      "answer": "pray",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-018-018-735e24c8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-018-018-81424ab0",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 13:18, what should you pray regarding your flight?",
+      "answer": "that your flight may not be in winter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-018-018-81424ab0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-019-019-73bb169c",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 13:19, how is the tribulation described in relation to the beginning of the creation which God created? (be specific)",
+      "answer": "such as has not been since the beginning of the creation which God created until this time, nor ever shall be",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-013-019-019-73bb169c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-019-019-595a93e5",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 13:19, what will there be in those days?",
+      "answer": "tribulation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-019-019-595a93e5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-019-019-a296271e",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "True or False: According to Mark 13:19, there will be tribulation such as has not been since the beginning of the creation which God created until this time, nor ever shall be.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-013-019-019-a296271e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-020-020-2dde3c08",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 13:20, what did the Lord do for the elect's sake? (be specific)",
+      "answer": "He shortened the days",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-020-020-2dde3c08"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-020-020-f4720a12",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 13:20, what would happen if the Lord had not shortened those days?",
+      "answer": "no flesh would be saved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-020-020-f4720a12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-020-020-6168dbb7",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 13:20, whom did the Lord choose?",
+      "answer": "the elect",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-020-020-6168dbb7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-020-020-9bb6995c",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 13:20, why did the Lord shorten the days?",
+      "answer": "for the elect’s sake, whom He chose",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-013-020-020-9bb6995c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-021-021-cd77c6b8",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 13:21, if anyone tells you 'Look, here is the Christ!', what are you instructed to do?",
+      "answer": "do not believe it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-021-021-cd77c6b8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-021-021-9c8d1431",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 13:21, what are the two specific phrases someone might say to indicate the location of the Christ? (be specific)",
+      "answer": "Look, here is the Christ!; Look, He is there!",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-021-021-9c8d1431"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-022-022-bf5137fe",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 13:22, what is the ultimate goal of the signs and wonders shown by false christs and false prophets?",
+      "answer": "to deceive",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-013-022-022-bf5137fe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-022-022-ec616f3a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 13:22, what two things will false christs and false prophets show to deceive? (be specific)",
+      "answer": "signs and wonders",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-022-022-ec616f3a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-022-022-15e42db3",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 13:22, who might even be deceived if possible?",
+      "answer": "the elect",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-022-022-15e42db3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-022-022-88e593c9",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 13:22, who will rise and show signs and wonders?",
+      "answer": "false christs and false prophets",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-013-022-022-88e593c9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-023-023-20ce666f",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 13:23, what command is given regarding the previous information?",
+      "answer": "take heed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-023-023-20ce666f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-023-023-55ad1660",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 13:23, what did the speaker claim to have done beforehand?",
+      "answer": "I have told you all things beforehand",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-023-023-55ad1660"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-023-023-ac962852",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 13:23, what instruction is given as an introduction to the statement about being told things beforehand?",
+      "answer": "see",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-023-023-ac962852"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-024-024-28073ce7",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 13:24, list the two celestial bodies mentioned and what happens to them (be specific).",
+      "answer": "the sun will be darkened, and the moon will not give its light",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-024-024-28073ce7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-024-024-7522188c",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 13:24, what will happen to the sun?",
+      "answer": "the sun will be darkened",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-024-024-7522188c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-024-024-e8fe107f",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 13:24, what will not give its light?",
+      "answer": "the moon",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-024-024-e8fe107f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-024-024-4e45ec22",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 13:24, when will the events described occur?",
+      "answer": "in those days, after that tribulation",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-013-024-024-4e45ec22"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-025-025-3e961c3b",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 13:25, name the two things that occur regarding the heavens (be specific).",
+      "answer": "the stars of heaven will fall, and the powers in the heavens will be shaken",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-025-025-3e961c3b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-025-025-8c516814",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 13:25, what will be shaken?",
+      "answer": "the powers in the heavens",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-025-025-8c516814"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-025-025-87cb24f5",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 13:25, what will fall from heaven?",
+      "answer": "the stars of heaven",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-025-025-87cb24f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-026-026-468ddbea",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 13:26, in what manner will the Son of Man be coming?",
+      "answer": "in the clouds with great power and glory",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-013-026-026-468ddbea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-026-026-03eb2185",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 13:26, what two attributes accompany the Son of Man's coming? (be specific)",
+      "answer": "great power and glory",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-026-026-03eb2185"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-026-026-9f3e4a0d",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 13:26, who will people see coming in the clouds?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-026-026-9f3e4a0d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-027-027-139a5ed9",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 13:27, from what winds will He gather His elect?",
+      "answer": "the four winds",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-013-027-027-139a5ed9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-027-027-8cd1d841",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 13:27, from where to where will He gather His elect? (be specific)",
+      "answer": "from the farthest part of earth to the farthest part of heaven",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-027-027-8cd1d841"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-027-027-0f2641f8",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 13:27, what will He do with His elect?",
+      "answer": "gather together",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-027-027-0f2641f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-027-027-f6395d4c",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 13:27, what will He send after the Son of Man comes?",
+      "answer": "His angels",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-027-027-f6395d4c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-028-028-c69e2bec",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 13:28, what are we told to learn from the fig tree?",
+      "answer": "this parable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-028-028-c69e2bec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-028-028-50df8c98",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 13:28, what does it mean when the fig tree puts forth leaves? (be specific)",
+      "answer": "you know that summer is near",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-028-028-50df8c98"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-028-028-542891b6",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 13:28, what specific plant is mentioned to teach a parable?",
+      "answer": "fig tree",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-028-028-542891b6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-028-028-ad87bf43",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 13:28, when does a branch of a fig tree become tender and put forth leaves?",
+      "answer": "When its branch has already become tender, and puts forth leaves",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-013-028-028-ad87bf43"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-029-029-a4cf9fd2",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 13:29, how close is it when you see these things happening?",
+      "answer": "at the doors",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-013-029-029-a4cf9fd2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-029-029-7f47bb76",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 13:29, what is it that you should know is near when you see these things happening?",
+      "answer": "it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-029-029-7f47bb76"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-029-029-1950cdb8",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 13:29, what should you do when you see these things happening?",
+      "answer": "know that it is near—at the doors",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-029-029-1950cdb8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-030-030-9607ad53",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 13:30, what phrase does Jesus use to introduce His statement regarding the timing of these things?",
+      "answer": "Assuredly, I say to you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-030-030-9607ad53"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-030-030-3aa651c8",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 13:30, what will by no means pass away till all these things take place?",
+      "answer": "this generation",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-030-030-3aa651c8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-030-030-dc9c963e",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 13:30, what will occur regarding this generation before all these things take place? (be specific)",
+      "answer": "will by no means pass away",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-013-030-030-dc9c963e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-031-031-4b9bf091",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 13:31, what two things does Jesus say will pass away? (be specific)",
+      "answer": "Heaven and earth",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-013-031-031-4b9bf091"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-031-031-5e235129",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 13:31, what will by no means pass away?",
+      "answer": "My words",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-031-031-5e235129"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-031-031-e4a4764c",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "True or False: According to Mark 13:31, heaven and earth will pass away, but Jesus' words will by no means pass away.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-013-031-031-e4a4764c"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-032-032-347eaf0d",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 13:32, list the three entities that do not know the day and hour. (be specific)",
+      "answer": "no one, the angels in heaven, the Son",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-013-032-032-347eaf0d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-032-032-40c6e2f7",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 13:32, who does not know the day and hour?",
+      "answer": "no one",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-032-032-40c6e2f7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-032-032-c346280a",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 13:32, who is the only one that knows the day and hour?",
+      "answer": "the Father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-032-032-c346280a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-033-033-82471d13",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 13:33, what are the three commands given to the reader? (be specific)",
+      "answer": "Take heed, watch and pray",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-013-033-033-82471d13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-033-033-cf41a05e",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 13:33, what do you not know?",
+      "answer": "when the time is",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-033-033-cf41a05e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-033-033-349f291c",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 13:33, why are the readers told to take heed, watch, and pray?",
+      "answer": "for you do not know when the time is",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-013-033-033-349f291c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-034-034-39c47e3c",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 13:34, what did the man give to each of his servants?",
+      "answer": "his work",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-034-034-39c47e3c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-034-034-324709b2",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 13:34, what did the man give to his servants?",
+      "answer": "authority",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-034-034-324709b2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-034-034-02c29b41",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 13:34, what did the man leave behind when he went to a far country?",
+      "answer": "his house",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-034-034-02c29b41"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-034-034-81969a43",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 13:34, who did the man command to watch?",
+      "answer": "the doorkeeper",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-034-034-81969a43"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-035-035-be0993a1",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 13:35, name the 4 specific times the master of the house might come (be specific).",
+      "answer": "evening, midnight, the crowing of the rooster, or in the morning",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-013-035-035-be0993a1"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-036-036-e6c1fbda",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 13:36, what is the concern regarding the master coming suddenly?",
+      "answer": "he find you sleeping",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-036-036-e6c1fbda"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-037-037-693ba0e1",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 13:37, to whom is the command to watch directed?",
+      "answer": "all",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-013-037-037-693ba0e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-013-037-037-5bcbd76d",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 13:37, what is the single word command given to all?",
+      "answer": "Watch",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-013-037-037-5bcbd76d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-013-001-001-5bd537d3",
+      "41-013-001-001-290fcbd7",
+      "41-013-001-001-c38b9835",
+      "41-013-001-001-739073e5"
+    ],
+    "2": [
+      "41-013-002-002-dad22983",
+      "41-013-002-002-2877da67",
+      "41-013-002-002-4c555711"
+    ],
+    "3": [
+      "41-013-003-003-2ae2008a",
+      "41-013-003-003-32cd9916",
+      "41-013-003-003-a4b82df9",
+      "41-013-003-003-2009df8b"
+    ],
+    "4": [
+      "41-013-004-004-f7593256",
+      "41-013-004-004-51dd00b2"
+    ],
+    "5": [
+      "41-013-005-005-d9b74194",
+      "41-013-005-005-2cdd2981",
+      "41-013-005-005-67079d3d"
+    ],
+    "6": [
+      "41-013-006-006-63516b7a",
+      "41-013-006-006-045ef26d",
+      "41-013-006-006-bf24abf3"
+    ],
+    "7": [
+      "41-013-007-007-565c6a2b",
+      "41-013-007-007-c985c7b3",
+      "41-013-007-007-9bd3c883"
+    ],
+    "8": [
+      "41-013-008-008-5db929f7",
+      "41-013-008-008-e0e2af2b",
+      "41-013-008-008-1dbed198"
+    ],
+    "9": [
+      "41-013-009-009-65b88739",
+      "41-013-009-009-55ce6390",
+      "41-013-009-009-6572f269",
+      "41-013-009-009-5ce49d01",
+      "41-013-009-009-f4abaac7",
+      "41-013-009-009-36306dd3"
+    ],
+    "10": [
+      "41-013-010-010-c4e16252",
+      "41-013-010-010-e5ef6b4b",
+      "41-013-010-010-12b5d1dc"
+    ],
+    "11": [
+      "41-013-011-011-ec7fe6e6",
+      "41-013-011-011-b98b0843",
+      "41-013-011-011-97dc1bf9"
+    ],
+    "12": [
+      "41-013-012-012-0208f70d",
+      "41-013-012-012-56f3b232",
+      "41-013-012-012-1185fba7"
+    ],
+    "13": [
+      "41-013-013-013-0b9949ec",
+      "41-013-013-013-8f650798"
+    ],
+    "14": [
+      "41-013-014-014-c31d79fc",
+      "41-013-014-014-383c6cd3",
+      "41-013-014-014-d646af69",
+      "41-013-014-014-091ce17c"
+    ],
+    "15": [
+      "41-013-015-015-314e090a",
+      "41-013-015-015-fed6ddac"
+    ],
+    "16": [
+      "41-013-016-016-907b63df",
+      "41-013-016-016-e3c4e0d4",
+      "41-013-016-016-997f4120"
+    ],
+    "17": [
+      "41-013-017-017-6f2741a4",
+      "41-013-017-017-52ffd17c",
+      "41-013-017-017-85a29d3c"
+    ],
+    "18": [
+      "41-013-018-018-e4936155",
+      "41-013-018-018-735e24c8",
+      "41-013-018-018-81424ab0"
+    ],
+    "19": [
+      "41-013-019-019-73bb169c",
+      "41-013-019-019-595a93e5",
+      "41-013-019-019-a296271e"
+    ],
+    "20": [
+      "41-013-020-020-2dde3c08",
+      "41-013-020-020-f4720a12",
+      "41-013-020-020-6168dbb7",
+      "41-013-020-020-9bb6995c"
+    ],
+    "21": [
+      "41-013-021-021-cd77c6b8",
+      "41-013-021-021-9c8d1431"
+    ],
+    "22": [
+      "41-013-022-022-bf5137fe",
+      "41-013-022-022-ec616f3a",
+      "41-013-022-022-15e42db3",
+      "41-013-022-022-88e593c9"
+    ],
+    "23": [
+      "41-013-023-023-20ce666f",
+      "41-013-023-023-55ad1660",
+      "41-013-023-023-ac962852"
+    ],
+    "24": [
+      "41-013-024-024-28073ce7",
+      "41-013-024-024-7522188c",
+      "41-013-024-024-e8fe107f",
+      "41-013-024-024-4e45ec22"
+    ],
+    "25": [
+      "41-013-025-025-3e961c3b",
+      "41-013-025-025-8c516814",
+      "41-013-025-025-87cb24f5"
+    ],
+    "26": [
+      "41-013-026-026-468ddbea",
+      "41-013-026-026-03eb2185",
+      "41-013-026-026-9f3e4a0d"
+    ],
+    "27": [
+      "41-013-027-027-139a5ed9",
+      "41-013-027-027-8cd1d841",
+      "41-013-027-027-0f2641f8",
+      "41-013-027-027-f6395d4c"
+    ],
+    "28": [
+      "41-013-028-028-c69e2bec",
+      "41-013-028-028-50df8c98",
+      "41-013-028-028-542891b6",
+      "41-013-028-028-ad87bf43"
+    ],
+    "29": [
+      "41-013-029-029-a4cf9fd2",
+      "41-013-029-029-7f47bb76",
+      "41-013-029-029-1950cdb8"
+    ],
+    "30": [
+      "41-013-030-030-9607ad53",
+      "41-013-030-030-3aa651c8",
+      "41-013-030-030-dc9c963e"
+    ],
+    "31": [
+      "41-013-031-031-4b9bf091",
+      "41-013-031-031-5e235129",
+      "41-013-031-031-e4a4764c"
+    ],
+    "32": [
+      "41-013-032-032-347eaf0d",
+      "41-013-032-032-40c6e2f7",
+      "41-013-032-032-c346280a"
+    ],
+    "33": [
+      "41-013-033-033-82471d13",
+      "41-013-033-033-cf41a05e",
+      "41-013-033-033-349f291c"
+    ],
+    "34": [
+      "41-013-034-034-39c47e3c",
+      "41-013-034-034-324709b2",
+      "41-013-034-034-02c29b41",
+      "41-013-034-034-81969a43"
+    ],
+    "35": [
+      "41-013-035-035-be0993a1"
+    ],
+    "36": [
+      "41-013-036-036-e6c1fbda"
+    ],
+    "37": [
+      "41-013-037-037-693ba0e1",
+      "41-013-037-037-5bcbd76d"
+    ]
+  }
+}

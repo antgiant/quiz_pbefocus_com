@@ -1,0 +1,228 @@
+{
+  "schema": "pbe.questions.manifest.v1",
+  "version": 1,
+  "books": [
+    {
+      "id": "41-mark",
+      "name": "Mark",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/41-mark/001.json",
+          "verses": 45,
+          "questions": 152
+        },
+        {
+          "number": 2,
+          "path": "by-chapter/41-mark/002.json",
+          "verses": 28,
+          "questions": 91
+        },
+        {
+          "number": 3,
+          "path": "by-chapter/41-mark/003.json",
+          "verses": 35,
+          "questions": 108
+        },
+        {
+          "number": 4,
+          "path": "by-chapter/41-mark/004.json",
+          "verses": 41,
+          "questions": 127
+        },
+        {
+          "number": 5,
+          "path": "by-chapter/41-mark/005.json",
+          "verses": 43,
+          "questions": 144
+        },
+        {
+          "number": 6,
+          "path": "by-chapter/41-mark/006.json",
+          "verses": 56,
+          "questions": 175
+        },
+        {
+          "number": 7,
+          "path": "by-chapter/41-mark/007.json",
+          "verses": 37,
+          "questions": 113
+        },
+        {
+          "number": 8,
+          "path": "by-chapter/41-mark/008.json",
+          "verses": 38,
+          "questions": 121
+        },
+        {
+          "number": 9,
+          "path": "by-chapter/41-mark/009.json",
+          "verses": 50,
+          "questions": 169
+        },
+        {
+          "number": 10,
+          "path": "by-chapter/41-mark/010.json",
+          "verses": 52,
+          "questions": 154
+        },
+        {
+          "number": 11,
+          "path": "by-chapter/41-mark/011.json",
+          "verses": 33,
+          "questions": 168
+        },
+        {
+          "number": 12,
+          "path": "by-chapter/41-mark/012.json",
+          "verses": 44,
+          "questions": 129
+        },
+        {
+          "number": 13,
+          "path": "by-chapter/41-mark/013.json",
+          "verses": 37,
+          "questions": 114
+        },
+        {
+          "number": 14,
+          "path": "by-chapter/41-mark/014.json",
+          "verses": 72,
+          "questions": 223
+        },
+        {
+          "number": 15,
+          "path": "by-chapter/41-mark/015.json",
+          "verses": 47,
+          "questions": 159
+        },
+        {
+          "number": 16,
+          "path": "by-chapter/41-mark/016.json",
+          "verses": 20,
+          "questions": 73
+        }
+      ]
+    },
+    {
+      "id": "60-1-peter",
+      "name": "1 Peter",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/60-1-peter/001.json",
+          "verses": 25,
+          "questions": 95
+        },
+        {
+          "number": 2,
+          "path": "by-chapter/60-1-peter/002.json",
+          "verses": 25,
+          "questions": 80
+        },
+        {
+          "number": 3,
+          "path": "by-chapter/60-1-peter/003.json",
+          "verses": 22,
+          "questions": 83
+        },
+        {
+          "number": 4,
+          "path": "by-chapter/60-1-peter/004.json",
+          "verses": 19,
+          "questions": 73
+        },
+        {
+          "number": 5,
+          "path": "by-chapter/60-1-peter/005.json",
+          "verses": 14,
+          "questions": 56
+        }
+      ]
+    },
+    {
+      "id": "61-2-peter",
+      "name": "2 Peter",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/61-2-peter/001.json",
+          "verses": 21,
+          "questions": 71
+        },
+        {
+          "number": 2,
+          "path": "by-chapter/61-2-peter/002.json",
+          "verses": 22,
+          "questions": 81
+        },
+        {
+          "number": 3,
+          "path": "by-chapter/61-2-peter/003.json",
+          "verses": 18,
+          "questions": 68
+        }
+      ]
+    },
+    {
+      "id": "62-1-john",
+      "name": "1 John",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/62-1-john/001.json",
+          "verses": 10,
+          "questions": 37
+        },
+        {
+          "number": 2,
+          "path": "by-chapter/62-1-john/002.json",
+          "verses": 29,
+          "questions": 94
+        },
+        {
+          "number": 3,
+          "path": "by-chapter/62-1-john/003.json",
+          "verses": 24,
+          "questions": 73
+        },
+        {
+          "number": 4,
+          "path": "by-chapter/62-1-john/004.json",
+          "verses": 21,
+          "questions": 76
+        },
+        {
+          "number": 5,
+          "path": "by-chapter/62-1-john/005.json",
+          "verses": 21,
+          "questions": 72
+        }
+      ]
+    },
+    {
+      "id": "63-2-john",
+      "name": "2 John",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/63-2-john/001.json",
+          "verses": 13,
+          "questions": 39
+        }
+      ]
+    },
+    {
+      "id": "64-3-john",
+      "name": "3 John",
+      "chapters": [
+        {
+          "number": 1,
+          "path": "by-chapter/64-3-john/001.json",
+          "verses": 14,
+          "questions": 48
+        }
+      ]
+    }
+  ]
+}

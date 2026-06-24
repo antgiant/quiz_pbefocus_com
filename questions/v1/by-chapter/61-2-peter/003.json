@@ -1,0 +1,1202 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "61-2-peter",
+  "book": "2 Peter",
+  "chapter": 3,
+  "questions": [
+    {
+      "id": "61-003-001-001-ba56e54d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 3:1, how does the writer stir up their pure minds?",
+      "answer": "by way of reminder",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-001-001-ba56e54d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-001-001-010d0ecd",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 3:1, how many epistles does the writer say he is now writing to them?",
+      "answer": "this second epistle",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "61-003-001-001-010d0ecd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-001-001-8794cb07",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 3:1, in both epistles, what does the writer stir up?",
+      "answer": "your pure minds",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-001-001-8794cb07"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-001-001-8a8e49e0",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 3:1, what does the writer call those to whom he is writing?",
+      "answer": "Beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-001-001-8a8e49e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-002-002-7cf41378",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 3:2, by whom were the words spoken before?",
+      "answer": "the holy prophets",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-002-002-7cf41378"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-002-002-eafedb0b",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 3:2, what does the writer want them to be mindful of? (be specific)",
+      "answer": "the words which were spoken before by the holy prophets, and of the commandment of us, the apostles of the Lord and Savior",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-002-002-eafedb0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-002-002-bb85ccd1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 3:2, whose commandment is mentioned?",
+      "answer": "the apostles of the Lord and Savior",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-002-002-bb85ccd1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-003-003-dcc33ead",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 3:3, how will scoffers walk? (be specific)",
+      "answer": "according to their own lusts",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-003-003-dcc33ead"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-003-003-232b1662",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 3:3, what must we know first?",
+      "answer": "that scoffers will come in the last days, walking according to their own lusts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-003-003-232b1662"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-003-003-260c7dc9",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 3:3, when will scoffers come?",
+      "answer": "in the last days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-003-003-003-260c7dc9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-004-004-1d62ed5f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 3:4, from what point in time do the scoffers claim all things continue as they were?",
+      "answer": "from the beginning of creation",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-003-004-004-1d62ed5f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-004-004-3f40bee7",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 3:4, how do the scoffers describe the status of all things since the fathers fell asleep? (be specific)",
+      "answer": "all things continue as they were from the beginning of creation",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "61-003-004-004-3f40bee7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-004-004-26f6c341",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 3:4, what event happened to the fathers?",
+      "answer": "fell asleep",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-004-004-26f6c341"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-004-004-512e71eb",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 3:4, what question do the scoffers ask about the promise of His coming?",
+      "answer": "Where is the promise of His coming?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-004-004-512e71eb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-005-005-e2415b7e",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 3:5, by what were the heavens of old and the earth created?",
+      "answer": "the word of God",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-005-005-e2415b7e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-005-005-1587a9e1",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 3:5, how is the position of the earth described in relation to water? (be specific)",
+      "answer": "standing out of water and in the water",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "61-003-005-005-1587a9e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-005-005-3299b9c4",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 3:5, what is it that they willfully forget?",
+      "answer": "that by the word of God the heavens were of old, and the earth standing out of water and in the water",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-005-005-3299b9c4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-006-006-5ab93a5c",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 3:6, how did the world that then existed perish?",
+      "answer": "being flooded with water",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-006-006-5ab93a5c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-006-006-3df2a7c5",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 3:6, what happened to the world that then existed?",
+      "answer": "perished",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-006-006-3df2a7c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-007-007-b30eb055",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 3:7, for what are the present heavens and earth reserved?",
+      "answer": "fire",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-007-007-b30eb055"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-007-007-5d15a07d",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 3:7, until what time are the heavens and earth reserved? (be specific)",
+      "answer": "the day of judgment and perdition of ungodly men",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "61-003-007-007-5d15a07d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-007-007-9a044bbc",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 3:7, what is currently preserved by the same word?",
+      "answer": "the heavens and the earth which are now",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-007-007-9a044bbc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-008-008-7cd7a65d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 3:8, how does the author address the readers?",
+      "answer": "beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-008-008-7cd7a65d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-008-008-1d530543",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 3:8, how many years does the Lord consider to be as one day?",
+      "answer": "a thousand years",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "61-003-008-008-1d530543"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-008-008-af835766",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 3:8, what duration of time is considered as a thousand years? (be specific)",
+      "answer": "one day",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "61-003-008-008-af835766"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-008-008-2f3a6c92",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 3:8, what one thing does the author tell the beloved not to forget?",
+      "answer": "that with the Lord one day is as a thousand years, and a thousand years as one day",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-008-008-2f3a6c92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-009-009-4527b644",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 3:9, how do some people view the Lord concerning His promise?",
+      "answer": "slackness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-009-009-4527b644"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-009-009-e884abba",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 3:9, how is the Lord described in His relationship toward us?",
+      "answer": "longsuffering",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-009-009-e884abba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-009-009-9bb8132d",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 3:9, how is the Lord's behavior regarding His promise described in comparison to what some count as slackness?",
+      "answer": "The Lord is not slack concerning His promise",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-009-009-9bb8132d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-009-009-5674be95",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 3:9, list the 2 things the Lord is not willing or wanting regarding us. (be specific)",
+      "answer": "1. any should perish, 2. all should come to repentance",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-009-009-5674be95"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-010-010-fb91769f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 3:10, how will the heavens pass away?",
+      "answer": "with a great noise",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-010-010-fb91769f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-010-010-cd3bdc5e",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 3:10, what two things will be burned up? (be specific)",
+      "answer": "the earth and the works that are in it",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-010-010-cd3bdc5e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-010-010-0f5bd12c",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 3:10, what will happen to the elements?",
+      "answer": "will melt with fervent heat",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-010-010-0f5bd12c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-010-010-ea1271a6",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 3:10, when will the day of the Lord come?",
+      "answer": "as a thief in the night",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-003-010-010-ea1271a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-010-010-5e4361dc",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "True or False: According to 2 Peter 3:10, the day of the Lord will come as a thief in the night.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-003-010-010-5e4361dc"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-011-011-16fbb4d1",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 3:11, in what two things ought you to be in, in your conduct? (be specific)",
+      "answer": "holy conduct and godliness",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-011-011-16fbb4d1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-011-011-02373873",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 3:11, what manner of persons ought you to be because all these things will be dissolved?",
+      "answer": "in holy conduct and godliness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-011-011-02373873"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-011-011-3ba9b699",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 3:11, what will happen to all these things?",
+      "answer": "will be dissolved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-011-011-3ba9b699"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-012-012-ba980192",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 3:12, what are we to be looking for and hastening?",
+      "answer": "the coming of the day of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-012-012-ba980192"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-012-012-6e654d0b",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 3:12, what two states will the heavens experience because of the day of God? (be specific)",
+      "answer": "dissolved, being on fire",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-012-012-6e654d0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-012-012-fedb5ee7",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 3:12, what will happen to the elements?",
+      "answer": "melt with fervent heat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-012-012-fedb5ee7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-012-012-1511f2f3",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to 2 Peter 3:12, the heavens will be dissolved.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-003-012-012-1511f2f3"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-013-013-e910221e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 3:13, according to what do we look for new heavens and a new earth?",
+      "answer": "His promise",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-013-013-e910221e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-013-013-ede0d7a2",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 3:13, what dwells in the new heavens and the new earth?",
+      "answer": "righteousness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-013-013-ede0d7a2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-013-013-c14ca229",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 3:13, what two new things do we look for?",
+      "answer": "new heavens and a new earth",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-013-013-c14ca229"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-014-014-48b9cf45",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 3:14, how should the beloved look forward to these things?",
+      "answer": "diligent",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-014-014-48b9cf45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-014-014-3ea015d5",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 3:14, in what state should the beloved be found by Him? (be specific)",
+      "answer": "in peace, without spot and blameless",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "61-003-014-014-3ea015d5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-014-014-bc5e477e",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 3:14, list the 3 descriptors of how the beloved should be found by Him.",
+      "answer": "in peace, without spot, blameless",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "61-003-014-014-bc5e477e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-014-014-57ae4d0a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 3:14, what term of endearment does the author use to address his audience?",
+      "answer": "beloved",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-014-014-57ae4d0a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-014-014-e3a32119",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "True or False: According to 2 Peter 3:14, the beloved are to be found by Him in peace, without spot and blameless.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-003-014-014-e3a32119"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-015-015-d8abe4f0",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 3:15, what are we to consider that the longsuffering of our Lord is?",
+      "answer": "salvation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-015-015-d8abe4f0"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-015-015-2075dc36",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 3:15, what has our beloved brother Paul done according to the wisdom given to him?",
+      "answer": "written to you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-015-015-2075dc36"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-015-015-02b18169",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 3:15, what was given to Paul that allowed him to write to you? (be specific)",
+      "answer": "the wisdom given to him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-015-015-02b18169"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-015-015-129cd36c",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 3:15, who is described as our beloved brother?",
+      "answer": "Paul",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-015-015-129cd36c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-016-016-fea66b6b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 3:16, to what else do the untaught and unstable people apply their twisting behavior? (be specific)",
+      "answer": "the rest of the Scriptures",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-016-016-fea66b6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-016-016-da45d00a",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 3:16, what description is given to the things found in Paul's epistles?",
+      "answer": "some things hard to understand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-016-016-da45d00a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-016-016-4c46ab6b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 3:16, what happens to untaught and unstable people when they twist the things that are hard to understand?",
+      "answer": "to their own destruction",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "61-003-016-016-4c46ab6b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-016-016-58116d9d",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 3:16, what two types of people twist the things that are hard to understand?",
+      "answer": "untaught and unstable people",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-016-016-58116d9d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-016-016-9acf4906",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 3:16, where else does Paul speak of these things besides his epistles?",
+      "answer": "in all his epistles",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-003-016-016-9acf4906"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-017-017-35962b5c",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 3:17, being led away by what are the readers to avoid?",
+      "answer": "the error of the wicked",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-017-017-35962b5c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-017-017-830b8e82",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 3:17, how does the author address the readers?",
+      "answer": "beloved",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-003-017-017-830b8e82"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-017-017-da22574f",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 3:17, what must the readers beware of happening to their own steadfastness?",
+      "answer": "lest you also fall from your own steadfastness",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-003-017-017-da22574f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-017-017-fefdec3e",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 3:17, what should the readers do since they know the information beforehand? (be specific)",
+      "answer": "beware",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-003-017-017-fefdec3e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-018-018-976c3f65",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 3:18, in what two things should the readers grow?",
+      "answer": "grace and knowledge",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-003-018-018-976c3f65"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-018-018-f9046c6c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 3:18, of whom should the readers grow in the grace and knowledge? (be specific)",
+      "answer": "our Lord and Savior Jesus Christ",
+      "type": "who",
+      "points": 3,
+      "originalIds": [
+        "61-003-018-018-f9046c6c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-018-018-6f0bbf90",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 3:18, to whom should the glory be given?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-003-018-018-6f0bbf90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-018-018-3a85fed4",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 3:18, what is the duration for which the glory should be to Him?",
+      "answer": "both now and forever",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "61-003-018-018-3a85fed4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-003-018-018-28dfaad6",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "True or False: According to 2 Peter 3:18, the verse ends with the word 'Amen'.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-003-018-018-28dfaad6"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "61-003-001-001-ba56e54d",
+      "61-003-001-001-010d0ecd",
+      "61-003-001-001-8794cb07",
+      "61-003-001-001-8a8e49e0"
+    ],
+    "2": [
+      "61-003-002-002-7cf41378",
+      "61-003-002-002-eafedb0b",
+      "61-003-002-002-bb85ccd1"
+    ],
+    "3": [
+      "61-003-003-003-dcc33ead",
+      "61-003-003-003-232b1662",
+      "61-003-003-003-260c7dc9"
+    ],
+    "4": [
+      "61-003-004-004-1d62ed5f",
+      "61-003-004-004-3f40bee7",
+      "61-003-004-004-26f6c341",
+      "61-003-004-004-512e71eb"
+    ],
+    "5": [
+      "61-003-005-005-e2415b7e",
+      "61-003-005-005-1587a9e1",
+      "61-003-005-005-3299b9c4"
+    ],
+    "6": [
+      "61-003-006-006-5ab93a5c",
+      "61-003-006-006-3df2a7c5"
+    ],
+    "7": [
+      "61-003-007-007-b30eb055",
+      "61-003-007-007-5d15a07d",
+      "61-003-007-007-9a044bbc"
+    ],
+    "8": [
+      "61-003-008-008-7cd7a65d",
+      "61-003-008-008-1d530543",
+      "61-003-008-008-af835766",
+      "61-003-008-008-2f3a6c92"
+    ],
+    "9": [
+      "61-003-009-009-4527b644",
+      "61-003-009-009-e884abba",
+      "61-003-009-009-9bb8132d",
+      "61-003-009-009-5674be95"
+    ],
+    "10": [
+      "61-003-010-010-fb91769f",
+      "61-003-010-010-cd3bdc5e",
+      "61-003-010-010-0f5bd12c",
+      "61-003-010-010-ea1271a6",
+      "61-003-010-010-5e4361dc"
+    ],
+    "11": [
+      "61-003-011-011-16fbb4d1",
+      "61-003-011-011-02373873",
+      "61-003-011-011-3ba9b699"
+    ],
+    "12": [
+      "61-003-012-012-ba980192",
+      "61-003-012-012-6e654d0b",
+      "61-003-012-012-fedb5ee7",
+      "61-003-012-012-1511f2f3"
+    ],
+    "13": [
+      "61-003-013-013-e910221e",
+      "61-003-013-013-ede0d7a2",
+      "61-003-013-013-c14ca229"
+    ],
+    "14": [
+      "61-003-014-014-48b9cf45",
+      "61-003-014-014-3ea015d5",
+      "61-003-014-014-bc5e477e",
+      "61-003-014-014-57ae4d0a",
+      "61-003-014-014-e3a32119"
+    ],
+    "15": [
+      "61-003-015-015-d8abe4f0",
+      "61-003-015-015-2075dc36",
+      "61-003-015-015-02b18169",
+      "61-003-015-015-129cd36c"
+    ],
+    "16": [
+      "61-003-016-016-fea66b6b",
+      "61-003-016-016-da45d00a",
+      "61-003-016-016-4c46ab6b",
+      "61-003-016-016-58116d9d",
+      "61-003-016-016-9acf4906"
+    ],
+    "17": [
+      "61-003-017-017-35962b5c",
+      "61-003-017-017-830b8e82",
+      "61-003-017-017-da22574f",
+      "61-003-017-017-fefdec3e"
+    ],
+    "18": [
+      "61-003-018-018-976c3f65",
+      "61-003-018-018-f9046c6c",
+      "61-003-018-018-6f0bbf90",
+      "61-003-018-018-3a85fed4",
+      "61-003-018-018-28dfaad6"
+    ]
+  }
+}

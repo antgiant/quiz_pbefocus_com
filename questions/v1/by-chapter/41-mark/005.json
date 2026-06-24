@@ -1,0 +1,2600 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 5,
+  "questions": [
+    {
+      "id": "41-005-001-001-0582a61d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 5:1, to what region did they come after crossing the sea?",
+      "answer": "the country of the Gadarenes",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-001-001-a2303c5a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-001-001-a41c692e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 5:1, where was the country of the Gadarenes?",
+      "answer": "the other side of the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-001-001-a9e3551d",
+        "41-005-001-001-ea6fa6e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-001-001-4c7f2c49",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to Mark 5:1, they came to the cityy of the Galilee after arriving at the other side of the sea.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-005-001-001-44841bcf",
+        "41-005-001-001-69de53af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-002-002-a416b77d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, what met Him when He has come out of the boat, when did it meet Him, and what did it have?",
+      "answer": "a man, out of the tombs, an unclean spirt",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-005-002-002-7b35200e",
+        "41-005-002-002-a8153c34"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-002-002-28aee432",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, from where did the man with the unclean spirit meet Him?",
+      "answer": "out of the tombs",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-002-002-e463c7dc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-002-002-027d6608",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, what condition did the man have who met Him?",
+      "answer": "an unclean spirit",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-005-002-002-42358ac1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-002-002-fa76eda9",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, what did He do right before the man with the unclean spirit met Him?",
+      "answer": "come out of the boat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-002-002-c3ae2406",
+        "41-005-002-002-40c2911c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-002-002-bbb7ae79",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, when did the man with the unclean spirit meet Him?",
+      "answer": "immediately, when He had come out of the boat",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-005-002-002-15a487d5",
+        "41-005-002-002-1f27a75b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-003-003-a7f1ada6",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 5:3, what could no one use to bind the man?",
+      "answer": "chains",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-003-003-68dd10b5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-003-003-f94f6b9b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 5:3, where did the man who could not be bound have his dwelling?",
+      "answer": "among the tombs",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-003-003-e89319f7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-004-004-8c0831a0",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 5:4, what did he do to the chains?",
+      "answer": "the chains had been pulled apart by him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-004-004-d1d7aec3",
+        "41-005-004-004-2bb273b1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-004-004-52e66c3f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 5:4, what happened to the shackles?",
+      "answer": "the shackles broken in pieces",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-004-004-abcbf5e5",
+        "41-005-004-004-914cd463"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-004-004-8caa3d73",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 5:4, who was able to tame him?",
+      "answer": "no one, neither could anyone tame him",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-005-004-004-a5e4cac2",
+        "41-005-004-004-d999c08e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-004-004-26175d81",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 5:4, with what two things had the man often been bound?",
+      "answer": "shackles and chains",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-004-004-9d8d2adb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-005-005-a81c3d40",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 5:5, list the two locations the man was always found.",
+      "answer": "in the mountains and in the tombs",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-005-005-ff1167a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-005-005-caf79c3b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 5:5, what two physical actions was the man constantly doing?",
+      "answer": "crying out and cutting himself with stones",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-005-005-9a48b635",
+        "41-005-005-005-caf79c3b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-005-005-8037f412",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 5:5, when was the man in the mountains and in the tombs?",
+      "answer": "always, night and day",
+      "type": "when",
+      "points": 3,
+      "originalIds": [
+        "41-005-005-005-079f0294",
+        "41-005-005-005-8037f412"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-005-005-05a85549",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 5:5, with what did the man cut himself? (be specific)",
+      "answer": "stones",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-005-005-cfa5ca5d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-006-006-771a7de4",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 5:6, how did the man perceive Jesus and where was he? (be specific)",
+      "answer": "saw Jesus from afar",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-005-006-006-2e129ad9",
+        "41-005-006-006-987d557e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-006-006-19e3707e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 5:6, what did the man do when he saw Jesus from afar?",
+      "answer": "he ran and worshiped Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-006-006-ef15be6b",
+        "41-005-006-006-19e3707e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-006-006-01843556",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 5:6, who did the man see from afar?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-006-006-4daa2a84"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-007-007-9d59f95d",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 5:7, how did he cry out?",
+      "answer": "with a loud voice",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-007-007-957c7221",
+        "41-005-007-007-02b855cd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-007-007-8168054b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 5:7, what did the man ask Jesus not to do to him? (be specific)",
+      "answer": "torment me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-007-007-03e5b0bd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-007-007-590c412b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 5:7, what did the man call Jesus?",
+      "answer": "Jesus, Son of the Most High God",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-005-007-007-ad40d40e",
+        "41-005-007-007-590c412b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-007-007-eb3c4e5b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 5:7, what did the man implore Jesus by?",
+      "answer": "God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-007-007-62b9b506"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-007-007-7fe0ef0a",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 5:7, what question did the man ask Jesus? (be specific)",
+      "answer": "What have I to do with You, Jesus, Son of the Most High God?",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-005-007-007-eebc6529"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-008-008-bc96067a",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 5:8, what did He say to the unclean spirit?",
+      "answer": "Come out of the man, unclean spirit!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-008-008-62a76954"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-008-008-ca093edf",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 5:8, where was the unclean spirit told to come out of?",
+      "answer": "the man",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-008-008-046a25cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-008-008-deea9693",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 5:8, who was the command 'Come out of the man' directed toward?",
+      "answer": "unclean spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-008-008-5938cf91"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-009-009-88a7f378",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 5:9, what did the man answer when asked his name?",
+      "answer": "My name is Legion; for we are many.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-009-009-38b417a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-009-009-a2ab5edc",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 5:9, what question did He ask the man?",
+      "answer": "What is your name?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-009-009-dbd63ca2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-009-009-00f994a5",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 5:9, why did the man say his name was Legion? (be specific)",
+      "answer": "for we are many",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-005-009-009-756d03d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-010-010-9dcc7388",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 5:10, what did he do to Him?",
+      "answer": "he begged Him earnestly",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-010-010-93eceffd",
+        "41-005-010-010-5682984e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-010-010-7ada5e3d",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 5:10, what specifically did he beg Him not to do? (be specific)",
+      "answer": "send them out of the country",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-010-010-4a897ee0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-010-010-05bf32b3",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 5:10, how did the man beg?",
+      "answer": "earnestly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-010-010-5366e77b",
+        "41-005-010-010-cd3f7b26"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-011-011-80dbd5da",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 5:11, what was feeding near the mountains and how was it described?",
+      "answer": "a large herd of swine",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-011-011-7010e047",
+        "41-005-011-011-a23b0e4d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-011-011-1b25e158",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 5:11, where was the large herd of swine feeding? (be specific)",
+      "answer": "there, near the mountains",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-005-011-011-534f2dd3",
+        "41-005-011-011-b55799ca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-012-012-dc42519d",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 5:12, what did the demons ask Jesus to do?",
+      "answer": "Send us to the swine, that we may enter them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-012-012-f4183bd5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-012-012-e7589cf4",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 5:12, who begged Jesus?",
+      "answer": "all the demons",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-012-012-9dfd9e20"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-ef96af0f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, how did the herd run down the steep place? (be specific)",
+      "answer": "violently",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-013-013-796a0236"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-05aa40f5",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, how many swine were there?",
+      "answer": "about two thousand",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-005-013-013-23b8fe09"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-f44ef332",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, what did Jesus give to the demons?",
+      "answer": "permission",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-013-013-d3798e9d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-e9e6f75b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, what happened to the herd in the sea?",
+      "answer": "drowned",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-013-013-a2f0fe8a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-12b53aff",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, what went out and entered the swine?",
+      "answer": "the unclean spirits",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-013-013-196d1f4f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-013-013-394ad37b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 5:13, where did the herd run down after the spirits entered them?",
+      "answer": "down the steep place, into the sea",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-005-013-013-889369ca",
+        "41-005-013-013-8a83e935"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-014-014-e33c05f9",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 5:14, to which two places did those who fed the swine go to tell what had happened, and how did they go? (be specific)",
+      "answer": "the city, in the country, fled",
+      "type": "where",
+      "points": 3,
+      "originalIds": [
+        "41-005-014-014-97a014d5",
+        "41-005-014-014-8fb5854b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-014-014-d101da9a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 5:14, who fled after the events involving the swine?",
+      "answer": "those who fed the swine",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-014-014-575d1baf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-014-014-f8c6b7db",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 5:14, why did the people go out after those who fed the swine told their story?",
+      "answer": "to see what it was that had happened",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-005-014-014-24f38bbb",
+        "41-005-014-014-a708db40"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-015-015-ca10adbc",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, how did the people feel when they saw the man?",
+      "answer": "afraid",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-005-015-015-23e9ecd7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-015-015-06d6b563",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, list the three conditions or descriptions of the man as the people saw him. (be specific)",
+      "answer": "sitting, clothed, and in his right mind",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-015-015-39c9eb5b",
+        "41-005-015-015-05f0779c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-015-015-21f55b9d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, what had the man who was sitting before them been previously?",
+      "answer": "demon-possessed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-015-015-6f7949de"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-015-015-0fb403d7",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, what did the one who was demon-possessed have had?",
+      "answer": "the legion",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-015-015-42066206",
+        "41-005-015-015-9cfd7af7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-015-015-1e88f719",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, who did the people come to?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-015-015-43de5f16"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-016-016-1fc94f15",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 5:16, what did those who saw it do?",
+      "answer": "told them how it happened to him who had been demon-possessed, and about the swine",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-016-016-66ef1bb3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-016-016-0316f427",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 5:16, what state was the man previously in?",
+      "answer": "demon-possessed",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-005-016-016-9e44ccd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-016-016-a827a761",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 5:16, who told them how it happened?",
+      "answer": "those who saw it",
+      "type": "list",
+      "points": 1,
+      "originalIds": [
+        "41-005-016-016-b5b5133a",
+        "41-005-016-016-b2228d59"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-017-017-42d13c5e",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 5:17, what did they begin to do with Him and for what purpose?",
+      "answer": "began to plead with Him to depart from their region",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-017-017-34060ef1",
+        "41-005-017-017-50278e1f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-017-017-7c96d903",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 5:17, what did the people want Jesus to do?",
+      "answer": "depart from their region",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-017-017-6dae6a84"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-017-017-c3d49cf7",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 5:17, where did the people want Jesus to depart from?",
+      "answer": "their region",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-017-017-451d64bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-018-018-984b583a",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 5:18, what did the man who had been demon-possessed do when He got into the boat?",
+      "answer": "begged Him that he might be with Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-018-018-7c0a6f9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-018-018-9347f0da",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 5:18, where did He get into?",
+      "answer": "the boat",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-018-018-d812e4f4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-018-018-1482e7e9",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 5:18, who begged Him that he might be with Him?",
+      "answer": "he who had been demon-possessed",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-018-018-ffafcdcc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-019-019-3445841f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 5:19, did Jesus permit the man to go with Him?",
+      "answer": "Jesus did not permit him",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-005-019-019-cbce1e36"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-019-019-bc7f2294",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 5:19, where did Jesus tell the man to go? What was he to tell?",
+      "answer": "Go home to your friends, tell them what great things the Lord has done for you, and how He has had compassion on you",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-019-019-133d7558",
+        "41-005-019-019-3bf64a33"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-019-019-c4d02c14",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 5:19, what two characteristics of God’s actions did Jesus tell the man to share?",
+      "answer": "what great things the Lord has done for you, and how He has had compassion on you",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-019-019-124c113c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-019-019-86d23a89",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 5:19, where did Jesus tell the man to go?",
+      "answer": "home to your friends",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-019-019-dbb1f75f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-020-020-f416acc3",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 5:20, what did the man do after Jesus spoke to him?",
+      "answer": "he departed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-020-020-60f33b7b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-020-020-885a9487",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 5:20, what exactly did the man proclaim in Decapolis? (be specific)",
+      "answer": "all that Jesus had done for him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-020-020-d977d473"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-020-020-98e634f6",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 5:20, what was the reaction of the people to what the man proclaimed?",
+      "answer": "all marveled",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-020-020-6308e049"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-020-020-ed552a21",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 5:20, where did the man begin to proclaim what Jesus had done for him?",
+      "answer": "Decapolis",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-020-020-c837b629"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-021-021-802960c1",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 5:21, how did Jesus travel to the other side?",
+      "answer": "by boat",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-021-021-70a75877"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-021-021-3709de30",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 5:21, what happened when Jesus crossed over again to the other side?",
+      "answer": "a great multitude gathered to Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-021-021-eef0a84e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-021-021-4043b717",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 5:21, where was Jesus when the multitude gathered to Him?",
+      "answer": "by the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-021-021-b39c60e5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-022-022-69a1c1c2",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 5:22, what did Jairus do when he saw Jesus?",
+      "answer": "he fell at His feet",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-022-022-1607ed60"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-022-022-a72d6139",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 5:22, what was the name of the ruler of the synagogue?",
+      "answer": "Jairus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-022-022-1a5e266b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-022-022-93191930",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 5:22, who came to see Jesus, and what was his distinction?",
+      "answer": "Jairus, one of the rulers of the synagogue",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-005-022-022-19a1a81d",
+        "41-005-022-022-ee34dad3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-022-022-7b2b5154",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "True or False: According to Mark 5:22, the man who came to Jesus was a Roman Centurian.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-005-022-022-e9c50663",
+        "41-005-022-022-fe64a9f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-023-023-d36969bd",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 5:23, what did the ruler of the synagogue do to Jesus, and how did he do it?",
+      "answer": "begged Him, earnestly",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-005-023-023-daa84eeb",
+        "41-005-023-023-77218501"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-023-023-3965c210",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 5:23, what two things did the ruler ask Jesus to do so his daughter would live? (be specific)",
+      "answer": "Come and lay Your hands on her",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-023-023-ab1229f9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-023-023-1decc3dc",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 5:23, what was the condition of the ruler's daughter?",
+      "answer": "lies at the point of death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-023-023-d2506d62",
+        "41-005-023-023-1decc3dc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-023-023-2d64e208",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 5:23, what was the expected result of Jesus laying His hands on the daughter?",
+      "answer": "that she may be healed, and she will live",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-023-023-ec360310"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-024-024-571fb15d",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 5:24, what did the great multitude do to Jesus?",
+      "answer": "followed Him, thronged Him",
+      "type": "true_false",
+      "points": 2,
+      "originalIds": [
+        "41-005-024-024-46e5b377",
+        "41-005-024-024-7681b9c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-024-024-0cd4eae0",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 5:24, what did the great multitude do to Jesus? (be specific)",
+      "answer": "followed Him and thronged Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-024-024-4b896db1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-024-024-bdc0156c",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 5:24, what followed Him?",
+      "answer": "a great multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-024-024-51ad52c6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-024-024-d0b16645",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 5:24, who went with him?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-024-024-0a7cdbc7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-025-025-e96e42ea",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 5:25, how long had the woman had a flow of blood?",
+      "answer": "twelve years",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-005-025-025-ef84edfa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-025-025-dc3efa5d",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 5:25, what condition did the woman have?",
+      "answer": "a flow of blood",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-025-025-e6c645b6",
+        "41-005-025-025-f5c94d35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-026-026-abd64a76",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 5:26, how had the woman fared under the care of many physicians?",
+      "answer": "she had suffered many things",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-026-026-67dc5bb8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-026-026-2576c397",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 5:26, what had the woman spent on the physicians?",
+      "answer": "all that she had",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-026-026-3e8fb9fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-026-026-8c7ae54a",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 5:26, what was the result of the woman having spent all that she had (be specific)?",
+      "answer": "she was no better, but rather grew worse",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-026-026-ad3f707b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-027-027-1a3a1214",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 5:27, what did the woman do when she heard about Jesus?",
+      "answer": "she came behind Him in the crowd and touched His garment",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-027-027-7f13cd07",
+        "41-005-027-027-1a3a1214"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-027-027-065233fa",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 5:27, what part of Jesus did she touch?",
+      "answer": "His garment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-027-027-f914d60a",
+        "41-005-027-027-c67e9a63"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-027-027-4fc53205",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 5:27, where was Jesus when the woman came to Him? Where was the woman?",
+      "answer": "in the crowd, behind Him",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-005-027-027-ac46d12c",
+        "41-005-027-027-25d7c3db"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-028-028-0657cd83",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 5:28, what did the woman believe would happen if she touched His clothes?",
+      "answer": "I shall be made well",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-028-028-592a09ed"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-028-028-39d05706",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 5:28, what did the woman say she needed to do to be made well?",
+      "answer": "touch His clothes",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-028-028-4ff217e0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-028-028-b85604a7",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 5:28, what did she say? (be specific)?",
+      "answer": "If only I may touch His clothes, I shall be made well.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-028-028-d457ba69",
+        "41-005-028-028-1864965c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-029-029-ebc53b08",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 5:29, what did the woman feel and where did she feel it?",
+      "answer": "that she was healed of the affliction, in her body",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-029-029-0d02d3ad",
+        "41-005-029-029-d2e39f5d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-029-029-f80cc9b4",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 5:29, what happened to the fountain of the woman's blood immediately?",
+      "answer": "it was dried up",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-029-029-f6acc9b2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-029-029-06e933fc",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 5:29, what was dried up immediately and how was it described? (be specific)",
+      "answer": "the fountain of her blood",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-029-029-208c880e",
+        "41-005-029-029-0b4096d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-030-030-a9794f81",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 5:30, what did Jesus know in Himself immediately?",
+      "answer": "that power had gone out of Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-030-030-505f297b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-030-030-35103cbc",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 5:30, what question did Jesus ask after turning in the crowd?",
+      "answer": "Who touched My clothes?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-030-030-c2294ed3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-030-030-9998bc9a",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 5:30, where did Jesus do in the crowd before He spoke?",
+      "answer": "turned around",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-030-030-ae055d96",
+        "41-005-030-030-e069c0c9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-031-031-76dde274",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 5:31, what did the desciples saw You see, and what did they say You say?",
+      "answer": "You see the multitude thronging You, and You say, ‘Who touched Me?’",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-031-031-c047274c",
+        "41-005-031-031-2d0158ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-031-031-dc27cb22",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 5:31, what did the disciples say the multitude was doing to Jesus?",
+      "answer": "thronging You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-031-031-eddec853"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-031-031-1cfeb7bf",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 5:31, what question were the desciples surprised Jesus asked?",
+      "answer": "Who touched Me?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-031-031-af33c2b2",
+        "41-005-031-031-99dc6fa4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-031-031-799ced62",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 5:31, who spoke to Jesus?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-031-031-8c9f25ab",
+        "41-005-031-031-025849f2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-032-032-2ef79988",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 5:32, what did He do to see her who had done this thing?",
+      "answer": "looked around",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-032-032-0b81da35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-032-032-5f18b7fb",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 5:32, why did He look around, to see who, who had done what?",
+      "answer": "to see her who had done this thing",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-005-032-032-6ac5b55b",
+        "41-005-032-032-9c5e7652"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-033-033-b3e3d06a",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 5:33, what did the woman do after coming before Him?",
+      "answer": "fell down before Him, told Him the whole truth.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-033-033-50428560",
+        "41-005-033-033-9e7a6a2a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-033-033-20e97406",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 5:33, what did the woman tell Him?",
+      "answer": "the whole truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-033-033-754878fd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-033-033-ccd64a06",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 5:33, what was the woman doing while knowing what had happened to her? (be specific)",
+      "answer": "fearing and trembling",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-033-033-2761173f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-034-034-80de03ae",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 5:34, what did He call the woman?",
+      "answer": "Daughter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-034-034-b8ac84df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-034-034-315de1de",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 5:34, what had made the woman well?",
+      "answer": "your faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-034-034-c695eaac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-034-034-3e24d645",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 5:34, what two commands did He give the woman? (be specific)",
+      "answer": "Go in peace, and be healed of your affliction",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-034-034-cb7abca1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-035-035-cd84c921",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 5:35, from whose did some come to report the news?",
+      "answer": "the ruler of the synagogue’s house",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-035-035-a3f08deb",
+        "41-005-035-035-8e47ac39"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-035-035-c115bfac",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 5:35, what question did those who came from the ruler's house ask regarding the Teacher? (be specific)",
+      "answer": "Why trouble the Teacher any further?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-005-035-035-a6a92bce",
+        "41-005-035-035-c115bfac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-035-035-91411071",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 5:35, what was the status of the ruler of the synagogue’s daughter?",
+      "answer": "dead",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-035-035-d40cac75"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-035-035-670ac297",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 5:35, while Jesus was still doing what, did some come from the ruler of the synagogue's house?",
+      "answer": "speaking",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-035-035-75b21313"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-036-036-ae681069",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 5:36, as soon as Jesus heard the word that was spoken, to whom did He speak?",
+      "answer": "the ruler of the synagogue",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-036-036-3643107b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-036-036-8a254edc",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 5:36, what two things did Jesus tell the ruler of the synagogue to do? (be specific)",
+      "answer": "Do not be afraid; only believe.",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-036-036-7ed330d5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-037-037-c504a3f0",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 5:37, how many people did Jesus permit to follow Him?",
+      "answer": "3",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-005-037-037-e14fe05c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-037-037-527c796b",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 5:37, name the 3 people, and any named relations, Jesus permitted to follow Him.",
+      "answer": "Peter, James, and John the brother of James",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-037-037-aadc4991",
+        "41-005-037-037-e374b465"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-037-037-caa867cb",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 5:37, how was John identified?",
+      "answer": "the brother of James",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-037-037-89b74183",
+        "41-005-037-037-c2db11b8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-038-038-2afa9f8c",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 5:38, what did Jesus see upon arriving at the house? (be specific)",
+      "answer": "a tumult and those who wept and wailed loudly",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-005-038-038-23576522",
+        "41-005-038-038-2afa9f8c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-038-038-f9a4bd36",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 5:38, what kind of house did Jesus come to?",
+      "answer": "the house of the ruler of the synagogue",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-038-038-1060fcbe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-038-038-2f4ccfac",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 5:38, He saw those who did what things?",
+      "answer": "wept and wailed loudly",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-038-038-948f9597",
+        "41-005-038-038-1c2eff58"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-038-038-94607c3b",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 5:38, where did Jesus come to?",
+      "answer": "the house of the ruler of the synagogue",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-038-038-6672348b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-039-039-9eb108f3",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 5:39, how did Jesus describe the state of the child?",
+      "answer": "not dead, but sleeping",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-039-039-f2abb635",
+        "41-005-039-039-9eb108f3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-039-039-bf394b04",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 5:39, what two things did Jesus ask the people?",
+      "answer": "Why make this commotion and weep",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-005-039-039-f81254a3",
+        "41-005-039-039-031474fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-039-039-edb20b58",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 5:39, when did Jesus speak to the people? (be specific)",
+      "answer": "When He came in",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-005-039-039-7e39ad1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-040-040-b1f13cf7",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 5:40, name the 3 groups of people Jesus took with Him when He entered where the child was lying.",
+      "answer": "the father, the mother of the child, and those who were with Him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-040-040-107ecb9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-040-040-6d22ad87",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 5:40, what did Jesus do to the people before entering the room?",
+      "answer": "He had put them all outside",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-040-040-d4ba5b4f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-040-040-af0a881e",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 5:40, what was the reaction of the people to Jesus' statement?",
+      "answer": "they ridiculed Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-040-040-035820c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-040-040-dddf9bba",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 5:40, where did Jesus enter? (be specific)",
+      "answer": "where the child was lying",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-005-040-040-152e1bac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-041-041-da3222d8",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 5:41, what did He take and by what?",
+      "answer": "the child by the hand",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-041-041-cb303252",
+        "41-005-041-041-2f477562"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-041-041-95358aa8",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 5:41, what is the translation of 'Talitha, cumi'?",
+      "answer": "Little girl, I say to you, arise.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-041-041-7ffdbed1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-041-041-c2cf7156",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 5:41, what were the specific words He said to the girl?",
+      "answer": "Talitha, cumi",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-041-041-ac591eed"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-041-041-56df5af8",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 5:41, who took the child by the hand?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-041-041-5574f4e2",
+        "41-005-041-041-56df5af8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-042-042-635c6063",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 5:42, how old was the girl?",
+      "answer": "twelve",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-005-042-042-1e8f12d6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-042-042-1b7f5632",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 5:42, what happened immediately to the girl?",
+      "answer": "the girl arose and walked",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-042-042-daf86205"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-042-042-770095ea",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 5:42, what were the people overcome with?",
+      "answer": "great amazement",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-042-042-abaf0475"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-043-043-68e4142f",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 5:43, how did He command them?",
+      "answer": "strictly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-043-043-e7e5789c",
+        "41-005-043-043-af2905c5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-043-043-4d29fd24",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 5:43, what did He command that no one should do?",
+      "answer": "know it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-043-043-dbaa17fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-005-043-043-7d14caf7",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 5:43, what did He say should be given to the girl?",
+      "answer": "something to eat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-043-043-55b07b5c",
+        "41-005-043-043-de426911"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-005-001-001-0582a61d",
+      "41-005-001-001-a41c692e",
+      "41-005-001-001-4c7f2c49"
+    ],
+    "2": [
+      "41-005-002-002-a416b77d",
+      "41-005-002-002-28aee432",
+      "41-005-002-002-027d6608",
+      "41-005-002-002-fa76eda9",
+      "41-005-002-002-bbb7ae79"
+    ],
+    "3": [
+      "41-005-003-003-a7f1ada6",
+      "41-005-003-003-f94f6b9b"
+    ],
+    "4": [
+      "41-005-004-004-8c0831a0",
+      "41-005-004-004-52e66c3f",
+      "41-005-004-004-8caa3d73",
+      "41-005-004-004-26175d81"
+    ],
+    "5": [
+      "41-005-005-005-a81c3d40",
+      "41-005-005-005-caf79c3b",
+      "41-005-005-005-8037f412",
+      "41-005-005-005-05a85549"
+    ],
+    "6": [
+      "41-005-006-006-771a7de4",
+      "41-005-006-006-19e3707e",
+      "41-005-006-006-01843556"
+    ],
+    "7": [
+      "41-005-007-007-9d59f95d",
+      "41-005-007-007-8168054b",
+      "41-005-007-007-590c412b",
+      "41-005-007-007-eb3c4e5b",
+      "41-005-007-007-7fe0ef0a"
+    ],
+    "8": [
+      "41-005-008-008-bc96067a",
+      "41-005-008-008-ca093edf",
+      "41-005-008-008-deea9693"
+    ],
+    "9": [
+      "41-005-009-009-88a7f378",
+      "41-005-009-009-a2ab5edc",
+      "41-005-009-009-00f994a5"
+    ],
+    "10": [
+      "41-005-010-010-9dcc7388",
+      "41-005-010-010-7ada5e3d",
+      "41-005-010-010-05bf32b3"
+    ],
+    "11": [
+      "41-005-011-011-80dbd5da",
+      "41-005-011-011-1b25e158"
+    ],
+    "12": [
+      "41-005-012-012-dc42519d",
+      "41-005-012-012-e7589cf4"
+    ],
+    "13": [
+      "41-005-013-013-ef96af0f",
+      "41-005-013-013-05aa40f5",
+      "41-005-013-013-f44ef332",
+      "41-005-013-013-e9e6f75b",
+      "41-005-013-013-12b53aff",
+      "41-005-013-013-394ad37b"
+    ],
+    "14": [
+      "41-005-014-014-e33c05f9",
+      "41-005-014-014-d101da9a",
+      "41-005-014-014-f8c6b7db"
+    ],
+    "15": [
+      "41-005-015-015-ca10adbc",
+      "41-005-015-015-06d6b563",
+      "41-005-015-015-21f55b9d",
+      "41-005-015-015-0fb403d7",
+      "41-005-015-015-1e88f719"
+    ],
+    "16": [
+      "41-005-016-016-1fc94f15",
+      "41-005-016-016-0316f427",
+      "41-005-016-016-a827a761"
+    ],
+    "17": [
+      "41-005-017-017-42d13c5e",
+      "41-005-017-017-7c96d903",
+      "41-005-017-017-c3d49cf7"
+    ],
+    "18": [
+      "41-005-018-018-984b583a",
+      "41-005-018-018-9347f0da",
+      "41-005-018-018-1482e7e9"
+    ],
+    "19": [
+      "41-005-019-019-3445841f",
+      "41-005-019-019-bc7f2294",
+      "41-005-019-019-c4d02c14",
+      "41-005-019-019-86d23a89"
+    ],
+    "20": [
+      "41-005-020-020-f416acc3",
+      "41-005-020-020-885a9487",
+      "41-005-020-020-98e634f6",
+      "41-005-020-020-ed552a21"
+    ],
+    "21": [
+      "41-005-021-021-802960c1",
+      "41-005-021-021-3709de30",
+      "41-005-021-021-4043b717"
+    ],
+    "22": [
+      "41-005-022-022-69a1c1c2",
+      "41-005-022-022-a72d6139",
+      "41-005-022-022-93191930",
+      "41-005-022-022-7b2b5154"
+    ],
+    "23": [
+      "41-005-023-023-d36969bd",
+      "41-005-023-023-3965c210",
+      "41-005-023-023-1decc3dc",
+      "41-005-023-023-2d64e208"
+    ],
+    "24": [
+      "41-005-024-024-571fb15d",
+      "41-005-024-024-0cd4eae0",
+      "41-005-024-024-bdc0156c",
+      "41-005-024-024-d0b16645"
+    ],
+    "25": [
+      "41-005-025-025-e96e42ea",
+      "41-005-025-025-dc3efa5d"
+    ],
+    "26": [
+      "41-005-026-026-abd64a76",
+      "41-005-026-026-2576c397",
+      "41-005-026-026-8c7ae54a"
+    ],
+    "27": [
+      "41-005-027-027-1a3a1214",
+      "41-005-027-027-065233fa",
+      "41-005-027-027-4fc53205"
+    ],
+    "28": [
+      "41-005-028-028-0657cd83",
+      "41-005-028-028-39d05706",
+      "41-005-028-028-b85604a7"
+    ],
+    "29": [
+      "41-005-029-029-ebc53b08",
+      "41-005-029-029-f80cc9b4",
+      "41-005-029-029-06e933fc"
+    ],
+    "30": [
+      "41-005-030-030-a9794f81",
+      "41-005-030-030-35103cbc",
+      "41-005-030-030-9998bc9a"
+    ],
+    "31": [
+      "41-005-031-031-76dde274",
+      "41-005-031-031-dc27cb22",
+      "41-005-031-031-1cfeb7bf",
+      "41-005-031-031-799ced62"
+    ],
+    "32": [
+      "41-005-032-032-2ef79988",
+      "41-005-032-032-5f18b7fb"
+    ],
+    "33": [
+      "41-005-033-033-b3e3d06a",
+      "41-005-033-033-20e97406",
+      "41-005-033-033-ccd64a06"
+    ],
+    "34": [
+      "41-005-034-034-80de03ae",
+      "41-005-034-034-315de1de",
+      "41-005-034-034-3e24d645"
+    ],
+    "35": [
+      "41-005-035-035-cd84c921",
+      "41-005-035-035-c115bfac",
+      "41-005-035-035-91411071",
+      "41-005-035-035-670ac297"
+    ],
+    "36": [
+      "41-005-036-036-ae681069",
+      "41-005-036-036-8a254edc"
+    ],
+    "37": [
+      "41-005-037-037-c504a3f0",
+      "41-005-037-037-527c796b",
+      "41-005-037-037-caa867cb"
+    ],
+    "38": [
+      "41-005-038-038-2afa9f8c",
+      "41-005-038-038-f9a4bd36",
+      "41-005-038-038-2f4ccfac",
+      "41-005-038-038-94607c3b"
+    ],
+    "39": [
+      "41-005-039-039-9eb108f3",
+      "41-005-039-039-bf394b04",
+      "41-005-039-039-edb20b58"
+    ],
+    "40": [
+      "41-005-040-040-b1f13cf7",
+      "41-005-040-040-6d22ad87",
+      "41-005-040-040-af0a881e",
+      "41-005-040-040-dddf9bba"
+    ],
+    "41": [
+      "41-005-041-041-da3222d8",
+      "41-005-041-041-95358aa8",
+      "41-005-041-041-c2cf7156",
+      "41-005-041-041-56df5af8"
+    ],
+    "42": [
+      "41-005-042-042-635c6063",
+      "41-005-042-042-1b7f5632",
+      "41-005-042-042-770095ea"
+    ],
+    "43": [
+      "41-005-043-043-68e4142f",
+      "41-005-043-043-4d29fd24",
+      "41-005-043-043-7d14caf7"
+    ]
+  }
+}

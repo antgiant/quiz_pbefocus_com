@@ -1,0 +1,2291 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 12,
+  "questions": [
+    {
+      "id": "41-012-001-001-5fd656e8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 12:1, how did Jesus begin to speak to them?",
+      "answer": "in parables",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-001-001-5fd656e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-001-001-756e269e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 12:1, to whom did the man lease the vineyard?",
+      "answer": "vinedressers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-001-001-756e269e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-001-001-ac2cb942",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 12:1, what are the four things the man did in the vineyard? (be specific)",
+      "answer": "set a hedge around it, dug a place for the wine vat and built a tower",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-012-001-001-ac2cb942"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-001-001-45746371",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 12:1, what did a man plant?",
+      "answer": "a vineyard",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-001-001-45746371"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-001-001-19a9fb9c",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 12:1, where did the man go after leasing the vineyard?",
+      "answer": "into a far country",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-001-001-19a9fb9c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-002-002-199135aa",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 12:2, when did the man send a servant to the vinedressers?",
+      "answer": "at vintage-time",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-012-002-002-199135aa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-002-002-ed8d5d8a",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 12:2, why did the man send a servant to the vinedressers?",
+      "answer": "that he might receive some of the fruit of the vineyard from the vinedressers",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-012-002-002-ed8d5d8a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-003-003-7388c599",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 12:3, what did the vinedressers do to the servant?",
+      "answer": "took him and beat him and sent him away empty-handed",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-012-003-003-7388c599"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-004-004-0bce959e",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 12:4, what did the vinedressers do to the second servant? (be specific)",
+      "answer": "threw stones, wounded him in the head, and sent him away shamefully treated",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-012-004-004-0bce959e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-005-005-7e9328dc",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 12:5, what did the vinedressers do to many others?",
+      "answer": "beating some and killing some",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-005-005-7e9328dc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-005-005-dbdb93ac",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 12:5, what happened to the third servant?",
+      "answer": "him they killed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-005-005-dbdb93ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-006-006-b867bce1",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 12:6, how did the owner describe his one son?",
+      "answer": "his beloved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-006-006-b867bce1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-006-006-e73b9034",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 12:6, how many sons did the man still have?",
+      "answer": "one",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-006-006-e73b9034"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-006-006-52aa5b8d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 12:6, what did the owner say when he sent his son? (be specific)",
+      "answer": "They will respect my son.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-006-006-52aa5b8d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-006-006-1e145b2b",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 12:6, when did the owner send his son to the vinedressers?",
+      "answer": "last",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-012-006-006-1e145b2b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-007-007-76987e01",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 12:7, what 2 things did the vinedressers propose to do? (be specific)",
+      "answer": "kill him, and the inheritance will be ours",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-007-007-76987e01"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-007-007-ad8ae18b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 12:7, what did the vinedressers identify the son as?",
+      "answer": "the heir",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-007-007-ad8ae18b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-007-007-b502aceb",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 12:7, who spoke among themselves?",
+      "answer": "those vinedressers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-007-007-b502aceb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-008-008-5d230931",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 12:8, list the 3 actions taken by the vinedressers against the son.",
+      "answer": "took him and killed him and cast him out of the vineyard",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-012-008-008-5d230931"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-008-008-682cabdc",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 12:8, where was the son cast out of?",
+      "answer": "the vineyard",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-008-008-682cabdc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-009-009-475edd86",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 12:9, to whom will the owner give the vineyard?",
+      "answer": "others",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-009-009-475edd86"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-009-009-f8b70668",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 12:9, what are the two actions the owner will take regarding the vineyard and the vinedressers? (be specific)",
+      "answer": "destroy the vinedressers, and give the vineyard to others",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-009-009-f8b70668"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-009-009-e5303e36",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 12:9, what rhetorical question does the speaker ask regarding the owner of the vineyard?",
+      "answer": "Therefore what will the owner of the vineyard do?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-009-009-e5303e36"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-009-009-59ce0baf",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 12:9, what will the owner of the vineyard do to the vinedressers?",
+      "answer": "He will come and destroy the vinedressers",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-009-009-59ce0baf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-010-010-ace65ea5",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 12:10, what did the builders do to the stone?",
+      "answer": "rejected",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-010-010-ace65ea5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-010-010-244ffc39",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 12:10, what does the speaker ask if the listeners have even read?",
+      "answer": "this Scripture",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-010-010-244ffc39"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-010-010-ed59b77a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 12:10, what has the rejected stone become?",
+      "answer": "the chief cornerstone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-010-010-ed59b77a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-010-010-d8468a0a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 12:10, who rejected the stone?",
+      "answer": "the builders",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-010-010-d8468a0a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-011-011-bc43e960",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 12:11, how is the LORD's doing described in our eyes?",
+      "answer": "marvelous",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-011-011-bc43e960"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-011-011-af04389f",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 12:11, whose doing was the stone becoming the chief cornerstone?",
+      "answer": "the LORD’s",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-011-011-af04389f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-012-012-b0c87122",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 12:12, what prevented them from laying hands on Him?",
+      "answer": "feared the multitude",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-012-012-b0c87122"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-012-012-81a1b9fe",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 12:12, what were the two actions 'they' took after fearing the multitude? (be specific)",
+      "answer": "left Him and went away",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-012-012-81a1b9fe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-012-012-65be3f83",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 12:12, who sought to lay hands on Him?",
+      "answer": "they",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-012-012-65be3f83"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-012-012-8df4a9e0",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 12:12, why did 'they' fear the multitude?",
+      "answer": "for they knew He had spoken the parable against them",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-012-012-8df4a9e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-013-013-ea13b723",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 12:13, who did they send to Jesus?",
+      "answer": "some of the Pharisees and the Herodians",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-012-013-013-ea13b723"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-013-013-02af7bdd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 12:13, why did they send these individuals to Him?",
+      "answer": "to catch Him in His words",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-013-013-02af7bdd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-014-014-ccaaa1db",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 12:14, what 2 things did they claim to know about Jesus?",
+      "answer": "that You are true, and care about no one",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-014-014-ccaaa1db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-014-014-ea38082a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 12:14, what question did they ask concerning taxes?",
+      "answer": "Is it lawful to pay taxes to Caesar, or not?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-014-014-ea38082a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-014-014-f2d08529",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 12:14, what title did they use to address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-014-014-f2d08529"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-014-014-d4d6fd30",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 12:14, why did they say Jesus does not regard the person of men?",
+      "answer": "for You do not regard the person of men, but teach the way of God in truth",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-014-014-d4d6fd30"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-015-015-2d3c9c26",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 12:15, what did Jesus ask them to bring so He could see it? (be specific)",
+      "answer": "a denarius",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-015-015-2d3c9c26"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-015-015-945a8134",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 12:15, what did Jesus know about them?",
+      "answer": "their hypocrisy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-015-015-945a8134"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-015-015-3a66f20b",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 12:15, what question did Jesus ask them regarding their motive?",
+      "answer": "Why do you test Me?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-015-015-3a66f20b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-015-015-bd2c5c06",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 12:15, what question did they ask regarding payment?",
+      "answer": "Shall we pay, or shall we not pay?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-015-015-bd2c5c06"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-016-016-51da630f",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 12:16, what did Jesus ask them to identify on the object?",
+      "answer": "Whose image and inscription is this?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-016-016-51da630f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-016-016-3da98f55",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 12:16, what did they do after Jesus asked for the coin?",
+      "answer": "So they brought it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-016-016-3da98f55"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-016-016-1f99ecfa",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 12:16, whose name did they give as the answer?",
+      "answer": "Caesar’s",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-016-016-1f99ecfa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-017-017-340da110",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 12:17, how did the people react after Jesus answered them?",
+      "answer": "And they marveled at Him",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-017-017-340da110"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-017-017-88e5c3e0",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 12:17, what did Jesus tell them to render to Caesar?",
+      "answer": "the things that are Caesar’s",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-017-017-88e5c3e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-017-017-deced8b5",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 12:17, what did Jesus tell them to render to God?",
+      "answer": "the things that are God’s",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-017-017-deced8b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-018-018-baf43d45",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 12:18, what do the Sadducees say regarding the resurrection?",
+      "answer": "there is no resurrection",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-018-018-baf43d45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-018-018-e6425963",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 12:18, who came to Jesus?",
+      "answer": "some Sadducees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-018-018-e6425963"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-019-019-91e92ef2",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 12:19, what is the condition regarding the deceased man's wife that requires the brother to take her?",
+      "answer": "if a man’s brother dies, and leaves his wife behind, and leaves no children",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-019-019-91e92ef2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-019-019-b568543e",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 12:19, what should a brother do if a man's brother dies leaving a wife but no children? (be specific)",
+      "answer": "his brother should take his wife and raise up offspring for his brother",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-019-019-b568543e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-019-019-43508910",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 12:19, who wrote to us about a man's brother dying and leaving a wife behind?",
+      "answer": "Moses",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-019-019-43508910"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-020-020-0154b352",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 12:20, how many brothers were there in the story told to Jesus?",
+      "answer": "seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-020-020-0154b352"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-020-020-59349d15",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 12:20, what happened to the first brother after he took a wife?",
+      "answer": "dying, he left no offspring",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-020-020-59349d15"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-021-021-2b7c334e",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 12:21, did the second brother leave any offspring?",
+      "answer": "nor did he leave any offspring",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-021-021-2b7c334e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-021-021-e9e56792",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 12:21, what happened to the second brother after he took her?",
+      "answer": "he died",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-021-021-e9e56792"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-021-021-8b86c05d",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 12:21, what happened to the third brother?",
+      "answer": "the third likewise",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-021-021-8b86c05d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-022-022-b2aaa624",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 12:22, how many of the seven brothers had her as a wife?",
+      "answer": "the seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-022-022-b2aaa624"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-022-022-60822143",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 12:22, what happened to the seven brothers regarding offspring?",
+      "answer": "left no offspring",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-022-022-60822143"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-022-022-5ba4852f",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 12:22, what happened to the woman last of all?",
+      "answer": "the woman died also",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-022-022-5ba4852f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-023-023-655e7c81",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 12:23, what question is asked regarding the woman in the resurrection?",
+      "answer": "whose wife will she be?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-023-023-655e7c81"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-023-023-fb016c96",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 12:23, why did they ask whose wife she would be in the resurrection?",
+      "answer": "For all seven had her as wife",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-012-023-023-fb016c96"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-024-024-bbecb0fc",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 12:24, name the two things Jesus said they did not know (be specific).",
+      "answer": "the Scriptures and the power of God",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-024-024-bbecb0fc"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-024-024-b916bad2",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 12:24, who answered and said to them?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-024-024-b916bad2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-024-024-a7a0a8b9",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 12:24, why did Jesus say they were mistaken?",
+      "answer": "because you do not know the Scriptures nor the power of God",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-012-024-024-a7a0a8b9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-025-025-d3eb4f5a",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 12:25, to whom will people be like when they rise from the dead?",
+      "answer": "angels in heaven",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-025-025-d3eb4f5a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-025-025-a7df1007",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 12:25, what will happen when they rise from the dead regarding marriage?",
+      "answer": "they neither marry nor are given in marriage",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-025-025-a7df1007"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-025-025-9765b083",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 12:25, when does the state of neither marrying nor being given in marriage occur?",
+      "answer": "when they rise from the dead",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-012-025-025-9765b083"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-026-026-b75870db",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 12:26, in what specific passage did God speak to Moses regarding the dead?",
+      "answer": "the burning bush passage",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-026-026-b75870db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-026-026-1fef61e8",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 12:26, in which book did Jesus ask if they had read about the dead rising?",
+      "answer": "the book of Moses",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-026-026-1fef61e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-026-026-07086966",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 12:26, list the three names God called Himself when He spoke to Moses. (be specific)",
+      "answer": "Abraham, Isaac, and Jacob",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-012-026-026-07086966"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-026-026-7f89ee7c",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 12:26, what have the people not read concerning the dead?",
+      "answer": "that they rise",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-026-026-7f89ee7c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-027-027-aecc3b0d",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 12:27, of whom is God not the God?",
+      "answer": "the dead",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-027-027-aecc3b0d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-027-027-e645947d",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 12:27, of whom is God the God?",
+      "answer": "the living",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-027-027-e645947d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-027-027-28a78cbe",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 12:27, what conclusion does Jesus make about the people He is speaking to? (be specific)",
+      "answer": "You are therefore greatly mistaken",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-012-027-027-28a78cbe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-028-028-75cbe612",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 12:28, what did the scribe perceive about Jesus's previous answers?",
+      "answer": "that He had answered them well",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-012-028-028-75cbe612"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-028-028-a032e970",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 12:28, what had the scribe heard before asking his question?",
+      "answer": "them reasoning together",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-028-028-a032e970"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-028-028-2e6fda75",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 12:28, what specific question did the scribe ask Jesus?",
+      "answer": "Which is the first commandment of all?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-028-028-2e6fda75"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-028-028-471a0577",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 12:28, who came to Jesus after hearing the reasoning?",
+      "answer": "one of the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-028-028-471a0577"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-029-029-de112eae",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 12:29, how did Jesus begin his answer to the scribe?",
+      "answer": "The first of all the commandments is: ‘Hear, O Israel, the LORD our God, the LORD is one.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-029-029-de112eae"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-029-029-3c985310",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 12:29, who is the LORD our God?",
+      "answer": "the LORD is one",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-012-029-029-3c985310"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-030-030-a772f4f3",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 12:30, list the 4 things with which you shall love the LORD your God. (be specific)",
+      "answer": "all your heart, all your soul, all your mind, and all your strength",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-012-030-030-a772f4f3"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-030-030-a61cef24",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 12:30, what does Jesus identify as the first commandment?",
+      "answer": "you shall love the LORD your God with all your heart, with all your soul, with all your mind, and with all your strength",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-030-030-a61cef24"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-031-031-392943ef",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 12:31, what is the second commandment compared to the first?",
+      "answer": "like it",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-012-031-031-392943ef"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-031-031-245f11b1",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 12:31, what is the second commandment?",
+      "answer": "You shall love your neighbor as yourself.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-031-031-245f11b1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-031-031-da690096",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 12:31, what statement does Jesus make regarding any other commandments greater than these two?",
+      "answer": "There is no other commandment greater than these.",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-012-031-031-da690096"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-032-032-7296b64c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 12:32, how did the scribe address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-032-032-7296b64c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-032-032-fc3512d4",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 12:32, how many Gods are there?",
+      "answer": "one",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-032-032-fc3512d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-032-032-9a559cbb",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 12:32, is there any other God but He?",
+      "answer": "no",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-012-032-032-9a559cbb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-032-032-601d7bbb",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 12:32, what did the scribe say Jesus had spoken?",
+      "answer": "the truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-032-032-601d7bbb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-033-033-9a250eab",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 12:33, besides loving God, who else are we to love as ourselves?",
+      "answer": "one’s neighbor",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-033-033-9a250eab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-033-033-36c36ad8",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 12:33, list the 4 things with which a person is to love God. (be specific)",
+      "answer": "heart, understanding, soul, strength",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-012-033-033-36c36ad8"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-033-033-4a1474e5",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 12:33, loving God and one's neighbor is more than what 2 things? (be specific)",
+      "answer": "all the whole burnt offerings and sacrifices",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-033-033-4a1474e5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-034-034-62619a3a",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 12:34, what did Jesus see that the scribe had done?",
+      "answer": "answered wisely",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-034-034-62619a3a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-034-034-c0fffd92",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 12:34, what did Jesus tell the scribe he was not far from?",
+      "answer": "the kingdom of God",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-034-034-c0fffd92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-034-034-051c781c",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 12:34, what happened after Jesus spoke to the scribe?",
+      "answer": "no one dared question Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-034-034-051c781c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-035-035-ea641df1",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 12:35, what specific title for the Christ did Jesus ask the scribes about? (be specific)",
+      "answer": "the Son of David",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-035-035-ea641df1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-035-035-13f1e208",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 12:35, where was Jesus when He taught and asked how the scribes say the Christ is the Son of David?",
+      "answer": "in the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-035-035-13f1e208"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-035-035-06ac7a6c",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 12:35, whom did Jesus question regarding the scribes' assertion that the Christ is the Son of David?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-035-035-06ac7a6c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-036-036-18a8d8ec",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 12:36, by whom did David speak his words?",
+      "answer": "the Holy Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-036-036-18a8d8ec"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-036-036-9d43c104",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 12:36, what did the LORD tell the speaker's Lord to do? (be specific)",
+      "answer": "Sit at My right hand, Till I make Your enemies Your footstool",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-012-036-036-9d43c104"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-036-036-b2038bab",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 12:36, what will the LORD make of the enemies of the speaker's Lord?",
+      "answer": "Your footstool",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-036-036-b2038bab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-037-037-6a4111bf",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 12:37, how did the common people hear Jesus?",
+      "answer": "gladly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-037-037-6a4111bf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-037-037-487ea51a",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 12:37, what group of people heard Jesus gladly?",
+      "answer": "the common people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-037-037-487ea51a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-037-037-9382f9b1",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 12:37, what title does David himself call the Christ?",
+      "answer": "Lord",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-037-037-9382f9b1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-038-038-07ef9a78",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 12:38, what do the scribes desire to go around in?",
+      "answer": "long robes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-038-038-07ef9a78"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-038-038-1f51f7b4",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 12:38, what do the scribes love in the marketplaces?",
+      "answer": "greetings",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-038-038-1f51f7b4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-038-038-94e56740",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 12:38, who did Jesus tell the people to beware of?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-038-038-94e56740"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-039-039-54c5683e",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 12:39, name 2 of the 2 locations where the scribes desire to have the best spots.",
+      "answer": "the best seats in the synagogues, and the best places at feasts",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-012-039-039-54c5683e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-039-039-308ea222",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 12:39, what do the scribes love to have at feasts? (be specific)",
+      "answer": "the best places",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-039-039-308ea222"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-039-039-225b2326",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 12:39, what do the scribes love to have in the synagogues? (be specific)",
+      "answer": "the best seats",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-039-039-225b2326"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-040-040-f3230d3c",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 12:40, what do the scribes devour?",
+      "answer": "widows’ houses",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-040-040-f3230d3c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-040-040-f0080a53",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 12:40, what will the scribes receive as a result of their actions?",
+      "answer": "greater condemnation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-040-040-f0080a53"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-040-040-d5260d32",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 12:40, why do the scribes make long prayers?",
+      "answer": "for a pretense",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-012-040-040-d5260d32"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-041-041-a78dd2b5",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 12:41, how did many who were rich contribute to the treasury? (be specific)",
+      "answer": "put in much",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-012-041-041-a78dd2b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-041-041-ef630717",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 12:41, what did Jesus observe people putting into the treasury?",
+      "answer": "money",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-041-041-ef630717"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-041-041-998fafaa",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 12:41, where did Jesus sit?",
+      "answer": "opposite the treasury",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-012-041-041-998fafaa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-041-041-7fc9a144",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 12:41, who sat opposite the treasury?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-041-041-7fc9a144"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-042-042-f05ca71f",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 12:42, how many mites did the poor widow throw in?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-042-042-f05ca71f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-042-042-d2609d3c",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 12:42, what is the equivalent of two mites?",
+      "answer": "a quadrans",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-042-042-d2609d3c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-042-042-5cc12c98",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 12:42, who came and threw money into the treasury?",
+      "answer": "one poor widow",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-042-042-5cc12c98"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-043-043-101a5984",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 12:43, what did Jesus say this poor widow had done in comparison to all those who gave to the treasury? (be specific)",
+      "answer": "put in more than all those who have given to the treasury",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-012-043-043-101a5984"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-043-043-7131a98c",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 12:43, whom did Jesus call to Himself?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-012-043-043-7131a98c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-044-044-a08ae752",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 12:44, how much did the poor widow put into the treasury?",
+      "answer": "all that she had",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-012-044-044-a08ae752"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-044-044-91af2ab9",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 12:44, out of what did those who were rich put into the treasury?",
+      "answer": "out of their abundance",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-044-044-91af2ab9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-012-044-044-e5806728",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 12:44, what is the widow's contribution described as in relation to her livelihood? (be specific)",
+      "answer": "her whole livelihood",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-012-044-044-e5806728"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-012-001-001-5fd656e8",
+      "41-012-001-001-756e269e",
+      "41-012-001-001-ac2cb942",
+      "41-012-001-001-45746371",
+      "41-012-001-001-19a9fb9c"
+    ],
+    "2": [
+      "41-012-002-002-199135aa",
+      "41-012-002-002-ed8d5d8a"
+    ],
+    "3": [
+      "41-012-003-003-7388c599"
+    ],
+    "4": [
+      "41-012-004-004-0bce959e"
+    ],
+    "5": [
+      "41-012-005-005-7e9328dc",
+      "41-012-005-005-dbdb93ac"
+    ],
+    "6": [
+      "41-012-006-006-b867bce1",
+      "41-012-006-006-e73b9034",
+      "41-012-006-006-52aa5b8d",
+      "41-012-006-006-1e145b2b"
+    ],
+    "7": [
+      "41-012-007-007-76987e01",
+      "41-012-007-007-ad8ae18b",
+      "41-012-007-007-b502aceb"
+    ],
+    "8": [
+      "41-012-008-008-5d230931",
+      "41-012-008-008-682cabdc"
+    ],
+    "9": [
+      "41-012-009-009-475edd86",
+      "41-012-009-009-f8b70668",
+      "41-012-009-009-e5303e36",
+      "41-012-009-009-59ce0baf"
+    ],
+    "10": [
+      "41-012-010-010-ace65ea5",
+      "41-012-010-010-244ffc39",
+      "41-012-010-010-ed59b77a",
+      "41-012-010-010-d8468a0a"
+    ],
+    "11": [
+      "41-012-011-011-bc43e960",
+      "41-012-011-011-af04389f"
+    ],
+    "12": [
+      "41-012-012-012-b0c87122",
+      "41-012-012-012-81a1b9fe",
+      "41-012-012-012-65be3f83",
+      "41-012-012-012-8df4a9e0"
+    ],
+    "13": [
+      "41-012-013-013-ea13b723",
+      "41-012-013-013-02af7bdd"
+    ],
+    "14": [
+      "41-012-014-014-ccaaa1db",
+      "41-012-014-014-ea38082a",
+      "41-012-014-014-f2d08529",
+      "41-012-014-014-d4d6fd30"
+    ],
+    "15": [
+      "41-012-015-015-2d3c9c26",
+      "41-012-015-015-945a8134",
+      "41-012-015-015-3a66f20b",
+      "41-012-015-015-bd2c5c06"
+    ],
+    "16": [
+      "41-012-016-016-51da630f",
+      "41-012-016-016-3da98f55",
+      "41-012-016-016-1f99ecfa"
+    ],
+    "17": [
+      "41-012-017-017-340da110",
+      "41-012-017-017-88e5c3e0",
+      "41-012-017-017-deced8b5"
+    ],
+    "18": [
+      "41-012-018-018-baf43d45",
+      "41-012-018-018-e6425963"
+    ],
+    "19": [
+      "41-012-019-019-91e92ef2",
+      "41-012-019-019-b568543e",
+      "41-012-019-019-43508910"
+    ],
+    "20": [
+      "41-012-020-020-0154b352",
+      "41-012-020-020-59349d15"
+    ],
+    "21": [
+      "41-012-021-021-2b7c334e",
+      "41-012-021-021-e9e56792",
+      "41-012-021-021-8b86c05d"
+    ],
+    "22": [
+      "41-012-022-022-b2aaa624",
+      "41-012-022-022-60822143",
+      "41-012-022-022-5ba4852f"
+    ],
+    "23": [
+      "41-012-023-023-655e7c81",
+      "41-012-023-023-fb016c96"
+    ],
+    "24": [
+      "41-012-024-024-bbecb0fc",
+      "41-012-024-024-b916bad2",
+      "41-012-024-024-a7a0a8b9"
+    ],
+    "25": [
+      "41-012-025-025-d3eb4f5a",
+      "41-012-025-025-a7df1007",
+      "41-012-025-025-9765b083"
+    ],
+    "26": [
+      "41-012-026-026-b75870db",
+      "41-012-026-026-1fef61e8",
+      "41-012-026-026-07086966",
+      "41-012-026-026-7f89ee7c"
+    ],
+    "27": [
+      "41-012-027-027-aecc3b0d",
+      "41-012-027-027-e645947d",
+      "41-012-027-027-28a78cbe"
+    ],
+    "28": [
+      "41-012-028-028-75cbe612",
+      "41-012-028-028-a032e970",
+      "41-012-028-028-2e6fda75",
+      "41-012-028-028-471a0577"
+    ],
+    "29": [
+      "41-012-029-029-de112eae",
+      "41-012-029-029-3c985310"
+    ],
+    "30": [
+      "41-012-030-030-a772f4f3",
+      "41-012-030-030-a61cef24"
+    ],
+    "31": [
+      "41-012-031-031-392943ef",
+      "41-012-031-031-245f11b1",
+      "41-012-031-031-da690096"
+    ],
+    "32": [
+      "41-012-032-032-7296b64c",
+      "41-012-032-032-fc3512d4",
+      "41-012-032-032-9a559cbb",
+      "41-012-032-032-601d7bbb"
+    ],
+    "33": [
+      "41-012-033-033-9a250eab",
+      "41-012-033-033-36c36ad8",
+      "41-012-033-033-4a1474e5"
+    ],
+    "34": [
+      "41-012-034-034-62619a3a",
+      "41-012-034-034-c0fffd92",
+      "41-012-034-034-051c781c"
+    ],
+    "35": [
+      "41-012-035-035-ea641df1",
+      "41-012-035-035-13f1e208",
+      "41-012-035-035-06ac7a6c"
+    ],
+    "36": [
+      "41-012-036-036-18a8d8ec",
+      "41-012-036-036-9d43c104",
+      "41-012-036-036-b2038bab"
+    ],
+    "37": [
+      "41-012-037-037-6a4111bf",
+      "41-012-037-037-487ea51a",
+      "41-012-037-037-9382f9b1"
+    ],
+    "38": [
+      "41-012-038-038-07ef9a78",
+      "41-012-038-038-1f51f7b4",
+      "41-012-038-038-94e56740"
+    ],
+    "39": [
+      "41-012-039-039-54c5683e",
+      "41-012-039-039-308ea222",
+      "41-012-039-039-225b2326"
+    ],
+    "40": [
+      "41-012-040-040-f3230d3c",
+      "41-012-040-040-f0080a53",
+      "41-012-040-040-d5260d32"
+    ],
+    "41": [
+      "41-012-041-041-a78dd2b5",
+      "41-012-041-041-ef630717",
+      "41-012-041-041-998fafaa",
+      "41-012-041-041-7fc9a144"
+    ],
+    "42": [
+      "41-012-042-042-f05ca71f",
+      "41-012-042-042-d2609d3c",
+      "41-012-042-042-5cc12c98"
+    ],
+    "43": [
+      "41-012-043-043-101a5984",
+      "41-012-043-043-7131a98c"
+    ],
+    "44": [
+      "41-012-044-044-a08ae752",
+      "41-012-044-044-91af2ab9",
+      "41-012-044-044-e5806728"
+    ]
+  }
+}

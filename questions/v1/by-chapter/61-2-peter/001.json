@@ -1,0 +1,1259 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "61-2-peter",
+  "book": "2 Peter",
+  "chapter": 1,
+  "questions": [
+    {
+      "id": "61-001-001-001-b49ccefa",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 1:1, by what means have the recipients obtained like precious faith?",
+      "answer": "by the righteousness of our God and Savior Jesus Christ",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-001-001-001-b49ccefa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-001-001-bc4b451d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 1:1, how is the faith that the recipients have obtained described?",
+      "answer": "like precious",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "61-001-001-001-bc4b451d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-001-001-61a2fa42",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 1:1, list the 2 titles Simon Peter uses for himself (be specific).",
+      "answer": "bondservant and apostle",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-001-001-61a2fa42"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-001-001-629fea10",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 1:1, to whom is the letter addressed?",
+      "answer": "those who have obtained like precious faith with us",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-001-001-629fea10"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-001-001-b364b651",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 1:1, who describes himself as a bondservant and apostle of Jesus Christ?",
+      "answer": "Simon Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-001-001-b364b651"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-002-002-5b8dd8a4",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 1:2, in what must grace and peace be multiplied?",
+      "answer": "in the knowledge of God and of Jesus our Lord",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-002-002-5b8dd8a4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-002-002-e8265e29",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 1:2, what two things does the author wish to be multiplied to the recipients?",
+      "answer": "Grace and peace",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-002-002-e8265e29"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-002-002-20754227",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 1:2, whose knowledge is mentioned as the context for grace and peace to be multiplied (be specific)?",
+      "answer": "God and of Jesus our Lord",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "61-001-002-002-20754227"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-003-003-fa499b92",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 1:3, by what did He call us? (be specific)",
+      "answer": "glory and virtue",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-003-003-fa499b92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-003-003-766d543c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 1:3, through what are all things that pertain to life and godliness given to us?",
+      "answer": "the knowledge of Him who called us by glory and virtue",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-001-003-003-766d543c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-003-003-148bfc48",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 1:3, what does His divine power pertain to?",
+      "answer": "life and godliness",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-003-003-148bfc48"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-003-003-41d7844a",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 1:3, what has given to us all things that pertain to life and godliness?",
+      "answer": "His divine power",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-003-003-41d7844a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-004-004-d9f03224",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 1:4, through what is the corruption in the world?",
+      "answer": "lust",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-004-004-d9f03224"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-004-004-fdfa0a4c",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 1:4, what have been given to us?",
+      "answer": "exceedingly great and precious promises",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-004-004-fdfa0a4c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-004-004-2273578f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 1:4, what is the purpose of the exceedingly great and precious promises? (be specific)",
+      "answer": "that through these you may be partakers of the divine nature",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "61-001-004-004-2273578f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-004-004-c7410607",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 1:4, what must we have escaped?",
+      "answer": "the corruption that is in the world through lust",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-004-004-c7410607"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-004-004-a9964e81",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to 2 Peter 1:4, the promises given to us are exceedingly great and precious.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-001-004-004-a9964e81"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-005-005-1e6fe86a",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 1:5, name the two things that are to be added to our faith (be specific).",
+      "answer": "virtue, knowledge",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-005-005-1e6fe86a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-005-005-0f6dae0e",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 1:5, what are we to give in addition to faith?",
+      "answer": "diligence",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-005-005-0f6dae0e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-005-005-6998703b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 1:5, what must be added to faith?",
+      "answer": "virtue",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-005-005-6998703b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-005-005-aa423c08",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 1:5, what must be added to virtue?",
+      "answer": "knowledge",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-005-005-aa423c08"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-006-006-f09d8da8",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 1:6, list 3 items that are to be added in sequence (be specific).",
+      "answer": "self-control, perseverance, godliness",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "61-001-006-006-f09d8da8"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-006-006-0e344ba9",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 1:6, what must be added to knowledge?",
+      "answer": "self-control",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-006-006-0e344ba9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-006-006-4fcfe010",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 1:6, what must be added to perseverance?",
+      "answer": "godliness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-006-006-4fcfe010"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-006-006-164644ce",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 1:6, what must be added to self-control?",
+      "answer": "perseverance",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-006-006-164644ce"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-007-007-0c2f0c21",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 1:7, list the final two qualities to be added to the sequence.",
+      "answer": "brotherly kindness, love",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-007-007-0c2f0c21"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-007-007-2be074e2",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 1:7, what is to be added to brotherly kindness?",
+      "answer": "love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-007-007-2be074e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-007-007-dfcbcb46",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 1:7, what must be added to godliness?",
+      "answer": "brotherly kindness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-007-007-dfcbcb46"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-007-007-08e175ab",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "True or False: According to 2 Peter 1:7, love is to be added to brotherly kindness.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-001-007-007-08e175ab"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-008-008-50b4e50d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 1:8, if these things are yours and abound, you will be neither what nor what? (be specific)",
+      "answer": "barren nor unfruitful",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-008-008-50b4e50d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-008-008-6cec8249",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 1:8, in the knowledge of whom will you not be barren or unfruitful?",
+      "answer": "our Lord Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-008-008-6cec8249"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-008-008-a4c7e96e",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 1:8, what must be yours and abound for you to be neither barren nor unfruitful?",
+      "answer": "these things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-008-008-a4c7e96e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-009-009-a02044a6",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 1:9, he who lacks these things is shortsighted, even to what?",
+      "answer": "blindness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-009-009-a02044a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-009-009-910b51ba",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 1:9, what has the person who lacks these things forgotten?",
+      "answer": "that he was cleansed from his old sins",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-009-009-910b51ba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-009-009-594c63ad",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 1:9, what is he who lacks these things?",
+      "answer": "shortsighted",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-009-009-594c63ad"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-010-010-ee6e9a1d",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 1:10, what should brethren be even more diligent to do? (be specific)",
+      "answer": "make your call and election sure",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-010-010-ee6e9a1d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-010-010-350fa1d9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 1:10, what will happen if you do these things?",
+      "answer": "you will never stumble",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-010-010-350fa1d9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-010-010-143fbe12",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 1:10, whom does the author address as 'brethren'?",
+      "answer": "brethren",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-010-010-143fbe12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-011-011-6c9d684a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 1:11, into what will the entrance be supplied?",
+      "answer": "the everlasting kingdom of our Lord and Savior Jesus Christ",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-001-011-011-6c9d684a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-011-011-60d3b062",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 1:11, what are the two titles given to Jesus Christ?",
+      "answer": "Lord and Savior",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-011-011-60d3b062"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-011-011-dc0fe3cc",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 1:11, what will be supplied to you abundantly?",
+      "answer": "an entrance",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-011-011-dc0fe3cc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-011-011-5da3a193",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "True or False: According to 2 Peter 1:11, an entrance will be supplied to you abundantly into the everlasting kingdom.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-001-011-011-5da3a193"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-012-012-85fadaf0",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 1:12, for what reason will the author not be negligent to remind the readers of these things?",
+      "answer": "For this reason",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "61-001-012-012-85fadaf0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-012-012-aba4c14f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 1:12, what does the author state he will not be negligent to do?",
+      "answer": "remind you always of these things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-012-012-aba4c14f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-012-012-990677d3",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 1:12, what is the state of the readers regarding the present truth?",
+      "answer": "you know and are established in the present truth",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-012-012-990677d3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-013-013-a47f6195",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 1:13, what does the author think is right?",
+      "answer": "as long as I am in this tent, to stir you up by reminding you",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-013-013-a47f6195"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-013-013-25ab492c",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 1:13, what method does the author intend to use to stir the readers up?",
+      "answer": "by reminding you",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-001-013-013-25ab492c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-014-014-78f8dbf4",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 1:14, what is the author knowing regarding his tent?",
+      "answer": "shortly I must put off my tent",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-014-014-78f8dbf4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-014-014-382f9db3",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 1:14, who showed the author that he must shortly put off his tent?",
+      "answer": "our Lord Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-014-014-382f9db3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-015-015-5d6d9d9c",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 1:15, after what event will the author ensure the readers have a reminder?",
+      "answer": "my decease",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-001-015-015-5d6d9d9c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-015-015-ac6e14df",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 1:15, what will the author be careful to ensure?",
+      "answer": "that you always have a reminder of these things after my decease",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-015-015-ac6e14df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-016-016-f71d19bc",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 1:16, what did the authors not follow when they made known the power and coming of our Lord Jesus Christ?",
+      "answer": "cunningly devised fables",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-016-016-f71d19bc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-016-016-f7ab4bef",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 1:16, what two things regarding our Lord Jesus Christ did the authors make known?",
+      "answer": "the power and coming",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-016-016-f7ab4bef"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-016-016-de1dbb00",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 1:16, what were the authors instead of following fables? (be specific)",
+      "answer": "eyewitnesses of His majesty",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-016-016-de1dbb00"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-017-017-6ea32e22",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 1:17, from where did the voice come to Jesus?",
+      "answer": "the Excellent Glory",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-001-017-017-6ea32e22"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-017-017-44903c5e",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 1:17, from whom did our Lord Jesus Christ receive honor and glory?",
+      "answer": "God the Father",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-017-017-44903c5e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-017-017-081cb914",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 1:17, what two things did Jesus receive from God the Father?",
+      "answer": "honor and glory",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-001-017-017-081cb914"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-017-017-88a8c780",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 1:17, what was the exact quote spoken by the voice from the Excellent Glory? (be specific)",
+      "answer": "This is My beloved Son, in whom I am well pleased.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-017-017-88a8c780"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-018-018-d613556d",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 1:18, where did the voice that the authors heard come from?",
+      "answer": "heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-001-018-018-d613556d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-018-018-718c4184",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 1:18, where were the authors when they heard the voice from heaven?",
+      "answer": "on the holy mountain",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-001-018-018-718c4184"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-018-018-295dbc7f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "True or False: According to 2 Peter 1:18, the authors were with Him when they heard the voice from heaven.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-001-018-018-295dbc7f"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-019-019-b86deaf1",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 1:19, like what should we heed the prophetic word until the day dawns?",
+      "answer": "a light that shines in a dark place",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-019-019-b86deaf1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-019-019-80e4fe5f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 1:19, until when should we heed the prophetic word?",
+      "answer": "until the day dawns and the morning star rises in your hearts",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "61-001-019-019-80e4fe5f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-019-019-8d9f7176",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 1:19, what do we have that is confirmed?",
+      "answer": "the prophetic word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-019-019-8d9f7176"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-019-019-0cedf261",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 1:19, what do you do well to heed as a light that shines in a dark place? (be specific)",
+      "answer": "the prophetic word",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-019-019-0cedf261"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-020-020-b9f83649",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 1:20, of what is there no private interpretation?",
+      "answer": "no prophecy of Scripture",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-001-020-020-b9f83649"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-020-020-241dc448",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 1:20, what is the first thing we should know?",
+      "answer": "that no prophecy of Scripture is of any private interpretation",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-001-020-020-241dc448"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-021-021-e424e7fc",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 1:21, by whom were the holy men of God moved?",
+      "answer": "the Holy Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-021-021-e424e7fc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-021-021-459fa1a4",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 1:21, by whose will did prophecy never come?",
+      "answer": "the will of man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-021-021-459fa1a4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-021-021-aadebfc2",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 1:21, for what reason is prophecy not of private interpretation?",
+      "answer": "for prophecy never came by the will of man, but holy men of God spoke as they were moved by the Holy Spirit",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "61-001-021-021-aadebfc2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-001-021-021-53ae0955",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 1:21, who spoke as they were moved by the Holy Spirit?",
+      "answer": "holy men of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-001-021-021-53ae0955"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "61-001-001-001-b49ccefa",
+      "61-001-001-001-bc4b451d",
+      "61-001-001-001-61a2fa42",
+      "61-001-001-001-629fea10",
+      "61-001-001-001-b364b651"
+    ],
+    "2": [
+      "61-001-002-002-5b8dd8a4",
+      "61-001-002-002-e8265e29",
+      "61-001-002-002-20754227"
+    ],
+    "3": [
+      "61-001-003-003-fa499b92",
+      "61-001-003-003-766d543c",
+      "61-001-003-003-148bfc48",
+      "61-001-003-003-41d7844a"
+    ],
+    "4": [
+      "61-001-004-004-d9f03224",
+      "61-001-004-004-fdfa0a4c",
+      "61-001-004-004-2273578f",
+      "61-001-004-004-c7410607",
+      "61-001-004-004-a9964e81"
+    ],
+    "5": [
+      "61-001-005-005-1e6fe86a",
+      "61-001-005-005-0f6dae0e",
+      "61-001-005-005-6998703b",
+      "61-001-005-005-aa423c08"
+    ],
+    "6": [
+      "61-001-006-006-f09d8da8",
+      "61-001-006-006-0e344ba9",
+      "61-001-006-006-4fcfe010",
+      "61-001-006-006-164644ce"
+    ],
+    "7": [
+      "61-001-007-007-0c2f0c21",
+      "61-001-007-007-2be074e2",
+      "61-001-007-007-dfcbcb46",
+      "61-001-007-007-08e175ab"
+    ],
+    "8": [
+      "61-001-008-008-50b4e50d",
+      "61-001-008-008-6cec8249",
+      "61-001-008-008-a4c7e96e"
+    ],
+    "9": [
+      "61-001-009-009-a02044a6",
+      "61-001-009-009-910b51ba",
+      "61-001-009-009-594c63ad"
+    ],
+    "10": [
+      "61-001-010-010-ee6e9a1d",
+      "61-001-010-010-350fa1d9",
+      "61-001-010-010-143fbe12"
+    ],
+    "11": [
+      "61-001-011-011-6c9d684a",
+      "61-001-011-011-60d3b062",
+      "61-001-011-011-dc0fe3cc",
+      "61-001-011-011-5da3a193"
+    ],
+    "12": [
+      "61-001-012-012-85fadaf0",
+      "61-001-012-012-aba4c14f",
+      "61-001-012-012-990677d3"
+    ],
+    "13": [
+      "61-001-013-013-a47f6195",
+      "61-001-013-013-25ab492c"
+    ],
+    "14": [
+      "61-001-014-014-78f8dbf4",
+      "61-001-014-014-382f9db3"
+    ],
+    "15": [
+      "61-001-015-015-5d6d9d9c",
+      "61-001-015-015-ac6e14df"
+    ],
+    "16": [
+      "61-001-016-016-f71d19bc",
+      "61-001-016-016-f7ab4bef",
+      "61-001-016-016-de1dbb00"
+    ],
+    "17": [
+      "61-001-017-017-6ea32e22",
+      "61-001-017-017-44903c5e",
+      "61-001-017-017-081cb914",
+      "61-001-017-017-88a8c780"
+    ],
+    "18": [
+      "61-001-018-018-d613556d",
+      "61-001-018-018-718c4184",
+      "61-001-018-018-295dbc7f"
+    ],
+    "19": [
+      "61-001-019-019-b86deaf1",
+      "61-001-019-019-80e4fe5f",
+      "61-001-019-019-8d9f7176",
+      "61-001-019-019-0cedf261"
+    ],
+    "20": [
+      "61-001-020-020-b9f83649",
+      "61-001-020-020-241dc448"
+    ],
+    "21": [
+      "61-001-021-021-e424e7fc",
+      "61-001-021-021-459fa1a4",
+      "61-001-021-021-aadebfc2",
+      "61-001-021-021-53ae0955"
+    ]
+  }
+}

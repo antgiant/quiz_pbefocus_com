@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PBE Quiz Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:opsz@9..40&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/print.css" media="print" />
+    <script src="questions/v1/local-data.bundle.js"></script>
+    <script src="assets/vendor/pptx-template.bundle.js"></script>
+    <script src="assets/vendor/jszip.min.js" defer></script>
+    <script src="assets/vendor/pptxgen.min.js" defer></script>
+    <script type="module" src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="background-layer" aria-hidden="true"></div>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">PBE Study Tools</p>
+        <h1>PBE Quiz Generator</h1>
+        <p class="subtitle">
+          Build printable quizzes, PowerPoint decks, and interactive web quizzes
+          from your chapter question bank.
+        </p>
+      </div>
+      <div class="header-badge">
+        <span id="questionBankStats">Loading question bank...</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel controls-panel">
+        <h2>Generator Setup</h2>
+        <div class="grid-2">
+          <label>
+            PBE year
+            <select id="yearSelect"></select>
+          </label>
+
+          <label>
+            Total question count
+            <input id="totalCountInput" type="number" min="1" value="25" />
+          </label>
+
+          <label>
+            Number per verse
+            <input id="perVerseInput" type="number" min="1" value="2" />
+          </label>
+
+          <label>
+            Difficulty
+            <select id="difficultySelect">
+              <option value="all">All (metadata not yet added)</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+
+          <label class="checkbox-row">
+            <input id="humanReviewedOnlyInput" type="checkbox" />
+            Human reviewed questions only
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Question types</legend>
+          <div id="typeCheckboxes" class="chips"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Year scope books and chapters</legend>
+          <div id="scopeSelector" class="scope-selector"></div>
+        </fieldset>
+      </section>
+
+      <section class="panel profile-panel">
+        <h2>People and Profiles</h2>
+        <div class="profile-actions">
+          <button id="newProfileBtn" type="button">New Person</button>
+          <button id="saveProfileBtn" type="button">Save Active Person</button>
+          <button id="deleteProfileBtn" type="button" class="danger">Delete Active</button>
+        </div>
+
+        <label>
+          Active person
+          <select id="activeProfileSelect"></select>
+        </label>
+
+        <label>
+          Person name
+          <input id="profileNameInput" type="text" placeholder="Enter name" />
+        </label>
+
+        <fieldset>
+          <legend>Include people in printable output</legend>
+          <div id="printPeopleSelector" class="chips"></div>
+        </fieldset>
+      </section>
+
+      <section class="panel output-panel">
+        <h2>Build Output</h2>
+        <div class="output-actions">
+          <button id="togglePreviewBtn" type="button">Show Preview</button>
+          <button id="printBtn" type="button">Open Print View</button>
+          <button id="pptBtn" type="button">Download PowerPoint</button>
+          <button id="startInteractiveBtn" type="button">Start Interactive Quiz</button>
+        </div>
+        <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel preview-panel" id="previewPanel" hidden>
+        <h2>Question Preview</h2>
+        <div id="previewMeta" class="preview-meta"></div>
+        <div id="previewList" class="preview-list"></div>
+      </section>
+
+      <section class="panel interactive-panel" id="interactivePanel" hidden>
+        <h2>Interactive Quiz</h2>
+        <div id="interactiveContainer"></div>
+      </section>
+    </main>
+
+    <div id="printRoot" class="print-root" aria-hidden="true"></div>
+
+    <template id="questionCardTemplate">
+      <article class="question-card">
+        <header>
+          <h3></h3>
+          <p class="meta"></p>
+        </header>
+        <p class="question"></p>
+        <details>
+          <summary>Show Answer</summary>
+          <p class="answer"></p>
+        </details>
+      </article>
+    </template>
+
+    <template id="printTemplate">
+      <section class="print-sheet">
+        <header class="print-header">
+          <h1>PBE Quiz</h1>
+          <p class="print-context">
+            <span class="print-meta"></span>
+            <span class="print-scope"></span>
+          </p>
+        </header>
+        <ol class="print-questions"></ol>
+      </section>
+      <section class="print-sheet answer-sheet">
+        <header class="print-header">
+          <h1>PBE Quiz Answer Key</h1>
+          <p class="print-context">
+            <span class="print-meta"></span>
+            <span class="print-scope"></span>
+          </p>
+        </header>
+        <ol class="print-answers"></ol>
+      </section>
+    </template>
+  </body>
+</html>

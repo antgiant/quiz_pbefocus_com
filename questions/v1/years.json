@@ -1,0 +1,10 @@
+{
+  "schema": "pbe.year.scope.v1",
+  "version": 1,
+  "years": [
+    {
+      "id": "2026-current",
+      "name": "2026-2027"
+    }
+  ]
+}

@@ -1,0 +1,1666 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "62-1-john",
+  "book": "1 John",
+  "chapter": 2,
+  "questions": [
+    {
+      "id": "62-002-001-001-48c9ce90",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 2:1, how does the author address the people he is writing to?",
+      "answer": "My little children",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-001-001-48c9ce90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-001-001-50779787",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 2:1, what do we have if anyone sins?",
+      "answer": "an Advocate with the Father, Jesus Christ the righteous",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-002-001-001-50779787"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-001-001-ee65acf9",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 2:1, who is the Advocate with the Father? (be specific)",
+      "answer": "Jesus Christ the righteous",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "62-002-001-001-ee65acf9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-001-001-56d81fda",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 2:1, why does the author write these things to them?",
+      "answer": "so that you may not sin",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-001-001-56d81fda"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-002-002-fef2fb50",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 2:2, besides our sins, for whose sins is He the propitiation?",
+      "answer": "the whole world",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-002-002-fef2fb50"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-002-002-0815d362",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 2:2, what is He Himself for our sins?",
+      "answer": "the propitiation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-002-002-0815d362"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-003-003-f45cd35a",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 2:3, by what action do we know that we know Him?",
+      "answer": "if we keep His commandments",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-003-003-f45cd35a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-003-003-c33ee1cc",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 2:3, what is the result of keeping His commandments?",
+      "answer": "we know that we know Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-003-003-c33ee1cc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-004-004-2f727b50",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 2:4, what does a person who says \"I know Him\" but does not keep His commandments become?",
+      "answer": "a liar",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-004-004-2f727b50"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-004-004-43d221c1",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 2:4, what is not in the person who claims to know Him but does not keep His commandments?",
+      "answer": "the truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-004-004-43d221c1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-004-004-06026c15",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 2:4, what two conditions define a person who is a liar? (be specific)",
+      "answer": "he says, \"I know Him,\" and does not keep His commandments",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-002-004-004-06026c15"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-005-005-8beb77e8",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 2:5, by what do we know that we are in Him?",
+      "answer": "by this",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-005-005-8beb77e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-005-005-3b102755",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 2:5, what is perfected in him who keeps His word?",
+      "answer": "the love of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-005-005-3b102755"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-005-005-8a86c6f5",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 2:5, what must one do to have the love of God perfected in him?",
+      "answer": "keeps His word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-005-005-8a86c6f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-006-006-6b3e510c",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 2:6, how should a person who claims to abide in Him behave in their daily walk? (be specific)",
+      "answer": "ought himself also to walk just as He walked",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-006-006-6b3e510c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-006-006-901f97d4",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 2:6, what ought he who says he abides in Him do?",
+      "answer": "walk just as He walked",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-006-006-901f97d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-007-007-5105c11b",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 2:7, how is the old commandment described? (be specific)",
+      "answer": "the word which you heard from the beginning",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "62-002-007-007-5105c11b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-007-007-def92606",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 2:7, what is the writer writing to them?",
+      "answer": "no new commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-007-007-def92606"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-007-007-b3f92336",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 2:7, what kind of commandment is it that they have had from the beginning?",
+      "answer": "an old commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-007-007-b3f92336"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-007-007-cf9dbaf7",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 2:7, whom is the writer addressing?",
+      "answer": "Brethren",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-007-007-cf9dbaf7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-008-008-3860a4d4",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 2:8, what does the writer say he writes to them again?",
+      "answer": "a new commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-008-008-3860a4d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-008-008-b3829907",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 2:8, what is already shining?",
+      "answer": "the true light",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-008-008-b3829907"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-008-008-b8f09fcb",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 2:8, what is happening to the darkness?",
+      "answer": "the darkness is passing away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-008-008-b8f09fcb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-008-008-0cbf67fb",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 2:8, where is the thing described as a new commandment true?",
+      "answer": "in Him and in you",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "62-002-008-008-0cbf67fb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-009-009-d43d8496",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 2:9, if a person says he is in the light but hates his brother, what state is he in until now?",
+      "answer": "in darkness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-009-009-d43d8496"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-009-009-ad463726",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 2:9, what action toward one's brother contradicts the claim of being in the light? (be specific)",
+      "answer": "hates his brother",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-002-009-009-ad463726"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-009-009-81895979",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 2:9, what does a person say they are in, yet they hate their brother?",
+      "answer": "the light",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-009-009-81895979"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-010-010-8b48244f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 2:10, what happens to the person who loves his brother?",
+      "answer": "abides in the light",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-010-010-8b48244f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-010-010-2ca6dc45",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 2:10, what is absent in the person who loves his brother?",
+      "answer": "there is no cause for stumbling",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-010-010-2ca6dc45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-011-011-9c067a38",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 2:11, what does the person who hates his brother not know?",
+      "answer": "where he is going",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-011-011-9c067a38"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-011-011-cb208719",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 2:11, what is the condition of the person who hates his brother?",
+      "answer": "is in darkness and walks in darkness",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-002-011-011-cb208719"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-011-011-da718c6f",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 2:11, why does the one who hates his brother not know where he is going?",
+      "answer": "because the darkness has blinded his eyes",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-011-011-da718c6f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-012-012-f97d24bd",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 2:12, to whom does the writer address the statement regarding the forgiveness of sins?",
+      "answer": "little children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-012-012-f97d24bd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-012-012-2f4a0320",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 2:12, why are the sins of the little children forgiven? (be specific)",
+      "answer": "for His name’s sake",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-012-012-2f4a0320"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-013-013-422328be",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 2:13, list the 3 groups of people addressed in this verse.",
+      "answer": "fathers, young men, little children",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "62-002-013-013-422328be"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-013-013-a3cba8fd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 2:13, to whom is the first message written concerning the One who is from the beginning?",
+      "answer": "fathers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-013-013-a3cba8fd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-013-013-ff42fa92",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 2:13, what is the reason given for writing to the fathers?",
+      "answer": "Because you have known Him who is from the beginning",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-013-013-ff42fa92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-013-013-ed759f8b",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 2:13, why is the message written to the young men? (be specific)",
+      "answer": "Because you have overcome the wicked one",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-013-013-ed759f8b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-013-013-afcf1958",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 2:13, why is the second message written to the little children?",
+      "answer": "Because you have known the Father",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-013-013-afcf1958"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-014-014-3deac406",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 2:14, list 2 characteristics attributed to the young men.",
+      "answer": "you are strong, the word of God abides in you",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-002-014-014-3deac406"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-014-014-f8d15ed4",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 2:14, what have the fathers known?",
+      "answer": "Him who is from the beginning",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-014-014-f8d15ed4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-014-014-e4b5a1a4",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 2:14, what have the young men accomplished? (be specific)",
+      "answer": "you have overcome the wicked one",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-014-014-e4b5a1a4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-014-014-aad942a0",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "True or False: According to 1 John 2:14, the word of God abides in the young men.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-002-014-014-aad942a0"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-015-015-069e4b58",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 2:15, if anyone loves the world, what is not in him? (be specific)",
+      "answer": "the love of the Father",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-015-015-069e4b58"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-015-015-3eb8494d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 2:15, what two things are we told not to love?",
+      "answer": "the world or the things in the world",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-002-015-015-3eb8494d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-016-016-53b18c0b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 2:16, how many things are listed as being in the world?",
+      "answer": "3",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "62-002-016-016-53b18c0b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-016-016-7f37b8c9",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 2:16, name the three things that are in the world. (be specific)",
+      "answer": "the lust of the flesh, the lust of the eyes, and the pride of life",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "62-002-016-016-7f37b8c9"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-016-016-eedf8ac2",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 2:16, what is true about the lust of the flesh, the lust of the eyes, and the pride of life in relation to the Father?",
+      "answer": "is not of the Father but is of the world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-016-016-eedf8ac2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-017-017-ac2c6957",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 2:17, what else besides the world is passing away?",
+      "answer": "the lust of it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-017-017-ac2c6957"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-017-017-3965a3b7",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 2:17, what is happening to the world?",
+      "answer": "passing away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-017-017-3965a3b7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-017-017-0bd7b109",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 2:17, who abides forever?",
+      "answer": "he who does the will of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-017-017-0bd7b109"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-018-018-b1933836",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 2:18, how does the author address those he is writing to?",
+      "answer": "Little children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-018-018-b1933836"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-018-018-580659f8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 2:18, what do we know because many antichrists have come? (be specific)",
+      "answer": "that it is the last hour",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-002-018-018-580659f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-018-018-b59b32e7",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 2:18, what period of time does the author say it is?",
+      "answer": "the last hour",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "62-002-018-018-b59b32e7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-018-018-f4fb7f2a",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 2:18, who have come even now?",
+      "answer": "many antichrists",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-018-018-f4fb7f2a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-018-018-cd45013f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 2:18, who have the people heard is coming?",
+      "answer": "the Antichrist",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-018-018-cd45013f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-019-019-8ce78bc5",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 2:19, what did they do regarding 'us'?",
+      "answer": "They went out from us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-019-019-8ce78bc5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-019-019-bbbdc3dc",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 2:19, what is the reason given that they were not of us?",
+      "answer": "for if they had been of us, they would have continued with us",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-002-019-019-bbbdc3dc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-019-019-02c0b99a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 2:19, why did they go out? (be specific)",
+      "answer": "that they might be made manifest, that none of them were of us",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "62-002-019-019-02c0b99a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-020-020-2efb5404",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 2:20, from whom do you have an anointing?",
+      "answer": "the Holy One",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-020-020-2efb5404"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-020-020-770b7193",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 2:20, what do you have from the Holy One?",
+      "answer": "an anointing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-020-020-770b7193"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-020-020-93494bd0",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 2:20, what do you know?",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-020-020-93494bd0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-021-021-15ef1095",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 2:21, why have I not written to you?",
+      "answer": "because you do not know the truth",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-002-021-021-15ef1095"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-021-021-e30056af",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 2:21, why have I written to you? (be specific)",
+      "answer": "because you know it, and that no lie is of the truth",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "62-002-021-021-e30056af"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-021-021-54391d33",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "True or False: According to 1 John 2:21, no lie is of the truth.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-002-021-021-54391d33"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-022-022-754d01e2",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 2:22, name the two entities that the antichrist denies. (be specific)",
+      "answer": "the Father and the Son",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-002-022-022-754d01e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-022-022-d72be75f",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 2:22, what is the label given to the person who denies the Father and the Son?",
+      "answer": "antichrist",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-022-022-d72be75f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-022-022-da62bcfa",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 1 John 2:22, who is defined as a liar?",
+      "answer": "he who denies that Jesus is the Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-022-022-da62bcfa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-022-022-ac57b8e2",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "True or False: According to 1 John 2:22, the one who denies that Jesus is the Christ is called a liar.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-002-022-022-ac57b8e2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-023-023-c8a4ea95",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 2:23, how many specific actions regarding the Son are mentioned in this verse?",
+      "answer": "2",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "62-002-023-023-c8a4ea95"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-023-023-182723c5",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 2:23, list the two actions regarding the Son that determine one's relationship with the Father. (be specific)",
+      "answer": "denies the Son, acknowledges the Son",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-002-023-023-182723c5"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-023-023-a127c387",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 2:23, what does the person who acknowledges the Son have?",
+      "answer": "the Father also",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-023-023-a127c387"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-023-023-c223018f",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to 1 John 2:23, what is the consequence for whoever denies the Son?",
+      "answer": "does not have the Father either",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-023-023-c223018f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-024-024-f76374e1",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 John 2:24, if what you heard from the beginning abides in you, in whom will you also abide? (be specific)",
+      "answer": "in the Son and in the Father",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "62-002-024-024-f76374e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-024-024-0a4864dd",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to 1 John 2:24, what should you let abide in you?",
+      "answer": "that which you heard from the beginning",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-024-024-0a4864dd"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-024-024-fea5720b",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "True or False: According to 1 John 2:24, you will abide in the Son and the Father if what you heard from the beginning abides in you.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-002-024-024-fea5720b"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-025-025-32e5d3af",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 John 2:25, what has He promised us?",
+      "answer": "eternal life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-025-025-32e5d3af"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-025-025-4eca4ee2",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to 1 John 2:25, what is the promise that He has promised us?",
+      "answer": "eternal life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-025-025-4eca4ee2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-026-026-147cff03",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to 1 John 2:26, concerning whom have these things been written?",
+      "answer": "those who try to deceive you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-026-026-147cff03"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-026-026-3253839c",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to 1 John 2:26, how did the author communicate these things?",
+      "answer": "I have written to you",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-026-026-3253839c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-026-026-198e29b8",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to 1 John 2:26, what have these things been written to do regarding those who try to deceive you? (be specific)",
+      "answer": "concerning those who try to deceive you",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-002-026-026-198e29b8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-027-027-733a7946",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to 1 John 2:27, name the 3 descriptions given about the anointing (be specific).",
+      "answer": "is true, and is not a lie, and just as it has taught you",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "62-002-027-027-733a7946"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-027-027-62ced2a5",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to 1 John 2:27, what abides in you that was received from Him?",
+      "answer": "the anointing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-027-027-62ced2a5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-027-027-3280431e",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to 1 John 2:27, what does the same anointing teach you concerning?",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-027-027-3280431e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-027-027-7c5cb2ce",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to 1 John 2:27, what will you do in Him just as the anointing has taught you?",
+      "answer": "abide",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-027-027-7c5cb2ce"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-027-027-d9508fda",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to 1 John 2:27, why do you not need anyone to teach you?",
+      "answer": "But the anointing which you have received from Him abides in you",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-002-027-027-d9508fda"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-028-028-01d288f8",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to 1 John 2:28, before whom may we be ashamed at His coming?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-002-028-028-01d288f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-028-028-ec62a406",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to 1 John 2:28, how does the author address his readers?",
+      "answer": "little children",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-002-028-028-ec62a406"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-028-028-1a6fcad0",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to 1 John 2:28, what are little children instructed to do in Him?",
+      "answer": "abide",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-028-028-1a6fcad0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-028-028-d7e6ad0f",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to 1 John 2:28, what is the event that will happen regarding Him?",
+      "answer": "He appears",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-028-028-d7e6ad0f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-028-028-ad4e76d0",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to 1 John 2:28, what two things may we have or not have when He appears?",
+      "answer": "confidence and not be ashamed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-002-028-028-ad4e76d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-029-029-3762ad1e",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to 1 John 2:29, what do you know about Him?",
+      "answer": "He is righteous",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-002-029-029-3762ad1e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-029-029-450ff33e",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to 1 John 2:29, what do you know about everyone who practices righteousness?",
+      "answer": "everyone who practices righteousness is born of Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-002-029-029-450ff33e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-002-029-029-74ca74cf",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "True or False: According to 1 John 2:29, if you know that He is righteous, you know that everyone who practices righteousness is born of Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-002-029-029-74ca74cf"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "62-002-001-001-48c9ce90",
+      "62-002-001-001-50779787",
+      "62-002-001-001-ee65acf9",
+      "62-002-001-001-56d81fda"
+    ],
+    "2": [
+      "62-002-002-002-fef2fb50",
+      "62-002-002-002-0815d362"
+    ],
+    "3": [
+      "62-002-003-003-f45cd35a",
+      "62-002-003-003-c33ee1cc"
+    ],
+    "4": [
+      "62-002-004-004-2f727b50",
+      "62-002-004-004-43d221c1",
+      "62-002-004-004-06026c15"
+    ],
+    "5": [
+      "62-002-005-005-8beb77e8",
+      "62-002-005-005-3b102755",
+      "62-002-005-005-8a86c6f5"
+    ],
+    "6": [
+      "62-002-006-006-6b3e510c",
+      "62-002-006-006-901f97d4"
+    ],
+    "7": [
+      "62-002-007-007-5105c11b",
+      "62-002-007-007-def92606",
+      "62-002-007-007-b3f92336",
+      "62-002-007-007-cf9dbaf7"
+    ],
+    "8": [
+      "62-002-008-008-3860a4d4",
+      "62-002-008-008-b3829907",
+      "62-002-008-008-b8f09fcb",
+      "62-002-008-008-0cbf67fb"
+    ],
+    "9": [
+      "62-002-009-009-d43d8496",
+      "62-002-009-009-ad463726",
+      "62-002-009-009-81895979"
+    ],
+    "10": [
+      "62-002-010-010-8b48244f",
+      "62-002-010-010-2ca6dc45"
+    ],
+    "11": [
+      "62-002-011-011-9c067a38",
+      "62-002-011-011-cb208719",
+      "62-002-011-011-da718c6f"
+    ],
+    "12": [
+      "62-002-012-012-f97d24bd",
+      "62-002-012-012-2f4a0320"
+    ],
+    "13": [
+      "62-002-013-013-422328be",
+      "62-002-013-013-a3cba8fd",
+      "62-002-013-013-ff42fa92",
+      "62-002-013-013-ed759f8b",
+      "62-002-013-013-afcf1958"
+    ],
+    "14": [
+      "62-002-014-014-3deac406",
+      "62-002-014-014-f8d15ed4",
+      "62-002-014-014-e4b5a1a4",
+      "62-002-014-014-aad942a0"
+    ],
+    "15": [
+      "62-002-015-015-069e4b58",
+      "62-002-015-015-3eb8494d"
+    ],
+    "16": [
+      "62-002-016-016-53b18c0b",
+      "62-002-016-016-7f37b8c9",
+      "62-002-016-016-eedf8ac2"
+    ],
+    "17": [
+      "62-002-017-017-ac2c6957",
+      "62-002-017-017-3965a3b7",
+      "62-002-017-017-0bd7b109"
+    ],
+    "18": [
+      "62-002-018-018-b1933836",
+      "62-002-018-018-580659f8",
+      "62-002-018-018-b59b32e7",
+      "62-002-018-018-f4fb7f2a",
+      "62-002-018-018-cd45013f"
+    ],
+    "19": [
+      "62-002-019-019-8ce78bc5",
+      "62-002-019-019-bbbdc3dc",
+      "62-002-019-019-02c0b99a"
+    ],
+    "20": [
+      "62-002-020-020-2efb5404",
+      "62-002-020-020-770b7193",
+      "62-002-020-020-93494bd0"
+    ],
+    "21": [
+      "62-002-021-021-15ef1095",
+      "62-002-021-021-e30056af",
+      "62-002-021-021-54391d33"
+    ],
+    "22": [
+      "62-002-022-022-754d01e2",
+      "62-002-022-022-d72be75f",
+      "62-002-022-022-da62bcfa",
+      "62-002-022-022-ac57b8e2"
+    ],
+    "23": [
+      "62-002-023-023-c8a4ea95",
+      "62-002-023-023-182723c5",
+      "62-002-023-023-a127c387",
+      "62-002-023-023-c223018f"
+    ],
+    "24": [
+      "62-002-024-024-f76374e1",
+      "62-002-024-024-0a4864dd",
+      "62-002-024-024-fea5720b"
+    ],
+    "25": [
+      "62-002-025-025-32e5d3af",
+      "62-002-025-025-4eca4ee2"
+    ],
+    "26": [
+      "62-002-026-026-147cff03",
+      "62-002-026-026-3253839c",
+      "62-002-026-026-198e29b8"
+    ],
+    "27": [
+      "62-002-027-027-733a7946",
+      "62-002-027-027-62ced2a5",
+      "62-002-027-027-3280431e",
+      "62-002-027-027-7c5cb2ce",
+      "62-002-027-027-d9508fda"
+    ],
+    "28": [
+      "62-002-028-028-01d288f8",
+      "62-002-028-028-ec62a406",
+      "62-002-028-028-1a6fcad0",
+      "62-002-028-028-d7e6ad0f",
+      "62-002-028-028-ad4e76d0"
+    ],
+    "29": [
+      "62-002-029-029-3762ad1e",
+      "62-002-029-029-450ff33e",
+      "62-002-029-029-74ca74cf"
+    ]
+  }
+}

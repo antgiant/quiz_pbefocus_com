@@ -1,0 +1,2295 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 4,
+  "questions": [
+    {
+      "id": "41-004-001-001-72c8f82d",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 4:1, the whole multitude was on the land facing what?",
+      "answer": "the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-001-001-e458ced4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-001-001-2f17a872",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 4:1, what was gathered to Him?",
+      "answer": "a great multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-001-001-a0b886d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-001-001-8eaa54e9",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 4:1, where did He begin to teach again?",
+      "answer": "by the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-001-001-3382fb37"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-001-001-66ff4adf",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 4:1, where did He sit? (be specific)",
+      "answer": "in a boat on the sea",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-004-001-001-ca649611",
+        "41-004-001-001-cb6ad72e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-001-001-75170cef",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 4:1, where was the whole multitude located and how were they oriented?",
+      "answer": "on the land, facing the sea",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-004-001-001-3de0dcfa",
+        "41-004-001-001-60229a2a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-002-002-9842e136",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 4:2, how did He teach them many things?",
+      "answer": "by parables",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-002-002-90ca54a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-002-002-5b66f295",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 4:2, what did He teach the multitude?",
+      "answer": "many things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-002-002-bc6a1260"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-002-002-4aed1698",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 4:2, when He taught them, what did He say to them? (be specific)",
+      "answer": "in His teaching",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-002-002-07370921"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-003-003-263fc09f",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 4:3, what exclamations are used to draw attention before mentioning the sower?",
+      "answer": "Listen! Behold",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-003-003-121cac6c",
+        "41-004-003-003-93fa1e35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-003-003-085bda11",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 4:3, what is the first word spoken by the speaker?",
+      "answer": "Listen!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-003-003-4e712d79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-003-003-c47b0e3a",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 4:3, who went out to sow?",
+      "answer": "a sower",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-003-003-0ba9921e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-004-004-0e32583f",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 4:4, what came and devoured the seed that fell by the wayside?",
+      "answer": "the birds of the air",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-004-004-59140199"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-004-004-af476c25",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 4:4, when did the seed fall by the wayside?",
+      "answer": "as he sowed",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-004-004-ad67f35e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-004-004-dd0b63bc",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 4:4, where did some of the seed fall?",
+      "answer": "by the wayside",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-004-004-77f1399c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-005-005-b643c47c",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 4:5, how quickly did the seed spring up?",
+      "answer": "immediately",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-005-005-161f2ff5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-005-005-f48552bf",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 4:5, what description is given regarding the stony ground? (be specific)",
+      "answer": "it did not have much earth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-005-005-eb53d9ff",
+        "41-004-005-005-7b8a9ff2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-005-005-f0a53062",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 4:5, where did some seed fall?",
+      "answer": "on stony ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-005-005-05f44fb4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-005-005-44ef408a",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 4:5, why did the seed spring up immediately?",
+      "answer": "because it had no depth of earth",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-004-005-005-0c26320c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-006-006-caaac8b3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 4:6, what happened to the plant after it was scorched?",
+      "answer": "it withered away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-006-006-b6e8c6fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-006-006-7ea6f5f1",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 4:6, what happened to the seed when the sun was up?",
+      "answer": "it was scorched",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-006-006-1c09d895"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-006-006-06ec4519",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 4:6, why did the plant wither away? (be specific)",
+      "answer": "because it had no root",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-004-006-006-c573aeb5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-007-007-c077c8c7",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 4:7, identify the two actions the thorns performed upon the seed. (be specific)",
+      "answer": "grew up and choked it",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-007-007-ce69e5ed"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-007-007-cd589d6a",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 4:7, true or false, the seed theat fell among thorns yielded little crop",
+      "answer": "false, it yielded no crop",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-007-007-3d27a95d",
+        "41-004-007-007-6d629dca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-007-007-ea84fc15",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 4:7, what was the result of the thorns choking the seed?",
+      "answer": "it yielded no crop",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-007-007-3b9b0285"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-007-007-a539e07f",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 4:7, where did some of the seed fall?",
+      "answer": "among thorns",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-007-007-0da1742e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-008-008-29a80e72",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 4:8, list the 3 specific yields produced by the crop. (be specific)",
+      "answer": "thirtyfold, sixty, and a hundred",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-004-008-008-ad50d972"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-008-008-7a220be6",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 4:8, what did the seed that fell on good ground do?",
+      "answer": "yielded a crop, sprang up, increased, and produced",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-004-008-008-4f6b9bc0",
+        "41-004-008-008-de76248b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-008-008-c63917c5",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 4:8, where did the other seed fall?",
+      "answer": "good ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-008-008-55d3ea6a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-009-009-050db91b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 4:9, what did Jesus say to them?",
+      "answer": "He who has ears to hear, let him hear!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-009-009-d09c6784"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-010-010-ea8a68e9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 4:10, what did those around Him with the twelve ask Jesus about when He was alone?",
+      "answer": "the parable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-010-010-71a4e10d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-010-010-a4927215",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 4:10, when did those around Him with the twelve ask Him about the parable?",
+      "answer": "when He was alone",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-010-010-7de0d7fa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-010-010-422da075",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 4:10, who asked Jesus about the parable when He was alone?",
+      "answer": "those around Him with the twelve",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-004-010-010-9e8aa2e6",
+        "41-004-010-010-422da075"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-011-011-9164c7e2",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 4:11, how do all things come to those who are outside? (be specific)",
+      "answer": "in parables",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-011-011-246845e4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-011-011-4dc6ad8c",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 4:11, to whom has it been given to know the mystery of the kingdom of God?",
+      "answer": "to you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-011-011-db84b547"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-011-011-83311d08",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 4:11, what has been given to you to know?",
+      "answer": "the mystery of the kingdom of God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-011-011-77f0b05e",
+        "41-004-011-011-04597f7c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-012-012-b2d37f39",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 4:12, what are the two negative results of those who see and hear? (List 2 items) (be specific)",
+      "answer": "not perceive, not understand",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-012-012-7d2d4d48"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-012-012-46e1137f",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 4:11-12, why are why are all things in parables to those who are outside?",
+      "answer": "Lest they should turn, And their sins be forgiven them",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-004-012-012-e2d30904",
+        "41-004-012-012-cde6b2c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-012-012-7a9f6952",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to Mark 4:12, if they turn, their sins will be forgiven.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-004-012-012-d111d255"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-013-013-19e3d5e7",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 4:13, what did the speaker ask if the listeners understood?",
+      "answer": "this parable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-013-013-9593bc44"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-013-013-0dc64c49",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 4:13, what question was asked regarding the listeners' future understanding of all the parables? (be specific)",
+      "answer": "How then will you understand all the parables?",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-004-013-013-a3df4cc4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-013-013-23920a21",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 4:13, who asked, 'Do you not understand this parable?'",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-013-013-59c770c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-014-014-58090ee3",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 4:14, what does the sower sow?",
+      "answer": "the word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-014-014-e4ada697"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-014-014-dbac506c",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 4:14, who sows the word? (be specific)",
+      "answer": "The sower",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-014-014-74b66edd",
+        "41-004-014-014-0a516ef0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-015-015-bed87550",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 4:15, when does Satan come?",
+      "answer": "immediately, When they hear",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-004-015-015-3bb96fe9",
+        "41-004-015-015-3eeb5422"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-015-015-f12c59fe",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 4:15, where has the word been sown in the people by the wayside? (be specific)",
+      "answer": "in their hearts",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-015-015-5859a54a",
+        "41-004-015-015-f12c59fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-015-015-7bd0b12e",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 4:15, where are the ones where the word is sown in their hearts?",
+      "answer": "by the wayside",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-015-015-d02d7de1",
+        "41-004-015-015-ba12180d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-015-015-c0e77844",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 4:15, who comes immediately to take away the word?",
+      "answer": "Satan",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-015-015-19776f01"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-016-016-d7e87d1f",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 4:16, when and how do the ones sown on stony ground receive the word?",
+      "answer": "immediately with gladness",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-004-016-016-b66d90b7",
+        "41-004-016-016-58d21c14"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-016-016-53f78607",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 4:16, where were these ones sown?",
+      "answer": "on stony ground",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-016-016-8e8eaf14",
+        "41-004-016-016-89e0628b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-016-016-18c67b0e",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 4:16, what do the ones sown on stony ground do when they hear the word?",
+      "answer": "immediately receive it with gladness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-016-016-ea7f98ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-017-017-baacc775",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 4:17, for how long do they endure?",
+      "answer": "only for a time",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-017-017-d244e2b5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-017-017-7a2c9235",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 4:17, for whose sake does tribulation or persecution arise?",
+      "answer": "the word’s sake",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-004-017-017-6e478f21"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-017-017-b0cd4131",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 4:17, what do the people do when tribulation or persecution arises, and how soon does it happen?",
+      "answer": "they stumble, immediately",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-017-017-b20fc8e1",
+        "41-004-017-017-38c028a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-017-017-1f730feb",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 4:17, what two things arise that cause the individuals to stumble? (be specific)",
+      "answer": "tribulation or persecution",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-017-017-73102a53"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-017-017-19d8e2e9",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 4:17, why do the ones sown on stony ground only endure for a time? (be specific)",
+      "answer": "they have no root in themselves",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-004-017-017-eec76642"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-018-018-4ee6ebbe",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 4:18, what are the ones sown among thorns described as?",
+      "answer": "the ones who hear the word",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-018-018-c031cb7f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-018-018-67e90e93",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 4:18, where were the ones sown?",
+      "answer": "amung thorns",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-018-018-9e0915cb",
+        "41-004-018-018-fccf3178"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-019-019-19be3d97",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 4:19, name the 3 things that enter in and choke the word (be specific).",
+      "answer": "the cares of this world, the deceitfulness of riches, and the desires for other things",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-004-019-019-bd4d71e4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-019-019-1ce56d5a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 4:19, what happens to the word when the cares of this world, deceitfulness of riches, and desires for other things enter in?",
+      "answer": "choke the word, becomes unfruitful",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-019-019-5279519a",
+        "41-004-019-019-64d207a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-019-019-8768df63",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 4:19, what is the final state of the word after it is choked?",
+      "answer": "it becomes unfruitful",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-019-019-761003fb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-020-020-53653071",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 4:20, what specific fruit yields are listed?",
+      "answer": "thirtyfold, sixty, a hundred",
+      "type": "how_many",
+      "points": 3,
+      "originalIds": [
+        "41-004-020-020-80e7ed60",
+        "41-004-020-020-e79e3efb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-020-020-417974c4",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 4:20, list the 3 actions taken by those sown on good ground (be specific).",
+      "answer": "hear the word, accept it, and bear fruit",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-004-020-020-2d8529a3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-020-020-cf730c38",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 4:20, list the 3 specific measurements of fruit borne by those on good ground (be specific).",
+      "answer": "thirtyfold, some sixty, and some a hundred",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-004-020-020-59aa36a1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-020-020-7d394ff6",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 4:20, what type of ground are these ones sown on?",
+      "answer": "good ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-020-020-59a60294"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-021-021-931ab971",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 4:21, what are the two locations mentioned where a lamp is not brought to be put?",
+      "answer": "under a basket or under a bed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-021-021-0898a64b",
+        "41-004-021-021-1481b5ab"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-021-021-dcdaf2fd",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 4:21, where is a lamp to be set?",
+      "answer": "on a lampstand",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-021-021-e6f5578c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-022-022-683c8a0d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 4:22, what has been kept secret that it should come to light?",
+      "answer": "anything",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-022-022-5695e712",
+        "41-004-022-022-e2cea0e0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-022-022-d488f81c",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 4:22, what is the fate of things that have been kept secret (be specific)?",
+      "answer": "it should come to light",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-022-022-cdb71dc1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-022-022-88c3c2bb",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 4:22, what will be hidden wich will not be revealed?",
+      "answer": "nothing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-022-022-ec75f3dd",
+        "41-004-022-022-9dba309f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-023-023-d054e7ef",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 4:23, what should someone do if they have ears to hear?",
+      "answer": "let him hear",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-023-023-af219dcb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-023-023-28a15634",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "True or False: According to Mark 4:23, if anyone has ears to hear, let him hear.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-004-023-023-ecae1eca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-024-024-4e47a5c3",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 4:24, how will it be measured to you? (be specific)",
+      "answer": "With the same measure you use",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-024-024-cbf96af8",
+        "41-004-024-024-9ec73272"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-024-024-0dbfa6d5",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 4:24, what did He tell them to do regarding what they hear?",
+      "answer": "Take heed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-024-024-0edc60ce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-024-024-882c6953",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 4:24, what will be given to those who hear?",
+      "answer": "more",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-024-024-4465b532",
+        "41-004-024-024-bdfba2ca"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-024-024-10bdf4b3",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 4:24, what will happen to those who hear?",
+      "answer": "more will be given",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-024-024-62308c13"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-025-025-8c214936",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 4:25, what will happen to whover has?",
+      "answer": "more will be given",
+      "type": "list",
+      "points": 1,
+      "originalIds": [
+        "41-004-025-025-b7a2ced1",
+        "41-004-025-025-7ba17fd9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-025-025-6b6dea96",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 4:25, what happens to whoever does not have?",
+      "answer": "even what he has will be taken away from him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-025-025-e31f6e7b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-025-025-1a7f1d93",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 4:25, what will be given to whoever has?",
+      "answer": "more",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-025-025-74088074"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-026-026-7615f707",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 4:26, to what does Jesus compare the kingdom of God?",
+      "answer": "a man should scatter seed on the ground",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-026-026-d953ffc1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-026-026-16459223",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 4:26, what does the man do on the ground?",
+      "answer": "scatter seed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-026-026-5e2b50f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-027-027-dfd52dac",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 4:27, what does the man not know regarding the seed?",
+      "answer": "how it sprouts and grows",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-004-027-027-0f9394d6",
+        "41-004-027-027-6f425086"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-027-027-8643614b",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 4:27, what happens to the seed after the man sleeps and rises?",
+      "answer": "the seed should sprout and grow",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-027-027-576bfe0a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-027-027-8c4fbff2",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 4:27, when does the man sleep and when does he rise?",
+      "answer": "sleep by night and rise by day",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-004-027-027-e3d17da0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-028-028-8a161105",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 4:28, list the 3 stages in order of how the earth yields crops. (be specific)",
+      "answer": "first the blade, then the head, after that the full grain in the head",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-004-028-028-3460e211"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-028-028-dbfaf5e9",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 4:28, what does the earth yield by itself?",
+      "answer": "crops",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-028-028-39a23efe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-028-028-cdbd163c",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "True or False: According to Mark 4:28, the earth yields fruit by itself.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-004-028-028-0fe90174",
+        "41-004-028-028-4dd85015"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-029-029-78cfcbb3",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 4:29, what does the man put in when the grain ripens?",
+      "answer": "the sickle",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-029-029-c05402b1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-029-029-3ef85845",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 4:29, what must happen before the man puts in the sickle?",
+      "answer": "the grain ripens",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-029-029-493f45df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-029-029-a5d9ef8c",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 4:29, why does the man put in the sickle?",
+      "answer": "because the harvest has come",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-004-029-029-271d8339"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-030-030-e343deee",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 4:30, what was He likening?",
+      "answer": "the kingdom of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-030-030-c339a643",
+        "41-004-030-030-5abad0f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-030-030-d364e32d",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 4:30, what was suggested to use to picture the kingdom of God?",
+      "answer": "parable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-030-030-ca681907",
+        "41-004-030-030-0b8a9801"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-031-031-1b341a5e",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 4:30-311, what is the kingdom of God compared to?",
+      "answer": "a mustard seed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-031-031-5c718d04",
+        "41-004-031-031-f492445b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-031-031-a31ac515",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 4:31, when the mustard seed is sown on the ground, how does it compare to all the seeds on earth?",
+      "answer": "it is smaller than all the seeds on earth",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-031-031-7ba69f09"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-032-032-1a8a39b6",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 4:32, what does the mustard seed become greater than?",
+      "answer": "all herbs",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-032-032-d4524b3c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-032-032-a61ea102",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 4:32, what does the plant shoot out?",
+      "answer": "large branches",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-032-032-a80bbbef"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-032-032-1e495f27",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 4:32, what happens after the mustard seed is sown? (be specific)",
+      "answer": "it grows up, becomes greater than all herbs, and shoots out large branches",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-004-032-032-9cb8de14",
+        "41-004-032-032-1913d413"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-032-032-dd037b84",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 4:32, why is it sown?",
+      "answer": "so the birds of the air may nest under its shade",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-004-032-032-1748ae42",
+        "41-004-032-032-7e1bff8d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-033-033-1f0eb0c1",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 4:33, how did Jesus speak the word to them?",
+      "answer": "as they were able to hear it",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-033-033-8088a5db"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-033-033-a71c773b",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 4:33, what did Jesus use to speak the word to them?",
+      "answer": "many such parables",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-033-033-82e10a5c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-033-033-969ace9e",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 4:33, what did He do as they were able to hear it, and how did He do it?",
+      "answer": "He spoke the word to them, with many such parables",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-033-033-245db0c2",
+        "41-004-033-033-79298c30"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-034-034-4bf2964f",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 4:34, what did Jesus not do when speaking to them?",
+      "answer": "without a parable He did not speak to them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-034-034-5b1675a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-034-034-a5a86db4",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 4:34, when did Jesus explain all things to His disciples? (be specific)",
+      "answer": "when they were alone",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-034-034-02af34e2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-034-034-09b7864f",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 4:34, who did Jesus explain all things to when they were alone?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-034-034-68695d26"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-035-035-7ea0dcfa",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 4:35, where did they go when evening came?",
+      "answer": "cross over to the other side",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-035-035-2985b0fa",
+        "41-004-035-035-7c2067b8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-035-035-7a260a8e",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 4:35, what time of day was it when Jesus suggested crossing to the other side?",
+      "answer": "evening",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-035-035-7750ffa3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-035-035-3d4ea77f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 4:35, what did Jesus say to them?",
+      "answer": "Let us cross over to the other side",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-035-035-a7925bfb",
+        "41-004-035-035-9971af01"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-035-035-5c0d4fe7",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 4:35, when did Jesus say, \"Let us cross over to the other side\"?",
+      "answer": "when evening had come",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-004-035-035-ff181c89"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-036-036-fd3af56e",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 4:36, how did they take Jesus in the boat?",
+      "answer": "as He was",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-036-036-1161efa4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-036-036-c0eb1c95",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 4:36, what did they do before taking Jesus in the boat?",
+      "answer": "left the multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-036-036-1a2f1fc7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-036-036-7c12850b",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 4:36, what else was with Him when they took HIm along in the boat?",
+      "answer": "other little boats were also with HIm",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-036-036-8deb203b",
+        "41-004-036-036-d5a2a36a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-036-036-4fb5af5d",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "True or False: According to Mark 4:36, when they left the multitude and took Him along in the boat,  other little boats were also with Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-004-036-036-ab3db56e",
+        "41-004-036-036-e3716f99"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-037-037-6a62f280",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 4:37, what happed after a great windstorm arose?",
+      "answer": "the waves beat into the boat, it was filling",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-037-037-6845c94b",
+        "41-004-037-037-7f02ad79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-037-037-1ada2c56",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 4:37, what arose?",
+      "answer": "a great windstorm",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-037-037-adaef380",
+        "41-004-037-037-dd05bcb8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-037-037-b277ac25",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 4:37, what was happening to the boat because the waves were beating into it? (be specific)",
+      "answer": "it was already filling",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-037-037-4a863232"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-038-038-feca365e",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 4:38, on what was He asleep?",
+      "answer": "a pillow",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-038-038-79044a77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-038-038-af7959f6",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 4:38, what did they do to Him?",
+      "answer": "they awoke Him, they said to Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-038-038-5695e26a",
+        "41-004-038-038-0601fbf5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-038-038-9a6f2fe6",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 4:38, what question did they ask Him?",
+      "answer": "Teacher, do You not care that we are perishing?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-004-038-038-9e318e48",
+        "41-004-038-038-6081a14f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-038-038-971d742a",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 4:38, what title did they use when addressing Him?",
+      "answer": "Teacher",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-038-038-5b985159"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-038-038-65f6909b",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 4:38, where was He while asleep?",
+      "answer": "in the stern",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-038-038-a4823903"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-039-039-109cad57",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 4:39, what did Jesus do to the wind after He arose?",
+      "answer": "rebuked the wind",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-039-039-6ddf154f",
+        "41-004-039-039-94e7185d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-039-039-20af8d3f",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 4:39, what happened after He said, \"Peace, be still!\"?",
+      "answer": "the wind ceased and there was a great calm",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-039-039-859fed6c",
+        "41-004-039-039-5eaa8717"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-039-039-c63f6dbd",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 4:39, what two things did Jesus say to the sea?",
+      "answer": "Peace, be still!",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-039-039-913541c6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-040-040-2f63419c",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 4:40, what two questions did Jesus ask His deciples?",
+      "answer": "Why are you so fearful? How is it that you have no faith?",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-004-040-040-2343a87e",
+        "41-004-040-040-de2471b2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-040-040-496e62b6",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 4:40, what question did Jesus ask regarding their faith?",
+      "answer": "How is it that you have no faith?",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-040-040-d4ef32f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-041-041-c7a5dcca",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 4:41, to whom did the people speak?",
+      "answer": "to one another",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-004-041-041-ec23b1d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-041-041-6a026df1",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 4:41, what two things did the people note obeyed Him? (be specific)",
+      "answer": "the wind and the sea",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-041-041-557ce704"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-004-041-041-5b6b1e08",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 4:41, what was the reaction of the people?",
+      "answer": "they feared exceedingly",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-041-041-a395c8a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-004-001-001-72c8f82d",
+      "41-004-001-001-2f17a872",
+      "41-004-001-001-8eaa54e9",
+      "41-004-001-001-66ff4adf",
+      "41-004-001-001-75170cef"
+    ],
+    "2": [
+      "41-004-002-002-9842e136",
+      "41-004-002-002-5b66f295",
+      "41-004-002-002-4aed1698"
+    ],
+    "3": [
+      "41-004-003-003-263fc09f",
+      "41-004-003-003-085bda11",
+      "41-004-003-003-c47b0e3a"
+    ],
+    "4": [
+      "41-004-004-004-0e32583f",
+      "41-004-004-004-af476c25",
+      "41-004-004-004-dd0b63bc"
+    ],
+    "5": [
+      "41-004-005-005-b643c47c",
+      "41-004-005-005-f48552bf",
+      "41-004-005-005-f0a53062",
+      "41-004-005-005-44ef408a"
+    ],
+    "6": [
+      "41-004-006-006-caaac8b3",
+      "41-004-006-006-7ea6f5f1",
+      "41-004-006-006-06ec4519"
+    ],
+    "7": [
+      "41-004-007-007-c077c8c7",
+      "41-004-007-007-cd589d6a",
+      "41-004-007-007-ea84fc15",
+      "41-004-007-007-a539e07f"
+    ],
+    "8": [
+      "41-004-008-008-29a80e72",
+      "41-004-008-008-7a220be6",
+      "41-004-008-008-c63917c5"
+    ],
+    "9": [
+      "41-004-009-009-050db91b"
+    ],
+    "10": [
+      "41-004-010-010-ea8a68e9",
+      "41-004-010-010-a4927215",
+      "41-004-010-010-422da075"
+    ],
+    "11": [
+      "41-004-011-011-9164c7e2",
+      "41-004-011-011-4dc6ad8c",
+      "41-004-011-011-83311d08"
+    ],
+    "12": [
+      "41-004-012-012-b2d37f39",
+      "41-004-012-012-46e1137f",
+      "41-004-012-012-7a9f6952"
+    ],
+    "13": [
+      "41-004-013-013-19e3d5e7",
+      "41-004-013-013-0dc64c49",
+      "41-004-013-013-23920a21"
+    ],
+    "14": [
+      "41-004-014-014-58090ee3",
+      "41-004-014-014-dbac506c"
+    ],
+    "15": [
+      "41-004-015-015-bed87550",
+      "41-004-015-015-f12c59fe",
+      "41-004-015-015-7bd0b12e",
+      "41-004-015-015-c0e77844"
+    ],
+    "16": [
+      "41-004-016-016-d7e87d1f",
+      "41-004-016-016-53f78607",
+      "41-004-016-016-18c67b0e"
+    ],
+    "17": [
+      "41-004-017-017-baacc775",
+      "41-004-017-017-7a2c9235",
+      "41-004-017-017-b0cd4131",
+      "41-004-017-017-1f730feb",
+      "41-004-017-017-19d8e2e9"
+    ],
+    "18": [
+      "41-004-018-018-4ee6ebbe",
+      "41-004-018-018-67e90e93"
+    ],
+    "19": [
+      "41-004-019-019-19be3d97",
+      "41-004-019-019-1ce56d5a",
+      "41-004-019-019-8768df63"
+    ],
+    "20": [
+      "41-004-020-020-53653071",
+      "41-004-020-020-417974c4",
+      "41-004-020-020-cf730c38",
+      "41-004-020-020-7d394ff6"
+    ],
+    "21": [
+      "41-004-021-021-931ab971",
+      "41-004-021-021-dcdaf2fd"
+    ],
+    "22": [
+      "41-004-022-022-683c8a0d",
+      "41-004-022-022-d488f81c",
+      "41-004-022-022-88c3c2bb"
+    ],
+    "23": [
+      "41-004-023-023-d054e7ef",
+      "41-004-023-023-28a15634"
+    ],
+    "24": [
+      "41-004-024-024-4e47a5c3",
+      "41-004-024-024-0dbfa6d5",
+      "41-004-024-024-882c6953",
+      "41-004-024-024-10bdf4b3"
+    ],
+    "25": [
+      "41-004-025-025-8c214936",
+      "41-004-025-025-6b6dea96",
+      "41-004-025-025-1a7f1d93"
+    ],
+    "26": [
+      "41-004-026-026-7615f707",
+      "41-004-026-026-16459223"
+    ],
+    "27": [
+      "41-004-027-027-dfd52dac",
+      "41-004-027-027-8643614b",
+      "41-004-027-027-8c4fbff2"
+    ],
+    "28": [
+      "41-004-028-028-8a161105",
+      "41-004-028-028-dbfaf5e9",
+      "41-004-028-028-cdbd163c"
+    ],
+    "29": [
+      "41-004-029-029-78cfcbb3",
+      "41-004-029-029-3ef85845",
+      "41-004-029-029-a5d9ef8c"
+    ],
+    "30": [
+      "41-004-030-030-e343deee",
+      "41-004-030-030-d364e32d"
+    ],
+    "31": [
+      "41-004-031-031-1b341a5e",
+      "41-004-031-031-a31ac515"
+    ],
+    "32": [
+      "41-004-032-032-1a8a39b6",
+      "41-004-032-032-a61ea102",
+      "41-004-032-032-1e495f27",
+      "41-004-032-032-dd037b84"
+    ],
+    "33": [
+      "41-004-033-033-1f0eb0c1",
+      "41-004-033-033-a71c773b",
+      "41-004-033-033-969ace9e"
+    ],
+    "34": [
+      "41-004-034-034-4bf2964f",
+      "41-004-034-034-a5a86db4",
+      "41-004-034-034-09b7864f"
+    ],
+    "35": [
+      "41-004-035-035-7ea0dcfa",
+      "41-004-035-035-7a260a8e",
+      "41-004-035-035-3d4ea77f",
+      "41-004-035-035-5c0d4fe7"
+    ],
+    "36": [
+      "41-004-036-036-fd3af56e",
+      "41-004-036-036-c0eb1c95",
+      "41-004-036-036-7c12850b",
+      "41-004-036-036-4fb5af5d"
+    ],
+    "37": [
+      "41-004-037-037-6a62f280",
+      "41-004-037-037-1ada2c56",
+      "41-004-037-037-b277ac25"
+    ],
+    "38": [
+      "41-004-038-038-feca365e",
+      "41-004-038-038-af7959f6",
+      "41-004-038-038-9a6f2fe6",
+      "41-004-038-038-971d742a",
+      "41-004-038-038-65f6909b"
+    ],
+    "39": [
+      "41-004-039-039-109cad57",
+      "41-004-039-039-20af8d3f",
+      "41-004-039-039-c63f6dbd"
+    ],
+    "40": [
+      "41-004-040-040-2f63419c",
+      "41-004-040-040-496e62b6"
+    ],
+    "41": [
+      "41-004-041-041-c7a5dcca",
+      "41-004-041-041-6a026df1",
+      "41-004-041-041-5b6b1e08"
+    ]
+  }
+}

@@ -1,0 +1,2193 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 8,
+  "questions": [
+    {
+      "id": "41-008-001-001-0a5602ec",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 8:1, what did the multitude have nothing of?",
+      "answer": "to eat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-001-001-5da791d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-001-001-375debdc",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 8:1, how large was the multitude? (be specific)",
+      "answer": "very great",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-008-001-001-4599c71e",
+        "41-008-001-001-f7502c15"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-001-001-d969b9a7",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 8:1, who did Jesus call to Him?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-001-001-94db1c1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-002-002-a95f5e14",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 8:2, how does Jesus feel about the multitude?",
+      "answer": "I have compassion on the multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-002-002-3de43895",
+        "41-008-002-002-a95f5e14"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-002-002-35b3d23f",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 8:2, how long had the multitude continued with Jesus?",
+      "answer": "three days",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-002-002-69fa9656"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-002-002-15c53c04",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 8:2, what does the multitude not have?",
+      "answer": "nothing to eat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-002-002-46be8ff8",
+        "41-008-002-002-34428530"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-003-003-7cea7498",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 8:3, what might happen to the multitude if Jesus sends them away hungry to their own houses?",
+      "answer": "they will faint on the way",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-003-003-377ba82a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-003-003-bd6d6ae2",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 8:3, why does Jesus suggest they might faint on the way? (be specific)",
+      "answer": "for some of them have come from afar",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-008-003-003-8e7edd08",
+        "41-008-003-003-bd6d6ae2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-004-004-0f0e527d",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 8:4, waht do the disciples ask Him how they can do it, with what, and where?",
+      "answer": "How can one satisfy these people with bread here in the wilderness?",
+      "type": "how",
+      "points": 3,
+      "originalIds": [
+        "41-008-004-004-8958647d",
+        "41-008-004-004-9fe9efb3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-004-004-0a2eeb82",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 8:4, where did the disciples ask if one could satisfy the people with bread?",
+      "answer": "here in the wilderness",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-004-004-4032ec65"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-004-004-e2ad7b24",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 8:4, who answered Jesus?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-004-004-a6b4e636"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-005-005-6ee17cf4",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 8:5, how many loaves did the disciples say they had?",
+      "answer": "Seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-005-005-c8b3bb30"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-005-005-0ce64f20",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 8:5, what did Jesus ask the disciples?",
+      "answer": "How many loaves do you have?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-005-005-52c9363d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-005-005-91e42857",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 8:5, who were the people that answered Jesus regarding the number of loaves?",
+      "answer": "they",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-005-005-83a8e003"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-006-006-57b2f1bc",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 8:6, how many loaves did He take?",
+      "answer": "seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-006-006-adf987f7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-006-006-6a192323",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 8:6, name the four actions He performed with the seven loaves (be specific).",
+      "answer": "took, gave thanks, broke them, gave them to His disciples",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-008-006-006-94f2dc95",
+        "41-008-006-006-636a3348"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-006-006-0b5400de",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 8:6, to whom did He give the loaves to set before the multitude?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-006-006-f86f43f9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-006-006-fa65210f",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 8:6, where did He command the multitude to sit down?",
+      "answer": "on the ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-006-006-3fc898aa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-007-007-7c5fe32f",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 8:7, what did He command the disciples to do with the fish?",
+      "answer": "to set them also before them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-007-007-8278ff5a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-007-007-c08bf4f4",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 8:7, what did He do after taking the few small fish?",
+      "answer": "having blessed them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-007-007-7518d71e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-007-007-3e2fee08",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 8:7, what else did they have besides the loaves?",
+      "answer": "a few small fish",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-007-007-d099da88"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-008-008-081b775f",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 8:8, how many baskets of leftover fragments did they take up?",
+      "answer": "seven large baskets",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-008-008-154697ce",
+        "41-008-008-008-081b775f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-008-008-7671caa5",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 8:8, what was the result after they ate?",
+      "answer": "they were filled",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-008-008-008-51907080"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-009-009-01ab29e4",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 8:9, approximately how many people had eaten?",
+      "answer": "about four thousand",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-009-009-9c20a767"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-009-009-0fe116d0",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 8:9, what did He do after the people had eaten?",
+      "answer": "He sent them away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-009-009-5b8949cd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-010-010-06163c03",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 8:10, to what region did Jesus and His disciples come?",
+      "answer": "region of Dalmanutha",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-010-010-cd27d41b",
+        "41-008-010-010-21d78481"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-010-010-645b547a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 8:10, what did Jesus do, when, with who, to go where?",
+      "answer": "got into the boat, immediately, with His disciples, the region of Dalmanutha",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-008-010-010-cc2df652",
+        "41-008-010-010-4ecda0bc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-010-010-73c41bbc",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 8:10, who got into the boat with the disciples?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-010-010-37f3958b",
+        "41-008-010-010-1f78e2b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-010-010-f97b36d9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "True or False: According to Mark 8:10, Jesus immediately got into the boat with His disciples.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-008-010-010-e6457f68"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-011-011-d03a4d2a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 8:11, what did the Pharisees do when they came out?",
+      "answer": "began to dispute with Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-011-011-f416ebd9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-011-011-1d038db8",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 8:11, what were the Pharisees seeking from Him? (be specific)",
+      "answer": "a sign from heaven",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-011-011-56e7a574"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-011-011-14999bca",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 8:11, who came out and began to dispute with Him?",
+      "answer": "the Pharisees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-011-011-49a7987f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-011-011-aef441ae",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 8:11, why were the Pharisees seeking a sign from Him?",
+      "answer": "testing Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-008-011-011-4e0fe87a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-012-012-beb7e445",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 8:12, what did He do in His spirit?",
+      "answer": "sighed deeply",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-012-012-b5ff767c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-012-012-402ef8ec",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 8:12, what does this generation seek and will they get it?",
+      "answer": "a sign, no",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-012-012-bc59e9ac",
+        "41-008-012-012-0bf5fd45"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-012-012-bedddd82",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 8:12, what phrase does He use to introduce His declaration about the sign? (be specific)",
+      "answer": "Assuredly, I say to you",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-008-012-012-5f0d1d5f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-012-012-1d903697",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 8:12, what question did He ask regarding this generation?",
+      "answer": "Why does this generation seek a sign?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-008-012-012-c62421da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-013-013-93069e9f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 8:13, what did He do after leaving them?",
+      "answer": "get into the boat, departed to the other side",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-013-013-ffc0a3f9",
+        "41-008-013-013-2c74a51d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-013-013-3cc96910",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 8:13, to what place did He depart? (be specific)",
+      "answer": "the other side",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-013-013-cc3929f1",
+        "41-008-013-013-3cc96910"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-013-013-4a164115",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 8:13, what word tells us this was not the first time He got in His boat?",
+      "answer": "again",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-008-013-013-e5fd7e93",
+        "41-008-013-013-0d6e8fdc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-013-013-a9fe9e69",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 8:13, who left them?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-013-013-31dd0e69"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-014-014-271f2294",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 8:14, how many loaves of bread did the disciples have with them in the boat and why?",
+      "answer": "one loaf, they forgot to take bread",
+      "type": "how_many",
+      "points": 2,
+      "originalIds": [
+        "41-008-014-014-58a15cca",
+        "41-008-014-014-5fd96853"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-014-014-fcb67952",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 8:14, what had the disciples forgotten to take?",
+      "answer": "bread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-014-014-7468c5dc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-014-014-9c6acd78",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 8:14, where did the disciples have only one loaf of bread with them? (be specific)",
+      "answer": "in the boat",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-014-014-a140ab77",
+        "41-008-014-014-9c6acd78"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-015-015-8c529cb0",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 8:15, list the two things the disciples were told to beware of.",
+      "answer": "the leaven of the Pharisees and the leaven of Herod",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-008-015-015-5dcf361d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-015-015-68a202a8",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 8:15, name the two groups mentioned regarding leaven. (be specific)",
+      "answer": "Pharisees and Herod",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-008-015-015-ee7da7d0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-015-015-a5eb7991",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 8:15, what did Jesus charge the disciples to take and what food additive to beware of?",
+      "answer": "heed, leaven",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-015-015-c74c5fb9",
+        "41-008-015-015-087e10db"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-016-016-12e7f5b7",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 8:16, what did the disciples do among themselves?",
+      "answer": "reasoned",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-016-016-5b0290f6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-016-016-7b3aa74b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 8:16, why did the disciples think Jesus warned them about \"leaven\" in the previous verse?",
+      "answer": "It is because we have no bread",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-008-016-016-6881e303",
+        "41-008-016-016-e32382ed"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-016-016-9cee61af",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "True or False: According to Mark 8:16, the disciples reasoned they were being warned about leaven because they had no bread.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-008-016-016-bac25c12",
+        "41-008-016-016-f7a3446d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-017-017-23f0e68a",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 8:17, what two things do the disciples not yet do, and what did He imply was the cause?",
+      "answer": "percieve, understand, hardened heart",
+      "type": "other",
+      "points": 3,
+      "originalIds": [
+        "41-008-017-017-eeecc338",
+        "41-008-017-017-cc789f51"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-017-017-18bf6904",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 8:17, what two verbs does Jesus use to ask if the disciples have perceived or grasped the situation? (be specific)",
+      "answer": "perceive nor understand",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-008-017-017-43dbb3b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-017-017-82f7aa03",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 8:17, who was being aware of the situation?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-017-017-9716a726"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-017-017-44c87bd9",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 8:17, why did Jesus ask the disciples if they were reasoning among themselves?",
+      "answer": "because you have no bread",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-008-017-017-8d0a8245"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-018-018-5835e6c9",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 8:18, waht did Jesus ask if they do not do?",
+      "answer": "do you not see, do you not hear, do you not remember",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-008-018-018-cfab9afa",
+        "41-008-018-018-2e97e7f4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-018-018-aa389234",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 8:18, what does Jesus say they have?",
+      "answer": "eyes & ears",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-018-018-6004c06e",
+        "41-008-018-018-bd3e9ae7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-018-018-bce232f8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 8:18, what body part did Jesus mention having, while asking if they did not see?",
+      "answer": "eyes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-018-018-7c97b267"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-018-018-ee7bfaa7",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 8:18, what final question did Jesus ask the disciples?",
+      "answer": "And do you not remember?",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-008-018-018-74c339fd",
+        "41-008-018-018-e7395d79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-019-019-b0fa643c",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, for how many thousand people were the five loaves broken?",
+      "answer": "five thousand",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-019-019-11cfaead"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-019-019-b3e690f3",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, how many baskets full of fragments did they take up?",
+      "answer": "Twelve",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-019-019-e6ca4ed0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-019-019-6f7bccfa",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, how many loaves were broken for the five thousand?",
+      "answer": "five",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-019-019-a09e31c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-019-019-bb4964ae",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, for how many people did Jesus break how many loaves with how many baskets left over?",
+      "answer": "five thousand, five loaves, twelve",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-019-019-fd85f381",
+        "41-008-019-019-443b7271"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-019-019-ef74b2b0",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, who broke the five loaves for the five thousand?",
+      "answer": "I",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-019-019-a02b5aac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-020-020-02f26348",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 8:20, for how many thousand people were the seven loaves broken?",
+      "answer": "four thousand",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-020-020-9b303c95"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-020-020-54444a0c",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 8:20, how many large baskets full of fragments did they take up?",
+      "answer": "Seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-020-020-0df8832e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-020-020-37705cbd",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 8:20, how many loaves were broken for the four thousand?",
+      "answer": "seven",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-008-020-020-bfdda5ba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-020-020-2c8ad864",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 8:20, what were the fragments placed in, how were they described, and how many of them were there?",
+      "answer": "baskets, large, seven",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-020-020-a5fbfe34",
+        "41-008-020-020-d7d6cc51"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-021-021-fa27f381",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 8:21, what did He ask them?",
+      "answer": "How is it you do not understand?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-021-021-10fca3b9",
+        "41-008-021-021-2e11bb87"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-022-022-5006878d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 8:22, what did the people beg Him to do for the man? (be specific)",
+      "answer": "touch him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-022-022-52586c49",
+        "41-008-022-022-42bbc2c6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-022-022-ed3b92f8",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 8:22, where did He come to?",
+      "answer": "Bethsaida",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-022-022-921df3fa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-022-022-ae004a01",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 8:22, what did they bring to Him?",
+      "answer": "a blind man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-022-022-034abd9a",
+        "41-008-022-022-650fb5a6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-023-023-42a1fc8b",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 8:23, what did He take, where did He go, what two things did He do, what did He ask?",
+      "answer": "hand of blind man, out of the town, spit on his eyes, put His hands on him, if he saw anything",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-008-023-023-9e29d007",
+        "41-008-023-023-78bfbd84"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-023-023-592332c2",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 8:23, what did He ask the man after putting His hands on him?",
+      "answer": "if he saw anything",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-023-023-71589397"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-023-023-ef0b1643",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 8:23, who did He take by the hand?",
+      "answer": "the blind man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-023-023-2067f76c",
+        "41-008-023-023-3db387c9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-023-023-4ee2834a",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 8:23, where did He lead the blind man?",
+      "answer": "out of the town",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-023-023-23f3a9a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-024-024-03919c86",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 8:24, what did the man compare the men he saw to (doing what)?",
+      "answer": "trees walking",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-024-024-0df80f71",
+        "41-008-024-024-2bd0f4f8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-024-024-eab5d108",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 8:24, what did the man say he saw?",
+      "answer": "I see men, like trees, walking",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-024-024-a7f4f3a3",
+        "41-008-024-024-272618c7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-024-024-7ebc6eda",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 8:24, what were the \"tree men\" doing?",
+      "answer": "walking",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-024-024-7598c1ef",
+        "41-008-024-024-c9119384"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-025-025-a6fbb56e",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 8:25, after putting His hands on the man's eyes, what did He make him do?",
+      "answer": "made him look up",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-025-025-2b0cb4f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-025-025-13195157",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 8:25, what happened after he looked up?",
+      "answer": "he was restored, and saw everyone clearly",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-025-025-04718e6f",
+        "41-008-025-025-acd6966a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-025-025-809a0faa",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 8:25, where did He put His hands?",
+      "answer": "on his eyes again",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-025-025-2d3bc6aa",
+        "41-008-025-025-221c1253"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-026-026-bf8f141c",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 8:26, what three directions did Jesus give him?",
+      "answer": "go to his house, Neither go into the town, nor tell anyone in the town.",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-008-026-026-110e6502",
+        "41-008-026-026-d02a043f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-026-026-db5d2bd8",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 8:26, where did He send the man away to?",
+      "answer": "to his house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-026-026-71a60ca0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-027-027-3203ea9c",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 8:27, what question did Jesus ask His disciples?",
+      "answer": "Who do men say that I am?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-027-027-dea82fe3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-027-027-6f6d5fee",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 8:27, where did Jesus and His disciples go out to? (be specific)",
+      "answer": "the towns of Caesarea Philippi",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-008-027-027-b97346a6",
+        "41-008-027-027-6f6d5fee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-027-027-41ab5091",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 8:27, where was Jesus when He asked His disciples who men say He is?",
+      "answer": "on the road",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-008-027-027-0c26e870"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-027-027-c370cd36",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 8:27, who went out to the towns of Caesarea Philippi?",
+      "answer": "Jesus and His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-027-027-07d14a7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-028-028-962757fe",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 8:28, what three answers did the disciples give?",
+      "answer": "John the Baptist, Elijah, prophets",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-028-028-220aff85",
+        "41-008-028-028-cbdba3da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-028-028-b57e42d3",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 8:28, name the 3 different identities that people were saying Jesus was. (be specific)",
+      "answer": "John the Baptist; Elijah; one of the prophets",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-008-028-028-ffe7ffd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-028-028-7fe1d888",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 8:28, who did some people say Jesus was?",
+      "answer": "Elijah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-028-028-9bd8fcd9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-028-028-10c4c6e2",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 8:28, who did the disciples first answer that people thought He was?",
+      "answer": "John the Baptist",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-028-028-e92a680b",
+        "41-008-028-028-493e3005"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-029-029-ef45ad7d",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 8:29, what question did He ask them?",
+      "answer": "But who do you say that I am?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-029-029-d8b90a4f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-029-029-47103870",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 8:29, what was Peter's answer?",
+      "answer": "You are the Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-029-029-6a1530e1",
+        "41-008-029-029-5957e219"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-029-029-2cbc1976",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 8:29, who answered and said to Him, 'You are the Christ'?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-029-029-1c84a0f2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-030-030-52285db8",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 8:30, what did Jesus do after Peter declared Him the Christ in the last verse, and what was His message?",
+      "answer": "He strictly warned them, they should tell no one about Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-030-030-f4c200be",
+        "41-008-030-030-d04c5352"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-030-030-121461ce",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 8:30, what did He strictly warn them not to do?",
+      "answer": "tell no one about Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-030-030-34de4631"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-031-031-2a5112d8",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 8:31, how long after being killed will the Son of Man rise again?",
+      "answer": "after three days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-008-031-031-61409a9d",
+        "41-008-031-031-2a5112d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-031-031-b963f651",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 8:31, list the three groups of people who would reject the Son of Man. (be specific)",
+      "answer": "elders and chief priests and scribes",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-008-031-031-981795de"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-031-031-34ca168c",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 8:31, what did He do, and what four things would happen to the Son of Man?",
+      "answer": "teach them, suffer many things, be rejected (by the elders and chief priests and scribes), be killed, and rise again (after three days)",
+      "type": "what",
+      "points": 5,
+      "originalIds": [
+        "41-008-031-031-d5edb2b5",
+        "41-008-031-031-d0080e78"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-031-031-34aae9bf",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 8:31, what title did Jesus use to refer to Himself when teaching His disciples?",
+      "answer": "Son of Man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-031-031-156c5dd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-032-032-9d359e61",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 8:32, how did Jesus speak the word regarding his suffering and death?",
+      "answer": "openly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-008-032-032-90012904"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-032-032-58651d15",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 8:32, what did Peter do?",
+      "answer": "took Him aside, began to rebuke Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-032-032-d0f98381",
+        "41-008-032-032-3c6ea8b7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-032-032-4f215c39",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 8:32, who took Jesus aside?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-032-032-5308bbb0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-033-033-75adb169",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 8:33, what did Jesus do before He rebuked Peter?",
+      "answer": "turned around and looked at His disciples",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-033-033-295f8ef7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-033-033-d13831e8",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 8:33, what specific name did Jesus use when rebuking Peter?",
+      "answer": "Satan",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-033-033-69579fbe",
+        "41-008-033-033-63847ca4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-033-033-9c638f66",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 8:33, why did Jesus rebuke Peter? (be specific)",
+      "answer": "For you are not mindful of the things of God, but the things of men.",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-008-033-033-08852833"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-034-034-555aed6a",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 8:34, what must a person do if they desire to come after Jesus (be specific)?",
+      "answer": "deny himself, and take up his cross, and follow Me",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-034-034-c3486c38"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-034-034-e1241407",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 8:34, who did Jesus call to Himself and with who?",
+      "answer": "the people, His disciples also",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-008-034-034-ab631bac",
+        "41-008-034-034-f6570149"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-035-035-9ee2f333",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 8:35, what must happen to save his life, and for whose sake??",
+      "answer": "lose his life, for My sake and the sake of the gospel",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "41-008-035-035-3cb319b7",
+        "41-008-035-035-df2a20c8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-035-035-0dab543d",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 8:35, what will happen to whoever desires to save his life?",
+      "answer": "will lose it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-035-035-9c2bdff1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-035-035-56cd4b88",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 8:35, what will happen to whoever loses his life for Jesus' sake and the gospel's (be specific)?",
+      "answer": "will save it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-035-035-836eed0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-036-036-48fd7a1a",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 8:36, what is the profit mentioned, and what is the loss mentioned?",
+      "answer": "gains the whole world, losses his own soul",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-008-036-036-d12599d6",
+        "41-008-036-036-33eb4d11"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-036-036-e15720e9",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 8:36, what is it that a man might gain that would cause him no profit if he loses his own soul?",
+      "answer": "the whole world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-036-036-d430955e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-036-036-e1b5c7b0",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 8:36, what will it profit a man if he gains the whole world but loses what?",
+      "answer": "his own soul",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-036-036-3c0786fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-037-037-ea3b7e83",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 8:37, in exchange for what does a man offer something?",
+      "answer": "his soul",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-037-037-ce9e7405"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-037-037-2c04be58",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 8:37, what question is asked?",
+      "answer": "Or what will a man give in exchange for his soul?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-037-037-971ad834",
+        "41-008-037-037-0ab68fec"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-038-038-c307dd47",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 8:38, how is the generation described in which people might be ashamed of Jesus and His words? (be specific)",
+      "answer": "adulterous and sinful generation",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-038-038-c273fff9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-038-038-6431c93a",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 8:38, list the two things that a person might be ashamed of in this adulterous and sinful generation.",
+      "answer": "Me and My words",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-008-038-038-efc02006"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-038-038-a22787a2",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 8:38, when the Son of Man comes in the glory of His Father, who will be with Him?",
+      "answer": "the holy angels",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-038-038-8ea9ec98"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-038-038-b83d15d9",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 8:38, when will the Son of Man be ashamed of him who was ashamed of Him and His words, and with who?",
+      "answer": "when He comes in the glory of His Father with the holy angels",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-008-038-038-9936dd40",
+        "41-008-038-038-1203a57d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-008-038-038-17209493",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "True or False: According to Mark 8:38, the Son of Man will be ashamed of anyone who is ashamed of Him and His words.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-008-038-038-7af188e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-008-001-001-0a5602ec",
+      "41-008-001-001-375debdc",
+      "41-008-001-001-d969b9a7"
+    ],
+    "2": [
+      "41-008-002-002-a95f5e14",
+      "41-008-002-002-35b3d23f",
+      "41-008-002-002-15c53c04"
+    ],
+    "3": [
+      "41-008-003-003-7cea7498",
+      "41-008-003-003-bd6d6ae2"
+    ],
+    "4": [
+      "41-008-004-004-0f0e527d",
+      "41-008-004-004-0a2eeb82",
+      "41-008-004-004-e2ad7b24"
+    ],
+    "5": [
+      "41-008-005-005-6ee17cf4",
+      "41-008-005-005-0ce64f20",
+      "41-008-005-005-91e42857"
+    ],
+    "6": [
+      "41-008-006-006-57b2f1bc",
+      "41-008-006-006-6a192323",
+      "41-008-006-006-0b5400de",
+      "41-008-006-006-fa65210f"
+    ],
+    "7": [
+      "41-008-007-007-7c5fe32f",
+      "41-008-007-007-c08bf4f4",
+      "41-008-007-007-3e2fee08"
+    ],
+    "8": [
+      "41-008-008-008-081b775f",
+      "41-008-008-008-7671caa5"
+    ],
+    "9": [
+      "41-008-009-009-01ab29e4",
+      "41-008-009-009-0fe116d0"
+    ],
+    "10": [
+      "41-008-010-010-06163c03",
+      "41-008-010-010-645b547a",
+      "41-008-010-010-73c41bbc",
+      "41-008-010-010-f97b36d9"
+    ],
+    "11": [
+      "41-008-011-011-d03a4d2a",
+      "41-008-011-011-1d038db8",
+      "41-008-011-011-14999bca",
+      "41-008-011-011-aef441ae"
+    ],
+    "12": [
+      "41-008-012-012-beb7e445",
+      "41-008-012-012-402ef8ec",
+      "41-008-012-012-bedddd82",
+      "41-008-012-012-1d903697"
+    ],
+    "13": [
+      "41-008-013-013-93069e9f",
+      "41-008-013-013-3cc96910",
+      "41-008-013-013-4a164115",
+      "41-008-013-013-a9fe9e69"
+    ],
+    "14": [
+      "41-008-014-014-271f2294",
+      "41-008-014-014-fcb67952",
+      "41-008-014-014-9c6acd78"
+    ],
+    "15": [
+      "41-008-015-015-8c529cb0",
+      "41-008-015-015-68a202a8",
+      "41-008-015-015-a5eb7991"
+    ],
+    "16": [
+      "41-008-016-016-12e7f5b7",
+      "41-008-016-016-7b3aa74b",
+      "41-008-016-016-9cee61af"
+    ],
+    "17": [
+      "41-008-017-017-23f0e68a",
+      "41-008-017-017-18bf6904",
+      "41-008-017-017-82f7aa03",
+      "41-008-017-017-44c87bd9"
+    ],
+    "18": [
+      "41-008-018-018-5835e6c9",
+      "41-008-018-018-aa389234",
+      "41-008-018-018-bce232f8",
+      "41-008-018-018-ee7bfaa7"
+    ],
+    "19": [
+      "41-008-019-019-b0fa643c",
+      "41-008-019-019-b3e690f3",
+      "41-008-019-019-6f7bccfa",
+      "41-008-019-019-bb4964ae",
+      "41-008-019-019-ef74b2b0"
+    ],
+    "20": [
+      "41-008-020-020-02f26348",
+      "41-008-020-020-54444a0c",
+      "41-008-020-020-37705cbd",
+      "41-008-020-020-2c8ad864"
+    ],
+    "21": [
+      "41-008-021-021-fa27f381"
+    ],
+    "22": [
+      "41-008-022-022-5006878d",
+      "41-008-022-022-ed3b92f8",
+      "41-008-022-022-ae004a01"
+    ],
+    "23": [
+      "41-008-023-023-42a1fc8b",
+      "41-008-023-023-592332c2",
+      "41-008-023-023-ef0b1643",
+      "41-008-023-023-4ee2834a"
+    ],
+    "24": [
+      "41-008-024-024-03919c86",
+      "41-008-024-024-eab5d108",
+      "41-008-024-024-7ebc6eda"
+    ],
+    "25": [
+      "41-008-025-025-a6fbb56e",
+      "41-008-025-025-13195157",
+      "41-008-025-025-809a0faa"
+    ],
+    "26": [
+      "41-008-026-026-bf8f141c",
+      "41-008-026-026-db5d2bd8"
+    ],
+    "27": [
+      "41-008-027-027-3203ea9c",
+      "41-008-027-027-6f6d5fee",
+      "41-008-027-027-41ab5091",
+      "41-008-027-027-c370cd36"
+    ],
+    "28": [
+      "41-008-028-028-962757fe",
+      "41-008-028-028-b57e42d3",
+      "41-008-028-028-7fe1d888",
+      "41-008-028-028-10c4c6e2"
+    ],
+    "29": [
+      "41-008-029-029-ef45ad7d",
+      "41-008-029-029-47103870",
+      "41-008-029-029-2cbc1976"
+    ],
+    "30": [
+      "41-008-030-030-52285db8",
+      "41-008-030-030-121461ce"
+    ],
+    "31": [
+      "41-008-031-031-2a5112d8",
+      "41-008-031-031-b963f651",
+      "41-008-031-031-34ca168c",
+      "41-008-031-031-34aae9bf"
+    ],
+    "32": [
+      "41-008-032-032-9d359e61",
+      "41-008-032-032-58651d15",
+      "41-008-032-032-4f215c39"
+    ],
+    "33": [
+      "41-008-033-033-75adb169",
+      "41-008-033-033-d13831e8",
+      "41-008-033-033-9c638f66"
+    ],
+    "34": [
+      "41-008-034-034-555aed6a",
+      "41-008-034-034-e1241407"
+    ],
+    "35": [
+      "41-008-035-035-9ee2f333",
+      "41-008-035-035-0dab543d",
+      "41-008-035-035-56cd4b88"
+    ],
+    "36": [
+      "41-008-036-036-48fd7a1a",
+      "41-008-036-036-e15720e9",
+      "41-008-036-036-e1b5c7b0"
+    ],
+    "37": [
+      "41-008-037-037-ea3b7e83",
+      "41-008-037-037-2c04be58"
+    ],
+    "38": [
+      "41-008-038-038-c307dd47",
+      "41-008-038-038-6431c93a",
+      "41-008-038-038-a22787a2",
+      "41-008-038-038-b83d15d9",
+      "41-008-038-038-17209493"
+    ]
+  }
+}

@@ -1,0 +1,1289 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "60-1-peter",
+  "book": "1 Peter",
+  "chapter": 4,
+  "questions": [
+    {
+      "id": "60-004-001-001-94fe5f69",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 4:1, what has happened to him who has suffered in the flesh? (be specific)",
+      "answer": "he has ceased from sin",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-004-001-001-94fe5f69"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-001-001-2b546821",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 4:1, who suffered for us in the flesh?",
+      "answer": "Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-001-001-2b546821"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-001-001-e46d5470",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 Peter 4:1, with what should we arm ourselves?",
+      "answer": "the same mind",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-001-001-e46d5470"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-001-001-9c7c51c2",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "True or False: According to 1 Peter 4:1, Christ suffered for us in the flesh.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-004-001-001-9c7c51c2"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-002-002-2ba7d290",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 4:2, for how long should the person no longer live in the flesh for the lusts of men?",
+      "answer": "the rest of his time",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-002-002-2ba7d290"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-002-002-6fbeabbb",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 4:2, for whose will should a person live?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-002-002-6fbeabbb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-002-002-3e4373f4",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 4:2, name the 2 things mentioned that one should not live for, and the 1 thing one should live for. (be specific)",
+      "answer": "the lusts of men, the will of God",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-004-002-002-3e4373f4"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-002-002-16e4f0d0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 Peter 4:2, what should the person not live for during the rest of his time in the flesh?",
+      "answer": "the lusts of men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-002-002-16e4f0d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-003-003-b2245b1c",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 4:3, how many specific sinful activities are mentioned that they walked in?",
+      "answer": "6",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-004-003-003-b2245b1c"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-003-003-38434fac",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 4:3, how much time has been spent doing the will of the Gentiles?",
+      "answer": "enough of our past lifetime",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-004-003-003-38434fac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-003-003-17433e43",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 4:3, list 3 of the 6 things they walked in during their past lifetime. (be specific)",
+      "answer": "lewdness, lusts, drunkenness, revelries, drinking parties, and abominable idolatries",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "60-004-003-003-17433e43"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-003-003-4605339e",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 4:3, what specific type of idolatries did they walk in during their past lifetime?",
+      "answer": "abominable",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-003-003-4605339e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-003-003-1e19b958",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 Peter 4:3, whose will did they spend their past lifetime doing?",
+      "answer": "the Gentiles",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-003-003-1e19b958"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-004-004-e9966db9",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 4:4, in what specific thing do 'they' think it is strange that you do not run with them? (be specific)",
+      "answer": "the same flood of dissipation",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-004-004-004-e9966db9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-004-004-172f08a9",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 4:4, what do 'they' do to you in regard to not running with them in the same flood of dissipation?",
+      "answer": "speaking evil of you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-004-004-172f08a9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-004-004-3819c968",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 Peter 4:4, what do 'they' think is strange?",
+      "answer": "that you do not run with them in the same flood of dissipation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-004-004-3819c968"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-005-005-2fde1f05",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 4:5, name the 2 groups of people that Him who is ready to judge will judge.",
+      "answer": "the living and the dead",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-004-005-005-2fde1f05"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-005-005-6768d14b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 4:5, to whom will 'they' give an account?",
+      "answer": "Him who is ready to judge the living and the dead",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-005-005-6768d14b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-005-005-92d8d4b1",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 Peter 4:5, who is the One 'they' will give an account to, who is also ready to judge two categories of people? (be specific)",
+      "answer": "Him who is ready to judge the living and the dead",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "60-004-005-005-92d8d4b1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-006-006-632b159e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 4:6, for what reason was the gospel preached also to those who are dead?",
+      "answer": "that they might be judged according to men in the flesh, but live according to God in the spirit",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-004-006-006-632b159e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-006-006-d3f2d5c0",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 4:6, how might those who are dead be judged and how might they live? (be specific)",
+      "answer": "judged according to men in the flesh, but live according to God in the spirit",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "60-004-006-006-d3f2d5c0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-006-006-ee9866f3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 Peter 4:6, what was preached to those who are dead?",
+      "answer": "the gospel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-006-006-ee9866f3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-007-007-001f22e0",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 4:7, in what activity should one be watchful?",
+      "answer": "in your prayers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-007-007-001f22e0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-007-007-b4518a1f",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 4:7, what is at hand?",
+      "answer": "the end of all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-007-007-b4518a1f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-007-007-a778ddca",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 4:7, what is the state of the end of all things (be specific)?",
+      "answer": "is at hand",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-007-007-a778ddca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-007-007-d83ab241",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 Peter 4:7, what two things should one be?",
+      "answer": "serious and watchful",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-004-007-007-d83ab241"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-008-008-45898a9e",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 4:8, what should you have for one another above all things?",
+      "answer": "fervent love",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-008-008-45898a9e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-008-008-ef16b0d0",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 4:8, what will love cover? (be specific)",
+      "answer": "a multitude of sins",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-008-008-ef16b0d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-008-008-9fca45f9",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 Peter 4:8, why should you have fervent love for one another?",
+      "answer": "for “love will cover a multitude of sins.”",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-004-008-008-9fca45f9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-009-009-0165a25b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 4:9, how are you to be to one another?",
+      "answer": "hospitable",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-009-009-0165a25b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-009-009-b425b76f",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 Peter 4:9, what must not accompany your hospitality?",
+      "answer": "grumbling",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-009-009-b425b76f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-010-010-3be99005",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 4:10, as what should one minister the gift?",
+      "answer": "good stewards of the manifold grace of God",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-004-010-010-3be99005"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-010-010-858c917f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 4:10, how should one minister the gift they have received?",
+      "answer": "to one another",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-010-010-858c917f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-010-010-2fe06f58",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 4:10, what has each one received?",
+      "answer": "a gift",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-010-010-2fe06f58"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-010-010-15eee304",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 Peter 4:10, what kind of grace of God are people to be good stewards of? (be specific)",
+      "answer": "manifold",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-010-010-15eee304"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-011-011-127fd1a8",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 4:11, how should anyone who speaks let him speak?",
+      "answer": "as the oracles of God",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-011-011-127fd1a8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-011-011-4f48bd26",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 4:11, name the 2 things that belong to Jesus Christ forever and ever. (be specific)",
+      "answer": "glory and the dominion",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-004-011-011-4f48bd26"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-011-011-35bb2423",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 4:11, to whom do the glory and the dominion belong?",
+      "answer": "Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-011-011-35bb2423"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-011-011-36441deb",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 4:11, why should one minister with the ability God supplies?",
+      "answer": "that in all things God may be glorified through Jesus Christ",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "60-004-011-011-36441deb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-011-011-0e7a9140",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 Peter 4:11, with what ability should anyone who ministers do it?",
+      "answer": "as with the ability which God supplies",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-011-011-0e7a9140"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-012-012-83a98769",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 4:12, what should the recipients not think is strange?",
+      "answer": "the fiery trial which is to try you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-012-012-83a98769"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-012-012-0873e8e2",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 4:12, what term of endearment is used to address the recipients?",
+      "answer": "Beloved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-012-012-0873e8e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-012-012-34d45d2a",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 Peter 4:12, why are the recipients told not to think the fiery trial is strange? (be specific)",
+      "answer": "as though some strange thing happened to you",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-004-012-012-34d45d2a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-012-012-739f6ce3",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "True or False: According to 1 Peter 4:12, the fiery trial is intended to try the recipients.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-004-012-012-739f6ce3"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-013-013-aab0a08c",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 4:13, to what extent should the recipients rejoice?",
+      "answer": "to the extent that you partake of Christ’s sufferings",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-013-013-aab0a08c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-013-013-cb295930",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 4:13, what are the recipients told to do to the extent that they partake of Christ's sufferings?",
+      "answer": "rejoice",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-013-013-cb295930"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-013-013-23475f8e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 4:13, what event must occur for the recipients to be glad with exceeding joy?",
+      "answer": "when His glory is revealed",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "60-004-013-013-23475f8e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-013-013-7859ee6f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 Peter 4:13, when His glory is revealed, how should the recipients feel? (be specific)",
+      "answer": "glad with exceeding joy",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-013-013-7859ee6f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-4ff6f322",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 4:14, for whose name might you be reproached?",
+      "answer": "Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-014-014-4ff6f322"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-1f283401",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 4:14, how is He treated on 'their' part?",
+      "answer": "blasphemed",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-014-014-1f283401"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-ed6bd44a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 4:14, how is He treated on 'your' part?",
+      "answer": "glorified",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-014-014-ed6bd44a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-8bd3ea6d",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 4:14, what is the reaction to being reproached for the name of Christ?",
+      "answer": "blessed are you",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "60-004-014-014-8bd3ea6d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-a9fa7618",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 Peter 4:14, what rests upon you if you are reproached for the name of Christ? (be specific)",
+      "answer": "the Spirit of glory and of God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-004-014-014-a9fa7618"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-014-014-a138a495",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "True or False: According to 1 Peter 4:14, if you are reproached for the name of Christ, the Spirit of glory and of God rests upon you.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-004-014-014-a138a495"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-015-015-6b4c4888",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 4:15, how many categories of people are listed that a person should not suffer as?",
+      "answer": "4",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "60-004-015-015-6b4c4888"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-015-015-929508ca",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 4:15, what are the four things that none of you should suffer as?",
+      "answer": "a murderer, a thief, an evildoer, or as a busybody in other people’s matters",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "60-004-015-015-929508ca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-015-015-a8edb0a7",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 Peter 4:15, what is a specific, prohibited reason for suffering described as being in other people's matters? (be specific)",
+      "answer": "busybody",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-015-015-a8edb0a7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-016-016-fed95b7b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 4:16, how should a Christian feel if they suffer for their faith?",
+      "answer": "let him not be ashamed",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-016-016-fed95b7b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-016-016-1bbdbe3d",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 4:16, if anyone suffers as a Christian, what should they not do?",
+      "answer": "be ashamed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-016-016-1bbdbe3d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-016-016-da5e2a13",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 4:16, under what condition should a person glorify God?",
+      "answer": "if anyone suffers as a Christian",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "60-004-016-016-da5e2a13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-016-016-79d8bac6",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 Peter 4:16, what should a person do if they suffer as a Christian? (be specific)",
+      "answer": "glorify God in this matter",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-004-016-016-79d8bac6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-017-017-b3e4a2f5",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 4:17, if judgment begins with us first, what question is asked regarding those who do not obey the gospel of God? (be specific)",
+      "answer": "what will be the end of those who do not obey the gospel of God?",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "60-004-017-017-b3e4a2f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-017-017-4f5f0f45",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 4:17, what has come for judgment to begin at the house of God?",
+      "answer": "the time",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-017-017-4f5f0f45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-017-017-15536eeb",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 Peter 4:17, where is judgment to begin?",
+      "answer": "at the house of God",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "60-004-017-017-15536eeb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-018-018-c604ebca",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 4:18, if the righteous one is scarcely saved, who is mentioned next to appear?",
+      "answer": "the ungodly and the sinner",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "60-004-018-018-c604ebca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-018-018-b5fae110",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 4:18, what happens to the righteous one?",
+      "answer": "is scarcely saved",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-018-018-b5fae110"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-018-018-9f2fb5f3",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 Peter 4:18, what question is asked about the ungodly and the sinner? (be specific)",
+      "answer": "Where will the ungodly and the sinner appear?",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "60-004-018-018-9f2fb5f3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-018-018-b177ae11",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "List the two groups of people mentioned in Verse 18 that follow the righteous one regarding where they will appear.",
+      "answer": "the ungodly, the sinner",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "60-004-018-018-b177ae11"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-019-019-befb38b1",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 4:19, as what kind of Creator should one commit their soul to God? (be specific)",
+      "answer": "a faithful Creator",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "60-004-019-019-befb38b1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-019-019-91694333",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 4:19, how should those who suffer according to the will of God conduct themselves as they commit their souls to Him?",
+      "answer": "in doing good",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "60-004-019-019-91694333"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-019-019-57d67057",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 4:19, to whom should those who suffer according to the will of God commit their souls?",
+      "answer": "Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "60-004-019-019-57d67057"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-019-019-94e7bc0e",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 Peter 4:19, what should those who suffer according to the will of God commit to Him?",
+      "answer": "their souls",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "60-004-019-019-94e7bc0e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "60-004-019-019-8046ef95",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "True or False: According to 1 Peter 4:19, those who suffer according to the will of God should commit their souls to Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "60-004-019-019-8046ef95"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "60-004-001-001-94fe5f69",
+      "60-004-001-001-2b546821",
+      "60-004-001-001-e46d5470",
+      "60-004-001-001-9c7c51c2"
+    ],
+    "2": [
+      "60-004-002-002-2ba7d290",
+      "60-004-002-002-6fbeabbb",
+      "60-004-002-002-3e4373f4",
+      "60-004-002-002-16e4f0d0"
+    ],
+    "3": [
+      "60-004-003-003-b2245b1c",
+      "60-004-003-003-38434fac",
+      "60-004-003-003-17433e43",
+      "60-004-003-003-4605339e",
+      "60-004-003-003-1e19b958"
+    ],
+    "4": [
+      "60-004-004-004-e9966db9",
+      "60-004-004-004-172f08a9",
+      "60-004-004-004-3819c968"
+    ],
+    "5": [
+      "60-004-005-005-2fde1f05",
+      "60-004-005-005-6768d14b",
+      "60-004-005-005-92d8d4b1"
+    ],
+    "6": [
+      "60-004-006-006-632b159e",
+      "60-004-006-006-d3f2d5c0",
+      "60-004-006-006-ee9866f3"
+    ],
+    "7": [
+      "60-004-007-007-001f22e0",
+      "60-004-007-007-b4518a1f",
+      "60-004-007-007-a778ddca",
+      "60-004-007-007-d83ab241"
+    ],
+    "8": [
+      "60-004-008-008-45898a9e",
+      "60-004-008-008-ef16b0d0",
+      "60-004-008-008-9fca45f9"
+    ],
+    "9": [
+      "60-004-009-009-0165a25b",
+      "60-004-009-009-b425b76f"
+    ],
+    "10": [
+      "60-004-010-010-3be99005",
+      "60-004-010-010-858c917f",
+      "60-004-010-010-2fe06f58",
+      "60-004-010-010-15eee304"
+    ],
+    "11": [
+      "60-004-011-011-127fd1a8",
+      "60-004-011-011-4f48bd26",
+      "60-004-011-011-35bb2423",
+      "60-004-011-011-36441deb",
+      "60-004-011-011-0e7a9140"
+    ],
+    "12": [
+      "60-004-012-012-83a98769",
+      "60-004-012-012-0873e8e2",
+      "60-004-012-012-34d45d2a",
+      "60-004-012-012-739f6ce3"
+    ],
+    "13": [
+      "60-004-013-013-aab0a08c",
+      "60-004-013-013-cb295930",
+      "60-004-013-013-23475f8e",
+      "60-004-013-013-7859ee6f"
+    ],
+    "14": [
+      "60-004-014-014-4ff6f322",
+      "60-004-014-014-1f283401",
+      "60-004-014-014-ed6bd44a",
+      "60-004-014-014-8bd3ea6d",
+      "60-004-014-014-a9fa7618",
+      "60-004-014-014-a138a495"
+    ],
+    "15": [
+      "60-004-015-015-6b4c4888",
+      "60-004-015-015-929508ca",
+      "60-004-015-015-a8edb0a7"
+    ],
+    "16": [
+      "60-004-016-016-fed95b7b",
+      "60-004-016-016-1bbdbe3d",
+      "60-004-016-016-da5e2a13",
+      "60-004-016-016-79d8bac6"
+    ],
+    "17": [
+      "60-004-017-017-b3e4a2f5",
+      "60-004-017-017-4f5f0f45",
+      "60-004-017-017-15536eeb"
+    ],
+    "18": [
+      "60-004-018-018-c604ebca",
+      "60-004-018-018-b5fae110",
+      "60-004-018-018-9f2fb5f3",
+      "60-004-018-018-b177ae11"
+    ],
+    "19": [
+      "60-004-019-019-befb38b1",
+      "60-004-019-019-91694333",
+      "60-004-019-019-57d67057",
+      "60-004-019-019-94e7bc0e",
+      "60-004-019-019-8046ef95"
+    ]
+  }
+}

@@ -1,0 +1,2789 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 10,
+  "questions": [
+    {
+      "id": "41-010-001-001-d84cfe6f",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, where was Judea and how did He get there?",
+      "answer": "by the other side of the JOrdan, He arose from there and came",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-010-001-001-f1f27feb",
+        "41-010-001-001-14274b5f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-001-001-815eb9c8",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, to what region did He come by the other side of the Jordan?",
+      "answer": "Judea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-001-001-78ceec8e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-001-001-556d392c",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, what did He do for the multitudes as He was accustomed?",
+      "answer": "taught them again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-001-001-27c330e2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-001-001-6c213cf7",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, what did the multitudes do when He arrived in the region of Judea? (be specific)",
+      "answer": "gathered to Him again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-001-001-e48e8ed9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-001-001-af5bb368",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, what gathered to Him, was He used to it, and what did He do?",
+      "answer": "multitudes, He was accustomed, He taught them",
+      "type": "true_false",
+      "points": 3,
+      "originalIds": [
+        "41-010-001-001-18aeb9d0",
+        "41-010-001-001-b7fdb8d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-002-002-ab8a1f0e",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 10:2, what did the Pharisees ask Jesus?",
+      "answer": "Is it lawful for a man to divorce his wife?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-002-002-e50cc33f",
+        "41-010-002-002-f6d9b4a6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-002-002-545b7e18",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 10:2, who came and asked Jesus if it was lawful for a man to divorce his wife?",
+      "answer": "The Pharisees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-002-002-75b04c62"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-002-002-bf6488f0",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 10:2, why did the Pharisees ask Jesus about the lawfulness of divorce? (be specific)",
+      "answer": "testing Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-002-002-aea8c41a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-003-003-d0710828",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 10:3, what question did Jesus ask the Pharisees?",
+      "answer": "What did Moses command you?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-003-003-e0d0b0ff"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-003-003-d00a04bd",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 10:3, who answered the Pharisees?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-003-003-b3118f9b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-004-004-3fa671ce",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 10:4, what were the 2 things the Pharisees said Moses permitted a man to do regarding his wife? (be specific)",
+      "answer": "write a certificate of divorce, and to dismiss her",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-004-004-0c69fd2b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-004-004-c7fe1cca",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 10:4, who did the Pharisees say permitted a man to write a certificate of divorce?",
+      "answer": "Moses",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-004-004-e927da3e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-004-004-269e88fc",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "True or False: According to Mark 10:4, the Pharisees claimed Moses permitted a man to write a certificate of divorce and to dismiss her.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-010-004-004-5ca7dcfc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-005-005-1508b04d",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 10:5, what did he write to them and why? (be specific)",
+      "answer": "this precept, because of the hardness of your heart",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-005-005-a806c7d9",
+        "41-010-005-005-012ea6fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-005-005-10fc5bf4",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 10:5, who answered and spoke to them?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-005-005-a43fabe6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-005-005-e77c5063",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 10:5, why did he write this precept?",
+      "answer": "Because of the hardness of your heart",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-005-005-43173885"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-006-006-1fd31996",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 10:6, how did God make them? (be specific)",
+      "answer": "male and female",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-006-006-6626557f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-006-006-0437bf1b",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 10:6, when did God make them male and female?",
+      "answer": "from the beginning of the creation",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-010-006-006-834883e2",
+        "41-010-006-006-0437bf1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-006-006-51cd214c",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "True or False: According to Mark 10:6, God made them male and female.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-010-006-006-7540f896"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-007-007-f566e5ba",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 10:7, for what reason shall a man leave his father and mother?",
+      "answer": "to be joined to his wife",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-007-007-599672ca",
+        "41-010-007-007-9e2fbfc3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-007-007-f3b8d662",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 10:7, to whom shall a man be joined?",
+      "answer": "his wife",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-007-007-b7d92686"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-007-007-e8ffafe5",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 10:7, who shall a man leave and why?",
+      "answer": "his father and mother, to be joined to his wife",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-010-007-007-fcf5fa1f",
+        "41-010-007-007-c62b75f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-008-008-7bb8d80c",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 10:8, what are the they no longer?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-010-008-008-91b4d9ac",
+        "41-010-008-008-0f8e207e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-008-008-0c6b11f4",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 10:8, what were they, what do they become, what are they now?",
+      "answer": "two, one flesh, one flesh",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-010-008-008-30b4cac2",
+        "41-010-008-008-e5eb5030"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-008-008-f22571fe",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 10:8, what shall the they become? (be specific)",
+      "answer": "one flesh",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-008-008-1cc9f006",
+        "41-010-008-008-dca5ad74"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-009-009-42caa90a",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 10:6-9, what has God joined together?",
+      "answer": "male and female (man and wife) (man and woman)",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-009-009-68ae8e4b",
+        "41-010-009-009-cda6fb82"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-009-009-05afcdd3",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 10:9, who joined them together, let not what separate it?",
+      "answer": "God, man",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-009-009-36c0136c",
+        "41-010-009-009-602c4438"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-009-009-85545f45",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 10:9, who should not separate what God has joined together?",
+      "answer": "man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-009-009-8fea2dc0",
+        "41-010-009-009-85545f45"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-010-010-1845d0cc",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 10:10, what did the disciples ask Him about and where were they?",
+      "answer": "the same matter, in the house",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-010-010-c19fc946",
+        "41-010-010-010-61ba9ca6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-010-010-314fd13d",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 10:10, where did the disciples ask Him again about the same matter?",
+      "answer": "In the house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-010-010-4e2a053b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-010-010-0bd8cae5",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 10:10, who asked Him again about the same matter?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-010-010-78200862"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-011-011-b5127239",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 10:11, what are the two actions a man performs that result in committing adultery against his wife? (be specific)",
+      "answer": "divorces his wife and marries another",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-011-011-9fa9c07e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-011-011-e80881e5",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 10:11, what does Jesus say a man does if he divorces his wife and marries another, against who?",
+      "answer": "commits adultery, against her",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-011-011-ccac46e7",
+        "41-010-011-011-4913f60c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-011-011-fd9b7c79",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "True or False: According to Mark 10:11, He said that whoever divorces his wife and marries another commits adultery against her.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-010-011-011-648cfd65"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-012-012-36f2ac82",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 10:12, what are the two actions a woman performs that result in her committing adultery? (be specific)",
+      "answer": "divorces her husband and marries another",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-012-012-335af1c3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-012-012-cd52ac46",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 10:12, what does Jesus say a woman does if she divorces her husband and marries another?",
+      "answer": "commits adultery",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-012-012-7a2b0e3e",
+        "41-010-012-012-a9992024"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-012-012-40317973",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 10:12, who commits adultery if she divorces her husband and marries another?",
+      "answer": "a woman",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-012-012-6d4f0c8d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-013-013-9d4413cd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 10:13, what was brought, why, who rebuked, and who did they rebuke?",
+      "answer": "little children, He might touch them, the disciples, those who brought them (those who brought the little children)",
+      "type": "who",
+      "points": 4,
+      "originalIds": [
+        "41-010-013-013-6081c043",
+        "41-010-013-013-e69ae831"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-013-013-ed7accfa",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 10:13, who was brought to Jesus?",
+      "answer": "little children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-013-013-819b5571"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-013-013-d2301b39",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 10:13, why did they bring little children to Him?",
+      "answer": "that He might touch them",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-013-013-26488be1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-014-014-78eb3b96",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 10:14, how did Jesus feel when He saw the disciples rebuking those who brought the children?",
+      "answer": "greatly displeased",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-010-014-014-d9ec86a9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-014-014-da9a4f0d",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 10:14, what were the two commands Jesus gave regarding the children? (be specific)",
+      "answer": "Let the little children come to Me, and do not forbid them",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-014-014-dab958c2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-014-014-3ef5a9c3",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 10:14, why should the children be allowed to come to Jesus?",
+      "answer": "for of such is the kingdom of God",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-014-014-16f89bd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-015-015-d3c89315",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 10:15, how must one receive the kingdom of God?",
+      "answer": "as a little child",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-015-015-880aa255"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-015-015-ebf7944f",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 10:15, what will happen to the person who does not receive the kingdom of God as a little child?",
+      "answer": "will by no means enter it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-015-015-9d006833"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-016-016-730c0162",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 10:16, what are the three actions Jesus took toward the children? (be specific)",
+      "answer": "took them up in His arms, laid His hands on them, and blessed them",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-010-016-016-3639d4e1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-017-017-a4054d45",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 10:17, what question did the man ask Jesus?",
+      "answer": "Good Teacher, what shall I do that I may inherit eternal life?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-017-017-5c6716e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-017-017-f911c214",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 10:17, what three actions did the man perform when he came to Jesus? (be specific)",
+      "answer": "running, knelt before Him, and asked Him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-010-017-017-2353e857"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-017-017-300c50f3",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 10:17, where was Jesus going when someone came running to Him?",
+      "answer": "out on the road",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-017-017-f66b761c",
+        "41-010-017-017-fd65abf2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-018-018-a8ce28c9",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 10:18, what question did Jesus ask the man and what reason did He give for His rhetorical question?",
+      "answer": "Why do you call Me good? No one is good but One, that is, God",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-010-018-018-6f0961ca",
+        "41-010-018-018-7d9c72fa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-018-018-ec9913c4",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 10:18, who did Jesus say is the only one who is good?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-018-018-7dac1590"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-019-019-252c9ffd",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 10:19, how many specific commandments did Jesus list to the man?",
+      "answer": "6",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-010-019-019-7365104c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-019-019-3155d669",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 10:19, list the six commandments Jesus mentioned to the man. (be specific)",
+      "answer": "Do not commit adultery, Do not murder, Do not steal, Do not bear false witness, Do not defraud, Honor your father and your mother",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-010-019-019-d4776989"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-020-020-1b453251",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 10:20, how did the man address Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-020-020-e61f50c9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-020-020-bbd3905e",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 10:20, since when did the man claim to have kept the commandments?",
+      "answer": "from my youth",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-010-020-020-31b36bf7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-021-021-c078457f",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 10:21, how many things did Jesus say the man lacked?",
+      "answer": "One",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-010-021-021-92674876"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-021-021-d166b04b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 10:21, what commands did Jesus give the man?",
+      "answer": "Go your way, sell whatever you have, give to the poor, come, take up the cross, follow Me",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-021-021-b8868449",
+        "41-010-021-021-c7bb4b29"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-021-021-3a7984ed",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 10:21, what did Jesus do when looking at the man?",
+      "answer": "loved him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-021-021-1222d45a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-021-021-91e61348",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 10:21, what two actions did Jesus tell the man to take after selling what he had?",
+      "answer": "take up the cross, and follow Me",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-021-021-9564d9ba"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-021-021-ad81901b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 10:21, what was the direct result of selling whatever he had and give to the poor?",
+      "answer": "you will have treasure in heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-021-021-f7ca967b",
+        "41-010-021-021-d0fcf49b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-022-022-bd5bd8d4",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 10:22, how did the man feel at the word Jesus spoke?",
+      "answer": "sad",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-022-022-10dfb710"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-022-022-d8fcaf09",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 10:22, how did the man go away?",
+      "answer": "sorrowful",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-022-022-9268a749"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-022-022-b0106ba6",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 10:22, what was the reason the man went away sorrowful? (be specific)",
+      "answer": "for he had great possessions",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-010-022-022-9149d46c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-023-023-4f2053ce",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 10:23, to whom did Jesus speak after doing what?",
+      "answer": "His disciples, looking around",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-010-023-023-ca9cca3f",
+        "41-010-023-023-b8a36f96"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-023-023-22bff47a",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 10:23, what did Jesus do before He spoke to His disciples?",
+      "answer": "looked around",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-023-023-38d08a97"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-023-023-82e5fe08",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 10:23, Jesus declard it was what for those who have what to enter what? (be spacific)",
+      "answer": "hard, riches, kingdom of God",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-010-023-023-9c3a43a4",
+        "41-010-023-023-cfe905ee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-024-024-7aef06ce",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 10:24, what term of endearment did Jesus use when addressing the disciples?",
+      "answer": "Children",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-024-024-4155a7b8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-024-024-827d0a96",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 10:24, what was the reaction of the disciples to Jesus' words?",
+      "answer": "astonished",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-024-024-878a663b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-024-024-dea53721",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 10:24, who did Jesus say it is hard for to enter the kingdom of God?",
+      "answer": "those who trust in riches",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-024-024-319c9bce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-025-025-1816c0af",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 10:25, what animal is used to illustrate how hard it is for a rich man to enter the kingdom of God?",
+      "answer": "a camel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-025-025-51a1becd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-025-025-7a96dada",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 10:25, what is compared to a camel going through the eye of a needle? (be specific)",
+      "answer": "for a rich man to enter the kingdom of God",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-025-025-8159bd1f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-025-025-846aed5e",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 10:25, it is harder for a what to do what than for what to do what?",
+      "answer": "a rich man, enter the kingdom of God, a camel, go through the eye of a needle",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-010-025-025-ddb580ac",
+        "41-010-025-025-a6838fbf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-026-026-b671022b",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 10:26, how were those who heard Jesus' words described as feeling?",
+      "answer": "greatly astonished",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-026-026-beaca39c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-026-026-52ee044d",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 10:26, what question did they ask among themselves?",
+      "answer": "Who then can be saved?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-026-026-db4f25b6",
+        "41-010-026-026-52ee044d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-026-026-7645e576",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 10:26, where did those who were astonished say the question, “Who then can be saved?”",
+      "answer": "among themselves",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-026-026-7c4fa8cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-027-027-9b8b4938",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 10:27, what did Jesus do before he spoke to them?",
+      "answer": "looked at them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-027-027-dfd4551b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-027-027-75938c75",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 10:27, Jesus did what to them before He said it is what, but with what, what is possible?",
+      "answer": "looked at them, impossible, God, all things",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-010-027-027-80bbb88f",
+        "41-010-027-027-9b032355"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-027-027-68b26d78",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 10:27, what statement did Jesus make regarding what is possible with God? (be specific)",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-027-027-23cdad42",
+        "41-010-027-027-12893556"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-027-027-1a60bacc",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 10:27, with whom is it impossible, but with who is what possible?",
+      "answer": "men, God, all things",
+      "type": "who",
+      "points": 3,
+      "originalIds": [
+        "41-010-027-027-66d50cd1",
+        "41-010-027-027-c9efdcb0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-028-028-237f3baa",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 10:28, what did Peter claim they had done?",
+      "answer": "left all and followed You",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-028-028-051b29a7",
+        "41-010-028-028-237f3baa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-028-028-8eef2ccb",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 10:28, Peter said they had left what and followed what?",
+      "answer": "all, You",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-028-028-194304a9",
+        "41-010-028-028-e7a10bc8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-028-028-732ee5c1",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 10:28, who began to speak to Jesus?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-028-028-257cd773"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-029-029-3ea9d2f3",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 10:29, for whose sake and for what reason does one leave their family and lands?",
+      "answer": "My sake and the gospel’s",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-010-029-029-4f43952a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-029-029-d238c033",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 10:29, what phrase did Jesus use to introduce His statement to emphasize it was true?",
+      "answer": "Assuredly, I say to you",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-029-029-14203cc8",
+        "41-010-029-029-bf5b4b88"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-029-029-192ab7b5",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 10:29, list the things that one may have left for the sake of Jesus and the gospel.",
+      "answer": "house, brothers, sisters, father, mother, wife, children, lands",
+      "type": "list",
+      "points": 8,
+      "originalIds": [
+        "41-010-029-029-7c8b633e",
+        "41-010-029-029-fd97c717"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-030-030-04512852",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 10:30, how much will one receive in this time?",
+      "answer": "a hundredfold",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-010-030-030-b46b543f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-030-030-86667385",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 10:30, name the things one will receive a hundredfold in this time, and with what.",
+      "answer": "houses, brothers, sisters, mothers, children, lands, persecutions",
+      "type": "list",
+      "points": 7,
+      "originalIds": [
+        "41-010-030-030-d767e840",
+        "41-010-030-030-520cc9d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-030-030-38c8ba6b",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 10:30, what is included with the houses, brothers, sisters, mothers, children, and lands received in this time?",
+      "answer": "persecutions",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-030-030-b6a6035b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-030-030-955c9c78",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 10:30, what will one receive in the age to come?",
+      "answer": "eternal life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-030-030-ef6112fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-031-031-1e13b0a1",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 10:31, what will happen to many who are first?",
+      "answer": "will be last",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-031-031-d98885e3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-031-031-ca675f15",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 10:31, what will happen to many who are last?",
+      "answer": "first",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-031-031-ecb33bf4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-0765e031",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, what were the two emotional states of those going before him and those follwoing him?",
+      "answer": "amazed and afraid",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-010-032-032-daa2e7bf",
+        "41-010-032-032-c277c35a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-27c166d1",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, what did Jesus begin to do after taking the twelve aside?",
+      "answer": "began to tell them the things that would happen to Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-032-032-8593d5fd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-375b1703",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, what was the emotional reaction of those who saw Jesus going before them?",
+      "answer": "they were amazed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-032-032-6526b564"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-121161c1",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, where were they going as they traveled on the road?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-032-032-aea0f2f8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-6ee6a78d",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, who did Jesus take aside again to tell them what would happen to Him? (be specific)",
+      "answer": "the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-032-032-9f8fba11"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-032-032-fd93a00c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, who was going before the group on the road?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-032-032-346224e6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-033-033-0399aaa9",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, to whom will the Son of Man be betrayed (be specific)?",
+      "answer": "the chief priests and to the scribes",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-033-033-96e576ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-033-033-cdaa561f",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, what will the chief priests and scribes do to the Son of Man?",
+      "answer": "condemn Him to death and deliver Him to the Gentiles",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-033-033-ed277915"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-033-033-b374c51c",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, where are they going?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-033-033-fcd5ac7c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-033-033-ac3d409e",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, who will be betrayed to the chief priests and scribes? (be specific)",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-033-033-a9795e19",
+        "41-010-033-033-d25b1559"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-034-034-d8681b46",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 10:34, list 4 things the people will do to Him.",
+      "answer": "mock Him, and scourge Him, and spit on Him, and kill Him",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-010-034-034-2201dc92"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-034-034-72d9bb2f",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 10:34, what will happen after the kill Him and whn?",
+      "answer": "rise again, third day",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-034-034-48a7b46b",
+        "41-010-034-034-9a449f3f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-034-034-911ddaed",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 10:34, when will He rise again?",
+      "answer": "the third day",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-010-034-034-72e17993",
+        "41-010-034-034-366e9472"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-035-035-8fffaac5",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 10:35, what did James and John call Jesus?",
+      "answer": "Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-035-035-1dfd458f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-035-035-ebafae3d",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 10:35, what did the sons of Zebedee want Jesus to do for them? (be specific)",
+      "answer": "whatever we ask",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-035-035-f6d38fc2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-035-035-e52d4205",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 10:35, who came to Jesus, under what name, with what relationship?",
+      "answer": "James and John, Zebedee, sons",
+      "type": "who",
+      "points": 4,
+      "originalIds": [
+        "41-010-035-035-7062be1a",
+        "41-010-035-035-7108c183"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-035-035-28ad5853",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "True or False: According to Mark 10:35, James and John were the sons of Zebedee.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-010-035-035-fc61ecb6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-036-036-cda7f46d",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 10:35-36, to whome was Jesus ask the question, and what did He ask?",
+      "answer": "James and John, What do you want me to do for you?",
+      "type": "who",
+      "points": 3,
+      "originalIds": [
+        "41-010-036-036-f3213fc7",
+        "41-010-036-036-1336f0e7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-036-036-0402423b",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 10:36, what was the question Jesus asked the two men?",
+      "answer": "What do you want Me to do for you?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-036-036-bf58b800",
+        "41-010-036-036-0402423b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-037-037-3bc52c98",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 10:37, they requested to do what where in His what?",
+      "answer": "sit, left hand, right hand, in Your glory",
+      "type": "how_many",
+      "points": 4,
+      "originalIds": [
+        "41-010-037-037-754c750e",
+        "41-010-037-037-50ba9f9d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-037-037-a2963028",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 10:37, where did James and John request to sit on Jesus' right and left hands?",
+      "answer": "in Your glory",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-010-037-037-c0e22528",
+        "41-010-037-037-e8e28e3c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-037-037-83bd9130",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 10:37, what two locations did James and John request to sit in relation to Jesus? (be specific)",
+      "answer": "one on Your right hand and the other on Your left",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-037-037-9c0fc20c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-038-038-2e718a98",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 10:38, what did Jesus ask if they were able to be baptized with?",
+      "answer": "the baptism that I am baptized with",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-038-038-e04076db"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-038-038-112c3622",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 10:38, what did Jesus ask if they were able to drink?",
+      "answer": "the cup that I drink",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-038-038-4052bafd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-038-038-91de4da1",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 10:38, what did Jesus say the people did not know?",
+      "answer": "what you ask",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-038-038-7cfbd12c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-039-039-80e3b32a",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 10:39, what did Jesus say they would indeed drink?",
+      "answer": "the cup that I drink",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-039-039-a2b082df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-039-039-fdae45c5",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 10:39, what was the response of the disciples when asked if they were able?",
+      "answer": "We are able",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-039-039-a87a2394",
+        "41-010-039-039-fdae45c5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-039-039-a457ceb4",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 10:39, with what did Jesus say they would be baptized?",
+      "answer": "with the baptism I am baptized with",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-039-039-9f35f4da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-040-040-f464cc26",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 10:40, to do what, where, is not whose to give, but it is for who?",
+      "answer": "sit, on My right hand and on My left, Mine, those for whom it is prepared",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-040-040-0bbc22b1",
+        "41-010-040-040-3a934f8c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-040-040-33ff7c2d",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 10:40, for whom is it to sit on His right and left hand?",
+      "answer": "those for whom it is prepared",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-040-040-58d375f1",
+        "41-010-040-040-357dbc3c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-041-041-539d2b8b",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 10:41, how many people heard it and were displeased?",
+      "answer": "ten",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-010-041-041-7a9c4313"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-041-041-5c2977c0",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 10:41, what was the emotional reaction of the ten toward who?",
+      "answer": "greatly displeased, with James and John",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-010-041-041-0d4dcff8",
+        "41-010-041-041-3628c78d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-041-041-86132d43",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 10:41, with whom were the ten greatly displeased?",
+      "answer": "James and John",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-010-041-041-ea19ac0e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-042-042-e5acf5d5",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 10:42, what do the great ones of the Gentiles do to them?",
+      "answer": "exercise authority over them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-042-042-42802c3d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-042-042-ecbe1129",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 10:42, what do those considered rulers over the Gentiles do to them? (be specific)",
+      "answer": "lord it over them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-042-042-be8d0d0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-042-042-1545591e",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 10:42, who called the disciples to Himself?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-042-042-371e6224"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-043-043-b6b31821",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 10:43, what does Jesus state concerning the way things shall be among the disciples?",
+      "answer": "Yet it shall not be so among you",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-010-043-043-d364569e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-043-043-02b1127c",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 10:43, what must a person who desires to become great among the disciples be?",
+      "answer": "your servant",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-043-043-bf43a3fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-044-044-c2a29fb2",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 10:44, if you want to be first, what must you be?",
+      "answer": "slave of all",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-044-044-4a5baedc",
+        "41-010-044-044-ce8fe75e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-045-045-bdbc6b80",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 10:45, what two things did the Son of Man come to do, for what reason, for who? (be specific)",
+      "answer": "to serve, and to give His life, as a ransom, for many",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-010-045-045-5feaabb4",
+        "41-010-045-045-b5b66b0b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-045-045-c9eb042b",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 10:45, who did not come to be served?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-045-045-3ed14920"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-046-046-fb14baf6",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 10:46, what was blind Bartimaeus doing by the road (be specific)?",
+      "answer": "begging",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-046-046-ed0bfd17"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-046-046-1f2b51aa",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 10:46, where did they come to?",
+      "answer": "Jericho",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-046-046-feb51fd0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-046-046-210e764c",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 10:46, whose son sat by the road begging, what was his name, and what was his condition?",
+      "answer": "the son of Timaeus, Bartimaeus, blind",
+      "type": "who",
+      "points": 3,
+      "originalIds": [
+        "41-010-046-046-cd60f8da",
+        "41-010-046-046-7e350c1a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-046-046-0f897f1e",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 10:46, who went out of Jericho with Jesus?",
+      "answer": "His disciples and a great multitude",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-010-046-046-7251cdce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-047-047-5fb6f8ae",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 10:47, what did the man begin to do and when did he do it?",
+      "answer": "to cry out, when he heard that it was Jesus of Nazareth",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-047-047-8e5d7fd7",
+        "41-010-047-047-2e1162ce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-047-047-8bba52d2",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 10:47, what three things did the man say when he cried out (be specific)?",
+      "answer": "Jesus, Son of David, have mercy on me!",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-010-047-047-5905c22b",
+        "41-010-047-047-655900d0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-047-047-934555c7",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 10:47, whose arrival did the man hear about?",
+      "answer": "Jesus of Nazareth",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-047-047-bdf1ea88"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-048-048-4d8611a3",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 10:48, how did the man react to the warnings?",
+      "answer": "he cried out all the more",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-048-048-d49c3d66"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-048-048-edbc1d49",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 10:48, what did many people do to the man?",
+      "answer": "warned him to be quiet",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-048-048-88c04c77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-048-048-4682576e",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 10:48, what words did the man repeat when he cried out all the more?",
+      "answer": "Son of David, have mercy on me!",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-048-048-6c78a53b",
+        "41-010-048-048-4682576e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-049-049-c194245a",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 10:49, what did Jesus command regarding the blind man?",
+      "answer": "to be called",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-049-049-d74b8495"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-049-049-a1cc97f0",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 10:49, what two things did Jesus do?",
+      "answer": "stood still, commanded him to be called",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-049-049-b2cd3738",
+        "41-010-049-049-3079f23e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-049-049-2063fb82",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 10:49, what did they do to the blind man, what were the two commands, and why?",
+      "answer": "they called the blind man, Be of good cheer, Rise, He is calling you",
+      "type": "other",
+      "points": 4,
+      "originalIds": [
+        "41-010-049-049-9fd9233e",
+        "41-010-049-049-b92b8b58"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-050-050-1c86cdaa",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 10:50, what did the blind man do with his garment?",
+      "answer": "throwing aside his garment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-050-050-cd6c64af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-050-050-47f0f6a2",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 10:50, what were the two actions the blind man took after throwing aside his garment? (be specific)",
+      "answer": "he rose and came to Jesus",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-050-050-041117e2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-051-051-9c0d2fc1",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 10:51, what did the blind man request of Jesus?",
+      "answer": "that I may receive my sight",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-051-051-7cc49130"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-051-051-94583b16",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 10:51, what question did Jesus ask the blind man?",
+      "answer": "What do you want Me to do for you?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-051-051-530f7361"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-051-051-4e591438",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 10:51, what title did the blind man use to address Jesus?",
+      "answer": "Rabboni",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-051-051-455c23dd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-052-052-06673113",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 10:52, Jesus told the man to do what? Then Jesus said he would be made what by what? How soon after Jesus' words did he recieve what? What did he do last and where did he do it?",
+      "answer": "go on your way, well, faith, immediately, sight, followed Jesus, on the road",
+      "type": "how",
+      "points": 7,
+      "originalIds": [
+        "41-010-052-052-83728d19",
+        "41-010-052-052-5df82e82"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-052-052-17da8cc1",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 10:52, what did Jesus say had made the blind man well?",
+      "answer": "your faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-052-052-4487780a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-052-052-f7a10d66",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 10:52, what did Jesus tell the man to do?",
+      "answer": "Go your way",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-052-052-4830da1d",
+        "41-010-052-052-0752d738"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-010-052-052-5cfef4d8",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 10:52, what did the man do after receiving his sight and where?",
+      "answer": "followed Jesus on the road",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-052-052-e386d200",
+        "41-010-052-052-d774c58b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-010-001-001-d84cfe6f",
+      "41-010-001-001-815eb9c8",
+      "41-010-001-001-556d392c",
+      "41-010-001-001-6c213cf7",
+      "41-010-001-001-af5bb368"
+    ],
+    "2": [
+      "41-010-002-002-ab8a1f0e",
+      "41-010-002-002-545b7e18",
+      "41-010-002-002-bf6488f0"
+    ],
+    "3": [
+      "41-010-003-003-d0710828",
+      "41-010-003-003-d00a04bd"
+    ],
+    "4": [
+      "41-010-004-004-3fa671ce",
+      "41-010-004-004-c7fe1cca",
+      "41-010-004-004-269e88fc"
+    ],
+    "5": [
+      "41-010-005-005-1508b04d",
+      "41-010-005-005-10fc5bf4",
+      "41-010-005-005-e77c5063"
+    ],
+    "6": [
+      "41-010-006-006-1fd31996",
+      "41-010-006-006-0437bf1b",
+      "41-010-006-006-51cd214c"
+    ],
+    "7": [
+      "41-010-007-007-f566e5ba",
+      "41-010-007-007-f3b8d662",
+      "41-010-007-007-e8ffafe5"
+    ],
+    "8": [
+      "41-010-008-008-7bb8d80c",
+      "41-010-008-008-0c6b11f4",
+      "41-010-008-008-f22571fe"
+    ],
+    "9": [
+      "41-010-009-009-42caa90a",
+      "41-010-009-009-05afcdd3",
+      "41-010-009-009-85545f45"
+    ],
+    "10": [
+      "41-010-010-010-1845d0cc",
+      "41-010-010-010-314fd13d",
+      "41-010-010-010-0bd8cae5"
+    ],
+    "11": [
+      "41-010-011-011-b5127239",
+      "41-010-011-011-e80881e5",
+      "41-010-011-011-fd9b7c79"
+    ],
+    "12": [
+      "41-010-012-012-36f2ac82",
+      "41-010-012-012-cd52ac46",
+      "41-010-012-012-40317973"
+    ],
+    "13": [
+      "41-010-013-013-9d4413cd",
+      "41-010-013-013-ed7accfa",
+      "41-010-013-013-d2301b39"
+    ],
+    "14": [
+      "41-010-014-014-78eb3b96",
+      "41-010-014-014-da9a4f0d",
+      "41-010-014-014-3ef5a9c3"
+    ],
+    "15": [
+      "41-010-015-015-d3c89315",
+      "41-010-015-015-ebf7944f"
+    ],
+    "16": [
+      "41-010-016-016-730c0162"
+    ],
+    "17": [
+      "41-010-017-017-a4054d45",
+      "41-010-017-017-f911c214",
+      "41-010-017-017-300c50f3"
+    ],
+    "18": [
+      "41-010-018-018-a8ce28c9",
+      "41-010-018-018-ec9913c4"
+    ],
+    "19": [
+      "41-010-019-019-252c9ffd",
+      "41-010-019-019-3155d669"
+    ],
+    "20": [
+      "41-010-020-020-1b453251",
+      "41-010-020-020-bbd3905e"
+    ],
+    "21": [
+      "41-010-021-021-c078457f",
+      "41-010-021-021-d166b04b",
+      "41-010-021-021-3a7984ed",
+      "41-010-021-021-91e61348",
+      "41-010-021-021-ad81901b"
+    ],
+    "22": [
+      "41-010-022-022-bd5bd8d4",
+      "41-010-022-022-d8fcaf09",
+      "41-010-022-022-b0106ba6"
+    ],
+    "23": [
+      "41-010-023-023-4f2053ce",
+      "41-010-023-023-22bff47a",
+      "41-010-023-023-82e5fe08"
+    ],
+    "24": [
+      "41-010-024-024-7aef06ce",
+      "41-010-024-024-827d0a96",
+      "41-010-024-024-dea53721"
+    ],
+    "25": [
+      "41-010-025-025-1816c0af",
+      "41-010-025-025-7a96dada",
+      "41-010-025-025-846aed5e"
+    ],
+    "26": [
+      "41-010-026-026-b671022b",
+      "41-010-026-026-52ee044d",
+      "41-010-026-026-7645e576"
+    ],
+    "27": [
+      "41-010-027-027-9b8b4938",
+      "41-010-027-027-75938c75",
+      "41-010-027-027-68b26d78",
+      "41-010-027-027-1a60bacc"
+    ],
+    "28": [
+      "41-010-028-028-237f3baa",
+      "41-010-028-028-8eef2ccb",
+      "41-010-028-028-732ee5c1"
+    ],
+    "29": [
+      "41-010-029-029-3ea9d2f3",
+      "41-010-029-029-d238c033",
+      "41-010-029-029-192ab7b5"
+    ],
+    "30": [
+      "41-010-030-030-04512852",
+      "41-010-030-030-86667385",
+      "41-010-030-030-38c8ba6b",
+      "41-010-030-030-955c9c78"
+    ],
+    "31": [
+      "41-010-031-031-1e13b0a1",
+      "41-010-031-031-ca675f15"
+    ],
+    "32": [
+      "41-010-032-032-0765e031",
+      "41-010-032-032-27c166d1",
+      "41-010-032-032-375b1703",
+      "41-010-032-032-121161c1",
+      "41-010-032-032-6ee6a78d",
+      "41-010-032-032-fd93a00c"
+    ],
+    "33": [
+      "41-010-033-033-0399aaa9",
+      "41-010-033-033-cdaa561f",
+      "41-010-033-033-b374c51c",
+      "41-010-033-033-ac3d409e"
+    ],
+    "34": [
+      "41-010-034-034-d8681b46",
+      "41-010-034-034-72d9bb2f",
+      "41-010-034-034-911ddaed"
+    ],
+    "35": [
+      "41-010-035-035-8fffaac5",
+      "41-010-035-035-ebafae3d",
+      "41-010-035-035-e52d4205",
+      "41-010-035-035-28ad5853"
+    ],
+    "36": [
+      "41-010-036-036-cda7f46d",
+      "41-010-036-036-0402423b"
+    ],
+    "37": [
+      "41-010-037-037-3bc52c98",
+      "41-010-037-037-a2963028",
+      "41-010-037-037-83bd9130"
+    ],
+    "38": [
+      "41-010-038-038-2e718a98",
+      "41-010-038-038-112c3622",
+      "41-010-038-038-91de4da1"
+    ],
+    "39": [
+      "41-010-039-039-80e3b32a",
+      "41-010-039-039-fdae45c5",
+      "41-010-039-039-a457ceb4"
+    ],
+    "40": [
+      "41-010-040-040-f464cc26",
+      "41-010-040-040-33ff7c2d"
+    ],
+    "41": [
+      "41-010-041-041-539d2b8b",
+      "41-010-041-041-5c2977c0",
+      "41-010-041-041-86132d43"
+    ],
+    "42": [
+      "41-010-042-042-e5acf5d5",
+      "41-010-042-042-ecbe1129",
+      "41-010-042-042-1545591e"
+    ],
+    "43": [
+      "41-010-043-043-b6b31821",
+      "41-010-043-043-02b1127c"
+    ],
+    "44": [
+      "41-010-044-044-c2a29fb2"
+    ],
+    "45": [
+      "41-010-045-045-bdbc6b80",
+      "41-010-045-045-c9eb042b"
+    ],
+    "46": [
+      "41-010-046-046-fb14baf6",
+      "41-010-046-046-1f2b51aa",
+      "41-010-046-046-210e764c",
+      "41-010-046-046-0f897f1e"
+    ],
+    "47": [
+      "41-010-047-047-5fb6f8ae",
+      "41-010-047-047-8bba52d2",
+      "41-010-047-047-934555c7"
+    ],
+    "48": [
+      "41-010-048-048-4d8611a3",
+      "41-010-048-048-edbc1d49",
+      "41-010-048-048-4682576e"
+    ],
+    "49": [
+      "41-010-049-049-c194245a",
+      "41-010-049-049-a1cc97f0",
+      "41-010-049-049-2063fb82"
+    ],
+    "50": [
+      "41-010-050-050-1c86cdaa",
+      "41-010-050-050-47f0f6a2"
+    ],
+    "51": [
+      "41-010-051-051-9c0d2fc1",
+      "41-010-051-051-94583b16",
+      "41-010-051-051-4e591438"
+    ],
+    "52": [
+      "41-010-052-052-06673113",
+      "41-010-052-052-17da8cc1",
+      "41-010-052-052-f7a10d66",
+      "41-010-052-052-5cfef4d8"
+    ]
+  }
+}

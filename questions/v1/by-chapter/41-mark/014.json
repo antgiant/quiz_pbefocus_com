@@ -1,0 +1,3945 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 14,
+  "questions": [
+    {
+      "id": "41-014-001-001-9fa2f8f4",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 14:1, by what means did the chief priests and scribes seek to take Him? (be specific)",
+      "answer": "trickery",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-001-001-9fa2f8f4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-001-001-fb2506f9",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 14:1, how much time passed after which it was the Passover and the Feast of Unleavened Bread?",
+      "answer": "two days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-001-001-fb2506f9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-001-001-c3c2eb56",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 14:1, what two feasts were occurring after two days?",
+      "answer": "Passover and the Feast of Unleavened Bread",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-001-001-c3c2eb56"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-001-001-44c009ff",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 14:1, what two groups of people sought how they might take Jesus by trickery and put Him to death?",
+      "answer": "the chief priests and the scribes",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-001-001-44c009ff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-002-002-67813c27",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 14:2, when did they decide not to take Him?",
+      "answer": "during the feast",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-002-002-67813c27"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-002-002-e8cd8e11",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 14:2, why did they say they should not take Him during the feast?",
+      "answer": "lest there be an uproar of the people",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-002-002-e8cd8e11"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-003-003-b6e47296",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, at whose house did the event take place?",
+      "answer": "Simon the leper",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-003-003-b6e47296"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-003-003-5627d3de",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, what did the woman do with the flask and the oil? (be specific)",
+      "answer": "she broke the flask and poured it on His head",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-003-003-5627d3de"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-003-003-10a8d523",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, what did the woman have with her?",
+      "answer": "an alabaster flask of very costly oil of spikenard",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-003-003-10a8d523"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-003-003-e11026fe",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, what was Jesus doing when the woman came?",
+      "answer": "sat at the table",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-003-003-e11026fe"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-003-003-7745779e",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, where was Jesus located?",
+      "answer": "Bethany",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-003-003-7745779e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-004-004-398de272",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 14:4, how did some react to the woman's actions?",
+      "answer": "they were indignant among themselves",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-004-004-398de272"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-004-004-b1216acc",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 14:4, what question did those who were indignant ask?",
+      "answer": "Why was this fragrant oil wasted?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-004-004-b1216acc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-005-005-a5b8bf53",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 14:5, for how much might the oil have been sold?",
+      "answer": "more than three hundred denarii",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-005-005-a5b8bf53"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-005-005-8a1cf4a5",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 14:5, how did they treat the woman?",
+      "answer": "they criticized her sharply",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-005-005-8a1cf4a5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-005-005-101166e7",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 14:5, to whom did the people suggest the money should have been given?",
+      "answer": "the poor",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-005-005-101166e7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-006-006-510e71be",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 14:6, what did Jesus tell those who were troubling the woman?",
+      "answer": "Let her alone",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-006-006-510e71be"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-006-006-c0facd79",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 14:6, what question did Jesus ask those who were troubling the woman?",
+      "answer": "Why do you trouble her?",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-006-006-c0facd79"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-006-006-fde4b086",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 14:6, why did Jesus tell the people not to trouble the woman?",
+      "answer": "She has done a good work for Me",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-006-006-fde4b086"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-007-007-cc428273",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 14:7, what is the reason given for why you cannot do the poor good at all times?",
+      "answer": "Me you do not have always",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-007-007-cc428273"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-007-007-2f722eea",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 14:7, when may you do the poor good?",
+      "answer": "whenever you wish",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-007-007-2f722eea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-007-007-eb4f6de8",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 14:7, who do you have with you always?",
+      "answer": "the poor",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-007-007-eb4f6de8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-008-008-3ae2c69d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 14:8, what did the woman do regarding her ability?",
+      "answer": "She has done what she could",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-008-008-3ae2c69d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-008-008-06de6762",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 14:8, why has she come beforehand?",
+      "answer": "to anoint My body for burial",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-014-008-008-06de6762"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-009-009-54b39115",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 14:9, how will what the woman has done be remembered?",
+      "answer": "as a memorial to her",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-009-009-54b39115"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-009-009-90a04101",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 14:9, what phrase introduces Jesus' statement?",
+      "answer": "Assuredly, I say to you",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-009-009-90a04101"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-009-009-5121bd92",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 14:9, where will what the woman has done be told as a memorial to her? (be specific)",
+      "answer": "wherever this gospel is preached in the whole world",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-009-009-5121bd92"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-010-010-782c3d52",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 14:10, how many of the twelve went to the chief priests to betray Jesus?",
+      "answer": "one",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-010-010-782c3d52"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-010-010-89a62796",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 14:10, to whom did Judas Iscariot go to betray Jesus?",
+      "answer": "the chief priests",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-010-010-89a62796"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-010-010-569203e9",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 14:10, what was the purpose of Judas Iscariot going to the chief priests? (be specific)",
+      "answer": "to betray Him to them",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-014-010-010-569203e9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-010-010-07e04517",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 14:10, who went to the chief priests?",
+      "answer": "Judas Iscariot",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-010-010-07e04517"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-011-011-343958d8",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 14:11, how did the chief priests react when they heard Judas's offer?",
+      "answer": "they were glad",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-011-011-343958d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-011-011-16f8cd9a",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 14:11, what did Judas seek after the chief priests promised him money?",
+      "answer": "how he might conveniently betray Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-011-011-16f8cd9a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-011-011-298854b7",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 14:11, what did the chief priests promise to give Judas?",
+      "answer": "money",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-011-011-298854b7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-012-012-136430f6",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 14:12, what action were they doing on the first day of Unleavened Bread?",
+      "answer": "they killed the Passover lamb",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-012-012-136430f6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-012-012-6800b48d",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 14:12, what day was it when the disciples asked Jesus where to prepare the Passover?",
+      "answer": "the first day of Unleavened Bread",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-012-012-6800b48d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-012-012-aed0998e",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 14:12, what question did the disciples ask Jesus?",
+      "answer": "Where do You want us to go and prepare, that You may eat the Passover?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-012-012-aed0998e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-013-013-704d446a",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 14:13, how many disciples did Jesus send out?",
+      "answer": "two",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-013-013-704d446a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-013-013-fbe90774",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 14:13, what did Jesus tell the disciples to do after they met the man carrying a pitcher of water?",
+      "answer": "follow him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-013-013-fbe90774"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-013-013-97611db6",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 14:13, what would the man the disciples meet be carrying?",
+      "answer": "a pitcher of water",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-013-013-97611db6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-013-013-4d262f3e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 14:13, where did Jesus tell the two disciples to go?",
+      "answer": "into the city",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-013-013-4d262f3e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-014-014-2ad6a583",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 14:14, to whom were the disciples to speak once they followed the man into a house?",
+      "answer": "the master of the house",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-014-014-2ad6a583"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-014-014-bd9aa6df",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 14:14, what specific question were the disciples to ask the master of the house? (be specific)",
+      "answer": "Where is the guest room in which I may eat the Passover with My disciples?",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-014-014-014-bd9aa6df"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-014-014-7f541da7",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 14:14, what title did Jesus tell the disciples to use when referring to Himself?",
+      "answer": "The Teacher",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-014-014-7f541da7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-015-015-423863fa",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 14:15, how was the large upper room described?",
+      "answer": "furnished and prepared",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-015-015-423863fa"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-015-015-e99e6e72",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 14:15, what were the disciples instructed to do in the large upper room?",
+      "answer": "make ready for us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-015-015-e99e6e72"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-015-015-176903d2",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 14:15, what will the master of the house show the disciples?",
+      "answer": "a large upper room",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-015-015-176903d2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-016-016-9b7548ee",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 14:16, how did the disciples find things once they arrived?",
+      "answer": "just as He had said to them",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-016-016-9b7548ee"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-016-016-2f7fd2ce",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 14:16, what did the disciples prepare?",
+      "answer": "the Passover",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-016-016-2f7fd2ce"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-016-016-7e886025",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 14:16, where did the disciples go?",
+      "answer": "into the city",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-016-016-7e886025"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-017-017-aab6b738",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 14:17, how many disciples came with Him?",
+      "answer": "the twelve",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-017-017-aab6b738"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-017-017-9709a010",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 14:17, when did He come with the twelve?",
+      "answer": "In the evening",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-017-017-9709a010"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-017-017-7cd018bb",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 14:17, who came with the twelve?",
+      "answer": "He",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-017-017-7cd018bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-018-018-d0709980",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 14:18, what did Jesus say would happen to one who eats with Him?",
+      "answer": "one of you who eats with Me will betray Me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-018-018-d0709980"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-018-018-3c040b12",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 14:18, what introductory phrase did Jesus use before stating one would betray Him?",
+      "answer": "Assuredly, I say to you",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-018-018-3c040b12"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-018-018-95a8bf44",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 14:18, what were they doing when Jesus spoke?",
+      "answer": "sat and ate",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-018-018-95a8bf44"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-019-019-d273be30",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 14:19, what did the disciples begin to feel after Jesus' statement?",
+      "answer": "sorrowful",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-019-019-d273be30"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-019-019-5f18963a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 14:19, what two questions were asked of Him one by one (be specific)?",
+      "answer": "Is it I? And another said, Is it I?",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-019-019-5f18963a"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-020-020-5fea338b",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 14:20, from what group does the betrayer come?",
+      "answer": "one of the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-020-020-5fea338b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-020-020-175787dd",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 14:20, how did Jesus identify the betrayer among the twelve?",
+      "answer": "who dips with Me in the dish",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-020-020-175787dd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-021-021-a00bfe11",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 14:21, how does the Son of Man go?",
+      "answer": "just as it is written of Him",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-021-021-a00bfe11"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-021-021-f3d90390",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 14:21, what does Jesus pronounce upon the man by whom the Son of Man is betrayed?",
+      "answer": "woe",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-021-021-f3d90390"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-021-021-2d202899",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 14:21, what does the text say would have been good for the man who betrays the Son of Man?",
+      "answer": "It would have been good for that man if he had never been born",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-021-021-2d202899"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-022-022-e213a85a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 14:22, what did Jesus do with the bread after He took it? (be specific)",
+      "answer": "blessed and broke it",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-022-022-e213a85a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-022-022-c484c82f",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 14:22, what did Jesus say to them after giving them the bread?",
+      "answer": "Take, eat; this is My body.",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-022-022-c484c82f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-022-022-7452d5c5",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 14:22, what were they doing when Jesus took bread?",
+      "answer": "eating",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-022-022-7452d5c5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-023-023-8fdd5312",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 14:23, what did Jesus do before giving the cup to them?",
+      "answer": "when He had given thanks",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-023-023-8fdd5312"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-023-023-0c29748c",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 14:23, what did Jesus take after He had given the bread?",
+      "answer": "the cup",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-023-023-0c29748c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-023-023-58cd19a2",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 14:23, what did they do with the cup that Jesus gave them?",
+      "answer": "they all drank from it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-023-023-58cd19a2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-024-024-6c85aa0b",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 14:24, for whom is the blood of the new covenant shed?",
+      "answer": "many",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-024-024-6c85aa0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-024-024-bfa1d8dd",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 14:24, what did Jesus call the contents of the cup?",
+      "answer": "This is My blood of the new covenant",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-024-024-bfa1d8dd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-025-025-d8de510d",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 14:25, how does Jesus begin His statement?",
+      "answer": "Assuredly, I say to you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-025-025-d8de510d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-025-025-73687559",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 14:25, until when will Jesus no longer drink of the fruit of the vine? (be specific)",
+      "answer": "until that day when I drink it new in the kingdom of God",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-014-025-025-73687559"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-025-025-4cfa4018",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 14:25, what will Jesus no longer drink?",
+      "answer": "the fruit of the vine",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-025-025-4cfa4018"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-026-026-b204fdb4",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 14:26, to what location did they go after singing a hymn? (be specific)",
+      "answer": "the Mount of Olives",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-026-026-b204fdb4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-026-026-c31df54e",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 14:26, what did they do before going out to the Mount of Olives?",
+      "answer": "sung a hymn",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-026-026-c31df54e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-026-026-eeee2e92",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "True or False: According to Mark 14:26, after they had sung a hymn, they went out to the Mount of Olives.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-014-026-026-eeee2e92"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-027-027-f7c9306b",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 14:27, what is written regarding the Shepherd?",
+      "answer": "I will strike the Shepherd, And the sheep will be scattered",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-027-027-f7c9306b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-027-027-3eb1123a",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 14:27, what will happen to all of them because of Jesus this night?",
+      "answer": "made to stumble",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-027-027-3eb1123a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-027-027-642b8704",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 14:27, who said to them, 'All of you will be made to stumble because of Me this night'?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-027-027-642b8704"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-028-028-0113383c",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 14:28, what event must happen before Jesus goes to Galilee?",
+      "answer": "after I have been raised",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-028-028-0113383c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-028-028-0c61c343",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 14:28, what will Jesus do in relation to the disciples in Galilee?",
+      "answer": "go before you",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-028-028-0c61c343"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-028-028-ec823f82",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 14:28, where will Jesus go after He has been raised?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-028-028-ec823f82"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-029-029-8d030a49",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 14:29, what did Peter say even if all are made to stumble?",
+      "answer": "yet I will not be",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-029-029-8d030a49"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-029-029-f399796f",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 14:29, who spoke to Jesus about not being made to stumble?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-029-029-f399796f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-030-030-789061ff",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 14:30, how many times will Peter deny Jesus?",
+      "answer": "three times",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-030-030-789061ff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-030-030-8554f4e8",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 14:30, what must happen before Peter denies Jesus three times? (be specific)",
+      "answer": "before the rooster crows twice",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-014-030-030-8554f4e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-030-030-971ef6f2",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 14:30, when did Jesus say this denial would occur?",
+      "answer": "today, even this night",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-014-030-030-971ef6f2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-031-031-4c8c85f4",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 14:31, how did Peter speak when he said, 'If I have to die with You, I will not deny You!'?",
+      "answer": "more vehemently",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-031-031-4c8c85f4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-031-031-c149df4f",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 14:31, what condition did Peter state that led him to say he would not deny Jesus?",
+      "answer": "If I have to die with You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-031-031-c149df4f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-031-031-5838d2c3",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 14:31, who else said likewise to Jesus' prediction?",
+      "answer": "they all",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-031-031-5838d2c3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-032-032-4d55fc04",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 14:32, what instruction did Jesus give His disciples when they arrived at the place named Gethsemane?",
+      "answer": "Sit here while I pray",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-032-032-4d55fc04"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-032-032-7ba61b3f",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 14:32, what was the name of the place they came to?",
+      "answer": "Gethsemane",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-032-032-7ba61b3f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-033-033-4ab0dc9a",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 14:33, name the 3 disciples whom Jesus took with Him.",
+      "answer": "Peter, James, and John",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-033-033-4ab0dc9a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-033-033-40e5aad0",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 14:33, what two states of emotion did Jesus begin to experience after taking His disciples with Him? (be specific)",
+      "answer": "troubled and deeply distressed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-033-033-40e5aad0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-034-034-9d830d93",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 14:34, how did Jesus describe the state of His soul to the disciples?",
+      "answer": "exceedingly sorrowful, even to death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-034-034-9d830d93"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-034-034-5623f9a3",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 14:34, what two instructions did Jesus give the disciples after describing the state of His soul?",
+      "answer": "Stay here and watch",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-034-034-5623f9a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-035-035-4d1ff0f9",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 14:35, what did He pray for regarding the hour?",
+      "answer": "that if it were possible, the hour might pass from Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-035-035-4d1ff0f9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-035-035-5401a601",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 14:35, where did He fall?",
+      "answer": "on the ground",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-035-035-5401a601"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-035-035-ce529f72",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 14:35, where did He go after leaving the others?",
+      "answer": "a little farther",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-035-035-ce529f72"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-036-036-94ab3ed7",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 14:36, by what two names did He call the Father?",
+      "answer": "Abba, Father",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-036-036-94ab3ed7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-036-036-1cf995e7",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 14:36, what did He ask to be taken away from Him? (be specific)",
+      "answer": "this cup",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-036-036-1cf995e7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-036-036-9b3f24d8",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 14:36, what did He say was possible for the Father?",
+      "answer": "all things",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-036-036-9b3f24d8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-036-036-a3c8e7fb",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 14:36, what two wills were contrasted in His prayer? (be specific)",
+      "answer": "not what I will, but what You will",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-036-036-a3c8e7fb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-037-037-c584a6b0",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 14:37, by what name did Jesus call Peter?",
+      "answer": "Simon",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-037-037-c584a6b0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-037-037-c9028480",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 14:37, how long did Jesus ask if they could watch? (be specific)",
+      "answer": "one hour",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-037-037-c9028480"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-037-037-3786f6bb",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 14:37, what did Jesus find the disciples doing when He came back?",
+      "answer": "sleeping",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-037-037-3786f6bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-037-037-844f3e51",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 14:37, what question did Jesus ask Simon regarding his activity?",
+      "answer": "are you sleeping?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-037-037-844f3e51"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-037-037-1e68b38a",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 14:37, who did Jesus address by name when He found them sleeping?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-037-037-1e68b38a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-038-038-c01a46b4",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 14:38, how is the flesh described?",
+      "answer": "weak",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-038-038-c01a46b4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-038-038-f48b61f2",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 14:38, how is the spirit described?",
+      "answer": "willing",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-014-038-038-f48b61f2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-038-038-d5731d41",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 14:38, what two actions did Jesus command the disciples to perform?",
+      "answer": "Watch and pray",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-038-038-d5731d41"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-038-038-b88a1ef3",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 14:38, why should they watch and pray?",
+      "answer": "lest you enter into temptation",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-038-038-b88a1ef3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-039-039-e1d5e95d",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 14:39, what did He do again after going away?",
+      "answer": "prayed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-039-039-e1d5e95d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-039-039-6a7fb7db",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 14:39, what was the action He repeated besides praying?",
+      "answer": "went away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-039-039-6a7fb7db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-039-039-56f60ce8",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 14:39, when He went away and prayed again, what did He do regarding His words?",
+      "answer": "spoke the same words",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-039-039-56f60ce8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-040-040-b14d8398",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 14:40, what did He find the disciples doing when He returned?",
+      "answer": "asleep again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-040-040-b14d8398"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-040-040-bf427aff",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 14:40, what did the disciples not know (be specific)?",
+      "answer": "what to answer Him",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-014-040-040-bf427aff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-040-040-acf1a267",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 14:40, what was the state of the disciples' eyes?",
+      "answer": "their eyes were heavy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-040-040-acf1a267"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-041-041-f71ebdaf",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 14:41, how many times did He come to them?",
+      "answer": "the third time",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-041-041-f71ebdaf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-041-041-a766904c",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 14:41, what did He ask if they were still doing?",
+      "answer": "sleeping and resting",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-041-041-a766904c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-041-041-0ae41198",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 14:41, what did He say to them regarding the situation? (be specific)",
+      "answer": "It is enough!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-041-041-0ae41198"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-041-041-caafd5b0",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 14:41, what had come?",
+      "answer": "The hour",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-041-041-caafd5b0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-041-041-d08fdeeb",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 14:41, who is being betrayed into the hands of sinners?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-041-041-d08fdeeb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-042-042-f3d13b6e",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 14:42, what did He tell them to see? (be specific)",
+      "answer": "My betrayer is at hand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-042-042-f3d13b6e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-042-042-0dae30b8",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 14:42, what two things did He tell them to do?",
+      "answer": "Rise, let us be going",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-042-042-0dae30b8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-043-043-2114b135",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 14:43, the great multitude came from which three groups of people? (be specific)",
+      "answer": "chief priests and the scribes and the elders",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-043-043-2114b135"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-043-043-25dfd0a3",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 14:43, what two items were the great multitude carrying?",
+      "answer": "swords and clubs",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-043-043-25dfd0a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-043-043-0dadc27e",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 14:43, what was the name of the man who was one of the twelve?",
+      "answer": "Judas",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-043-043-0dadc27e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-043-043-e5a1c3ca",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 14:43, who came with a great multitude?",
+      "answer": "Judas, one of the twelve",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-043-043-e5a1c3ca"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-044-044-1b87a7a3",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 14:44, what had the betrayer given to the multitude?",
+      "answer": "a signal",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-044-044-1b87a7a3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-044-044-571d4033",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 14:44, what two instructions did the betrayer give the multitude regarding the man? (be specific)",
+      "answer": "seize Him and lead Him away safely",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-044-044-571d4033"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-044-044-d1aa9310",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 14:44, what was the betrayer's signal to identify the man?",
+      "answer": "Whomever I kiss, He is the One",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-044-044-d1aa9310"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-045-045-73d77148",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 14:45, what did the man do as soon as he had come?",
+      "answer": "immediately he went up to Him",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-045-045-73d77148"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-045-045-40b7c1ed",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 14:45, what physical action did the man take after saying 'Rabbi, Rabbi!'?",
+      "answer": "kissed Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-045-045-40b7c1ed"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-045-045-3ccc0957",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 14:45, what words did the betrayer say when he went up to Him?",
+      "answer": "Rabbi, Rabbi!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-045-045-3ccc0957"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-046-046-fa6190c1",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 14:46, what did the multitude do to Him?",
+      "answer": "laid their hands on Him and took Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-046-046-fa6190c1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-046-046-2ac30bd7",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "True or False: According to Mark 14:46, they took Him after they had laid their hands on Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-014-046-046-2ac30bd7"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-047-047-4f0ea949",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 14:47, what did one of those who stood by draw?",
+      "answer": "his sword",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-047-047-4f0ea949"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-047-047-86a4b900",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 14:47, what part of the servant's body was cut off?",
+      "answer": "his ear",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-047-047-86a4b900"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-047-047-51061a68",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 14:47, what was the action taken by the person who stood by against the servant of the high priest? (be specific)",
+      "answer": "struck the servant of the high priest, and cut off his ear",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-047-047-51061a68"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-047-047-3b736f07",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 14:47, who did the man who drew his sword strike?",
+      "answer": "the servant of the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-047-047-3b736f07"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-048-048-d1372719",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 14:48, how did Jesus characterize the group that had come out against Him?",
+      "answer": "as against a robber",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-048-048-d1372719"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-048-048-e3c8fcb0",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 14:48, name the 2 things the group brought with them to take Jesus.",
+      "answer": "swords and clubs",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-048-048-e3c8fcb0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-048-048-fae8ac45",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 14:48, to whom did Jesus speak when He asked if they had come out as against a robber?",
+      "answer": "them",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-048-048-fae8ac45"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-049-049-0b9ce811",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 14:49, how often was Jesus in the temple teaching?",
+      "answer": "daily",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-049-049-0b9ce811"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-049-049-6085648c",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 14:49, what did the people fail to do while Jesus was in the temple?",
+      "answer": "seize Me",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-049-049-6085648c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-049-049-20fde692",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 14:49, what must be fulfilled?",
+      "answer": "the Scriptures",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-049-049-20fde692"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-049-049-1251e127",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 14:49, what were the two things Jesus stated regarding His interaction with the crowd and the fulfillment of prophecy? (be specific)",
+      "answer": "I was daily with you in the temple teaching, and you did not seize Me. But the Scriptures must be fulfilled.",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-014-049-049-1251e127"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-049-049-a0e77ea3",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 14:49, where was Jesus daily teaching?",
+      "answer": "in the temple",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-049-049-a0e77ea3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-050-050-c94f8db6",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 14:50, describe the two actions taken by 'they all' after they forsook Him (be specific).",
+      "answer": "forsook Him and fled",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-050-050-c94f8db6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-050-050-165a3918",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 14:50, what action did 'they' all take regarding Him?",
+      "answer": "forsook Him and fled",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-050-050-165a3918"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-050-050-797bcb90",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 14:50, who forsook Him and fled?",
+      "answer": "they all",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-050-050-797bcb90"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-051-051-a34b2f1d",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 14:51, what did the young man have thrown around his naked body? (be specific)",
+      "answer": "a linen cloth",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-051-051-a34b2f1d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-051-051-56f60141",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 14:51, what did the young men do to the certain young man?",
+      "answer": "laid hold of him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-051-051-56f60141"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-051-051-c93b43d7",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 14:51, who followed Him?",
+      "answer": "a certain young man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-051-051-c93b43d7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-052-052-7c5ea8f5",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 14:52, what did the young man do after leaving the linen cloth?",
+      "answer": "fled from them naked",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-052-052-7c5ea8f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-052-052-ec7fab86",
+      "ref": {
+        "startVerse": 52,
+        "endVerse": 52
+      },
+      "question": "According to Mark 14:52, what did the young man leave behind?",
+      "answer": "the linen cloth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-052-052-ec7fab86"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-053-053-620ddd6e",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 14:53, how many groups of people are mentioned as being assembled with the high priest?",
+      "answer": "3",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-014-053-053-620ddd6e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-053-053-1ecb93f8",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 14:53, to whom did they lead Jesus away?",
+      "answer": "the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-053-053-1ecb93f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-053-053-6e154d19",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 14:53, what three groups of people were assembled with the high priest? (be specific)",
+      "answer": "the chief priests, the elders, and the scribes",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-053-053-6e154d19"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-053-053-50dce5ba",
+      "ref": {
+        "startVerse": 53,
+        "endVerse": 53
+      },
+      "question": "According to Mark 14:53, who was led away?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-053-053-50dce5ba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-054-054-a4fd0c80",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 14:54, how did Peter follow Jesus?",
+      "answer": "at a distance",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-054-054-a4fd0c80"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-054-054-e34934ed",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 14:54, what did Peter do at the fire?",
+      "answer": "warmed himself",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-054-054-e34934ed"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-054-054-4b8a1565",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 14:54, where did Peter follow Jesus right into? (be specific)",
+      "answer": "the courtyard of the high priest",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-054-054-4b8a1565"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-054-054-8eedecb8",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 14:54, who followed Jesus at a distance?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-054-054-8eedecb8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-054-054-bd61e1ef",
+      "ref": {
+        "startVerse": 54,
+        "endVerse": 54
+      },
+      "question": "According to Mark 14:54, with whom did Peter sit?",
+      "answer": "the servants",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-054-054-bd61e1ef"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-055-055-d42b7343",
+      "ref": {
+        "startVerse": 55,
+        "endVerse": 55
+      },
+      "question": "According to Mark 14:55, what was the goal of the chief priests and the council in seeking testimony against Jesus?",
+      "answer": "to put Him to death",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-055-055-d42b7343"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-055-055-8cf7e37b",
+      "ref": {
+        "startVerse": 55,
+        "endVerse": 55
+      },
+      "question": "According to Mark 14:55, who sought testimony against Jesus?",
+      "answer": "the chief priests and all the council",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-055-055-8cf7e37b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-056-056-398becc2",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 14:56, what did many do regarding Jesus?",
+      "answer": "bore false witness against Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-056-056-398becc2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-056-056-3192faba",
+      "ref": {
+        "startVerse": 56,
+        "endVerse": 56
+      },
+      "question": "According to Mark 14:56, why was the false witness testimony against Jesus unsuccessful?",
+      "answer": "their testimonies did not agree",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-056-056-3192faba"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-057-057-3850dc2b",
+      "ref": {
+        "startVerse": 57,
+        "endVerse": 57
+      },
+      "question": "According to Mark 14:57, what did some people do?",
+      "answer": "rose up and bore false witness against Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-057-057-3850dc2b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-058-058-1f947b7f",
+      "ref": {
+        "startVerse": 58,
+        "endVerse": 58
+      },
+      "question": "According to Mark 14:58, what did the false witnesses claim Jesus said He would build within three days?",
+      "answer": "another made without hands",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-058-058-1f947b7f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-058-058-551e071a",
+      "ref": {
+        "startVerse": 58,
+        "endVerse": 58
+      },
+      "question": "According to Mark 14:58, what did the false witnesses claim they heard Jesus say He would destroy?",
+      "answer": "this temple made with hands",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-058-058-551e071a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-058-058-4b7bf558",
+      "ref": {
+        "startVerse": 58,
+        "endVerse": 58
+      },
+      "question": "According to Mark 14:58, what is the time frame mentioned for Jesus building the new temple (be specific)?",
+      "answer": "within three days",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-058-058-4b7bf558"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-059-059-9605c033",
+      "ref": {
+        "startVerse": 59,
+        "endVerse": 59
+      },
+      "question": "According to Mark 14:59, what was the result of the testimony given in Verse 58?",
+      "answer": "not even then did their testimony agree",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-059-059-9605c033"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-060-060-dbae7e47",
+      "ref": {
+        "startVerse": 60,
+        "endVerse": 60
+      },
+      "question": "According to Mark 14:60, what did the high priest ask Jesus regarding his silence?",
+      "answer": "Do You answer nothing?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-060-060-dbae7e47"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-060-060-ded816c4",
+      "ref": {
+        "startVerse": 60,
+        "endVerse": 60
+      },
+      "question": "According to Mark 14:60, what question did the high priest ask Jesus regarding the men's testimony (be specific)?",
+      "answer": "What is it these men testify against You?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-060-060-ded816c4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-060-060-f9fe84dd",
+      "ref": {
+        "startVerse": 60,
+        "endVerse": 60
+      },
+      "question": "According to Mark 14:60, who stood up in the midst?",
+      "answer": "the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-060-060-f9fe84dd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-061-061-314121d0",
+      "ref": {
+        "startVerse": 61,
+        "endVerse": 61
+      },
+      "question": "According to Mark 14:61, how did the high priest address Jesus when he asked him again (be specific)?",
+      "answer": "Are You the Christ, the Son of the Blessed?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-061-061-314121d0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-061-061-a6cb252d",
+      "ref": {
+        "startVerse": 61,
+        "endVerse": 61
+      },
+      "question": "According to Mark 14:61, what was Jesus’ reaction to the high priest’s questions?",
+      "answer": "He kept silent and answered nothing",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-061-061-a6cb252d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-061-061-f8d4ed19",
+      "ref": {
+        "startVerse": 61,
+        "endVerse": 61
+      },
+      "question": "According to Mark 14:61, who asked Jesus another question?",
+      "answer": "the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-061-061-f8d4ed19"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-062-062-34090805",
+      "ref": {
+        "startVerse": 62,
+        "endVerse": 62
+      },
+      "question": "According to Mark 14:62, how did Jesus refer to Himself?",
+      "answer": "the Son of Man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-062-062-34090805"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-062-062-7f8560fe",
+      "ref": {
+        "startVerse": 62,
+        "endVerse": 62
+      },
+      "question": "According to Mark 14:62, list the 2 locations or states Jesus said the Son of Man would be seen in (be specific).",
+      "answer": "1. sitting at the right hand of the Power, 2. coming with the clouds of heaven",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-062-062-7f8560fe"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-062-062-41bcbb21",
+      "ref": {
+        "startVerse": 62,
+        "endVerse": 62
+      },
+      "question": "According to Mark 14:62, what was Jesus' verbal response to the high priest?",
+      "answer": "I am",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-062-062-41bcbb21"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-062-062-ffff1bbd",
+      "ref": {
+        "startVerse": 62,
+        "endVerse": 62
+      },
+      "question": "True or False: According to Mark 14:62, Jesus said they would see the Son of Man sitting at the right hand of the Power.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-014-062-062-ffff1bbd"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-063-063-b1582340",
+      "ref": {
+        "startVerse": 63,
+        "endVerse": 63
+      },
+      "question": "According to Mark 14:63, what did the high priest ask about witnesses? (be specific)",
+      "answer": "What further need do we have of witnesses?",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-063-063-b1582340"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-063-063-42aa18fc",
+      "ref": {
+        "startVerse": 63,
+        "endVerse": 63
+      },
+      "question": "According to Mark 14:63, what did the high priest do after he tore his clothes?",
+      "answer": "said, “What further need do we have of witnesses?”",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-063-063-42aa18fc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-063-063-67ea7d1d",
+      "ref": {
+        "startVerse": 63,
+        "endVerse": 63
+      },
+      "question": "According to Mark 14:63, who tore his clothes?",
+      "answer": "the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-063-063-67ea7d1d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-064-064-862c0bd4",
+      "ref": {
+        "startVerse": 64,
+        "endVerse": 64
+      },
+      "question": "According to Mark 14:64, what did the high priest say the others had heard?",
+      "answer": "the blasphemy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-064-064-862c0bd4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-064-064-11e35399",
+      "ref": {
+        "startVerse": 64,
+        "endVerse": 64
+      },
+      "question": "According to Mark 14:64, what question did the high priest ask the group after mentioning blasphemy?",
+      "answer": "What do you think?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-064-064-11e35399"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-064-064-78838c79",
+      "ref": {
+        "startVerse": 64,
+        "endVerse": 64
+      },
+      "question": "According to Mark 14:64, what was the collective reaction of those present to Jesus regarding the blasphemy? (be specific)",
+      "answer": "they all condemned Him to be deserving of death",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-014-064-064-78838c79"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-38863a65",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, besides spitting on Him and beating Him, what else did they do to Him?",
+      "answer": "blindfold Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-065-065-38863a65"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-883d66a6",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, how did the officers strike Him?",
+      "answer": "with the palms of their hands",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-065-065-883d66a6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-c0864e46",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, list the 4 specific actions taken against Him by the people mentioned at the beginning of the verse. (be specific)",
+      "answer": "spit on Him, blindfold Him, beat Him, and say to Him, “Prophesy!”",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-014-065-065-c0864e46"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-b1568467",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, what did some people begin to do to Him as an act of mistreatment?",
+      "answer": "spit on Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-065-065-b1568467"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-7743f74b",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, what one-word command did they say to Him?",
+      "answer": "Prophesy!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-065-065-7743f74b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-065-065-ddde7820",
+      "ref": {
+        "startVerse": 65,
+        "endVerse": 65
+      },
+      "question": "According to Mark 14:65, who struck Him with the palms of their hands?",
+      "answer": "the officers",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-065-065-ddde7820"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-066-066-c1f4f012",
+      "ref": {
+        "startVerse": 66,
+        "endVerse": 66
+      },
+      "question": "According to Mark 14:66, where was Peter?",
+      "answer": "below in the courtyard",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-066-066-c1f4f012"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-066-066-ef7dac85",
+      "ref": {
+        "startVerse": 66,
+        "endVerse": 66
+      },
+      "question": "According to Mark 14:66, who came to the courtyard?",
+      "answer": "one of the servant girls of the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-066-066-ef7dac85"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-066-066-33eab741",
+      "ref": {
+        "startVerse": 66,
+        "endVerse": 66
+      },
+      "question": "According to Mark 14:66, who was below in the courtyard?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-066-066-33eab741"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-066-066-38e072ac",
+      "ref": {
+        "startVerse": 66,
+        "endVerse": 66
+      },
+      "question": "According to Mark 14:66, whose servant girl came to the courtyard? (be specific)",
+      "answer": "the high priest",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-066-066-38e072ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-067-067-5a531350",
+      "ref": {
+        "startVerse": 67,
+        "endVerse": 67
+      },
+      "question": "According to Mark 14:67, what did the servant girl do when she saw Peter?",
+      "answer": "she looked at him and said, “You also were with Jesus of Nazareth.”",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-067-067-5a531350"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-067-067-3ca49a23",
+      "ref": {
+        "startVerse": 67,
+        "endVerse": 67
+      },
+      "question": "According to Mark 14:67, what did the servant girl say to Peter? (be specific)",
+      "answer": "You also were with Jesus of Nazareth.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-067-067-3ca49a23"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-067-067-9a1bccab",
+      "ref": {
+        "startVerse": 67,
+        "endVerse": 67
+      },
+      "question": "According to Mark 14:67, what was Peter doing when the servant girl saw him?",
+      "answer": "warming himself",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-067-067-9a1bccab"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-068-068-d4a8ac08",
+      "ref": {
+        "startVerse": 68,
+        "endVerse": 68
+      },
+      "question": "According to Mark 14:68, what happened after Peter went out on the porch?",
+      "answer": "a rooster crowed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-068-068-d4a8ac08"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-068-068-3ea1ca0a",
+      "ref": {
+        "startVerse": 68,
+        "endVerse": 68
+      },
+      "question": "According to Mark 14:68, what two things did Peter say he did not know or understand?",
+      "answer": "I neither know nor understand what you are saying",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-068-068-3ea1ca0a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-068-068-88b1bf0b",
+      "ref": {
+        "startVerse": 68,
+        "endVerse": 68
+      },
+      "question": "According to Mark 14:68, what was Peter's response to the servant girl?",
+      "answer": "he denied it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-068-068-88b1bf0b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-068-068-fd0b7bc9",
+      "ref": {
+        "startVerse": 68,
+        "endVerse": 68
+      },
+      "question": "According to Mark 14:68, where did Peter go after denying the servant girl?",
+      "answer": "the porch",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-014-068-068-fd0b7bc9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-069-069-5557b060",
+      "ref": {
+        "startVerse": 69,
+        "endVerse": 69
+      },
+      "question": "According to Mark 14:69, to whom did the servant girl begin to speak?",
+      "answer": "those who stood by",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-069-069-5557b060"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-069-069-07c360bd",
+      "ref": {
+        "startVerse": 69,
+        "endVerse": 69
+      },
+      "question": "According to Mark 14:69, what did the servant girl say to those who stood by? (be specific)",
+      "answer": "This is one of them.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-069-069-07c360bd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-069-069-42a05963",
+      "ref": {
+        "startVerse": 69,
+        "endVerse": 69
+      },
+      "question": "According to Mark 14:69, who saw Peter again?",
+      "answer": "the servant girl",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-069-069-42a05963"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-070-070-c7e6d388",
+      "ref": {
+        "startVerse": 70,
+        "endVerse": 70
+      },
+      "question": "According to Mark 14:70, what did Peter do when the servant girl said he was one of them?",
+      "answer": "he denied it again",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-070-070-c7e6d388"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-070-070-d6298a32",
+      "ref": {
+        "startVerse": 70,
+        "endVerse": 70
+      },
+      "question": "According to Mark 14:70, what did those who stood by say to Peter?",
+      "answer": "Surely you are one of them",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-070-070-d6298a32"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-070-070-7e629cea",
+      "ref": {
+        "startVerse": 70,
+        "endVerse": 70
+      },
+      "question": "According to Mark 14:70, what evidence did those who stood by cite to prove Peter was a Galilean? (be specific)",
+      "answer": "your speech shows it",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-070-070-7e629cea"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-070-070-9006e4ee",
+      "ref": {
+        "startVerse": 70,
+        "endVerse": 70
+      },
+      "question": "According to Mark 14:70, what reason did those who stood by give for Peter being one of them?",
+      "answer": "for you are a Galilean",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-014-070-070-9006e4ee"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-070-070-8c3dd5fd",
+      "ref": {
+        "startVerse": 70,
+        "endVerse": 70
+      },
+      "question": "According to Mark 14:70, when did those who stood by speak to Peter again?",
+      "answer": "a little later",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-014-070-070-8c3dd5fd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-071-071-7321bd05",
+      "ref": {
+        "startVerse": 71,
+        "endVerse": 71
+      },
+      "question": "According to Mark 14:71, what did the man begin to do before declaring he did not know Jesus?",
+      "answer": "curse and swear",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-071-071-7321bd05"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-071-071-51a1cf6d",
+      "ref": {
+        "startVerse": 71,
+        "endVerse": 71
+      },
+      "question": "According to Mark 14:71, what specific claim did the man make regarding the person being spoken of? (be specific)",
+      "answer": "I do not know this Man of whom you speak!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-071-071-51a1cf6d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-072-072-0bbee99b",
+      "ref": {
+        "startVerse": 72,
+        "endVerse": 72
+      },
+      "question": "According to Mark 14:72, what occurred for a second time?",
+      "answer": "the rooster crowed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-014-072-072-0bbee99b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-072-072-d12e3699",
+      "ref": {
+        "startVerse": 72,
+        "endVerse": 72
+      },
+      "question": "According to Mark 14:72, what two conditions did Jesus set in His words to Peter regarding the rooster and the denial? (be specific)",
+      "answer": "Before the rooster crows twice, you will deny Me three times.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-014-072-072-d12e3699"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-072-072-33fe0c7c",
+      "ref": {
+        "startVerse": 72,
+        "endVerse": 72
+      },
+      "question": "According to Mark 14:72, what was Peter's emotional response after he thought about the words Jesus had spoken?",
+      "answer": "he wept",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-014-072-072-33fe0c7c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-014-072-072-fd0f9e10",
+      "ref": {
+        "startVerse": 72,
+        "endVerse": 72
+      },
+      "question": "According to Mark 14:72, who called to mind the word that Jesus had said?",
+      "answer": "Peter",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-014-072-072-fd0f9e10"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-014-001-001-9fa2f8f4",
+      "41-014-001-001-fb2506f9",
+      "41-014-001-001-c3c2eb56",
+      "41-014-001-001-44c009ff"
+    ],
+    "2": [
+      "41-014-002-002-67813c27",
+      "41-014-002-002-e8cd8e11"
+    ],
+    "3": [
+      "41-014-003-003-b6e47296",
+      "41-014-003-003-5627d3de",
+      "41-014-003-003-10a8d523",
+      "41-014-003-003-e11026fe",
+      "41-014-003-003-7745779e"
+    ],
+    "4": [
+      "41-014-004-004-398de272",
+      "41-014-004-004-b1216acc"
+    ],
+    "5": [
+      "41-014-005-005-a5b8bf53",
+      "41-014-005-005-8a1cf4a5",
+      "41-014-005-005-101166e7"
+    ],
+    "6": [
+      "41-014-006-006-510e71be",
+      "41-014-006-006-c0facd79",
+      "41-014-006-006-fde4b086"
+    ],
+    "7": [
+      "41-014-007-007-cc428273",
+      "41-014-007-007-2f722eea",
+      "41-014-007-007-eb4f6de8"
+    ],
+    "8": [
+      "41-014-008-008-3ae2c69d",
+      "41-014-008-008-06de6762"
+    ],
+    "9": [
+      "41-014-009-009-54b39115",
+      "41-014-009-009-90a04101",
+      "41-014-009-009-5121bd92"
+    ],
+    "10": [
+      "41-014-010-010-782c3d52",
+      "41-014-010-010-89a62796",
+      "41-014-010-010-569203e9",
+      "41-014-010-010-07e04517"
+    ],
+    "11": [
+      "41-014-011-011-343958d8",
+      "41-014-011-011-16f8cd9a",
+      "41-014-011-011-298854b7"
+    ],
+    "12": [
+      "41-014-012-012-136430f6",
+      "41-014-012-012-6800b48d",
+      "41-014-012-012-aed0998e"
+    ],
+    "13": [
+      "41-014-013-013-704d446a",
+      "41-014-013-013-fbe90774",
+      "41-014-013-013-97611db6",
+      "41-014-013-013-4d262f3e"
+    ],
+    "14": [
+      "41-014-014-014-2ad6a583",
+      "41-014-014-014-bd9aa6df",
+      "41-014-014-014-7f541da7"
+    ],
+    "15": [
+      "41-014-015-015-423863fa",
+      "41-014-015-015-e99e6e72",
+      "41-014-015-015-176903d2"
+    ],
+    "16": [
+      "41-014-016-016-9b7548ee",
+      "41-014-016-016-2f7fd2ce",
+      "41-014-016-016-7e886025"
+    ],
+    "17": [
+      "41-014-017-017-aab6b738",
+      "41-014-017-017-9709a010",
+      "41-014-017-017-7cd018bb"
+    ],
+    "18": [
+      "41-014-018-018-d0709980",
+      "41-014-018-018-3c040b12",
+      "41-014-018-018-95a8bf44"
+    ],
+    "19": [
+      "41-014-019-019-d273be30",
+      "41-014-019-019-5f18963a"
+    ],
+    "20": [
+      "41-014-020-020-5fea338b",
+      "41-014-020-020-175787dd"
+    ],
+    "21": [
+      "41-014-021-021-a00bfe11",
+      "41-014-021-021-f3d90390",
+      "41-014-021-021-2d202899"
+    ],
+    "22": [
+      "41-014-022-022-e213a85a",
+      "41-014-022-022-c484c82f",
+      "41-014-022-022-7452d5c5"
+    ],
+    "23": [
+      "41-014-023-023-8fdd5312",
+      "41-014-023-023-0c29748c",
+      "41-014-023-023-58cd19a2"
+    ],
+    "24": [
+      "41-014-024-024-6c85aa0b",
+      "41-014-024-024-bfa1d8dd"
+    ],
+    "25": [
+      "41-014-025-025-d8de510d",
+      "41-014-025-025-73687559",
+      "41-014-025-025-4cfa4018"
+    ],
+    "26": [
+      "41-014-026-026-b204fdb4",
+      "41-014-026-026-c31df54e",
+      "41-014-026-026-eeee2e92"
+    ],
+    "27": [
+      "41-014-027-027-f7c9306b",
+      "41-014-027-027-3eb1123a",
+      "41-014-027-027-642b8704"
+    ],
+    "28": [
+      "41-014-028-028-0113383c",
+      "41-014-028-028-0c61c343",
+      "41-014-028-028-ec823f82"
+    ],
+    "29": [
+      "41-014-029-029-8d030a49",
+      "41-014-029-029-f399796f"
+    ],
+    "30": [
+      "41-014-030-030-789061ff",
+      "41-014-030-030-8554f4e8",
+      "41-014-030-030-971ef6f2"
+    ],
+    "31": [
+      "41-014-031-031-4c8c85f4",
+      "41-014-031-031-c149df4f",
+      "41-014-031-031-5838d2c3"
+    ],
+    "32": [
+      "41-014-032-032-4d55fc04",
+      "41-014-032-032-7ba61b3f"
+    ],
+    "33": [
+      "41-014-033-033-4ab0dc9a",
+      "41-014-033-033-40e5aad0"
+    ],
+    "34": [
+      "41-014-034-034-9d830d93",
+      "41-014-034-034-5623f9a3"
+    ],
+    "35": [
+      "41-014-035-035-4d1ff0f9",
+      "41-014-035-035-5401a601",
+      "41-014-035-035-ce529f72"
+    ],
+    "36": [
+      "41-014-036-036-94ab3ed7",
+      "41-014-036-036-1cf995e7",
+      "41-014-036-036-9b3f24d8",
+      "41-014-036-036-a3c8e7fb"
+    ],
+    "37": [
+      "41-014-037-037-c584a6b0",
+      "41-014-037-037-c9028480",
+      "41-014-037-037-3786f6bb",
+      "41-014-037-037-844f3e51",
+      "41-014-037-037-1e68b38a"
+    ],
+    "38": [
+      "41-014-038-038-c01a46b4",
+      "41-014-038-038-f48b61f2",
+      "41-014-038-038-d5731d41",
+      "41-014-038-038-b88a1ef3"
+    ],
+    "39": [
+      "41-014-039-039-e1d5e95d",
+      "41-014-039-039-6a7fb7db",
+      "41-014-039-039-56f60ce8"
+    ],
+    "40": [
+      "41-014-040-040-b14d8398",
+      "41-014-040-040-bf427aff",
+      "41-014-040-040-acf1a267"
+    ],
+    "41": [
+      "41-014-041-041-f71ebdaf",
+      "41-014-041-041-a766904c",
+      "41-014-041-041-0ae41198",
+      "41-014-041-041-caafd5b0",
+      "41-014-041-041-d08fdeeb"
+    ],
+    "42": [
+      "41-014-042-042-f3d13b6e",
+      "41-014-042-042-0dae30b8"
+    ],
+    "43": [
+      "41-014-043-043-2114b135",
+      "41-014-043-043-25dfd0a3",
+      "41-014-043-043-0dadc27e",
+      "41-014-043-043-e5a1c3ca"
+    ],
+    "44": [
+      "41-014-044-044-1b87a7a3",
+      "41-014-044-044-571d4033",
+      "41-014-044-044-d1aa9310"
+    ],
+    "45": [
+      "41-014-045-045-73d77148",
+      "41-014-045-045-40b7c1ed",
+      "41-014-045-045-3ccc0957"
+    ],
+    "46": [
+      "41-014-046-046-fa6190c1",
+      "41-014-046-046-2ac30bd7"
+    ],
+    "47": [
+      "41-014-047-047-4f0ea949",
+      "41-014-047-047-86a4b900",
+      "41-014-047-047-51061a68",
+      "41-014-047-047-3b736f07"
+    ],
+    "48": [
+      "41-014-048-048-d1372719",
+      "41-014-048-048-e3c8fcb0",
+      "41-014-048-048-fae8ac45"
+    ],
+    "49": [
+      "41-014-049-049-0b9ce811",
+      "41-014-049-049-6085648c",
+      "41-014-049-049-20fde692",
+      "41-014-049-049-1251e127",
+      "41-014-049-049-a0e77ea3"
+    ],
+    "50": [
+      "41-014-050-050-c94f8db6",
+      "41-014-050-050-165a3918",
+      "41-014-050-050-797bcb90"
+    ],
+    "51": [
+      "41-014-051-051-a34b2f1d",
+      "41-014-051-051-56f60141",
+      "41-014-051-051-c93b43d7"
+    ],
+    "52": [
+      "41-014-052-052-7c5ea8f5",
+      "41-014-052-052-ec7fab86"
+    ],
+    "53": [
+      "41-014-053-053-620ddd6e",
+      "41-014-053-053-1ecb93f8",
+      "41-014-053-053-6e154d19",
+      "41-014-053-053-50dce5ba"
+    ],
+    "54": [
+      "41-014-054-054-a4fd0c80",
+      "41-014-054-054-e34934ed",
+      "41-014-054-054-4b8a1565",
+      "41-014-054-054-8eedecb8",
+      "41-014-054-054-bd61e1ef"
+    ],
+    "55": [
+      "41-014-055-055-d42b7343",
+      "41-014-055-055-8cf7e37b"
+    ],
+    "56": [
+      "41-014-056-056-398becc2",
+      "41-014-056-056-3192faba"
+    ],
+    "57": [
+      "41-014-057-057-3850dc2b"
+    ],
+    "58": [
+      "41-014-058-058-1f947b7f",
+      "41-014-058-058-551e071a",
+      "41-014-058-058-4b7bf558"
+    ],
+    "59": [
+      "41-014-059-059-9605c033"
+    ],
+    "60": [
+      "41-014-060-060-dbae7e47",
+      "41-014-060-060-ded816c4",
+      "41-014-060-060-f9fe84dd"
+    ],
+    "61": [
+      "41-014-061-061-314121d0",
+      "41-014-061-061-a6cb252d",
+      "41-014-061-061-f8d4ed19"
+    ],
+    "62": [
+      "41-014-062-062-34090805",
+      "41-014-062-062-7f8560fe",
+      "41-014-062-062-41bcbb21",
+      "41-014-062-062-ffff1bbd"
+    ],
+    "63": [
+      "41-014-063-063-b1582340",
+      "41-014-063-063-42aa18fc",
+      "41-014-063-063-67ea7d1d"
+    ],
+    "64": [
+      "41-014-064-064-862c0bd4",
+      "41-014-064-064-11e35399",
+      "41-014-064-064-78838c79"
+    ],
+    "65": [
+      "41-014-065-065-38863a65",
+      "41-014-065-065-883d66a6",
+      "41-014-065-065-c0864e46",
+      "41-014-065-065-b1568467",
+      "41-014-065-065-7743f74b",
+      "41-014-065-065-ddde7820"
+    ],
+    "66": [
+      "41-014-066-066-c1f4f012",
+      "41-014-066-066-ef7dac85",
+      "41-014-066-066-33eab741",
+      "41-014-066-066-38e072ac"
+    ],
+    "67": [
+      "41-014-067-067-5a531350",
+      "41-014-067-067-3ca49a23",
+      "41-014-067-067-9a1bccab"
+    ],
+    "68": [
+      "41-014-068-068-d4a8ac08",
+      "41-014-068-068-3ea1ca0a",
+      "41-014-068-068-88b1bf0b",
+      "41-014-068-068-fd0b7bc9"
+    ],
+    "69": [
+      "41-014-069-069-5557b060",
+      "41-014-069-069-07c360bd",
+      "41-014-069-069-42a05963"
+    ],
+    "70": [
+      "41-014-070-070-c7e6d388",
+      "41-014-070-070-d6298a32",
+      "41-014-070-070-7e629cea",
+      "41-014-070-070-9006e4ee",
+      "41-014-070-070-8c3dd5fd"
+    ],
+    "71": [
+      "41-014-071-071-7321bd05",
+      "41-014-071-071-51a1cf6d"
+    ],
+    "72": [
+      "41-014-072-072-0bbee99b",
+      "41-014-072-072-d12e3699",
+      "41-014-072-072-33fe0c7c",
+      "41-014-072-072-fd0f9e10"
+    ]
+  }
+}

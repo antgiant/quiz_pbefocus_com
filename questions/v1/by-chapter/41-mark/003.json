@@ -1,0 +1,1952 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 3,
+  "questions": [
+    {
+      "id": "41-003-001-001-024f9538",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 3:1, what was wrong with the man who was in the synagogue? (be specific)",
+      "answer": "he had a withered hand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-001-001-49260ccd",
+        "41-003-001-001-9a4176d3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-001-001-2faddcf3",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 3:1, where did He enter again?",
+      "answer": "the synagogue",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-001-001-f2dfdf7a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-001-001-2f576aff",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 3:1, who was in the synagogue and what was his condition?",
+      "answer": "a man with a withered hand",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-003-001-001-298844ab",
+        "41-003-001-001-a63349fa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-002-002-ddc300e1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 3:2, for what purpose were they watching Him? (be specific)",
+      "answer": "so that they might accuse Him",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-003-002-002-826c53c4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-002-002-ae48cbf3",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 3:2, what did they do to Him?",
+      "answer": "watched Him closely",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-002-002-b6353d67"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-002-002-3a02b12a",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 3:2, why were they watching Him closely? (be specific)",
+      "answer": "whether He would heal him on the Sabbath",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-002-002-0339111b",
+        "41-003-002-002-3a02b12a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-003-003-8d31b89e",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 3:3, what did Jesus tell the man with the withered hand to do?",
+      "answer": "Step forward",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-003-003-2bfd9380"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-003-003-121be792",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 3:3, what was wrong with the man?",
+      "answer": "withered hand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-003-003-8a3d6f68",
+        "41-003-003-003-66bb693a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-003-003-7b64246f",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 3:3, who did Jesus speak to?",
+      "answer": "the man who had the withered hand",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-003-003-003-2afdf5af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-004-004-22a38dc7",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 3:4, what did they do after Jesus asked His question?",
+      "answer": "They kept silent",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-004-004-5344a99e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-004-004-1b7ac45b",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 3:4, what two things did Jesus ask if it is lawful to do in relation to life (be specific)?",
+      "answer": "to save life or to kill",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-004-004-af8b841a",
+        "41-003-004-004-1b7ac45b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-004-004-569facc3",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 3:4, what did Jesus ask if it is lawful to do on the Sabbath?",
+      "answer": "do good or to do evil, to save life or to kill",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-004-004-62b8adb0",
+        "41-003-004-004-3dbb5387"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-005-005-3a97c816",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 3:5, how did Jesus look at them?",
+      "answer": "with anger",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-003-005-005-b115ac96"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-005-005-42c8f416",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 3:5, what did Jesus say to the man?",
+      "answer": "Stretch out your hand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-005-005-3e847a1b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-005-005-e44324c6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 3:5, what happened after the man stretched out his hand?",
+      "answer": "his hand was restored as whole as the other",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-005-005-4c2b77ba",
+        "41-003-005-005-75129ac3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-005-005-05ffea0f",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 3:5, what two emotions or reactions did Jesus have toward them? (be specific)",
+      "answer": "looked around at them with anger, being grieved by the hardness of their hearts",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-005-005-642ffb3b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-005-005-f2446162",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 3:5, what was Jesus grieved by?",
+      "answer": "the hardness of their hearts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-005-005-90fcae2e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-006-006-e54a2413",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 3:6, what action did the Pharisees and Herodians take against Him and for what purpose?",
+      "answer": "plotted against Him, that they might destroy Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-006-006-d06df1b9",
+        "41-003-006-006-e0d39293"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-006-006-5e93b138",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 3:6, what was the goal of the plot between the Pharisees and the Herodians?",
+      "answer": "how they might destroy Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-006-006-2c4f18ff",
+        "41-003-006-006-5e93b138"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-006-006-4b5be50e",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 3:6, who went out and immediately plotted against Him?",
+      "answer": "The Pharisees",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-006-006-147b208c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-006-006-5a9f6629",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 3:6, with whom did the Pharisees plot against Him?",
+      "answer": "the Herodians",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-006-006-d31aea9a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-006-006-2fc84278",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "True or False: According to Mark 3:6, the Pharisees plotted with the Herodians how they might destroy Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-003-006-006-774e237a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-007-007-83e748a3",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 3:7, from where did the great multitude that followed Jesus come?",
+      "answer": "Galilee and Judea",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-003-007-007-9c9ca305",
+        "41-003-007-007-21aacc12"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-007-007-524219e1",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 3:7, to what location did Jesus withdraw with His disciples?",
+      "answer": "the sea",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-007-007-7e9b3517"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-007-007-a1c1e4b0",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 3:7, what followed Jesus to the sea?",
+      "answer": "a great multitude from Galilee and Judea",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-007-007-7508246d",
+        "41-003-007-007-c34da911"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-007-007-a6edc4a6",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 3:7, who withdrew with Jesus?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-007-007-609c5c67"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-008-008-1e326b4c",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 3:7-8, list the 7 locations from which the multitude came.",
+      "answer": "Galilee, Judea, Jerusalem, Idumea, beyond the Jordan, Tyre, and Sidon",
+      "type": "list",
+      "points": 7,
+      "originalIds": [
+        "41-003-008-008-ff7aca8b",
+        "41-003-008-008-ec3781e2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-008-008-5e8d4740",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 3:8, why did the great multitude to come to Jesus?",
+      "answer": "they heard how many things He was doing",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-008-008-cc31bfc0",
+        "41-003-008-008-de146baf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-008-008-45a872fa",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 3:8, how many came to Jesus when they heard how many things He was doing?",
+      "answer": "a great multitude",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-008-008-eee9e0e3",
+        "41-003-008-008-0932aeb5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-009-009-064246bf",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 3:9, what was to be kept ready for Jesus?",
+      "answer": "a small boat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-009-009-314cc886"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-009-009-5505164a",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 3:9, who did Jesus tell that a small boat should be kept ready for Him?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-009-009-7cc7cfd8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-009-009-0629f6c2",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 3:9, why did Jesus tell His disciples to keep a small boat ready for Him? (be specific)",
+      "answer": "because of the multitude, lest they should crush Him",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-003-009-009-87dec53f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-010-010-7ed71740",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 3:10, what did those with afflictions want to do to Jesus? (be specific)",
+      "answer": "touch Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-010-010-a3081116"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-010-010-2d3f8ce8",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 3:10, what had Jesus done that caused the people to press about Him?",
+      "answer": "He healed many",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-010-010-2e07ba35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-010-010-348d2180",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 3:10, what was the reason the people pressed about Him?",
+      "answer": "to touch Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-010-010-e27d8b7d",
+        "41-003-010-010-16a6c2b7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-010-010-cd0a5a14",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 3:10, who pressed about Jesus to touch Him?",
+      "answer": "as many as had afflictions",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-010-010-95bc0114"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-011-011-22c37b14",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 3:11, under what condition did the unclean spirits fall down before Him?",
+      "answer": "whenever they saw Him",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-003-011-011-1ea2af25"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-011-011-2d7001bd",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 3:11, what did the unclean spirits call Him?",
+      "answer": "the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-011-011-af2b3788"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-011-011-0c529ebf",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 3:11, what did the unclean spirits do whenever they saw Him?",
+      "answer": "fell down before Him and cried out",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-011-011-a4d05263",
+        "41-003-011-011-0c529ebf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-011-011-3f6eb306",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 3:11, what specific beings fell down before Him? (be specific)",
+      "answer": "unclean spirits",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-011-011-d90b8e05"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-012-012-d6755065",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 3:12, what did He do to the unclean spirits?",
+      "answer": "sternly warned them not to make Him known",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-012-012-4bd47cd5",
+        "41-003-012-012-aac9b52e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-012-012-f5e543b7",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 3:12, what did He warn the spirits not to do?",
+      "answer": "make Him known",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-012-012-b2dc0907"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-013-013-f90e2d15",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 3:13, what did those He called do?",
+      "answer": "they came to Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-013-013-834502f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-013-013-8164c6dc",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 3:13, where did He go?",
+      "answer": "on the mountain",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-013-013-23c83a0c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-013-013-fcc10b3e",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 3:13, whom did He call to Him?",
+      "answer": "those He Himself wanted",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-013-013-35fed592"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-014-014-29ae9cc5",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 3:14, how many did He appoint?",
+      "answer": "twelve",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-003-014-014-3cb00b77"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-014-014-a6599cf9",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 3:14, what were the two reasons He appointed the twelve? (be specific)",
+      "answer": "that they might be with Him and that He might send them out to preach",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-014-014-de2067d3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-014-014-4ff34ddf",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "True or False: According to Mark 3:14, He appointed twelve that they might be with Him.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-003-014-014-ee3b39a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-015-015-2986d8f2",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 3:15, what specifically were they given the power to do?",
+      "answer": "heal sicknesses, and cast out demons",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-015-015-a9251832",
+        "41-003-015-015-ffeae87e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-015-015-fc411d17",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 3:15, what two powers did He give them? (be specific)",
+      "answer": "power to heal sicknesses and to cast out demons",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-015-015-70bf1100"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-015-015-05d5de28",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 3:15, what were they given the power to cast out?",
+      "answer": "demons",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-015-015-1fb2b576"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-016-016-d54e8415",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 3:16, what name did He give to Simon?",
+      "answer": "Peter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-016-016-807481f5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-016-016-327a7c51",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 3:16, who was the individual to whom Jesus gave the name Peter?",
+      "answer": "Simon",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-016-016-1ff2a76a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-017-017-3e17d262",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 3:17, what is the meaning of the name Boanerges?",
+      "answer": "Sons of Thunder",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-017-017-162b83f9",
+        "41-003-017-017-d4866b3a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-017-017-f57685ac",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 3:17, what name did He give to James and John?",
+      "answer": "Boanerges",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-017-017-ab4ea9ff"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-017-017-18b00171",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 3:17, who is identified as the brother of James?",
+      "answer": "John",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-017-017-8e8da57c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-017-017-075d3d75",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 3:17, who was the father of James?",
+      "answer": "Zebedee",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-017-017-4266ce9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-018-018-a337cb7c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 3:18, how many people are listed by name?",
+      "answer": "8",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-003-018-018-a8dd406f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-018-018-015245aa",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 3:18, list 4 of the 8 names mentioned in this verse.",
+      "answer": "Andrew, Philip, Bartholomew, Matthew, Thomas, James the son of Alphaeus, Thaddaeus, Simon the Cananite",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-003-018-018-4f5da68a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-018-018-f894b27f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 3:18, who was the son of Alphaeus?",
+      "answer": "James",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-018-018-58ec74c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-019-019-b3cf8af7",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 3:19, where did they go?",
+      "answer": "into a house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-019-019-82ae557e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-019-019-50610282",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 3:19, who is mentioned as the one who betrayed Him?",
+      "answer": "Judas Iscariot",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-019-019-1c6f68da"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-020-020-06967933",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 3:20, what came together again?",
+      "answer": "the multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-020-020-90f1e1ab"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-020-020-acb2cdc9",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 3:20, what were they unable to do because the multitude came together again?",
+      "answer": "eat bread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-020-020-cb2cb47f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-020-020-ef1aaca4",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 3:20, why could they not so much as eat bread? (be specific)",
+      "answer": "the multitude came together again",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-020-020-b80edd05"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-021-021-f0d40d45",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 3:21, what did His own people say when they went to lay hold of Him?",
+      "answer": "He is out of His mind",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-021-021-cb9b2bd2",
+        "41-003-021-021-66c7db22"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-021-021-4db0ab84",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 3:21, who heard about this and went out to lay hold of Him?",
+      "answer": "His own people",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-021-021-ee361b9c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-022-022-d33d6d2b",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 3:22, by whom did the scribes claim He casts out demons?",
+      "answer": "the ruler of the demons",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-022-022-c39a8693",
+        "41-003-022-022-d33d6d2b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-022-022-50ad0eff",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 3:22, from where did the scribes come down?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-022-022-2e56fc04"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-022-022-22989d8d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 3:22, list the 2 accusations the scribes made against Him.",
+      "answer": "He has Beelzebub; By the ruler of the demons He casts out demons",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-022-022-e171cc0d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-022-022-4d255bd2",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 3:22, what did the scribes say He has? (be specific)",
+      "answer": "Beelzebub",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-022-022-d1ef259a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-022-022-f9ad70ef",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 3:22, who came down from Jerusalem?",
+      "answer": "the scribes",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-022-022-2eb49e6f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-023-023-117866b9",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 3:23, in what manner did He speak to them?",
+      "answer": "in parables",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-003-023-023-7c73ba79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-023-023-1e5d3fea",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 3:23, what rhetorical question did He ask?",
+      "answer": "How can Satan cast out Satan?",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-023-023-c78f56ad",
+        "41-003-023-023-815aa628"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-023-023-664225d1",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 3:23, whom did He call to Himself?",
+      "answer": "them",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-023-023-8ab39313"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-024-024-3c3aa7f6",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 3:24, what happens if a kingdom is divided against itself?",
+      "answer": "that kingdom cannot stand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-024-024-aea6d091",
+        "41-003-024-024-3c3aa7f6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-025-025-551636bf",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 3:25, what condition must a house meet for it to not stand?",
+      "answer": "divided against itself",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-003-025-025-c8d367bc",
+        "41-003-025-025-e424dde9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-025-025-ded8c426",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 3:25, what happens if a house is divided against itself?",
+      "answer": "that house cannot stand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-025-025-91195a30",
+        "41-003-025-025-ded8c426"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-026-026-1b6510d8",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 3:26, if Satan has risen up against himself, what is he described as being?",
+      "answer": "divided",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-026-026-897af8a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-026-026-cdd31982",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 3:26, what two things are said to be true if Satan is divided against himself?",
+      "answer": "he cannot stand, but has an end",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-026-026-f17d149f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-027-027-69562d0a",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 3:27, what are the two things a person cannot do to a strong man's house until he is bound?",
+      "answer": "enter a strong man’s house and plunder his goods",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-003-027-027-513838cf",
+        "41-003-027-027-a0f14f0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-027-027-11848903",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 3:27, what does the person do after binding the strong man?",
+      "answer": "he will plunder his house",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-027-027-204701f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-027-027-3d41ec35",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 3:27, what is it that no one can do to a strong man's house without first binding him?",
+      "answer": "enter a strong man’s house and plunder his goods",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-027-027-e2e64f9b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-027-027-90126569",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 3:27, what must happen before someone can plunder a strong man's house?",
+      "answer": "he first binds the strong man",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-003-027-027-42e67ecb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-027-027-21666d86",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "True or False: According to Mark 3:27, it is possible for anyone to enter a strong man's house and plunder his goods without binding the strong man first.",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-003-027-027-f95c700c",
+        "41-003-027-027-f4d6ec9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-028-028-90d7aa87",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 3:28, how does Jesus preface his statement regarding forgiveness?",
+      "answer": "Assuredly, I say to you",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-003-028-028-1f61f8c0",
+        "41-003-028-028-90d7aa87"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-028-028-79614163",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 3:28, what does Jesus say will be forgiven to the sons of men?",
+      "answer": "all sins, whatever plsphemies they may utter",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-028-028-3b4a594e",
+        "41-003-028-028-dee78d79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-028-028-84dd75c1",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 3:28, what will be forgiven in addition to all sins?",
+      "answer": "whatever blasphemies they may utter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-028-028-80d67ba0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-028-028-8f1b3fe6",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 3:28, who will be forgiven their sins and blasphemies?",
+      "answer": "the sons of men",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-028-028-5a0e74af"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-029-029-8d59b2d1",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 3:29, against whom must a person blaspheme to be subject to eternal condemnation? (be specific)",
+      "answer": "the Holy Spirit",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-003-029-029-38ffaa08",
+        "41-003-029-029-8d59b2d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-029-029-0a9dc529",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 3:29, what does the person who blasphemes against the Holy Spirit never have?",
+      "answer": "forgiveness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-029-029-9e18260c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-029-029-5d930bf2",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 3:29, what is a person subject to if they blaspheme against the Holy Spirit?",
+      "answer": "eternal condemnation",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-029-029-978b80b8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-030-030-ec4ffb8c",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 3:30, what specific claim did they make about Jesus? (be specific)",
+      "answer": "He has an unclean spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-030-030-fcdf18a1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-030-030-e5221dc5",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 3:30, what did they say?",
+      "answer": "because they said, “He has an unclean spirit.”",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-003-030-030-1955982a",
+        "41-003-030-030-3c52a791"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-031-031-e6e50920",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 3:31, what did the people who came to see Jesus do while standing outside? (be specific)",
+      "answer": "they sent to Him, calling Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-031-031-4fd231a6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-031-031-1b2597a0",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 3:31, where were Jesus' mother and brothers standing when they came to Him?",
+      "answer": "outside",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-031-031-b916f778"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-031-031-2ef8952c",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 3:31, who came to see Jesus?",
+      "answer": "His brothers and His mother",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-003-031-031-8f0001ab"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-032-032-563a6497",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 3:32, what did the people sitting around Jesus say to Him?",
+      "answer": "Look, Your mother and Your brothers are outside seeking You.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-032-032-a475046a",
+        "41-003-032-032-9df06558"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-032-032-2968b276",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 3:32, what was sitting around Jesus?",
+      "answer": "a multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-032-032-4bffc5e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-032-032-27fdbb01",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 3:32, what were the mother and brothers of Jesus doing outside?",
+      "answer": "seeking You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-032-032-3ca682e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-033-033-2e16cde7",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 3:33, what did He do before asking a question?",
+      "answer": "He answered them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-033-033-22977930"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-033-033-882e5b10",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 3:33, what question did He ask regarding His family?",
+      "answer": "Who is My mother, or My brothers?",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-003-033-033-16838c4a",
+        "41-003-033-033-882e5b10"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-034-034-46b9bcb4",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 3:34, how did He identify those who sat about Him?",
+      "answer": "Here are My mother and My brothers!",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-003-034-034-9937de5a",
+        "41-003-034-034-df142030"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-034-034-e43dae20",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 3:34, what actions did He take regarding those sitting about Him?",
+      "answer": "He looked around in a circle, He said, \"Here are My mother and My brothers!",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "41-003-034-034-c00a447d",
+        "41-003-034-034-d82c4c58"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-034-034-07665d0c",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 3:34, where were the people He looked at located?",
+      "answer": "in a circle that sat about Him",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-003-034-034-adc8c5f7",
+        "41-003-034-034-a3ea291d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-035-035-ec80d914",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 3:35, list the 3 titles Jesus gives to those who do the will of God.",
+      "answer": "My brother and My sister and mother",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-003-035-035-21e83296"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-035-035-9be23e01",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 3:35, what condition must someone meet to be considered Jesus' family?",
+      "answer": "whoever does the will of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-003-035-035-e1e069c9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-003-035-035-73226eb1",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "True or False: According to Mark 3:35, Jesus claims that anyone who does the will of God is His brother, sister, and mother.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-003-035-035-1291576e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-003-001-001-024f9538",
+      "41-003-001-001-2faddcf3",
+      "41-003-001-001-2f576aff"
+    ],
+    "2": [
+      "41-003-002-002-ddc300e1",
+      "41-003-002-002-ae48cbf3",
+      "41-003-002-002-3a02b12a"
+    ],
+    "3": [
+      "41-003-003-003-8d31b89e",
+      "41-003-003-003-121be792",
+      "41-003-003-003-7b64246f"
+    ],
+    "4": [
+      "41-003-004-004-22a38dc7",
+      "41-003-004-004-1b7ac45b",
+      "41-003-004-004-569facc3"
+    ],
+    "5": [
+      "41-003-005-005-3a97c816",
+      "41-003-005-005-42c8f416",
+      "41-003-005-005-e44324c6",
+      "41-003-005-005-05ffea0f",
+      "41-003-005-005-f2446162"
+    ],
+    "6": [
+      "41-003-006-006-e54a2413",
+      "41-003-006-006-5e93b138",
+      "41-003-006-006-4b5be50e",
+      "41-003-006-006-5a9f6629",
+      "41-003-006-006-2fc84278"
+    ],
+    "7": [
+      "41-003-007-007-83e748a3",
+      "41-003-007-007-524219e1",
+      "41-003-007-007-a1c1e4b0",
+      "41-003-007-007-a6edc4a6"
+    ],
+    "8": [
+      "41-003-008-008-1e326b4c",
+      "41-003-008-008-5e8d4740",
+      "41-003-008-008-45a872fa"
+    ],
+    "9": [
+      "41-003-009-009-064246bf",
+      "41-003-009-009-5505164a",
+      "41-003-009-009-0629f6c2"
+    ],
+    "10": [
+      "41-003-010-010-7ed71740",
+      "41-003-010-010-2d3f8ce8",
+      "41-003-010-010-348d2180",
+      "41-003-010-010-cd0a5a14"
+    ],
+    "11": [
+      "41-003-011-011-22c37b14",
+      "41-003-011-011-2d7001bd",
+      "41-003-011-011-0c529ebf",
+      "41-003-011-011-3f6eb306"
+    ],
+    "12": [
+      "41-003-012-012-d6755065",
+      "41-003-012-012-f5e543b7"
+    ],
+    "13": [
+      "41-003-013-013-f90e2d15",
+      "41-003-013-013-8164c6dc",
+      "41-003-013-013-fcc10b3e"
+    ],
+    "14": [
+      "41-003-014-014-29ae9cc5",
+      "41-003-014-014-a6599cf9",
+      "41-003-014-014-4ff34ddf"
+    ],
+    "15": [
+      "41-003-015-015-2986d8f2",
+      "41-003-015-015-fc411d17",
+      "41-003-015-015-05d5de28"
+    ],
+    "16": [
+      "41-003-016-016-d54e8415",
+      "41-003-016-016-327a7c51"
+    ],
+    "17": [
+      "41-003-017-017-3e17d262",
+      "41-003-017-017-f57685ac",
+      "41-003-017-017-18b00171",
+      "41-003-017-017-075d3d75"
+    ],
+    "18": [
+      "41-003-018-018-a337cb7c",
+      "41-003-018-018-015245aa",
+      "41-003-018-018-f894b27f"
+    ],
+    "19": [
+      "41-003-019-019-b3cf8af7",
+      "41-003-019-019-50610282"
+    ],
+    "20": [
+      "41-003-020-020-06967933",
+      "41-003-020-020-acb2cdc9",
+      "41-003-020-020-ef1aaca4"
+    ],
+    "21": [
+      "41-003-021-021-f0d40d45",
+      "41-003-021-021-4db0ab84"
+    ],
+    "22": [
+      "41-003-022-022-d33d6d2b",
+      "41-003-022-022-50ad0eff",
+      "41-003-022-022-22989d8d",
+      "41-003-022-022-4d255bd2",
+      "41-003-022-022-f9ad70ef"
+    ],
+    "23": [
+      "41-003-023-023-117866b9",
+      "41-003-023-023-1e5d3fea",
+      "41-003-023-023-664225d1"
+    ],
+    "24": [
+      "41-003-024-024-3c3aa7f6"
+    ],
+    "25": [
+      "41-003-025-025-551636bf",
+      "41-003-025-025-ded8c426"
+    ],
+    "26": [
+      "41-003-026-026-1b6510d8",
+      "41-003-026-026-cdd31982"
+    ],
+    "27": [
+      "41-003-027-027-69562d0a",
+      "41-003-027-027-11848903",
+      "41-003-027-027-3d41ec35",
+      "41-003-027-027-90126569",
+      "41-003-027-027-21666d86"
+    ],
+    "28": [
+      "41-003-028-028-90d7aa87",
+      "41-003-028-028-79614163",
+      "41-003-028-028-84dd75c1",
+      "41-003-028-028-8f1b3fe6"
+    ],
+    "29": [
+      "41-003-029-029-8d59b2d1",
+      "41-003-029-029-0a9dc529",
+      "41-003-029-029-5d930bf2"
+    ],
+    "30": [
+      "41-003-030-030-ec4ffb8c",
+      "41-003-030-030-e5221dc5"
+    ],
+    "31": [
+      "41-003-031-031-e6e50920",
+      "41-003-031-031-1b2597a0",
+      "41-003-031-031-2ef8952c"
+    ],
+    "32": [
+      "41-003-032-032-563a6497",
+      "41-003-032-032-2968b276",
+      "41-003-032-032-27fdbb01"
+    ],
+    "33": [
+      "41-003-033-033-2e16cde7",
+      "41-003-033-033-882e5b10"
+    ],
+    "34": [
+      "41-003-034-034-46b9bcb4",
+      "41-003-034-034-e43dae20",
+      "41-003-034-034-07665d0c"
+    ],
+    "35": [
+      "41-003-035-035-ec80d914",
+      "41-003-035-035-9be23e01",
+      "41-003-035-035-73226eb1"
+    ]
+  }
+}

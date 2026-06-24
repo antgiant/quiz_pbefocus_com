@@ -1,0 +1,1431 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "61-2-peter",
+  "book": "2 Peter",
+  "chapter": 2,
+  "questions": [
+    {
+      "id": "61-002-001-001-b89abb93",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 2:1, what do false teachers do to the Lord who bought them?",
+      "answer": "denying",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-001-001-b89abb93"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-001-001-799927eb",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 2:1, what will false teachers bring on themselves?",
+      "answer": "swift destruction",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-001-001-799927eb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-001-001-70e6d5d6",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 2:1, what will false teachers secretly bring in? (be specific)",
+      "answer": "destructive heresies",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-001-001-70e6d5d6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-001-001-1dcb9248",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 2:1, what will there be among you in the future?",
+      "answer": "false teachers",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-001-001-1dcb9248"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-001-001-0ea11250",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 2 Peter 2:1, who was among the people in the past?",
+      "answer": "false prophets",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-001-001-0ea11250"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-002-002-8218b84b",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 2:2, what will be blasphemed because of the followers of false teachers?",
+      "answer": "the way of truth",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-002-002-8218b84b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-002-002-015b962d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 2 Peter 2:2, what will many people follow?",
+      "answer": "their destructive ways",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-002-002-015b962d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-003-003-09a7040b",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 2:3, by what means will they exploit you?",
+      "answer": "covetousness",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-002-003-003-09a7040b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-003-003-7cc764d3",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 2:3, what does not slumber?",
+      "answer": "their destruction",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-003-003-7cc764d3"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-003-003-9c67e4ac",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 2:3, what has not been idle for a long time?",
+      "answer": "their judgment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-003-003-9c67e4ac"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-003-003-275b3752",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 2 Peter 2:3, with what will they exploit you?",
+      "answer": "deceptive words",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-003-003-275b3752"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-004-004-ddda4627",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 2:4, what were the angels who sinned delivered into?",
+      "answer": "chains of darkness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-004-004-ddda4627"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-004-004-a8bbb6f5",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 2:4, where did God cast the angels who sinned?",
+      "answer": "hell",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-002-004-004-a8bbb6f5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-004-004-df68bc8a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 2:4, who did God not spare?",
+      "answer": "the angels who sinned",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-004-004-df68bc8a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-004-004-9cb011dc",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 2 Peter 2:4, why were the angels delivered into chains of darkness? (be specific)",
+      "answer": "to be reserved for judgment",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "61-002-004-004-9cb011dc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-005-005-feccd42d",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 2:5, how many people was Noah counted as when he was saved?",
+      "answer": "one of eight people",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "61-002-005-005-feccd42d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-005-005-59d29353",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 2:5, what did God bring on the world of the ungodly?",
+      "answer": "the flood",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-005-005-59d29353"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-005-005-9bf7a45b",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 2:5, what did God not spare?",
+      "answer": "the ancient world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-005-005-9bf7a45b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-005-005-2f953a93",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 2:5, what was Noah described as?",
+      "answer": "a preacher of righteousness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-005-005-2f953a93"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-005-005-73006260",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 2 Peter 2:5, who did God save?",
+      "answer": "Noah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-005-005-73006260"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-006-006-0e4396c0",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 2:6, what did God condemn the cities of Sodom and Gomorrah to?",
+      "answer": "destruction",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-006-006-0e4396c0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-006-006-94006046",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 2:6, what did God make these cities for those who afterward would live ungodly?",
+      "answer": "an example",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-006-006-94006046"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-006-006-b2ec29d9",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 2 Peter 2:6, what two cities were turned into ashes?",
+      "answer": "Sodom and Gomorrah",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-006-006-b2ec29d9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-007-007-d011a4cf",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 2:7, by what was Lot oppressed?",
+      "answer": "the filthy conduct of the wicked",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-007-007-d011a4cf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-007-007-fa2da064",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 2:7, what adjective is used to describe the conduct of the wicked?",
+      "answer": "filthy",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-007-007-fa2da064"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-007-007-e60b3600",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 2 Peter 2:7, who was delivered by the Lord?",
+      "answer": "righteous Lot",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-007-007-e60b3600"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-008-008-5764763a",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 2:8, how is Lot described in relation to where he was dwelling?",
+      "answer": "that righteous man, dwelling among them",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "61-002-008-008-5764763a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-008-008-fb18b69f",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 2:8, how often did the righteous man torment his soul?",
+      "answer": "from day to day",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-002-008-008-fb18b69f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-008-008-5fb23790",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 2:8, what did the righteous man torment from day to day?",
+      "answer": "his righteous soul",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-008-008-5fb23790"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-008-008-430bc171",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 2 Peter 2:8, what two actions caused the righteous man to torment his soul? (be specific)",
+      "answer": "seeing and hearing their lawless deeds",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-008-008-430bc171"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-009-009-0b0075c0",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 2:9, until when are the unjust reserved under punishment?",
+      "answer": "the day of judgment",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "61-002-009-009-0b0075c0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-009-009-f5abdf17",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 2:9, what does the Lord know how to do regarding the godly?",
+      "answer": "deliver the godly out of temptations",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-002-009-009-f5abdf17"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-009-009-395b7497",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 2 Peter 2:9, what does the Lord reserve the unjust under?",
+      "answer": "punishment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-009-009-395b7497"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-010-010-43d1d059",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 2:10, how do those who are described as presumptuous and self-willed walk?",
+      "answer": "according to the flesh in the lust of uncleanness",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-002-010-010-43d1d059"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-010-010-ded8f157",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 2:10, name two characteristics used to describe those who despise authority. (be specific)",
+      "answer": "presumptuous, self-willed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-010-010-ded8f157"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-010-010-1772b5bb",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 2:10, what are those who walk according to the flesh not afraid to speak evil of?",
+      "answer": "dignitaries",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-010-010-1772b5bb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-010-010-0dce145a",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 2 Peter 2:10, what two things do those who walk according to the flesh do regarding authority? (be specific)",
+      "answer": "walk according to the flesh in the lust of uncleanness and despise authority",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-010-010-0dce145a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-011-011-29d82f9d",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 2:11, how are angels described in comparison to those who speak evil of dignitaries? (be specific)",
+      "answer": "greater in power and might",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "61-002-011-011-29d82f9d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-011-011-d4e99d01",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 2:11, where do angels not bring a reviling accusation?",
+      "answer": "before the Lord",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "61-002-011-011-d4e99d01"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-011-011-53b715e8",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 2 Peter 2:11, who does not bring a reviling accusation against dignitaries before the Lord?",
+      "answer": "angels",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-011-011-53b715e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-012-012-992c0be9",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 2:12, what are the people described in this verse compared to?",
+      "answer": "natural brute beasts",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-012-012-992c0be9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-012-012-69a75b5c",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 2:12, what do these people speak evil of?",
+      "answer": "the things they do not understand",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-012-012-69a75b5c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-012-012-2087dc7e",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 2:12, what were natural brute beasts made to be?",
+      "answer": "caught and destroyed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-012-012-2087dc7e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-012-012-6beffcaf",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 2 Peter 2:12, what will happen to these people in their own corruption?",
+      "answer": "they will utterly perish",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-012-012-6beffcaf"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-013-013-cf9b27d1",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 2:13, what two things are they described as being?",
+      "answer": "spots and blemishes",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-013-013-cf9b27d1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-013-013-ecc00298",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 2:13, what will these people receive?",
+      "answer": "the wages of unrighteousness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-013-013-ecc00298"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-013-013-5205e2bd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 2:13, while they feast with you, what are they doing in their own deceptions? (be specific)",
+      "answer": "carousing",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-013-013-5205e2bd"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-013-013-e1781568",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 2 Peter 2:13, who does the text say count it pleasure to carouse in the daytime?",
+      "answer": "those who count it pleasure to carouse in the daytime",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-013-013-e1781568"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-014-014-ef71bd1f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 2:14, what are the eyes of these people full of?",
+      "answer": "adultery",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-014-014-ef71bd1f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-014-014-a6b6a753",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 2:14, what are these people called? (be specific)",
+      "answer": "accursed children",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-014-014-a6b6a753"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-014-014-9dae3cd2",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 2:14, what has the heart of these people been trained in?",
+      "answer": "covetous practices",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-014-014-9dae3cd2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-014-014-5bba2c19",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 2:14, what is it that their eyes cannot cease from?",
+      "answer": "sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-014-014-5bba2c19"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-014-014-bd6f792f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 2 Peter 2:14, who are these people enticing?",
+      "answer": "unstable souls",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-014-014-bd6f792f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-015-015-013ef93a",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 2:15, what did Balaam love? (be specific)",
+      "answer": "the wages of unrighteousness",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "61-002-015-015-013ef93a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-015-015-046f290d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 2:15, what have those described forsaken?",
+      "answer": "the right way",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-015-015-046f290d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-015-015-9dd2794d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 2:15, what is the name of the man whose way the false teachers followed?",
+      "answer": "Balaam",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-015-015-9dd2794d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-015-015-979d9d10",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 2 Peter 2:15, who was the father of Balaam?",
+      "answer": "Beor",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-015-015-979d9d10"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-016-016-e34f692a",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 2:16, for what was the prophet rebuked?",
+      "answer": "his iniquity",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "61-002-016-016-e34f692a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-016-016-0507fd78",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 2:16, what did the dumb donkey's speaking voice restrain?",
+      "answer": "the madness of the prophet",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-016-016-0507fd78"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-016-016-7f80f79c",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 2 Peter 2:16, what type of animal spoke with a man's voice?",
+      "answer": "a dumb donkey",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-016-016-7f80f79c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-016-016-52387499",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "True or False: According to 2 Peter 2:16, the prophet was rebuked for his iniquity.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "61-002-016-016-52387499"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-017-017-5d41ded2",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 2:17, to what are these people compared?",
+      "answer": "wells without water, clouds carried by a tempest",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "61-002-017-017-5d41ded2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-017-017-e8bb6545",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 2 Peter 2:17, what is reserved for them?",
+      "answer": "the blackness of darkness forever",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-017-017-e8bb6545"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-018-018-07f21167",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 2:18, from whom have the people actually escaped?",
+      "answer": "those who live in error",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-018-018-07f21167"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-018-018-fa597b6c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 2:18, through what two things do they allure others? (be specific)",
+      "answer": "the lusts of the flesh, through lewdness",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-018-018-fa597b6c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-018-018-fbabe0be",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 2:18, what group of people do they allure?",
+      "answer": "the ones who have actually escaped from those who live in error",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "61-002-018-018-fbabe0be"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-018-018-2acae93f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 2 Peter 2:18, what kind of words do they speak?",
+      "answer": "great swelling words of emptiness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-018-018-2acae93f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-019-019-c336c1eb",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 2:19, of what are they themselves slaves?",
+      "answer": "corruption",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-019-019-c336c1eb"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-019-019-ac71b3f8",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 2:19, what do they promise to others?",
+      "answer": "liberty",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-019-019-ac71b3f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-019-019-47211581",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 2 Peter 2:19, what happens to a person by whom he is overcome? (be specific)",
+      "answer": "by him also he is brought into bondage",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "61-002-019-019-47211581"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-020-020-a747632a",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 2:20, how is the latter end described for them compared to the beginning?",
+      "answer": "worse",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "61-002-020-020-a747632a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-020-020-ecd6a021",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 2:20, through what have they escaped the pollutions of the world?",
+      "answer": "the knowledge of the Lord and Savior Jesus Christ",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "61-002-020-020-ecd6a021"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-020-020-a4fa8d18",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 2:20, what happens to them after escaping the pollutions of the world?",
+      "answer": "they are again entangled in them and overcome",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-020-020-a4fa8d18"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-020-020-65deee54",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 2 Peter 2:20, what have they escaped?",
+      "answer": "the pollutions of the world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-020-020-65deee54"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-021-021-f2ec3b9d",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 2:21, what happened after they knew the way of righteousness? (be specific)",
+      "answer": "they turn from the holy commandment delivered to them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-021-021-f2ec3b9d"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-021-021-2e075d09",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 2:21, what was delivered to them?",
+      "answer": "the holy commandment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-021-021-2e075d09"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-021-021-62ee3e07",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 2 Peter 2:21, what would have been better for them than turning from the holy commandment?",
+      "answer": "not to have known the way of righteousness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-021-021-62ee3e07"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-022-022-c5fc86d4",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 2 Peter 2:22, according to what has this happened to them?",
+      "answer": "the true proverb",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-022-022-c5fc86d4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-022-022-0d84fb25",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 2 Peter 2:22, name the two animals mentioned in the proverbs. (be specific)",
+      "answer": "a dog and a sow",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "61-002-022-022-0d84fb25"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-022-022-93a5d378",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 2 Peter 2:22, to what does a sow return after having washed?",
+      "answer": "to her wallowing in the mire",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-022-022-93a5d378"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "61-002-022-022-d637b77b",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to 2 Peter 2:22, what does a dog return to?",
+      "answer": "his own vomit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "61-002-022-022-d637b77b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "61-002-001-001-b89abb93",
+      "61-002-001-001-799927eb",
+      "61-002-001-001-70e6d5d6",
+      "61-002-001-001-1dcb9248",
+      "61-002-001-001-0ea11250"
+    ],
+    "2": [
+      "61-002-002-002-8218b84b",
+      "61-002-002-002-015b962d"
+    ],
+    "3": [
+      "61-002-003-003-09a7040b",
+      "61-002-003-003-7cc764d3",
+      "61-002-003-003-9c67e4ac",
+      "61-002-003-003-275b3752"
+    ],
+    "4": [
+      "61-002-004-004-ddda4627",
+      "61-002-004-004-a8bbb6f5",
+      "61-002-004-004-df68bc8a",
+      "61-002-004-004-9cb011dc"
+    ],
+    "5": [
+      "61-002-005-005-feccd42d",
+      "61-002-005-005-59d29353",
+      "61-002-005-005-9bf7a45b",
+      "61-002-005-005-2f953a93",
+      "61-002-005-005-73006260"
+    ],
+    "6": [
+      "61-002-006-006-0e4396c0",
+      "61-002-006-006-94006046",
+      "61-002-006-006-b2ec29d9"
+    ],
+    "7": [
+      "61-002-007-007-d011a4cf",
+      "61-002-007-007-fa2da064",
+      "61-002-007-007-e60b3600"
+    ],
+    "8": [
+      "61-002-008-008-5764763a",
+      "61-002-008-008-fb18b69f",
+      "61-002-008-008-5fb23790",
+      "61-002-008-008-430bc171"
+    ],
+    "9": [
+      "61-002-009-009-0b0075c0",
+      "61-002-009-009-f5abdf17",
+      "61-002-009-009-395b7497"
+    ],
+    "10": [
+      "61-002-010-010-43d1d059",
+      "61-002-010-010-ded8f157",
+      "61-002-010-010-1772b5bb",
+      "61-002-010-010-0dce145a"
+    ],
+    "11": [
+      "61-002-011-011-29d82f9d",
+      "61-002-011-011-d4e99d01",
+      "61-002-011-011-53b715e8"
+    ],
+    "12": [
+      "61-002-012-012-992c0be9",
+      "61-002-012-012-69a75b5c",
+      "61-002-012-012-2087dc7e",
+      "61-002-012-012-6beffcaf"
+    ],
+    "13": [
+      "61-002-013-013-cf9b27d1",
+      "61-002-013-013-ecc00298",
+      "61-002-013-013-5205e2bd",
+      "61-002-013-013-e1781568"
+    ],
+    "14": [
+      "61-002-014-014-ef71bd1f",
+      "61-002-014-014-a6b6a753",
+      "61-002-014-014-9dae3cd2",
+      "61-002-014-014-5bba2c19",
+      "61-002-014-014-bd6f792f"
+    ],
+    "15": [
+      "61-002-015-015-013ef93a",
+      "61-002-015-015-046f290d",
+      "61-002-015-015-9dd2794d",
+      "61-002-015-015-979d9d10"
+    ],
+    "16": [
+      "61-002-016-016-e34f692a",
+      "61-002-016-016-0507fd78",
+      "61-002-016-016-7f80f79c",
+      "61-002-016-016-52387499"
+    ],
+    "17": [
+      "61-002-017-017-5d41ded2",
+      "61-002-017-017-e8bb6545"
+    ],
+    "18": [
+      "61-002-018-018-07f21167",
+      "61-002-018-018-fa597b6c",
+      "61-002-018-018-fbabe0be",
+      "61-002-018-018-2acae93f"
+    ],
+    "19": [
+      "61-002-019-019-c336c1eb",
+      "61-002-019-019-ac71b3f8",
+      "61-002-019-019-47211581"
+    ],
+    "20": [
+      "61-002-020-020-a747632a",
+      "61-002-020-020-ecd6a021",
+      "61-002-020-020-a4fa8d18",
+      "61-002-020-020-65deee54"
+    ],
+    "21": [
+      "61-002-021-021-f2ec3b9d",
+      "61-002-021-021-2e075d09",
+      "61-002-021-021-62ee3e07"
+    ],
+    "22": [
+      "61-002-022-022-c5fc86d4",
+      "61-002-022-022-0d84fb25",
+      "61-002-022-022-93a5d378",
+      "61-002-022-022-d637b77b"
+    ]
+  }
+}

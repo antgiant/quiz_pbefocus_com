@@ -1,0 +1,2051 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "41-mark",
+  "book": "Mark",
+  "chapter": 7,
+  "questions": [
+    {
+      "id": "41-007-001-001-fb453106",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 7:1, from where did the Pharisees and scribes come?",
+      "answer": "Jerusalem",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-001-001-41dfaa98"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-001-001-5fc94995",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 7:1, what action did the Pharisees and scribes take and where did they go?",
+      "answer": "came together, to Him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-001-001-671a0c0c",
+        "41-007-001-001-b65f2167"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-001-001-048b0a9b",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 7:1, who came together to Him?",
+      "answer": "the Pharisees and some of the scribes",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-007-001-001-ae3e0b03"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-002-002-a4658fa6",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 7:2, how were the disciples' hands described when they ate bread?",
+      "answer": "defiled, that is, with unwashed hands",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-002-002-36ccff35"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-002-002-3b48ceca",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 7:2, what was the reaction of the Pharisees and scribes when they saw the disciples eating?",
+      "answer": "they found fault",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-002-002-2240926b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-002-002-b0c60af7",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 7:2, what were some of His disciples doing when the Pharisees and scribes saw them?",
+      "answer": "eating bread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-002-002-9c68482c",
+        "41-007-002-002-e3173291"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-003-003-dc007c7d",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 7:3, The Pharisees and all the Jews do not eat unless they do what with their hands? Why?",
+      "answer": "wash their hands, in a special way, holding the traditions of the elders",
+      "type": "how",
+      "points": 3,
+      "originalIds": [
+        "41-007-003-003-01f5a0c6",
+        "41-007-003-003-0dfe8735"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-003-003-372fe447",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 7:3, what groups of people do not eat unless they wash their hands in a special way?",
+      "answer": "the Pharisees and all the Jews",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-007-003-003-ef0aa8f7",
+        "41-007-003-003-09cbe1fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-003-003-86667965",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 7:3, whose tradition do the Pharisees and all the Jews hold?",
+      "answer": "the elders",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-003-003-525d5ed9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-004-004-942e0a2a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 7:4, what do they do to the many other things?",
+      "answer": "received and hold",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-004-004-8faa7ba2",
+        "41-007-004-004-f7a30166"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-004-004-a919ae5e",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 7:4, what are the things listed which they have received and hold?",
+      "answer": "the washing of cups, pitchers, copper vessels, and couches",
+      "type": "how_many",
+      "points": 4,
+      "originalIds": [
+        "41-007-004-004-024a065a",
+        "41-007-004-004-86b119ae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-004-004-5569700c",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 7:4, what 4 items do they wash, apart from washing themselves after coming from the marketplace? (be specific)",
+      "answer": "cups, pitchers, copper vessels, and couches",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-007-004-004-b76dcd89"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-004-004-d1eb718a",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 7:4, where do they come from before they wash and eat?",
+      "answer": "the marketplace",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-004-004-82f92635"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-005-005-d39784c4",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 7:5, what did the Pharisees and scribes ask why the disciples did not walk according to?",
+      "answer": "the tradition of the elders",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-005-005-059b33a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-005-005-def6c842",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 7:5, In the question from the Pharisees and scribes, what do the disciples do, and what do they not do?",
+      "answer": "eat bread with unwashed hands, not walk according to the tradition of the elders",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-005-005-d3eda999",
+        "41-007-005-005-fcabad69"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-005-005-37874dd6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 7:5, what was the state of the hands the disciples used to eat bread? (be specific)",
+      "answer": "unwashed hands",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-005-005-a74ebb25"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-005-005-ec11feef",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 7:5, which two groups of people asked Jesus a question?",
+      "answer": "the Pharisees and scribes",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-005-005-edf2c4d2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-006-006-dbcc734f",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 7:6, what term did Jesus use to describe the people?",
+      "answer": "hypocrites",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-006-006-f6571e78"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-006-006-c7f7632c",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 7:6, where is the heart of the people?",
+      "answer": "far from Me",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-006-006-6b372ea4",
+        "41-007-006-006-f473eb71"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-006-006-b3cd9a58",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 7:6, who did Jesus say prophesied of the people?",
+      "answer": "Isaiah",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-007-006-006-2ce1db2b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-006-006-9d30275d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 7:6, with what part of their body do the people honor Him?",
+      "answer": "lips",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-006-006-6a378c0f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-007-007-df997509",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 7:7, how do they worship Him?",
+      "answer": "in vain",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-007-007-905f4421"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-007-007-20b4df6f",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 7:7, what are they teaching as doctrines?",
+      "answer": "the commandments of men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-007-007-8094b316",
+        "41-007-007-007-20b4df6f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-008-008-55900a9d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 7:8, name the things that are washed as part of the tradition of men?",
+      "answer": "pitchers, cups",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-008-008-7644983d",
+        "41-007-008-008-f93cdef3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-008-008-b66531f1",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 7:8, what are they doing by holding the tradition of men?",
+      "answer": "laying aside the commandment of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-008-008-8ea762c2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-008-008-9ee809c6",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 7:8, what do they hold instead of the commandment of God?",
+      "answer": "the tradition of men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-008-008-209cb5c2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-008-008-9c963161",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 7:8, what \"catch-all\" is used after listing washing pitchers and cups as thing they do to hold the tradition of men and laying aside the commandment of God?",
+      "answer": "many other such things you do",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-008-008-fdb1a177",
+        "41-007-008-008-4396d2e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-009-009-268f678c",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 7:9, how do they reject the commandment of God?",
+      "answer": "All too well",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-009-009-70a4f3a7",
+        "41-007-009-009-f0a557a2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-009-009-039da3c4",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 7:9, what is the reason given for why they reject the commandment of God?",
+      "answer": "that you may keep your tradition",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-007-009-009-1e0eb4c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-009-009-7f50ebc6",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "True or False: According to Mark 7:9, Jesus said that they reject the commandment of God to keep their tradition.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-007-009-009-2de6d425"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-010-010-5597daf3",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 7:10, what are the two specific commands given by Moses regarding parents? (be specific)",
+      "answer": "Honor your father and your mother; and, He who curses father or mother, let him be put to death",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-010-010-60ae53fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-010-010-28099c14",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 7:10, what is the consequence for a person who curses their father or mother?",
+      "answer": "let him be put to death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-010-010-d39073cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-010-010-e09b773f",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 7:10, who did Jesus say provided the command to honor your father and mother?",
+      "answer": "Moses",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-007-010-010-90b6a1cd"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-011-011-5312f146",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 7:11, what is the meaning of the word 'Corban'?",
+      "answer": "a gift to God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-011-011-3f422b9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-011-011-76f01831",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 7:11, what phrase does a man say to his father or mother to avoid helping them?",
+      "answer": "Whatever profit you might have received from me is Corban",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-011-011-5d7c721a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-012-012-0b0b0a71",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 7:12, what does a man no longer do for his parents after claiming Corban?",
+      "answer": "you no longer let him do anything for his father or his mother",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-012-012-b9f7ec50"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-013-013-7085d7d3",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 7:13, what phrase is used at the end to be sure to include every offensive tradition",
+      "answer": "many such things you do",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-007-013-013-d8340140",
+        "41-007-013-013-e9fa2929"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-013-013-7553aa3a",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 7:13, through what are they making the word of God of no effect?",
+      "answer": "your tradition with you have handed down",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-013-013-65adb3bc",
+        "41-007-013-013-19d7e297"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-013-013-2744598d",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 7:13, what is happening through the tradition which you have handed down?",
+      "answer": "making the word of God of no effect",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-013-013-40e9ccaa",
+        "41-007-013-013-ce84dbd9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-013-013-424335e8",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 7:13, what has been done with the tradition mentioned?",
+      "answer": "you have handed down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-013-013-0356c366"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-014-014-2b8c462a",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 7:14, what did He command the multitude to do?",
+      "answer": "Hear Me, everyone, and understand",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-014-014-976e4753",
+        "41-007-014-014-2b8c462a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-014-014-02741751",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 7:14, what were the two commands given to the multitude? (be specific)",
+      "answer": "Hear Me, everyone, and understand",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-014-014-6c610736"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-014-014-897abe49",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 7:14, whom did He call to Himself?",
+      "answer": "all the multitude",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-007-014-014-816f1914"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-015-015-734fe604",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 7:15, contrast the two sources mentioned regarding what defiles a man. (be specific)",
+      "answer": "nothing that enters a man from outside; the things which come out of him",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-015-015-3b46a0c0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-015-015-c03f3241",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 7:15, what are the things that defile a man?",
+      "answer": "the things which come out of him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-015-015-659829ac"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-015-015-c3d77b6c",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 7:15, what cannot defile a man?",
+      "answer": "nothing that enters a man from outside",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-015-015-0ba94350"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-016-016-524c63e9",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 7:16, what command is given to those who have ears to hear?",
+      "answer": "let him hear",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-016-016-bd3d38f0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-016-016-bf4f429a",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 7:16, what condition is mentioned?",
+      "answer": "If anyone has ears to hear",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-007-016-016-a336dc95",
+        "41-007-016-016-2eb85158"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-017-017-60c64e13",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 7:17, when did the disciples ask Jesus concerning the parable?",
+      "answer": "When He had entered a house away from the crowd",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-007-017-017-c19d0a9e",
+        "41-007-017-017-60c64e13"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-017-017-f3a85f3b",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 7:17, where did Jesus enter when the disciples asked Him about the parable?",
+      "answer": "a house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-017-017-8cedd7b2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-017-017-4fbab2c9",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 7:17, who asked Jesus concerning the parable?",
+      "answer": "His disciples",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-007-017-017-e5b78626"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-018-018-df25cfff",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 7:18, what did He say cannot happen from things that enter a man from the outside?",
+      "answer": "cannot defile him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-018-018-135e8c8e",
+        "41-007-018-018-22d070d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-018-018-2d96aca8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 7:18, what did Jesus ask if the disciples are without?",
+      "answer": "Are you thus without understanding also?",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "41-007-018-018-3de5abc2",
+        "41-007-018-018-4a4ea9c6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-018-018-b10e8cd3",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 7:18, what question did Jesus ask about the disciples' perception?",
+      "answer": "Do you not perceive that whatever enters a man from outside cannot defile him",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-018-018-9e5d8a84",
+        "41-007-018-018-b10e8cd3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-019-019-74445f32",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 7:19, what happens to food after it enters the stomach?",
+      "answer": "it is eliminated",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-019-019-47430aaf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-019-019-98bd8e2a",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 7:19, what is the final result described regarding all foods?",
+      "answer": "purifying all foods",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-019-019-4bd56ce0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-019-019-89b41cde",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 7:19, where does food enter, what happens to it, where does food not enter, what do the facts listed result in?",
+      "answer": "his stomach, and is eliminated, it does not enter the heart, thus purifying all foods",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-007-019-019-230c9e2a",
+        "41-007-019-019-c1cec726"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-019-019-c528a8c3",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 7:19, what logical sequence is given for purifying all foods?",
+      "answer": "because it does not enter his heart but his stomach, and is eliminated",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "41-007-019-019-ac3ef767",
+        "41-007-019-019-5318f874"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-020-020-2669d8f7",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 7:20, what does Jesus say defiles a man?",
+      "answer": "What comes out of a man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-020-020-43e356d7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-020-020-59628bde",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 7:20, what comes out of a man does what?",
+      "answer": "that defiles a man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-020-020-c70c4fe1",
+        "41-007-020-020-5f8aacd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-021-021-4f077462",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 7:21, list the 4 things that proceed from within the heart of men.",
+      "answer": "evil thoughts, adulteries, fornications, murders",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-007-021-021-d33567b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-021-021-fa467f9b",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 7:21, out of what and from what proceed the evils listed?",
+      "answer": "out of the heart of men, from within",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-007-021-021-20d140e6",
+        "41-007-021-021-1409e3d8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-022-022-f13f630a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 7:21-22, list the evil items mentioned that proceed from within the heart of men.",
+      "answer": "evil thoughts, adulteries, fornications, murders, thefts, covetousness, wickedness, deceit, lewdness, an evil eye, blasphemy, pride, foolishness",
+      "type": "list",
+      "points": 13,
+      "originalIds": [
+        "41-007-022-022-4eea8e67",
+        "41-007-022-022-17429334"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-022-022-79179570",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 7:22, name the final 4 items in the list of things that proceed from within. (be specific)",
+      "answer": "lewdness, an evil eye, blasphemy, pride, foolishness",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-007-022-022-f5a42112",
+        "41-007-022-022-79179570"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-023-023-20f0882c",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 7:23, what is the impact of these evil things on a man?",
+      "answer": "defile a man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-023-023-45e75022"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-023-023-34f85e8d",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 7:23, where do all these evil things come from?",
+      "answer": "from within",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-023-023-6fd6e51b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-024-024-311b6f15",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, What regions did Jesus arise and go to?",
+      "answer": "Tyre and Sidon",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-007-024-024-65c07a55",
+        "41-007-024-024-0af3b8a4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-024-024-f5071b32",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, to what region did He go after He arose?",
+      "answer": "the region of Tyre and Sidon",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-007-024-024-26a8601d",
+        "41-007-024-024-f5071b32"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-024-024-25a4f46d",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, what happened when He wanted no one to know He was in the house? (be specific)",
+      "answer": "He could not be hidden",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-024-024-3aa68a48",
+        "41-007-024-024-25a4f46d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-024-024-120d141a",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, what did He want when He entred a house?",
+      "answer": "He wanted no one to know it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-024-024-ffb83601",
+        "41-007-024-024-0fe27230"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-024-024-eea1d985",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, where did He enter after going to the region of Tyre and Sidon?",
+      "answer": "a house",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-024-024-324561e0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-025-025-f823ccb9",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 7:25, what condition did the woman's young daughter have?",
+      "answer": "an unclean spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-025-025-d340a8ea"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-025-025-bde73eb9",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 7:25, what did the woman do after hearing about Him?",
+      "answer": "she came and fell at His feet",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-025-025-870cb606"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-025-025-b38af52f",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 7:25, who heard about Him and what was her problem?",
+      "answer": "a woman whose young daughter had an unclean spirit",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-007-025-025-aa03dd85",
+        "41-007-025-025-31ec0861"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-026-026-412b3414",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 7:26, name the two descriptors of the woman's origin and background. (be specific)",
+      "answer": "Greek, a Syro-Phoenician by birth",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-026-026-b3e9efc6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-026-026-dc62d16b",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 7:26, what did the woman keep asking Him to do?",
+      "answer": "to cast the demon out of her daughter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-026-026-62b5f6d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-027-027-6edf3ead",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 7:27, what is it not good to take and throw to the little dogs? (be specific)",
+      "answer": "the children’s bread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-027-027-8eae8a30"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-027-027-bab3918f",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 7:27, who said, \"Let the children be filled first\"?",
+      "answer": "Jesus",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-007-027-027-6fb1c94f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-027-027-44beb7d4",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 7:27, why did Jesus say the children should be filled first?",
+      "answer": "for it is not good to take the children’s bread and throw it to the little dogs",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "41-007-027-027-26c740a7",
+        "41-007-027-027-44beb7d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-028-028-0f75353a",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 7:28, how did the woman address Him?",
+      "answer": "Lord",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-028-028-1b160adc",
+        "41-007-028-028-e1795b60"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-028-028-f231039a",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 7:28, what do the little dogs eat from?",
+      "answer": "the children’s crumbs",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-028-028-e4ff1598"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-028-028-5ebbcc7c",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 7:28, where are the little dogs located?",
+      "answer": "under the table",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-028-028-e3729bdc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-029-029-7b239309",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 7:29, what did Jesus tell the woman to do, why, and with what result?",
+      "answer": "go your way, for this saying, the demon has gone out of your daughter",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-007-029-029-ff6d0b54",
+        "41-007-029-029-969cc6fc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-029-029-7a149733",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 7:29, what happened to the demon?",
+      "answer": "the demon has gone out of your daughter",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-029-029-4317df65"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-030-030-f3324637",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 7:30, what did the woman find when she had come to her house?",
+      "answer": "she found the demon gone out, and her daughter lying on the bed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-030-030-81681b8f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-030-030-8f2f6efb",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 7:30, what two things did the woman find upon returning to her house? (be specific)",
+      "answer": "the demon gone out, and her daughter lying on the bed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-030-030-85a9931f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-030-030-58986862",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 7:30, where was the daughter found, doing what, in what condition?",
+      "answer": "on the bed, laying, demon gone out",
+      "type": "where",
+      "points": 3,
+      "originalIds": [
+        "41-007-030-030-076a45ad",
+        "41-007-030-030-5e03194a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-031-031-015da970",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 7:31, from what two regions did Jesus depart?",
+      "answer": "Tyre and Sidon",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-031-031-ddc8b2bb"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-031-031-cfc57248",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 7:31, through the midst of what region did Jesus come?",
+      "answer": "Decapolis",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-031-031-b8812eb8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-031-031-934d4dac",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 7:31, to what body of water did Jesus come?",
+      "answer": "Sea of Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-031-031-573d083f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-032-032-84f3142b",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 7:32, how many people with an impediment were brought to Jesus?",
+      "answer": "one",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "41-007-032-032-bfe7a409",
+        "41-007-032-032-4036efae"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-032-032-d5955d6f",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 7:32, what did they beg Jesus to do to the man?",
+      "answer": "put His hand on him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-032-032-2443fd5e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-032-032-c1a8eb93",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 7:32, what two physical conditions were described regarding the person who was brought to Jesus? (be specific)",
+      "answer": "deaf and had an impediment in his speech",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-032-032-c36ff294",
+        "41-007-032-032-c1a8eb93"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-033-033-14574956",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 7:33, from where did Jesus take the man aside?",
+      "answer": "the multitude",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-033-033-ae4da6a7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-033-033-729cfb4d",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 7:33, where did Jesus put his fingers?",
+      "answer": "in his ears",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-033-033-b06cfa50",
+        "41-007-033-033-7c933f89"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-033-033-683112b9",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 7:33, what part of the man did Jesus touch after spitting?",
+      "answer": "his tongue",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-033-033-7b8262e3"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-033-033-81aa0e85",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 7:33, what two physical actions did Jesus do after taking the man aside? (be specific)",
+      "answer": "He put His fingers in his ears, He spat, He touched his tongue",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-007-033-033-6807b2d6",
+        "41-007-033-033-453478ef"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-034-034-c76e2e22",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 7:34, in what direction did Jesus look before He sighed?",
+      "answer": "up to heaven",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-007-034-034-192bdcbe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-034-034-623be4db",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 7:34, what Aramaic word did Jesus say to the man?",
+      "answer": "Ephphatha",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-034-034-64322b60"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-034-034-e3949c10",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 7:34, what two things did Jesus do before speaking?",
+      "answer": "look to heaven, He sighed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-034-034-f6ac2190",
+        "41-007-034-034-76135a3f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-034-034-3173bfd7",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 7:34, what is the meaning of the word Ephphatha?",
+      "answer": "Be opened",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-034-034-babec71c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-035-035-cee95d6f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 7:35, how did the man speak?",
+      "answer": "plainly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-035-035-43ee689d",
+        "41-007-035-035-6b8fa4a5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-035-035-5e73bfeb",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 7:35, how did he speak, what was loosed, what was opened, when did these things happen?",
+      "answer": "plainly, his tongue was loosed, his ears were opened, immediately",
+      "type": "how",
+      "points": 4,
+      "originalIds": [
+        "41-007-035-035-393ea034",
+        "41-007-035-035-75bdd2ef"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-035-035-14966186",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 7:35, what happened to the impediment of the man's tongue?",
+      "answer": "was loosed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-035-035-d22edaad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-035-035-92a5ffef",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 7:35, what two things happened to the man immediately after Jesus spoke? (be specific)",
+      "answer": "his ears were opened, and the impediment of his tongue was loosed",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-007-035-035-9ff3d246"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-036-036-c5332aff",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 7:36, what did He command them, what did they do?",
+      "answer": "tell no one, proclaim it widely",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-036-036-987f2e0f",
+        "41-007-036-036-dab8e0be"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-036-036-890a73c7",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 7:36, what did He command them that they should do?",
+      "answer": "tell no one",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-036-036-09e859d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-036-036-b441d954",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 7:36, what happened the more He commanded them?",
+      "answer": "the more widely they proclaimed it",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-036-036-845100d1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-037-037-d392eb9f",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, how were they astonished?",
+      "answer": "beyond measure",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-007-037-037-afe2e7a0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-037-037-d0c841b6",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what does he do well, and what two things does he make?",
+      "answer": "all things, deaf to hear, mute to speak",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-007-037-037-9239801f",
+        "41-007-037-037-a9147595"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-037-037-c9be9c06",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what did they say He has done?",
+      "answer": "He has done all things well",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-037-037-82dfea9e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-037-037-029a8990",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what does He make?",
+      "answer": "deaf to hear, mute to speak",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-037-037-9431dad6",
+        "41-007-037-037-0046ab04"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "41-007-037-037-a337a68d",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what does He make the mute do?",
+      "answer": "to speak",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-037-037-831ac713"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "41-007-001-001-fb453106",
+      "41-007-001-001-5fc94995",
+      "41-007-001-001-048b0a9b"
+    ],
+    "2": [
+      "41-007-002-002-a4658fa6",
+      "41-007-002-002-3b48ceca",
+      "41-007-002-002-b0c60af7"
+    ],
+    "3": [
+      "41-007-003-003-dc007c7d",
+      "41-007-003-003-372fe447",
+      "41-007-003-003-86667965"
+    ],
+    "4": [
+      "41-007-004-004-942e0a2a",
+      "41-007-004-004-a919ae5e",
+      "41-007-004-004-5569700c",
+      "41-007-004-004-d1eb718a"
+    ],
+    "5": [
+      "41-007-005-005-d39784c4",
+      "41-007-005-005-def6c842",
+      "41-007-005-005-37874dd6",
+      "41-007-005-005-ec11feef"
+    ],
+    "6": [
+      "41-007-006-006-dbcc734f",
+      "41-007-006-006-c7f7632c",
+      "41-007-006-006-b3cd9a58",
+      "41-007-006-006-9d30275d"
+    ],
+    "7": [
+      "41-007-007-007-df997509",
+      "41-007-007-007-20b4df6f"
+    ],
+    "8": [
+      "41-007-008-008-55900a9d",
+      "41-007-008-008-b66531f1",
+      "41-007-008-008-9ee809c6",
+      "41-007-008-008-9c963161"
+    ],
+    "9": [
+      "41-007-009-009-268f678c",
+      "41-007-009-009-039da3c4",
+      "41-007-009-009-7f50ebc6"
+    ],
+    "10": [
+      "41-007-010-010-5597daf3",
+      "41-007-010-010-28099c14",
+      "41-007-010-010-e09b773f"
+    ],
+    "11": [
+      "41-007-011-011-5312f146",
+      "41-007-011-011-76f01831"
+    ],
+    "12": [
+      "41-007-012-012-0b0b0a71"
+    ],
+    "13": [
+      "41-007-013-013-7085d7d3",
+      "41-007-013-013-7553aa3a",
+      "41-007-013-013-2744598d",
+      "41-007-013-013-424335e8"
+    ],
+    "14": [
+      "41-007-014-014-2b8c462a",
+      "41-007-014-014-02741751",
+      "41-007-014-014-897abe49"
+    ],
+    "15": [
+      "41-007-015-015-734fe604",
+      "41-007-015-015-c03f3241",
+      "41-007-015-015-c3d77b6c"
+    ],
+    "16": [
+      "41-007-016-016-524c63e9",
+      "41-007-016-016-bf4f429a"
+    ],
+    "17": [
+      "41-007-017-017-60c64e13",
+      "41-007-017-017-f3a85f3b",
+      "41-007-017-017-4fbab2c9"
+    ],
+    "18": [
+      "41-007-018-018-df25cfff",
+      "41-007-018-018-2d96aca8",
+      "41-007-018-018-b10e8cd3"
+    ],
+    "19": [
+      "41-007-019-019-74445f32",
+      "41-007-019-019-98bd8e2a",
+      "41-007-019-019-89b41cde",
+      "41-007-019-019-c528a8c3"
+    ],
+    "20": [
+      "41-007-020-020-2669d8f7",
+      "41-007-020-020-59628bde"
+    ],
+    "21": [
+      "41-007-021-021-4f077462",
+      "41-007-021-021-fa467f9b"
+    ],
+    "22": [
+      "41-007-022-022-f13f630a",
+      "41-007-022-022-79179570"
+    ],
+    "23": [
+      "41-007-023-023-20f0882c",
+      "41-007-023-023-34f85e8d"
+    ],
+    "24": [
+      "41-007-024-024-311b6f15",
+      "41-007-024-024-f5071b32",
+      "41-007-024-024-25a4f46d",
+      "41-007-024-024-120d141a",
+      "41-007-024-024-eea1d985"
+    ],
+    "25": [
+      "41-007-025-025-f823ccb9",
+      "41-007-025-025-bde73eb9",
+      "41-007-025-025-b38af52f"
+    ],
+    "26": [
+      "41-007-026-026-412b3414",
+      "41-007-026-026-dc62d16b"
+    ],
+    "27": [
+      "41-007-027-027-6edf3ead",
+      "41-007-027-027-bab3918f",
+      "41-007-027-027-44beb7d4"
+    ],
+    "28": [
+      "41-007-028-028-0f75353a",
+      "41-007-028-028-f231039a",
+      "41-007-028-028-5ebbcc7c"
+    ],
+    "29": [
+      "41-007-029-029-7b239309",
+      "41-007-029-029-7a149733"
+    ],
+    "30": [
+      "41-007-030-030-f3324637",
+      "41-007-030-030-8f2f6efb",
+      "41-007-030-030-58986862"
+    ],
+    "31": [
+      "41-007-031-031-015da970",
+      "41-007-031-031-cfc57248",
+      "41-007-031-031-934d4dac"
+    ],
+    "32": [
+      "41-007-032-032-84f3142b",
+      "41-007-032-032-d5955d6f",
+      "41-007-032-032-c1a8eb93"
+    ],
+    "33": [
+      "41-007-033-033-14574956",
+      "41-007-033-033-729cfb4d",
+      "41-007-033-033-683112b9",
+      "41-007-033-033-81aa0e85"
+    ],
+    "34": [
+      "41-007-034-034-c76e2e22",
+      "41-007-034-034-623be4db",
+      "41-007-034-034-e3949c10",
+      "41-007-034-034-3173bfd7"
+    ],
+    "35": [
+      "41-007-035-035-cee95d6f",
+      "41-007-035-035-5e73bfeb",
+      "41-007-035-035-14966186",
+      "41-007-035-035-92a5ffef"
+    ],
+    "36": [
+      "41-007-036-036-c5332aff",
+      "41-007-036-036-890a73c7",
+      "41-007-036-036-b441d954"
+    ],
+    "37": [
+      "41-007-037-037-d392eb9f",
+      "41-007-037-037-d0c841b6",
+      "41-007-037-037-c9be9c06",
+      "41-007-037-037-029a8990",
+      "41-007-037-037-a337a68d"
+    ]
+  }
+}

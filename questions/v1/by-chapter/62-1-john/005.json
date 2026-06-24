@@ -1,0 +1,1276 @@
+{
+  "schema": "pbe.chapter.questions.v1",
+  "bookId": "62-1-john",
+  "book": "1 John",
+  "chapter": 5,
+  "questions": [
+    {
+      "id": "62-005-001-001-00795d55",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 5:1, name the two subjects of love described in relation to the One who begot.",
+      "answer": "1. Him who begot, 2. him who is begotten of Him",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-005-001-001-00795d55"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-001-001-884dfa6e",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 5:1, true or false: everyone who loves Him who begot loves him who is begotten of Him?",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-005-001-001-884dfa6e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-001-001-47530936",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 5:1, what must one believe about Jesus to be born of God? (be specific)",
+      "answer": "that Jesus is the Christ",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-001-001-47530936"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-001-001-b0a1c5c9",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 5:1, who does everyone who loves Him who begot also love?",
+      "answer": "him who is begotten of Him",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-001-001-b0a1c5c9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-001-001-be8b4170",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to 1 John 5:1, whoever believes that Jesus is the Christ is what?",
+      "answer": "born of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-001-001-be8b4170"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-002-002-81a6166f",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 5:2, what do we know by loving God and keeping His commandments?",
+      "answer": "that we love the children of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-002-002-81a6166f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-002-002-fa2323e1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 5:2, what two things must we do to show we love the children of God? (be specific)",
+      "answer": "love God and keep His commandments",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "62-005-002-002-fa2323e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-002-002-79079394",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to 1 John 5:2, when do we know that we love the children of God?",
+      "answer": "when we love God and keep His commandments",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "62-005-002-002-79079394"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-003-003-0427e2db",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 5:3, what is the love of God?",
+      "answer": "that we keep His commandments",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-003-003-0427e2db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-003-003-597d22f9",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to 1 John 5:3, what is the status of God's commandments regarding being burdensome?",
+      "answer": "His commandments are not burdensome",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "62-005-003-003-597d22f9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-003-003-e0b2a35e",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "True or False: According to 1 John 5:3, the love of God is defined by keeping His commandments.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-005-003-003-e0b2a35e"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-004-004-ac9b8257",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 5:4, what does whatever is born of God do?",
+      "answer": "overcomes the world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-004-004-ac9b8257"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-004-004-8f6e18b5",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 5:4, what is born of God?",
+      "answer": "whatever",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-004-004-8f6e18b5"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-004-004-1e2b3d84",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to 1 John 5:4, what is the victory that has overcome the world?",
+      "answer": "our faith",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-004-004-1e2b3d84"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-005-005-c9a751e2",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 5:5, what must a person believe about Jesus to overcome the world?",
+      "answer": "that Jesus is the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-005-005-c9a751e2"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-005-005-138fdcd6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 5:5, what specific action is required by the person who overcomes the world?",
+      "answer": "believes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-005-005-138fdcd6"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-005-005-91ef206d",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to 1 John 5:5, who is the person that overcomes the world (be specific)?",
+      "answer": "he who believes that Jesus is the Son of God",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "62-005-005-005-91ef206d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-006-006-4514680d",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 5:6, besides by water, by what else did Jesus Christ come? (be specific)",
+      "answer": "by water and blood",
+      "type": "how",
+      "points": 2,
+      "originalIds": [
+        "62-005-006-006-4514680d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-006-006-ddb261f1",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 5:6, what bears witness?",
+      "answer": "the Spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-006-006-ddb261f1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-006-006-f654bd13",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 5:6, who is He who came by water and blood?",
+      "answer": "Jesus Christ",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-006-006-f654bd13"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-006-006-76225e04",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to 1 John 5:6, why does the Spirit bear witness?",
+      "answer": "because the Spirit is truth",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-005-006-006-76225e04"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-007-007-5b53dba7",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 5:7, how many bear witness in heaven?",
+      "answer": "three",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "62-005-007-007-5b53dba7"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-007-007-749fd0e1",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 5:7, list the three that bear witness in heaven.",
+      "answer": "the Father, the Word, and the Holy Spirit",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "62-005-007-007-749fd0e1"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-007-007-ca0b82e8",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to 1 John 5:7, what is the status of the three that bear witness in heaven? (be specific)",
+      "answer": "these three are one",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-007-007-ca0b82e8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-008-008-16a68f4d",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 5:8, how many bear witness on earth?",
+      "answer": "three",
+      "type": "how_many",
+      "points": 1,
+      "originalIds": [
+        "62-005-008-008-16a68f4d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-008-008-69b2434e",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 5:8, list the three that bear witness on earth.",
+      "answer": "the Spirit, the water, and the blood",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "62-005-008-008-69b2434e"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-008-008-16a8de01",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to 1 John 5:8, what do the three that bear witness on earth do regarding one another? (be specific)",
+      "answer": "these three agree as one",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-005-008-008-16a8de01"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-009-009-28547472",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 5:9, if we receive the witness of men, what is greater?",
+      "answer": "the witness of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-009-009-28547472"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-009-009-5483ac8b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 5:9, the witness of God is what in comparison to the witness of men? (be specific)",
+      "answer": "greater",
+      "type": "other",
+      "points": 1,
+      "originalIds": [
+        "62-005-009-009-5483ac8b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-009-009-474b714b",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to 1 John 5:9, what has God testified of?",
+      "answer": "His Son",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-009-009-474b714b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-009-009-45c24eac",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "True or False: According to 1 John 5:9, we receive the witness of men.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-005-009-009-45c24eac"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-010-010-df171a77",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 5:10, what has he who does not believe God made Him?",
+      "answer": "a liar",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-010-010-df171a77"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-010-010-7862f87b",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 5:10, where does he who believes in the Son of God have the witness?",
+      "answer": "in himself",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-005-010-010-7862f87b"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-010-010-eabc8190",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 5:10, who has the witness in himself?",
+      "answer": "He who believes in the Son of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-010-010-eabc8190"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-010-010-1bdd2108",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to 1 John 5:10, why has he who does not believe God made Him a liar? (be specific)",
+      "answer": "because he has not believed the testimony that God has given of His Son",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "62-005-010-010-1bdd2108"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-011-011-f5566014",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 5:11, what is the testimony given?",
+      "answer": "that God has given us eternal life, and this life is in His Son",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-005-011-011-f5566014"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-011-011-a861ab88",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 5:11, where is eternal life found? (be specific)",
+      "answer": "in His Son",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "62-005-011-011-a861ab88"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-011-011-50cc9c48",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to 1 John 5:11, who has given us eternal life?",
+      "answer": "God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-011-011-50cc9c48"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-012-012-48707a13",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 5:12, what does the person who possesses the Son have? (be specific)",
+      "answer": "life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-012-012-48707a13"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-012-012-c7166027",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 5:12, who does not have life?",
+      "answer": "he who does not have the Son of God",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "62-005-012-012-c7166027"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-012-012-cbb990f0",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to 1 John 5:12, who has life?",
+      "answer": "He who has the Son",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-012-012-cbb990f0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-013-013-ddde2505",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 5:13, in what are the recipients instructed to continue to believe?",
+      "answer": "the name of the Son of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-013-013-ddde2505"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-013-013-78d91cfc",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 5:13, to whom were these things written?",
+      "answer": "you who believe in the name of the Son of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-013-013-78d91cfc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-013-013-03929548",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 5:13, what is the first purpose mentioned for why these things were written?",
+      "answer": "that you may know that you have eternal life",
+      "type": "why",
+      "points": 2,
+      "originalIds": [
+        "62-005-013-013-03929548"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-013-013-7ea271f4",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to 1 John 5:13, what is the second purpose mentioned for why these things were written? (be specific)",
+      "answer": "that you may continue to believe in the name of the Son of God",
+      "type": "why",
+      "points": 3,
+      "originalIds": [
+        "62-005-013-013-7ea271f4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-014-014-178ff7da",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 5:14, if we ask anything according to His will, what does He do?",
+      "answer": "He hears us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-014-014-178ff7da"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-014-014-d534ca6f",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 5:14, what condition must be met when we ask something for Him to hear us? (be specific)",
+      "answer": "according to His will",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-005-014-014-d534ca6f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-014-014-53291011",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to 1 John 5:14, what do we have in Him?",
+      "answer": "confidence",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-014-014-53291011"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-015-015-bd69134d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 5:15, if we know that He hears us, what else do we know regarding whatever we ask?",
+      "answer": "we have the petitions that we have asked of Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-015-015-bd69134d"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-015-015-347d02cf",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 5:15, what do we possess if we know that He hears us? (be specific)",
+      "answer": "the petitions that we have asked of Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-015-015-347d02cf"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-015-015-426c9365",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to 1 John 5:15, what is the prerequisite knowledge mentioned before we know we have the petitions we asked for?",
+      "answer": "that He hears us",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-015-015-426c9365"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-016-016-ba17b08c",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 5:16, what does someone see their brother doing?",
+      "answer": "sinning a sin which does not lead to death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-016-016-ba17b08c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-016-016-ac7ff805",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 5:16, what does the author state he does not say one should do regarding sin leading to death?",
+      "answer": "pray about that",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-016-016-ac7ff805"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-016-016-2e220ef4",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 5:16, what type of sin exists in addition to sin not leading to death?",
+      "answer": "sin leading to death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-016-016-2e220ef4"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-016-016-08bdfdff",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 5:16, what will He give to the person who asks for those who commit sin not leading to death? (be specific)",
+      "answer": "life",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-016-016-08bdfdff"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-016-016-757dfdae",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to 1 John 5:16, what will someone do if they see their brother sinning a sin not leading to death?",
+      "answer": "he will ask",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-016-016-757dfdae"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-017-017-55f697c9",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to 1 John 5:17, what is all unrighteousness?",
+      "answer": "sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-017-017-55f697c9"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-017-017-7fcc2222",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "True or False: According to 1 John 5:17, there is sin not leading to death.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-005-017-017-7fcc2222"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-018-018-2e03b89f",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 5:18, what do we know about whoever is born of God?",
+      "answer": "does not sin",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-018-018-2e03b89f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-018-018-c68f295c",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 5:18, what does he who has been born of God do?",
+      "answer": "keeps himself",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-018-018-c68f295c"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-018-018-f9a26fcc",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to 1 John 5:18, what does the wicked one fail to do to him who has been born of God?",
+      "answer": "does not touch him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-018-018-f9a26fcc"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-019-019-55072a4f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 5:19, what do we know regarding who we are of?",
+      "answer": "we are of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-019-019-55072a4f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-019-019-5ce1169f",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to 1 John 5:19, where does the whole world lie? (be specific)",
+      "answer": "under the sway of the wicked one",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "62-005-019-019-5ce1169f"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-020-020-1e5043db",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 5:20, for what purpose has the Son of God given us an understanding? (be specific)",
+      "answer": "that we may know Him who is true",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "62-005-020-020-1e5043db"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-020-020-cadf47a8",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 5:20, in whom are we?",
+      "answer": "Him who is true, in His Son Jesus Christ",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "62-005-020-020-cadf47a8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-020-020-c683f082",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 5:20, what has the Son of God given us?",
+      "answer": "an understanding",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-020-020-c683f082"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-020-020-5d0ea99a",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 5:20, what is identified as the true God and eternal life? (be specific)",
+      "answer": "This",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-020-020-5d0ea99a"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-020-020-a814aca0",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to 1 John 5:20, who has come?",
+      "answer": "the Son of God",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "62-005-020-020-a814aca0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-021-021-31517e82",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 5:21, how does the author address the readers?",
+      "answer": "Little children",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "62-005-021-021-31517e82"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-021-021-1c28f3f8",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 5:21, what command is given to the little children? (be specific)",
+      "answer": "keep yourselves from idols",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "62-005-021-021-1c28f3f8"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-021-021-a0bae2a0",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to 1 John 5:21, what word concludes the verse?",
+      "answer": "Amen",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "62-005-021-021-a0bae2a0"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest"
+    },
+    {
+      "id": "62-005-021-021-df7dd6e0",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "True or False: According to 1 John 5:21, the readers are commanded to keep themselves from idols.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "62-005-021-021-df7dd6e0"
+      ],
+      "validatedBy": "automated_ai",
+      "model": "gemini-flash-lite-latest"
+    }
+  ],
+  "byVerse": {
+    "1": [
+      "62-005-001-001-00795d55",
+      "62-005-001-001-884dfa6e",
+      "62-005-001-001-47530936",
+      "62-005-001-001-b0a1c5c9",
+      "62-005-001-001-be8b4170"
+    ],
+    "2": [
+      "62-005-002-002-81a6166f",
+      "62-005-002-002-fa2323e1",
+      "62-005-002-002-79079394"
+    ],
+    "3": [
+      "62-005-003-003-0427e2db",
+      "62-005-003-003-597d22f9",
+      "62-005-003-003-e0b2a35e"
+    ],
+    "4": [
+      "62-005-004-004-ac9b8257",
+      "62-005-004-004-8f6e18b5",
+      "62-005-004-004-1e2b3d84"
+    ],
+    "5": [
+      "62-005-005-005-c9a751e2",
+      "62-005-005-005-138fdcd6",
+      "62-005-005-005-91ef206d"
+    ],
+    "6": [
+      "62-005-006-006-4514680d",
+      "62-005-006-006-ddb261f1",
+      "62-005-006-006-f654bd13",
+      "62-005-006-006-76225e04"
+    ],
+    "7": [
+      "62-005-007-007-5b53dba7",
+      "62-005-007-007-749fd0e1",
+      "62-005-007-007-ca0b82e8"
+    ],
+    "8": [
+      "62-005-008-008-16a68f4d",
+      "62-005-008-008-69b2434e",
+      "62-005-008-008-16a8de01"
+    ],
+    "9": [
+      "62-005-009-009-28547472",
+      "62-005-009-009-5483ac8b",
+      "62-005-009-009-474b714b",
+      "62-005-009-009-45c24eac"
+    ],
+    "10": [
+      "62-005-010-010-df171a77",
+      "62-005-010-010-7862f87b",
+      "62-005-010-010-eabc8190",
+      "62-005-010-010-1bdd2108"
+    ],
+    "11": [
+      "62-005-011-011-f5566014",
+      "62-005-011-011-a861ab88",
+      "62-005-011-011-50cc9c48"
+    ],
+    "12": [
+      "62-005-012-012-48707a13",
+      "62-005-012-012-c7166027",
+      "62-005-012-012-cbb990f0"
+    ],
+    "13": [
+      "62-005-013-013-ddde2505",
+      "62-005-013-013-78d91cfc",
+      "62-005-013-013-03929548",
+      "62-005-013-013-7ea271f4"
+    ],
+    "14": [
+      "62-005-014-014-178ff7da",
+      "62-005-014-014-d534ca6f",
+      "62-005-014-014-53291011"
+    ],
+    "15": [
+      "62-005-015-015-bd69134d",
+      "62-005-015-015-347d02cf",
+      "62-005-015-015-426c9365"
+    ],
+    "16": [
+      "62-005-016-016-ba17b08c",
+      "62-005-016-016-ac7ff805",
+      "62-005-016-016-2e220ef4",
+      "62-005-016-016-08bdfdff",
+      "62-005-016-016-757dfdae"
+    ],
+    "17": [
+      "62-005-017-017-55f697c9",
+      "62-005-017-017-7fcc2222"
+    ],
+    "18": [
+      "62-005-018-018-2e03b89f",
+      "62-005-018-018-c68f295c",
+      "62-005-018-018-f9a26fcc"
+    ],
+    "19": [
+      "62-005-019-019-55072a4f",
+      "62-005-019-019-5ce1169f"
+    ],
+    "20": [
+      "62-005-020-020-1e5043db",
+      "62-005-020-020-cadf47a8",
+      "62-005-020-020-c683f082",
+      "62-005-020-020-5d0ea99a",
+      "62-005-020-020-a814aca0"
+    ],
+    "21": [
+      "62-005-021-021-31517e82",
+      "62-005-021-021-1c28f3f8",
+      "62-005-021-021-a0bae2a0",
+      "62-005-021-021-df7dd6e0"
+    ]
+  }
+}
