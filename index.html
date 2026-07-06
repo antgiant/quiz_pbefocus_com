@@ -3,13 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PBE Quiz Generator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:opsz@9..40&family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>PBE Quiz Builder</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/print.css" media="print" />
     <script src="questions/v1/local-data.bundle.js"></script>
@@ -19,22 +13,41 @@
     <script type="module" src="assets/js/main.js" defer></script>
   </head>
   <body>
-    <div class="background-layer" aria-hidden="true"></div>
     <header class="site-header">
-      <div>
-        <p class="eyebrow">PBE Study Tools</p>
-        <h1>PBE Quiz Generator</h1>
-        <p class="subtitle">
-          Build printable quizzes, PowerPoint decks, and interactive web quizzes
-          from your chapter question bank.
-        </p>
-      </div>
-      <div class="header-badge">
-        <span id="questionBankStats">Loading question bank...</span>
+      <div class="header-inner">
+        <a class="brand" href="https://pbefocus.com" aria-label="PBEfocus.com home">
+          <picture>
+            <source srcset="assets/pbefocus-logo-dark.png" media="(prefers-color-scheme: dark)">
+            <img src="assets/pbefocus-logo.png" alt="PBEfocus.com">
+          </picture>
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="https://pbefocus.com">Home</a>
+          <a class="active" href="/">Quiz Builder</a>
+          <a href="https://pbe-scores.wooleys.us">Score Keeper</a>
+          <a href="https://pbe.wooleys.us/">Fill-In-The-Blank</a>
+          <a href="https://github.com/antgiant/pbefocus.com/discussions">Discussion</a>
+        </nav>
       </div>
     </header>
 
-    <main class="layout">
+    <main>
+      <section class="hero" aria-label="PBEfocus visual banner">
+        <img src="assets/hero-bible.png" alt="">
+        <div class="hero-overlay"></div>
+      </section>
+
+      <section class="mission-statement" aria-labelledby="builder-heading">
+        <h1 id="builder-heading">PBE Quiz Builder</h1>
+        <p class="subtitle">
+          Build printable quizzes, PowerPoint decks, and interactive web quizzes from your chapter question bank.
+        </p>
+        <p>
+          Question bank status: <strong><span id="questionBankStats">Loading question bank...</span></strong>
+        </p>
+      </section>
+
+      <div class="layout">
       <section class="panel controls-panel">
         <h2>Generator Setup</h2>
         <div class="grid-2">
@@ -120,7 +133,17 @@
         <h2>Interactive Quiz</h2>
         <div id="interactiveContainer"></div>
       </section>
+      </div>
     </main>
+
+    <footer class="site-footer">
+      <nav aria-label="Footer navigation">
+        <a href="https://pbe-scores.wooleys.us">Score Keeper</a>
+        <a href="https://pbe.wooleys.us/">Fill-In-The-Blank</a>
+        <a href="https://github.com/antgiant/pbefocus.com/discussions">Discussion</a>
+      </nav>
+      <p>&copy; PBE Focus. All rights reserved.</p>
+    </footer>
 
     <div id="printRoot" class="print-root" aria-hidden="true"></div>
 
