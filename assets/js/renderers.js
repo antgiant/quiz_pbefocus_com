@@ -62,10 +62,157 @@ export function renderPeopleSelector(container, profiles, selectedIds) {
 
 export function renderYearOptions(select, years) {
   select.innerHTML = "";
+  const now = new Date();
+  const currentSeason = `${now.getFullYear()}-${now.getFullYear() + 1}`;
+
   for (const year of years) {
     const option = document.createElement("option");
     option.value = year.id;
-    option.textContent = year.name;
+    const label = String(year.name || year.id);
+    option.textContent = label === currentSeason ? `★ ${label}` : label;
+    select.append(option);
+  }
+}
+
+export function renderYearOptionsWithScope(select, years, manifest) {
+  select.innerHTML = "";
+  const now = new Date();
+  const currentSeason = `${now.getFullYear()}-${now.getFullYear() + 1}`;
+
+  const bookNameById = new Map((manifest?.books || []).map((book) => [book.id, book.name]));
+  const chapterNumbersByBookId = new Map(
+    (manifest?.books || []).map((book) => [
+      book.id,
+      (book.chapters || [])
+        .map((chapter) => Number(chapter.number))
+        .filter((chapter) => Number.isInteger(chapter))
+        .sort((a, b) => a - b),
+    ])
+  );
+
+  function isWholeBookSelection(bookId, selectedChapters) {
+    const allChapters = chapterNumbersByBookId.get(bookId) || [];
+    if (!allChapters.length) {
+      return false;
+    }
+
+    const selected = Array.from(
+      new Set(
+        (selectedChapters || [])
+          .map((chapter) => Number(chapter))
+          .filter((chapter) => Number.isInteger(chapter))
+      )
+    ).sort((a, b) => a - b);
+
+    if (selected.length !== allChapters.length) {
+      return false;
+    }
+
+    return allChapters.every((chapter, index) => chapter === selected[index]);
+  }
+
+  function parseNumberedBookName(bookName) {
+    const match = String(bookName || "").match(/^(\d+)\s+(.+)$/);
+    if (!match) {
+      return null;
+    }
+
+    return {
+      number: Number(match[1]),
+      base: match[2],
+    };
+  }
+
+  function formatCombinedNumbers(numbers) {
+    const sorted = Array.from(new Set(numbers)).sort((a, b) => a - b);
+    if (sorted.length === 0) {
+      return "";
+    }
+
+    if (sorted.length === 1) {
+      return String(sorted[0]);
+    }
+
+    if (sorted.length === 2) {
+      return `${sorted[0]} & ${sorted[1]}`;
+    }
+
+    const contiguous = sorted.every((value, index) => index === 0 || value === sorted[index - 1] + 1);
+    if (contiguous) {
+      return `${sorted[0]}-${sorted[sorted.length - 1]}`;
+    }
+
+    return sorted.join(", ");
+  }
+
+  function describeScope(scope) {
+    const parts = [];
+    const numberedGroups = new Map();
+
+    for (const [bookId, chapters] of Object.entries(scope || {})) {
+      if (!Array.isArray(chapters) || chapters.length === 0) {
+        continue;
+      }
+
+      const normalized = Array.from(
+        new Set(chapters.map((chapter) => Number(chapter)).filter((chapter) => Number.isInteger(chapter)))
+      ).sort((a, b) => a - b);
+
+      if (!normalized.length) {
+        continue;
+      }
+
+      const bookName = bookNameById.get(bookId) || bookId;
+      const wholeBook = isWholeBookSelection(bookId, normalized);
+      const numbered = parseNumberedBookName(bookName);
+
+      if (wholeBook && numbered) {
+        const groupKey = numbered.base.toLowerCase();
+        if (!numberedGroups.has(groupKey)) {
+          numberedGroups.set(groupKey, {
+            base: numbered.base,
+            entries: [],
+          });
+        }
+
+        numberedGroups.get(groupKey).entries.push({
+          number: numbered.number,
+          label: bookName,
+        });
+        continue;
+      }
+
+      const label = wholeBook ? bookName : `${bookName} ${formatNumberRanges(normalized)}`;
+      parts.push(label);
+    }
+
+    for (const group of numberedGroups.values()) {
+      const numbers = group.entries.map((entry) => entry.number).filter((number) => Number.isInteger(number));
+
+      if (numbers.length >= 2) {
+        parts.push(`${formatCombinedNumbers(numbers)} ${group.base}`);
+        continue;
+      }
+
+      if (group.entries.length === 1) {
+        parts.push(group.entries[0].label);
+      }
+    }
+
+    if (!parts.length) {
+      return "No chapters mapped yet";
+    }
+
+    return parts.join("; ");
+  }
+
+  for (const year of years) {
+    const option = document.createElement("option");
+    option.value = year.id;
+    const label = String(year.name || year.id);
+    const description = describeScope(year.scope);
+    const base = label === currentSeason ? `★ ${label}` : label;
+    option.textContent = `${base} - ${description}`;
     select.append(option);
   }
 }
@@ -73,6 +220,7 @@ export function renderYearOptions(select, years) {
 export function renderScopeSelector(container, manifest, selectedScope, options = {}) {
   const chapterAvailability = options.chapterAvailability || null;
   const hideUnavailable = Boolean(options.hideUnavailable);
+  const limitToSelectedScope = Boolean(options.limitToSelectedScope);
   const selectedVerses = options.selectedVerses || {};
 
   function chapterKey(bookId, chapterNumber) {
@@ -113,10 +261,24 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
   }
 
   container.innerHTML = "";
+  container.classList.add("selectors");
   let renderedBookCount = 0;
 
   for (const book of manifest.books) {
+    const selectedChapters = selectedScope[book.id] || [];
+    if (limitToSelectedScope && selectedChapters.length === 0) {
+      continue;
+    }
+
+    const chapterPool = limitToSelectedScope
+      ? book.chapters.filter((chapter) => selectedChapters.includes(chapter.number))
+      : book.chapters;
+
     const visibleChapters = book.chapters.filter((chapter) => {
+      if (!chapterPool.includes(chapter)) {
+        return false;
+      }
+
       if (!hideUnavailable || !chapterAvailability) {
         return true;
       }
@@ -132,37 +294,44 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     renderedBookCount += 1;
 
     const bookWrap = document.createElement("div");
-    bookWrap.className = "scope-book";
+    bookWrap.className = "book-group scope-book";
 
     const bookLabel = document.createElement("label");
+    bookLabel.className = "book-header";
     const bookToggle = document.createElement("input");
     bookToggle.type = "checkbox";
     bookToggle.dataset.bookId = book.id;
     bookToggle.dataset.role = "book-toggle";
 
-    const selectedChapters = selectedScope[book.id] || [];
     const selectedVisibleCount = visibleChapters.filter((chapter) =>
       selectedChapters.includes(chapter.number)
     ).length;
     bookToggle.checked = visibleChapters.length > 0 && selectedVisibleCount === visibleChapters.length;
     bookToggle.disabled = visibleChapters.length === 0;
-    bookLabel.append(bookToggle, document.createTextNode(` ${book.name}`));
+    const bookName = document.createElement("span");
+    bookName.className = "book-name";
+    bookName.textContent = book.name;
+    bookLabel.append(bookToggle, bookName);
 
     const chapterWrap = document.createElement("div");
     chapterWrap.className = "scope-chapters";
 
     for (const chapter of visibleChapters) {
       const chapterRow = document.createElement("div");
-      chapterRow.className = "scope-chapter-row";
+      chapterRow.className = "chapter-with-verses scope-chapter-row";
 
       const chapterLabel = document.createElement("label");
+      chapterLabel.className = "chapter-check chapter-header";
       const chapterToggle = document.createElement("input");
       chapterToggle.type = "checkbox";
       chapterToggle.dataset.bookId = book.id;
       chapterToggle.dataset.chapter = String(chapter.number);
       chapterToggle.dataset.role = "chapter-toggle";
       chapterToggle.checked = selectedChapters.includes(chapter.number);
-      chapterLabel.append(chapterToggle, document.createTextNode(` Ch ${chapter.number}`));
+      const chapterNumber = document.createElement("span");
+      chapterNumber.className = "chapter-number";
+      chapterNumber.textContent = `Chapter ${chapter.number}`;
+      chapterLabel.append(chapterToggle, chapterNumber);
 
       const verseToggleWrap = document.createElement("details");
       verseToggleWrap.className = "scope-verse-details";
@@ -182,7 +351,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       verseToggleWrap.append(verseSummary);
 
       const versesGrid = document.createElement("div");
-      versesGrid.className = "scope-verses-grid";
+      versesGrid.className = "chapter-grid verse-grid scope-verses-grid";
 
       if (totalVerses > 0) {
         const verseActions = document.createElement("div");
@@ -242,6 +411,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
 
         for (let verse = 1; verse <= totalVerses; verse += 1) {
           const verseLabel = document.createElement("label");
+          verseLabel.className = "chapter-check verse-check";
           const verseToggle = document.createElement("input");
           verseToggle.type = "checkbox";
           verseToggle.dataset.role = "verse-toggle";
@@ -251,12 +421,15 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
           verseToggle.dataset.totalVerses = String(totalVerses);
           verseToggle.disabled = !chapterToggle.checked;
           verseToggle.checked = verseSelection ? verseSelection.includes(verse) : true;
-          verseLabel.append(verseToggle, document.createTextNode(` ${verse}`));
+          const verseNumber = document.createElement("span");
+          verseNumber.className = "chapter-number";
+          verseNumber.textContent = String(verse);
+          verseLabel.append(verseToggle, verseNumber);
           versesGrid.append(verseLabel);
         }
       } else {
         const empty = document.createElement("p");
-        empty.className = "scope-empty";
+        empty.className = "scope-empty verse-placeholder";
         empty.textContent = "No verse metadata";
         versesGrid.append(empty);
       }

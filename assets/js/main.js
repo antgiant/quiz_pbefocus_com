@@ -12,7 +12,7 @@ import {
   renderProfiles,
   renderScopeSelector,
   renderTypeCheckboxes,
-  renderYearOptions,
+  renderYearOptionsWithScope,
 } from "./renderers.js";
 import {
   addProfile,
@@ -147,7 +147,7 @@ function renderControls() {
   const settings = active.settings;
   settings.selectedDifficulties = normalizeSelectedDifficulties(settings.selectedDifficulties);
 
-  renderYearOptions(el.yearSelect, appState.years);
+  renderYearOptionsWithScope(el.yearSelect, appState.years, appState.manifest);
   el.yearSelect.value = settings.yearId;
   el.totalCountInput.value = settings.totalCount;
   el.perVerseInput.value = settings.perVerse;
@@ -160,6 +160,7 @@ function renderControls() {
   );
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
+    limitToSelectedScope: true,
     selectedVerses: active.selectedVerses,
   });
 }
@@ -265,6 +266,7 @@ async function refreshScopeSelectorForFilters() {
     renderScopeSelector(el.scopeSelector, appState.manifest, {}, {
       chapterAvailability: new Map(),
       hideUnavailable: true,
+      limitToSelectedScope: true,
       selectedVerses: {},
     });
     return;
@@ -277,6 +279,7 @@ async function refreshScopeSelectorForFilters() {
 
   if (!shouldFilterAvailability) {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
+      limitToSelectedScope: true,
       selectedVerses: active.selectedVerses,
     });
     return;
@@ -293,6 +296,7 @@ async function refreshScopeSelectorForFilters() {
   renderScopeSelector(el.scopeSelector, appState.manifest, prunedScope, {
     chapterAvailability: availability,
     hideUnavailable: true,
+    limitToSelectedScope: true,
     selectedVerses: prunedSelectedVerses,
   });
 }

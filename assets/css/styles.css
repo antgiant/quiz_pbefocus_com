@@ -334,20 +334,53 @@ fieldset {
   background: var(--surface);
 }
 
+.selectors {
+  margin-top: 0.2rem;
+}
+
 .scope-book {
   border: 1px solid var(--scope-book-border);
   border-radius: var(--radius);
   padding: 0.5rem;
+  background: color-mix(in srgb, var(--surface), var(--teal-wash) 18%);
 }
 
 .scope-book + .scope-book {
   margin-top: 0.5rem;
 }
 
+.book-group {
+  border: 1px solid var(--scope-book-border);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.65rem;
+}
+
+.book-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.book-header input {
+  margin: 0;
+}
+
+.book-name {
+  line-height: 1.2;
+}
+
 .scope-chapters {
   display: grid;
-  gap: 0.4rem;
+  gap: 0.5rem;
   margin-top: 0.4rem;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(68px, 1fr));
+  gap: 0.4rem;
 }
 
 .scope-chapter-row {
@@ -356,10 +389,34 @@ fieldset {
   padding: 0.35rem 0.45rem;
 }
 
-.scope-chapter-row > label {
+.scope-chapter-row > label,
+.chapter-check {
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.28rem 0.4rem;
+  border: 1px solid var(--verse-pill-border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.chapter-check input {
+  margin: 0;
+  width: auto;
+}
+
+.chapter-with-verses {
+  margin-bottom: 0.1rem;
+}
+
+.chapter-header {
+  margin-bottom: 0.3rem;
+}
+
+.chapter-number {
   font-weight: 700;
 }
 
@@ -427,6 +484,10 @@ fieldset {
   margin-top: 0.35rem;
 }
 
+.verse-grid {
+  margin-top: 0.3rem;
+}
+
 .scope-verses-grid label {
   border: 1px solid var(--verse-pill-border);
   border-radius: var(--radius);
@@ -448,6 +509,13 @@ fieldset {
   color: var(--muted);
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+.verse-placeholder {
+  padding: 0.45rem 0.5rem;
+  border: 1px dashed var(--scope-chapter-border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface), var(--teal-wash) 16%);
 }
 
 .preview-meta {

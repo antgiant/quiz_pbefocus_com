@@ -3,13 +3,45 @@ import { QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
 const MANIFEST_PATH = "questions/v1/manifest.json";
 const CHAPTER_BASE_PATH = "questions/v1";
 const YEARS_PATH = "questions/v1/years.json";
+const PRACTICE_YEARS_PATH = "questions/v1/practice-chapters-by-year.json";
+const PRACTICE_BOOKS_PATH = "questions/v1/practice-books.json";
 
 function getLocalBundle() {
   return window.PBE_LOCAL_DATA || null;
 }
 
+function getPracticeYearsBundle() {
+  return window.PBE_PRACTICE_YEARS || null;
+}
+
+function getPracticeBooksBundle() {
+  return window.PBE_PRACTICE_BOOKS || null;
+}
+
 function chapterCacheKey(bookId, chapterNumber) {
   return `${bookId}:${chapterNumber}`;
+}
+
+function normalizeBookKey(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function normalizeSlug(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function scopeChapterCount(scope) {
+  return Object.values(scope || {}).reduce((sum, chapters) => {
+    if (!Array.isArray(chapters)) {
+      return sum;
+    }
+    return sum + chapters.length;
+  }, 0);
 }
 
 function fallbackDifficultyFromPoints(points) {
@@ -142,38 +174,259 @@ export class DataService {
     ];
   }
 
+  buildManifestBookLookup(manifest) {
+    const lookup = new Map();
+    for (const book of manifest.books || []) {
+      const normalizedName = normalizeBookKey(book.name);
+      if (normalizedName) {
+        lookup.set(normalizedName, book.id);
+      }
+
+      const idTail = String(book.id || "").split("-").slice(1).join("-");
+      const normalizedTail = normalizeBookKey(idTail);
+      if (normalizedTail) {
+        lookup.set(normalizedTail, book.id);
+      }
+    }
+    return lookup;
+  }
+
+  ensurePracticeBooksInManifest(manifest, practiceBooks) {
+    if (!practiceBooks || typeof practiceBooks !== "object") {
+      return;
+    }
+
+    const existingByNormalized = this.buildManifestBookLookup(manifest);
+    const existingIds = new Set((manifest.books || []).map((book) => book.id));
+
+    for (const [bookKey, meta] of Object.entries(practiceBooks)) {
+      const normalized = normalizeBookKey(bookKey);
+      if (!normalized || existingByNormalized.has(normalized)) {
+        continue;
+      }
+
+      const numericId = Number(meta?.id);
+      const slug = normalizeSlug(bookKey);
+      if (!Number.isFinite(numericId) || !slug) {
+        continue;
+      }
+
+      const syntheticId = `${numericId}-${slug}`;
+      if (existingIds.has(syntheticId)) {
+        existingByNormalized.set(normalized, syntheticId);
+        continue;
+      }
+
+      const verseCounts = Array.isArray(meta.verseCounts) ? meta.verseCounts : [];
+      const totalChapters = Number(meta.totalChapters) || verseCounts.length;
+      if (!Number.isInteger(totalChapters) || totalChapters <= 0) {
+        continue;
+      }
+
+      const chapters = [];
+      for (let chapter = 1; chapter <= totalChapters; chapter += 1) {
+        const fileName = String(chapter).padStart(3, "0");
+        chapters.push({
+          number: chapter,
+          path: `by-chapter/${syntheticId}/${fileName}.json`,
+          verses: Number(verseCounts[chapter - 1]) || 0,
+          questions: 0,
+        });
+      }
+
+      manifest.books.push({
+        id: syntheticId,
+        name: meta.label || bookKey,
+        chapters,
+      });
+
+      existingIds.add(syntheticId);
+      existingByNormalized.set(normalized, syntheticId);
+    }
+  }
+
+  buildPracticeYearConfigs(rawPracticeYears, manifest) {
+    if (!rawPracticeYears || typeof rawPracticeYears !== "object") {
+      return [];
+    }
+
+    const manifestBookLookup = this.buildManifestBookLookup(manifest);
+    const manifestChapterSets = new Map(
+      (manifest.books || []).map((book) => [
+        book.id,
+        new Set((book.chapters || []).map((chapter) => Number(chapter.number))),
+      ])
+    );
+
+    const configs = [];
+    for (const [yearId, selections] of Object.entries(rawPracticeYears)) {
+      if (!Array.isArray(selections)) {
+        continue;
+      }
+
+      const scopeSets = {};
+
+      for (const selection of selections) {
+        const sourceKey = normalizeBookKey(selection?.bookKey);
+        const manifestBookId = manifestBookLookup.get(sourceKey);
+        if (!manifestBookId) {
+          continue;
+        }
+
+        const availableChapters = manifestChapterSets.get(manifestBookId);
+        if (!availableChapters || availableChapters.size === 0) {
+          continue;
+        }
+
+        const start = Number(selection?.start);
+        const end = Number(selection?.end);
+        if (!Number.isInteger(start) || !Number.isInteger(end)) {
+          continue;
+        }
+
+        const lower = Math.min(start, end);
+        const upper = Math.max(start, end);
+        if (!scopeSets[manifestBookId]) {
+          scopeSets[manifestBookId] = new Set();
+        }
+
+        for (let chapter = lower; chapter <= upper; chapter += 1) {
+          if (availableChapters.has(chapter)) {
+            scopeSets[manifestBookId].add(chapter);
+          }
+        }
+      }
+
+      const scope = {};
+      for (const [bookId, chapters] of Object.entries(scopeSets)) {
+        const sorted = Array.from(chapters).sort((a, b) => a - b);
+        if (sorted.length > 0) {
+          scope[bookId] = sorted;
+        }
+      }
+
+      configs.push({
+        id: yearId,
+        name: yearId,
+        scope,
+      });
+    }
+
+    return configs;
+  }
+
+  mergeYearConfigs(primaryYears, additionalYears) {
+    const merged = new Map();
+    const byName = new Map();
+
+    for (const year of primaryYears) {
+      merged.set(year.id, year);
+      byName.set(String(year.name).toLowerCase(), year.id);
+    }
+
+    for (const year of additionalYears) {
+      if (merged.has(year.id)) {
+        continue;
+      }
+
+      const normalizedName = String(year.name).toLowerCase();
+      if (byName.has(normalizedName)) {
+        const existingId = byName.get(normalizedName);
+        const existing = merged.get(existingId);
+        const existingScope = existing?.scope || {};
+        const incomingScope = year.scope || {};
+        const mergedScope = { ...existingScope };
+
+        for (const [bookId, chapters] of Object.entries(incomingScope)) {
+          const combined = new Set([...(mergedScope[bookId] || []), ...(chapters || [])]);
+          mergedScope[bookId] = Array.from(combined).sort((a, b) => a - b);
+        }
+
+        const existingScore = scopeChapterCount(existingScope);
+        const incomingScore = scopeChapterCount(incomingScope);
+
+        merged.set(existingId, {
+          ...existing,
+          name: existing?.name || year.name,
+          scope: mergedScope,
+        });
+        continue;
+      }
+
+      merged.set(year.id, year);
+      byName.set(normalizedName, year.id);
+    }
+
+    return Array.from(merged.values()).sort((a, b) => String(a.name).localeCompare(String(b.name)));
+  }
+
   async loadYears(manifest) {
+    const allScope = this.createDefaultYearConfig(manifest)[0].scope;
+
+    let practiceBooks = getPracticeBooksBundle();
+    if (!practiceBooks || typeof practiceBooks !== "object") {
+      try {
+        const booksResponse = await fetch(PRACTICE_BOOKS_PATH);
+        if (booksResponse.ok) {
+          practiceBooks = await booksResponse.json();
+        }
+      } catch {
+        practiceBooks = null;
+      }
+    }
+
+    this.ensurePracticeBooksInManifest(manifest, practiceBooks);
+
+    let primaryYears = [];
     const localBundle = getLocalBundle();
     if (localBundle?.years?.years?.length) {
-      return localBundle.years.years.map((year) => ({
+      primaryYears = localBundle.years.years.map((year) => ({
         id: year.id,
         name: year.name,
         scope: year.scope && typeof year.scope === "object" ? year.scope : null,
       })).map((year) => ({
         ...year,
-        scope: year.scope || this.createDefaultYearConfig(manifest)[0].scope,
+        scope: year.scope || structuredClone(allScope),
       }));
+    } else {
+      try {
+        const response = await fetch(YEARS_PATH);
+        if (response.ok) {
+          const payload = await response.json();
+          if (Array.isArray(payload.years) && payload.years.length > 0) {
+            primaryYears = payload.years.map((year) => ({
+              id: year.id,
+              name: year.name,
+              scope: year.scope && typeof year.scope === "object" ? year.scope : structuredClone(allScope),
+            }));
+          }
+        }
+      } catch {
+        primaryYears = [];
+      }
+    }
+
+    if (primaryYears.length === 0) {
+      primaryYears = this.createDefaultYearConfig(manifest);
+    }
+
+    const bundledPracticeYears = getPracticeYearsBundle();
+    if (bundledPracticeYears && typeof bundledPracticeYears === "object") {
+      const practiceYears = this.buildPracticeYearConfigs(bundledPracticeYears, manifest);
+      return this.mergeYearConfigs(primaryYears, practiceYears);
     }
 
     try {
-      const response = await fetch(YEARS_PATH);
-      if (!response.ok) {
-        return this.createDefaultYearConfig(manifest);
+      const practiceResponse = await fetch(PRACTICE_YEARS_PATH);
+      if (!practiceResponse.ok) {
+        return primaryYears;
       }
 
-      const payload = await response.json();
-      if (!Array.isArray(payload.years) || payload.years.length === 0) {
-        return this.createDefaultYearConfig(manifest);
-      }
-
-      const allScope = this.createDefaultYearConfig(manifest)[0].scope;
-      return payload.years.map((year) => ({
-        id: year.id,
-        name: year.name,
-        scope: year.scope && typeof year.scope === "object" ? year.scope : structuredClone(allScope),
-      }));
+      const practicePayload = await practiceResponse.json();
+      const practiceYears = this.buildPracticeYearConfigs(practicePayload, manifest);
+      return this.mergeYearConfigs(primaryYears, practiceYears);
     } catch {
-      return this.createDefaultYearConfig(manifest);
+      return primaryYears;
     }
   }
 

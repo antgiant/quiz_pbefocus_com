@@ -1,0 +1,358 @@
+/* Auto-generated from practice-chapters-by-year.json */
+window.PBE_PRACTICE_YEARS = {
+  "2011-2012": [
+    {
+      "bookKey": "1samuel",
+      "start": 1,
+      "end": 31
+    },
+    {
+      "bookKey": "mark",
+      "start": 1,
+      "end": 16
+    }
+  ],
+  "2012-2013": [
+    {
+      "bookKey": "acts",
+      "start": 1,
+      "end": 28
+    },
+    {
+      "bookKey": "1thessalonians",
+      "start": 1,
+      "end": 5
+    },
+    {
+      "bookKey": "2thessalonians",
+      "start": 1,
+      "end": 3
+    }
+  ],
+  "2013-2014": [
+    {
+      "bookKey": "2samuel",
+      "start": 1,
+      "end": 24
+    }
+  ],
+  "2014-2015": [
+    {
+      "bookKey": "matthew",
+      "start": 1,
+      "end": 28
+    }
+  ],
+  "2015-2016": [
+    {
+      "bookKey": "exodus",
+      "start": 1,
+      "end": 40
+    }
+  ],
+  "2016-2017": [
+    {
+      "bookKey": "galatians",
+      "start": 1,
+      "end": 6
+    },
+    {
+      "bookKey": "ephesians",
+      "start": 1,
+      "end": 6
+    },
+    {
+      "bookKey": "philippians",
+      "start": 1,
+      "end": 4
+    },
+    {
+      "bookKey": "colossians",
+      "start": 1,
+      "end": 4
+    },
+    {
+      "bookKey": "1timothy",
+      "start": 1,
+      "end": 6
+    },
+    {
+      "bookKey": "2timothy",
+      "start": 1,
+      "end": 4
+    }
+  ],
+  "2017-2018": [
+    {
+      "bookKey": "daniel",
+      "start": 1,
+      "end": 12
+    },
+    {
+      "bookKey": "esther",
+      "start": 1,
+      "end": 10
+    }
+  ],
+  "2018-2019": [
+    {
+      "bookKey": "luke",
+      "start": 1,
+      "end": 24
+    }
+  ],
+  "2019-2020": [
+    {
+      "bookKey": "ezra",
+      "start": 1,
+      "end": 1
+    },
+    {
+      "bookKey": "ezra",
+      "start": 3,
+      "end": 7
+    },
+    {
+      "bookKey": "ezra",
+      "start": 8,
+      "end": 8,
+      "include": [
+        [
+          15,
+          36
+        ]
+      ]
+    },
+    {
+      "bookKey": "ezra",
+      "start": 9,
+      "end": 9
+    },
+    {
+      "bookKey": "ezra",
+      "start": 10,
+      "end": 10,
+      "include": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 1,
+      "end": 6
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 7,
+      "end": 7,
+      "include": [
+        [
+          1,
+          6
+        ],
+        [
+          64,
+          73
+        ]
+      ]
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 10,
+      "end": 10,
+      "include": [
+        [
+          28,
+          39
+        ]
+      ]
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 11,
+      "end": 11,
+      "include": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 12,
+      "end": 12,
+      "include": [
+        [
+          27,
+          47
+        ]
+      ]
+    },
+    {
+      "bookKey": "nehemiah",
+      "start": 13,
+      "end": 13
+    },
+    {
+      "bookKey": "hosea",
+      "start": 1,
+      "end": 14
+    },
+    {
+      "bookKey": "amos",
+      "start": 1,
+      "end": 9
+    },
+    {
+      "bookKey": "jonah",
+      "start": 1,
+      "end": 4
+    },
+    {
+      "bookKey": "micah",
+      "start": 1,
+      "end": 7
+    }
+  ],
+  "2020-2021": [
+    {
+      "bookKey": "hebrews",
+      "start": 1,
+      "end": 13
+    },
+    {
+      "bookKey": "james",
+      "start": 1,
+      "end": 5
+    },
+    {
+      "bookKey": "1peter",
+      "start": 1,
+      "end": 5
+    },
+    {
+      "bookKey": "2peter",
+      "start": 1,
+      "end": 3
+    }
+  ],
+  "2021-2022": [
+    {
+      "bookKey": "ruth",
+      "start": 1,
+      "end": 4
+    },
+    {
+      "bookKey": "1kings",
+      "start": 1,
+      "end": 22
+    }
+  ],
+  "2022-2023": [
+    {
+      "bookKey": "john",
+      "start": 1,
+      "end": 21
+    }
+  ],
+  "2023-2024": [
+    {
+      "bookKey": "joshua",
+      "start": 1,
+      "end": 12
+    },
+    {
+      "bookKey": "joshua",
+      "start": 14,
+      "end": 14
+    },
+    {
+      "bookKey": "joshua",
+      "start": 15,
+      "end": 15,
+      "include": [
+        [
+          13,
+          19
+        ]
+      ]
+    },
+    {
+      "bookKey": "joshua",
+      "start": 20,
+      "end": 24
+    },
+    {
+      "bookKey": "judges",
+      "start": 1,
+      "end": 18
+    }
+  ],
+  "2024-2025": [
+    {
+      "bookKey": "romans",
+      "start": 1,
+      "end": 16
+    },
+    {
+      "bookKey": "1corinthians",
+      "start": 1,
+      "end": 16
+    }
+  ],
+  "2025-2026": [
+    {
+      "bookKey": "isaiah",
+      "start": 1,
+      "end": 33
+    }
+  ],
+  "2026-2027": [
+    {
+      "bookKey": "mark",
+      "start": 1,
+      "end": 16
+    },
+    {
+      "bookKey": "1peter",
+      "start": 1,
+      "end": 5
+    },
+    {
+      "bookKey": "2peter",
+      "start": 1,
+      "end": 3
+    },
+    {
+      "bookKey": "1john",
+      "start": 1,
+      "end": 5
+    },
+    {
+      "bookKey": "2john",
+      "start": 1,
+      "end": 1
+    },
+    {
+      "bookKey": "3john",
+      "start": 1,
+      "end": 1
+    }
+  ],
+  "2027-2028": [
+    {
+      "bookKey": "isaiah",
+      "start": 34,
+      "end": 66
+    }
+  ]
+};

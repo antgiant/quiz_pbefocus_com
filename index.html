@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/print.css" media="print" />
     <script src="questions/v1/local-data.bundle.js"></script>
+    <script src="questions/v1/practice-books.bundle.js"></script>
+    <script src="questions/v1/practice-years.bundle.js"></script>
     <script src="assets/vendor/pptx-template.bundle.js"></script>
     <script src="assets/vendor/jszip.min.js" defer></script>
     <script src="assets/vendor/pptxgen.min.js" defer></script>
@@ -50,12 +52,13 @@
       <div class="layout">
       <section class="panel controls-panel">
         <h2>Generator Setup</h2>
-        <div class="grid-2">
-          <label>
-            PBE year
-            <select id="yearSelect"></select>
-          </label>
+        <fieldset>
+          <legend>Season</legend>
+          <label for="yearSelect">Year</label>
+          <select id="yearSelect"></select>
+        </fieldset>
 
+        <div class="grid-2">
           <label>
             Total question count
             <input id="totalCountInput" type="number" min="1" value="25" />
@@ -83,8 +86,8 @@
         </fieldset>
 
         <fieldset>
-          <legend>Year scope books and chapters</legend>
-          <div id="scopeSelector" class="scope-selector"></div>
+          <legend>Book / Chapter / Verse Selector</legend>
+          <div id="scopeSelector" class="scope-selector selectors"></div>
         </fieldset>
       </section>
 
