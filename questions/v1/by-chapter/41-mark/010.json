@@ -5,24 +5,6 @@
   "chapter": 10,
   "questions": [
     {
-      "id": "41-010-001-001-d84cfe6f",
-      "ref": {
-        "startVerse": 1,
-        "endVerse": 1
-      },
-      "question": "According to Mark 10:1, where was Judea and how did He get there?",
-      "answer": "by the other side of the JOrdan, He arose from there and came",
-      "type": "where",
-      "points": 2,
-      "originalIds": [
-        "41-010-001-001-f1f27feb",
-        "41-010-001-001-14274b5f"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-010-001-001-815eb9c8",
       "ref": {
         "startVerse": 1,
@@ -90,6 +72,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
+    },
+    {
+      "id": "41-010-001-001-d84cfe6f",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 10:1, where was Judea and how did He get there?",
+      "answer": "by the other side of the JOrdan, He arose from there and came",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-010-001-001-f1f27feb",
+        "41-010-001-001-14274b5f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-010-002-002-ab8a1f0e",
@@ -333,6 +333,26 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-006-009-423373f8",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 9
+      },
+      "question": "According to Mark 10:6-9, what has God joined together?",
+      "answer": "male and female (man and wife) (man and woman)",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-009-009-68ae8e4b",
+        "41-010-009-009-cda6fb82",
+        "41-010-009-009-42caa90a",
+        "41-010-006-009-423373f8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-007-007-f566e5ba",
       "ref": {
         "startVerse": 7,
@@ -404,24 +424,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-010-008-008-0c6b11f4",
-      "ref": {
-        "startVerse": 8,
-        "endVerse": 8
-      },
-      "question": "According to Mark 10:8, what were they, what do they become, what are they now?",
-      "answer": "two, one flesh, one flesh",
-      "type": "what",
-      "points": 3,
-      "originalIds": [
-        "41-010-008-008-30b4cac2",
-        "41-010-008-008-e5eb5030"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-010-008-008-f22571fe",
       "ref": {
         "startVerse": 8,
@@ -440,22 +442,22 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-010-009-009-42caa90a",
+      "id": "41-010-008-008-0c6b11f4",
       "ref": {
-        "startVerse": 9,
-        "endVerse": 9
+        "startVerse": 8,
+        "endVerse": 8
       },
-      "question": "According to Mark 10:6-9, what has God joined together?",
-      "answer": "male and female (man and wife) (man and woman)",
+      "question": "According to Mark 10:8, what were they, what do they become, what are they now?",
+      "answer": "two, one flesh, one flesh",
       "type": "what",
-      "points": 2,
+      "points": 3,
       "originalIds": [
-        "41-010-009-009-68ae8e4b",
-        "41-010-009-009-cda6fb82"
+        "41-010-008-008-30b4cac2",
+        "41-010-008-008-e5eb5030"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "41-010-009-009-05afcdd3",
@@ -736,6 +738,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-010-014-014-0a29d188",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 10:14, who saw it, how did it make Him feel, what did He say to do, what did He say to not do, and why?",
+      "answer": "Jesus; greatly displeased; let the little children come to Me; do not forbid them; of such is the kingdom of God",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-014-014-0a29d188"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-014-014-3ef5a9c3",
       "ref": {
         "startVerse": 14,
@@ -801,6 +820,74 @@
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41-010-016-016-7f53fbdb",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 10:16, what did He lay on them?",
+      "answer": "His hands",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-016-016-7f53fbdb"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-016-016-545badb3",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 10:16, what was the last thing Jesus did for the children?",
+      "answer": "blessed them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-016-016-545badb3"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-016-016-1169202e",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 10:16, where did Jesus take them to?",
+      "answer": "His arms",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-010-016-016-1169202e"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-017-017-8308dd86",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 10:17, He was going where, how did someone come, what did they do before Him, how did they address Him, and what did they want?",
+      "answer": "out on the road; running; knelt; Good Teacher; inherit eternal life",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-017-017-8308dd86"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "hard"
     },
     {
@@ -1046,6 +1133,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-022-022-792c0b8d",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 10:22, how did he feel, at what, he went where, how did he go, and why?",
+      "answer": "sad; word; away; sorrowful; he had great possessions",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-022-022-792c0b8d"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-022-022-bd5bd8d4",
       "ref": {
         "startVerse": 22,
@@ -1097,6 +1201,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-010-023-023-82e5fe08",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 10:23, Jesus declard it was what for those who have what to enter what? (be spacific)",
+      "answer": "hard, riches, kingdom of God",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-010-023-023-9c3a43a4",
+        "41-010-023-023-cfe905ee"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-023-023-4f2053ce",
       "ref": {
         "startVerse": 23,
@@ -1130,24 +1252,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-010-023-023-82e5fe08",
-      "ref": {
-        "startVerse": 23,
-        "endVerse": 23
-      },
-      "question": "According to Mark 10:23, Jesus declard it was what for those who have what to enter what? (be spacific)",
-      "answer": "hard, riches, kingdom of God",
-      "type": "what",
-      "points": 3,
-      "originalIds": [
-        "41-010-023-023-9c3a43a4",
-        "41-010-023-023-cfe905ee"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
     },
     {
       "id": "41-010-024-024-7aef06ce",
@@ -1201,6 +1305,24 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-025-025-846aed5e",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 10:25, it is harder for a what to do what than for what to do what?",
+      "answer": "a rich man, enter the kingdom of God, a camel, go through the eye of a needle",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-010-025-025-ddb580ac",
+        "41-010-025-025-a6838fbf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-025-025-1816c0af",
       "ref": {
         "startVerse": 25,
@@ -1235,21 +1357,20 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-010-025-025-846aed5e",
+      "id": "41-010-026-026-b345cb31",
       "ref": {
-        "startVerse": 25,
-        "endVerse": 25
+        "startVerse": 26,
+        "endVerse": 26
       },
-      "question": "According to Mark 10:25, it is harder for a what to do what than for what to do what?",
-      "answer": "a rich man, enter the kingdom of God, a camel, go through the eye of a needle",
-      "type": "what",
-      "points": 4,
+      "question": "According to Mark 10:26, how did they feel, what did they ask, and where or how did they ask it?",
+      "answer": "greatly astonished; Who then can be saved?; among themselves",
+      "type": "list",
+      "points": 3,
       "originalIds": [
-        "41-010-025-025-ddb580ac",
-        "41-010-025-025-a6838fbf"
+        "41-010-026-026-b345cb31"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
+      "model": "user-provided",
       "difficulty": "hard"
     },
     {
@@ -1305,23 +1426,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-010-027-027-9b8b4938",
-      "ref": {
-        "startVerse": 27,
-        "endVerse": 27
-      },
-      "question": "According to Mark 10:27, what did Jesus do before he spoke to them?",
-      "answer": "looked at them",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-010-027-027-dfd4551b"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-010-027-027-75938c75",
       "ref": {
         "startVerse": 27,
@@ -1338,6 +1442,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
+    },
+    {
+      "id": "41-010-027-027-9b8b4938",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 10:27, what did Jesus do before he spoke to them?",
+      "answer": "looked at them",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-027-027-dfd4551b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-010-027-027-68b26d78",
@@ -1376,24 +1497,6 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-010-028-028-237f3baa",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 10:28, what did Peter claim they had done?",
-      "answer": "left all and followed You",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-010-028-028-051b29a7",
-        "41-010-028-028-237f3baa"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-010-028-028-8eef2ccb",
       "ref": {
         "startVerse": 28,
@@ -1406,6 +1509,24 @@
       "originalIds": [
         "41-010-028-028-194304a9",
         "41-010-028-028-e7a10bc8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-010-028-028-237f3baa",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 10:28, what did Peter claim they had done?",
+      "answer": "left all and followed You",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-010-028-028-051b29a7",
+        "41-010-028-028-237f3baa"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1446,24 +1567,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-010-029-029-d238c033",
-      "ref": {
-        "startVerse": 29,
-        "endVerse": 29
-      },
-      "question": "According to Mark 10:29, what phrase did Jesus use to introduce His statement to emphasize it was true?",
-      "answer": "Assuredly, I say to you",
-      "type": "how",
-      "points": 1,
-      "originalIds": [
-        "41-010-029-029-14203cc8",
-        "41-010-029-029-bf5b4b88"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-010-029-029-192ab7b5",
       "ref": {
         "startVerse": 29,
@@ -1480,6 +1583,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
+    },
+    {
+      "id": "41-010-029-029-d238c033",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 10:29, what phrase did Jesus use to introduce His statement to emphasize it was true?",
+      "answer": "Assuredly, I say to you",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-010-029-029-14203cc8",
+        "41-010-029-029-bf5b4b88"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-010-030-030-04512852",
@@ -1585,24 +1706,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-010-032-032-0765e031",
-      "ref": {
-        "startVerse": 32,
-        "endVerse": 32
-      },
-      "question": "According to Mark 10:32, what were the two emotional states of those going before him and those follwoing him?",
-      "answer": "amazed and afraid",
-      "type": "other",
-      "points": 2,
-      "originalIds": [
-        "41-010-032-032-daa2e7bf",
-        "41-010-032-032-c277c35a"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-010-032-032-27c166d1",
       "ref": {
         "startVerse": 32,
@@ -1635,6 +1738,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-010-032-032-0765e031",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 10:32, what were the two emotional states of those going before him and those follwoing him?",
+      "answer": "amazed and afraid",
+      "type": "other",
+      "points": 2,
+      "originalIds": [
+        "41-010-032-032-daa2e7bf",
+        "41-010-032-032-c277c35a"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-010-032-032-121161c1",
@@ -1688,6 +1809,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-033-033-ef90e983",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, to what will the chief priests and scribes deliver Him?",
+      "answer": "death",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-033-033-ef90e983"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-010-033-033-0399aaa9",
       "ref": {
         "startVerse": 33,
@@ -1703,6 +1841,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-010-033-033-e209c538",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 10:33, what three bad things will happen to who, where, and by who?",
+      "answer": "betrayed; condemn to death; deliver to Gentiles; Son of Man; Jerusalem; chief priests and scribes",
+      "type": "list",
+      "points": 10,
+      "originalIds": [
+        "41-010-033-033-e209c538"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-010-033-033-cdaa561f",
@@ -1905,14 +2060,14 @@
       "question": "According to Mark 10:36, what was the question Jesus asked the two men?",
       "answer": "What do you want Me to do for you?",
       "type": "what",
-      "points": 1,
+      "points": 3,
       "originalIds": [
         "41-010-036-036-bf58b800",
         "41-010-036-036-0402423b"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "41-010-037-037-3bc52c98",
@@ -1933,6 +2088,23 @@
       "difficulty": "hard"
     },
     {
+      "id": "41-010-037-037-83bd9130",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 10:37, what two locations did James and John request to sit in relation to Jesus? (be specific)",
+      "answer": "one on Your right hand and the other on Your left",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-037-037-9c0fc20c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-010-037-037-a2963028",
       "ref": {
         "startVerse": 37,
@@ -1949,23 +2121,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-010-037-037-83bd9130",
-      "ref": {
-        "startVerse": 37,
-        "endVerse": 37
-      },
-      "question": "According to Mark 10:37, what two locations did James and John request to sit in relation to Jesus? (be specific)",
-      "answer": "one on Your right hand and the other on Your left",
-      "type": "list",
-      "points": 2,
-      "originalIds": [
-        "41-010-037-037-9c0fc20c"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
     },
     {
       "id": "41-010-038-038-2e718a98",
@@ -2017,6 +2172,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-010-038-038-525876d8",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 10:38, what did they not know, what did He ask if they could drink, and what did He ask if they could be baptized with?",
+      "answer": "what you ask; the cup I drink; the baptism I am baptized with",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-010-038-038-525876d8"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-010-039-039-80e3b32a",
@@ -2071,22 +2243,21 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-010-040-040-f464cc26",
+      "id": "41-010-039-039-e3c7db93",
       "ref": {
-        "startVerse": 40,
-        "endVerse": 40
+        "startVerse": 39,
+        "endVerse": 39
       },
-      "question": "According to Mark 10:40, to do what, where, is not whose to give, but it is for who?",
-      "answer": "sit, on My right hand and on My left, Mine, those for whom it is prepared",
-      "type": "list",
-      "points": 5,
+      "question": "True or False: According to Mark 10:39, after the disciples said they were able, Jesus said, \"You will not indeed drink the cup that I drink, and with the baptism I am baptized with you cannot be baptized.\"",
+      "answer": "False",
+      "type": "true_false",
+      "points": 1,
       "originalIds": [
-        "41-010-040-040-0bbc22b1",
-        "41-010-040-040-3a934f8c"
+        "41-010-039-039-e3c7db93"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "model": "user-provided",
+      "difficulty": "easy"
     },
     {
       "id": "41-010-040-040-33ff7c2d",
@@ -2105,6 +2276,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-010-040-040-f464cc26",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 10:40, to do what, where, is not whose to give, but it is for who?",
+      "answer": "sit, on My right hand and on My left, Mine, those for whom it is prepared",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-040-040-0bbc22b1",
+        "41-010-040-040-3a934f8c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-010-041-041-539d2b8b",
@@ -2157,6 +2346,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-010-042-042-86b7807b",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 10:42, those considered what, over who, do what, and their what does what?",
+      "answer": "rulers; Gentiles; lord it over them; great ones; exercise authority over them",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-042-042-86b7807b"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-010-042-042-e5acf5d5",
@@ -2244,6 +2450,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-043-043-bdcdb1b8",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 10:43, who will be your servant?",
+      "answer": "whoever desires to become great among you",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-043-043-bdcdb1b8"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-010-044-044-c2a29fb2",
       "ref": {
         "startVerse": 44,
@@ -2260,6 +2483,57 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-010-044-044-44939efc",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 10:44, who must you be a slave of to be first?",
+      "answer": "all",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-044-044-44939efc"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-044-044-a4353307",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 10:44, whoever desires to be first shall be a what of all?",
+      "answer": "slave",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-044-044-a4353307"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-045-045-f176e23b",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 10:45, what did the Son of Man come to give and why?",
+      "answer": "His life; a ransom",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-045-045-f176e23b"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-010-045-045-bdbc6b80",
@@ -2297,6 +2571,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-045-045-999ce3b6",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 10:45, who did the Son of Man come to give His life as a ransom for?",
+      "answer": "many",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-010-045-045-999ce3b6"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-010-046-046-fb14baf6",
       "ref": {
         "startVerse": 46,
@@ -2331,6 +2622,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-046-046-0f897f1e",
+      "ref": {
+        "startVerse": 46,
+        "endVerse": 46
+      },
+      "question": "According to Mark 10:46, who went out of Jericho with Jesus?",
+      "answer": "His disciples and a great multitude",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-010-046-046-7251cdce"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-010-046-046-210e764c",
       "ref": {
         "startVerse": 46,
@@ -2349,20 +2657,20 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-010-046-046-0f897f1e",
+      "id": "41-010-047-047-373fd813",
       "ref": {
-        "startVerse": 46,
-        "endVerse": 46
+        "startVerse": 47,
+        "endVerse": 47
       },
-      "question": "According to Mark 10:46, who went out of Jericho with Jesus?",
-      "answer": "His disciples and a great multitude",
-      "type": "who",
+      "question": "According to Mark 10:47, how did Bartimaeus identify Jesus?",
+      "answer": "Son of David",
+      "type": "how",
       "points": 2,
       "originalIds": [
-        "41-010-046-046-7251cdce"
+        "41-010-047-047-373fd813"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
+      "model": "user-provided",
       "difficulty": "medium"
     },
     {
@@ -2436,6 +2744,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-010-048-048-fdf76099",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 10:48, many did what to be what, but he did what, calling Jesus the Son of what, asking for what?",
+      "answer": "warned him; quiet; cried out all the more; David; mercy",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-010-048-048-fdf76099"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-048-048-edbc1d49",
       "ref": {
         "startVerse": 48,
@@ -2488,6 +2813,24 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-049-049-2063fb82",
+      "ref": {
+        "startVerse": 49,
+        "endVerse": 49
+      },
+      "question": "According to Mark 10:49, what did they do to the blind man, what were the two commands, and why?",
+      "answer": "they called the blind man, Be of good cheer, Rise, He is calling you",
+      "type": "other",
+      "points": 4,
+      "originalIds": [
+        "41-010-049-049-9fd9233e",
+        "41-010-049-049-b92b8b58"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-010-049-049-a1cc97f0",
       "ref": {
         "startVerse": 49,
@@ -2506,22 +2849,21 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-010-049-049-2063fb82",
+      "id": "41-010-049-049-26459e17",
       "ref": {
         "startVerse": 49,
         "endVerse": 49
       },
-      "question": "According to Mark 10:49, what did they do to the blind man, what were the two commands, and why?",
-      "answer": "they called the blind man, Be of good cheer, Rise, He is calling you",
-      "type": "other",
-      "points": 4,
+      "question": "According to Mark 10:49, why should the man be of good cheer and rise?",
+      "answer": "He is calling you",
+      "type": "why",
+      "points": 1,
       "originalIds": [
-        "41-010-049-049-9fd9233e",
-        "41-010-049-049-b92b8b58"
+        "41-010-049-049-26459e17"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-010-050-050-1c86cdaa",
@@ -2541,6 +2883,40 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-010-050-050-efc35444",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 10:50, what did the blind man throw?",
+      "answer": "his garment",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-010-050-050-efc35444"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-010-050-050-408378ac",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 10:50, what three actions did the blind man take?",
+      "answer": "threw his garment; rose; came to Jesus",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-010-050-050-408378ac"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-010-050-050-47f0f6a2",
       "ref": {
         "startVerse": 50,
@@ -2555,6 +2931,23 @@
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-010-051-051-df349fba",
+      "ref": {
+        "startVerse": 51,
+        "endVerse": 51
+      },
+      "question": "According to Mark 10:51, what did he want to receive and how did he address Him?",
+      "answer": "my sight; Rabboni",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-010-051-051-df349fba"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "medium"
     },
     {
@@ -2682,11 +3075,11 @@
   ],
   "byVerse": {
     "1": [
-      "41-010-001-001-d84cfe6f",
       "41-010-001-001-815eb9c8",
       "41-010-001-001-556d392c",
       "41-010-001-001-6c213cf7",
-      "41-010-001-001-af5bb368"
+      "41-010-001-001-af5bb368",
+      "41-010-001-001-d84cfe6f"
     ],
     "2": [
       "41-010-002-002-ab8a1f0e",
@@ -2710,20 +3103,23 @@
     "6": [
       "41-010-006-006-1fd31996",
       "41-010-006-006-0437bf1b",
-      "41-010-006-006-51cd214c"
+      "41-010-006-006-51cd214c",
+      "41-010-006-009-423373f8"
     ],
     "7": [
+      "41-010-006-009-423373f8",
       "41-010-007-007-f566e5ba",
       "41-010-007-007-f3b8d662",
       "41-010-007-007-e8ffafe5"
     ],
     "8": [
+      "41-010-006-009-423373f8",
       "41-010-008-008-7bb8d80c",
-      "41-010-008-008-0c6b11f4",
-      "41-010-008-008-f22571fe"
+      "41-010-008-008-f22571fe",
+      "41-010-008-008-0c6b11f4"
     ],
     "9": [
-      "41-010-009-009-42caa90a",
+      "41-010-006-009-423373f8",
       "41-010-009-009-05afcdd3",
       "41-010-009-009-85545f45"
     ],
@@ -2750,6 +3146,7 @@
     "14": [
       "41-010-014-014-78eb3b96",
       "41-010-014-014-da9a4f0d",
+      "41-010-014-014-0a29d188",
       "41-010-014-014-3ef5a9c3"
     ],
     "15": [
@@ -2757,9 +3154,13 @@
       "41-010-015-015-ebf7944f"
     ],
     "16": [
-      "41-010-016-016-730c0162"
+      "41-010-016-016-730c0162",
+      "41-010-016-016-7f53fbdb",
+      "41-010-016-016-545badb3",
+      "41-010-016-016-1169202e"
     ],
     "17": [
+      "41-010-017-017-8308dd86",
       "41-010-017-017-a4054d45",
       "41-010-017-017-f911c214",
       "41-010-017-017-300c50f3"
@@ -2784,14 +3185,15 @@
       "41-010-021-021-ad81901b"
     ],
     "22": [
+      "41-010-022-022-792c0b8d",
       "41-010-022-022-bd5bd8d4",
       "41-010-022-022-d8fcaf09",
       "41-010-022-022-b0106ba6"
     ],
     "23": [
+      "41-010-023-023-82e5fe08",
       "41-010-023-023-4f2053ce",
-      "41-010-023-023-22bff47a",
-      "41-010-023-023-82e5fe08"
+      "41-010-023-023-22bff47a"
     ],
     "24": [
       "41-010-024-024-7aef06ce",
@@ -2799,30 +3201,31 @@
       "41-010-024-024-dea53721"
     ],
     "25": [
+      "41-010-025-025-846aed5e",
       "41-010-025-025-1816c0af",
-      "41-010-025-025-7a96dada",
-      "41-010-025-025-846aed5e"
+      "41-010-025-025-7a96dada"
     ],
     "26": [
+      "41-010-026-026-b345cb31",
       "41-010-026-026-b671022b",
       "41-010-026-026-52ee044d",
       "41-010-026-026-7645e576"
     ],
     "27": [
-      "41-010-027-027-9b8b4938",
       "41-010-027-027-75938c75",
+      "41-010-027-027-9b8b4938",
       "41-010-027-027-68b26d78",
       "41-010-027-027-1a60bacc"
     ],
     "28": [
-      "41-010-028-028-237f3baa",
       "41-010-028-028-8eef2ccb",
+      "41-010-028-028-237f3baa",
       "41-010-028-028-732ee5c1"
     ],
     "29": [
       "41-010-029-029-3ea9d2f3",
-      "41-010-029-029-d238c033",
-      "41-010-029-029-192ab7b5"
+      "41-010-029-029-192ab7b5",
+      "41-010-029-029-d238c033"
     ],
     "30": [
       "41-010-030-030-04512852",
@@ -2835,15 +3238,17 @@
       "41-010-031-031-ca675f15"
     ],
     "32": [
-      "41-010-032-032-0765e031",
       "41-010-032-032-27c166d1",
       "41-010-032-032-375b1703",
+      "41-010-032-032-0765e031",
       "41-010-032-032-121161c1",
       "41-010-032-032-6ee6a78d",
       "41-010-032-032-fd93a00c"
     ],
     "33": [
+      "41-010-033-033-ef90e983",
       "41-010-033-033-0399aaa9",
+      "41-010-033-033-e209c538",
       "41-010-033-033-cdaa561f",
       "41-010-033-033-b374c51c",
       "41-010-033-033-ac3d409e"
@@ -2865,22 +3270,24 @@
     ],
     "37": [
       "41-010-037-037-3bc52c98",
-      "41-010-037-037-a2963028",
-      "41-010-037-037-83bd9130"
+      "41-010-037-037-83bd9130",
+      "41-010-037-037-a2963028"
     ],
     "38": [
       "41-010-038-038-2e718a98",
       "41-010-038-038-112c3622",
-      "41-010-038-038-91de4da1"
+      "41-010-038-038-91de4da1",
+      "41-010-038-038-525876d8"
     ],
     "39": [
       "41-010-039-039-80e3b32a",
       "41-010-039-039-fdae45c5",
-      "41-010-039-039-a457ceb4"
+      "41-010-039-039-a457ceb4",
+      "41-010-039-039-e3c7db93"
     ],
     "40": [
-      "41-010-040-040-f464cc26",
-      "41-010-040-040-33ff7c2d"
+      "41-010-040-040-33ff7c2d",
+      "41-010-040-040-f464cc26"
     ],
     "41": [
       "41-010-041-041-539d2b8b",
@@ -2888,47 +3295,59 @@
       "41-010-041-041-86132d43"
     ],
     "42": [
+      "41-010-042-042-86b7807b",
       "41-010-042-042-e5acf5d5",
       "41-010-042-042-ecbe1129",
       "41-010-042-042-1545591e"
     ],
     "43": [
       "41-010-043-043-b6b31821",
-      "41-010-043-043-02b1127c"
+      "41-010-043-043-02b1127c",
+      "41-010-043-043-bdcdb1b8"
     ],
     "44": [
-      "41-010-044-044-c2a29fb2"
+      "41-010-044-044-c2a29fb2",
+      "41-010-044-044-44939efc",
+      "41-010-044-044-a4353307"
     ],
     "45": [
+      "41-010-045-045-f176e23b",
       "41-010-045-045-bdbc6b80",
-      "41-010-045-045-c9eb042b"
+      "41-010-045-045-c9eb042b",
+      "41-010-045-045-999ce3b6"
     ],
     "46": [
       "41-010-046-046-fb14baf6",
       "41-010-046-046-1f2b51aa",
-      "41-010-046-046-210e764c",
-      "41-010-046-046-0f897f1e"
+      "41-010-046-046-0f897f1e",
+      "41-010-046-046-210e764c"
     ],
     "47": [
+      "41-010-047-047-373fd813",
       "41-010-047-047-5fb6f8ae",
       "41-010-047-047-8bba52d2",
       "41-010-047-047-934555c7"
     ],
     "48": [
       "41-010-048-048-4d8611a3",
+      "41-010-048-048-fdf76099",
       "41-010-048-048-edbc1d49",
       "41-010-048-048-4682576e"
     ],
     "49": [
       "41-010-049-049-c194245a",
+      "41-010-049-049-2063fb82",
       "41-010-049-049-a1cc97f0",
-      "41-010-049-049-2063fb82"
+      "41-010-049-049-26459e17"
     ],
     "50": [
       "41-010-050-050-1c86cdaa",
+      "41-010-050-050-efc35444",
+      "41-010-050-050-408378ac",
       "41-010-050-050-47f0f6a2"
     ],
     "51": [
+      "41-010-051-051-df349fba",
       "41-010-051-051-9c0d2fc1",
       "41-010-051-051-94583b16",
       "41-010-051-051-4e591438"

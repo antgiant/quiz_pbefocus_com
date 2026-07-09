@@ -109,6 +109,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-007-002-002-55ef81bb",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 7:2, what word was used to describe unwashed hands?",
+      "answer": "defiled",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-002-002-55ef81bb"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-007-003-003-dc007c7d",
       "ref": {
         "startVerse": 3,
@@ -162,22 +179,21 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-004-004-942e0a2a",
+      "id": "41-007-004-004-5569700c",
       "ref": {
         "startVerse": 4,
         "endVerse": 4
       },
-      "question": "According to Mark 7:4, what do they do to the many other things?",
-      "answer": "received and hold",
-      "type": "what",
-      "points": 2,
+      "question": "According to Mark 7:4, what 4 items do they wash, apart from washing themselves after coming from the marketplace? (be specific)",
+      "answer": "cups, pitchers, copper vessels, and couches",
+      "type": "list",
+      "points": 4,
       "originalIds": [
-        "41-007-004-004-8faa7ba2",
-        "41-007-004-004-f7a30166"
+        "41-007-004-004-b76dcd89"
       ],
-      "validatedBy": "human",
+      "validatedBy": "automated_deterministic",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "41-007-004-004-a919ae5e",
@@ -198,21 +214,22 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-007-004-004-5569700c",
+      "id": "41-007-004-004-942e0a2a",
       "ref": {
         "startVerse": 4,
         "endVerse": 4
       },
-      "question": "According to Mark 7:4, what 4 items do they wash, apart from washing themselves after coming from the marketplace? (be specific)",
-      "answer": "cups, pitchers, copper vessels, and couches",
-      "type": "list",
-      "points": 4,
+      "question": "According to Mark 7:4, what do they do to the many other things?",
+      "answer": "received and hold",
+      "type": "what",
+      "points": 2,
       "originalIds": [
-        "41-007-004-004-b76dcd89"
+        "41-007-004-004-8faa7ba2",
+        "41-007-004-004-f7a30166"
       ],
-      "validatedBy": "automated_deterministic",
+      "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "medium"
     },
     {
       "id": "41-007-004-004-d1eb718a",
@@ -226,23 +243,6 @@
       "points": 1,
       "originalIds": [
         "41-007-004-004-82f92635"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-007-005-005-d39784c4",
-      "ref": {
-        "startVerse": 5,
-        "endVerse": 5
-      },
-      "question": "According to Mark 7:5, what did the Pharisees and scribes ask why the disciples did not walk according to?",
-      "answer": "the tradition of the elders",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-005-005-059b33a8"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -265,6 +265,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-007-005-005-d39784c4",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 7:5, what did the Pharisees and scribes ask why the disciples did not walk according to?",
+      "answer": "the tradition of the elders",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-005-005-059b33a8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-007-005-005-37874dd6",
@@ -423,6 +440,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-007-008-008-9c963161",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 7:8, what \"catch-all\" is used after listing washing pitchers and cups as thing they do to hold the tradition of men and laying aside the commandment of God?",
+      "answer": "many other such things you do",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-008-008-fdb1a177",
+        "41-007-008-008-4396d2e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-007-008-008-b66531f1",
       "ref": {
         "startVerse": 8,
@@ -451,24 +486,6 @@
       "points": 1,
       "originalIds": [
         "41-007-008-008-209cb5c2"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-007-008-008-9c963161",
-      "ref": {
-        "startVerse": 8,
-        "endVerse": 8
-      },
-      "question": "According to Mark 7:8, what \"catch-all\" is used after listing washing pitchers and cups as thing they do to hold the tradition of men and laying aside the commandment of God?",
-      "answer": "many other such things you do",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-008-008-fdb1a177",
-        "41-007-008-008-4396d2e9"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -612,35 +629,19 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-012-012-0b0b0a71",
+      "id": "41-007-012-012-9b7ffa3b",
       "ref": {
         "startVerse": 12,
         "endVerse": 12
       },
-      "question": "According to Mark 7:12, what does a man no longer do for his parents after claiming Corban?",
+      "question": "According to Mark 7:12, what is a man no longer allowed to do after claiming Corban?",
       "answer": "you no longer let him do anything for his father or his mother",
       "type": "what",
       "points": 1,
       "originalIds": [
-        "41-007-012-012-b9f7ec50"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-007-013-013-7085d7d3",
-      "ref": {
-        "startVerse": 13,
-        "endVerse": 13
-      },
-      "question": "According to Mark 7:13, what phrase is used at the end to be sure to include every offensive tradition",
-      "answer": "many such things you do",
-      "type": "how_many",
-      "points": 1,
-      "originalIds": [
-        "41-007-013-013-d8340140",
-        "41-007-013-013-e9fa2929"
+        "41-007-012-012-b9f7ec50",
+        "41-007-012-012-0b0b0a71",
+        "41-007-012-012-9b7ffa3b"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -665,6 +666,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-007-013-013-424335e8",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 7:13, what has been done with the tradition mentioned?",
+      "answer": "you have handed down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-013-013-0356c366"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-007-013-013-2744598d",
       "ref": {
         "startVerse": 13,
@@ -683,17 +701,18 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-013-013-424335e8",
+      "id": "41-007-013-013-7085d7d3",
       "ref": {
         "startVerse": 13,
         "endVerse": 13
       },
-      "question": "According to Mark 7:13, what has been done with the tradition mentioned?",
-      "answer": "you have handed down",
-      "type": "what",
+      "question": "According to Mark 7:13, what phrase is used at the end to be sure to include every offensive tradition",
+      "answer": "many such things you do",
+      "type": "how_many",
       "points": 1,
       "originalIds": [
-        "41-007-013-013-0356c366"
+        "41-007-013-013-d8340140",
+        "41-007-013-013-e9fa2929"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -978,24 +997,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-019-019-89b41cde",
-      "ref": {
-        "startVerse": 19,
-        "endVerse": 19
-      },
-      "question": "According to Mark 7:19, where does food enter, what happens to it, where does food not enter, what do the facts listed result in?",
-      "answer": "his stomach, and is eliminated, it does not enter the heart, thus purifying all foods",
-      "type": "list",
-      "points": 4,
-      "originalIds": [
-        "41-007-019-019-230c9e2a",
-        "41-007-019-019-c1cec726"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-007-019-019-c528a8c3",
       "ref": {
         "startVerse": 19,
@@ -1014,21 +1015,22 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-007-020-020-2669d8f7",
+      "id": "41-007-019-019-89b41cde",
       "ref": {
-        "startVerse": 20,
-        "endVerse": 20
+        "startVerse": 19,
+        "endVerse": 19
       },
-      "question": "According to Mark 7:20, what does Jesus say defiles a man?",
-      "answer": "What comes out of a man",
-      "type": "what",
-      "points": 1,
+      "question": "According to Mark 7:19, where does food enter, what happens to it, where does food not enter, what do the facts listed result in?",
+      "answer": "his stomach, and is eliminated, it does not enter the heart, thus purifying all foods",
+      "type": "list",
+      "points": 4,
       "originalIds": [
-        "41-007-020-020-43e356d7"
+        "41-007-019-019-230c9e2a",
+        "41-007-019-019-c1cec726"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": "41-007-020-020-59628bde",
@@ -1043,6 +1045,23 @@
       "originalIds": [
         "41-007-020-020-c70c4fe1",
         "41-007-020-020-5f8aacd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-007-020-020-2669d8f7",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 7:20, what does Jesus say defiles a man?",
+      "answer": "What comes out of a man",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-020-020-43e356d7"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1084,9 +1103,9 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-007-022-022-f13f630a",
+      "id": "41-007-021-022-eff41e72",
       "ref": {
-        "startVerse": 22,
+        "startVerse": 21,
         "endVerse": 22
       },
       "question": "According to Mark 7:21-22, list the evil items mentioned that proceed from within the heart of men.",
@@ -1095,7 +1114,9 @@
       "points": 13,
       "originalIds": [
         "41-007-022-022-4eea8e67",
-        "41-007-022-022-17429334"
+        "41-007-022-022-17429334",
+        "41-007-022-022-f13f630a",
+        "41-007-021-022-eff41e72"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1190,24 +1211,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-007-024-024-25a4f46d",
-      "ref": {
-        "startVerse": 24,
-        "endVerse": 24
-      },
-      "question": "According to Mark 7:24, what happened when He wanted no one to know He was in the house? (be specific)",
-      "answer": "He could not be hidden",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-024-024-3aa68a48",
-        "41-007-024-024-25a4f46d"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-007-024-024-120d141a",
       "ref": {
         "startVerse": 24,
@@ -1224,6 +1227,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-007-024-024-25a4f46d",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 7:24, what happened when He wanted no one to know He was in the house? (be specific)",
+      "answer": "He could not be hidden",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-024-024-3aa68a48",
+        "41-007-024-024-25a4f46d"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-007-024-024-eea1d985",
@@ -1641,24 +1662,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-033-033-729cfb4d",
-      "ref": {
-        "startVerse": 33,
-        "endVerse": 33
-      },
-      "question": "According to Mark 7:33, where did Jesus put his fingers?",
-      "answer": "in his ears",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-033-033-b06cfa50",
-        "41-007-033-033-7c933f89"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-007-033-033-683112b9",
       "ref": {
         "startVerse": 33,
@@ -1692,6 +1695,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
+    },
+    {
+      "id": "41-007-033-033-729cfb4d",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 7:33, where did Jesus put his fingers?",
+      "answer": "in his ears",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-033-033-b06cfa50",
+        "41-007-033-033-7c933f89"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-007-034-034-c76e2e22",
@@ -1728,6 +1749,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-007-034-034-3173bfd7",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 7:34, what is the meaning of the word Ephphatha?",
+      "answer": "Be opened",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-034-034-babec71c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-007-034-034-e3949c10",
       "ref": {
         "startVerse": 34,
@@ -1746,21 +1784,24 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-007-034-034-3173bfd7",
+      "id": "41-007-035-035-eb554c0d",
       "ref": {
-        "startVerse": 34,
-        "endVerse": 34
+        "startVerse": 35,
+        "endVerse": 35
       },
-      "question": "According to Mark 7:34, what is the meaning of the word Ephphatha?",
-      "answer": "Be opened",
-      "type": "what",
-      "points": 1,
+      "question": "According to Mark 7:35, how did he speak, what was loosed, what was opened, when did these things happen?",
+      "answer": "plainly, the impediment of his tongue was loosed, his ears were opened, immediately",
+      "type": "how",
+      "points": 4,
       "originalIds": [
-        "41-007-034-034-babec71c"
+        "41-007-035-035-393ea034",
+        "41-007-035-035-75bdd2ef",
+        "41-007-035-035-5e73bfeb",
+        "41-007-035-035-eb554c0d"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": "41-007-035-035-cee95d6f",
@@ -1779,24 +1820,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-007-035-035-5e73bfeb",
-      "ref": {
-        "startVerse": 35,
-        "endVerse": 35
-      },
-      "question": "According to Mark 7:35, how did he speak, what was loosed, what was opened, when did these things happen?",
-      "answer": "plainly, his tongue was loosed, his ears were opened, immediately",
-      "type": "how",
-      "points": 4,
-      "originalIds": [
-        "41-007-035-035-393ea034",
-        "41-007-035-035-75bdd2ef"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
     },
     {
       "id": "41-007-035-035-14966186",
@@ -1833,6 +1856,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-007-036-036-890a73c7",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 7:36, what did He command them that they should do?",
+      "answer": "tell no one",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-007-036-036-09e859d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-007-036-036-c5332aff",
       "ref": {
         "startVerse": 36,
@@ -1849,23 +1889,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-007-036-036-890a73c7",
-      "ref": {
-        "startVerse": 36,
-        "endVerse": 36
-      },
-      "question": "According to Mark 7:36, what did He command them that they should do?",
-      "answer": "tell no one",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-036-036-09e859d4"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-007-036-036-b441d954",
@@ -1902,24 +1925,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-007-037-037-d0c841b6",
-      "ref": {
-        "startVerse": 37,
-        "endVerse": 37
-      },
-      "question": "According to Mark 7:37, what does he do well, and what two things does he make?",
-      "answer": "all things, deaf to hear, mute to speak",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-007-037-037-9239801f",
-        "41-007-037-037-a9147595"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-007-037-037-c9be9c06",
       "ref": {
         "startVerse": 37,
@@ -1937,24 +1942,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-007-037-037-029a8990",
-      "ref": {
-        "startVerse": 37,
-        "endVerse": 37
-      },
-      "question": "According to Mark 7:37, what does He make?",
-      "answer": "deaf to hear, mute to speak",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-007-037-037-9431dad6",
-        "41-007-037-037-0046ab04"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-007-037-037-a337a68d",
       "ref": {
         "startVerse": 37,
@@ -1970,6 +1957,43 @@
       "validatedBy": "automated_deterministic",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-007-037-037-029a8990",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what does He make?",
+      "answer": "deaf to hear, mute to speak",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-007-037-037-9431dad6",
+        "41-007-037-037-0046ab04",
+        "41-007-037-037-029a8990"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-007-037-037-d0c841b6",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 7:37, what does he do well, and what two things does he make?",
+      "answer": "all things, deaf to hear, mute to speak",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-007-037-037-9239801f",
+        "41-007-037-037-a9147595"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     }
   ],
   "byVerse": {
@@ -1981,7 +2005,8 @@
     "2": [
       "41-007-002-002-a4658fa6",
       "41-007-002-002-3b48ceca",
-      "41-007-002-002-b0c60af7"
+      "41-007-002-002-b0c60af7",
+      "41-007-002-002-55ef81bb"
     ],
     "3": [
       "41-007-003-003-dc007c7d",
@@ -1989,14 +2014,14 @@
       "41-007-003-003-86667965"
     ],
     "4": [
-      "41-007-004-004-942e0a2a",
-      "41-007-004-004-a919ae5e",
       "41-007-004-004-5569700c",
+      "41-007-004-004-a919ae5e",
+      "41-007-004-004-942e0a2a",
       "41-007-004-004-d1eb718a"
     ],
     "5": [
-      "41-007-005-005-d39784c4",
       "41-007-005-005-def6c842",
+      "41-007-005-005-d39784c4",
       "41-007-005-005-37874dd6",
       "41-007-005-005-ec11feef"
     ],
@@ -2012,9 +2037,9 @@
     ],
     "8": [
       "41-007-008-008-55900a9d",
+      "41-007-008-008-9c963161",
       "41-007-008-008-b66531f1",
-      "41-007-008-008-9ee809c6",
-      "41-007-008-008-9c963161"
+      "41-007-008-008-9ee809c6"
     ],
     "9": [
       "41-007-009-009-268f678c",
@@ -2031,13 +2056,13 @@
       "41-007-011-011-76f01831"
     ],
     "12": [
-      "41-007-012-012-0b0b0a71"
+      "41-007-012-012-9b7ffa3b"
     ],
     "13": [
-      "41-007-013-013-7085d7d3",
       "41-007-013-013-7553aa3a",
+      "41-007-013-013-424335e8",
       "41-007-013-013-2744598d",
-      "41-007-013-013-424335e8"
+      "41-007-013-013-7085d7d3"
     ],
     "14": [
       "41-007-014-014-2b8c462a",
@@ -2066,19 +2091,20 @@
     "19": [
       "41-007-019-019-74445f32",
       "41-007-019-019-98bd8e2a",
-      "41-007-019-019-89b41cde",
-      "41-007-019-019-c528a8c3"
+      "41-007-019-019-c528a8c3",
+      "41-007-019-019-89b41cde"
     ],
     "20": [
-      "41-007-020-020-2669d8f7",
-      "41-007-020-020-59628bde"
+      "41-007-020-020-59628bde",
+      "41-007-020-020-2669d8f7"
     ],
     "21": [
       "41-007-021-021-4f077462",
-      "41-007-021-021-fa467f9b"
+      "41-007-021-021-fa467f9b",
+      "41-007-021-022-eff41e72"
     ],
     "22": [
-      "41-007-022-022-f13f630a",
+      "41-007-021-022-eff41e72",
       "41-007-022-022-79179570"
     ],
     "23": [
@@ -2088,8 +2114,8 @@
     "24": [
       "41-007-024-024-311b6f15",
       "41-007-024-024-f5071b32",
-      "41-007-024-024-25a4f46d",
       "41-007-024-024-120d141a",
+      "41-007-024-024-25a4f46d",
       "41-007-024-024-eea1d985"
     ],
     "25": [
@@ -2132,33 +2158,33 @@
     ],
     "33": [
       "41-007-033-033-14574956",
-      "41-007-033-033-729cfb4d",
       "41-007-033-033-683112b9",
-      "41-007-033-033-81aa0e85"
+      "41-007-033-033-81aa0e85",
+      "41-007-033-033-729cfb4d"
     ],
     "34": [
       "41-007-034-034-c76e2e22",
       "41-007-034-034-623be4db",
-      "41-007-034-034-e3949c10",
-      "41-007-034-034-3173bfd7"
+      "41-007-034-034-3173bfd7",
+      "41-007-034-034-e3949c10"
     ],
     "35": [
+      "41-007-035-035-eb554c0d",
       "41-007-035-035-cee95d6f",
-      "41-007-035-035-5e73bfeb",
       "41-007-035-035-14966186",
       "41-007-035-035-92a5ffef"
     ],
     "36": [
-      "41-007-036-036-c5332aff",
       "41-007-036-036-890a73c7",
+      "41-007-036-036-c5332aff",
       "41-007-036-036-b441d954"
     ],
     "37": [
       "41-007-037-037-d392eb9f",
-      "41-007-037-037-d0c841b6",
       "41-007-037-037-c9be9c06",
+      "41-007-037-037-a337a68d",
       "41-007-037-037-029a8990",
-      "41-007-037-037-a337a68d"
+      "41-007-037-037-d0c841b6"
     ]
   }
 }

@@ -73,6 +73,23 @@
       "difficulty": "hard"
     },
     {
+      "id": "41-011-002-002-be8e431d",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, how would they find the colt?",
+      "answer": "tied",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-002-002-5e9858aa"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-011-002-002-d675cd33",
       "ref": {
         "startVerse": 2,
@@ -107,6 +124,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-002-002-af1660f1",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 11:2, where did Jesus tell the disciples to go?",
+      "answer": "into the village opposite you",
+      "type": "where",
+      "points": 2,
+      "originalIds": [
+        "41-011-002-002-af1660f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-011-002-002-65193269",
       "ref": {
         "startVerse": 2,
@@ -124,38 +158,21 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-011-002-002-be8e431d",
+      "id": "41-011-003-003-34ae3989",
       "ref": {
-        "startVerse": 2,
-        "endVerse": 2
+        "startVerse": 3,
+        "endVerse": 3
       },
-      "question": "According to Mark 11:2, how would they find the colt?",
-      "answer": "tied",
-      "type": "what",
-      "points": 1,
+      "question": "According to Mark 11:3, if who says what to you, what are they to say, and what will they do, when?",
+      "answer": "anyone; Why are you doing this?; The Lord has need of it; he will send it here; immediately",
+      "type": "list",
+      "points": 5,
       "originalIds": [
-        "41-011-002-002-5e9858aa"
+        "41-011-003-003-34ae3989"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-011-002-002-af1660f1",
-      "ref": {
-        "startVerse": 2,
-        "endVerse": 2
-      },
-      "question": "According to Mark 11:2, where did Jesus tell the disciples to go?",
-      "answer": "into the village opposite you",
-      "type": "where",
-      "points": 2,
-      "originalIds": [
-        "41-011-002-002-af1660f1"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-003-003-5bab1d9b",
@@ -209,6 +226,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-004-004-5ef03617",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 11:4, they found what, in what condition, where, and what did they do?",
+      "answer": "the colt, tied, outside on the street, loosed it",
+      "type": "where",
+      "points": 5,
+      "originalIds": [
+        "41-011-004-004-3235b2ad"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-004-004-d5d182e4",
       "ref": {
         "startVerse": 4,
@@ -237,23 +271,6 @@
       "points": 3,
       "originalIds": [
         "41-011-004-004-e0b91f63"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
-      "id": "41-011-004-004-5ef03617",
-      "ref": {
-        "startVerse": 4,
-        "endVerse": 4
-      },
-      "question": "According to Mark 11:4, they found what, in what condition, where, and what did they do?",
-      "answer": "the colt, tied, outside on the street, loosed it",
-      "type": "where",
-      "points": 5,
-      "originalIds": [
-        "41-011-004-004-3235b2ad"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -294,6 +311,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-005-005-e027aad3",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 11:5, what specific action were the people standing there asking about?",
+      "answer": "loosing the colt",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-005-005-e027aad3"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-011-005-005-893a4669",
       "ref": {
         "startVerse": 5,
@@ -328,6 +362,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-006-006-e019d136",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 11:6, they did what as who commanded, and what was the result?",
+      "answer": "spoke; Jesus; let them go",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-006-006-e019d136"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-006-006-8b2e4fad",
       "ref": {
         "startVerse": 6,
@@ -343,6 +394,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-011-007-007-22fde1ad",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 11:7, they brought what to who, put what on it, and He did what to it?",
+      "answer": "the colt, Jesus, their clothes, He sat on it",
+      "type": "who",
+      "points": 4,
+      "originalIds": [
+        "41-011-007-007-a9f372df"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-007-007-263a99f5",
@@ -379,20 +447,37 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-011-007-007-22fde1ad",
+      "id": "41-011-007-007-3d520297",
       "ref": {
         "startVerse": 7,
         "endVerse": 7
       },
-      "question": "According to Mark 11:7, they brought what to who, put what on it, and He did what to it?",
-      "answer": "the colt, Jesus, their clothes, He sat on it",
-      "type": "who",
-      "points": 4,
+      "question": "According to Mark 11:7, who did they bring it to and what did He do?",
+      "answer": "Jesus; sat on it",
+      "type": "list",
+      "points": 2,
       "originalIds": [
-        "41-011-007-007-a9f372df"
+        "41-011-007-007-3d520297"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-008-008-d2751dbf",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 11:8, many spread what, where, and others did what to what object, from what, and did what to them where?",
+      "answer": "their clothes; on the road; cut down; leafy branches; trees; spread them; on the road",
+      "type": "list",
+      "points": 7,
+      "originalIds": [
+        "41-011-008-008-d2751dbf"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "hard"
     },
     {
@@ -447,21 +532,21 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-011-009-009-2b8c7a37",
+      "id": "41-011-009-009-89d80662",
       "ref": {
         "startVerse": 9,
         "endVerse": 9
       },
-      "question": "According to Mark 11:9, who did those who went before and those who followed declare blessed?",
-      "answer": "Blessed is He who comes in the name of the LORD!",
-      "type": "what",
-      "points": 1,
+      "question": "According to Mark 11:9, what two things did those who went before and those who followed cry out?",
+      "answer": "Hosanna!; Blessed is He who comes in the name of the LORD!",
+      "type": "list",
+      "points": 2,
       "originalIds": [
-        "41-011-009-009-7b48a0b0"
+        "41-011-009-009-89d80662"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-009-009-de3ce521",
@@ -498,6 +583,40 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-009-009-2b8c7a37",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 11:9, who did those who went before and those who followed declare blessed?",
+      "answer": "Blessed is He who comes in the name of the LORD!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-009-009-7b48a0b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-011-010-010-59c751ac",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 11:10, blessed is the what of who, that does what in whose name?",
+      "answer": "the kingdom; our father David; comes; the Lord",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-010-010-59c751ac"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-010-010-a2cf9cd9",
       "ref": {
         "startVerse": 10,
@@ -513,6 +632,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-011-010-010-6f5a89a8",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 11:10, what is the exclamation of praise and to what degree?",
+      "answer": "Hosanna; the highest",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-010-010-6f5a89a8"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-010-010-a861ad55",
@@ -651,6 +787,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-012-012-ec0b6935",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 11:12, how was He feeling and when they came where?",
+      "answer": "hungry; the next day; out of Bethany",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-012-012-ec0b6935"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-012-012-91e0d808",
       "ref": {
         "startVerse": 12,
@@ -770,6 +923,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-014-014-6ce3cede",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 11:14, Jesus said let no one eat what ever again?",
+      "answer": "fruit (from you)",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-014-014-6ce3cede"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-011-014-014-a10ae65b",
       "ref": {
         "startVerse": 14,
@@ -804,6 +974,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-014-014-5d31f0d0",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 11:14, who said no one should eat fruit from the tree and who heard it?",
+      "answer": "Jesus; His disciples",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-014-014-5d31f0d0"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-011-015-015-5b3afd16",
       "ref": {
         "startVerse": 15,
@@ -819,6 +1006,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-011-015-015-e7bd355d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 11:15, what two things did Jesus overturn and who did each belong to?",
+      "answer": "the tables; of the money changers; the seats; of those who sold doves",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-015-015-e7bd355d"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-015-015-bc6bbe17",
@@ -923,6 +1127,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-017-017-87da1f2e",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 11:17, what rhetorical question did Jesus ask, what did Jesus state they made it, and what action was Jesus taking by asking His question and making His opposing statement?",
+      "answer": "Is it not written, 'My house shall be called a house of prayer for all nations?'; a 'den of thieves'; He taught",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-017-017-87da1f2e"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-011-017-017-817cc101",
       "ref": {
         "startVerse": 17,
@@ -972,6 +1193,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-011-018-018-29daf443",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 11:18, which two groups of people heard it, to do what, and why?",
+      "answer": "the scribes and chief priests; destroy Him; they feared Him",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-018-018-29daf443"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-018-018-8ce6cfae",
@@ -1042,6 +1280,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-020-020-c9bea3ab",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 11:20, what state was the fig tree in when they saw it, from where, what time, and when they were doing what? (be specific)",
+      "answer": "dried up; from the roots; in the morning; as they passed by",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-020-020-c9bea3ab"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-020-020-c6640deb",
       "ref": {
         "startVerse": 20,
@@ -1108,6 +1363,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-011-021-021-ce6dba66",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 11:21, what expression of exclamation did who use while using what term of address, as he was remembering what, and what was the result?",
+      "answer": "look; Peter; Rabbi; the fig tree which You cursed; withered away",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-011-021-021-ce6dba66"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-021-021-5d5bed61",
@@ -1178,6 +1450,40 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-022-022-ccf56a62",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 11:22, what were they to have in what?",
+      "answer": "faith; God",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-022-022-ccf56a62"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-022-022-c8a4c77a",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 11:22, what were they to have in who, and who was answering?",
+      "answer": "faith; God; Jesus",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-022-022-c8a4c77a"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-022-022-5e713ab8",
       "ref": {
         "startVerse": 22,
@@ -1229,6 +1535,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-023-023-0fa9f860",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 11:23, what must happen and must not happen to have whatever he says, what is the object being commanded, what two actions are commanded, and what term of confidence was used at the beginning of this example?",
+      "answer": "believe that those things he says will be done; doubt in his heart; mountain; be removed; be cast into the sea; assuredly",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-011-023-023-0fa9f860"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-023-023-06e48b90",
       "ref": {
         "startVerse": 23,
@@ -1278,6 +1601,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-011-024-024-27394243",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 11:24, to have what you ask for when doing what, what must you do?",
+      "answer": "when you pray; believe that you receive them",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-024-024-27394243"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-011-024-024-543dcd80",
@@ -1348,6 +1688,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-025-025-e3375c62",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 11:25, what is the two-part condition that who will do what who lives where, when you are in what position taking what action?",
+      "answer": "if you have anything against anyone; forgive him; Father; forgive you your trespasses; heaven; stand; praying",
+      "type": "list",
+      "points": 7,
+      "originalIds": [
+        "41-011-025-025-e3375c62"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-025-025-7ddbefb5",
       "ref": {
         "startVerse": 25,
@@ -1382,6 +1739,40 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-026-026-2f40a7d7",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 11:26, if you do not forgive, who where will not forgive you? (be specific)",
+      "answer": "Father; in heaven",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-026-026-2f40a7d7"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-026-026-34b7f66a",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 11:26, the Father won't do what for you if you do not do what?",
+      "answer": "forgive your trespasses; forgive",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-026-026-34b7f66a"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-011-026-026-0831722f",
       "ref": {
         "startVerse": 26,
@@ -1397,6 +1788,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-011-026-026-49eada03",
+      "ref": {
+        "startVerse": 26,
+        "endVerse": 26
+      },
+      "question": "According to Mark 11:26, who where, will not do what if you do not do what?",
+      "answer": "Father; in heaven; forgive your trespasses; forgive",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-026-026-49eada03"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
     },
     {
       "id": "41-011-027-027-e55fd84b",
@@ -1450,6 +1858,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-011-027-027-8ac0e339",
+      "ref": {
+        "startVerse": 27,
+        "endVerse": 27
+      },
+      "question": "According to Mark 11:27, where was He doing what and in what city when what three groups of people came to Him?",
+      "answer": "in the temple; walking; Jerusalem; chief priests; scribes; elders",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-011-027-027-8ac0e339"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-027-027-676d94cb",
       "ref": {
         "startVerse": 27,
@@ -1464,6 +1889,23 @@
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-011-028-028-63e06cb4",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 11:28, they wanted to know the source of His what?",
+      "answer": "authority",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-028-028-63e06cb4"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "easy"
     },
     {
@@ -1569,6 +2011,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-011-029-029-e170dcae",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 11:29, what was who to ask, and then what would happen after what event?",
+      "answer": "one question; Jesus; I will tell you by what authority I do these things; answer Me",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-029-029-e170dcae"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-011-029-029-1fe78205",
       "ref": {
         "startVerse": 29,
@@ -1583,6 +2042,23 @@
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-011-030-030-807a31b4",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 11:30, what did Jesus command them to answer was from heaven or men?",
+      "answer": "baptism of John",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-011-030-030-807a31b4"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "easy"
     },
     {
@@ -1617,6 +2093,57 @@
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-030-030-27cccf9d",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 11:30, what two sources were named, and from who performing what action?",
+      "answer": "heaven; men; John; baptism",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-011-030-030-27cccf9d"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41-011-031-031-b23595d9",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 11:31, if we say from where, will He say what?",
+      "answer": "heaven; Why then did you not believe him?",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-011-031-031-b23595d9"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-031-031-2c8ffc5b",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 11:31, what did they do among themselves? (be specific)",
+      "answer": "reasoned",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-011-031-031-2c8ffc5b"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
       "difficulty": "medium"
     },
     {
@@ -1671,21 +2198,21 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-011-032-032-5272589c",
+      "id": "41-011-031-031-ca769954",
       "ref": {
-        "startVerse": 32,
-        "endVerse": 32
+        "startVerse": 31,
+        "endVerse": 31
       },
-      "question": "According to Mark 11:32, why did they fear the people if they answered, 'from men'?",
-      "answer": "all counted John to have been a prophet indeed",
-      "type": "why",
+      "question": "According to Mark 11:31, which answer were they reasoning about giving?",
+      "answer": "from heaven",
+      "type": "what",
       "points": 1,
       "originalIds": [
-        "41-011-032-032-97ed184b"
+        "41-011-031-031-ca769954"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "model": "user-provided",
+      "difficulty": "easy"
     },
     {
       "id": "41-011-032-032-93739705",
@@ -1716,6 +2243,40 @@
       "points": 2,
       "originalIds": [
         "41-011-032-032-1a96b443"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-032-032-18276603",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 11:32, why and who did they fear if they said what?",
+      "answer": "all counted John to have been a prophet indeed; they feared the people; from men",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-032-032-18276603"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41-011-032-032-5272589c",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 11:32, why did they fear the people if they answered, 'from men'?",
+      "answer": "all counted John to have been a prophet indeed",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-011-032-032-97ed184b"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1754,6 +2315,40 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-011-033-033-1de8a364",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 11:33, would Jesus tell them about what thing in response to what answer that was given?",
+      "answer": "Neither will I tell you; by what authority I do these things; We do not know",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-011-033-033-1de8a364"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-011-033-033-1270eca5",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "True or False: According to Mark 11:33, Jesus' answer revealed that their answer, 'We do not know,' was actually a refusal to answer.",
+      "answer": "True",
+      "type": "true_false",
+      "points": 1,
+      "originalIds": [
+        "41-011-033-033-1270eca5"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
     }
   ],
   "byVerse": {
@@ -1764,48 +2359,56 @@
       "41-011-001-001-81953034"
     ],
     "2": [
+      "41-011-002-002-be8e431d",
       "41-011-002-002-d675cd33",
       "41-011-002-002-f696bf15",
-      "41-011-002-002-65193269",
-      "41-011-002-002-be8e431d",
-      "41-011-002-002-af1660f1"
+      "41-011-002-002-af1660f1",
+      "41-011-002-002-65193269"
     ],
     "3": [
+      "41-011-003-003-34ae3989",
       "41-011-003-003-5bab1d9b",
       "41-011-003-003-7ff40b6c",
       "41-011-003-003-bb324bff"
     ],
     "4": [
+      "41-011-004-004-5ef03617",
       "41-011-004-004-d5d182e4",
       "41-011-004-004-1cd103bf",
-      "41-011-004-004-5ef03617",
       "41-011-004-004-fa339019"
     ],
     "5": [
       "41-011-005-005-0f523cca",
+      "41-011-005-005-e027aad3",
       "41-011-005-005-893a4669"
     ],
     "6": [
       "41-011-006-006-f385494d",
+      "41-011-006-006-e019d136",
       "41-011-006-006-8b2e4fad"
     ],
     "7": [
+      "41-011-007-007-22fde1ad",
       "41-011-007-007-263a99f5",
       "41-011-007-007-e11e038b",
-      "41-011-007-007-22fde1ad"
+      "41-011-007-007-3d520297"
     ],
     "8": [
+      "41-011-008-008-d2751dbf",
       "41-011-008-008-68006db4",
       "41-011-008-008-29b29f76",
       "41-011-008-008-66760731"
     ],
     "9": [
-      "41-011-009-009-2b8c7a37",
+      "41-011-009-009-89d80662",
       "41-011-009-009-de3ce521",
-      "41-011-009-009-33cf39a0"
+      "41-011-009-009-33cf39a0",
+      "41-011-009-009-2b8c7a37"
     ],
     "10": [
+      "41-011-010-010-59c751ac",
       "41-011-010-010-a2cf9cd9",
+      "41-011-010-010-6f5a89a8",
       "41-011-010-010-a861ad55",
       "41-011-010-010-8ac6bef9"
     ],
@@ -1818,6 +2421,7 @@
     ],
     "12": [
       "41-011-012-012-34cf2a7c",
+      "41-011-012-012-ec0b6935",
       "41-011-012-012-91e0d808",
       "41-011-012-012-a95bf7d2"
     ],
@@ -1829,11 +2433,14 @@
       "41-011-013-013-bdab949e"
     ],
     "14": [
+      "41-011-014-014-6ce3cede",
       "41-011-014-014-a10ae65b",
-      "41-011-014-014-af64bda7"
+      "41-011-014-014-af64bda7",
+      "41-011-014-014-5d31f0d0"
     ],
     "15": [
       "41-011-015-015-5b3afd16",
+      "41-011-015-015-e7bd355d",
       "41-011-015-015-bc6bbe17",
       "41-011-015-015-493495a9",
       "41-011-015-015-20c6125c"
@@ -1844,11 +2451,13 @@
     "17": [
       "41-011-017-017-f81acd9f",
       "41-011-017-017-1ad7d58a",
+      "41-011-017-017-87da1f2e",
       "41-011-017-017-817cc101"
     ],
     "18": [
       "41-011-018-018-2b860956",
       "41-011-018-018-fdf63797",
+      "41-011-018-018-29daf443",
       "41-011-018-018-8ce6cfae",
       "41-011-018-018-c621c107"
     ],
@@ -1857,47 +2466,59 @@
       "41-011-019-019-bad94a9a"
     ],
     "20": [
+      "41-011-020-020-c9bea3ab",
       "41-011-020-020-c6640deb",
       "41-011-020-020-fa79dbf5",
       "41-011-020-020-a7c08a38"
     ],
     "21": [
       "41-011-021-021-d7a9f87a",
+      "41-011-021-021-ce6dba66",
       "41-011-021-021-5d5bed61",
       "41-011-021-021-59117978",
       "41-011-021-021-5429996e"
     ],
     "22": [
       "41-011-022-022-02dd4468",
+      "41-011-022-022-ccf56a62",
+      "41-011-022-022-c8a4c77a",
       "41-011-022-022-5e713ab8"
     ],
     "23": [
       "41-011-023-023-54d31649",
       "41-011-023-023-1bad966a",
+      "41-011-023-023-0fa9f860",
       "41-011-023-023-06e48b90",
       "41-011-023-023-ca814b3b",
       "41-011-023-023-9afe8b4a"
     ],
     "24": [
+      "41-011-024-024-27394243",
       "41-011-024-024-543dcd80",
       "41-011-024-024-7a221fb6",
       "41-011-024-024-59d55f81"
     ],
     "25": [
       "41-011-025-025-60ca3b46",
+      "41-011-025-025-e3375c62",
       "41-011-025-025-7ddbefb5",
       "41-011-025-025-b9ad2a78"
     ],
     "26": [
-      "41-011-026-026-0831722f"
+      "41-011-026-026-2f40a7d7",
+      "41-011-026-026-34b7f66a",
+      "41-011-026-026-0831722f",
+      "41-011-026-026-49eada03"
     ],
     "27": [
       "41-011-027-027-e55fd84b",
       "41-011-027-027-19fe887e",
       "41-011-027-027-fd1b910d",
+      "41-011-027-027-8ac0e339",
       "41-011-027-027-676d94cb"
     ],
     "28": [
+      "41-011-028-028-63e06cb4",
       "41-011-028-028-f6bbc5ff",
       "41-011-028-028-a2db8796",
       "41-011-028-028-ec2a3979"
@@ -1906,25 +2527,34 @@
       "41-011-029-029-de9b7bcc",
       "41-011-029-029-6f5579d7",
       "41-011-029-029-2c212eba",
+      "41-011-029-029-e170dcae",
       "41-011-029-029-1fe78205"
     ],
     "30": [
+      "41-011-030-030-807a31b4",
       "41-011-030-030-dc0b07f6",
-      "41-011-030-030-55606ea8"
+      "41-011-030-030-55606ea8",
+      "41-011-030-030-27cccf9d"
     ],
     "31": [
+      "41-011-031-031-b23595d9",
+      "41-011-031-031-2c8ffc5b",
       "41-011-031-031-be6caa9f",
       "41-011-031-031-ffe91bcf",
-      "41-011-031-031-9374c284"
+      "41-011-031-031-9374c284",
+      "41-011-031-031-ca769954"
     ],
     "32": [
-      "41-011-032-032-5272589c",
       "41-011-032-032-93739705",
-      "41-011-032-032-6514f7f4"
+      "41-011-032-032-6514f7f4",
+      "41-011-032-032-18276603",
+      "41-011-032-032-5272589c"
     ],
     "33": [
       "41-011-033-033-43558d44",
-      "41-011-033-033-66f2d035"
+      "41-011-033-033-66f2d035",
+      "41-011-033-033-1de8a364",
+      "41-011-033-033-1270eca5"
     ]
   }
 }

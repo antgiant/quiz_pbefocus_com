@@ -58,24 +58,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-005-002-002-a416b77d",
-      "ref": {
-        "startVerse": 2,
-        "endVerse": 2
-      },
-      "question": "According to Mark 5:2, what met Him when He has come out of the boat, when did it meet Him, and what did it have?",
-      "answer": "a man, out of the tombs, an unclean spirt",
-      "type": "what",
-      "points": 3,
-      "originalIds": [
-        "41-005-002-002-7b35200e",
-        "41-005-002-002-a8153c34"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-005-002-002-28aee432",
       "ref": {
         "startVerse": 2,
@@ -126,6 +108,26 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-005-002-002-5cb66b0c",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 5:2, what met Him when He has come out of the boat, where did it come from, when did it meet Him, and what did it have?",
+      "answer": "a man, out of the tombs, immediately, an unclean spirit",
+      "type": "what",
+      "points": 4,
+      "originalIds": [
+        "41-005-002-002-7b35200e",
+        "41-005-002-002-a8153c34",
+        "41-005-002-002-a416b77d",
+        "41-005-002-002-5cb66b0c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-005-002-002-bbb7ae79",
@@ -563,6 +565,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-005-010-010-05bf32b3",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 5:10, how did the man beg?",
+      "answer": "earnestly",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-005-010-010-5366e77b",
+        "41-005-010-010-cd3f7b26"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-005-010-010-9dcc7388",
       "ref": {
         "startVerse": 10,
@@ -592,24 +612,6 @@
       "points": 1,
       "originalIds": [
         "41-005-010-010-4a897ee0"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "41-005-010-010-05bf32b3",
-      "ref": {
-        "startVerse": 10,
-        "endVerse": 10
-      },
-      "question": "According to Mark 5:10, how did the man beg?",
-      "answer": "earnestly",
-      "type": "how",
-      "points": 1,
-      "originalIds": [
-        "41-005-010-010-5366e77b",
-        "41-005-010-010-cd3f7b26"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -877,23 +879,6 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-005-015-015-21f55b9d",
-      "ref": {
-        "startVerse": 15,
-        "endVerse": 15
-      },
-      "question": "According to Mark 5:15, what had the man who was sitting before them been previously?",
-      "answer": "demon-possessed",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-005-015-015-6f7949de"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-005-015-015-0fb403d7",
       "ref": {
         "startVerse": 15,
@@ -906,6 +891,23 @@
       "originalIds": [
         "41-005-015-015-42066206",
         "41-005-015-015-9cfd7af7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-005-015-015-21f55b9d",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 5:15, what had the man who was sitting before them been previously?",
+      "answer": "demon-possessed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-015-015-6f7949de"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -981,6 +983,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-005-017-017-7c96d903",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 5:17, what did the people want Jesus to do?",
+      "answer": "depart from their region",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-005-017-017-6dae6a84"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-005-017-017-42d13c5e",
       "ref": {
         "startVerse": 17,
@@ -997,23 +1016,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-005-017-017-7c96d903",
-      "ref": {
-        "startVerse": 17,
-        "endVerse": 17
-      },
-      "question": "According to Mark 5:17, what did the people want Jesus to do?",
-      "answer": "depart from their region",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-005-017-017-6dae6a84"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-005-017-017-c3d49cf7",
@@ -1101,24 +1103,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-005-019-019-bc7f2294",
-      "ref": {
-        "startVerse": 19,
-        "endVerse": 19
-      },
-      "question": "According to Mark 5:19, where did Jesus tell the man to go? What was he to tell?",
-      "answer": "Go home to your friends, tell them what great things the Lord has done for you, and how He has had compassion on you",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-005-019-019-133d7558",
-        "41-005-019-019-3bf64a33"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-005-019-019-c4d02c14",
       "ref": {
         "startVerse": 19,
@@ -1151,6 +1135,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-005-019-019-bc7f2294",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 5:19, where did Jesus tell the man to go? What was he to tell?",
+      "answer": "Go home to your friends, tell them what great things the Lord has done for you, and how He has had compassion on you",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-005-019-019-133d7558",
+        "41-005-019-019-3bf64a33"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-005-020-020-f416acc3",
@@ -1621,6 +1623,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-005-028-028-b85604a7",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 5:28, what did she say? (be specific)?",
+      "answer": "If only I may touch His clothes, I shall be made well.",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-005-028-028-d457ba69",
+        "41-005-028-028-1864965c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-005-028-028-0657cd83",
       "ref": {
         "startVerse": 28,
@@ -1649,24 +1669,6 @@
       "points": 1,
       "originalIds": [
         "41-005-028-028-4ff217e0"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "41-005-028-028-b85604a7",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 5:28, what did she say? (be specific)?",
-      "answer": "If only I may touch His clothes, I shall be made well.",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-005-028-028-d457ba69",
-        "41-005-028-028-1864965c"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -2108,6 +2110,24 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-005-037-037-caa867cb",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 5:37, how was John identified?",
+      "answer": "the brother of James",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-005-037-037-89b74183",
+        "41-005-037-037-c2db11b8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-005-037-037-527c796b",
       "ref": {
         "startVerse": 37,
@@ -2126,22 +2146,22 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-005-037-037-caa867cb",
+      "id": "41-005-038-038-2f4ccfac",
       "ref": {
-        "startVerse": 37,
-        "endVerse": 37
+        "startVerse": 38,
+        "endVerse": 38
       },
-      "question": "According to Mark 5:37, how was John identified?",
-      "answer": "the brother of James",
-      "type": "who",
-      "points": 1,
+      "question": "According to Mark 5:38, He saw those who did what things?",
+      "answer": "wept and wailed loudly",
+      "type": "what",
+      "points": 2,
       "originalIds": [
-        "41-005-037-037-89b74183",
-        "41-005-037-037-c2db11b8"
+        "41-005-038-038-948f9597",
+        "41-005-038-038-1c2eff58"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "41-005-038-038-2afa9f8c",
@@ -2177,24 +2197,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-005-038-038-2f4ccfac",
-      "ref": {
-        "startVerse": 38,
-        "endVerse": 38
-      },
-      "question": "According to Mark 5:38, He saw those who did what things?",
-      "answer": "wept and wailed loudly",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-005-038-038-948f9597",
-        "41-005-038-038-1c2eff58"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
     },
     {
       "id": "41-005-038-038-94607c3b",
@@ -2516,10 +2518,10 @@
       "41-005-001-001-4c7f2c49"
     ],
     "2": [
-      "41-005-002-002-a416b77d",
       "41-005-002-002-28aee432",
       "41-005-002-002-027d6608",
       "41-005-002-002-fa76eda9",
+      "41-005-002-002-5cb66b0c",
       "41-005-002-002-bbb7ae79"
     ],
     "3": [
@@ -2561,9 +2563,9 @@
       "41-005-009-009-00f994a5"
     ],
     "10": [
+      "41-005-010-010-05bf32b3",
       "41-005-010-010-9dcc7388",
-      "41-005-010-010-7ada5e3d",
-      "41-005-010-010-05bf32b3"
+      "41-005-010-010-7ada5e3d"
     ],
     "11": [
       "41-005-011-011-80dbd5da",
@@ -2589,8 +2591,8 @@
     "15": [
       "41-005-015-015-ca10adbc",
       "41-005-015-015-06d6b563",
-      "41-005-015-015-21f55b9d",
       "41-005-015-015-0fb403d7",
+      "41-005-015-015-21f55b9d",
       "41-005-015-015-1e88f719"
     ],
     "16": [
@@ -2599,8 +2601,8 @@
       "41-005-016-016-a827a761"
     ],
     "17": [
-      "41-005-017-017-42d13c5e",
       "41-005-017-017-7c96d903",
+      "41-005-017-017-42d13c5e",
       "41-005-017-017-c3d49cf7"
     ],
     "18": [
@@ -2610,9 +2612,9 @@
     ],
     "19": [
       "41-005-019-019-3445841f",
-      "41-005-019-019-bc7f2294",
       "41-005-019-019-c4d02c14",
-      "41-005-019-019-86d23a89"
+      "41-005-019-019-86d23a89",
+      "41-005-019-019-bc7f2294"
     ],
     "20": [
       "41-005-020-020-f416acc3",
@@ -2658,9 +2660,9 @@
       "41-005-027-027-4fc53205"
     ],
     "28": [
+      "41-005-028-028-b85604a7",
       "41-005-028-028-0657cd83",
-      "41-005-028-028-39d05706",
-      "41-005-028-028-b85604a7"
+      "41-005-028-028-39d05706"
     ],
     "29": [
       "41-005-029-029-ebc53b08",
@@ -2704,13 +2706,13 @@
     ],
     "37": [
       "41-005-037-037-c504a3f0",
-      "41-005-037-037-527c796b",
-      "41-005-037-037-caa867cb"
+      "41-005-037-037-caa867cb",
+      "41-005-037-037-527c796b"
     ],
     "38": [
+      "41-005-038-038-2f4ccfac",
       "41-005-038-038-2afa9f8c",
       "41-005-038-038-f9a4bd36",
-      "41-005-038-038-2f4ccfac",
       "41-005-038-038-94607c3b"
     ],
     "39": [

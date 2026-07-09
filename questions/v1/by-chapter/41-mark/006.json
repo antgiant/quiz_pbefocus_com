@@ -728,24 +728,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-006-014-014-0c7e7673",
-      "ref": {
-        "startVerse": 14,
-        "endVerse": 14
-      },
-      "question": "According to Mark 6:14, who's power did King Herod say was at work in Him and how?",
-      "answer": "John the Baptist, risen from the dead",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-006-014-014-a17de20d",
-        "41-006-014-014-c9d8b9e9"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-006-014-014-e6afbe5c",
       "ref": {
         "startVerse": 14,
@@ -781,6 +763,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-006-014-014-0c7e7673",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 6:14, who's power did King Herod say was at work in Him and how?",
+      "answer": "John the Baptist, risen from the dead",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-006-014-014-a17de20d",
+        "41-006-014-014-c9d8b9e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-006-014-014-b33061de",
       "ref": {
         "startVerse": 14,
@@ -798,6 +798,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-006-015-015-41f03cc3",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 6:15, list the three identities suggested by 'others' regarding who He was. (be specific)",
+      "answer": "Elijah, the Prophet, or like one of the prophets",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-006-015-015-44a355e5"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-006-015-015-32a8882d",
       "ref": {
         "startVerse": 15,
@@ -810,23 +827,6 @@
       "originalIds": [
         "41-006-015-015-02a7e1a6",
         "41-006-015-015-95db0e91"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
-      "id": "41-006-015-015-41f03cc3",
-      "ref": {
-        "startVerse": 15,
-        "endVerse": 15
-      },
-      "question": "According to Mark 6:15, list the three identities suggested by 'others' regarding who He was. (be specific)",
-      "answer": "Elijah, the Prophet, or like one of the prophets",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-006-015-015-44a355e5"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1285,23 +1285,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-024-024-5cdf6d8e",
-      "ref": {
-        "startVerse": 24,
-        "endVerse": 24
-      },
-      "question": "According to Mark 6:24, what did the mother tell her daughter to ask for? (be specific)",
-      "answer": "The head of John the Baptist!",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-006-024-024-ece07868"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-006-024-024-a255ab97",
       "ref": {
         "startVerse": 24,
@@ -1318,6 +1301,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-006-024-024-5cdf6d8e",
+      "ref": {
+        "startVerse": 24,
+        "endVerse": 24
+      },
+      "question": "According to Mark 6:24, what did the mother tell her daughter to ask for? (be specific)",
+      "answer": "The head of John the Baptist!",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-024-024-ece07868"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-006-024-024-3265a83f",
@@ -1458,24 +1458,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-006-027-027-2218d585",
-      "ref": {
-        "startVerse": 27,
-        "endVerse": 27
-      },
-      "question": "According to Mark 6:27, who did the king send, and what did he command to be brought?",
-      "answer": "executioner, his head",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-006-027-027-216ebb97",
-        "41-006-027-027-86637bf3"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-006-027-027-f2605863",
       "ref": {
         "startVerse": 27,
@@ -1511,22 +1493,22 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-028-028-eb15b653",
+      "id": "41-006-027-027-2218d585",
       "ref": {
-        "startVerse": 28,
-        "endVerse": 28
+        "startVerse": 27,
+        "endVerse": 27
       },
-      "question": "According to Mark 6:28, where did the girl do with the head?",
-      "answer": "gave it to her mother",
-      "type": "who",
-      "points": 1,
+      "question": "According to Mark 6:27, who did the king send, and what did he command to be brought?",
+      "answer": "executioner, his head",
+      "type": "what",
+      "points": 2,
       "originalIds": [
-        "41-006-028-028-4d288967",
-        "41-006-028-028-f91916e9"
+        "41-006-027-027-216ebb97",
+        "41-006-027-027-86637bf3"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "41-006-028-028-d672082f",
@@ -1546,17 +1528,37 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-028-028-ff125da0",
+      "id": "41-006-028-028-eb15b653",
       "ref": {
         "startVerse": 28,
         "endVerse": 28
       },
-      "question": "According to Mark 6:28, who was given the head?",
+      "question": "According to Mark 6:28, where did the girl do with the head?",
+      "answer": "gave it to her mother",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-006-028-028-4d288967",
+        "41-006-028-028-f91916e9"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-006-028-028-30c73911",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 6:28, who was first given the head?",
       "answer": "the girl",
       "type": "who",
       "points": 1,
       "originalIds": [
-        "41-006-028-028-1a81a65f"
+        "41-006-028-028-1a81a65f",
+        "41-006-028-028-ff125da0",
+        "41-006-028-028-30c73911"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1859,6 +1861,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-006-034-034-07074d8f",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 6:34, what did Jesus see when He came out?",
+      "answer": "a great multitude",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-034-034-49d49074"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-006-034-034-8a42c950",
       "ref": {
         "startVerse": 34,
@@ -1875,23 +1894,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
-    },
-    {
-      "id": "41-006-034-034-07074d8f",
-      "ref": {
-        "startVerse": 34,
-        "endVerse": 34
-      },
-      "question": "According to Mark 6:34, what did Jesus see when He came out?",
-      "answer": "a great multitude",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-006-034-034-49d49074"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-006-034-034-db0fcf50",
@@ -2067,6 +2069,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-006-037-037-645ca702",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 6:37, in the disciples's response, what were they buying, worth how much, for what reason?",
+      "answer": "bread, two hundred denarii, to give them something to eat",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-006-037-037-6a14a2fc",
+        "41-006-037-037-59fb8c9f"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-006-037-037-c4461b4d",
       "ref": {
         "startVerse": 37,
@@ -2099,24 +2119,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-006-037-037-645ca702",
-      "ref": {
-        "startVerse": 37,
-        "endVerse": 37
-      },
-      "question": "According to Mark 6:37, in the disciples's response, what were they buying, worth how much, for what reason?",
-      "answer": "bread, two hundred denarii, to give them something to eat",
-      "type": "what",
-      "points": 3,
-      "originalIds": [
-        "41-006-037-037-6a14a2fc",
-        "41-006-037-037-59fb8c9f"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
     },
     {
       "id": "41-006-038-038-e4924b0b",
@@ -2172,6 +2174,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-006-039-039-70db2a50",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 6:39, what did Jesus command the disciples to make the people do?",
+      "answer": "sit down in groups on the green grass",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-039-039-fc003f91"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-006-039-039-0364c61f",
       "ref": {
         "startVerse": 39,
@@ -2188,23 +2207,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-006-039-039-70db2a50",
-      "ref": {
-        "startVerse": 39,
-        "endVerse": 39
-      },
-      "question": "According to Mark 6:39, what did Jesus command the disciples to make the people do?",
-      "answer": "sit down in groups on the green grass",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-006-039-039-fc003f91"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-006-040-040-fa1b340b",
@@ -2419,23 +2421,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-045-045-a6accd8a",
-      "ref": {
-        "startVerse": 45,
-        "endVerse": 45
-      },
-      "question": "According to Mark 6:45, what did Jesus do while the disciples were getting into the boat?",
-      "answer": "He sent the multitude away",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-006-045-045-ea4c9a93"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-006-045-045-092d4732",
       "ref": {
         "startVerse": 45,
@@ -2452,6 +2437,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
+    },
+    {
+      "id": "41-006-045-045-a6accd8a",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 6:45, what did Jesus do while the disciples were getting into the boat?",
+      "answer": "He sent the multitude away",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-006-045-045-ea4c9a93"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-006-045-045-b3e49415",
@@ -2542,24 +2544,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-048-048-42e0f97a",
-      "ref": {
-        "startVerse": 48,
-        "endVerse": 48
-      },
-      "question": "According to Mark 6:48, when did Jesus come to them?",
-      "answer": "about the fourth watch of the night",
-      "type": "when",
-      "points": 1,
-      "originalIds": [
-        "41-006-048-048-bcd56246",
-        "41-006-048-048-88869f73"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-006-048-048-d930919a",
       "ref": {
         "startVerse": 48,
@@ -2605,6 +2589,24 @@
       "points": 1,
       "originalIds": [
         "41-006-048-048-3392bfd8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-006-048-048-42e0f97a",
+      "ref": {
+        "startVerse": 48,
+        "endVerse": 48
+      },
+      "question": "According to Mark 6:48, when did Jesus come to them?",
+      "answer": "about the fourth watch of the night",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-006-048-048-bcd56246",
+        "41-006-048-048-88869f73"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -2663,24 +2665,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-006-050-050-e2e44b62",
-      "ref": {
-        "startVerse": 50,
-        "endVerse": 50
-      },
-      "question": "According to Mark 6:50, what two commands did He give them, and who did He say He was?",
-      "answer": "Be of good cheer!, do not be afraid, it is I",
-      "type": "other",
-      "points": 3,
-      "originalIds": [
-        "41-006-050-050-580ef3c6",
-        "41-006-050-050-c60ca2c7"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-006-050-050-5b5da173",
       "ref": {
         "startVerse": 50,
@@ -2714,6 +2698,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-006-050-050-e2e44b62",
+      "ref": {
+        "startVerse": 50,
+        "endVerse": 50
+      },
+      "question": "According to Mark 6:50, what two commands did He give them, and who did He say He was?",
+      "answer": "Be of good cheer!, do not be afraid, it is I",
+      "type": "other",
+      "points": 3,
+      "originalIds": [
+        "41-006-050-050-580ef3c6",
+        "41-006-050-050-c60ca2c7"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-006-050-050-1fed3830",
@@ -3117,14 +3119,14 @@
       "41-006-013-013-b5649bc9"
     ],
     "14": [
-      "41-006-014-014-0c7e7673",
       "41-006-014-014-e6afbe5c",
       "41-006-014-014-7ee3e7d9",
+      "41-006-014-014-0c7e7673",
       "41-006-014-014-b33061de"
     ],
     "15": [
-      "41-006-015-015-32a8882d",
       "41-006-015-015-41f03cc3",
+      "41-006-015-015-32a8882d",
       "41-006-015-015-bc8d828e"
     ],
     "16": [
@@ -3169,8 +3171,8 @@
       "41-006-023-023-1dafb802"
     ],
     "24": [
-      "41-006-024-024-5cdf6d8e",
       "41-006-024-024-a255ab97",
+      "41-006-024-024-5cdf6d8e",
       "41-006-024-024-3265a83f"
     ],
     "25": [
@@ -3185,14 +3187,14 @@
       "41-006-026-026-dfb480b4"
     ],
     "27": [
-      "41-006-027-027-2218d585",
       "41-006-027-027-f2605863",
-      "41-006-027-027-72d8b479"
+      "41-006-027-027-72d8b479",
+      "41-006-027-027-2218d585"
     ],
     "28": [
-      "41-006-028-028-eb15b653",
       "41-006-028-028-d672082f",
-      "41-006-028-028-ff125da0"
+      "41-006-028-028-eb15b653",
+      "41-006-028-028-30c73911"
     ],
     "29": [
       "41-006-029-029-a8d8cbe0",
@@ -3222,8 +3224,8 @@
       "41-006-033-033-8d97e6ee"
     ],
     "34": [
-      "41-006-034-034-8a42c950",
       "41-006-034-034-07074d8f",
+      "41-006-034-034-8a42c950",
       "41-006-034-034-db0fcf50",
       "41-006-034-034-1a5b9ad9"
     ],
@@ -3240,9 +3242,9 @@
       "41-006-036-036-ed7adc0a"
     ],
     "37": [
+      "41-006-037-037-645ca702",
       "41-006-037-037-c4461b4d",
-      "41-006-037-037-41e0204a",
-      "41-006-037-037-645ca702"
+      "41-006-037-037-41e0204a"
     ],
     "38": [
       "41-006-038-038-e4924b0b",
@@ -3250,8 +3252,8 @@
       "41-006-038-038-94d55265"
     ],
     "39": [
-      "41-006-039-039-0364c61f",
-      "41-006-039-039-70db2a50"
+      "41-006-039-039-70db2a50",
+      "41-006-039-039-0364c61f"
     ],
     "40": [
       "41-006-040-040-fa1b340b",
@@ -3276,8 +3278,8 @@
       "41-006-044-044-93e774d8"
     ],
     "45": [
-      "41-006-045-045-a6accd8a",
       "41-006-045-045-092d4732",
+      "41-006-045-045-a6accd8a",
       "41-006-045-045-b3e49415"
     ],
     "46": [
@@ -3289,10 +3291,10 @@
       "41-006-047-047-a7e23355"
     ],
     "48": [
-      "41-006-048-048-42e0f97a",
       "41-006-048-048-d930919a",
       "41-006-048-048-e94764e5",
       "41-006-048-048-93304c0d",
+      "41-006-048-048-42e0f97a",
       "41-006-048-048-d4ac5ab7"
     ],
     "49": [
@@ -3300,9 +3302,9 @@
       "41-006-049-049-d1867a02"
     ],
     "50": [
-      "41-006-050-050-e2e44b62",
       "41-006-050-050-5b5da173",
       "41-006-050-050-d4a5e136",
+      "41-006-050-050-e2e44b62",
       "41-006-050-050-1fed3830"
     ],
     "51": [

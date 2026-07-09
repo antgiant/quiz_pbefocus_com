@@ -5,23 +5,6 @@
   "chapter": 8,
   "questions": [
     {
-      "id": "41-008-001-001-0a5602ec",
-      "ref": {
-        "startVerse": 1,
-        "endVerse": 1
-      },
-      "question": "According to Mark 8:1, what did the multitude have nothing of?",
-      "answer": "to eat",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-008-001-001-5da791d4"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-008-001-001-375debdc",
       "ref": {
         "startVerse": 1,
@@ -38,6 +21,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-008-001-001-0a5602ec",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 8:1, what did the multitude have nothing of?",
+      "answer": "to eat",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-001-001-5da791d4"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-008-001-001-d969b9a7",
@@ -559,6 +559,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-008-011-011-f3fc18a3",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 8:11, who came out, began doing what, seeking what from where, to do what?",
+      "answer": "the Pharisees came out; began to dispute with Him; seeking from Him a sign from Heaven; to test Him",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-008-011-011-f3fc18a3"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "hard"
+    },
+    {
       "id": "41-008-011-011-aef441ae",
       "ref": {
         "startVerse": 11,
@@ -645,24 +662,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-008-013-013-93069e9f",
-      "ref": {
-        "startVerse": 13,
-        "endVerse": 13
-      },
-      "question": "According to Mark 8:13, what did He do after leaving them?",
-      "answer": "get into the boat, departed to the other side",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-008-013-013-ffc0a3f9",
-        "41-008-013-013-2c74a51d"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-008-013-013-3cc96910",
       "ref": {
         "startVerse": 13,
@@ -675,6 +674,24 @@
       "originalIds": [
         "41-008-013-013-cc3929f1",
         "41-008-013-013-3cc96910"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-008-013-013-93069e9f",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 8:13, what did He do after leaving them?",
+      "answer": "get into the boat, departed to the other side",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-008-013-013-ffc0a3f9",
+        "41-008-013-013-2c74a51d"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -961,6 +978,23 @@
       "difficulty": "hard"
     },
     {
+      "id": "41-008-018-018-bce232f8",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 8:18, what body part did Jesus mention having, while asking if they did not see?",
+      "answer": "eyes",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-018-018-7c97b267"
+      ],
+      "validatedBy": "automated_deterministic",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-008-018-018-aa389234",
       "ref": {
         "startVerse": 18,
@@ -979,23 +1013,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-008-018-018-bce232f8",
-      "ref": {
-        "startVerse": 18,
-        "endVerse": 18
-      },
-      "question": "According to Mark 8:18, what body part did Jesus mention having, while asking if they did not see?",
-      "answer": "eyes",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-008-018-018-7c97b267"
-      ],
-      "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-008-018-018-ee7bfaa7",
       "ref": {
         "startVerse": 18,
@@ -1012,6 +1029,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-008-019-019-bb4964ae",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 8:19, for how many people did Jesus break how many loaves with how many baskets left over?",
+      "answer": "five thousand, five loaves, twelve",
+      "type": "what",
+      "points": 3,
+      "originalIds": [
+        "41-008-019-019-fd85f381",
+        "41-008-019-019-443b7271"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-008-019-019-b0fa643c",
@@ -1063,24 +1098,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-008-019-019-bb4964ae",
-      "ref": {
-        "startVerse": 19,
-        "endVerse": 19
-      },
-      "question": "According to Mark 8:19, for how many people did Jesus break how many loaves with how many baskets left over?",
-      "answer": "five thousand, five loaves, twelve",
-      "type": "what",
-      "points": 3,
-      "originalIds": [
-        "41-008-019-019-fd85f381",
-        "41-008-019-019-443b7271"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
     },
     {
       "id": "41-008-019-019-ef74b2b0",
@@ -1205,6 +1222,24 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-008-022-022-ae004a01",
+      "ref": {
+        "startVerse": 22,
+        "endVerse": 22
+      },
+      "question": "According to Mark 8:22, what did they bring to Him?",
+      "answer": "a blind man",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-008-022-022-034abd9a",
+        "41-008-022-022-650fb5a6"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-008-022-022-ed3b92f8",
       "ref": {
         "startVerse": 22,
@@ -1222,18 +1257,17 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-008-022-022-ae004a01",
+      "id": "41-008-023-023-592332c2",
       "ref": {
-        "startVerse": 22,
-        "endVerse": 22
+        "startVerse": 23,
+        "endVerse": 23
       },
-      "question": "According to Mark 8:22, what did they bring to Him?",
-      "answer": "a blind man",
-      "type": "who",
+      "question": "According to Mark 8:23, what did He ask the man after putting His hands on him?",
+      "answer": "if he saw anything",
+      "type": "what",
       "points": 1,
       "originalIds": [
-        "41-008-022-022-034abd9a",
-        "41-008-022-022-650fb5a6"
+        "41-008-023-023-71589397"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1258,17 +1292,17 @@
       "difficulty": "hard"
     },
     {
-      "id": "41-008-023-023-592332c2",
+      "id": "41-008-023-023-4ee2834a",
       "ref": {
         "startVerse": 23,
         "endVerse": 23
       },
-      "question": "According to Mark 8:23, what did He ask the man after putting His hands on him?",
-      "answer": "if he saw anything",
-      "type": "what",
+      "question": "According to Mark 8:23, where did He lead the blind man?",
+      "answer": "out of the town",
+      "type": "where",
       "points": 1,
       "originalIds": [
-        "41-008-023-023-71589397"
+        "41-008-023-023-23f3a9a8"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1287,23 +1321,6 @@
       "originalIds": [
         "41-008-023-023-2067f76c",
         "41-008-023-023-3db387c9"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-008-023-023-4ee2834a",
-      "ref": {
-        "startVerse": 23,
-        "endVerse": 23
-      },
-      "question": "According to Mark 8:23, where did He lead the blind man?",
-      "answer": "out of the town",
-      "type": "where",
-      "points": 1,
-      "originalIds": [
-        "41-008-023-023-23f3a9a8"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1512,13 +1529,31 @@
       "question": "According to Mark 8:27, who went out to the towns of Caesarea Philippi?",
       "answer": "Jesus and His disciples",
       "type": "who",
-      "points": 1,
+      "points": 2,
       "originalIds": [
-        "41-008-027-027-07d14a7a"
+        "41-008-027-027-07d14a7a",
+        "41-008-027-027-c370cd36"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-008-028-028-b57e42d3",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 8:28, name the 3 different identities that people were saying Jesus was. (be specific)",
+      "answer": "John the Baptist; Elijah; one of the prophets",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-008-028-028-ffe7ffd2"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-008-028-028-962757fe",
@@ -1533,23 +1568,6 @@
       "originalIds": [
         "41-008-028-028-220aff85",
         "41-008-028-028-cbdba3da"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
-      "id": "41-008-028-028-b57e42d3",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 8:28, name the 3 different identities that people were saying Jesus was. (be specific)",
-      "answer": "John the Baptist; Elijah; one of the prophets",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-008-028-028-ffe7ffd2"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1643,6 +1661,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-008-030-030-121461ce",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 8:30, what did He strictly warn them not to do?",
+      "answer": "tell no one about Him",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-030-030-34de4631"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-008-030-030-52285db8",
       "ref": {
         "startVerse": 30,
@@ -1659,23 +1694,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-008-030-030-121461ce",
-      "ref": {
-        "startVerse": 30,
-        "endVerse": 30
-      },
-      "question": "According to Mark 8:30, what did He strictly warn them not to do?",
-      "answer": "tell no one about Him",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-008-030-030-34de4631"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-008-031-031-2a5112d8",
@@ -1939,6 +1957,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-008-036-036-e15720e9",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 8:36, what is it that a man might gain that would cause him no profit if he loses his own soul?",
+      "answer": "the whole world",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-008-036-036-d430955e"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-008-036-036-48fd7a1a",
       "ref": {
         "startVerse": 36,
@@ -1955,23 +1990,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-008-036-036-e15720e9",
-      "ref": {
-        "startVerse": 36,
-        "endVerse": 36
-      },
-      "question": "According to Mark 8:36, what is it that a man might gain that would cause him no profit if he loses his own soul?",
-      "answer": "the whole world",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-008-036-036-d430955e"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-008-036-036-e1b5c7b0",
@@ -2114,8 +2132,8 @@
   ],
   "byVerse": {
     "1": [
-      "41-008-001-001-0a5602ec",
       "41-008-001-001-375debdc",
+      "41-008-001-001-0a5602ec",
       "41-008-001-001-d969b9a7"
     ],
     "2": [
@@ -2166,6 +2184,7 @@
       "41-008-011-011-d03a4d2a",
       "41-008-011-011-1d038db8",
       "41-008-011-011-14999bca",
+      "41-008-011-011-f3fc18a3",
       "41-008-011-011-aef441ae"
     ],
     "12": [
@@ -2175,8 +2194,8 @@
       "41-008-012-012-1d903697"
     ],
     "13": [
-      "41-008-013-013-93069e9f",
       "41-008-013-013-3cc96910",
+      "41-008-013-013-93069e9f",
       "41-008-013-013-4a164115",
       "41-008-013-013-a9fe9e69"
     ],
@@ -2203,15 +2222,15 @@
     ],
     "18": [
       "41-008-018-018-5835e6c9",
-      "41-008-018-018-aa389234",
       "41-008-018-018-bce232f8",
+      "41-008-018-018-aa389234",
       "41-008-018-018-ee7bfaa7"
     ],
     "19": [
+      "41-008-019-019-bb4964ae",
       "41-008-019-019-b0fa643c",
       "41-008-019-019-b3e690f3",
       "41-008-019-019-6f7bccfa",
-      "41-008-019-019-bb4964ae",
       "41-008-019-019-ef74b2b0"
     ],
     "20": [
@@ -2225,14 +2244,14 @@
     ],
     "22": [
       "41-008-022-022-5006878d",
-      "41-008-022-022-ed3b92f8",
-      "41-008-022-022-ae004a01"
+      "41-008-022-022-ae004a01",
+      "41-008-022-022-ed3b92f8"
     ],
     "23": [
-      "41-008-023-023-42a1fc8b",
       "41-008-023-023-592332c2",
-      "41-008-023-023-ef0b1643",
-      "41-008-023-023-4ee2834a"
+      "41-008-023-023-42a1fc8b",
+      "41-008-023-023-4ee2834a",
+      "41-008-023-023-ef0b1643"
     ],
     "24": [
       "41-008-024-024-03919c86",
@@ -2255,8 +2274,8 @@
       "41-008-027-027-c370cd36"
     ],
     "28": [
-      "41-008-028-028-962757fe",
       "41-008-028-028-b57e42d3",
+      "41-008-028-028-962757fe",
       "41-008-028-028-7fe1d888",
       "41-008-028-028-10c4c6e2"
     ],
@@ -2266,8 +2285,8 @@
       "41-008-029-029-2cbc1976"
     ],
     "30": [
-      "41-008-030-030-52285db8",
-      "41-008-030-030-121461ce"
+      "41-008-030-030-121461ce",
+      "41-008-030-030-52285db8"
     ],
     "31": [
       "41-008-031-031-2a5112d8",
@@ -2295,8 +2314,8 @@
       "41-008-035-035-56cd4b88"
     ],
     "36": [
-      "41-008-036-036-48fd7a1a",
       "41-008-036-036-e15720e9",
+      "41-008-036-036-48fd7a1a",
       "41-008-036-036-e1b5c7b0"
     ],
     "37": [

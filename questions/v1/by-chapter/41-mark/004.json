@@ -608,23 +608,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-004-012-012-b2d37f39",
-      "ref": {
-        "startVerse": 12,
-        "endVerse": 12
-      },
-      "question": "According to Mark 4:12, what are the two negative results of those who see and hear? (List 2 items) (be specific)",
-      "answer": "not perceive, not understand",
-      "type": "list",
-      "points": 2,
-      "originalIds": [
-        "41-004-012-012-7d2d4d48"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-004-012-012-46e1137f",
       "ref": {
         "startVerse": 12,
@@ -637,6 +620,23 @@
       "originalIds": [
         "41-004-012-012-e2d30904",
         "41-004-012-012-cde6b2c1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-004-012-012-b2d37f39",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 4:12, what are the two negative results of those who see and hear? (List 2 items) (be specific)",
+      "answer": "not perceive, not understand",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-004-012-012-7d2d4d48"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -764,24 +764,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-004-015-015-f12c59fe",
-      "ref": {
-        "startVerse": 15,
-        "endVerse": 15
-      },
-      "question": "According to Mark 4:15, where has the word been sown in the people by the wayside? (be specific)",
-      "answer": "in their hearts",
-      "type": "where",
-      "points": 1,
-      "originalIds": [
-        "41-004-015-015-5859a54a",
-        "41-004-015-015-f12c59fe"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-004-015-015-7bd0b12e",
       "ref": {
         "startVerse": 15,
@@ -800,6 +782,24 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-004-015-015-f12c59fe",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 4:15, where has the word been sown in the people by the wayside? (be specific)",
+      "answer": "in their hearts",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-015-015-5859a54a",
+        "41-004-015-015-f12c59fe"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-004-015-015-c0e77844",
       "ref": {
         "startVerse": 15,
@@ -813,6 +813,23 @@
         "41-004-015-015-19776f01"
       ],
       "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-004-016-016-18c67b0e",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 4:16, what do the ones sown on stony ground do when they hear the word?",
+      "answer": "immediately receive it with gladness",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-016-016-ea7f98ac"
+      ],
+      "validatedBy": "automated_deterministic",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
     },
@@ -849,23 +866,6 @@
         "41-004-016-016-89e0628b"
       ],
       "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-004-016-016-18c67b0e",
-      "ref": {
-        "startVerse": 16,
-        "endVerse": 16
-      },
-      "question": "According to Mark 4:16, what do the ones sown on stony ground do when they hear the word?",
-      "answer": "immediately receive it with gladness",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-004-016-016-ea7f98ac"
-      ],
-      "validatedBy": "automated_deterministic",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
     },
@@ -1043,24 +1043,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-020-020-53653071",
-      "ref": {
-        "startVerse": 20,
-        "endVerse": 20
-      },
-      "question": "According to Mark 4:20, what specific fruit yields are listed?",
-      "answer": "thirtyfold, sixty, a hundred",
-      "type": "how_many",
-      "points": 3,
-      "originalIds": [
-        "41-004-020-020-80e7ed60",
-        "41-004-020-020-e79e3efb"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-004-020-020-417974c4",
       "ref": {
         "startVerse": 20,
@@ -1089,6 +1071,24 @@
       "points": 3,
       "originalIds": [
         "41-004-020-020-59aa36a1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "41-004-020-020-53653071",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 4:20, what specific fruit yields are listed?",
+      "answer": "thirtyfold, sixty, a hundred",
+      "type": "how_many",
+      "points": 3,
+      "originalIds": [
+        "41-004-020-020-80e7ed60",
+        "41-004-020-020-e79e3efb"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1304,24 +1304,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-025-025-8c214936",
-      "ref": {
-        "startVerse": 25,
-        "endVerse": 25
-      },
-      "question": "According to Mark 4:25, what will happen to whover has?",
-      "answer": "more will be given",
-      "type": "list",
-      "points": 1,
-      "originalIds": [
-        "41-004-025-025-b7a2ced1",
-        "41-004-025-025-7ba17fd9"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-004-025-025-6b6dea96",
       "ref": {
         "startVerse": 25,
@@ -1350,6 +1332,24 @@
       "points": 1,
       "originalIds": [
         "41-004-025-025-74088074"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-004-025-025-8c214936",
+      "ref": {
+        "startVerse": 25,
+        "endVerse": 25
+      },
+      "question": "According to Mark 4:25, what will happen to whover has?",
+      "answer": "more will be given",
+      "type": "list",
+      "points": 1,
+      "originalIds": [
+        "41-004-025-025-b7a2ced1",
+        "41-004-025-025-7ba17fd9"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1581,22 +1581,24 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-031-031-1b341a5e",
+      "id": "41-004-030-031-4c5e26ba",
       "ref": {
-        "startVerse": 31,
+        "startVerse": 30,
         "endVerse": 31
       },
-      "question": "According to Mark 4:30-311, what is the kingdom of God compared to?",
+      "question": "According to Mark 4:30-31, what is the kingdom of God compared to?",
       "answer": "a mustard seed",
       "type": "what",
       "points": 1,
       "originalIds": [
         "41-004-031-031-5c718d04",
-        "41-004-031-031-f492445b"
+        "41-004-031-031-f492445b",
+        "41-004-031-031-1b341a5e",
+        "41-004-030-031-4c5e26ba"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": "41-004-031-031-a31ac515",
@@ -1703,23 +1705,6 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-004-033-033-a71c773b",
-      "ref": {
-        "startVerse": 33,
-        "endVerse": 33
-      },
-      "question": "According to Mark 4:33, what did Jesus use to speak the word to them?",
-      "answer": "many such parables",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-004-033-033-82e10a5c"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-004-033-033-969ace9e",
       "ref": {
         "startVerse": 33,
@@ -1736,6 +1721,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-004-033-033-a71c773b",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 4:33, what did Jesus use to speak the word to them?",
+      "answer": "many such parables",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-033-033-82e10a5c"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
     },
     {
       "id": "41-004-034-034-4bf2964f",
@@ -1789,22 +1791,22 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-035-035-7ea0dcfa",
+      "id": "41-004-035-035-3d4ea77f",
       "ref": {
         "startVerse": 35,
         "endVerse": 35
       },
-      "question": "According to Mark 4:35, where did they go when evening came?",
-      "answer": "cross over to the other side",
-      "type": "where",
-      "points": 1,
+      "question": "According to Mark 4:35, what did Jesus say to them?",
+      "answer": "Let us cross over to the other side",
+      "type": "what",
+      "points": 2,
       "originalIds": [
-        "41-004-035-035-2985b0fa",
-        "41-004-035-035-7c2067b8"
+        "41-004-035-035-a7925bfb",
+        "41-004-035-035-9971af01"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "41-004-035-035-7a260a8e",
@@ -1824,24 +1826,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-035-035-3d4ea77f",
-      "ref": {
-        "startVerse": 35,
-        "endVerse": 35
-      },
-      "question": "According to Mark 4:35, what did Jesus say to them?",
-      "answer": "Let us cross over to the other side",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-004-035-035-a7925bfb",
-        "41-004-035-035-9971af01"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-004-035-035-5c0d4fe7",
       "ref": {
         "startVerse": 35,
@@ -1853,6 +1837,24 @@
       "points": 1,
       "originalIds": [
         "41-004-035-035-ff181c89"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-004-035-035-7ea0dcfa",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 4:35, where did they go when evening came?",
+      "answer": "cross over to the other side",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-004-035-035-2985b0fa",
+        "41-004-035-035-7c2067b8"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1929,24 +1931,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-004-037-037-6a62f280",
-      "ref": {
-        "startVerse": 37,
-        "endVerse": 37
-      },
-      "question": "According to Mark 4:37, what happed after a great windstorm arose?",
-      "answer": "the waves beat into the boat, it was filling",
-      "type": "what",
-      "points": 2,
-      "originalIds": [
-        "41-004-037-037-6845c94b",
-        "41-004-037-037-7f02ad79"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-004-037-037-1ada2c56",
       "ref": {
         "startVerse": 37,
@@ -1963,6 +1947,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-004-037-037-6a62f280",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 4:37, what happed after a great windstorm arose?",
+      "answer": "the waves beat into the boat, it was filling",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-004-037-037-6845c94b",
+        "41-004-037-037-7f02ad79"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
     },
     {
       "id": "41-004-037-037-b277ac25",
@@ -2069,6 +2071,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-004-039-039-fdb69ed6",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 4:39, to what did He say, \"Peace, be still!\"?",
+      "answer": "the sea",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-004-039-039-fdb69ed6"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-004-039-039-109cad57",
       "ref": {
         "startVerse": 39,
@@ -2122,6 +2141,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-004-040-040-496e62b6",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 4:40, what question did Jesus ask regarding their faith?",
+      "answer": "How is it that you have no faith?",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-004-040-040-d4ef32f1"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-004-040-040-2f63419c",
       "ref": {
         "startVerse": 40,
@@ -2134,23 +2170,6 @@
       "originalIds": [
         "41-004-040-040-2343a87e",
         "41-004-040-040-de2471b2"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
-      "id": "41-004-040-040-496e62b6",
-      "ref": {
-        "startVerse": 40,
-        "endVerse": 40
-      },
-      "question": "According to Mark 4:40, what question did Jesus ask regarding their faith?",
-      "answer": "How is it that you have no faith?",
-      "type": "how",
-      "points": 1,
-      "originalIds": [
-        "41-004-040-040-d4ef32f1"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -2267,8 +2286,8 @@
       "41-004-011-011-83311d08"
     ],
     "12": [
-      "41-004-012-012-b2d37f39",
       "41-004-012-012-46e1137f",
+      "41-004-012-012-b2d37f39",
       "41-004-012-012-7a9f6952"
     ],
     "13": [
@@ -2282,14 +2301,14 @@
     ],
     "15": [
       "41-004-015-015-bed87550",
-      "41-004-015-015-f12c59fe",
       "41-004-015-015-7bd0b12e",
+      "41-004-015-015-f12c59fe",
       "41-004-015-015-c0e77844"
     ],
     "16": [
+      "41-004-016-016-18c67b0e",
       "41-004-016-016-d7e87d1f",
-      "41-004-016-016-53f78607",
-      "41-004-016-016-18c67b0e"
+      "41-004-016-016-53f78607"
     ],
     "17": [
       "41-004-017-017-baacc775",
@@ -2308,9 +2327,9 @@
       "41-004-019-019-8768df63"
     ],
     "20": [
-      "41-004-020-020-53653071",
       "41-004-020-020-417974c4",
       "41-004-020-020-cf730c38",
+      "41-004-020-020-53653071",
       "41-004-020-020-7d394ff6"
     ],
     "21": [
@@ -2333,9 +2352,9 @@
       "41-004-024-024-10bdf4b3"
     ],
     "25": [
-      "41-004-025-025-8c214936",
       "41-004-025-025-6b6dea96",
-      "41-004-025-025-1a7f1d93"
+      "41-004-025-025-1a7f1d93",
+      "41-004-025-025-8c214936"
     ],
     "26": [
       "41-004-026-026-7615f707",
@@ -2358,10 +2377,11 @@
     ],
     "30": [
       "41-004-030-030-e343deee",
-      "41-004-030-030-d364e32d"
+      "41-004-030-030-d364e32d",
+      "41-004-030-031-4c5e26ba"
     ],
     "31": [
-      "41-004-031-031-1b341a5e",
+      "41-004-030-031-4c5e26ba",
       "41-004-031-031-a31ac515"
     ],
     "32": [
@@ -2372,8 +2392,8 @@
     ],
     "33": [
       "41-004-033-033-1f0eb0c1",
-      "41-004-033-033-a71c773b",
-      "41-004-033-033-969ace9e"
+      "41-004-033-033-969ace9e",
+      "41-004-033-033-a71c773b"
     ],
     "34": [
       "41-004-034-034-4bf2964f",
@@ -2381,10 +2401,10 @@
       "41-004-034-034-09b7864f"
     ],
     "35": [
-      "41-004-035-035-7ea0dcfa",
-      "41-004-035-035-7a260a8e",
       "41-004-035-035-3d4ea77f",
-      "41-004-035-035-5c0d4fe7"
+      "41-004-035-035-7a260a8e",
+      "41-004-035-035-5c0d4fe7",
+      "41-004-035-035-7ea0dcfa"
     ],
     "36": [
       "41-004-036-036-fd3af56e",
@@ -2393,8 +2413,8 @@
       "41-004-036-036-4fb5af5d"
     ],
     "37": [
-      "41-004-037-037-6a62f280",
       "41-004-037-037-1ada2c56",
+      "41-004-037-037-6a62f280",
       "41-004-037-037-b277ac25"
     ],
     "38": [
@@ -2405,13 +2425,14 @@
       "41-004-038-038-65f6909b"
     ],
     "39": [
+      "41-004-039-039-fdb69ed6",
       "41-004-039-039-109cad57",
       "41-004-039-039-20af8d3f",
       "41-004-039-039-c63f6dbd"
     ],
     "40": [
-      "41-004-040-040-2f63419c",
-      "41-004-040-040-496e62b6"
+      "41-004-040-040-496e62b6",
+      "41-004-040-040-2f63419c"
     ],
     "41": [
       "41-004-041-041-c7a5dcca",

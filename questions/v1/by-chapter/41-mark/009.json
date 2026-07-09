@@ -214,24 +214,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-004-004-f92630bb",
-      "ref": {
-        "startVerse": 4,
-        "endVerse": 4
-      },
-      "question": "According to Mark 9:4, which two people appeared to them?",
-      "answer": "Elijah and Moses",
-      "type": "how_many",
-      "points": 2,
-      "originalIds": [
-        "41-009-004-004-c624c85f",
-        "41-009-004-004-1181cfdf"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-009-004-004-39808fa9",
       "ref": {
         "startVerse": 4,
@@ -249,17 +231,57 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-009-004-004-0eb0393c",
+      "id": "41-009-004-004-0db838bf",
       "ref": {
         "startVerse": 4,
         "endVerse": 4
       },
-      "question": "According to Mark 9:4, what were the two figures doing with Jesus? (be specific)",
-      "answer": "talking with Jesus",
-      "type": "what",
+      "question": "According to Mark 9:4, true or false, Elisha appeared with Moses before them?",
+      "answer": "False",
+      "type": "true_false",
       "points": 1,
       "originalIds": [
-        "41-009-004-004-cef6e93a"
+        "41-009-004-004-d6bba33d",
+        "41-009-004-004-673db61e",
+        "41-009-004-004-b7843d82",
+        "41-009-004-004-0db838bf"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-009-004-004-dff436f8",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, what were the two figures doing, and with whom? (be specific)",
+      "answer": "talking, with Jesus",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-009-004-004-cef6e93a",
+        "41-009-004-004-0eb0393c",
+        "41-009-004-004-dff436f8"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-009-004-004-f92630bb",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 9:4, which two people appeared to them?",
+      "answer": "Elijah and Moses",
+      "type": "how_many",
+      "points": 2,
+      "originalIds": [
+        "41-009-004-004-c624c85f",
+        "41-009-004-004-1181cfdf"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -281,42 +303,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
-    },
-    {
-      "id": "41-009-004-004-b7843d82",
-      "ref": {
-        "startVerse": 4,
-        "endVerse": 4
-      },
-      "question": "True or False: According to Mark 9:4, Elisha and Moses were talking with Jesus.",
-      "answer": "False",
-      "type": "true_false",
-      "points": 1,
-      "originalIds": [
-        "41-009-004-004-d6bba33d",
-        "41-009-004-004-673db61e"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-009-005-005-29139fa6",
-      "ref": {
-        "startVerse": 5,
-        "endVerse": 5
-      },
-      "question": "According to Mark 9:5, who answered Jesus, how did he address Jesus, it was good for what, make what, how many, and for who?",
-      "answer": "Peter, Rabbi, us to be here, tabernacles, three, YOu Moses and ELijah",
-      "type": "how_many",
-      "points": 6,
-      "originalIds": [
-        "41-009-005-005-d6adaceb",
-        "41-009-005-005-68a18afc"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
     },
     {
       "id": "41-009-005-005-8b30d50b",
@@ -351,6 +337,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-009-005-005-29139fa6",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 9:5, who answered Jesus, how did he address Jesus, it was good for what, make what, how many, and for who?",
+      "answer": "Peter, Rabbi, us to be here, tabernacles, three, YOu Moses and ELijah",
+      "type": "how_many",
+      "points": 6,
+      "originalIds": [
+        "41-009-005-005-d6adaceb",
+        "41-009-005-005-68a18afc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-009-005-005-7c5492c3",
@@ -766,23 +770,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-013-013-3e507501",
-      "ref": {
-        "startVerse": 13,
-        "endVerse": 13
-      },
-      "question": "According to Mark 9:13, what did they do to Elijah when he came?",
-      "answer": "they did to him whatever they wished",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-009-013-013-aa8ce745"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
       "id": "41-009-013-013-e439bdef",
       "ref": {
         "startVerse": 13,
@@ -795,6 +782,23 @@
       "originalIds": [
         "41-009-013-013-10ef311c",
         "41-009-013-013-5f387107"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "41-009-013-013-3e507501",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 9:13, what did they do to Elijah when he came?",
+      "answer": "they did to him whatever they wished",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-013-013-aa8ce745"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1043,24 +1047,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-018-018-53353a89",
-      "ref": {
-        "startVerse": 18,
-        "endVerse": 18
-      },
-      "question": "According to Mark 9:18, what does the spirit do to the boy?.",
-      "answer": "seizes him, throws him down, he foams at the mouth, gnashes his teeth, and becomes rigid",
-      "type": "list",
-      "points": 5,
-      "originalIds": [
-        "41-009-018-018-b41984a1",
-        "41-009-018-018-71aaf553"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
-    },
-    {
       "id": "41-009-018-018-2d3c6523",
       "ref": {
         "startVerse": 18,
@@ -1093,6 +1079,24 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
+    },
+    {
+      "id": "41-009-018-018-53353a89",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 9:18, what does the spirit do to the boy?.",
+      "answer": "seizes him, throws him down, he foams at the mouth, gnashes his teeth, and becomes rigid",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-009-018-018-b41984a1",
+        "41-009-018-018-71aaf553"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "hard"
     },
     {
       "id": "41-009-018-018-0b913da2",
@@ -1751,24 +1755,6 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-031-031-51f66973",
-      "ref": {
-        "startVerse": 31,
-        "endVerse": 31
-      },
-      "question": "According to Mark 9:31, where is the Son of Man being betrayed?",
-      "answer": "the hands of men",
-      "type": "who",
-      "points": 2,
-      "originalIds": [
-        "41-009-031-031-3011a114",
-        "41-009-031-031-f608c1f4"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
-    },
-    {
       "id": "41-009-031-031-d815c0cd",
       "ref": {
         "startVerse": 31,
@@ -1780,6 +1766,24 @@
       "points": 2,
       "originalIds": [
         "41-009-031-031-ba6add20"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-009-031-031-b0c95074",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 9:31, what wil happen after he is killed and when?",
+      "answer": "He will rise on the third day",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-009-031-031-46e95b01",
+        "41-009-031-031-2dbe8d1b"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1803,18 +1807,18 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-031-031-b0c95074",
+      "id": "41-009-031-031-51f66973",
       "ref": {
         "startVerse": 31,
         "endVerse": 31
       },
-      "question": "According to Mark 9:31, what wil happen after he is killed and when?",
-      "answer": "He will rise on the third day",
-      "type": "when",
+      "question": "According to Mark 9:31, where is the Son of Man being betrayed?",
+      "answer": "the hands of men",
+      "type": "who",
       "points": 2,
       "originalIds": [
-        "41-009-031-031-46e95b01",
-        "41-009-031-031-2dbe8d1b"
+        "41-009-031-031-3011a114",
+        "41-009-031-031-f608c1f4"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -1979,6 +1983,23 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-009-035-035-3c71a94f",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 9:35, what did Jesus do before calling the twelve?",
+      "answer": "He sat down",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-035-035-5c138f55"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-009-035-035-6198e343",
       "ref": {
         "startVerse": 35,
@@ -1995,23 +2016,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-009-035-035-3c71a94f",
-      "ref": {
-        "startVerse": 35,
-        "endVerse": 35
-      },
-      "question": "According to Mark 9:35, what did Jesus do before calling the twelve?",
-      "answer": "He sat down",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-009-035-035-5c138f55"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-009-035-035-4205ba82",
@@ -2102,18 +2106,20 @@
       "difficulty": "easy"
     },
     {
-      "id": "41-009-037-037-fb5654b6",
+      "id": "41-009-037-037-26e7b7aa",
       "ref": {
         "startVerse": 37,
         "endVerse": 37
       },
-      "question": "According to Mark 9:37, what two things is someone receiving if the receive one of these little children?",
+      "question": "According to Mark 9:37, what two things is someone receiving if they receive one of these little children in My name?",
       "answer": "Me; and Him who sent Me",
       "type": "list",
       "points": 2,
       "originalIds": [
         "41-009-037-037-7e9240a8",
-        "41-009-037-037-f9c49b72"
+        "41-009-037-037-f9c49b72",
+        "41-009-037-037-fb5654b6",
+        "41-009-037-037-26e7b7aa"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
@@ -2276,6 +2282,41 @@
       "difficulty": "easy"
     },
     {
+      "id": "41-009-040-040-33f1776a",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 9:40, who did Jesus say is on our side?",
+      "answer": "for He who is not against us",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-009-040-040-33f1776a"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41-009-041-041-c2e34f92",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 9:41, what can make him who gives you a cup of water to drink in My name, because you belong to Christ lose his reward?",
+      "answer": "no means",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-009-041-041-a6a2e12c",
+        "41-009-041-041-ec08c4b0"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "medium"
+    },
+    {
       "id": "41-009-041-041-5172b94c",
       "ref": {
         "startVerse": 41,
@@ -2311,22 +2352,22 @@
       "difficulty": "medium"
     },
     {
-      "id": "41-009-041-041-c2e34f92",
+      "id": "41-009-042-042-1b261698",
       "ref": {
-        "startVerse": 41,
-        "endVerse": 41
+        "startVerse": 42,
+        "endVerse": 42
       },
-      "question": "According to Mark 9:41, what can make him who gives you a cup of water to drink in My name, because you belong to Christ lose his reward?",
-      "answer": "no means",
-      "type": "why",
+      "question": "According to Mark 9:42, what is hung around his neck?",
+      "answer": "millstone",
+      "type": "what",
       "points": 1,
       "originalIds": [
-        "41-009-041-041-a6a2e12c",
-        "41-009-041-041-ec08c4b0"
+        "41-009-042-042-844cb38c",
+        "41-009-042-042-8b474988"
       ],
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
       "id": "41-009-042-042-9950cbeb",
@@ -2345,24 +2386,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "medium"
-    },
-    {
-      "id": "41-009-042-042-1b261698",
-      "ref": {
-        "startVerse": 42,
-        "endVerse": 42
-      },
-      "question": "According to Mark 9:42, what is hung around his neck?",
-      "answer": "millstone",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-009-042-042-844cb38c",
-        "41-009-042-042-8b474988"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-009-042-042-6f7e1746",
@@ -2435,6 +2458,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-009-043-043-d7dce857",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 9:43, into what place shall the person with two hands go?",
+      "answer": "hell",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-009-043-043-4630a49b"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-009-043-043-b17d21bd",
       "ref": {
         "startVerse": 43,
@@ -2451,23 +2491,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
-    },
-    {
-      "id": "41-009-043-043-d7dce857",
-      "ref": {
-        "startVerse": 43,
-        "endVerse": 43
-      },
-      "question": "According to Mark 9:43, into what place shall the person with two hands go?",
-      "answer": "hell",
-      "type": "where",
-      "points": 1,
-      "originalIds": [
-        "41-009-043-043-4630a49b"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-009-043-043-cb44ea77",
@@ -2573,6 +2596,23 @@
       "difficulty": "medium"
     },
     {
+      "id": "41-009-045-045-00fea3bd",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 9:45, what action should you take if your foot causes you to sin?",
+      "answer": "cut it off",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-009-045-045-124b87cc"
+      ],
+      "validatedBy": "human",
+      "model": "gemini-flash-lite-latest",
+      "difficulty": "easy"
+    },
+    {
       "id": "41-009-045-045-e9c94b57",
       "ref": {
         "startVerse": 45,
@@ -2589,23 +2629,6 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "hard"
-    },
-    {
-      "id": "41-009-045-045-00fea3bd",
-      "ref": {
-        "startVerse": 45,
-        "endVerse": 45
-      },
-      "question": "According to Mark 9:45, what action should you take if your foot causes you to sin?",
-      "answer": "cut it off",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-009-045-045-124b87cc"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
     },
     {
       "id": "41-009-045-045-970408f7",
@@ -2727,6 +2750,23 @@
       "validatedBy": "human",
       "model": "gemini-flash-lite-latest",
       "difficulty": "easy"
+    },
+    {
+      "id": "41-009-047-047-eeb16b47",
+      "ref": {
+        "startVerse": 47,
+        "endVerse": 47
+      },
+      "question": "According to Mark 9:47, what body part should be removed if it causes you to sin and how?",
+      "answer": "your eye; plucked out",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-009-047-047-eeb16b47"
+      ],
+      "validatedBy": "human",
+      "model": "user-provided",
+      "difficulty": "medium"
     },
     {
       "id": "41-009-047-047-5cdee73a",
@@ -2955,16 +2995,16 @@
       "41-009-003-003-6ba8b731"
     ],
     "4": [
-      "41-009-004-004-f92630bb",
       "41-009-004-004-39808fa9",
-      "41-009-004-004-0eb0393c",
-      "41-009-004-004-9fc0791b",
-      "41-009-004-004-b7843d82"
+      "41-009-004-004-0db838bf",
+      "41-009-004-004-dff436f8",
+      "41-009-004-004-f92630bb",
+      "41-009-004-004-9fc0791b"
     ],
     "5": [
-      "41-009-005-005-29139fa6",
       "41-009-005-005-8b30d50b",
       "41-009-005-005-9652024a",
+      "41-009-005-005-29139fa6",
       "41-009-005-005-7c5492c3"
     ],
     "6": [
@@ -3005,8 +3045,8 @@
       "41-009-012-012-edd1315f"
     ],
     "13": [
-      "41-009-013-013-3e507501",
       "41-009-013-013-e439bdef",
+      "41-009-013-013-3e507501",
       "41-009-013-013-18c20f55"
     ],
     "14": [
@@ -3031,9 +3071,9 @@
       "41-009-017-017-1f0ed0ae"
     ],
     "18": [
-      "41-009-018-018-53353a89",
       "41-009-018-018-2d3c6523",
       "41-009-018-018-7e866a40",
+      "41-009-018-018-53353a89",
       "41-009-018-018-0b913da2"
     ],
     "19": [
@@ -3098,10 +3138,10 @@
       "41-009-030-030-276e331f"
     ],
     "31": [
-      "41-009-031-031-51f66973",
       "41-009-031-031-d815c0cd",
-      "41-009-031-031-d36e667c",
       "41-009-031-031-b0c95074",
+      "41-009-031-031-d36e667c",
+      "41-009-031-031-51f66973",
       "41-009-031-031-29c1816e"
     ],
     "32": [
@@ -3119,8 +3159,8 @@
       "41-009-034-034-717bf249"
     ],
     "35": [
-      "41-009-035-035-6198e343",
       "41-009-035-035-3c71a94f",
+      "41-009-035-035-6198e343",
       "41-009-035-035-4205ba82",
       "41-009-035-035-f1b862df"
     ],
@@ -3130,7 +3170,7 @@
       "41-009-036-036-7904c4b8"
     ],
     "37": [
-      "41-009-037-037-fb5654b6",
+      "41-009-037-037-26e7b7aa",
       "41-009-037-037-4794537c",
       "41-009-037-037-a6376465"
     ],
@@ -3145,24 +3185,25 @@
       "41-009-039-039-3a96ec58"
     ],
     "40": [
-      "41-009-040-040-e20efab1"
+      "41-009-040-040-e20efab1",
+      "41-009-040-040-33f1776a"
     ],
     "41": [
+      "41-009-041-041-c2e34f92",
       "41-009-041-041-5172b94c",
-      "41-009-041-041-cbd49f50",
-      "41-009-041-041-c2e34f92"
+      "41-009-041-041-cbd49f50"
     ],
     "42": [
-      "41-009-042-042-9950cbeb",
       "41-009-042-042-1b261698",
+      "41-009-042-042-9950cbeb",
       "41-009-042-042-6f7e1746",
       "41-009-042-042-c21ff282",
       "41-009-042-042-72b6ece0"
     ],
     "43": [
       "41-009-043-043-9703d371",
-      "41-009-043-043-b17d21bd",
       "41-009-043-043-d7dce857",
+      "41-009-043-043-b17d21bd",
       "41-009-043-043-cb44ea77",
       "41-009-043-043-4d856512"
     ],
@@ -3173,8 +3214,8 @@
     ],
     "45": [
       "41-009-045-045-68bebe98",
-      "41-009-045-045-e9c94b57",
       "41-009-045-045-00fea3bd",
+      "41-009-045-045-e9c94b57",
       "41-009-045-045-970408f7",
       "41-009-045-045-d9e7f536"
     ],
@@ -3186,6 +3227,7 @@
       "41-009-047-047-4cbb8f17",
       "41-009-047-047-830fbc30",
       "41-009-047-047-beb8a2c2",
+      "41-009-047-047-eeb16b47",
       "41-009-047-047-5cdee73a",
       "41-009-047-047-cf068556"
     ],
