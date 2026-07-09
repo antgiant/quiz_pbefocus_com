@@ -73,3 +73,51 @@ export function formatNumberRanges(values) {
 export function nowLabel() {
   return new Date().toLocaleString();
 }
+
+const AI_MODEL_HINTS = [
+  "gpt",
+  "gemini",
+  "claude",
+  "llama",
+  "mistral",
+  "copilot",
+  "openai",
+  "anthropic",
+  "meta",
+  "xai",
+  "grok",
+  "deepseek",
+  "qwen",
+  "phi",
+  "titan",
+  "palm",
+  "llm",
+];
+
+export function isLikelyAiModelName(modelName) {
+  const normalized = String(modelName || "").trim().toLowerCase();
+  if (!normalized || normalized === "human") {
+    return false;
+  }
+
+  return AI_MODEL_HINTS.some((hint) => normalized.includes(hint));
+}
+
+export function getQuestionSource(question) {
+  const aiGenerated = isLikelyAiModelName(question?.model);
+  const humanReviewed = String(question?.validatedBy || "").toLowerCase() === "human";
+
+  if (!aiGenerated) {
+    return "human_generated";
+  }
+
+  return humanReviewed ? "ai_human_reviewed" : "ai_unreviewed";
+}
+
+export function questionMatchesSelectedSources(question, selectedSources) {
+  if (!Array.isArray(selectedSources) || selectedSources.length === 0) {
+    return false;
+  }
+
+  return selectedSources.includes(getQuestionSource(question));
+}

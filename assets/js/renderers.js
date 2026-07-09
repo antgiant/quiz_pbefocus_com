@@ -10,6 +10,35 @@ function formatDifficulty(question) {
   return difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
 }
 
+function formatQuestionType(type) {
+  const normalizedType = String(type || "").trim().toLowerCase();
+  if (normalizedType === "true_false") {
+    return "True/False";
+  }
+
+  return normalizedType
+    .split("_")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+function formatQuestionSource(source) {
+  if (source === "ai_unreviewed") {
+    return "AI Generated (Unreviewed)";
+  }
+
+  if (source === "ai_human_reviewed") {
+    return "AI Generated (Human reviewed)";
+  }
+
+  if (source === "human_generated") {
+    return "Human Generated";
+  }
+
+  return String(source || "");
+}
+
 export function renderTypeCheckboxes(container, types, selectedTypes) {
   container.innerHTML = "";
   for (const type of types) {
@@ -18,7 +47,7 @@ export function renderTypeCheckboxes(container, types, selectedTypes) {
     checkbox.type = "checkbox";
     checkbox.value = type;
     checkbox.checked = selectedTypes.includes(type);
-    label.append(checkbox, document.createTextNode(type));
+    label.append(checkbox, document.createTextNode(formatQuestionType(type)));
     container.append(label);
   }
 }
@@ -32,6 +61,19 @@ export function renderDifficultyCheckboxes(container, difficulties, selectedDiff
     checkbox.value = difficulty;
     checkbox.checked = selectedDifficulties.includes(difficulty);
     label.append(checkbox, document.createTextNode(formatDifficulty({ difficulty })));
+    container.append(label);
+  }
+}
+
+export function renderSourceCheckboxes(container, sources, selectedSources) {
+  container.innerHTML = "";
+  for (const source of sources) {
+    const label = document.createElement("label");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = source;
+    checkbox.checked = selectedSources.includes(source);
+    label.append(checkbox, document.createTextNode(formatQuestionSource(source)));
     container.append(label);
   }
 }
@@ -472,7 +514,7 @@ export function renderPreview(previewList, template, questions) {
   for (const question of questions) {
     const node = template.content.firstElementChild.cloneNode(true);
     node.querySelector("h3").textContent =
-      `${question.type.toUpperCase()} | ${formatDifficulty(question)} | ${question.points} pt`;
+      `${formatQuestionType(question.type)} | ${formatDifficulty(question)} | ${question.points} pt`;
     node.querySelector(".meta").textContent = `${formatRef(question)} | ${question.validatedBy}`;
     node.querySelector(".question").textContent = question.question;
     node.querySelector(".answer").textContent = question.answer;
@@ -484,9 +526,12 @@ export function renderPreviewMeta(container, questions, settings, unmetMessages)
   const difficultyLabels = (settings.selectedDifficulties || []).map((difficulty) =>
     formatDifficulty({ difficulty })
   );
+  const typeLabels = (settings.selectedTypes || []).map((type) => formatQuestionType(type));
+  const sourceLabels = (settings.selectedSources || []).map((source) => formatQuestionSource(source));
   const lines = [
     `Selected: ${questions.length} questions`,
-    `Types: ${csvJoin(settings.selectedTypes)}`,
+    `Sources: ${csvJoin(sourceLabels)}`,
+    `Types: ${csvJoin(typeLabels)}`,
     `Difficulties: ${csvJoin(difficultyLabels)}`,
     `Generated: ${nowLabel()}`,
   ];

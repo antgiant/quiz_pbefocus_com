@@ -1,5 +1,5 @@
 import { QUESTION_DIFFICULTIES } from "./constants.js";
-import { shuffle, uniqueById } from "./utils.js";
+import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
   if (Array.isArray(settings.selectedDifficulties)) {
@@ -111,9 +111,9 @@ export async function generateQuestions({
 
   candidates = candidates.filter((question) => questionMatchesSelectedVerses(question, selectedVerseSets));
 
-  if (settings.humanReviewedOnly) {
-    candidates = candidates.filter((question) => question.validatedBy === "human");
-  }
+  candidates = candidates.filter((question) =>
+    questionMatchesSelectedSources(question, settings.selectedSources)
+  );
 
   candidates = candidates.filter((question) => typeSet.has(question.type));
   candidates = candidates.filter((question) => difficultyMatch(question, difficultySet));

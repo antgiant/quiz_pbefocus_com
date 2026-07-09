@@ -11,6 +11,12 @@ export const QUESTION_TYPES = [
 
 export const QUESTION_DIFFICULTIES = ["easy", "medium", "hard"];
 
+export const QUESTION_SOURCES = [
+  "ai_unreviewed",
+  "ai_human_reviewed",
+  "human_generated",
+];
+
 export const STORAGE_KEY = "pbe_quiz_profiles_v1";
 
 export const DEFAULT_PERSON_NAME = "Person 1";
@@ -21,6 +27,6 @@ export const DEFAULT_SETTINGS = {
   totalCount: 25,
   perVerse: 2,
   selectedDifficulties: [...QUESTION_DIFFICULTIES],
-  humanReviewedOnly: false,
+  selectedSources: [...QUESTION_SOURCES],
   selectedTypes: [...QUESTION_TYPES],
 };

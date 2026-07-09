@@ -1,4 +1,9 @@
-import { DEFAULT_SETTINGS, QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
+import {
+  DEFAULT_SETTINGS,
+  QUESTION_DIFFICULTIES,
+  QUESTION_SOURCES,
+  QUESTION_TYPES,
+} from "./constants.js";
 import { DataService } from "./data-service.js";
 import { exportPowerPoint } from "./exporters.js";
 import { generateQuestions } from "./quiz-engine.js";
@@ -10,6 +15,7 @@ import {
   renderPreview,
   renderPreviewMeta,
   renderProfiles,
+  renderSourceCheckboxes,
   renderScopeSelector,
   renderTypeCheckboxes,
   renderYearOptionsWithScope,
@@ -22,7 +28,7 @@ import {
   saveState,
 } from "./storage.js";
 import { formatInteractiveAnswer } from "./question-formatters.js";
-import { formatNumberRanges, normalizeText } from "./utils.js";
+import { formatNumberRanges, normalizeText, questionMatchesSelectedSources } from "./utils.js";
 
 const dataService = new DataService();
 const appState = {
@@ -46,7 +52,7 @@ const el = {
   totalCountInput: document.getElementById("totalCountInput"),
   perVerseInput: document.getElementById("perVerseInput"),
   difficultyCheckboxes: document.getElementById("difficultyCheckboxes"),
-  humanReviewedOnlyInput: document.getElementById("humanReviewedOnlyInput"),
+  sourceCheckboxes: document.getElementById("sourceCheckboxes"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
   scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
@@ -102,16 +108,35 @@ function normalizeSelectedDifficulties(selectedDifficulties, legacyDifficulty) {
   return [...QUESTION_DIFFICULTIES];
 }
 
+function normalizeSelectedSources(selectedSources, legacyHumanReviewedOnly) {
+  if (Array.isArray(selectedSources)) {
+    return selectedSources.filter((source) => QUESTION_SOURCES.includes(source));
+  }
+
+  if (legacyHumanReviewedOnly === true) {
+    return ["ai_human_reviewed", "human_generated"];
+  }
+
+  return [...QUESTION_SOURCES];
+}
+
 function ensureProfileState() {
   const active = getActiveProfile(appState.storage);
   const savedSelectedDifficulties = active.settings?.selectedDifficulties;
   const savedDifficulty = active.settings?.difficulty;
+  const savedSelectedSources = active.settings?.selectedSources;
+  const savedHumanReviewedOnly = active.settings?.humanReviewedOnly;
   active.settings = { ...DEFAULT_SETTINGS, ...active.settings };
   active.settings.selectedDifficulties = normalizeSelectedDifficulties(
     savedSelectedDifficulties,
     savedDifficulty
   );
+  active.settings.selectedSources = normalizeSelectedSources(
+    savedSelectedSources,
+    savedHumanReviewedOnly
+  );
   delete active.settings.difficulty;
+  delete active.settings.humanReviewedOnly;
 
   if (!Array.isArray(active.settings.selectedTypes) || !active.settings.selectedTypes.length) {
     active.settings.selectedTypes = [...QUESTION_TYPES];
@@ -157,13 +182,13 @@ function renderControls() {
   el.yearSelect.value = settings.yearId;
   el.totalCountInput.value = settings.totalCount;
   el.perVerseInput.value = settings.perVerse;
-  el.humanReviewedOnlyInput.checked = settings.humanReviewedOnly;
 
   renderDifficultyCheckboxes(
     el.difficultyCheckboxes,
     QUESTION_DIFFICULTIES,
     settings.selectedDifficulties
   );
+  renderSourceCheckboxes(el.sourceCheckboxes, QUESTION_SOURCES, settings.selectedSources);
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     scopeLimit: getActiveYear()?.scope || {},
@@ -224,7 +249,7 @@ function questionMatchesAvailabilityFilters(question, settings) {
     return false;
   }
 
-  if (settings.humanReviewedOnly && question.validatedBy !== "human") {
+  if (!questionMatchesSelectedSources(question, settings.selectedSources)) {
     return false;
   }
 
@@ -278,7 +303,9 @@ async function refreshScopeSelectorForFilters() {
   if (
     !settings.selectedTypes ||
     settings.selectedTypes.length === 0 ||
-    settings.selectedDifficulties.length === 0
+    settings.selectedDifficulties.length === 0 ||
+    !settings.selectedSources ||
+    settings.selectedSources.length === 0
   ) {
     active.selectedScope = {};
     active.selectedVerses = {};
@@ -294,7 +321,7 @@ async function refreshScopeSelectorForFilters() {
   }
 
   const shouldFilterAvailability =
-    settings.humanReviewedOnly ||
+    settings.selectedSources.length < QUESTION_SOURCES.length ||
     settings.selectedDifficulties.length < QUESTION_DIFFICULTIES.length ||
     settings.selectedTypes.length < QUESTION_TYPES.length;
 
@@ -342,7 +369,9 @@ function syncSettingsFromControls() {
   active.settings.yearId = el.yearSelect.value;
   active.settings.totalCount = Math.max(1, Number(el.totalCountInput.value) || 1);
   active.settings.perVerse = Math.max(1, Number(el.perVerseInput.value) || 1);
-  active.settings.humanReviewedOnly = el.humanReviewedOnlyInput.checked;
+  active.settings.selectedSources = Array.from(
+    el.sourceCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
+  ).map((checkbox) => checkbox.value);
   active.settings.selectedDifficulties = Array.from(
     el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
@@ -923,6 +952,11 @@ function wireEvents() {
     refreshScopeThenGenerate();
   });
 
+  el.sourceCheckboxes.addEventListener("change", () => {
+    syncSettingsFromControls();
+    refreshScopeThenGenerate();
+  });
+
   el.yearSelect.addEventListener("change", () => {
     const active = getActiveProfile(appState.storage);
     active.settings.yearId = el.yearSelect.value;
@@ -955,7 +989,7 @@ function wireEvents() {
     queueRealtimeGenerate();
   });
 
-  [el.totalCountInput, el.perVerseInput, el.humanReviewedOnlyInput].forEach(
+  [el.totalCountInput, el.perVerseInput].forEach(
     (control) => {
       control.addEventListener("change", () => {
         syncSettingsFromControls();
