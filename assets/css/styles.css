@@ -326,16 +326,57 @@ fieldset {
 }
 
 .scope-selector {
-  max-height: 240px;
-  overflow: auto;
+  display: block;
+  min-height: 16rem;
+  max-height: min(26rem, 60vh);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--scope-border);
   border-radius: var(--radius);
   padding: 0.5rem;
   background: var(--surface);
 }
 
+.fieldset-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.fieldset-header::before,
+.fieldset-header::after {
+  display: none;
+}
+
+.selector-mode-btn {
+  width: auto;
+  margin-top: 0;
+  padding: 0.45rem 0.7rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--field-border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.selector-mode-btn:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.selector-mode-btn.is-active {
+  background: var(--teal-soft);
+  border-color: var(--scope-border);
+}
+
 .selectors {
-  margin-top: 0.2rem;
+  margin-top: 0.45rem;
 }
 
 .scope-book {
@@ -356,25 +397,34 @@ fieldset {
 }
 
 .book-header {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.45rem;
   font-weight: 700;
   margin: 0 0 0.4rem;
+  width: 100%;
 }
 
 .book-header input {
   margin: 0;
+  width: auto;
+  flex: 0 0 auto;
 }
 
 .book-name {
+  flex: 1 1 auto;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .scope-chapters {
   display: grid;
   gap: 0.5rem;
   margin-top: 0.4rem;
+}
+
+.scope-chapters.chapter-grid {
+  margin-top: 0.2rem;
 }
 
 .chapter-grid {
@@ -387,6 +437,10 @@ fieldset {
   border: 1px solid var(--scope-chapter-border);
   border-radius: 8px;
   padding: 0.35rem 0.45rem;
+}
+
+.chapter-option {
+  width: 100%;
 }
 
 .scope-chapter-row > label,
@@ -416,12 +470,28 @@ fieldset {
   margin-bottom: 0.3rem;
 }
 
+.chapter-selector-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.chapter-selector-row .chapter-header {
+  flex: 1 1 auto;
+}
+
 .chapter-number {
   font-weight: 700;
 }
 
 .scope-verse-details {
   margin-top: 0.3rem;
+}
+
+.chapter-selector-row .scope-verse-details {
+  margin-top: 0;
+  flex: 0 0 auto;
 }
 
 .scope-verse-details > summary {

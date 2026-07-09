@@ -49,6 +49,8 @@ const el = {
   humanReviewedOnlyInput: document.getElementById("humanReviewedOnlyInput"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
+  scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
+  scopeModeVerseBtn: document.getElementById("scopeModeVerseBtn"),
   newProfileBtn: document.getElementById("newProfileBtn"),
   saveProfileBtn: document.getElementById("saveProfileBtn"),
   deleteProfileBtn: document.getElementById("deleteProfileBtn"),
@@ -123,6 +125,10 @@ function ensureProfileState() {
     active.selectedVerses = {};
   }
 
+  if (active.settings.selectorMode !== "chapter" && active.settings.selectorMode !== "verse") {
+    active.settings.selectorMode = "chapter";
+  }
+
   if (!Array.isArray(appState.storage.selectedPrintPeopleIds)) {
     appState.storage.selectedPrintPeopleIds = [active.id];
   }
@@ -161,8 +167,22 @@ function renderControls() {
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     limitToSelectedScope: true,
+    selectorMode: settings.selectorMode,
     selectedVerses: active.selectedVerses,
   });
+  el.scopeSelector.scrollTop = 0;
+  updateSelectorModeControls(settings.selectorMode);
+}
+
+function updateSelectorModeControls(mode) {
+  const normalizedMode = mode === "verse" ? "verse" : "chapter";
+  const chapterActive = normalizedMode === "chapter";
+
+  el.scopeModeChapterBtn.classList.toggle("is-active", chapterActive);
+  el.scopeModeVerseBtn.classList.toggle("is-active", !chapterActive);
+
+  el.scopeModeChapterBtn.setAttribute("aria-pressed", chapterActive ? "true" : "false");
+  el.scopeModeVerseBtn.setAttribute("aria-pressed", chapterActive ? "false" : "true");
 }
 
 function chapterScopeKey(bookId, chapter) {
@@ -267,6 +287,7 @@ async function refreshScopeSelectorForFilters() {
       chapterAvailability: new Map(),
       hideUnavailable: true,
       limitToSelectedScope: true,
+      selectorMode: settings.selectorMode,
       selectedVerses: {},
     });
     return;
@@ -280,6 +301,7 @@ async function refreshScopeSelectorForFilters() {
   if (!shouldFilterAvailability) {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
       limitToSelectedScope: true,
+      selectorMode: settings.selectorMode,
       selectedVerses: active.selectedVerses,
     });
     return;
@@ -297,6 +319,7 @@ async function refreshScopeSelectorForFilters() {
     chapterAvailability: availability,
     hideUnavailable: true,
     limitToSelectedScope: true,
+    selectorMode: settings.selectorMode,
     selectedVerses: prunedSelectedVerses,
   });
 }
@@ -908,6 +931,28 @@ function wireEvents() {
     saveState(appState.storage);
     renderControls();
     refreshScopeThenGenerate();
+  });
+
+  el.scopeModeChapterBtn.addEventListener("click", () => {
+    const active = getActiveProfile(appState.storage);
+    if (active.settings.selectorMode === "chapter") {
+      return;
+    }
+    active.settings.selectorMode = "chapter";
+    saveState(appState.storage);
+    renderControls();
+    queueRealtimeGenerate();
+  });
+
+  el.scopeModeVerseBtn.addEventListener("click", () => {
+    const active = getActiveProfile(appState.storage);
+    if (active.settings.selectorMode === "verse") {
+      return;
+    }
+    active.settings.selectorMode = "verse";
+    saveState(appState.storage);
+    renderControls();
+    queueRealtimeGenerate();
   });
 
   [el.totalCountInput, el.perVerseInput, el.humanReviewedOnlyInput].forEach(

@@ -222,6 +222,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
   const hideUnavailable = Boolean(options.hideUnavailable);
   const limitToSelectedScope = Boolean(options.limitToSelectedScope);
   const selectedVerses = options.selectedVerses || {};
+  const selectorMode = options.selectorMode === "verse" ? "verse" : "chapter";
 
   function chapterKey(bookId, chapterNumber) {
     return `${bookId}:${chapterNumber}`;
@@ -250,7 +251,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     }
 
     if (selection === null || selection.length === totalVerses) {
-      return "All verses";
+      return "Verses";
     }
 
     if (selection.length === 0) {
@@ -314,14 +315,11 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     bookLabel.append(bookToggle, bookName);
 
     const chapterWrap = document.createElement("div");
-    chapterWrap.className = "scope-chapters";
+    chapterWrap.className = selectorMode === "chapter" ? "scope-chapters chapter-grid" : "scope-chapters";
 
     for (const chapter of visibleChapters) {
-      const chapterRow = document.createElement("div");
-      chapterRow.className = "chapter-with-verses scope-chapter-row";
-
       const chapterLabel = document.createElement("label");
-      chapterLabel.className = "chapter-check chapter-header";
+      chapterLabel.className = selectorMode === "chapter" ? "chapter-check chapter-option" : "chapter-check chapter-header";
       const chapterToggle = document.createElement("input");
       chapterToggle.type = "checkbox";
       chapterToggle.dataset.bookId = book.id;
@@ -332,6 +330,17 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       chapterNumber.className = "chapter-number";
       chapterNumber.textContent = `Chapter ${chapter.number}`;
       chapterLabel.append(chapterToggle, chapterNumber);
+
+      if (selectorMode === "chapter") {
+        chapterWrap.append(chapterLabel);
+        continue;
+      }
+
+      const chapterRow = document.createElement("div");
+      chapterRow.className = "chapter-with-verses scope-chapter-row";
+
+      const chapterHeaderRow = document.createElement("div");
+      chapterHeaderRow.className = "chapter-selector-row";
 
       const verseToggleWrap = document.createElement("details");
       verseToggleWrap.className = "scope-verse-details";
@@ -347,7 +356,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
 
       const verseSummary = document.createElement("summary");
       verseSummary.dataset.role = "verse-summary";
-      verseSummary.textContent = `Verses: ${verseSummaryText}`;
+  verseSummary.textContent = verseSummaryText === "Verses" ? "Verses" : `Verses: ${verseSummaryText}`;
       verseToggleWrap.append(verseSummary);
 
       const versesGrid = document.createElement("div");
@@ -435,7 +444,8 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       }
 
       verseToggleWrap.append(versesGrid);
-      chapterRow.append(chapterLabel, verseToggleWrap);
+      chapterHeaderRow.append(chapterLabel, verseToggleWrap);
+      chapterRow.append(chapterHeaderRow);
       chapterWrap.append(chapterRow);
     }
 
