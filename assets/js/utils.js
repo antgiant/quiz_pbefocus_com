@@ -94,6 +94,25 @@ const AI_MODEL_HINTS = [
   "llm",
 ];
 
+const HUMAN_MODEL_NAMES = new Set([
+  "",
+  "human",
+  "human_generated",
+  "human generated",
+  "user-provided",
+  "user provided",
+  "manual",
+]);
+
+function normalizeQuestionModelNames(model) {
+  if (Array.isArray(model)) {
+    return model.flat(Infinity).map((value) => String(value || "").trim()).filter(Boolean);
+  }
+
+  const normalized = String(model || "").trim();
+  return normalized ? [normalized] : [];
+}
+
 export function isLikelyAiModelName(modelName) {
   const normalized = String(modelName || "").trim().toLowerCase();
   if (!normalized || normalized === "human") {
@@ -103,15 +122,33 @@ export function isLikelyAiModelName(modelName) {
   return AI_MODEL_HINTS.some((hint) => normalized.includes(hint));
 }
 
-export function getQuestionSource(question) {
-  const aiGenerated = isLikelyAiModelName(question?.model);
+export function getQuestionSources(question) {
+  const modelNames = normalizeQuestionModelNames(question?.model);
   const humanReviewed = String(question?.validatedBy || "").toLowerCase() === "human";
+  const sources = new Set();
 
-  if (!aiGenerated) {
-    return "human_generated";
+  for (const modelName of modelNames) {
+    const normalizedModelName = modelName.toLowerCase();
+
+    if (HUMAN_MODEL_NAMES.has(normalizedModelName)) {
+      sources.add("human_generated");
+      continue;
+    }
+
+    if (isLikelyAiModelName(normalizedModelName)) {
+      sources.add(humanReviewed ? "ai_human_reviewed" : "ai_unreviewed");
+    }
   }
 
-  return humanReviewed ? "ai_human_reviewed" : "ai_unreviewed";
+  if (sources.size === 0) {
+    sources.add("human_generated");
+  }
+
+  return [...sources];
+}
+
+export function getQuestionSource(question) {
+  return getQuestionSources(question)[0] || "human_generated";
 }
 
 export function questionMatchesSelectedSources(question, selectedSources) {
@@ -119,5 +156,6 @@ export function questionMatchesSelectedSources(question, selectedSources) {
     return false;
   }
 
-  return selectedSources.includes(getQuestionSource(question));
+  const questionSources = new Set(getQuestionSources(question));
+  return selectedSources.some((source) => questionSources.has(source));
 }
