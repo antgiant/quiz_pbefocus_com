@@ -5,6 +5,8 @@ const CHAPTER_BASE_PATH = "questions/v1";
 const YEARS_PATH = "questions/v1/years.json";
 const PRACTICE_YEARS_PATH = "questions/v1/practice-chapters-by-year.json";
 const PRACTICE_BOOKS_PATH = "questions/v1/practice-books.json";
+const NKJV_CHAPTER_API_BASE = "https://bolls.life/get-text/NKJV";
+const NKJV_VERSE_API_BASE = "https://bolls.life/get-verse/NKJV";
 
 function getLocalBundle() {
   return window.PBE_LOCAL_DATA || null;
@@ -20,6 +22,71 @@ function getPracticeBooksBundle() {
 
 function chapterCacheKey(bookId, chapterNumber) {
   return `${bookId}:${chapterNumber}`;
+}
+
+function verseCacheKey(bookId, chapterNumber, verseNumber) {
+  return `${bookId}:${chapterNumber}:${verseNumber}`;
+}
+
+function chapterRequestKey(bookId, chapterNumber) {
+  return `chapter:${chapterCacheKey(bookId, chapterNumber)}`;
+}
+
+function verseRequestKey(bookId, chapterNumber, verseNumber) {
+  return `verse:${verseCacheKey(bookId, chapterNumber, verseNumber)}`;
+}
+
+function extractNumericBookId(bookId) {
+  const numeric = Number(String(bookId || "").split("-")[0]);
+  return Number.isInteger(numeric) && numeric > 0 ? numeric : null;
+}
+
+function parseNkjvVerses(data) {
+  if (!data) {
+    return [];
+  }
+
+  const normalizeEntry = (entry) => ({
+    verse: Number(entry?.verse || entry?.verse_nr || entry?.nr),
+    text: entry?.text || entry?.text_nr || entry?.text_clean || entry?.content || "",
+  });
+
+  if (Array.isArray(data)) {
+    return data
+      .map(normalizeEntry)
+      .filter((verse) => Number.isFinite(verse.verse) && Boolean(verse.text));
+  }
+
+  if (Array.isArray(data.verses)) {
+    return data.verses
+      .map(normalizeEntry)
+      .filter((verse) => Number.isFinite(verse.verse) && Boolean(verse.text));
+  }
+
+  if (data.verses && typeof data.verses === "object") {
+    return Object.entries(data.verses)
+      .map(([key, value]) => ({
+        verse: Number(key),
+        text: typeof value === "string" ? value : value?.text || "",
+      }))
+      .filter((verse) => Number.isFinite(verse.verse) && Boolean(verse.text));
+  }
+
+  if (typeof data === "object") {
+    const verseNumber = Number(data.verse_nr ?? data.nr ?? data.verse);
+    const verseText =
+      data.text ||
+      data.text_nr ||
+      data.text_clean ||
+      data.content ||
+      (typeof data.verse === "string" && !/^\d+$/.test(data.verse) ? data.verse : "");
+
+    if (Number.isFinite(verseNumber) && verseText) {
+      return [{ verse: verseNumber, text: verseText }];
+    }
+  }
+
+  return [];
 }
 
 function normalizeBookKey(value) {
@@ -86,6 +153,122 @@ export class DataService {
   constructor() {
     this.manifest = null;
     this.chapterCache = new Map();
+    this.nkjvChapterCache = new Map();
+    this.nkjvVerseCache = new Map();
+    this.nkjvInFlight = new Map();
+  }
+
+  async loadNkjvChapter(bookId, chapterNumber) {
+    const chapterKey = chapterCacheKey(bookId, chapterNumber);
+    if (this.nkjvChapterCache.has(chapterKey)) {
+      return this.nkjvChapterCache.get(chapterKey);
+    }
+
+    const numericBookId = extractNumericBookId(bookId);
+    if (!numericBookId) {
+      return [];
+    }
+
+    const requestKey = chapterRequestKey(bookId, chapterNumber);
+    if (this.nkjvInFlight.has(requestKey)) {
+      return this.nkjvInFlight.get(requestKey);
+    }
+
+    const request = fetch(`${NKJV_CHAPTER_API_BASE}/${numericBookId}/${chapterNumber}/`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Failed to load NKJV chapter ${bookId} ${chapterNumber}: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((payload) => {
+        const verses = parseNkjvVerses(payload);
+        this.nkjvChapterCache.set(chapterKey, verses);
+
+        for (const verse of verses) {
+          this.nkjvVerseCache.set(
+            verseCacheKey(bookId, chapterNumber, verse.verse),
+            { verse: verse.verse, text: verse.text }
+          );
+        }
+
+        return verses;
+      })
+      .finally(() => {
+        this.nkjvInFlight.delete(requestKey);
+      });
+
+    this.nkjvInFlight.set(requestKey, request);
+    return request;
+  }
+
+  async loadNkjvVerse(bookId, chapterNumber, verseNumber) {
+    const key = verseCacheKey(bookId, chapterNumber, verseNumber);
+    if (this.nkjvVerseCache.has(key)) {
+      return this.nkjvVerseCache.get(key);
+    }
+
+    const chapterKey = chapterCacheKey(bookId, chapterNumber);
+    const cachedChapter = this.nkjvChapterCache.get(chapterKey);
+    if (Array.isArray(cachedChapter) && cachedChapter.length > 0) {
+      const verse = cachedChapter.find((item) => Number(item.verse) === Number(verseNumber));
+      if (verse) {
+        this.nkjvVerseCache.set(key, { verse: verse.verse, text: verse.text });
+        return this.nkjvVerseCache.get(key);
+      }
+    }
+
+    const numericBookId = extractNumericBookId(bookId);
+    if (!numericBookId) {
+      return null;
+    }
+
+    const requestKey = verseRequestKey(bookId, chapterNumber, verseNumber);
+    if (this.nkjvInFlight.has(requestKey)) {
+      return this.nkjvInFlight.get(requestKey);
+    }
+
+    const request = fetch(`${NKJV_VERSE_API_BASE}/${numericBookId}/${chapterNumber}/${verseNumber}/`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(
+            `Failed to load NKJV verse ${bookId} ${chapterNumber}:${verseNumber}: ${response.status}`
+          );
+        }
+        return response.json();
+      })
+      .then((payload) => {
+        const verses = parseNkjvVerses(payload);
+        const verse = verses.find((item) => Number(item.verse) === Number(verseNumber)) || verses[0] || null;
+        if (!verse) {
+          return null;
+        }
+
+        const normalized = { verse: Number(verse.verse), text: verse.text };
+        this.nkjvVerseCache.set(key, normalized);
+        return normalized;
+      })
+      .finally(() => {
+        this.nkjvInFlight.delete(requestKey);
+      });
+
+    this.nkjvInFlight.set(requestKey, request);
+    return request;
+  }
+
+  async preloadNkjvForSelection(bookId, chapterNumber, selectedVerses = null) {
+    if (!Array.isArray(selectedVerses)) {
+      await this.loadNkjvChapter(bookId, chapterNumber);
+      return;
+    }
+
+    if (selectedVerses.length === 0) {
+      return;
+    }
+
+    await Promise.all(
+      selectedVerses.map((verseNumber) => this.loadNkjvVerse(bookId, chapterNumber, verseNumber))
+    );
   }
 
   async loadManifest() {

@@ -214,6 +214,44 @@ function chapterScopeKey(bookId, chapter) {
   return `${bookId}:${chapter}`;
 }
 
+function getSelectedVersesForChapter(bookId, chapter) {
+  const active = getActiveProfile(appState.storage);
+  const selected = active.selectedVerses?.[chapterScopeKey(bookId, chapter)];
+  if (!Array.isArray(selected)) {
+    return null;
+  }
+
+  return selected
+    .map((value) => Number(value))
+    .filter((value) => Number.isInteger(value) && value > 0)
+    .sort((a, b) => a - b);
+}
+
+function scheduleNkjvLoadForChapter(bookId, chapter) {
+  const active = getActiveProfile(appState.storage);
+  const selectedChapters = active.selectedScope?.[bookId] || [];
+  if (!selectedChapters.includes(chapter)) {
+    return;
+  }
+
+  const selectedVerses = getSelectedVersesForChapter(bookId, chapter);
+  if (Array.isArray(selectedVerses) && selectedVerses.length === 0) {
+    return;
+  }
+
+  dataService.preloadNkjvForSelection(bookId, chapter, selectedVerses).catch((error) => {
+    console.warn(`Unable to load NKJV data for ${bookId} ${chapter}`, error);
+  });
+}
+
+function scheduleNkjvLoadsForBook(bookId) {
+  const active = getActiveProfile(appState.storage);
+  const selectedChapters = active.selectedScope?.[bookId] || [];
+  for (const chapter of selectedChapters) {
+    scheduleNkjvLoadForChapter(bookId, chapter);
+  }
+}
+
 function pruneSelectedVersesToScope(selectedVerses, scope) {
   const pruned = {};
 
@@ -558,6 +596,7 @@ function applyChapterVerseSelection(bookId, chapter, mode) {
 
   updateChapterVerseSummary(bookId, chapter);
   syncScopeFromControls();
+  scheduleNkjvLoadForChapter(bookId, chapter);
   queueRealtimeGenerate();
 }
 
@@ -618,6 +657,19 @@ function wireScopeEvents() {
     }
 
     syncScopeFromControls();
+
+    if (target.dataset.role === "book-toggle" && target.checked) {
+      scheduleNkjvLoadsForBook(target.dataset.bookId);
+    }
+
+    if (target.dataset.role === "chapter-toggle" && target.checked) {
+      scheduleNkjvLoadForChapter(target.dataset.bookId, Number(target.dataset.chapter));
+    }
+
+    if (target.dataset.role === "verse-toggle" && target.checked) {
+      scheduleNkjvLoadForChapter(target.dataset.bookId, Number(target.dataset.chapter));
+    }
+
     queueRealtimeGenerate();
   });
 
