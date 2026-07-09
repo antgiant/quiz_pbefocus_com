@@ -166,7 +166,7 @@ function renderControls() {
   );
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
-    limitToSelectedScope: true,
+    scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
     selectedVerses: active.selectedVerses,
   });
@@ -286,7 +286,7 @@ async function refreshScopeSelectorForFilters() {
     renderScopeSelector(el.scopeSelector, appState.manifest, {}, {
       chapterAvailability: new Map(),
       hideUnavailable: true,
-      limitToSelectedScope: true,
+      scopeLimit: getActiveYear()?.scope || {},
       selectorMode: settings.selectorMode,
       selectedVerses: {},
     });
@@ -300,7 +300,7 @@ async function refreshScopeSelectorForFilters() {
 
   if (!shouldFilterAvailability) {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
-      limitToSelectedScope: true,
+      scopeLimit: getActiveYear()?.scope || {},
       selectorMode: settings.selectorMode,
       selectedVerses: active.selectedVerses,
     });
@@ -318,7 +318,7 @@ async function refreshScopeSelectorForFilters() {
   renderScopeSelector(el.scopeSelector, appState.manifest, prunedScope, {
     chapterAvailability: availability,
     hideUnavailable: true,
-    limitToSelectedScope: true,
+    scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
     selectedVerses: prunedSelectedVerses,
   });
@@ -980,7 +980,7 @@ async function bootstrap() {
     }
 
     if (!Object.keys(active.selectedScope).length) {
-      active.selectedScope = structuredClone(appState.years[0].scope);
+      active.selectedScope = structuredClone(getActiveYear()?.scope || {});
     }
 
     renderProfileArea();

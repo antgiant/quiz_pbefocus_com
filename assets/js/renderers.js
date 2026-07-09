@@ -220,7 +220,8 @@ export function renderYearOptionsWithScope(select, years, manifest) {
 export function renderScopeSelector(container, manifest, selectedScope, options = {}) {
   const chapterAvailability = options.chapterAvailability || null;
   const hideUnavailable = Boolean(options.hideUnavailable);
-  const limitToSelectedScope = Boolean(options.limitToSelectedScope);
+  const scopeLimit =
+    options.scopeLimit && typeof options.scopeLimit === "object" ? options.scopeLimit : null;
   const selectedVerses = options.selectedVerses || {};
   const selectorMode = options.selectorMode === "verse" ? "verse" : "chapter";
 
@@ -267,12 +268,16 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
 
   for (const book of manifest.books) {
     const selectedChapters = selectedScope[book.id] || [];
-    if (limitToSelectedScope && selectedChapters.length === 0) {
+    const scopedChapterNumbers = Array.isArray(scopeLimit?.[book.id])
+      ? scopeLimit[book.id]
+      : null;
+
+    if (scopeLimit && (!scopedChapterNumbers || scopedChapterNumbers.length === 0)) {
       continue;
     }
 
-    const chapterPool = limitToSelectedScope
-      ? book.chapters.filter((chapter) => selectedChapters.includes(chapter.number))
+    const chapterPool = scopeLimit
+      ? book.chapters.filter((chapter) => scopedChapterNumbers.includes(chapter.number))
       : book.chapters;
 
     const visibleChapters = book.chapters.filter((chapter) => {
