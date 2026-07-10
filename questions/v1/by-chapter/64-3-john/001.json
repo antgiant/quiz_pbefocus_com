@@ -17,9 +17,11 @@
       "originalIds": [
         "64-001-001-001-bae1d627"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-001-001-01467e4b",
@@ -34,9 +36,11 @@
       "originalIds": [
         "64-001-001-001-ff11bfaf"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-001-001-eaa46f55",
@@ -51,9 +55,11 @@
       "originalIds": [
         "64-001-001-001-80e9489a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-001-001-3a1da908",
@@ -68,9 +74,11 @@
       "originalIds": [
         "64-001-001-001-14fed52d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-001-001-2ffd6659",
@@ -85,9 +93,11 @@
       "originalIds": [
         "64-001-001-001-57f26e1f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-002-002-831fea74",
@@ -102,9 +112,11 @@
       "originalIds": [
         "64-001-002-002-56785fad"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-002-002-5a72b56a",
@@ -119,9 +131,11 @@
       "originalIds": [
         "64-001-002-002-3c5a5c35"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-002-002-6d75c96d",
@@ -136,9 +150,11 @@
       "originalIds": [
         "64-001-002-002-1f51b806"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-002-002-ebabadd0",
@@ -153,9 +169,11 @@
       "originalIds": [
         "64-001-002-002-da2eadbc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-003-003-1383e9fa",
@@ -171,8 +189,10 @@
         "64-001-003-003-573917a6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-003-003-7c2ad5cf",
@@ -188,8 +208,10 @@
         "64-001-003-003-a922642b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-003-003-1a9d08d6",
@@ -205,8 +227,10 @@
         "64-001-003-003-1dbcc9f6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-004-004-99f401ef",
@@ -222,8 +246,10 @@
         "64-001-004-004-b1f75b38"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-004-004-05754f81",
@@ -239,8 +265,10 @@
         "64-001-004-004-db452bac"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-005-005-8e50df35",
@@ -256,8 +284,10 @@
         "64-001-005-005-7b364e78"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-005-005-75f2de05",
@@ -273,8 +303,10 @@
         "64-001-005-005-cfe73e43"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-005-005-efcd2c0e",
@@ -290,8 +322,10 @@
         "64-001-005-005-26370e7f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-006-006-65fd39b3",
@@ -307,8 +341,10 @@
         "64-001-006-006-ca8362d0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-006-006-10f1d509",
@@ -324,8 +360,10 @@
         "64-001-006-006-aa91ae73"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-006-006-9f348630",
@@ -341,8 +379,10 @@
         "64-001-006-006-ac6c7938"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-007-007-f3658229",
@@ -358,8 +398,10 @@
         "64-001-007-007-56c95dfc"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-007-007-bf167eba",
@@ -375,8 +417,10 @@
         "64-001-007-007-694e23f1"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-008-008-22969c48",
@@ -392,8 +436,10 @@
         "64-001-008-008-da9b6d1a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-008-008-92543ba3",
@@ -409,8 +455,10 @@
         "64-001-008-008-ed521148"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-009-009-e31671dc",
@@ -426,8 +474,10 @@
         "64-001-009-009-e5a6bbca"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-009-009-3a0b8d22",
@@ -443,8 +493,10 @@
         "64-001-009-009-e5d4b54b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-009-009-e60c363c",
@@ -460,8 +512,10 @@
         "64-001-009-009-86a84847"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-009-009-4c5268ca",
@@ -477,8 +531,10 @@
         "64-001-009-009-2d13ecbc"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-010-010-a8939f7f",
@@ -494,8 +550,10 @@
         "64-001-010-010-c878d84f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-010-010-04065c2c",
@@ -511,8 +569,10 @@
         "64-001-010-010-8371ac20"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-010-010-a4f95daf",
@@ -528,8 +588,10 @@
         "64-001-010-010-b7a4a0b1"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-010-010-ac5d7d07",
@@ -545,8 +607,10 @@
         "64-001-010-010-045e0e99"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-011-011-c0df2262",
@@ -562,8 +626,10 @@
         "64-001-011-011-43991859"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-011-011-6fd3d6bd",
@@ -579,8 +645,10 @@
         "64-001-011-011-9b8c78dc"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-011-011-cbd08b0a",
@@ -596,8 +664,10 @@
         "64-001-011-011-42b235f3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-011-011-3667a4a8",
@@ -613,8 +683,10 @@
         "64-001-011-011-0fb36733"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-012-012-b438e668",
@@ -630,8 +702,10 @@
         "64-001-012-012-c70f0a7c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-012-012-1b104617",
@@ -647,8 +721,10 @@
         "64-001-012-012-5f9e6b99"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-012-012-a03fa338",
@@ -664,8 +740,10 @@
         "64-001-012-012-94e3bddd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-012-012-1c1bf711",
@@ -681,8 +759,10 @@
         "64-001-012-012-7cbc2eb2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-012-012-70bee0a9",
@@ -698,8 +778,10 @@
         "64-001-012-012-b26fd2a4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-013-013-19af745c",
@@ -715,8 +797,10 @@
         "64-001-013-013-5ceb7b54"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-013-013-6fd6524d",
@@ -732,8 +816,10 @@
         "64-001-013-013-35abf841"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-014-014-30d4ea6a",
@@ -749,8 +835,10 @@
         "64-001-014-014-bc4c299f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-014-014-17292b65",
@@ -766,8 +854,10 @@
         "64-001-014-014-b2df2782"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-014-014-d0c47b84",
@@ -783,8 +873,10 @@
         "64-001-014-014-3d39b0b5"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-014-014-f0a0b450",
@@ -800,8 +892,10 @@
         "64-001-014-014-ea2d2f5a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "64-001-014-014-be5267de",
@@ -817,8 +911,10 @@
         "64-001-014-014-eafac5f4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     }
   ],
   "byVerse": {

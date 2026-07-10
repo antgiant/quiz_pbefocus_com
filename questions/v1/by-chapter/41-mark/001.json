@@ -17,9 +17,11 @@
       "originalIds": [
         "41-001-001-001-2fc08b85"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-001-001-feb776c8",
@@ -34,9 +36,11 @@
       "originalIds": [
         "41-001-001-001-2e6e28bc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-001-001-3c7b56e3",
@@ -51,9 +55,11 @@
       "originalIds": [
         "41-001-001-001-3c7b56e3"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-001-001-6c3ce326",
@@ -69,8 +75,29 @@
         "41-001-001-001-adb571bf"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-001-001-a6c038d6",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 1:1, what part of the gospel is it? What are the Owner's two names in this verse? Be specific.",
+      "answer": "The beginning, Jesus Christ, the Son of God",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-001-001-a6c038d6"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-001-001-dc93ca05",
@@ -86,8 +113,10 @@
         "41-001-001-001-c2cdbbcb"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-002-002-419d4bfb",
@@ -103,12 +132,14 @@
         "41-001-002-002-fc152d5b",
         "41-001-002-002-e9620aa5"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-002-002-ea5fba08",
@@ -124,12 +155,33 @@
         "41-001-002-002-38f536ab",
         "41-001-002-002-e609a5ba"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-002-002-136a3c00",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 1:2, things happen as it is written where? Who is sent, and where are they sent? What will he prepare?",
+      "answer": "In the Prophets, My messenger, before Your face, Your way",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-002-002-136a3c00"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-002-002-8cb85f42",
@@ -144,9 +196,14 @@
       "originalIds": [
         "41-001-002-002-169945cb"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-002-002-e3c7fdb2",
@@ -161,9 +218,11 @@
       "originalIds": [
         "41-001-002-002-e3c7fdb2"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-002-002-08bba1e0",
@@ -178,9 +237,11 @@
       "originalIds": [
         "41-001-002-002-fe06d8c1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-002-002-d1bc1bdb",
@@ -195,9 +256,11 @@
       "originalIds": [
         "41-001-002-002-b996af15"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-a47e47da",
@@ -213,12 +276,14 @@
         "41-001-003-003-18013379",
         "41-001-003-003-92f6d18f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-c92fbef2",
@@ -234,12 +299,14 @@
         "41-001-003-003-84d90180",
         "41-001-003-003-82e7ab6a"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-b0582921",
@@ -254,9 +321,30 @@
       "originalIds": [
         "41-001-003-003-89fbd5da"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-003-003-9f24a862",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 1:3, what was crying (meaning shouting)? Where was it crying? What two things was it crying for the people to do?",
+      "answer": "The voice of one, in the wilderness, prepare the way of the LORD, make His paths straight",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-003-003-9f24a862"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-ca8db296",
@@ -271,9 +359,11 @@
       "originalIds": [
         "41-001-003-003-7146202c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-b6582cad",
@@ -288,9 +378,11 @@
       "originalIds": [
         "41-001-003-003-b6582cad"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-003-003-a70e2872",
@@ -305,9 +397,11 @@
       "originalIds": [
         "41-001-003-003-c7adf905"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-004-004-086bfbc4",
@@ -322,9 +416,11 @@
       "originalIds": [
         "41-001-004-004-086bfbc4"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-004-004-88081a9d",
@@ -340,9 +436,30 @@
         "41-001-004-004-7d0920d2",
         "41-001-004-004-88081a9d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-004-004-5ddafc57",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, what two things did John do? Where did he do the first thing? The second thing was about what?",
+      "answer": "Baptizing and preaching, the wilderness, a baptism of repentance",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-004-004-5ddafc57"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-004-004-eea49d98",
@@ -358,9 +475,11 @@
         "41-001-004-004-df972a0f",
         "41-001-004-004-eea49d98"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-004-004-68794ae2",
@@ -375,9 +494,11 @@
       "originalIds": [
         "41-001-004-004-5b2c983a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-004-004-134b5303",
@@ -392,9 +513,11 @@
       "originalIds": [
         "41-001-004-004-8cd7c252"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-005-005-cfbcf204",
@@ -409,9 +532,11 @@
       "originalIds": [
         "41-001-005-005-7469395f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-005-005-63e99a42",
@@ -426,9 +551,11 @@
       "originalIds": [
         "41-001-005-005-e5a3f4a1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-005-005-23071a15",
@@ -443,9 +570,14 @@
       "originalIds": [
         "41-001-005-005-d2a789f1"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-005-005-2d0a4080",
@@ -460,9 +592,30 @@
       "originalIds": [
         "41-001-005-005-93e0c501"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-005-005-9ee55806",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 1:5, who went out to him (John the Baptist)? Where was John? What was John doing to the people, and what were the people doing?",
+      "answer": "All the land of Judea, those from Jerusalem, the Jordan River, baptizing them, confessing their sins",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-001-005-005-9ee55806"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-006-006-ad0dfe4e",
@@ -477,9 +630,11 @@
       "originalIds": [
         "41-001-006-006-78e888e6"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-006-006-0750d892",
@@ -494,9 +649,11 @@
       "originalIds": [
         "41-001-006-006-3b1c894c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-006-006-a97bb94f",
@@ -512,12 +669,14 @@
         "41-001-006-006-e9eb274c",
         "41-001-006-006-644cdec0"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-006-006-53651aed",
@@ -532,9 +691,11 @@
       "originalIds": [
         "41-001-006-006-53651aed"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-006-006-eaae3ef9",
@@ -549,9 +710,49 @@
       "originalIds": [
         "41-001-006-006-e11fa7ca"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-006-006-a732c3e3",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, what was John clothed with? And what did he eat?",
+      "answer": "Camel's hair, a leather belt, locusts, wild honey",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-006-006-a732c3e3"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-007-007-b3cc0fd7",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 1:7, John says he is not worthy to do what? How does John describe the One who comes after him?",
+      "answer": "Stoop down and loose His sandal strap, mightier than I",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-007-007-b3cc0fd7"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-d48573da",
@@ -566,9 +767,11 @@
       "originalIds": [
         "41-001-007-007-9e701c2b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-cb1d6dec",
@@ -584,12 +787,14 @@
         "41-001-007-007-45c7c39b",
         "41-001-007-007-44d4c0ac"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-143d8504",
@@ -604,9 +809,11 @@
       "originalIds": [
         "41-001-007-007-143d8504"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-d8f6ff19",
@@ -622,12 +829,14 @@
         "41-001-007-007-b5eecc91",
         "41-001-007-007-61bb3221"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-916dfb8b",
@@ -642,9 +851,11 @@
       "originalIds": [
         "41-001-007-007-1fdf0b0a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-007-007-94fec429",
@@ -659,9 +870,14 @@
       "originalIds": [
         "41-001-007-007-c3cbfd41"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-008-008-1c352ffa",
@@ -676,9 +892,30 @@
       "originalIds": [
         "41-001-008-008-8b039e9e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-008-008-1a3e43af",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 1:8, what does Jesus baptize with? What does John baptize with?",
+      "answer": "The Holy Spirit, water",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-008-008-1a3e43af"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "easy",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-008-008-35e4a458",
@@ -693,9 +930,11 @@
       "originalIds": [
         "41-001-008-008-0f33b9f7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-008-008-6d57bc4d",
@@ -711,12 +950,14 @@
         "41-001-008-008-2ad8d119",
         "41-001-008-008-67f2e275"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-008-008-c0458c62",
@@ -731,9 +972,33 @@
       "originalIds": [
         "41-001-008-008-42257971"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
+    },
+    {
+      "id": "41-001-009-009-c085f5cf",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, Jesus and John were where? What city and region had Jesus come from? For what purpose?",
+      "answer": "The Jordan, Nazareth of Galilee, to be baptized",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-009-009-c085f5cf"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-009-009-b75c5bfb",
@@ -748,9 +1013,11 @@
       "originalIds": [
         "41-001-009-009-a9669226"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-009-009-e0d3f04b",
@@ -765,26 +1032,11 @@
       "originalIds": [
         "41-001-009-009-5b0e2570"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-001-009-009-f2a93d8f",
-      "ref": {
-        "startVerse": 9,
-        "endVerse": 9
-      },
-      "question": "According to Mark 1:9, where did Jesus come from and where was He?",
-      "answer": "Nazareth of Galilee; in the Jordan",
-      "type": "list",
-      "points": 2,
-      "originalIds": [
-        "41-001-009-009-57be0170"
-      ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-009-009-8d9be86c",
@@ -799,9 +1051,33 @@
       "originalIds": [
         "41-001-009-009-41bc3439"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-009-009-f2a93d8f",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 1:9, where did Jesus come from and where was He?",
+      "answer": "Nazareth of Galilee; in the Jordan",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-009-009-57be0170"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-009-009-c251aa8a",
@@ -816,9 +1092,11 @@
       "originalIds": [
         "41-001-009-009-c251aa8a"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-009-009-5bacf6c7",
@@ -833,9 +1111,11 @@
       "originalIds": [
         "41-001-009-009-fb08bd07"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-07b3a26f",
@@ -850,9 +1130,11 @@
       "originalIds": [
         "41-001-010-010-dd9f5a08"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-bf8f8b87",
@@ -867,9 +1149,11 @@
       "originalIds": [
         "41-001-010-010-bf8f8b87"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-8a04fd8f",
@@ -884,9 +1168,11 @@
       "originalIds": [
         "41-001-010-010-8a04fd8f"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-e71de1bd",
@@ -902,12 +1188,33 @@
         "41-001-010-010-1a9f4caf",
         "41-001-010-010-48badc74"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-010-010-eda936e2",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, what did Jesus see? When did He see it? He saw it while what was happening?",
+      "answer": "The heavens parting, the Spirit descending upon Him, immediately, coming up from the water",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-010-010-eda936e2"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-12a008e6",
@@ -922,9 +1229,11 @@
       "originalIds": [
         "41-001-010-010-57dae067"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-010-010-85b1cb93",
@@ -939,9 +1248,30 @@
       "originalIds": [
         "41-001-010-010-1737c94d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-011-011-fa885704",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 1:11, what came from heaven? What was said? Be specific.",
+      "answer": "A voice, \"You are My beloved Son, in whom I am well pleased.\"",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-011-011-fa885704"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-011-011-a2e5b9ee",
@@ -956,9 +1286,11 @@
       "originalIds": [
         "41-001-011-011-27afca84"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-011-011-b5cf2e2e",
@@ -973,9 +1305,14 @@
       "originalIds": [
         "41-001-011-011-8fc9b6ff"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-011-011-1a1a7186",
@@ -991,12 +1328,14 @@
         "41-001-011-011-faa52e61",
         "41-001-011-011-fa7dd1e4"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-011-011-d790bb31",
@@ -1011,9 +1350,11 @@
       "originalIds": [
         "41-001-011-011-d790bb31"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-011-011-ac2a850d",
@@ -1028,9 +1369,11 @@
       "originalIds": [
         "41-001-011-011-1de3d913"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-012-012-927d4f80",
@@ -1045,9 +1388,30 @@
       "originalIds": [
         "41-001-012-012-c0b97962"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-012-012-6ed4f291",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 1:12, what was done to Jesus, and where did He go? When did He go?",
+      "answer": "The Spirit drove Him, into the wilderness, immediately",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-012-012-6ed4f291"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-012-012-0406489f",
@@ -1062,26 +1426,11 @@
       "originalIds": [
         "41-001-012-012-1dd37826"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-001-012-012-0ffc04e4",
-      "ref": {
-        "startVerse": 12,
-        "endVerse": 12
-      },
-      "question": "According to Mark 1:12, where was He driven, who drove Him, and when did this happen?",
-      "answer": "into the wilderness; the Spirit; Immediately",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-001-012-012-a8bf0f7b"
-      ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-012-012-0ab4dcec",
@@ -1096,9 +1445,33 @@
       "originalIds": [
         "41-001-012-012-d3fb40ae"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-012-012-0ffc04e4",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 1:12, where was He driven, who drove Him, and when did this happen?",
+      "answer": "into the wilderness; the Spirit; Immediately",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-012-012-a8bf0f7b"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-012-012-7530b9a7",
@@ -1113,9 +1486,11 @@
       "originalIds": [
         "41-001-012-012-7530b9a7"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-013-013-7c2c7e65",
@@ -1130,9 +1505,11 @@
       "originalIds": [
         "41-001-013-013-611d9cc1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-013-013-6991fdc6",
@@ -1147,9 +1524,30 @@
       "originalIds": [
         "41-001-013-013-a7bfd319"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-013-013-22952cfd",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, what was done to Jesus? Who or what was with Jesus in the wilderness? Jesus was there for how long?",
+      "answer": "He was tempted and ministered to, Satan, the wild beasts, angels, 40 days",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-001-013-013-22952cfd"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-013-013-7a39e74f",
@@ -1165,12 +1563,14 @@
         "41-001-013-013-ddd2c078",
         "41-001-013-013-86958915"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-013-013-45d78342",
@@ -1185,9 +1585,14 @@
       "originalIds": [
         "41-001-013-013-8572946e"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-013-013-5d95426d",
@@ -1202,9 +1607,11 @@
       "originalIds": [
         "41-001-013-013-fa788fde"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-013-013-6de99411",
@@ -1219,9 +1626,11 @@
       "originalIds": [
         "41-001-013-013-ce9a5cac"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-014-014-eeacda43",
@@ -1236,9 +1645,11 @@
       "originalIds": [
         "41-001-014-014-3634810b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-014-014-909127e9",
@@ -1254,12 +1665,14 @@
         "41-001-014-014-fadddc9d",
         "41-001-014-014-5b628803"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-014-014-fb58b3b1",
@@ -1274,9 +1687,11 @@
       "originalIds": [
         "41-001-014-014-fb58b3b1"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-014-014-fafa8c9f",
@@ -1291,9 +1706,49 @@
       "originalIds": [
         "41-001-014-014-4551e07d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-014-014-bb9c7073",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 1:14, where did Jesus go? What was Jesus doing? He did this after what had happened?",
+      "answer": "Galilee, preaching the gospel, John was put in prison",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-014-014-bb9c7073"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-015-015-e1e6d37b",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 1:15, Jesus was saying that what was fulfilled, and that what was at hand? Jesus told them to do what two things?",
+      "answer": "The time, the kingdom of God, repent and believe in the gospel",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-001-015-015-e1e6d37b"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-015-015-e8ffac31",
@@ -1308,9 +1763,11 @@
       "originalIds": [
         "41-001-015-015-7adee450"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-015-015-6085afa8",
@@ -1325,9 +1782,11 @@
       "originalIds": [
         "41-001-015-015-5e14ad34"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-015-015-57229029",
@@ -1342,9 +1801,11 @@
       "originalIds": [
         "41-001-015-015-1ea70169"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-015-015-45d04af0",
@@ -1359,9 +1820,11 @@
       "originalIds": [
         "41-001-015-015-45d04af0"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-016-016-17a51b80",
@@ -1376,9 +1839,11 @@
       "originalIds": [
         "41-001-016-016-04089155"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-016-016-38ae6f03",
@@ -1393,9 +1858,11 @@
       "originalIds": [
         "41-001-016-016-6450c7fb"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-016-016-bb37bc44",
@@ -1410,9 +1877,11 @@
       "originalIds": [
         "41-001-016-016-bb37bc44"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-016-016-35b328d7",
@@ -1427,9 +1896,30 @@
       "originalIds": [
         "41-001-016-016-f60e1521"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-016-016-78af182b",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 1:16, who were the fishermen, and what were they doing? What was Jesus doing, and where was He?",
+      "answer": "Simon and Andrew, casting a net into the sea, walking, by the Sea of Galilee",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-001-016-016-78af182b"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-016-016-ed82a8ac",
@@ -1444,9 +1934,11 @@
       "originalIds": [
         "41-001-016-016-52128495"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-017-017-873aa655",
@@ -1461,9 +1953,11 @@
       "originalIds": [
         "41-001-017-017-873aa655"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-017-017-1dfb1101",
@@ -1478,9 +1972,11 @@
       "originalIds": [
         "41-001-017-017-d39398fc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-017-017-6dec4b70",
@@ -1495,9 +1991,30 @@
       "originalIds": [
         "41-001-017-017-d33babb1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-017-017-f36112f1",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 1:17, what were the disciples to do to Jesus, and what would Jesus do to the disciples?",
+      "answer": "Follow Him, make them become fishers of men",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-017-017-f36112f1"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-017-017-f6430e29",
@@ -1512,9 +2029,11 @@
       "originalIds": [
         "41-001-017-017-f6430e29"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-017-017-4e5d31aa",
@@ -1529,9 +2048,11 @@
       "originalIds": [
         "41-001-017-017-9b371225"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-018-018-59b80401",
@@ -1546,9 +2067,30 @@
       "originalIds": [
         "41-001-018-018-1459a9da"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-018-018-54e2bbe7",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 1:18, what did the fishermen do, and when did they do it?",
+      "answer": "Left their nets, followed Him (Jesus), immediately",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-018-018-54e2bbe7"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-018-018-98190715",
@@ -1563,9 +2105,11 @@
       "originalIds": [
         "41-001-018-018-c7cea530"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-018-018-352c703b",
@@ -1580,9 +2124,11 @@
       "originalIds": [
         "41-001-018-018-352c703b"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-018-018-c9067394",
@@ -1597,9 +2143,11 @@
       "originalIds": [
         "41-001-018-018-c9067394"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-019-019-e59f7ab5",
@@ -1614,9 +2162,11 @@
       "originalIds": [
         "41-001-019-019-7ef8e76d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-019-019-0af9237d",
@@ -1631,9 +2181,11 @@
       "originalIds": [
         "41-001-019-019-4d2dbf71"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-019-019-6ce75ed0",
@@ -1648,9 +2200,11 @@
       "originalIds": [
         "41-001-019-019-6ce75ed0"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-019-019-22544c38",
@@ -1665,9 +2219,30 @@
       "originalIds": [
         "41-001-019-019-f96d012a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-019-019-1acf5b56",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, who did Jesus see? What was their relationship to each other, and who was their father? What were they doing when Jesus saw them?",
+      "answer": "James and John, brothers, Zebedee, in the boat mending their nets",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-001-019-019-1acf5b56"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-019-019-5694b27d",
@@ -1682,9 +2257,11 @@
       "originalIds": [
         "41-001-019-019-a56f366e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-020-020-e6eea00d",
@@ -1699,9 +2276,11 @@
       "originalIds": [
         "41-001-020-020-b496cc35"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-020-020-64e1a022",
@@ -1717,12 +2296,14 @@
         "41-001-020-020-8fff5ce2",
         "41-001-020-020-9e5f4ed1"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-020-020-6a002725",
@@ -1738,12 +2319,14 @@
         "41-001-020-020-3279a9c5",
         "41-001-020-020-36d3332e"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-020-020-2d9580fc",
@@ -1758,9 +2341,30 @@
       "originalIds": [
         "41-001-020-020-70d8a362"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-020-020-93ee2a64",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, who was left in the boat? Be specific.",
+      "answer": "Zebedee and the hired servants",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-020-020-93ee2a64"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-020-020-56de9e8b",
@@ -1775,9 +2379,11 @@
       "originalIds": [
         "41-001-020-020-56de9e8b"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-021-021-bef08ea4",
@@ -1792,9 +2398,11 @@
       "originalIds": [
         "41-001-021-021-fa639562"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-021-021-7befc63c",
@@ -1809,9 +2417,11 @@
       "originalIds": [
         "41-001-021-021-9599a691"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-021-021-9ef017b8",
@@ -1827,12 +2437,14 @@
         "41-001-021-021-4eaabeb8",
         "41-001-021-021-2235509b"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-021-021-6b0f3b24",
@@ -1847,26 +2459,11 @@
       "originalIds": [
         "41-001-021-021-6b0f3b24"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
-    },
-    {
-      "id": "41-001-021-021-4b4bb386",
-      "ref": {
-        "startVerse": 21,
-        "endVerse": 21
-      },
-      "question": "According to Mark 1:21, when did He enter the synagogue?",
-      "answer": "on the Sabbath",
-      "type": "when",
-      "points": 1,
-      "originalIds": [
-        "41-001-021-021-34cfd829"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-021-021-56e7fb9d",
@@ -1881,9 +2478,33 @@
       "originalIds": [
         "41-001-021-021-d5c9e182"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
+    },
+    {
+      "id": "41-001-021-021-4b4bb386",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, when did He enter the synagogue?",
+      "answer": "on the Sabbath",
+      "type": "when",
+      "points": 1,
+      "originalIds": [
+        "41-001-021-021-34cfd829"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-022-022-5c05275a",
@@ -1898,9 +2519,11 @@
       "originalIds": [
         "41-001-022-022-f775e7cc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-022-022-5805639a",
@@ -1915,9 +2538,11 @@
       "originalIds": [
         "41-001-022-022-5805639a"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-022-022-f3cc2be9",
@@ -1932,9 +2557,11 @@
       "originalIds": [
         "41-001-022-022-093c38c0"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-022-022-5f6b850d",
@@ -1949,9 +2576,11 @@
       "originalIds": [
         "41-001-022-022-5f6b850d"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-022-022-7e1ab8f9",
@@ -1967,12 +2596,14 @@
         "41-001-022-022-8f738be3",
         "41-001-022-022-988f48a4"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-023-023-a6ff7f5f",
@@ -1987,9 +2618,11 @@
       "originalIds": [
         "41-001-023-023-a6ff7f5f"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-023-023-f8640e74",
@@ -2004,9 +2637,11 @@
       "originalIds": [
         "41-001-023-023-9ecc8024"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-023-023-749adc8e",
@@ -2021,9 +2656,11 @@
       "originalIds": [
         "41-001-023-023-4f8bb176"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-023-023-899a0b13",
@@ -2038,9 +2675,11 @@
       "originalIds": [
         "41-001-023-023-899a0b13"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-023-023-dfb39c94",
@@ -2055,9 +2694,11 @@
       "originalIds": [
         "41-001-023-023-05d37a73"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-024-024-a37a8c58",
@@ -2072,9 +2713,11 @@
       "originalIds": [
         "41-001-024-024-22fea773"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-024-024-32deece4",
@@ -2089,9 +2732,11 @@
       "originalIds": [
         "41-001-024-024-32deece4"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-024-024-e5085e71",
@@ -2106,9 +2751,11 @@
       "originalIds": [
         "41-001-024-024-79861e42"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-024-024-6c24f7b8",
@@ -2124,12 +2771,14 @@
         "41-001-024-024-e12c38e9",
         "41-001-024-024-d4498502"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-024-024-8ff11b7a",
@@ -2144,9 +2793,11 @@
       "originalIds": [
         "41-001-024-024-bb0647cc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-025-025-d854b4ed",
@@ -2161,9 +2812,14 @@
       "originalIds": [
         "41-001-025-025-300ccc92"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-025-025-0050664f",
@@ -2178,9 +2834,11 @@
       "originalIds": [
         "41-001-025-025-c18f438a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-025-025-caead9a4",
@@ -2195,9 +2853,11 @@
       "originalIds": [
         "41-001-025-025-a22cefc7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-025-025-b33d32fb",
@@ -2213,12 +2873,14 @@
         "41-001-025-025-8e4fee63",
         "41-001-025-025-da2f9229"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-026-026-2c5d0a5b",
@@ -2233,9 +2895,11 @@
       "originalIds": [
         "41-001-026-026-2c5d0a5b"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-026-026-ceb4a759",
@@ -2250,9 +2914,11 @@
       "originalIds": [
         "41-001-026-026-9be99d3f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-026-026-c1bca3cf",
@@ -2267,9 +2933,11 @@
       "originalIds": [
         "41-001-026-026-408a97be"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-026-026-5ff8d1e6",
@@ -2284,9 +2952,11 @@
       "originalIds": [
         "41-001-026-026-ce7ff9a3"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-026-026-5d746070",
@@ -2301,9 +2971,11 @@
       "originalIds": [
         "41-001-026-026-8e758f6a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-027-027-e3e46726",
@@ -2318,9 +2990,11 @@
       "originalIds": [
         "41-001-027-027-ecc648af"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-027-027-1d47c97a",
@@ -2335,9 +3009,14 @@
       "originalIds": [
         "41-001-027-027-c40b345a"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-027-027-9acea5b9",
@@ -2352,9 +3031,11 @@
       "originalIds": [
         "41-001-027-027-1ddceea0"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-027-027-aeb468f9",
@@ -2370,12 +3051,14 @@
         "41-001-027-027-940ebde6",
         "41-001-027-027-11975f77"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-027-027-2cb18478",
@@ -2391,12 +3074,14 @@
         "41-001-027-027-2fcdb628",
         "41-001-027-027-49a997a8"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-027-027-f4280047",
@@ -2411,60 +3096,11 @@
       "originalIds": [
         "41-001-027-027-b4e81b10"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-001-028-028-c10c80da",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 1:28, what happened immediately following the event?",
-      "answer": "His fame spread",
-      "type": "what",
-      "points": 1,
-      "originalIds": [
-        "41-001-028-028-9ee6250f"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
-    },
-    {
-      "id": "41-001-028-028-3aae8c3b",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 1:28, what spread and where?",
-      "answer": "His fame; throughout all the region around Galilee",
-      "type": "list",
-      "points": 2,
-      "originalIds": [
-        "41-001-028-028-3aae8c3b"
-      ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
-    },
-    {
-      "id": "41-001-028-028-a0bb0f11",
-      "ref": {
-        "startVerse": 28,
-        "endVerse": 28
-      },
-      "question": "According to Mark 1:28, where did His fame spread throughout? (be specific)",
-      "answer": "all the region around Galilee",
-      "type": "where",
-      "points": 1,
-      "originalIds": [
-        "41-001-028-028-661afb7a"
-      ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-028-028-c7c22aec",
@@ -2479,9 +3115,71 @@
       "originalIds": [
         "41-001-028-028-bc468aff"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
+    },
+    {
+      "id": "41-001-028-028-c10c80da",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, what happened immediately following the event?",
+      "answer": "His fame spread",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-028-028-9ee6250f"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-028-028-3aae8c3b",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, what spread and where?",
+      "answer": "His fame; throughout all the region around Galilee",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-028-028-3aae8c3b"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-028-028-a0bb0f11",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, where did His fame spread throughout? (be specific)",
+      "answer": "all the region around Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-028-028-661afb7a"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-029-029-8468b420",
@@ -2496,9 +3194,11 @@
       "originalIds": [
         "41-001-029-029-a496af5b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-029-029-0626f063",
@@ -2513,9 +3213,11 @@
       "originalIds": [
         "41-001-029-029-751be447"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-029-029-503e2d6a",
@@ -2530,9 +3232,11 @@
       "originalIds": [
         "41-001-029-029-84e53512"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-029-029-e7737686",
@@ -2547,9 +3251,11 @@
       "originalIds": [
         "41-001-029-029-e7737686"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-029-029-3df115b7",
@@ -2565,9 +3271,11 @@
         "41-001-029-029-d3ed7a67",
         "41-001-029-029-3df115b7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-030-030-77726f69",
@@ -2583,9 +3291,11 @@
         "41-001-030-030-ad0c9ed0",
         "41-001-030-030-77726f69"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-030-030-da03e8a5",
@@ -2600,9 +3310,11 @@
       "originalIds": [
         "41-001-030-030-3b511ccb"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-030-030-b54772bb",
@@ -2617,9 +3329,11 @@
       "originalIds": [
         "41-001-030-030-b54772bb"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-030-030-bd4f3910",
@@ -2634,9 +3348,11 @@
       "originalIds": [
         "41-001-030-030-4aef2f5d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-1b6933b0",
@@ -2651,9 +3367,11 @@
       "originalIds": [
         "41-001-031-031-ed93693d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-e2433e0d",
@@ -2668,9 +3386,11 @@
       "originalIds": [
         "41-001-031-031-1f8bcb70"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-da9ef14e",
@@ -2685,9 +3405,11 @@
       "originalIds": [
         "41-001-031-031-da9ef14e"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-e203b541",
@@ -2702,9 +3424,11 @@
       "originalIds": [
         "41-001-031-031-4310cb31"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-2a7c51e9",
@@ -2719,9 +3443,11 @@
       "originalIds": [
         "41-001-031-031-2a7c51e9"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-031-031-3cfb5607",
@@ -2737,12 +3463,14 @@
         "41-001-031-031-241bac90",
         "41-001-031-031-8d716667"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-032-032-42fa84df",
@@ -2757,9 +3485,11 @@
       "originalIds": [
         "41-001-032-032-42fa84df"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-032-032-16e5b550",
@@ -2774,9 +3504,11 @@
       "originalIds": [
         "41-001-032-032-675dc751"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-032-032-43e0d3ec",
@@ -2791,9 +3523,11 @@
       "originalIds": [
         "41-001-032-032-415b1cf1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-032-032-f0fcaa1a",
@@ -2809,9 +3543,11 @@
         "41-001-032-032-6188171b",
         "41-001-032-032-f0fcaa1a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-032-032-3568db42",
@@ -2826,26 +3562,11 @@
       "originalIds": [
         "41-001-032-032-3568db42"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
-    },
-    {
-      "id": "41-001-033-033-1d5da98a",
-      "ref": {
-        "startVerse": 33,
-        "endVerse": 33
-      },
-      "question": "According to Mark 1:33, who was doing what, where?",
-      "answer": "the whole city, gathered together, at the door",
-      "type": "list",
-      "points": 3,
-      "originalIds": [
-        "41-001-033-033-45e09898"
-      ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-033-033-f90f4ef2",
@@ -2860,9 +3581,11 @@
       "originalIds": [
         "41-001-033-033-d42d6569"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-033-033-8c04e56b",
@@ -2878,12 +3601,36 @@
         "41-001-033-033-9bb8c99b",
         "41-001-033-033-6250d3bf"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-033-033-1d5da98a",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 1:33, who was doing what, where?",
+      "answer": "the whole city, gathered together, at the door",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-001-033-033-45e09898"
+      ],
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-033-033-03cd26ce",
@@ -2898,9 +3645,11 @@
       "originalIds": [
         "41-001-033-033-03cd26ce"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-034-034-1020a36b",
@@ -2915,9 +3664,11 @@
       "originalIds": [
         "41-001-034-034-c8c81905"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-034-034-78aa9db1",
@@ -2933,12 +3684,14 @@
         "41-001-034-034-66f5b35a",
         "41-001-034-034-7ac1fe44"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-034-034-4fec739d",
@@ -2953,9 +3706,14 @@
       "originalIds": [
         "41-001-034-034-6d6b429a"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-034-034-fec522c4",
@@ -2971,12 +3729,14 @@
         "41-001-034-034-c03d016e",
         "41-001-034-034-efec6c01"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-034-034-ac874f01",
@@ -2991,9 +3751,11 @@
       "originalIds": [
         "41-001-034-034-9758f0e7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-034-034-9bede8a2",
@@ -3008,9 +3770,14 @@
       "originalIds": [
         "41-001-034-034-0344fb53"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-035-035-caad610f",
@@ -3025,9 +3792,11 @@
       "originalIds": [
         "41-001-035-035-6c2c563e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-035-035-2ac6bd70",
@@ -3042,9 +3811,14 @@
       "originalIds": [
         "41-001-035-035-92a1579e"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-035-035-c03ef394",
@@ -3059,9 +3833,11 @@
       "originalIds": [
         "41-001-035-035-b23c79da"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-035-035-a33c600b",
@@ -3076,9 +3852,11 @@
       "originalIds": [
         "41-001-035-035-c12e2526"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-035-035-cfc3a046",
@@ -3093,9 +3871,11 @@
       "originalIds": [
         "41-001-035-035-72bcd9bc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-036-036-b4e577a7",
@@ -3110,9 +3890,11 @@
       "originalIds": [
         "41-001-036-036-b4e577a7"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-036-036-a68b79c6",
@@ -3127,9 +3909,11 @@
       "originalIds": [
         "41-001-036-036-a68b79c6"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-036-036-d1522430",
@@ -3144,9 +3928,11 @@
       "originalIds": [
         "41-001-036-036-c2495421"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-036-036-45f6777c",
@@ -3161,9 +3947,11 @@
       "originalIds": [
         "41-001-036-036-45f6777c"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-037-037-8e20c2ee",
@@ -3178,9 +3966,11 @@
       "originalIds": [
         "41-001-037-037-8e20c2ee"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-037-037-d1e790d0",
@@ -3195,9 +3985,11 @@
       "originalIds": [
         "41-001-037-037-d1e790d0"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-037-037-e153fba3",
@@ -3212,9 +4004,11 @@
       "originalIds": [
         "41-001-037-037-e6039d10"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-037-037-66f90ff4",
@@ -3229,9 +4023,14 @@
       "originalIds": [
         "41-001-037-037-cc1f778f"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-038-038-edd162d9",
@@ -3246,9 +4045,14 @@
       "originalIds": [
         "41-001-038-038-5890289b"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-038-038-ab69389a",
@@ -3263,9 +4067,11 @@
       "originalIds": [
         "41-001-038-038-ab69389a"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-038-038-8f83e8fd",
@@ -3281,12 +4087,14 @@
         "41-001-038-038-28cae2cf",
         "41-001-038-038-40abd46c"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-038-038-a0c41178",
@@ -3301,9 +4109,11 @@
       "originalIds": [
         "41-001-038-038-f65902cf"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-038-038-95b931c9",
@@ -3318,9 +4128,11 @@
       "originalIds": [
         "41-001-038-038-293aa83d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-039-039-b9078372",
@@ -3335,9 +4147,11 @@
       "originalIds": [
         "41-001-039-039-b6a78626"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-039-039-3d83148b",
@@ -3352,9 +4166,11 @@
       "originalIds": [
         "41-001-039-039-9ff4bae9"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-039-039-824ebf90",
@@ -3369,9 +4185,14 @@
       "originalIds": [
         "41-001-039-039-b79fc0ee"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-039-039-d76c1dbd",
@@ -3387,12 +4208,14 @@
         "41-001-039-039-1c564107",
         "41-001-039-039-2f2235af"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-1d978b34",
@@ -3408,9 +4231,11 @@
         "41-001-040-040-984cb937",
         "41-001-040-040-1d978b34"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-46f4025e",
@@ -3425,9 +4250,11 @@
       "originalIds": [
         "41-001-040-040-46f4025e"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-a7a934c9",
@@ -3442,9 +4269,11 @@
       "originalIds": [
         "41-001-040-040-a7a934c9"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-01d1ad26",
@@ -3460,12 +4289,14 @@
         "41-001-040-040-13af09f2",
         "41-001-040-040-c132bc4b"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-71ced043",
@@ -3480,9 +4311,11 @@
       "originalIds": [
         "41-001-040-040-71ced043"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-040-040-4156529f",
@@ -3497,9 +4330,11 @@
       "originalIds": [
         "41-001-040-040-b2c40eb2"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-0460a1cd",
@@ -3514,9 +4349,11 @@
       "originalIds": [
         "41-001-041-041-0460a1cd"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-302b38e1",
@@ -3531,9 +4368,11 @@
       "originalIds": [
         "41-001-041-041-302b38e1"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-0d6bc563",
@@ -3549,12 +4388,14 @@
         "41-001-041-041-63f05fd2",
         "41-001-041-041-b875021b"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-2e67ef33",
@@ -3569,9 +4410,11 @@
       "originalIds": [
         "41-001-041-041-2e67ef33"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-c647120d",
@@ -3586,9 +4429,11 @@
       "originalIds": [
         "41-001-041-041-a1ec47ea"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-041-041-b26a6762",
@@ -3604,9 +4449,11 @@
         "41-001-041-041-53a70211",
         "41-001-041-041-b26a6762"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-042-042-c122333f",
@@ -3621,9 +4468,11 @@
       "originalIds": [
         "41-001-042-042-b132e35e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-042-042-9dacb445",
@@ -3638,9 +4487,11 @@
       "originalIds": [
         "41-001-042-042-9dacb445"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-042-042-3715f881",
@@ -3655,9 +4506,14 @@
       "originalIds": [
         "41-001-042-042-8b5b594c"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
+        "codex-gpt-5",
+        "Patricia Wooley"
+      ],
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
       "id": "41-001-042-042-543a6d9f",
@@ -3672,9 +4528,11 @@
       "originalIds": [
         "41-001-042-042-e75e73fb"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-043-043-265af99c",
@@ -3689,9 +4547,11 @@
       "originalIds": [
         "41-001-043-043-fa562a5a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-043-043-636e0480",
@@ -3706,9 +4566,11 @@
       "originalIds": [
         "41-001-043-043-636e0480"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-043-043-3b1d9549",
@@ -3723,9 +4585,11 @@
       "originalIds": [
         "41-001-043-043-3b1d9549"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-043-043-916ff4f7",
@@ -3740,9 +4604,11 @@
       "originalIds": [
         "41-001-043-043-eafc781f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-7599faba",
@@ -3758,12 +4624,14 @@
         "41-001-044-044-7a9fa4a2",
         "41-001-044-044-3547f41f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-2e196cb5",
@@ -3778,9 +4646,11 @@
       "originalIds": [
         "41-001-044-044-6b524031"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-0b58482e",
@@ -3795,9 +4665,11 @@
       "originalIds": [
         "41-001-044-044-7c0f1931"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-21381275",
@@ -3812,9 +4684,11 @@
       "originalIds": [
         "41-001-044-044-21381275"
       ],
-      "validatedBy": "human",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-158e07c7",
@@ -3829,9 +4703,11 @@
       "originalIds": [
         "41-001-044-044-147b9903"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-044-044-ddc915d3",
@@ -3846,9 +4722,11 @@
       "originalIds": [
         "41-001-044-044-b05098fa"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-045-045-ad5a327b",
@@ -3863,9 +4741,11 @@
       "originalIds": [
         "41-001-045-045-e1c0800b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-045-045-22e67e80",
@@ -3881,8 +4761,10 @@
         "41-001-045-045-22e67e80"
       ],
       "validatedBy": "automated_ai",
-      "model": "codex-gpt-5",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "codex-gpt-5",
+      "createdOn": "2026-07-09T12:47:56-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-045-045-8d57a630",
@@ -3898,12 +4780,14 @@
         "41-001-045-045-6bb15278",
         "41-001-045-045-9705f6b2"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-045-045-2b05f065",
@@ -3919,12 +4803,14 @@
         "41-001-045-045-587cef94",
         "41-001-045-045-0b71475a"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-001-045-045-fc6370cd",
@@ -3939,9 +4825,11 @@
       "originalIds": [
         "41-001-045-045-ec41ebc1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     }
   ],
   "byVerse": {
@@ -3950,11 +4838,13 @@
       "41-001-001-001-feb776c8",
       "41-001-001-001-3c7b56e3",
       "41-001-001-001-6c3ce326",
+      "41-001-001-001-a6c038d6",
       "41-001-001-001-dc93ca05"
     ],
     "2": [
       "41-001-002-002-419d4bfb",
       "41-001-002-002-ea5fba08",
+      "41-001-002-002-136a3c00",
       "41-001-002-002-8cb85f42",
       "41-001-002-002-e3c7fdb2",
       "41-001-002-002-08bba1e0",
@@ -3964,6 +4854,7 @@
       "41-001-003-003-a47e47da",
       "41-001-003-003-c92fbef2",
       "41-001-003-003-b0582921",
+      "41-001-003-003-9f24a862",
       "41-001-003-003-ca8db296",
       "41-001-003-003-b6582cad",
       "41-001-003-003-a70e2872"
@@ -3971,6 +4862,7 @@
     "4": [
       "41-001-004-004-086bfbc4",
       "41-001-004-004-88081a9d",
+      "41-001-004-004-5ddafc57",
       "41-001-004-004-eea49d98",
       "41-001-004-004-68794ae2",
       "41-001-004-004-134b5303"
@@ -3979,16 +4871,19 @@
       "41-001-005-005-cfbcf204",
       "41-001-005-005-63e99a42",
       "41-001-005-005-23071a15",
-      "41-001-005-005-2d0a4080"
+      "41-001-005-005-2d0a4080",
+      "41-001-005-005-9ee55806"
     ],
     "6": [
       "41-001-006-006-ad0dfe4e",
       "41-001-006-006-0750d892",
       "41-001-006-006-a97bb94f",
       "41-001-006-006-53651aed",
-      "41-001-006-006-eaae3ef9"
+      "41-001-006-006-eaae3ef9",
+      "41-001-006-006-a732c3e3"
     ],
     "7": [
+      "41-001-007-007-b3cc0fd7",
       "41-001-007-007-d48573da",
       "41-001-007-007-cb1d6dec",
       "41-001-007-007-143d8504",
@@ -3998,15 +4893,17 @@
     ],
     "8": [
       "41-001-008-008-1c352ffa",
+      "41-001-008-008-1a3e43af",
       "41-001-008-008-35e4a458",
       "41-001-008-008-6d57bc4d",
       "41-001-008-008-c0458c62"
     ],
     "9": [
+      "41-001-009-009-c085f5cf",
       "41-001-009-009-b75c5bfb",
       "41-001-009-009-e0d3f04b",
-      "41-001-009-009-f2a93d8f",
       "41-001-009-009-8d9be86c",
+      "41-001-009-009-f2a93d8f",
       "41-001-009-009-c251aa8a",
       "41-001-009-009-5bacf6c7"
     ],
@@ -4015,10 +4912,12 @@
       "41-001-010-010-bf8f8b87",
       "41-001-010-010-8a04fd8f",
       "41-001-010-010-e71de1bd",
+      "41-001-010-010-eda936e2",
       "41-001-010-010-12a008e6",
       "41-001-010-010-85b1cb93"
     ],
     "11": [
+      "41-001-011-011-fa885704",
       "41-001-011-011-a2e5b9ee",
       "41-001-011-011-b5cf2e2e",
       "41-001-011-011-1a1a7186",
@@ -4027,14 +4926,16 @@
     ],
     "12": [
       "41-001-012-012-927d4f80",
+      "41-001-012-012-6ed4f291",
       "41-001-012-012-0406489f",
-      "41-001-012-012-0ffc04e4",
       "41-001-012-012-0ab4dcec",
+      "41-001-012-012-0ffc04e4",
       "41-001-012-012-7530b9a7"
     ],
     "13": [
       "41-001-013-013-7c2c7e65",
       "41-001-013-013-6991fdc6",
+      "41-001-013-013-22952cfd",
       "41-001-013-013-7a39e74f",
       "41-001-013-013-45d78342",
       "41-001-013-013-5d95426d",
@@ -4044,9 +4945,11 @@
       "41-001-014-014-eeacda43",
       "41-001-014-014-909127e9",
       "41-001-014-014-fb58b3b1",
-      "41-001-014-014-fafa8c9f"
+      "41-001-014-014-fafa8c9f",
+      "41-001-014-014-bb9c7073"
     ],
     "15": [
+      "41-001-015-015-e1e6d37b",
       "41-001-015-015-e8ffac31",
       "41-001-015-015-6085afa8",
       "41-001-015-015-57229029",
@@ -4057,17 +4960,20 @@
       "41-001-016-016-38ae6f03",
       "41-001-016-016-bb37bc44",
       "41-001-016-016-35b328d7",
+      "41-001-016-016-78af182b",
       "41-001-016-016-ed82a8ac"
     ],
     "17": [
       "41-001-017-017-873aa655",
       "41-001-017-017-1dfb1101",
       "41-001-017-017-6dec4b70",
+      "41-001-017-017-f36112f1",
       "41-001-017-017-f6430e29",
       "41-001-017-017-4e5d31aa"
     ],
     "18": [
       "41-001-018-018-59b80401",
+      "41-001-018-018-54e2bbe7",
       "41-001-018-018-98190715",
       "41-001-018-018-352c703b",
       "41-001-018-018-c9067394"
@@ -4077,6 +4983,7 @@
       "41-001-019-019-0af9237d",
       "41-001-019-019-6ce75ed0",
       "41-001-019-019-22544c38",
+      "41-001-019-019-1acf5b56",
       "41-001-019-019-5694b27d"
     ],
     "20": [
@@ -4084,6 +4991,7 @@
       "41-001-020-020-64e1a022",
       "41-001-020-020-6a002725",
       "41-001-020-020-2d9580fc",
+      "41-001-020-020-93ee2a64",
       "41-001-020-020-56de9e8b"
     ],
     "21": [
@@ -4091,8 +4999,8 @@
       "41-001-021-021-7befc63c",
       "41-001-021-021-9ef017b8",
       "41-001-021-021-6b0f3b24",
-      "41-001-021-021-4b4bb386",
-      "41-001-021-021-56e7fb9d"
+      "41-001-021-021-56e7fb9d",
+      "41-001-021-021-4b4bb386"
     ],
     "22": [
       "41-001-022-022-5c05275a",
@@ -4137,10 +5045,10 @@
       "41-001-027-027-f4280047"
     ],
     "28": [
+      "41-001-028-028-c7c22aec",
       "41-001-028-028-c10c80da",
       "41-001-028-028-3aae8c3b",
-      "41-001-028-028-a0bb0f11",
-      "41-001-028-028-c7c22aec"
+      "41-001-028-028-a0bb0f11"
     ],
     "29": [
       "41-001-029-029-8468b420",
@@ -4171,9 +5079,9 @@
       "41-001-032-032-3568db42"
     ],
     "33": [
-      "41-001-033-033-1d5da98a",
       "41-001-033-033-f90f4ef2",
       "41-001-033-033-8c04e56b",
+      "41-001-033-033-1d5da98a",
       "41-001-033-033-03cd26ce"
     ],
     "34": [

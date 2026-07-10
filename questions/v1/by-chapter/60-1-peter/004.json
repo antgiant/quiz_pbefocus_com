@@ -18,8 +18,10 @@
         "60-004-001-001-94fe5f69"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-001-001-2b546821",
@@ -35,8 +37,10 @@
         "60-004-001-001-2b546821"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-001-001-e46d5470",
@@ -52,8 +56,10 @@
         "60-004-001-001-e46d5470"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-001-001-9c7c51c2",
@@ -69,8 +75,10 @@
         "60-004-001-001-9c7c51c2"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-002-002-2ba7d290",
@@ -86,8 +94,10 @@
         "60-004-002-002-2ba7d290"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-002-002-6fbeabbb",
@@ -103,8 +113,10 @@
         "60-004-002-002-6fbeabbb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-002-002-3e4373f4",
@@ -120,8 +132,10 @@
         "60-004-002-002-3e4373f4"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-002-002-16e4f0d0",
@@ -137,8 +151,10 @@
         "60-004-002-002-16e4f0d0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-003-003-b2245b1c",
@@ -154,8 +170,10 @@
         "60-004-003-003-b2245b1c"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-003-003-38434fac",
@@ -171,8 +189,10 @@
         "60-004-003-003-38434fac"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-003-003-17433e43",
@@ -188,8 +208,10 @@
         "60-004-003-003-17433e43"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-003-003-4605339e",
@@ -205,8 +227,10 @@
         "60-004-003-003-4605339e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-003-003-1e19b958",
@@ -222,8 +246,10 @@
         "60-004-003-003-1e19b958"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-004-004-e9966db9",
@@ -239,8 +265,10 @@
         "60-004-004-004-e9966db9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-004-004-172f08a9",
@@ -256,8 +284,10 @@
         "60-004-004-004-172f08a9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-004-004-3819c968",
@@ -273,8 +303,10 @@
         "60-004-004-004-3819c968"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-005-005-2fde1f05",
@@ -290,8 +322,10 @@
         "60-004-005-005-2fde1f05"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-005-005-6768d14b",
@@ -307,8 +341,10 @@
         "60-004-005-005-6768d14b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-005-005-92d8d4b1",
@@ -324,8 +360,10 @@
         "60-004-005-005-92d8d4b1"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-006-006-632b159e",
@@ -341,8 +379,10 @@
         "60-004-006-006-632b159e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-006-006-d3f2d5c0",
@@ -358,8 +398,10 @@
         "60-004-006-006-d3f2d5c0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-006-006-ee9866f3",
@@ -375,8 +417,10 @@
         "60-004-006-006-ee9866f3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-007-007-001f22e0",
@@ -392,8 +436,10 @@
         "60-004-007-007-001f22e0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-007-007-b4518a1f",
@@ -409,8 +455,10 @@
         "60-004-007-007-b4518a1f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-007-007-a778ddca",
@@ -426,8 +474,10 @@
         "60-004-007-007-a778ddca"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-007-007-d83ab241",
@@ -443,8 +493,10 @@
         "60-004-007-007-d83ab241"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-008-008-45898a9e",
@@ -460,8 +512,10 @@
         "60-004-008-008-45898a9e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-008-008-ef16b0d0",
@@ -477,8 +531,10 @@
         "60-004-008-008-ef16b0d0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-008-008-9fca45f9",
@@ -494,8 +550,10 @@
         "60-004-008-008-9fca45f9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-009-009-0165a25b",
@@ -511,8 +569,10 @@
         "60-004-009-009-0165a25b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-009-009-b425b76f",
@@ -528,8 +588,10 @@
         "60-004-009-009-b425b76f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-010-010-3be99005",
@@ -545,8 +607,10 @@
         "60-004-010-010-3be99005"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-010-010-858c917f",
@@ -562,8 +626,10 @@
         "60-004-010-010-858c917f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-010-010-2fe06f58",
@@ -579,8 +645,10 @@
         "60-004-010-010-2fe06f58"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-010-010-15eee304",
@@ -596,8 +664,10 @@
         "60-004-010-010-15eee304"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-011-011-127fd1a8",
@@ -613,8 +683,10 @@
         "60-004-011-011-127fd1a8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-011-011-4f48bd26",
@@ -630,8 +702,10 @@
         "60-004-011-011-4f48bd26"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-011-011-35bb2423",
@@ -647,8 +721,10 @@
         "60-004-011-011-35bb2423"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-011-011-36441deb",
@@ -664,8 +740,10 @@
         "60-004-011-011-36441deb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-011-011-0e7a9140",
@@ -681,8 +759,10 @@
         "60-004-011-011-0e7a9140"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-012-012-83a98769",
@@ -698,8 +778,10 @@
         "60-004-012-012-83a98769"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-012-012-0873e8e2",
@@ -715,8 +797,10 @@
         "60-004-012-012-0873e8e2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-012-012-34d45d2a",
@@ -732,8 +816,10 @@
         "60-004-012-012-34d45d2a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-012-012-739f6ce3",
@@ -749,8 +835,10 @@
         "60-004-012-012-739f6ce3"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-013-013-aab0a08c",
@@ -766,8 +854,10 @@
         "60-004-013-013-aab0a08c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-013-013-cb295930",
@@ -783,8 +873,10 @@
         "60-004-013-013-cb295930"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-013-013-23475f8e",
@@ -800,8 +892,10 @@
         "60-004-013-013-23475f8e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-013-013-7859ee6f",
@@ -817,8 +911,10 @@
         "60-004-013-013-7859ee6f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-4ff6f322",
@@ -834,8 +930,10 @@
         "60-004-014-014-4ff6f322"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-1f283401",
@@ -851,8 +949,10 @@
         "60-004-014-014-1f283401"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-ed6bd44a",
@@ -868,8 +968,10 @@
         "60-004-014-014-ed6bd44a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-8bd3ea6d",
@@ -885,8 +987,10 @@
         "60-004-014-014-8bd3ea6d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-a9fa7618",
@@ -902,8 +1006,10 @@
         "60-004-014-014-a9fa7618"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-014-014-a138a495",
@@ -919,8 +1025,10 @@
         "60-004-014-014-a138a495"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-015-015-6b4c4888",
@@ -936,8 +1044,10 @@
         "60-004-015-015-6b4c4888"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-015-015-929508ca",
@@ -953,8 +1063,10 @@
         "60-004-015-015-929508ca"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-015-015-a8edb0a7",
@@ -970,8 +1082,10 @@
         "60-004-015-015-a8edb0a7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-016-016-fed95b7b",
@@ -987,8 +1101,10 @@
         "60-004-016-016-fed95b7b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-016-016-1bbdbe3d",
@@ -1004,8 +1120,10 @@
         "60-004-016-016-1bbdbe3d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-016-016-da5e2a13",
@@ -1021,8 +1139,10 @@
         "60-004-016-016-da5e2a13"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-016-016-79d8bac6",
@@ -1038,8 +1158,10 @@
         "60-004-016-016-79d8bac6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-017-017-b3e4a2f5",
@@ -1055,8 +1177,10 @@
         "60-004-017-017-b3e4a2f5"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-017-017-4f5f0f45",
@@ -1072,8 +1196,10 @@
         "60-004-017-017-4f5f0f45"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-017-017-15536eeb",
@@ -1089,8 +1215,10 @@
         "60-004-017-017-15536eeb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-018-018-c604ebca",
@@ -1106,8 +1234,10 @@
         "60-004-018-018-c604ebca"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-018-018-b5fae110",
@@ -1123,8 +1253,10 @@
         "60-004-018-018-b5fae110"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-018-018-9f2fb5f3",
@@ -1140,8 +1272,10 @@
         "60-004-018-018-9f2fb5f3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-018-018-b177ae11",
@@ -1157,8 +1291,10 @@
         "60-004-018-018-b177ae11"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-019-019-befb38b1",
@@ -1174,8 +1310,10 @@
         "60-004-019-019-befb38b1"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-019-019-91694333",
@@ -1191,8 +1329,10 @@
         "60-004-019-019-91694333"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-019-019-57d67057",
@@ -1208,8 +1348,10 @@
         "60-004-019-019-57d67057"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-019-019-94e7bc0e",
@@ -1225,8 +1367,10 @@
         "60-004-019-019-94e7bc0e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "60-004-019-019-8046ef95",
@@ -1242,8 +1386,10 @@
         "60-004-019-019-8046ef95"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     }
   ],
   "byVerse": {

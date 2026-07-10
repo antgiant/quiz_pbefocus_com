@@ -137,8 +137,11 @@ function normalizeDifficulty(question) {
 }
 
 function normalizeQuestion(question, bookId, chapterJson) {
+  const createdBy = question.createdBy ?? "";
+
   return {
     ...question,
+    createdBy,
     bookId,
     book: chapterJson.book,
     chapter: chapterJson.chapter,

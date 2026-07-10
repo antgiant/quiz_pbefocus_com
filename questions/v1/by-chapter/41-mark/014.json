@@ -5,6 +5,25 @@
   "chapter": 14,
   "questions": [
     {
+      "id": "41-014-001-001-e8b489a2",
+      "ref": {
+        "startVerse": 1,
+        "endVerse": 1
+      },
+      "question": "According to Mark 14:1, after two days, what Jewish holidays were happening? Who \"sought how they might take Him (Jesus)\"? By what means were they going to \"take Him,\" and what were they going to do with Him?",
+      "answer": "Passover, Feast of Unleavened Bread, chief priests and scribes, trickery, put Him to death",
+      "type": "list",
+      "points": 6,
+      "originalIds": [
+        "41-014-001-001-e8b489a2"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
       "id": "41-014-001-001-9fa2f8f4",
       "ref": {
         "startVerse": 1,
@@ -18,8 +37,10 @@
         "41-014-001-001-9fa2f8f4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-001-001-fb2506f9",
@@ -35,8 +56,10 @@
         "41-014-001-001-fb2506f9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-001-001-c3c2eb56",
@@ -52,8 +75,10 @@
         "41-014-001-001-c3c2eb56"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-001-001-44c009ff",
@@ -69,8 +94,29 @@
         "41-014-001-001-44c009ff"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-002-002-961deba8",
+      "ref": {
+        "startVerse": 2,
+        "endVerse": 2
+      },
+      "question": "According to Mark 14:2, the chief priests and scribes were not going to put Jesus to death when? What were they afraid would happen if they did?",
+      "answer": "During the feast, an uproar of the people",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-002-002-961deba8"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-002-002-67813c27",
@@ -86,8 +132,10 @@
         "41-014-002-002-67813c27"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-002-002-e8cd8e11",
@@ -103,8 +151,10 @@
         "41-014-002-002-e8cd8e11"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-003-003-b6e47296",
@@ -120,8 +170,10 @@
         "41-014-003-003-b6e47296"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-003-003-5627d3de",
@@ -137,8 +189,10 @@
         "41-014-003-003-5627d3de"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-003-003-10a8d523",
@@ -154,8 +208,10 @@
         "41-014-003-003-10a8d523"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-003-003-e11026fe",
@@ -171,8 +227,10 @@
         "41-014-003-003-e11026fe"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-003-003-7745779e",
@@ -188,8 +246,29 @@
         "41-014-003-003-7745779e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-003-003-d1e82024",
+      "ref": {
+        "startVerse": 3,
+        "endVerse": 3
+      },
+      "question": "According to Mark 14:3, who's house was He (Jesus) at, and what was the homeowner's medical condition? What city were they in? What type of container did the woman have, and what was in the container? What two things did the woman do?",
+      "answer": "Simon, a leper, Bethany, an alabaster flask, very costly oil of spikenard, broke the flask, poured it on His head.",
+      "type": "list",
+      "points": 7,
+      "originalIds": [
+        "41-014-003-003-d1e82024"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-004-004-398de272",
@@ -205,8 +284,10 @@
         "41-014-004-004-398de272"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-004-004-b1216acc",
@@ -222,8 +303,29 @@
         "41-014-004-004-b1216acc"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-004-004-dadbe18d",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 14:4, what word is used to describe how some of the people felt? What did they say? Be specific.",
+      "answer": "Indignant, why was this fragrant oil wasted?",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-004-004-dadbe18d"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-005-005-a5b8bf53",
@@ -239,8 +341,10 @@
         "41-014-005-005-a5b8bf53"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-005-005-8a1cf4a5",
@@ -256,8 +360,10 @@
         "41-014-005-005-8a1cf4a5"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-005-005-101166e7",
@@ -273,8 +379,29 @@
         "41-014-005-005-101166e7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-005-005-541bb73a",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 14:5, what did they do to her (Mary Magdeline), and how did they do it? How much was the oil of spikenard worth? What two things did they say might have been done with that oil?",
+      "answer": "Criticized, sharply, more than 300 denarii, might have been sold and given to the poor",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-014-005-005-541bb73a"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-006-006-510e71be",
@@ -290,8 +417,10 @@
         "41-014-006-006-510e71be"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-006-006-c0facd79",
@@ -307,8 +436,10 @@
         "41-014-006-006-c0facd79"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-006-006-fde4b086",
@@ -324,8 +455,48 @@
         "41-014-006-006-fde4b086"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-006-006-89658b38",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 14:6, write the 3 sentences that Jesus says to those criticizing Mary.",
+      "answer": "Let her alone. Why do you trouble her? She has done a good work for Me.",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-006-006-89658b38"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-007-007-cc486e42",
+      "ref": {
+        "startVerse": 7,
+        "endVerse": 7
+      },
+      "question": "According to Mark 14:7, what do you \"not have always\"? What do you have with you always? What can you do whenever you wish?",
+      "answer": "Me (Jesus), the poor, you may do them (the poor) good",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-007-007-cc486e42"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-007-007-cc428273",
@@ -341,8 +512,10 @@
         "41-014-007-007-cc428273"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-007-007-2f722eea",
@@ -358,8 +531,10 @@
         "41-014-007-007-2f722eea"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-007-007-eb4f6de8",
@@ -375,8 +550,10 @@
         "41-014-007-007-eb4f6de8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-008-008-3ae2c69d",
@@ -392,8 +569,29 @@
         "41-014-008-008-3ae2c69d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-008-008-9a9dc79c",
+      "ref": {
+        "startVerse": 8,
+        "endVerse": 8
+      },
+      "question": "According to Mark 14:8, what has she done? And what has she come beforehand to do? For what event?",
+      "answer": "What she could, to anoint My body, for burial",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-008-008-9a9dc79c"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-008-008-06de6762",
@@ -409,8 +607,10 @@
         "41-014-008-008-06de6762"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-009-009-54b39115",
@@ -426,8 +626,10 @@
         "41-014-009-009-54b39115"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-009-009-90a04101",
@@ -443,8 +645,29 @@
         "41-014-009-009-90a04101"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-009-009-7bd20df8",
+      "ref": {
+        "startVerse": 9,
+        "endVerse": 9
+      },
+      "question": "According to Mark 14:9, what this woman has done will be told as a what? Where will her story be told?",
+      "answer": "As a memorial to her, wherever this gospel is preached in the whole world",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-009-009-7bd20df8"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-009-009-5121bd92",
@@ -460,8 +683,10 @@
         "41-014-009-009-5121bd92"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-010-010-782c3d52",
@@ -477,8 +702,10 @@
         "41-014-010-010-782c3d52"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-010-010-89a62796",
@@ -494,8 +721,10 @@
         "41-014-010-010-89a62796"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-010-010-569203e9",
@@ -511,8 +740,29 @@
         "41-014-010-010-569203e9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-010-010-b145dc66",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 14:10, which \"one of the twelve\" went to whom? For what purpose did he go there?",
+      "answer": "Judas Iscariot, the chief priests, to betray Him (Jesus)",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-010-010-b145dc66"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-010-010-07e04517",
@@ -528,8 +778,29 @@
         "41-014-010-010-07e04517"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-011-011-0e828634",
+      "ref": {
+        "startVerse": 11,
+        "endVerse": 11
+      },
+      "question": "According to Mark 14:11, Judas \"sought\" for something. What was sought? How did the people Judas was talking to feel, and what did they promise him?",
+      "answer": "How he might conveniently betray Him (Jesus), glad, to give him money",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-011-011-0e828634"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-011-011-343958d8",
@@ -545,8 +816,10 @@
         "41-014-011-011-343958d8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-011-011-16f8cd9a",
@@ -562,8 +835,10 @@
         "41-014-011-011-16f8cd9a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-011-011-298854b7",
@@ -579,8 +854,10 @@
         "41-014-011-011-298854b7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-012-012-136430f6",
@@ -596,8 +873,10 @@
         "41-014-012-012-136430f6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-012-012-6800b48d",
@@ -613,8 +892,10 @@
         "41-014-012-012-6800b48d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-012-012-aed0998e",
@@ -630,8 +911,29 @@
         "41-014-012-012-aed0998e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-012-012-dbe464bb",
+      "ref": {
+        "startVerse": 12,
+        "endVerse": 12
+      },
+      "question": "According to Mark 14:12, what was killed? The disciples asked Jesus where He wanted them to do what? This was so that Jesus may do what? This was the first day of which feast? Be specific.",
+      "answer": "The Passover lamb, go and prepare, eat the Passover, Unleavened Bread",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-014-012-012-dbe464bb"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-013-013-704d446a",
@@ -647,8 +949,10 @@
         "41-014-013-013-704d446a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-013-013-fbe90774",
@@ -664,8 +968,10 @@
         "41-014-013-013-fbe90774"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-013-013-97611db6",
@@ -681,8 +987,10 @@
         "41-014-013-013-97611db6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-013-013-4d262f3e",
@@ -698,8 +1006,48 @@
         "41-014-013-013-4d262f3e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-013-013-3adc71be",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 14:13, who was sent out? Where did they go? Who met them? What was that person doing? They were instructed to do what after meeting this person?",
+      "answer": "Two of His disciples, into the city, a man, carrying a pitcher of water, follow him",
+      "type": "list",
+      "points": 5,
+      "originalIds": [
+        "41-014-013-013-3adc71be"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-014-014-39132730",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 14:14, the disciples were instructed to speak to whom? What question were they supposed to ask? Who were they to say was asking this question? Be specific.",
+      "answer": "The master of the house, Where is the guest room in which I may eat the Passover with My disciples? The Teacher",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-014-014-39132730"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-014-014-2ad6a583",
@@ -715,8 +1063,10 @@
         "41-014-014-014-2ad6a583"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-014-014-bd9aa6df",
@@ -732,8 +1082,10 @@
         "41-014-014-014-bd9aa6df"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-014-014-7f541da7",
@@ -749,8 +1101,10 @@
         "41-014-014-014-7f541da7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-015-015-423863fa",
@@ -766,8 +1120,10 @@
         "41-014-015-015-423863fa"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-015-015-e99e6e72",
@@ -783,8 +1139,29 @@
         "41-014-015-015-e99e6e72"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-015-015-db3f1615",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 14:15, what were the disciples shown and what condition was it in? What were the disciples instructed to do there?",
+      "answer": "A large upper room, furnished and prepared, make ready for us",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-015-015-db3f1615"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-015-015-176903d2",
@@ -800,8 +1177,10 @@
         "41-014-015-015-176903d2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-016-016-9b7548ee",
@@ -817,8 +1196,10 @@
         "41-014-016-016-9b7548ee"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-016-016-2f7fd2ce",
@@ -834,8 +1215,10 @@
         "41-014-016-016-2f7fd2ce"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-016-016-7e886025",
@@ -851,8 +1234,29 @@
         "41-014-016-016-7e886025"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-016-016-8b7389da",
+      "ref": {
+        "startVerse": 16,
+        "endVerse": 16
+      },
+      "question": "According to Mark 14:16, where had the disciples come into? And they \"found it\" in what condition? What did they do once they got there?",
+      "answer": "The city, just as He had said to them, they prepared the Passover",
+      "type": "list",
+      "points": 3,
+      "originalIds": [
+        "41-014-016-016-8b7389da"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-017-017-aab6b738",
@@ -868,8 +1272,29 @@
         "41-014-017-017-aab6b738"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-017-017-5831ea55",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 14:17, what time of the day was it? What did Jesus do?",
+      "answer": "Evening, He came with the twelve",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-017-017-5831ea55"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "easy",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-017-017-9709a010",
@@ -885,8 +1310,10 @@
         "41-014-017-017-9709a010"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-017-017-7cd018bb",
@@ -902,8 +1329,29 @@
         "41-014-017-017-7cd018bb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-018-018-b354f20b",
+      "ref": {
+        "startVerse": 18,
+        "endVerse": 18
+      },
+      "question": "According to Mark 14:18, what did Jesus say about one of the disciples? What were Jesus and the disciples doing at this time?",
+      "answer": "One of you who eats with Me will betray Me, they sat and ate",
+      "type": "list",
+      "points": 4,
+      "originalIds": [
+        "41-014-018-018-b354f20b"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "hard",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-018-018-d0709980",
@@ -919,8 +1367,10 @@
         "41-014-018-018-d0709980"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-018-018-3c040b12",
@@ -936,8 +1386,10 @@
         "41-014-018-018-3c040b12"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-018-018-95a8bf44",
@@ -953,8 +1405,29 @@
         "41-014-018-018-95a8bf44"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-019-019-6e338f06",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 14:19, how were the disciples feeling? What question did they ask Jesus? Be specific.",
+      "answer": "Sorrowful, Is it I?",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-019-019-6e338f06"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-019-019-d273be30",
@@ -970,8 +1443,10 @@
         "41-014-019-019-d273be30"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-019-019-5f18963a",
@@ -987,8 +1462,10 @@
         "41-014-019-019-5f18963a"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-020-020-5fea338b",
@@ -1004,8 +1481,10 @@
         "41-014-020-020-5fea338b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-020-020-175787dd",
@@ -1021,8 +1500,29 @@
         "41-014-020-020-175787dd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-014-020-020-c64174a7",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 14:20, how does Jesus describe the one who will betray Him? Be specific.",
+      "answer": "One of the twelve, who dips with me in the dish",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-014-020-020-c64174a7"
+      ],
+      "validatedBy": "Karen Garcia",
+      "difficulty": "medium",
+      "createdBy": "Karen Garcia",
+      "createdOn": "2026-07-10T10:15:49-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-021-021-a00bfe11",
@@ -1038,8 +1538,10 @@
         "41-014-021-021-a00bfe11"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-021-021-f3d90390",
@@ -1055,8 +1557,10 @@
         "41-014-021-021-f3d90390"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-021-021-2d202899",
@@ -1072,8 +1576,10 @@
         "41-014-021-021-2d202899"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-022-022-e213a85a",
@@ -1089,8 +1595,10 @@
         "41-014-022-022-e213a85a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-022-022-c484c82f",
@@ -1106,8 +1614,10 @@
         "41-014-022-022-c484c82f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-022-022-7452d5c5",
@@ -1123,8 +1633,10 @@
         "41-014-022-022-7452d5c5"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-023-023-8fdd5312",
@@ -1140,8 +1652,10 @@
         "41-014-023-023-8fdd5312"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-023-023-0c29748c",
@@ -1157,8 +1671,10 @@
         "41-014-023-023-0c29748c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-023-023-58cd19a2",
@@ -1174,8 +1690,10 @@
         "41-014-023-023-58cd19a2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-024-024-6c85aa0b",
@@ -1191,8 +1709,10 @@
         "41-014-024-024-6c85aa0b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-024-024-bfa1d8dd",
@@ -1208,8 +1728,10 @@
         "41-014-024-024-bfa1d8dd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-025-025-d8de510d",
@@ -1225,8 +1747,10 @@
         "41-014-025-025-d8de510d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-025-025-73687559",
@@ -1242,8 +1766,10 @@
         "41-014-025-025-73687559"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-025-025-4cfa4018",
@@ -1259,8 +1785,10 @@
         "41-014-025-025-4cfa4018"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-026-026-b204fdb4",
@@ -1276,8 +1804,10 @@
         "41-014-026-026-b204fdb4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-026-026-c31df54e",
@@ -1293,8 +1823,10 @@
         "41-014-026-026-c31df54e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-026-026-eeee2e92",
@@ -1310,8 +1842,10 @@
         "41-014-026-026-eeee2e92"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-027-027-f7c9306b",
@@ -1327,8 +1861,10 @@
         "41-014-027-027-f7c9306b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-027-027-3eb1123a",
@@ -1344,8 +1880,10 @@
         "41-014-027-027-3eb1123a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-027-027-642b8704",
@@ -1361,8 +1899,10 @@
         "41-014-027-027-642b8704"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-028-028-0113383c",
@@ -1378,8 +1918,10 @@
         "41-014-028-028-0113383c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-028-028-0c61c343",
@@ -1395,8 +1937,10 @@
         "41-014-028-028-0c61c343"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-028-028-ec823f82",
@@ -1412,8 +1956,10 @@
         "41-014-028-028-ec823f82"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-029-029-8d030a49",
@@ -1429,8 +1975,10 @@
         "41-014-029-029-8d030a49"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-029-029-f399796f",
@@ -1446,8 +1994,10 @@
         "41-014-029-029-f399796f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-030-030-789061ff",
@@ -1463,8 +2013,10 @@
         "41-014-030-030-789061ff"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-030-030-8554f4e8",
@@ -1480,8 +2032,10 @@
         "41-014-030-030-8554f4e8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-030-030-971ef6f2",
@@ -1497,8 +2051,10 @@
         "41-014-030-030-971ef6f2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-031-031-4c8c85f4",
@@ -1514,8 +2070,10 @@
         "41-014-031-031-4c8c85f4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-031-031-c149df4f",
@@ -1531,8 +2089,10 @@
         "41-014-031-031-c149df4f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-031-031-5838d2c3",
@@ -1548,8 +2108,10 @@
         "41-014-031-031-5838d2c3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-032-032-4d55fc04",
@@ -1565,8 +2127,10 @@
         "41-014-032-032-4d55fc04"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-032-032-7ba61b3f",
@@ -1582,8 +2146,10 @@
         "41-014-032-032-7ba61b3f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-033-033-4ab0dc9a",
@@ -1599,8 +2165,10 @@
         "41-014-033-033-4ab0dc9a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-033-033-40e5aad0",
@@ -1616,8 +2184,10 @@
         "41-014-033-033-40e5aad0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-034-034-9d830d93",
@@ -1633,8 +2203,10 @@
         "41-014-034-034-9d830d93"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-034-034-5623f9a3",
@@ -1650,8 +2222,10 @@
         "41-014-034-034-5623f9a3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-035-035-4d1ff0f9",
@@ -1667,8 +2241,10 @@
         "41-014-035-035-4d1ff0f9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-035-035-5401a601",
@@ -1684,8 +2260,10 @@
         "41-014-035-035-5401a601"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-035-035-ce529f72",
@@ -1701,8 +2279,10 @@
         "41-014-035-035-ce529f72"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-036-036-94ab3ed7",
@@ -1718,8 +2298,10 @@
         "41-014-036-036-94ab3ed7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-036-036-1cf995e7",
@@ -1735,8 +2317,10 @@
         "41-014-036-036-1cf995e7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-036-036-9b3f24d8",
@@ -1752,8 +2336,10 @@
         "41-014-036-036-9b3f24d8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-036-036-a3c8e7fb",
@@ -1769,8 +2355,10 @@
         "41-014-036-036-a3c8e7fb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-037-037-c584a6b0",
@@ -1786,8 +2374,10 @@
         "41-014-037-037-c584a6b0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-037-037-c9028480",
@@ -1803,8 +2393,10 @@
         "41-014-037-037-c9028480"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-037-037-3786f6bb",
@@ -1820,8 +2412,10 @@
         "41-014-037-037-3786f6bb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-037-037-844f3e51",
@@ -1837,8 +2431,10 @@
         "41-014-037-037-844f3e51"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-037-037-1e68b38a",
@@ -1854,8 +2450,10 @@
         "41-014-037-037-1e68b38a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-038-038-c01a46b4",
@@ -1871,8 +2469,10 @@
         "41-014-038-038-c01a46b4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-038-038-f48b61f2",
@@ -1888,8 +2488,10 @@
         "41-014-038-038-f48b61f2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-038-038-d5731d41",
@@ -1905,8 +2507,10 @@
         "41-014-038-038-d5731d41"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-038-038-b88a1ef3",
@@ -1922,8 +2526,10 @@
         "41-014-038-038-b88a1ef3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-039-039-e1d5e95d",
@@ -1939,8 +2545,10 @@
         "41-014-039-039-e1d5e95d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-039-039-6a7fb7db",
@@ -1956,8 +2564,10 @@
         "41-014-039-039-6a7fb7db"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-039-039-56f60ce8",
@@ -1973,8 +2583,10 @@
         "41-014-039-039-56f60ce8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-040-040-b14d8398",
@@ -1990,8 +2602,10 @@
         "41-014-040-040-b14d8398"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-040-040-bf427aff",
@@ -2007,8 +2621,10 @@
         "41-014-040-040-bf427aff"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-040-040-acf1a267",
@@ -2024,8 +2640,10 @@
         "41-014-040-040-acf1a267"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-041-041-f71ebdaf",
@@ -2041,8 +2659,10 @@
         "41-014-041-041-f71ebdaf"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-041-041-a766904c",
@@ -2058,8 +2678,10 @@
         "41-014-041-041-a766904c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-041-041-0ae41198",
@@ -2075,8 +2697,10 @@
         "41-014-041-041-0ae41198"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-041-041-caafd5b0",
@@ -2092,8 +2716,10 @@
         "41-014-041-041-caafd5b0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-041-041-d08fdeeb",
@@ -2109,8 +2735,10 @@
         "41-014-041-041-d08fdeeb"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-042-042-f3d13b6e",
@@ -2126,8 +2754,10 @@
         "41-014-042-042-f3d13b6e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-042-042-0dae30b8",
@@ -2143,8 +2773,10 @@
         "41-014-042-042-0dae30b8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-043-043-2114b135",
@@ -2160,8 +2792,10 @@
         "41-014-043-043-2114b135"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-043-043-25dfd0a3",
@@ -2177,8 +2811,10 @@
         "41-014-043-043-25dfd0a3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-043-043-0dadc27e",
@@ -2194,8 +2830,10 @@
         "41-014-043-043-0dadc27e"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-043-043-e5a1c3ca",
@@ -2211,8 +2849,10 @@
         "41-014-043-043-e5a1c3ca"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-044-044-1b87a7a3",
@@ -2228,8 +2868,10 @@
         "41-014-044-044-1b87a7a3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-044-044-571d4033",
@@ -2245,8 +2887,10 @@
         "41-014-044-044-571d4033"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-044-044-d1aa9310",
@@ -2262,8 +2906,10 @@
         "41-014-044-044-d1aa9310"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-045-045-73d77148",
@@ -2279,8 +2925,10 @@
         "41-014-045-045-73d77148"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-045-045-40b7c1ed",
@@ -2296,8 +2944,10 @@
         "41-014-045-045-40b7c1ed"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-045-045-3ccc0957",
@@ -2313,8 +2963,10 @@
         "41-014-045-045-3ccc0957"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-046-046-fa6190c1",
@@ -2330,8 +2982,10 @@
         "41-014-046-046-fa6190c1"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-046-046-2ac30bd7",
@@ -2347,8 +3001,10 @@
         "41-014-046-046-2ac30bd7"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-047-047-4f0ea949",
@@ -2364,8 +3020,10 @@
         "41-014-047-047-4f0ea949"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-047-047-86a4b900",
@@ -2381,8 +3039,10 @@
         "41-014-047-047-86a4b900"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-047-047-51061a68",
@@ -2398,8 +3058,10 @@
         "41-014-047-047-51061a68"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-047-047-3b736f07",
@@ -2415,8 +3077,10 @@
         "41-014-047-047-3b736f07"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-048-048-d1372719",
@@ -2432,8 +3096,10 @@
         "41-014-048-048-d1372719"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-048-048-e3c8fcb0",
@@ -2449,8 +3115,10 @@
         "41-014-048-048-e3c8fcb0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-048-048-fae8ac45",
@@ -2466,8 +3134,10 @@
         "41-014-048-048-fae8ac45"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-049-049-0b9ce811",
@@ -2483,8 +3153,10 @@
         "41-014-049-049-0b9ce811"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-049-049-6085648c",
@@ -2500,8 +3172,10 @@
         "41-014-049-049-6085648c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-049-049-20fde692",
@@ -2517,8 +3191,10 @@
         "41-014-049-049-20fde692"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-049-049-1251e127",
@@ -2534,8 +3210,10 @@
         "41-014-049-049-1251e127"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-049-049-a0e77ea3",
@@ -2551,8 +3229,10 @@
         "41-014-049-049-a0e77ea3"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-050-050-c94f8db6",
@@ -2568,8 +3248,10 @@
         "41-014-050-050-c94f8db6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-050-050-165a3918",
@@ -2585,8 +3267,10 @@
         "41-014-050-050-165a3918"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-050-050-797bcb90",
@@ -2602,8 +3286,10 @@
         "41-014-050-050-797bcb90"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-051-051-a34b2f1d",
@@ -2619,8 +3305,10 @@
         "41-014-051-051-a34b2f1d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-051-051-56f60141",
@@ -2636,8 +3324,10 @@
         "41-014-051-051-56f60141"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-051-051-c93b43d7",
@@ -2653,8 +3343,10 @@
         "41-014-051-051-c93b43d7"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-052-052-7c5ea8f5",
@@ -2670,8 +3362,10 @@
         "41-014-052-052-7c5ea8f5"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-052-052-ec7fab86",
@@ -2687,8 +3381,10 @@
         "41-014-052-052-ec7fab86"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-053-053-620ddd6e",
@@ -2704,8 +3400,10 @@
         "41-014-053-053-620ddd6e"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-053-053-1ecb93f8",
@@ -2721,8 +3419,10 @@
         "41-014-053-053-1ecb93f8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-053-053-6e154d19",
@@ -2738,8 +3438,10 @@
         "41-014-053-053-6e154d19"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-053-053-50dce5ba",
@@ -2755,8 +3457,10 @@
         "41-014-053-053-50dce5ba"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-054-054-a4fd0c80",
@@ -2772,8 +3476,10 @@
         "41-014-054-054-a4fd0c80"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-054-054-e34934ed",
@@ -2789,8 +3495,10 @@
         "41-014-054-054-e34934ed"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-054-054-4b8a1565",
@@ -2806,8 +3514,10 @@
         "41-014-054-054-4b8a1565"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-054-054-8eedecb8",
@@ -2823,8 +3533,10 @@
         "41-014-054-054-8eedecb8"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-054-054-bd61e1ef",
@@ -2840,8 +3552,10 @@
         "41-014-054-054-bd61e1ef"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-055-055-d42b7343",
@@ -2857,8 +3571,10 @@
         "41-014-055-055-d42b7343"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-055-055-8cf7e37b",
@@ -2874,8 +3590,10 @@
         "41-014-055-055-8cf7e37b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-056-056-398becc2",
@@ -2891,8 +3609,10 @@
         "41-014-056-056-398becc2"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-056-056-3192faba",
@@ -2908,8 +3628,10 @@
         "41-014-056-056-3192faba"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-057-057-3850dc2b",
@@ -2925,8 +3647,10 @@
         "41-014-057-057-3850dc2b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-058-058-1f947b7f",
@@ -2942,8 +3666,10 @@
         "41-014-058-058-1f947b7f"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-058-058-551e071a",
@@ -2959,8 +3685,10 @@
         "41-014-058-058-551e071a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-058-058-4b7bf558",
@@ -2976,8 +3704,10 @@
         "41-014-058-058-4b7bf558"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-059-059-9605c033",
@@ -2993,8 +3723,10 @@
         "41-014-059-059-9605c033"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-060-060-dbae7e47",
@@ -3010,8 +3742,10 @@
         "41-014-060-060-dbae7e47"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-060-060-ded816c4",
@@ -3027,8 +3761,10 @@
         "41-014-060-060-ded816c4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-060-060-f9fe84dd",
@@ -3044,8 +3780,10 @@
         "41-014-060-060-f9fe84dd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-061-061-314121d0",
@@ -3061,8 +3799,10 @@
         "41-014-061-061-314121d0"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-061-061-a6cb252d",
@@ -3078,8 +3818,10 @@
         "41-014-061-061-a6cb252d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-061-061-f8d4ed19",
@@ -3095,8 +3837,10 @@
         "41-014-061-061-f8d4ed19"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-062-062-34090805",
@@ -3112,8 +3856,10 @@
         "41-014-062-062-34090805"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-062-062-7f8560fe",
@@ -3129,8 +3875,10 @@
         "41-014-062-062-7f8560fe"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-062-062-41bcbb21",
@@ -3146,8 +3894,10 @@
         "41-014-062-062-41bcbb21"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-062-062-ffff1bbd",
@@ -3163,8 +3913,10 @@
         "41-014-062-062-ffff1bbd"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-063-063-b1582340",
@@ -3180,8 +3932,10 @@
         "41-014-063-063-b1582340"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-063-063-42aa18fc",
@@ -3197,8 +3951,10 @@
         "41-014-063-063-42aa18fc"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-063-063-67ea7d1d",
@@ -3214,8 +3970,10 @@
         "41-014-063-063-67ea7d1d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-064-064-862c0bd4",
@@ -3231,8 +3989,10 @@
         "41-014-064-064-862c0bd4"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-064-064-11e35399",
@@ -3248,8 +4008,10 @@
         "41-014-064-064-11e35399"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-064-064-78838c79",
@@ -3265,8 +4027,10 @@
         "41-014-064-064-78838c79"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-38863a65",
@@ -3282,8 +4046,10 @@
         "41-014-065-065-38863a65"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-883d66a6",
@@ -3299,8 +4065,10 @@
         "41-014-065-065-883d66a6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-c0864e46",
@@ -3316,8 +4084,10 @@
         "41-014-065-065-c0864e46"
       ],
       "validatedBy": "automated_ai",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-b1568467",
@@ -3333,8 +4103,10 @@
         "41-014-065-065-b1568467"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-7743f74b",
@@ -3350,8 +4122,10 @@
         "41-014-065-065-7743f74b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-065-065-ddde7820",
@@ -3367,8 +4141,10 @@
         "41-014-065-065-ddde7820"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-066-066-c1f4f012",
@@ -3384,8 +4160,10 @@
         "41-014-066-066-c1f4f012"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-066-066-ef7dac85",
@@ -3401,8 +4179,10 @@
         "41-014-066-066-ef7dac85"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-066-066-33eab741",
@@ -3418,8 +4198,10 @@
         "41-014-066-066-33eab741"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-066-066-38e072ac",
@@ -3435,8 +4217,10 @@
         "41-014-066-066-38e072ac"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-067-067-5a531350",
@@ -3452,8 +4236,10 @@
         "41-014-067-067-5a531350"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-067-067-3ca49a23",
@@ -3469,8 +4255,10 @@
         "41-014-067-067-3ca49a23"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-067-067-9a1bccab",
@@ -3486,8 +4274,10 @@
         "41-014-067-067-9a1bccab"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-068-068-d4a8ac08",
@@ -3503,8 +4293,10 @@
         "41-014-068-068-d4a8ac08"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-068-068-3ea1ca0a",
@@ -3520,8 +4312,10 @@
         "41-014-068-068-3ea1ca0a"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-068-068-88b1bf0b",
@@ -3537,8 +4331,10 @@
         "41-014-068-068-88b1bf0b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-068-068-fd0b7bc9",
@@ -3554,8 +4350,10 @@
         "41-014-068-068-fd0b7bc9"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-069-069-5557b060",
@@ -3571,8 +4369,10 @@
         "41-014-069-069-5557b060"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-069-069-07c360bd",
@@ -3588,8 +4388,10 @@
         "41-014-069-069-07c360bd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-069-069-42a05963",
@@ -3605,8 +4407,10 @@
         "41-014-069-069-42a05963"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-070-070-c7e6d388",
@@ -3622,8 +4426,10 @@
         "41-014-070-070-c7e6d388"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-070-070-d6298a32",
@@ -3639,8 +4445,10 @@
         "41-014-070-070-d6298a32"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-070-070-7e629cea",
@@ -3656,8 +4464,10 @@
         "41-014-070-070-7e629cea"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-070-070-9006e4ee",
@@ -3673,8 +4483,10 @@
         "41-014-070-070-9006e4ee"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-070-070-8c3dd5fd",
@@ -3690,8 +4502,10 @@
         "41-014-070-070-8c3dd5fd"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-071-071-7321bd05",
@@ -3707,8 +4521,10 @@
         "41-014-071-071-7321bd05"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-071-071-51a1cf6d",
@@ -3724,8 +4540,10 @@
         "41-014-071-071-51a1cf6d"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-072-072-0bbee99b",
@@ -3741,8 +4559,10 @@
         "41-014-072-072-0bbee99b"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-072-072-d12e3699",
@@ -3758,8 +4578,10 @@
         "41-014-072-072-d12e3699"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-072-072-33fe0c7c",
@@ -3775,8 +4597,10 @@
         "41-014-072-072-33fe0c7c"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-014-072-072-fd0f9e10",
@@ -3792,18 +4616,22 @@
         "41-014-072-072-fd0f9e10"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     }
   ],
   "byVerse": {
     "1": [
+      "41-014-001-001-e8b489a2",
       "41-014-001-001-9fa2f8f4",
       "41-014-001-001-fb2506f9",
       "41-014-001-001-c3c2eb56",
       "41-014-001-001-44c009ff"
     ],
     "2": [
+      "41-014-002-002-961deba8",
       "41-014-002-002-67813c27",
       "41-014-002-002-e8cd8e11"
     ],
@@ -3812,43 +4640,52 @@
       "41-014-003-003-5627d3de",
       "41-014-003-003-10a8d523",
       "41-014-003-003-e11026fe",
-      "41-014-003-003-7745779e"
+      "41-014-003-003-7745779e",
+      "41-014-003-003-d1e82024"
     ],
     "4": [
       "41-014-004-004-398de272",
-      "41-014-004-004-b1216acc"
+      "41-014-004-004-b1216acc",
+      "41-014-004-004-dadbe18d"
     ],
     "5": [
       "41-014-005-005-a5b8bf53",
       "41-014-005-005-8a1cf4a5",
-      "41-014-005-005-101166e7"
+      "41-014-005-005-101166e7",
+      "41-014-005-005-541bb73a"
     ],
     "6": [
       "41-014-006-006-510e71be",
       "41-014-006-006-c0facd79",
-      "41-014-006-006-fde4b086"
+      "41-014-006-006-fde4b086",
+      "41-014-006-006-89658b38"
     ],
     "7": [
+      "41-014-007-007-cc486e42",
       "41-014-007-007-cc428273",
       "41-014-007-007-2f722eea",
       "41-014-007-007-eb4f6de8"
     ],
     "8": [
       "41-014-008-008-3ae2c69d",
+      "41-014-008-008-9a9dc79c",
       "41-014-008-008-06de6762"
     ],
     "9": [
       "41-014-009-009-54b39115",
       "41-014-009-009-90a04101",
+      "41-014-009-009-7bd20df8",
       "41-014-009-009-5121bd92"
     ],
     "10": [
       "41-014-010-010-782c3d52",
       "41-014-010-010-89a62796",
       "41-014-010-010-569203e9",
+      "41-014-010-010-b145dc66",
       "41-014-010-010-07e04517"
     ],
     "11": [
+      "41-014-011-011-0e828634",
       "41-014-011-011-343958d8",
       "41-014-011-011-16f8cd9a",
       "41-014-011-011-298854b7"
@@ -3856,15 +4693,18 @@
     "12": [
       "41-014-012-012-136430f6",
       "41-014-012-012-6800b48d",
-      "41-014-012-012-aed0998e"
+      "41-014-012-012-aed0998e",
+      "41-014-012-012-dbe464bb"
     ],
     "13": [
       "41-014-013-013-704d446a",
       "41-014-013-013-fbe90774",
       "41-014-013-013-97611db6",
-      "41-014-013-013-4d262f3e"
+      "41-014-013-013-4d262f3e",
+      "41-014-013-013-3adc71be"
     ],
     "14": [
+      "41-014-014-014-39132730",
       "41-014-014-014-2ad6a583",
       "41-014-014-014-bd9aa6df",
       "41-014-014-014-7f541da7"
@@ -3872,30 +4712,36 @@
     "15": [
       "41-014-015-015-423863fa",
       "41-014-015-015-e99e6e72",
+      "41-014-015-015-db3f1615",
       "41-014-015-015-176903d2"
     ],
     "16": [
       "41-014-016-016-9b7548ee",
       "41-014-016-016-2f7fd2ce",
-      "41-014-016-016-7e886025"
+      "41-014-016-016-7e886025",
+      "41-014-016-016-8b7389da"
     ],
     "17": [
       "41-014-017-017-aab6b738",
+      "41-014-017-017-5831ea55",
       "41-014-017-017-9709a010",
       "41-014-017-017-7cd018bb"
     ],
     "18": [
+      "41-014-018-018-b354f20b",
       "41-014-018-018-d0709980",
       "41-014-018-018-3c040b12",
       "41-014-018-018-95a8bf44"
     ],
     "19": [
+      "41-014-019-019-6e338f06",
       "41-014-019-019-d273be30",
       "41-014-019-019-5f18963a"
     ],
     "20": [
       "41-014-020-020-5fea338b",
-      "41-014-020-020-175787dd"
+      "41-014-020-020-175787dd",
+      "41-014-020-020-c64174a7"
     ],
     "21": [
       "41-014-021-021-a00bfe11",

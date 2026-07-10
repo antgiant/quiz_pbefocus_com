@@ -17,9 +17,11 @@
       "originalIds": [
         "41-006-001-001-35181117"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-001-001-19b42d82",
@@ -34,9 +36,11 @@
       "originalIds": [
         "41-006-001-001-4995883c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-001-001-b98f934c",
@@ -51,9 +55,11 @@
       "originalIds": [
         "41-006-001-001-f70caf53"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-001-001-2d149b8d",
@@ -68,9 +74,11 @@
       "originalIds": [
         "41-006-001-001-72e2cd43"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-001-001-830f59d0",
@@ -86,12 +94,14 @@
         "41-006-001-001-1b65a154",
         "41-006-001-001-950ea290"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-002-002-993e38f5",
@@ -106,9 +116,11 @@
       "originalIds": [
         "41-006-002-002-6e44d925"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-002-002-a57ef120",
@@ -123,9 +135,11 @@
       "originalIds": [
         "41-006-002-002-c0bd9f1a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-002-002-b6c0258b",
@@ -140,9 +154,11 @@
       "originalIds": [
         "41-006-002-002-d783108e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-002-002-fe5f7bb9",
@@ -157,9 +173,11 @@
       "originalIds": [
         "41-006-002-002-1ee213e8"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-003-003-d6189eb9",
@@ -175,12 +193,14 @@
         "41-006-003-003-98070e57",
         "41-006-003-003-e411478d"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-003-003-a2ef181c",
@@ -195,9 +215,11 @@
       "originalIds": [
         "41-006-003-003-46f5cae6"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-003-003-fefd8ba5",
@@ -212,9 +234,11 @@
       "originalIds": [
         "41-006-003-003-0d8fc7af"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-003-003-aaa23fdc",
@@ -229,9 +253,11 @@
       "originalIds": [
         "41-006-003-003-6cf919c5"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-003-003-00c90036",
@@ -246,9 +272,11 @@
       "originalIds": [
         "41-006-003-003-acf38763"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-004-004-e86804e2",
@@ -264,12 +292,14 @@
         "41-006-004-004-2efda9c9",
         "41-006-004-004-5e69fc32"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-004-004-f0cd851e",
@@ -285,12 +315,14 @@
         "41-006-004-004-e3ff4121",
         "41-006-004-004-ec98036b"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-005-005-45be0cbd",
@@ -305,9 +337,11 @@
       "originalIds": [
         "41-006-005-005-6f676388"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-005-005-3d7d077d",
@@ -323,12 +357,14 @@
         "41-006-005-005-f49f8794",
         "41-006-005-005-f9ddb7fb"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-005-005-9e30fdbb",
@@ -343,9 +379,11 @@
       "originalIds": [
         "41-006-005-005-80992c1a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-006-006-85c0787d",
@@ -360,9 +398,11 @@
       "originalIds": [
         "41-006-006-006-0045c484"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-006-006-60c669e8",
@@ -377,9 +417,11 @@
       "originalIds": [
         "41-006-006-006-173fc394"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-006-006-708acb22",
@@ -394,9 +436,11 @@
       "originalIds": [
         "41-006-006-006-f1963b63"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-006-006-992c4411",
@@ -411,9 +455,11 @@
       "originalIds": [
         "41-006-006-006-25262f93"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-007-007-38a9c296",
@@ -428,9 +474,11 @@
       "originalIds": [
         "41-006-007-007-c3e344a9"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-007-007-cc3f91b2",
@@ -446,12 +494,14 @@
         "41-006-007-007-55d0a645",
         "41-006-007-007-e42bbb48"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-007-007-dbcf9839",
@@ -466,9 +516,11 @@
       "originalIds": [
         "41-006-007-007-07ed02b6"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-008-008-7166587b",
@@ -483,9 +535,11 @@
       "originalIds": [
         "41-006-008-008-0434639d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-008-008-dfc438f6",
@@ -500,9 +554,11 @@
       "originalIds": [
         "41-006-008-008-0d7c5373"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-009-009-ea42e14c",
@@ -517,9 +573,11 @@
       "originalIds": [
         "41-006-009-009-f1b5a71d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-009-009-a38f58e2",
@@ -534,9 +592,11 @@
       "originalIds": [
         "41-006-009-009-2781e484"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-010-010-f6d61511",
@@ -552,12 +612,14 @@
         "41-006-010-010-2ed5cbd3",
         "41-006-010-010-f82e77ea"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-010-010-c0c9b861",
@@ -572,9 +634,11 @@
       "originalIds": [
         "41-006-010-010-dd3cf30a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-011-011-a9605d83",
@@ -589,9 +653,11 @@
       "originalIds": [
         "41-006-011-011-bfba67b4"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-011-011-d24b0207",
@@ -606,9 +672,11 @@
       "originalIds": [
         "41-006-011-011-7886a4bc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-011-011-0ea4d504",
@@ -623,9 +691,11 @@
       "originalIds": [
         "41-006-011-011-cbb38cf7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-011-011-e2fd7168",
@@ -640,9 +710,11 @@
       "originalIds": [
         "41-006-011-011-2512310e"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-012-012-c922ce81",
@@ -657,9 +729,11 @@
       "originalIds": [
         "41-006-012-012-c4a20f77"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-012-012-ae46395e",
@@ -674,9 +748,11 @@
       "originalIds": [
         "41-006-012-012-a3d6046c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-013-013-72083962",
@@ -691,9 +767,11 @@
       "originalIds": [
         "41-006-013-013-05e7fae7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-013-013-74062a10",
@@ -708,9 +786,11 @@
       "originalIds": [
         "41-006-013-013-7a8d7826"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-013-013-c462bb76",
@@ -726,12 +806,14 @@
         "41-006-013-013-0c3582f3",
         "41-006-013-013-ac508aae"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-013-013-b5649bc9",
@@ -747,12 +829,14 @@
         "41-006-013-013-fac91e6a",
         "41-006-013-013-80d59a11"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-014-014-e6afbe5c",
@@ -767,9 +851,11 @@
       "originalIds": [
         "41-006-014-014-b747c211"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-014-014-7ee3e7d9",
@@ -785,12 +871,14 @@
         "41-006-014-014-bc75c2c4",
         "41-006-014-014-78ba01f4"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-014-014-0c7e7673",
@@ -806,12 +894,14 @@
         "41-006-014-014-a17de20d",
         "41-006-014-014-c9d8b9e9"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-014-014-b33061de",
@@ -826,9 +916,11 @@
       "originalIds": [
         "41-006-014-014-8f66b13c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-015-015-41f03cc3",
@@ -843,9 +935,11 @@
       "originalIds": [
         "41-006-015-015-44a355e5"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-015-015-32a8882d",
@@ -861,12 +955,14 @@
         "41-006-015-015-02a7e1a6",
         "41-006-015-015-95db0e91"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-015-015-bc8d828e",
@@ -881,9 +977,11 @@
       "originalIds": [
         "41-006-015-015-89dd7d26"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-016-016-399c6b47",
@@ -899,12 +997,14 @@
         "41-006-016-016-cd7615c6",
         "41-006-016-016-12973e99"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-016-016-f9fcecd1",
@@ -920,12 +1020,14 @@
         "41-006-016-016-174d186d",
         "41-006-016-016-78f485de"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-016-016-ca8d9d8e",
@@ -940,9 +1042,11 @@
       "originalIds": [
         "41-006-016-016-b9ead837"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-017-017-d2f12063",
@@ -958,12 +1062,14 @@
         "41-006-017-017-00cc0135",
         "41-006-017-017-6b3b4ffc"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-017-017-dc5990f8",
@@ -978,9 +1084,11 @@
       "originalIds": [
         "41-006-017-017-6e47fccb"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-017-017-54e7c590",
@@ -996,12 +1104,14 @@
         "41-006-017-017-01db5ef3",
         "41-006-017-017-11111270"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-017-017-4a7cfbb8",
@@ -1017,12 +1127,14 @@
         "41-006-017-017-88c6c507",
         "41-006-017-017-bd12956f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-018-018-f7ccde46",
@@ -1037,9 +1149,11 @@
       "originalIds": [
         "41-006-018-018-24bc171a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-019-019-3d435e8d",
@@ -1054,9 +1168,11 @@
       "originalIds": [
         "41-006-019-019-9690d651"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-019-019-d823abb2",
@@ -1071,9 +1187,11 @@
       "originalIds": [
         "41-006-019-019-71ea984c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-019-019-d2cf6603",
@@ -1088,9 +1206,11 @@
       "originalIds": [
         "41-006-019-019-8fec68a3"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-020-020-6176ffc5",
@@ -1105,9 +1225,11 @@
       "originalIds": [
         "41-006-020-020-db04a7d3"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-020-020-8c658438",
@@ -1122,9 +1244,11 @@
       "originalIds": [
         "41-006-020-020-c771059c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-020-020-e47987e9",
@@ -1140,12 +1264,14 @@
         "41-006-020-020-3f3b64b2",
         "41-006-020-020-e694d7b7"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-020-020-807e9e1b",
@@ -1160,9 +1286,11 @@
       "originalIds": [
         "41-006-020-020-c2ec75d3"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-021-021-f9b36dac",
@@ -1177,9 +1305,11 @@
       "originalIds": [
         "41-006-021-021-ddd25bb1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-021-021-a3dba6aa",
@@ -1194,9 +1324,11 @@
       "originalIds": [
         "41-006-021-021-801434ea"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-021-021-99c5b84a",
@@ -1212,12 +1344,14 @@
         "41-006-021-021-cf519a42",
         "41-006-021-021-ed5256c8"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-021-021-118ee872",
@@ -1232,9 +1366,11 @@
       "originalIds": [
         "41-006-021-021-b86f0ca5"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-022-022-a2fa6027",
@@ -1250,9 +1386,11 @@
         "41-006-022-022-2ca5da02",
         "41-006-022-022-a2fa6027"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-022-022-dcf4d4f7",
@@ -1267,9 +1405,11 @@
       "originalIds": [
         "41-006-022-022-7ac6a757"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-022-022-573fd48c",
@@ -1284,9 +1424,11 @@
       "originalIds": [
         "41-006-022-022-c5c3cbb4"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-023-023-cae5576d",
@@ -1302,12 +1444,14 @@
         "41-006-023-023-a217fedb",
         "41-006-023-023-0289bd90"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-023-023-7e3117d6",
@@ -1322,9 +1466,11 @@
       "originalIds": [
         "41-006-023-023-1b415298"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-023-023-1dafb802",
@@ -1340,12 +1486,14 @@
         "41-006-023-023-5b7fd13d",
         "41-006-023-023-745ae2f6"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-024-024-a255ab97",
@@ -1361,12 +1509,14 @@
         "41-006-024-024-2aae6834",
         "41-006-024-024-d001be95"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-024-024-5cdf6d8e",
@@ -1381,9 +1531,11 @@
       "originalIds": [
         "41-006-024-024-ece07868"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-024-024-3265a83f",
@@ -1399,8 +1551,10 @@
         "41-006-024-024-80c845b6"
       ],
       "validatedBy": "automated_deterministic",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-025-025-5dcc5b26",
@@ -1415,9 +1569,11 @@
       "originalIds": [
         "41-006-025-025-fbd70ad0"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-025-025-cbf58278",
@@ -1433,12 +1589,14 @@
         "41-006-025-025-d7e43408",
         "41-006-025-025-081af85a"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-025-025-07907c78",
@@ -1453,9 +1611,11 @@
       "originalIds": [
         "41-006-025-025-40bda19d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-025-025-7b285855",
@@ -1471,12 +1631,14 @@
         "41-006-025-025-d228f6cd",
         "41-006-025-025-083c346a"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-026-026-66bbf67f",
@@ -1491,9 +1653,11 @@
       "originalIds": [
         "41-006-026-026-2feefb7a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-026-026-7dfdbe45",
@@ -1508,9 +1672,11 @@
       "originalIds": [
         "41-006-026-026-6b247180"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-026-026-dfb480b4",
@@ -1525,9 +1691,11 @@
       "originalIds": [
         "41-006-026-026-6ea70f7b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-027-027-f2605863",
@@ -1542,9 +1710,11 @@
       "originalIds": [
         "41-006-027-027-70f58b91"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-027-027-72d8b479",
@@ -1560,12 +1730,14 @@
         "41-006-027-027-c343d577",
         "41-006-027-027-8f4430a9"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-027-027-2218d585",
@@ -1581,12 +1753,14 @@
         "41-006-027-027-216ebb97",
         "41-006-027-027-86637bf3"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-028-028-d672082f",
@@ -1601,9 +1775,11 @@
       "originalIds": [
         "41-006-028-028-fc0c5a97"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-028-028-eb15b653",
@@ -1619,12 +1795,14 @@
         "41-006-028-028-4d288967",
         "41-006-028-028-f91916e9"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-028-028-30c73911",
@@ -1641,12 +1819,14 @@
         "41-006-028-028-ff125da0",
         "41-006-028-028-30c73911"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-029-029-a8d8cbe0",
@@ -1661,9 +1841,11 @@
       "originalIds": [
         "41-006-029-029-6328a9d7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-029-029-38c3b562",
@@ -1678,9 +1860,11 @@
       "originalIds": [
         "41-006-029-029-d52f2a09"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-029-029-b3fc7227",
@@ -1695,9 +1879,11 @@
       "originalIds": [
         "41-006-029-029-cb5e8af2"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-030-030-bbb6f953",
@@ -1712,9 +1898,11 @@
       "originalIds": [
         "41-006-030-030-f70f1d7d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-030-030-e2796130",
@@ -1730,9 +1918,11 @@
         "41-006-030-030-6e1f4ded",
         "41-006-030-030-e2796130"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-030-030-b0a1578c",
@@ -1747,9 +1937,11 @@
       "originalIds": [
         "41-006-030-030-32aeec42"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-031-031-af222469",
@@ -1765,12 +1957,14 @@
         "41-006-031-031-c079b260",
         "41-006-031-031-8d3538fe"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-031-031-878954f6",
@@ -1785,9 +1979,11 @@
       "originalIds": [
         "41-006-031-031-4cc93140"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-031-031-26a9add1",
@@ -1803,9 +1999,11 @@
         "41-006-031-031-6283ebf8",
         "41-006-031-031-26a9add1"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-031-031-4a83612e",
@@ -1820,9 +2018,11 @@
       "originalIds": [
         "41-006-031-031-3dbc35e0"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-032-032-85d7a415",
@@ -1838,12 +2038,14 @@
         "41-006-032-032-24e223c0",
         "41-006-032-032-047567fc"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-032-032-07195c9f",
@@ -1859,12 +2061,14 @@
         "41-006-032-032-8f6e44b8",
         "41-006-032-032-038307c5"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-032-032-9161c871",
@@ -1879,9 +2083,11 @@
       "originalIds": [
         "41-006-032-032-b574ca8f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-033-033-0aa0fa37",
@@ -1896,9 +2102,11 @@
       "originalIds": [
         "41-006-033-033-ba805f19"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-033-033-e5dd95ab",
@@ -1913,9 +2121,11 @@
       "originalIds": [
         "41-006-033-033-2c91ca7a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-033-033-db27de9c",
@@ -1931,12 +2141,14 @@
         "41-006-033-033-4b0e3923",
         "41-006-033-033-24920884"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-033-033-8d97e6ee",
@@ -1952,12 +2164,14 @@
         "41-006-033-033-764dfce2",
         "41-006-033-033-90d0ab69"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-034-034-07074d8f",
@@ -1972,9 +2186,11 @@
       "originalIds": [
         "41-006-034-034-49d49074"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-034-034-8a42c950",
@@ -1990,12 +2206,14 @@
         "41-006-034-034-81c0f480",
         "41-006-034-034-5ba02b85"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-034-034-db0fcf50",
@@ -2011,9 +2229,11 @@
         "41-006-034-034-322126da",
         "41-006-034-034-db0fcf50"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-034-034-1a5b9ad9",
@@ -2028,9 +2248,11 @@
       "originalIds": [
         "41-006-034-034-3537e6fd"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-035-035-4018c3f3",
@@ -2045,9 +2267,11 @@
       "originalIds": [
         "41-006-035-035-ade63b33"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-035-035-f4793d49",
@@ -2062,9 +2286,11 @@
       "originalIds": [
         "41-006-035-035-2b17eb4f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-035-035-b73fd61e",
@@ -2080,12 +2306,14 @@
         "41-006-035-035-c293b557",
         "41-006-035-035-4275f420"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-035-035-b0b4bf80",
@@ -2100,9 +2328,11 @@
       "originalIds": [
         "41-006-035-035-83649b6d"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-036-036-e87380c7",
@@ -2117,9 +2347,11 @@
       "originalIds": [
         "41-006-036-036-d94b8684"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-036-036-57c2e34b",
@@ -2135,12 +2367,14 @@
         "41-006-036-036-e04d811f",
         "41-006-036-036-74b101fc"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-036-036-3dcd1036",
@@ -2155,9 +2389,11 @@
       "originalIds": [
         "41-006-036-036-9a5099c6"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-036-036-ed7adc0a",
@@ -2172,9 +2408,11 @@
       "originalIds": [
         "41-006-036-036-3e2684bc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-037-037-645ca702",
@@ -2190,12 +2428,14 @@
         "41-006-037-037-6a14a2fc",
         "41-006-037-037-59fb8c9f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-037-037-c4461b4d",
@@ -2210,9 +2450,11 @@
       "originalIds": [
         "41-006-037-037-7be53eeb"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-037-037-41e0204a",
@@ -2227,9 +2469,11 @@
       "originalIds": [
         "41-006-037-037-d9866d9f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-038-038-e4924b0b",
@@ -2244,9 +2488,11 @@
       "originalIds": [
         "41-006-038-038-6e9ef33a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-038-038-238ddb41",
@@ -2262,12 +2508,14 @@
         "41-006-038-038-fac75342",
         "41-006-038-038-8c6b423d"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-038-038-94d55265",
@@ -2283,12 +2531,14 @@
         "41-006-038-038-e72b7715",
         "41-006-038-038-9c5d02ee"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-039-039-70db2a50",
@@ -2303,9 +2553,11 @@
       "originalIds": [
         "41-006-039-039-fc003f91"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-039-039-0364c61f",
@@ -2321,12 +2573,14 @@
         "41-006-039-039-55c8ec8e",
         "41-006-039-039-98cb2763"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-040-040-fa1b340b",
@@ -2342,12 +2596,14 @@
         "41-006-040-040-5dfbfd7b",
         "41-006-040-040-49f7f341"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-040-040-308e3052",
@@ -2363,12 +2619,14 @@
         "41-006-040-040-281949b0",
         "41-006-040-040-43a9072f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-041-041-6c17bb0e",
@@ -2383,9 +2641,11 @@
       "originalIds": [
         "41-006-041-041-d85cca6f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-041-041-71b08a8c",
@@ -2401,9 +2661,11 @@
         "41-006-041-041-c09b2588",
         "41-006-041-041-71b08a8c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-041-041-50db71ce",
@@ -2419,12 +2681,14 @@
         "41-006-041-041-0659f460",
         "41-006-041-041-3bf2f9e5"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-041-041-4a945ec5",
@@ -2439,9 +2703,11 @@
       "originalIds": [
         "41-006-041-041-70bc7d31"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-042-042-50526fc9",
@@ -2457,12 +2723,14 @@
         "41-006-042-042-7062671a",
         "41-006-042-042-468a9542"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-042-042-0ec5108e",
@@ -2478,12 +2746,14 @@
         "41-006-042-042-0c449b20",
         "41-006-042-042-db585641"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-043-043-a9be1a46",
@@ -2499,12 +2769,14 @@
         "41-006-043-043-ad50fe98",
         "41-006-043-043-9f357094"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-043-043-1b8ce2ad",
@@ -2520,9 +2792,11 @@
         "41-006-043-043-8238ed12",
         "41-006-043-043-1b8ce2ad"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-044-044-f35a37c9",
@@ -2537,9 +2811,11 @@
       "originalIds": [
         "41-006-044-044-06e0fd3c"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-044-044-93e774d8",
@@ -2554,9 +2830,11 @@
       "originalIds": [
         "41-006-044-044-98c59b3b"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-045-045-092d4732",
@@ -2572,12 +2850,14 @@
         "41-006-045-045-48a1693a",
         "41-006-045-045-de9ddc81"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-045-045-a6accd8a",
@@ -2592,9 +2872,11 @@
       "originalIds": [
         "41-006-045-045-ea4c9a93"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-045-045-b3e49415",
@@ -2610,12 +2892,14 @@
         "41-006-045-045-5ea784db",
         "41-006-045-045-d4d864e7"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-046-046-2654cac1",
@@ -2631,12 +2915,14 @@
         "41-006-046-046-c4d3f48b",
         "41-006-046-046-89430e68"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-046-046-cb54ca43",
@@ -2651,9 +2937,11 @@
       "originalIds": [
         "41-006-046-046-0e2d4f80"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-047-047-a1db911e",
@@ -2669,12 +2957,14 @@
         "41-006-047-047-81af1db7",
         "41-006-047-047-b6fb16e0"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-047-047-a7e23355",
@@ -2689,9 +2979,11 @@
       "originalIds": [
         "41-006-047-047-aee64883"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-048-048-d930919a",
@@ -2706,9 +2998,11 @@
       "originalIds": [
         "41-006-048-048-cff835c8"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-048-048-e94764e5",
@@ -2723,9 +3017,11 @@
       "originalIds": [
         "41-006-048-048-c571cf85"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-048-048-93304c0d",
@@ -2740,9 +3036,11 @@
       "originalIds": [
         "41-006-048-048-3392bfd8"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-048-048-42e0f97a",
@@ -2758,12 +3056,14 @@
         "41-006-048-048-bcd56246",
         "41-006-048-048-88869f73"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-048-048-d4ac5ab7",
@@ -2778,9 +3078,11 @@
       "originalIds": [
         "41-006-048-048-c839b653"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-049-049-c38fa399",
@@ -2796,12 +3098,14 @@
         "41-006-049-049-072d1c8d",
         "41-006-049-049-acd75ec1"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-049-049-d1867a02",
@@ -2816,9 +3120,11 @@
       "originalIds": [
         "41-006-049-049-932cc8bc"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-050-050-5b5da173",
@@ -2834,12 +3140,14 @@
         "41-006-050-050-ec3e6f18",
         "41-006-050-050-5b5da173"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-050-050-d4a5e136",
@@ -2854,9 +3162,11 @@
       "originalIds": [
         "41-006-050-050-d7b8e1a7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-050-050-e2e44b62",
@@ -2872,12 +3182,14 @@
         "41-006-050-050-580ef3c6",
         "41-006-050-050-c60ca2c7"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-050-050-1fed3830",
@@ -2893,12 +3205,14 @@
         "41-006-050-050-46901594",
         "41-006-050-050-9da84171"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-051-051-0ae1f7e8",
@@ -2913,9 +3227,11 @@
       "originalIds": [
         "41-006-051-051-486c22d4"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-051-051-c0fe0cde",
@@ -2931,12 +3247,14 @@
         "41-006-051-051-c284eb4c",
         "41-006-051-051-cb725250"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "hard"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-051-051-cbfa71c0",
@@ -2951,9 +3269,11 @@
       "originalIds": [
         "41-006-051-051-21a22388"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-051-051-6e1f5e78",
@@ -2969,9 +3289,11 @@
         "41-006-051-051-60a2e063",
         "41-006-051-051-6e1f5e78"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-052-052-4229630c",
@@ -2986,9 +3308,11 @@
       "originalIds": [
         "41-006-052-052-874b1e7a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-052-052-e0033c1b",
@@ -3004,12 +3328,14 @@
         "41-006-052-052-9a422b04",
         "41-006-052-052-aa92608f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "easy"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-052-052-d83615d7",
@@ -3025,9 +3351,11 @@
         "41-006-052-052-f3e667ab",
         "41-006-052-052-d83615d7"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-053-053-4ac6678d",
@@ -3043,12 +3371,14 @@
         "41-006-053-053-60721594",
         "41-006-053-053-1cd15a5f"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-053-053-5530be61",
@@ -3063,9 +3393,11 @@
       "originalIds": [
         "41-006-053-053-31facd61"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-054-054-34f870b9",
@@ -3080,9 +3412,11 @@
       "originalIds": [
         "41-006-054-054-8bc40e69"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-054-054-087febb7",
@@ -3097,9 +3431,11 @@
       "originalIds": [
         "41-006-054-054-5fe6d37a"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-055-055-710c597e",
@@ -3114,9 +3450,11 @@
       "originalIds": [
         "41-006-055-055-0807c694"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-055-055-2011b5cb",
@@ -3132,12 +3470,14 @@
         "41-006-055-055-1006de38",
         "41-006-055-055-b903250c"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-055-055-0306ce6c",
@@ -3152,9 +3492,11 @@
       "originalIds": [
         "41-006-055-055-af1192e6"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-056-056-ca07c40b",
@@ -3169,9 +3511,11 @@
       "originalIds": [
         "41-006-056-056-e24adc3f"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "hard"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "hard",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-056-056-ef5dcdef",
@@ -3186,9 +3530,11 @@
       "originalIds": [
         "41-006-056-056-7e0d1d21"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "medium"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-056-056-a0a7c6d9",
@@ -3204,12 +3550,14 @@
         "41-006-056-056-8c7cc7e6",
         "41-006-056-056-e01abe38"
       ],
-      "validatedBy": "human",
-      "model": [
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "medium",
+      "createdBy": [
         "gemini-flash-lite-latest",
-        "human"
+        "Patricia Wooley"
       ],
-      "difficulty": "medium"
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
       "id": "41-006-056-056-7eeb3bf8",
@@ -3224,9 +3572,11 @@
       "originalIds": [
         "41-006-056-056-1adbf9b0"
       ],
-      "validatedBy": "human",
-      "model": "gemini-flash-lite-latest",
-      "difficulty": "easy"
+      "validatedBy": "Patricia Wooley",
+      "difficulty": "easy",
+      "createdBy": "gemini-flash-lite-latest",
+      "createdOn": "2026-06-03T08:35:00-04:00",
+      "updatedOn": "2026-07-10T10:31:28-04:00"
     }
   ],
   "byVerse": {

@@ -94,7 +94,9 @@ const AI_MODEL_HINTS = [
   "llm",
 ];
 
-const HUMAN_MODEL_NAMES = new Set([
+const AUTOMATED_VALIDATION_METHODS = new Set(["automated_ai", "automated_deterministic"]);
+
+const HUMAN_CREATOR_NAMES = new Set([
   "",
   "human",
   "human_generated",
@@ -104,13 +106,31 @@ const HUMAN_MODEL_NAMES = new Set([
   "manual",
 ]);
 
-function normalizeQuestionModelNames(model) {
-  if (Array.isArray(model)) {
-    return model.flat(Infinity).map((value) => String(value || "").trim()).filter(Boolean);
+function normalizeQuestionCreatorNames(createdBy) {
+  if (Array.isArray(createdBy)) {
+    return createdBy.flat(Infinity).map((value) => String(value || "").trim()).filter(Boolean);
   }
 
-  const normalized = String(model || "").trim();
+  const normalized = String(createdBy || "").trim();
   return normalized ? [normalized] : [];
+}
+
+function isHumanValidationActor(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+  return Boolean(normalized) && !AUTOMATED_VALIDATION_METHODS.has(normalized);
+}
+
+function isHumanCreatorName(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+  if (!normalized) {
+    return false;
+  }
+
+  if (HUMAN_CREATOR_NAMES.has(normalized)) {
+    return true;
+  }
+
+  return !AUTOMATED_VALIDATION_METHODS.has(normalized) && !isLikelyAiModelName(normalized);
 }
 
 export function isLikelyAiModelName(modelName) {
@@ -123,16 +143,15 @@ export function isLikelyAiModelName(modelName) {
 }
 
 export function getQuestionSources(question) {
-  const modelNames = normalizeQuestionModelNames(question?.model);
-  const humanReviewed = String(question?.validatedBy || "").toLowerCase() === "human";
+  const modelNames = normalizeQuestionCreatorNames(question?.createdBy);
+  const humanReviewed = isHumanValidationActor(question?.validatedBy);
   const sources = new Set();
 
   for (const modelName of modelNames) {
     const normalizedModelName = modelName.toLowerCase();
 
-    if (HUMAN_MODEL_NAMES.has(normalizedModelName)) {
+    if (isHumanCreatorName(normalizedModelName)) {
       sources.add("human_generated");
-      continue;
     }
 
     if (isLikelyAiModelName(normalizedModelName)) {

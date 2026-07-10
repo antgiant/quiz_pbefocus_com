@@ -10,7 +10,7 @@
           "number": 1,
           "path": "by-chapter/41-mark/001.json",
           "verses": 45,
-          "questions": 224
+          "questions": 244
         },
         {
           "number": 2,
@@ -28,7 +28,7 @@
           "number": 4,
           "path": "by-chapter/41-mark/004.json",
           "verses": 41,
-          "questions": 128
+          "questions": 148
         },
         {
           "number": 5,
@@ -46,7 +46,7 @@
           "number": 7,
           "path": "by-chapter/41-mark/007.json",
           "verses": 37,
-          "questions": 114
+          "questions": 134
         },
         {
           "number": 8,
@@ -58,7 +58,7 @@
           "number": 9,
           "path": "by-chapter/41-mark/009.json",
           "verses": 50,
-          "questions": 171
+          "questions": 191
         },
         {
           "number": 10,
@@ -70,7 +70,7 @@
           "number": 11,
           "path": "by-chapter/41-mark/011.json",
           "verses": 33,
-          "questions": 138
+          "questions": 158
         },
         {
           "number": 12,
@@ -88,7 +88,7 @@
           "number": 14,
           "path": "by-chapter/41-mark/014.json",
           "verses": 72,
-          "questions": 223
+          "questions": 243
         },
         {
           "number": 15,
