@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="pbe-site" content="quiz">
     <title>PBE Quiz Builder</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/print.css" media="print" />
@@ -14,6 +15,7 @@
     <script src="assets/vendor/pptxgen.min.js" defer></script>
     <script type="module" src="assets/js/main.js" defer></script>
     <script src="https://pbefocus.com/rogue-sheep.js" defer></script>
+    <script src="https://pbefocus.com/site-nav.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -25,10 +27,10 @@
           </picture>
         </a>
         <nav class="primary-nav" aria-label="Primary navigation">
-          <a href="https://pbefocus.com">Home</a>
-          <a class="active" href="/">Quiz Builder</a>
-          <a href="https://pbe-scores.wooleys.us">Score Keeper</a>
-          <a href="https://pbe.wooleys.us/">Fill-In-The-Blank</a>
+          <span data-pbe-site-nav style="display:contents">
+            <a href="https://pbefocus.com">Home</a>
+            <a class="active" href="/">Quiz Builder</a>
+          </span>
           <a href="https://github.com/antgiant/pbefocus.com/discussions">Discussion</a>
         </nav>
       </div>
@@ -145,8 +147,10 @@
 
     <footer class="site-footer">
       <nav aria-label="Footer navigation">
-        <a href="https://pbe-scores.wooleys.us">Score Keeper</a>
-        <a href="https://pbe.wooleys.us/">Fill-In-The-Blank</a>
+        <span data-pbe-site-footer-nav style="display:contents">
+          <a href="https://pbefocus.com">PBEfocus.com</a>
+          <a class="active" href="/">Quiz Builder</a>
+        </span>
         <a href="https://github.com/antgiant/pbefocus.com/discussions">Discussion</a>
       </nav>
       <p>&copy; PBE Focus. All rights reserved.</p>
