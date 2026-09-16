@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+body .site-header {
+  display: none !important;
+}
+
 body .print-root {
   display: none;
 }
