@@ -769,10 +769,14 @@ function openPrintView() {
   el.printRoot.innerHTML = "";
   el.printRoot.append(sheets);
 
+  const cleanupPrintView = () => {
+    document.body.classList.remove("printing");
+    el.printRoot.innerHTML = "";
+  };
+
+  window.addEventListener("afterprint", cleanupPrintView, { once: true });
   document.body.classList.add("printing");
   window.print();
-  document.body.classList.remove("printing");
-  el.printRoot.innerHTML = "";
 }
 
 function updatePreviewToggleText() {
