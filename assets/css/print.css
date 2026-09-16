@@ -22,7 +22,8 @@ body.printing {
 }
 
 body.printing .site-header,
-body.printing .layout,
+body.printing main,
+body.printing .site-footer,
 body.printing .background-layer {
   display: none !important;
 }
