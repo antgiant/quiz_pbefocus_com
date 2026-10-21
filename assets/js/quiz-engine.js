@@ -60,11 +60,127 @@ function buildCandidateStats(candidates) {
   };
 }
 
+function selectUnweighted(randomized, settings) {
+  const selected = [];
+  const perVerseCounts = new Map();
+
+  for (const question of randomized) {
+    const verseKey = getVerseKey(question);
+    const verseCount = perVerseCounts.get(verseKey) || 0;
+
+    if (verseCount >= settings.perVerse) {
+      continue;
+    }
+
+    selected.push(question);
+    perVerseCounts.set(verseKey, verseCount + 1);
+
+    if (selected.length >= settings.totalCount) {
+      break;
+    }
+  }
+
+  return selected;
+}
+
+// Returns Map(chapterKey -> weight) or null when the user set no percentages.
+// Blank chapters split whatever percent the explicit ones leave over, evenly.
+function resolveChapterWeights(candidates, selectedScope, chapterWeights) {
+  const keys = [];
+  for (const [bookId, chapters] of Object.entries(selectedScope)) {
+    for (const chapter of chapters) {
+      keys.push(chapterKey(bookId, chapter));
+    }
+  }
+
+  const explicit = new Map();
+  for (const key of keys) {
+    const value = Number(chapterWeights?.[key]);
+    if (chapterWeights && key in chapterWeights && Number.isFinite(value) && value >= 0) {
+      explicit.set(key, value);
+    }
+  }
+
+  if (explicit.size === 0) {
+    return null;
+  }
+
+  const blank = keys.filter((key) => !explicit.has(key));
+  const explicitTotal = [...explicit.values()].reduce((sum, value) => sum + value, 0);
+  const blankShare = blank.length ? Math.max(0, 100 - explicitTotal) / blank.length : 0;
+
+  const weights = new Map(explicit);
+  for (const key of blank) {
+    weights.set(key, blankShare);
+  }
+
+  return weights;
+}
+
+// Repeatedly take from the chapter furthest below its target share, which
+// yields the requested mix and hands unfilled quota to chapters that still
+// have questions left.
+function selectWeighted(randomized, weights, settings, seed) {
+  const queues = new Map();
+  for (const question of randomized) {
+    const key = chapterKey(question.bookId, question.chapter);
+    if (!(weights.get(key) > 0)) {
+      continue;
+    }
+    if (!queues.has(key)) {
+      queues.set(key, []);
+    }
+    queues.get(key).push(question);
+  }
+
+  const selected = [];
+  const counts = new Map();
+  const perVerseCounts = new Map();
+
+  while (selected.length < settings.totalCount) {
+    let bestKey = null;
+    let bestRatio = Infinity;
+
+    for (const [key, queue] of queues) {
+      while (queue.length) {
+        const verseKey = getVerseKey(queue[0]);
+        if ((perVerseCounts.get(verseKey) || 0) < settings.perVerse) {
+          break;
+        }
+        queue.shift();
+      }
+
+      if (!queue.length) {
+        continue;
+      }
+
+      const ratio = (counts.get(key) || 0) / weights.get(key);
+      if (ratio < bestRatio) {
+        bestRatio = ratio;
+        bestKey = key;
+      }
+    }
+
+    if (bestKey === null) {
+      break;
+    }
+
+    const question = queues.get(bestKey).shift();
+    const verseKey = getVerseKey(question);
+    selected.push(question);
+    counts.set(bestKey, (counts.get(bestKey) || 0) + 1);
+    perVerseCounts.set(verseKey, (perVerseCounts.get(verseKey) || 0) + 1);
+  }
+
+  return shuffle(selected, seed);
+}
+
 export async function generateQuestions({
   dataService,
   year,
   selectedScope,
   selectedVerses,
+  chapterWeights,
   settings,
   seed,
 }) {
@@ -128,24 +244,10 @@ export async function generateQuestions({
   }
 
   const randomized = shuffle(candidates, seed);
-  const selected = [];
-  const perVerseCounts = new Map();
-
-  for (const question of randomized) {
-    const verseKey = getVerseKey(question);
-    const verseCount = perVerseCounts.get(verseKey) || 0;
-
-    if (verseCount >= settings.perVerse) {
-      continue;
-    }
-
-    selected.push(question);
-    perVerseCounts.set(verseKey, verseCount + 1);
-
-    if (selected.length >= settings.totalCount) {
-      break;
-    }
-  }
+  const weights = resolveChapterWeights(randomized, selectedScope, chapterWeights);
+  const selected = weights
+    ? selectWeighted(randomized, weights, settings, seed)
+    : selectUnweighted(randomized, settings);
 
   if (selected.length < settings.totalCount) {
     unmet.push(

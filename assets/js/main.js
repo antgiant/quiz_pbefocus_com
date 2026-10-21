@@ -55,6 +55,7 @@ const el = {
   sourceCheckboxes: document.getElementById("sourceCheckboxes"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
+  resetWeightsBtn: document.getElementById("resetWeightsBtn"),
   scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
   scopeModeVerseBtn: document.getElementById("scopeModeVerseBtn"),
   newProfileBtn: document.getElementById("newProfileBtn"),
@@ -193,6 +194,7 @@ function renderControls() {
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
+    chapterWeights: active.chapterWeights,
     selectedVerses: active.selectedVerses,
   });
   el.scopeSelector.scrollTop = 0;
@@ -353,6 +355,7 @@ async function refreshScopeSelectorForFilters() {
       hideUnavailable: true,
       scopeLimit: getActiveYear()?.scope || {},
       selectorMode: settings.selectorMode,
+    chapterWeights: active.chapterWeights,
       selectedVerses: {},
     });
     return;
@@ -367,6 +370,7 @@ async function refreshScopeSelectorForFilters() {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
       scopeLimit: getActiveYear()?.scope || {},
       selectorMode: settings.selectorMode,
+    chapterWeights: active.chapterWeights,
       selectedVerses: active.selectedVerses,
     });
     return;
@@ -385,6 +389,7 @@ async function refreshScopeSelectorForFilters() {
     hideUnavailable: true,
     scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
+    chapterWeights: active.chapterWeights,
     selectedVerses: prunedSelectedVerses,
   });
 }
@@ -480,8 +485,18 @@ function syncScopeFromControls() {
     }
   });
 
+  const chapterWeights = {};
+  el.scopeSelector.querySelectorAll('[data-role="chapter-weight"]').forEach((input) => {
+    const value = parseFloat(input.value);
+    if (input.disabled || !Number.isFinite(value) || value < 0) {
+      return;
+    }
+    chapterWeights[chapterScopeKey(input.dataset.bookId, input.dataset.chapter)] = Math.min(value, 100);
+  });
+
   active.selectedScope = scope;
   active.selectedVerses = selectedVerses;
+  active.chapterWeights = chapterWeights;
   saveState(appState.storage);
 }
 
@@ -626,6 +641,15 @@ function setChapterVerseControlsEnabled(bookId, chapter, enabled) {
   });
 }
 
+function setChapterWeightEnabled(bookId, chapter, enabled) {
+  const input = el.scopeSelector.querySelector(
+    `input[data-role="chapter-weight"][data-book-id="${bookId}"][data-chapter="${chapter}"]`
+  );
+  if (input) {
+    input.disabled = !enabled;
+  }
+}
+
 function wireScopeEvents() {
   el.scopeSelector.addEventListener("change", (event) => {
     const target = event.target;
@@ -641,6 +665,7 @@ function wireScopeEvents() {
       chapterToggles.forEach((toggle) => {
         toggle.checked = target.checked;
         setChapterVerseControlsEnabled(bookId, Number(toggle.dataset.chapter), target.checked);
+        setChapterWeightEnabled(bookId, Number(toggle.dataset.chapter), target.checked);
       });
     }
 
@@ -648,6 +673,7 @@ function wireScopeEvents() {
       const bookId = target.dataset.bookId;
       const chapter = Number(target.dataset.chapter);
       setChapterVerseControlsEnabled(bookId, chapter, target.checked);
+      setChapterWeightEnabled(bookId, chapter, target.checked);
     }
 
     if (target.dataset.role === "verse-toggle") {
@@ -912,6 +938,7 @@ async function generateAndRender() {
     year,
     selectedScope: scope,
     selectedVerses: active.selectedVerses || {},
+    chapterWeights: active.chapterWeights || {},
     settings: active.settings,
     seed: Date.now(),
   });
@@ -1042,6 +1069,16 @@ function wireEvents() {
     active.settings.selectorMode = "verse";
     saveState(appState.storage);
     renderControls();
+    queueRealtimeGenerate();
+  });
+
+  el.resetWeightsBtn.addEventListener("click", () => {
+    const active = getActiveProfile(appState.storage);
+    active.chapterWeights = {};
+    saveState(appState.storage);
+    el.scopeSelector.querySelectorAll('[data-role="chapter-weight"]').forEach((input) => {
+      input.value = "";
+    });
     queueRealtimeGenerate();
   });
 

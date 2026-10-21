@@ -265,6 +265,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
   const scopeLimit =
     options.scopeLimit && typeof options.scopeLimit === "object" ? options.scopeLimit : null;
   const selectedVerses = options.selectedVerses || {};
+  const chapterWeights = options.chapterWeights || {};
   const selectorMode = options.selectorMode === "verse" ? "verse" : "chapter";
 
   function chapterKey(bookId, chapterNumber) {
@@ -378,8 +379,32 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       chapterNumber.textContent = `Chapter ${chapter.number}`;
       chapterLabel.append(chapterToggle, chapterNumber);
 
+      const weightLabel = document.createElement("label");
+      weightLabel.className = "chapter-weight";
+      weightLabel.title = "Share of questions from this chapter. Leave blank to split the remainder evenly.";
+      const weightInput = document.createElement("input");
+      weightInput.type = "number";
+      weightInput.min = "0";
+      weightInput.max = "100";
+      weightInput.step = "any";
+      weightInput.placeholder = "auto";
+      weightInput.inputMode = "decimal";
+      weightInput.dataset.role = "chapter-weight";
+      weightInput.dataset.bookId = book.id;
+      weightInput.dataset.chapter = String(chapter.number);
+      weightInput.setAttribute("aria-label", `${book.name} chapter ${chapter.number} percent of questions`);
+      weightInput.disabled = !chapterToggle.checked;
+      const savedWeight = chapterWeights[chapterKey(book.id, chapter.number)];
+      if (Number.isFinite(savedWeight)) {
+        weightInput.value = String(savedWeight);
+      }
+      weightLabel.append(weightInput, document.createTextNode("%"));
+
       if (selectorMode === "chapter") {
-        chapterWrap.append(chapterLabel);
+        const cell = document.createElement("div");
+        cell.className = "chapter-weight-cell";
+        cell.append(chapterLabel, weightLabel);
+        chapterWrap.append(cell);
         continue;
       }
 
@@ -491,7 +516,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       }
 
       verseToggleWrap.append(versesGrid);
-      chapterHeaderRow.append(chapterLabel, verseToggleWrap);
+      chapterHeaderRow.append(chapterLabel, weightLabel, verseToggleWrap);
       chapterRow.append(chapterHeaderRow);
       chapterWrap.append(chapterRow);
     }
