@@ -303,20 +303,22 @@ function questionMatchesAvailabilityFilters(question, settings) {
 async function buildAvailabilityMap(settings) {
   const availability = new Map();
 
-  for (const book of appState.manifest.books) {
-    for (const chapter of book.chapters) {
-      let chapterQuestions = [];
-      try {
-        chapterQuestions = await dataService.loadChapter(book.id, chapter.number);
-      } catch {
-        chapterQuestions = [];
-      }
-      const hasAnyMatch = chapterQuestions.some((question) =>
-        questionMatchesAvailabilityFilters(question, settings)
-      );
-      availability.set(`${book.id}:${chapter.number}`, hasAnyMatch);
-    }
-  }
+  await Promise.all(
+    appState.manifest.books.flatMap((book) =>
+      book.chapters.map(async (chapter) => {
+        let chapterQuestions = [];
+        try {
+          chapterQuestions = await dataService.loadChapter(book.id, chapter.number);
+        } catch {
+          chapterQuestions = [];
+        }
+        const hasAnyMatch = chapterQuestions.some((question) =>
+          questionMatchesAvailabilityFilters(question, settings)
+        );
+        availability.set(`${book.id}:${chapter.number}`, hasAnyMatch);
+      })
+    )
+  );
 
   return availability;
 }
@@ -1113,8 +1115,8 @@ async function bootstrap() {
     renderProfileArea();
     renderControls();
     updatePreviewToggleText();
-    await refreshScopeSelectorForFilters();
     wireEvents();
+    await refreshScopeSelectorForFilters();
     await generateAndRender();
 
     setStatus("Ready. Questions update automatically as you change selections.", "ok");
