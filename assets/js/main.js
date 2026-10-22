@@ -1180,6 +1180,10 @@ function bindInteractiveControls() {
   });
 
   submitBtn.addEventListener("click", () => {
+    // Realistic mode: no late answers once time is up or the question was left
+    if (state.options.realistic && result.expired && !result.autoSubmit) {
+      return;
+    }
     // Re-submitting the same text must not wipe points the user already adjusted
     if (result.status === "submitted" && result.submittedInput === input.value) {
       return;
@@ -1290,7 +1294,9 @@ function startQuestionTimer() {
         playInteractiveCue(audioCueKey("timesUp", isLast));
       }
       if (state.options.realistic) {
+        result.autoSubmit = true;
         document.getElementById("interactiveSubmitBtn")?.click();
+        result.autoSubmit = false;
       }
     }
   };

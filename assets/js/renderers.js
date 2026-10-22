@@ -680,6 +680,8 @@ export function renderInteractive(container, state) {
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
   const input = wrap.querySelector("#interactiveAnswerInput");
   input.value = result.input;
+  // Realistic mode gives one chance per question: once answered or left, it stays locked
+  input.readOnly = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
   const timerNode = wrap.querySelector("#interactiveTimer");
   if (state.options?.timer && result.status === "unanswered") {
