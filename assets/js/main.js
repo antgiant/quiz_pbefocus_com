@@ -12,7 +12,7 @@ import { generateQuestions } from "./quiz-engine.js";
 import {
   createPrintSheets,
   interactivePossiblePoints,
-  interactiveTotals,
+  interactiveProgressText,
   renderDifficultyCheckboxes,
   renderInteractive,
   renderPeopleSelector,
@@ -1153,10 +1153,9 @@ function bindInteractiveControls() {
   panel.addEventListener("change", (event) => {
     if (event.target.name === "interactivePoints") {
       result.awarded = Number(event.target.value);
-      const { earned, possible } = interactiveTotals(state);
       const progress = el.interactiveContainer.querySelector(".interactive-progress");
       if (progress) {
-        progress.textContent = `Question ${index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far`;
+        progress.textContent = interactiveProgressText(state);
       }
     }
   });

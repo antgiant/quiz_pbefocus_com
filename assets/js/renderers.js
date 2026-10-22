@@ -582,6 +582,24 @@ export function interactiveTotals(state) {
   return { earned, possible };
 }
 
+// Percent of the points available on answered questions that were earned
+export function interactivePercent(state) {
+  let earned = 0;
+  let possible = 0;
+  state.questions.forEach((question, i) => {
+    if (state.results[i]?.status !== "unanswered") {
+      possible += interactivePossiblePoints(question);
+      earned += state.results[i].awarded || 0;
+    }
+  });
+  return possible ? `${Math.round((earned / possible) * 100)}%` : "–";
+}
+
+export function interactiveProgressText(state) {
+  const { earned, possible } = interactiveTotals(state);
+  return `Question ${state.index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far · ${interactivePercent(state)} correct`;
+}
+
 // Full verse text, with the words that answer the question in red
 export function renderVerseText(target, verses, answer) {
   target.textContent = "";
@@ -616,7 +634,7 @@ export function renderInteractive(container, state) {
     summary.className = "interactive-wrap";
     summary.innerHTML = `
       <p class="interactive-progress">Completed ${state.questions.length} questions (${answered} answered).</p>
-      <h3>Score: ${earned} / ${possible} points</h3>
+      <h3>Score: ${earned} / ${possible} points (${interactivePercent(state)} correct)</h3>
       <div class="interactive-actions">
         <button type="button" id="interactivePrevBtn">Previous</button>
       </div>
@@ -633,10 +651,9 @@ export function renderInteractive(container, state) {
   wrap.className = "interactive-wrap";
   const promptHtml = prompt.prompt.replace(/\n/g, "<br>");
   const isLast = state.index === state.questions.length - 1;
-  const { earned, possible } = interactiveTotals(state);
 
   wrap.innerHTML = `
-    <p class="interactive-progress">Question ${state.index + 1} of ${state.questions.length} &middot; ${earned} / ${possible} points so far</p>
+    <p class="interactive-progress"></p>
     <p>${promptHtml}</p>
     <label>
       Your answer
@@ -651,6 +668,7 @@ export function renderInteractive(container, state) {
     <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>
   `;
 
+  wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
   wrap.querySelector("#interactiveAnswerInput").value = result.input;
   container.append(wrap);
 
