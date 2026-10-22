@@ -72,8 +72,24 @@ function redAnswerRuns(text, answer) {
   ].filter((run) => run.text);
 }
 
+// Bible API text can carry inline markup such as <i>…</i> and HTML entities
+function cleanVerseText(text) {
+  return safeText(text)
+    .replace(/<[^>]*>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(Number(dec)))
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function verseTextRuns(verses, answer) {
-  const full = verses.map((v) => `${v.verse} ${v.text}`).join(" ");
+  const full = verses.map((v) => `${v.verse} ${cleanVerseText(v.text)}`).join(" ");
   return redAnswerRuns(full, answer);
 }
 
@@ -177,30 +193,33 @@ function convertTo16x9(presentationXml) {
   );
 }
 
-// Keep slide1, skip slide2 (disclaimer), keep slide3, then Q/A pairs
-function trimSlideList(presentationXml, questionCount) {
+// Keep slide1, skip slide2 (disclaimer), keep slide3, then the generated Q/A slides
+function buildSlideList(presentationXml, generatedSlides) {
   const entries = Array.from(
     presentationXml.matchAll(/<p:sldId[^>]*\/>/g)
   ).map((m) => m[0]);
 
-  const needed = 3 + questionCount * 2;
-  if (needed > entries.length) {
-    throw new Error(
-      `Template only supports up to ${Math.floor((entries.length - 3) / 2)} questions.`
-    );
-  }
-
-  const kept = [
-    entries[0], // slide1 – title
-    // entries[1] removed – slide2 disclaimer
-    entries[2], // slide3 – ABC reference
-    ...entries.slice(3, 3 + questionCount * 2),
-  ];
+  const generated = generatedSlides.map(
+    (slide) => `<p:sldId id="${slide.id}" r:id="${slide.rId}"/>`
+  );
 
   return presentationXml.replace(
     /<p:sldIdLst>[\s\S]*?<\/p:sldIdLst>/,
-    `<p:sldIdLst>${kept.join("")}</p:sldIdLst>`
+    `<p:sldIdLst>${[entries[0], entries[2], ...generated].join("")}</p:sldIdLst>`
   );
+}
+
+// Generated slides get fresh part names, relationship ids and slide ids so the
+// deck is not limited by how many slides the template happens to contain.
+const NEW_SLIDE_BASE = 1000;
+const SLIDE_REL_TYPE =
+  "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide";
+const SLIDE_CONTENT_TYPE =
+  "application/vnd.openxmlformats-officedocument.presentationml.slide+xml";
+
+function newSlide(offset) {
+  const n = NEW_SLIDE_BASE + offset;
+  return { n, id: n, rId: `rId${n}`, path: `ppt/slides/slide${n}.xml` };
 }
 
 // --- Download ---
@@ -281,12 +300,15 @@ export async function exportPowerPoint({ questions, verses = [], yearName }) {
   const qRels = slideRels("slideLayout2.xml");
   const aRels = slideRels("slideLayout2.xml");
 
+  const generatedSlides = [];
+
   for (let i = 0; i < questions.length; i += 1) {
     const index = i + 1;
     const question = questions[i];
     const ref = verseRef(question);
-    const qSlideNum = 4 + i * 2;
-    const aSlideNum = qSlideNum + 1;
+    const qSlide = newSlide(i * 2);
+    const aSlide = newSlide(i * 2 + 1);
+    generatedSlides.push(qSlide, aSlide);
 
     // Question slide layout:
     //   Line 1: "According to {ref}"
@@ -303,8 +325,8 @@ export async function exportPowerPoint({ questions, verses = [], yearName }) {
       "",
       questionLabel(question),
     ]);
-    zip.file(`ppt/slides/slide${qSlideNum}.xml`, qXml);
-    zip.file(`ppt/slides/_rels/slide${qSlideNum}.xml.rels`, qRels);
+    zip.file(qSlide.path, qXml);
+    zip.file(`ppt/slides/_rels/slide${qSlide.n}.xml.rels`, qRels);
 
     // Answer slide layout:
     //   Line 1: full question text
@@ -329,15 +351,39 @@ export async function exportPowerPoint({ questions, verses = [], yearName }) {
         ? [{ runs: verseTextRuns(verses[i], question.answer), size: 2400 }]
         : []),
     ]);
-    zip.file(`ppt/slides/slide${aSlideNum}.xml`, aXml);
-    zip.file(`ppt/slides/_rels/slide${aSlideNum}.xml.rels`, aRels);
+    zip.file(aSlide.path, aXml);
+    zip.file(`ppt/slides/_rels/slide${aSlide.n}.xml.rels`, aRels);
   }
 
   // Update presentation: trim slide list, set 16:9
   let presXml = await zip.file("ppt/presentation.xml").async("string");
-  presXml = trimSlideList(presXml, questions.length);
+  presXml = buildSlideList(presXml, generatedSlides);
   presXml = convertTo16x9(presXml);
   zip.file("ppt/presentation.xml", presXml);
+
+  let presRels = await zip.file("ppt/_rels/presentation.xml.rels").async("string");
+  presRels = presRels.replace(
+    "</Relationships>",
+    generatedSlides
+      .map(
+        (slide) =>
+          `<Relationship Id="${slide.rId}" Type="${SLIDE_REL_TYPE}" Target="slides/slide${slide.n}.xml"/>`
+      )
+      .join("") + "</Relationships>"
+  );
+  zip.file("ppt/_rels/presentation.xml.rels", presRels);
+
+  let contentTypes = await zip.file("[Content_Types].xml").async("string");
+  contentTypes = contentTypes.replace(
+    "</Types>",
+    generatedSlides
+      .map(
+        (slide) =>
+          `<Override PartName="/${slide.path}" ContentType="${SLIDE_CONTENT_TYPE}"/>`
+      )
+      .join("") + "</Types>"
+  );
+  zip.file("[Content_Types].xml", contentTypes);
 
   const datePart = new Date().toISOString().slice(0, 10);
   const slug = (value) => safeText(value).replace(/[^\w-]+/g, "-").replace(/^-+|-+$/g, "");

@@ -845,19 +845,38 @@ function togglePreview() {
   updatePreviewToggleText();
 }
 
-async function loadQuestionVerses(question) {
-  const start = Number(question.startVerse) || 1;
-  const end = Math.max(start, Number(question.endVerse) || start);
-  const verses = [];
-  for (let verse = start; verse <= end; verse += 1) {
+// Loads whole chapters (shared and de-duplicated by the data service) rather
+// than one request per verse, retrying once since the Bible API can drop requests.
+async function loadChapterVerses(bookId, chapter) {
+  for (let attempt = 0; attempt < 3; attempt += 1) {
     try {
-      const loaded = await dataService.loadNkjvVerse(question.bookId, question.chapter, verse);
-      if (loaded?.text) verses.push(loaded);
+      const verses = await dataService.loadNkjvChapter(bookId, chapter);
+      if (verses.length) return verses;
     } catch {
-      // Missing verse text should not block the export
+      // retry below
+    }
+    await new Promise((resolve) => setTimeout(resolve, 400 * (attempt + 1)));
+  }
+  return [];
+}
+
+async function loadVersesForQuestions(questions) {
+  const chapters = new Map();
+  for (const question of questions) {
+    const key = `${question.bookId}:${question.chapter}`;
+    if (!chapters.has(key)) {
+      chapters.set(key, loadChapterVerses(question.bookId, question.chapter));
     }
   }
-  return verses;
+
+  return Promise.all(
+    questions.map(async (question) => {
+      const chapterVerses = await chapters.get(`${question.bookId}:${question.chapter}`);
+      const start = Number(question.startVerse) || 1;
+      const end = Math.max(start, Number(question.endVerse) || start);
+      return chapterVerses.filter((v) => v.verse >= start && v.verse <= end);
+    })
+  );
 }
 
 async function downloadPowerPoint() {
@@ -878,15 +897,17 @@ async function downloadPowerPoint() {
       return;
     }
 
-    const verses = await Promise.all(questions.map(loadQuestionVerses));
+    const verses = await loadVersesForQuestions(questions);
+    const missing = verses.filter((list) => !list.length).length;
     await exportPowerPoint({
       questions,
       verses,
       yearName: getActiveYear()?.name || "Current Year",
     });
     setStatus(
-      `PowerPoint download started with ${questions.length} questions from ${entries.length} ${entries.length === 1 ? "person" : "people"}.`,
-      "ok"
+      `PowerPoint download started with ${questions.length} questions from ${entries.length} ${entries.length === 1 ? "person" : "people"}.` +
+        (missing ? ` Verse text could not be loaded for ${missing} question(s).` : ""),
+      missing ? "warn" : "ok"
     );
   } catch (error) {
     setStatus(error.message || "PowerPoint export failed.", "warn");
