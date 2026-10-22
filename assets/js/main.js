@@ -912,7 +912,7 @@ function askTimerOptions() {
   const modeInputs = [...form.querySelectorAll('input[name="timerMode"]')];
 
   const pref = readTimerPref();
-  const mode = modeInputs.some((input) => input.value === pref.mode) ? pref.mode : "florida";
+  const mode = modeInputs.some((input) => input.value === pref.mode) ? pref.mode : "none";
   modeInputs.forEach((input) => {
     input.checked = input.value === mode;
   });
