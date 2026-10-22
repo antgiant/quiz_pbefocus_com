@@ -291,20 +291,6 @@ fieldset {
   padding: 0.15rem 0.3rem;
 }
 
-.difficulty-weights-toggle {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.45rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-}
-
-.difficulty-weights-toggle input {
-  width: auto;
-  margin: 0;
-}
-
 .chips input[type="checkbox"] {
   width: auto;
   margin: 0;

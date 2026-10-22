@@ -62,7 +62,6 @@ const el = {
   totalCountInput: document.getElementById("totalCountInput"),
   perVerseInput: document.getElementById("perVerseInput"),
   difficultyCheckboxes: document.getElementById("difficultyCheckboxes"),
-  difficultyWeightsCheck: document.getElementById("difficultyWeightsCheck"),
   sourceCheckboxes: document.getElementById("sourceCheckboxes"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
@@ -158,7 +157,6 @@ function ensureProfileState() {
   if (!active.settings.difficultyWeights || typeof active.settings.difficultyWeights !== "object") {
     active.settings.difficultyWeights = {};
   }
-  active.settings.useDifficultyWeights = Boolean(active.settings.useDifficultyWeights);
 
   if (!active.selectedScope || typeof active.selectedScope !== "object") {
     active.selectedScope = {};
@@ -203,9 +201,8 @@ function renderControls() {
     el.difficultyCheckboxes,
     QUESTION_DIFFICULTIES,
     settings.selectedDifficulties,
-    { useWeights: settings.useDifficultyWeights, weights: settings.difficultyWeights }
+    settings.difficultyWeights
   );
-  el.difficultyWeightsCheck.checked = Boolean(settings.useDifficultyWeights);
   renderSourceCheckboxes(el.sourceCheckboxes, QUESTION_SOURCES, settings.selectedSources);
   renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPE_GROUP_IDS, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
@@ -438,7 +435,6 @@ function syncSettingsFromControls() {
     el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
   delete active.settings.difficulty;
-  active.settings.useDifficultyWeights = el.difficultyWeightsCheck.checked;
   const difficultyWeights = {};
   el.difficultyCheckboxes.querySelectorAll('input[data-role="difficulty-weight"]').forEach((input) => {
     const value = parseFloat(input.value);
@@ -1497,16 +1493,6 @@ function wireEvents() {
   el.typeCheckboxes.addEventListener("change", () => {
     syncSettingsFromControls();
     refreshScopeThenGenerate();
-  });
-
-  el.difficultyWeightsCheck.addEventListener("change", () => {
-    syncSettingsFromControls();
-    const settings = getActiveProfile(appState.storage).settings;
-    renderDifficultyCheckboxes(el.difficultyCheckboxes, QUESTION_DIFFICULTIES, settings.selectedDifficulties, {
-      useWeights: settings.useDifficultyWeights,
-      weights: settings.difficultyWeights,
-    });
-    queueRealtimeGenerate();
   });
 
   el.difficultyCheckboxes.addEventListener("change", (event) => {

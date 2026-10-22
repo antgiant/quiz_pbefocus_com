@@ -58,10 +58,8 @@ export function renderTypeCheckboxes(container, types, selectedTypes) {
   }
 }
 
-export function renderDifficultyCheckboxes(container, difficulties, selectedDifficulties, options = {}) {
+export function renderDifficultyCheckboxes(container, difficulties, selectedDifficulties, weights = {}) {
   container.innerHTML = "";
-  const useWeights = Boolean(options.useWeights);
-  const weights = options.weights || {};
 
   for (const difficulty of difficulties) {
     const label = document.createElement("label");
@@ -71,25 +69,23 @@ export function renderDifficultyCheckboxes(container, difficulties, selectedDiff
     checkbox.checked = selectedDifficulties.includes(difficulty);
     label.append(checkbox, document.createTextNode(formatDifficulty({ difficulty })));
 
-    if (useWeights) {
-      const input = document.createElement("input");
-      input.type = "number";
-      input.min = "0";
-      input.max = "100";
-      input.step = "any";
-      input.placeholder = "auto";
-      input.inputMode = "decimal";
-      input.className = "difficulty-weight";
-      input.dataset.role = "difficulty-weight";
-      input.dataset.difficulty = difficulty;
-      input.disabled = !checkbox.checked;
-      input.title = "Share of questions at this difficulty. Leave blank to split the remainder evenly.";
-      input.setAttribute("aria-label", `${formatDifficulty({ difficulty })} percent of questions`);
-      if (Number.isFinite(weights[difficulty])) {
-        input.value = String(weights[difficulty]);
-      }
-      label.append(input, document.createTextNode("%"));
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.max = "100";
+    input.step = "any";
+    input.placeholder = "auto";
+    input.inputMode = "decimal";
+    input.className = "difficulty-weight";
+    input.dataset.role = "difficulty-weight";
+    input.dataset.difficulty = difficulty;
+    input.disabled = !checkbox.checked;
+    input.title = "Share of questions at this difficulty. Leave blank to split the remainder evenly.";
+    input.setAttribute("aria-label", `${formatDifficulty({ difficulty })} percent of questions`);
+    if (Number.isFinite(weights[difficulty])) {
+      input.value = String(weights[difficulty]);
     }
+    label.append(input, document.createTextNode("%"));
 
     container.append(label);
   }

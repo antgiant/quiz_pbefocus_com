@@ -58,7 +58,6 @@ export const DEFAULT_SETTINGS = {
   selectedDifficulties: [...QUESTION_DIFFICULTIES],
   selectedSources: [...QUESTION_SOURCES],
   selectedTypes: [...QUESTION_TYPE_GROUP_IDS],
-  useDifficultyWeights: false,
   difficultyWeights: {},
 };
 

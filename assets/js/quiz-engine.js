@@ -176,10 +176,6 @@ function selectWeighted(randomized, weights, settings, seed, perVerseCounts = ne
 // Returns Map(difficulty -> share of the quiz, summing to 1) or null when the
 // user is not assigning percentages. Blank difficulties split what is left evenly.
 function resolveDifficultyWeights(difficultySet, settings) {
-  if (!settings.useDifficultyWeights) {
-    return null;
-  }
-
   const difficulties = QUESTION_DIFFICULTIES.filter((difficulty) => difficultySet.has(difficulty));
   const explicit = new Map();
   for (const difficulty of difficulties) {
