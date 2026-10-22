@@ -1057,6 +1057,14 @@ function wireEvents() {
   });
 
   el.deleteProfileBtn.addEventListener("click", () => {
+    if (appState.storage.profiles.length <= 1) {
+      setStatus("At least one profile must remain.", "warn");
+      return;
+    }
+    const name = getActiveProfile(appState.storage).name;
+    if (!window.confirm(`Delete "${name}"? Their saved settings and scope will be lost and this can't be undone.`)) {
+      return;
+    }
     const removed = deleteActiveProfile(appState.storage);
     if (!removed) {
       setStatus("At least one profile must remain.", "warn");
