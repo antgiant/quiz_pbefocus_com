@@ -184,7 +184,8 @@
     <dialog id="timerDialog" class="timer-dialog">
       <form method="dialog" id="timerForm">
         <h2>PowerPoint timer</h2>
-        <p class="timer-help">Add a countdown timer to each question slide?</p>
+        <p class="timer-help">How would you like the timer on the question slide configured?</p>
+        <label class="timer-option"><input type="radio" name="timerMode" value="none" /> No timer</label>
         <label class="timer-option"><input type="radio" name="timerMode" value="florida" checked /> Florida: 10 s first point, 5 s each additional point</label>
         <label class="timer-option"><input type="radio" name="timerMode" value="nad" /> NAD: 30 s first point, 10 s each additional point</label>
         <label class="timer-option"><input type="radio" name="timerMode" value="custom" /> Custom</label>
@@ -192,7 +193,6 @@
           <label>Seconds for the first point <input id="timerFirstInput" type="number" min="1" max="300" step="1" value="10" /></label>
           <label>Seconds for each additional point <input id="timerExtraInput" type="number" min="0" max="300" step="1" value="5" /></label>
         </div>
-        <label class="timer-option"><input type="radio" name="timerMode" value="none" /> No timer</label>
         <div class="timer-actions">
           <button type="button" id="timerCancelBtn">Cancel</button>
           <button type="submit" id="timerOkBtn">Download</button>
