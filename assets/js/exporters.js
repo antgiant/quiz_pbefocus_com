@@ -187,13 +187,15 @@ function timerBoxXml(n, seconds) {
   );
 }
 
-// One "hide" step per second: step 0 starts on click, the rest chain after the previous one
+// One "hide" step per second: step 0 starts on click, the rest chain after the previous one.
+// Each step's start delay is in milliseconds from the click (the template used 1, 2, 3 ms,
+// which made every box vanish within about a second).
 function timerHideStep(step, nodeType, spid, ids) {
   const outer = ids.next();
   const effect = ids.next();
   const set = ids.next();
   return (
-    `<p:par><p:cTn id="${outer}" fill="hold"><p:stCondLst><p:cond delay="${step}"/></p:stCondLst><p:childTnLst>` +
+    `<p:par><p:cTn id="${outer}" fill="hold"><p:stCondLst><p:cond delay="${step * 1000}"/></p:stCondLst><p:childTnLst>` +
     `<p:par><p:cTn id="${effect}" presetID="1" presetClass="exit" presetSubtype="0" fill="hold" nodeType="${nodeType}">` +
     `<p:stCondLst><p:cond delay="1000"/></p:stCondLst><p:childTnLst><p:set><p:cBhvr>` +
     `<p:cTn id="${set}" dur="1" fill="hold"><p:stCondLst><p:cond delay="1"/></p:stCondLst></p:cTn>` +
