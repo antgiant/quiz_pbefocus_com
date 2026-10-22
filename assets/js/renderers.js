@@ -725,6 +725,7 @@ export function renderVerseText(target, verses, answer) {
 // the length of a word is never a clue.
 function renderBlankedVerse(target, question, result) {
   target.textContent = "";
+  const longestAnswer = Math.max(...question.blankWords.map((word) => word.length));
   let blankIndex = 0;
   for (const segment of question.segments) {
     if (!segment.blank) {
@@ -741,6 +742,9 @@ function renderBlankedVerse(target, question, result) {
     input.autocapitalize = "off";
     input.spellcheck = false;
     input.value = result.inputs[index] || "";
+    // Every box in a question is as wide as its longest answer (plus room to type), so
+    // nothing is cut off and the widths still don't say which word goes where
+    input.style.width = `${Math.max(9, longestAnswer + 3)}ch`;
     input.setAttribute("aria-label", `Blank ${index + 1} of ${question.blankWords.length}`);
 
     const hinted = result.hinted.includes(index);
@@ -749,20 +753,29 @@ function renderBlankedVerse(target, question, result) {
     input.readOnly = hinted || graded || Boolean(result.stateRealisticLock);
     input.classList.toggle("is-hinted", hinted);
     if (graded && result.blankCorrect) {
-      const correct = result.blankCorrect[index];
-      input.classList.add(correct ? "is-correct" : "is-incorrect");
-      input.setAttribute("aria-label", `${input.getAttribute("aria-label")}, ${correct ? "correct" : "incorrect"}`);
+      // A blank filled by a hint counts as incorrect, but isn't marked as a wrong answer
+      const mark = hinted ? "hint used, counts as incorrect" : result.blankCorrect[index] ? "correct" : "incorrect";
+      if (!hinted) {
+        input.classList.add(result.blankCorrect[index] ? "is-correct" : "is-incorrect");
+      }
+      input.setAttribute("aria-label", `${input.getAttribute("aria-label")}, ${mark}`);
     }
     target.append(input);
   }
 }
 
-// How many blanks were right: every blank is graded on its own
+// Whether each blank was filled in correctly. A blank filled in by a hint is
+// right on its face, but it doesn't score: see countedBlanks.
 export function gradeBlanks(question, inputs) {
   return question.blankWords.map((word, index) => {
     const typed = normalizeText(inputs[index] || "");
     return Boolean(typed) && typed === normalizeText(word);
   });
+}
+
+// The blanks that earn a point by default: correct, and not given away by a hint
+export function countedBlanks(blankCorrect, hinted = []) {
+  return blankCorrect.map((correct, index) => correct && !hinted.includes(index));
 }
 
 export function interactiveHintsUsed(state) {
@@ -855,7 +868,7 @@ export function renderInteractive(container, state) {
     const hintsLeft = current.blankWords.length - result.hinted.length;
     hintBtn.textContent = result.hinted.length ? `Hint (${result.hinted.length} used)` : "Hint";
     hintBtn.disabled = locked || result.status !== "unanswered" || hintsLeft <= 0;
-    hintBtn.title = "Fills in the next blank. Hints don't change your score, but the answer page notes how many you used.";
+    hintBtn.title = "Fills in the next blank. A blank filled by a hint counts as incorrect.";
   } else {
     const input = wrap.querySelector("#interactiveAnswerInput");
     input.value = result.input;
@@ -913,7 +926,8 @@ function renderInteractiveAnswerPanel(panel, question, result) {
   panel.querySelector(".interactive-reference").textContent = answerBlock.reference;
 
   if (isBlankQuiz) {
-    const correctCount = (result.blankCorrect || []).filter(Boolean).length;
+    const counted = countedBlanks(result.blankCorrect || [], result.hinted);
+    const correctCount = counted.filter(Boolean).length;
     panel.querySelector("#interactiveFeedback").textContent =
       result.status === "submitted"
         ? `${correctCount} of ${question.blankWords.length} blanks correct.`
@@ -926,10 +940,13 @@ function renderInteractiveAnswerPanel(panel, question, result) {
       const typed = (result.inputs[index] || "").trim();
       if (result.status === "submitted") {
         const correct = Boolean(result.blankCorrect?.[index]);
-        item.className = correct ? "is-correct" : "is-incorrect";
-        item.textContent = correct
-          ? `${word}${hinted ? " (hint)" : ""}`
-          : `${typed || "(blank)"} \u2192 ${word}`;
+        if (hinted) {
+          item.className = "is-hinted";
+          item.textContent = `${word} (hint, counts as incorrect)`;
+        } else {
+          item.className = correct ? "is-correct" : "is-incorrect";
+          item.textContent = correct ? word : `${typed || "(blank)"} \u2192 ${word}`;
+        }
       } else {
         item.textContent = word;
       }
@@ -939,7 +956,7 @@ function renderInteractiveAnswerPanel(panel, question, result) {
     const note = panel.querySelector(".interactive-hints-note");
     if (result.hinted.length) {
       note.hidden = false;
-      note.textContent = `Hints used: ${result.hinted.length}`;
+      note.textContent = `Hints used: ${result.hinted.length}. Blanks filled by a hint count as incorrect (change the points below if you disagree).`;
     }
     renderBlankedAnswer(panel.querySelector("#interactiveVerseText"), question);
   } else {

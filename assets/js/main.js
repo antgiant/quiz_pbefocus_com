@@ -18,6 +18,7 @@ import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
+  countedBlanks,
   createPrintSheets,
   gradeBlanks,
   interactivePossiblePoints,
@@ -1515,10 +1516,11 @@ function bindInteractiveControls() {
       }
       result.inputs = values;
       result.status = "submitted";
-      // Blanks filled by a hint hold the right word, so hints never change the score
+      // A blank filled by a hint holds the right word but doesn't score
       result.blankCorrect = gradeBlanks(question, values);
-      result.autoCorrect = result.blankCorrect.every(Boolean);
-      result.awarded = result.blankCorrect.filter(Boolean).length;
+      const counted = countedBlanks(result.blankCorrect, result.hinted);
+      result.autoCorrect = counted.every(Boolean);
+      result.awarded = counted.filter(Boolean).length;
       return true;
     }
 
@@ -1548,6 +1550,10 @@ function bindInteractiveControls() {
     if (next === undefined) return;
     result.inputs[next] = question.blankWords[next];
     result.hinted.push(next);
+    // With every blank given away there is nothing left to answer
+    if (result.hinted.length === question.blankWords.length) {
+      submitAnswer();
+    }
     refresh();
   });
 

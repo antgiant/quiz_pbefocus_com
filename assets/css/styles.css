@@ -227,6 +227,8 @@ button {
   border-radius: var(--radius);
   border: 1px solid var(--field-border);
   background: var(--surface);
+  /* Set explicitly: some browsers draw a form's submit button with white text */
+  color: var(--ink);
   padding: 0.55rem 0.65rem;
   font: inherit;
 }
@@ -1219,8 +1221,10 @@ input[aria-invalid="true"] {
 
 .fib-input {
   display: inline-block;
+  /* Width is set per question from its longest answer (see renderBlankedVerse) */
   width: 9ch;
   min-width: 6rem;
+  max-width: 100%;
   margin: 0 0.15rem;
   padding: 0.15rem 0.35rem;
   text-align: center;
@@ -1242,6 +1246,7 @@ input[aria-invalid="true"] {
 
 .fib-input.is-hinted {
   font-style: italic;
+  border-style: dashed;
 }
 
 .fib-results {
@@ -1252,6 +1257,10 @@ input[aria-invalid="true"] {
 .fib-results .is-correct::marker {
   content: "\2713  ";
   color: var(--ok);
+}
+
+.fib-results .is-hinted::marker {
+  content: "\1F4A1  ";
 }
 
 .fib-results .is-incorrect::marker {

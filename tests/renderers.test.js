@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import {
   createPrintSheets,
+  countedBlanks,
   gradeBlanks,
   interactiveHintsUsed,
   renderInteractive,
@@ -115,6 +116,14 @@ describe("grading blanks", () => {
   });
 });
 
+describe("default score", () => {
+  it("does not count blanks that a hint filled in", () => {
+    expect(countedBlanks([true, true, false], [1])).toEqual([true, false, false]);
+    expect(countedBlanks([true, true])).toEqual([true, true]);
+    expect(countedBlanks([true, true], [0, 1])).toEqual([false, false]);
+  });
+});
+
 describe("print sheets", () => {
   it("prints ruled lines on the quiz and the words, marked, on the key", () => {
     const template = document.createElement("template");
@@ -170,7 +179,7 @@ describe("interactive fill in the blank", () => {
     expect(interactiveHintsUsed(s)).toBe(1);
   });
 
-  it("notes the hints used on the answer page without touching the score", () => {
+  it("counts hinted blanks as incorrect and notes the hints on the answer page", () => {
     renderInteractive(
       container,
       state({
@@ -178,18 +187,40 @@ describe("interactive fill in the blank", () => {
         inputs: ["gospel", "wrong"],
         hinted: [0],
         blankCorrect: [true, false],
-        awarded: 1,
+        awarded: 0,
       })
     );
     const panel = container.querySelector("#interactiveAnswerPanel");
     expect(panel.hidden).toBe(false);
-    expect(panel.textContent).toContain("1 of 2 blanks correct.");
+    expect(panel.textContent).toContain("0 of 2 blanks correct.");
     expect(panel.textContent).toContain("Hints used: 1");
+    expect(panel.textContent).toContain("gospel (hint, counts as incorrect)");
     expect(panel.textContent).toContain("wrong → Son");
     expect(panel.querySelectorAll(".answer-words")).toHaveLength(2);
-    expect(container.querySelector(".fib-input.is-correct")).not.toBeNull();
-    expect(container.querySelector(".fib-input.is-incorrect")).not.toBeNull();
-    expect(container.querySelector('input[name="interactivePoints"]:checked').value).toBe("1");
+    // The hinted blank is not marked as a right or wrong answer; the typed one is
+    const boxes = container.querySelectorAll(".fib-input");
+    expect(boxes[0].classList.contains("is-correct")).toBe(false);
+    expect(boxes[0].getAttribute("aria-label")).toContain("hint used, counts as incorrect");
+    expect(boxes[1].classList.contains("is-incorrect")).toBe(true);
+    expect(container.querySelector('input[name="interactivePoints"]:checked').value).toBe("0");
+  });
+
+  it("sizes every box to the longest answer so nothing is cut off", () => {
+    const long = fib({
+      blankWords: ["Philadelphia", "Son"],
+      segments: [{ blank: true, word: "Philadelphia" }, { text: " and " }, { blank: true, word: "Son" }],
+    });
+    renderInteractive(container, {
+      questions: [long],
+      index: 0,
+      options: {},
+      complete: false,
+      results: [result()],
+    });
+    const widths = [...container.querySelectorAll(".fib-input")].map((box) => box.style.width);
+    expect(widths).toEqual(["15ch", "15ch"]);
+    renderInteractive(container, state());
+    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["9ch", "9ch"]);
   });
 
   it("leaves out the hints note when none were used", () => {

@@ -128,7 +128,9 @@ visits are instant and work offline for chapters you've already used.
 ### Interactive quiz
 
 Each blank is a text box in the verse; Tab or Enter moves between them and Enter on the last one submits.
-**Hint** fills in the next blank. Hints never change the score, but the answer page notes how many were used.
+**Hint** fills in the next blank. A blank filled by a hint counts as incorrect in the default score (you can still
+adjust the points on the answer page), and the answer page notes how many hints were used. Using a hint on every
+blank submits the question automatically.
 Finishing a quiz celebrates with confetti (not shown if your system asks for reduced motion) and offers
 **Practice again with new blanks**: the same verses with different words blanked.
 
