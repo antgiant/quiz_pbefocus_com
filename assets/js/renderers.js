@@ -612,10 +612,10 @@ export function renderInteractive(container, state) {
   container.append(wrap);
 }
 
-export function createPrintSheets(template, questions, selectedPeople, settingsLabel, scopeLabel) {
+export function createPrintSheets(template, entries) {
   const fragment = document.createDocumentFragment();
 
-  selectedPeople.forEach((person, personIndex) => {
+  entries.forEach(({ person, questions, settingsLabel, scopeLabel }, personIndex) => {
     const root = template.content.cloneNode(true);
     const questionSheet = root.querySelector(".print-sheet");
     const answerSheet = root.querySelector(".answer-sheet");
@@ -640,7 +640,7 @@ export function createPrintSheets(template, questions, selectedPeople, settingsL
       answerList.append(a);
     });
 
-    if (personIndex === selectedPeople.length - 1) {
+    if (personIndex === entries.length - 1) {
       answerSheet.classList.add("print-sheet-final");
     }
 

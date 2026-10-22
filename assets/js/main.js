@@ -161,14 +161,12 @@ function ensureProfileState() {
   }
 }
 
-function getActiveYear() {
-  const active = getActiveProfile(appState.storage);
+function getActiveYear(active = getActiveProfile(appState.storage)) {
   return appState.years.find((year) => year.id === active.settings.yearId) || appState.years[0] || null;
 }
 
-function getScopeForActive() {
-  const active = getActiveProfile(appState.storage);
-  const year = getActiveYear();
+function getScopeForActive(active = getActiveProfile(appState.storage)) {
+  const year = getActiveYear(active);
   const yearScope = year?.scope || {};
 
   const hasCustomScope = Object.keys(active.selectedScope || {}).length > 0;
@@ -728,14 +726,13 @@ function wireScopeEvents() {
   });
 }
 
-function buildSettingsLabel() {
-  const year = getActiveYear();
+function buildSettingsLabel(active = getActiveProfile(appState.storage)) {
+  const year = getActiveYear(active);
   return `Year ${year?.name || "Unknown"}`;
 }
 
-function buildScopeLabel() {
-  const scope = getScopeForActive();
-  const active = getActiveProfile(appState.storage);
+function buildScopeLabel(active = getActiveProfile(appState.storage)) {
+  const scope = getScopeForActive(active);
   const selectedVerses = active.selectedVerses || {};
   const parts = [];
 
@@ -781,19 +778,44 @@ function selectedPeople() {
   return appState.storage.profiles.filter((profile) => selectedIds.includes(profile.id));
 }
 
-function openPrintView() {
+async function openPrintView() {
   if (!appState.generatedQuestions.length) {
     setStatus("Generate questions first before opening print view.", "warn");
     return;
   }
 
-  const sheets = createPrintSheets(
-    el.printTemplate,
-    appState.generatedQuestions,
-    selectedPeople(),
-    buildSettingsLabel(),
-    buildScopeLabel()
-  );
+  const activeId = getActiveProfile(appState.storage).id;
+  let entries;
+  try {
+    entries = await Promise.all(
+      selectedPeople().map(async (profile) => {
+        let questions = appState.generatedQuestions;
+        if (profile.id !== activeId) {
+          const result = await generateQuestions({
+            dataService,
+            year: getActiveYear(profile),
+            selectedScope: getScopeForActive(profile),
+            selectedVerses: profile.selectedVerses || {},
+            chapterWeights: profile.chapterWeights || {},
+            settings: profile.settings,
+            seed: Date.now() + Math.floor(Math.random() * 1e6),
+          });
+          questions = result.questions;
+        }
+        return {
+          person: profile,
+          questions,
+          settingsLabel: buildSettingsLabel(profile),
+          scopeLabel: buildScopeLabel(profile),
+        };
+      })
+    );
+  } catch (error) {
+    setStatus(error.message, "warn");
+    return;
+  }
+
+  const sheets = createPrintSheets(el.printTemplate, entries);
 
   el.printRoot.innerHTML = "";
   el.printRoot.append(sheets);
