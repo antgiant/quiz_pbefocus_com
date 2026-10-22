@@ -897,7 +897,8 @@ fieldset {
   font-weight: normal;
 }
 
-.timer-dialog label.timer-option input[type="radio"] {
+.timer-dialog label.timer-option input[type="radio"],
+.timer-dialog label.timer-option input[type="checkbox"] {
   width: auto;
   margin: 0;
 }
@@ -967,4 +968,27 @@ fieldset {
 .interactive-actions button {
   width: auto;
   flex: 1 1 8rem;
+}
+
+.timer-audio {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--fieldset-line);
+}
+
+.timer-audio[hidden] {
+  display: none;
+}
+
+.timer-dialog .timer-audio-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0 0 1.5rem;
+  font-weight: normal;
+}
+
+.timer-dialog .timer-audio-style select {
+  width: auto;
 }

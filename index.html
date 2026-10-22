@@ -193,6 +193,10 @@
           <label>Seconds for the first point <input id="timerFirstInput" type="number" min="1" max="300" step="1" value="10" /></label>
           <label>Seconds for each additional point <input id="timerExtraInput" type="number" min="0" max="300" step="1" value="5" /></label>
         </div>
+        <div class="timer-audio" id="timerAudioGroup">
+          <label class="timer-option"><input type="checkbox" id="timerAudioCheck" /> Play audio cues (at 10 seconds left and at time's up)</label>
+          <label class="timer-audio-style">Audio style <select id="timerAudioStyle"></select></label>
+        </div>
         <div class="timer-actions">
           <button type="button" id="timerCancelBtn">Cancel</button>
           <button type="submit" id="timerOkBtn">Download</button>

@@ -1,4 +1,6 @@
 import {
+  AUDIO_STYLES,
+  DEFAULT_AUDIO_STYLE,
   DEFAULT_SETTINGS,
   QUESTION_DIFFICULTIES,
   QUESTION_SOURCES,
@@ -904,7 +906,8 @@ function writeTimerPref(pref) {
   }
 }
 
-// Resolves to null (cancelled), { timer: null } (no timer) or { timer: { first, additional } }
+// Resolves to null (cancelled) or { timer, audio }: timer is null or { first, additional },
+// audio is an AUDIO_STYLES key or null (audio only applies when there is a timer)
 function askTimerOptions() {
   const dialog = document.getElementById("timerDialog");
   const form = document.getElementById("timerForm");
@@ -912,6 +915,9 @@ function askTimerOptions() {
   const firstInput = document.getElementById("timerFirstInput");
   const extraInput = document.getElementById("timerExtraInput");
   const cancelBtn = document.getElementById("timerCancelBtn");
+  const audioGroup = document.getElementById("timerAudioGroup");
+  const audioCheck = document.getElementById("timerAudioCheck");
+  const audioStyle = document.getElementById("timerAudioStyle");
   const modeInputs = [...form.querySelectorAll('input[name="timerMode"]')];
 
   const pref = readTimerPref();
@@ -922,9 +928,18 @@ function askTimerOptions() {
   firstInput.value = pref.first ?? TIMER_PRESETS.florida.first;
   extraInput.value = pref.additional ?? TIMER_PRESETS.florida.additional;
 
+  audioStyle.innerHTML = "";
+  for (const [key, style] of Object.entries(AUDIO_STYLES)) {
+    audioStyle.append(new Option(style.label, key));
+  }
+  audioStyle.value = AUDIO_STYLES[pref.audioStyle] ? pref.audioStyle : DEFAULT_AUDIO_STYLE;
+  audioCheck.checked = Boolean(pref.audioEnabled);
+
   const selectedMode = () => modeInputs.find((input) => input.checked).value;
   const syncCustom = () => {
     customFields.hidden = selectedMode() !== "custom";
+    audioGroup.hidden = selectedMode() === "none";
+    audioStyle.disabled = !audioCheck.checked;
   };
   syncCustom();
 
@@ -962,8 +977,10 @@ function askTimerOptions() {
         mode: chosen,
         first: Number(firstInput.value),
         additional: Number(extraInput.value),
+        audioEnabled: audioCheck.checked,
+        audioStyle: audioStyle.value,
       });
-      finish({ timer });
+      finish({ timer, audio: timer && audioCheck.checked ? audioStyle.value : null });
     };
 
     form.addEventListener("change", syncCustom);
@@ -1004,6 +1021,7 @@ async function downloadPowerPoint() {
       verses,
       yearName: getActiveYear()?.name || "Current Year",
       timer: options.timer,
+      audio: options.audio,
     });
     setStatus(
       `PowerPoint download started with ${questions.length} questions from ${entries.length} ${entries.length === 1 ? "person" : "people"}.` +

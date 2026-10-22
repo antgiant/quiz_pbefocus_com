@@ -1,3 +1,4 @@
+import { AUDIO_STYLES } from "./constants.js";
 import { verseRuns } from "./question-formatters.js";
 
 const SLIDE_W_16x9 = 12192000; // EMUs
@@ -177,7 +178,7 @@ function timerHideStep(step, nodeType, spid, ids) {
   );
 }
 
-function timerTimingXml(seconds) {
+function timerTimingXml(seconds, cues = []) {
   let next = 4;
   const ids = { next: () => next++ };
   const steps = [];
@@ -186,21 +187,116 @@ function timerTimingXml(seconds) {
       timerHideStep(step, step === 0 ? "clickEffect" : "afterEffect", TIMER_ID_BASE + seconds - step, ids)
     );
   }
+  // Audio cues play at fixed offsets (ms) from the click that starts the countdown
+  const cueSteps = cues.map((cue) => {
+    const outer = ids.next();
+    const effect = ids.next();
+    const call = ids.next();
+    return (
+      `<p:par><p:cTn id="${outer}" fill="hold"><p:stCondLst><p:cond delay="${cue.atMs}"/></p:stCondLst><p:childTnLst>` +
+      `<p:par><p:cTn id="${effect}" presetID="1" presetClass="mediacall" presetSubtype="0" fill="hold" nodeType="afterEffect">` +
+      `<p:stCondLst><p:cond delay="0"/></p:stCondLst><p:childTnLst>` +
+      `<p:cmd type="call" cmd="playFrom(0.0)"><p:cBhvr><p:cTn id="${call}" dur="${cue.ms}" fill="hold"/>` +
+      `<p:tgtEl><p:spTgt spid="${cue.spid}"/></p:tgtEl></p:cBhvr></p:cmd></p:childTnLst></p:cTn></p:par></p:childTnLst></p:cTn></p:par>`
+    );
+  });
+  const mediaNodes = cues.map((cue) => {
+    const node = ids.next();
+    return (
+      `<p:audio><p:cMediaNode vol="100000" showWhenStopped="0"><p:cTn id="${node}" fill="hold" display="0">` +
+      `<p:stCondLst><p:cond delay="indefinite"/></p:stCondLst><p:endCondLst>` +
+      `<p:cond evt="onStopAudio" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:endCondLst></p:cTn>` +
+      `<p:tgtEl><p:spTgt spid="${cue.spid}"/></p:tgtEl></p:cMediaNode></p:audio>`
+    );
+  });
   return (
     `<p:timing><p:tnLst><p:par><p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot"><p:childTnLst>` +
     `<p:seq concurrent="1" nextAc="seek"><p:cTn id="2" dur="indefinite" nodeType="mainSeq"><p:childTnLst>` +
     `<p:par><p:cTn id="3" fill="hold"><p:stCondLst><p:cond delay="indefinite"/></p:stCondLst><p:childTnLst>` +
     steps.join("") +
+    cueSteps.join("") +
     `</p:childTnLst></p:cTn></p:par></p:childTnLst></p:cTn>` +
     `<p:prevCondLst><p:cond evt="onPrev" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:prevCondLst>` +
     `<p:nextCondLst><p:cond evt="onNext" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:nextCondLst>` +
-    `</p:seq></p:childTnLst></p:cTn></p:par></p:tnLst></p:timing>`
+    `</p:seq>${mediaNodes.join("")}</p:childTnLst></p:cTn></p:par></p:tnLst></p:timing>`
   );
+}
+
+// --- Audio cues ---
+// Each cue is an embedded audio clip (a small speaker icon on the slide, hidden
+// during the show) that the countdown animation plays at a set time.
+
+const AUDIO_ID_BASE = 2900;
+const AUDIO_ICON_REL_ID = "rId9";
+const AUDIO_ICON_PNG_BASE64 =
+  "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAABq0lEQVR42u3cQXaDMAxFUaLD/jrqenK6noyywnYDJTXUxJK5b14s/pdsZMddFgAAAAAAAAAAAACF+fj8+s4cXxCfAZcVf1mWZSW8CphC/KNjB/H7jX0khiB+37H3xhLVhc847eyJKWT92PiC+Md5Pu63y30FZcv8Vya0xBrEH1sJUUX4ag1Wa9KErB9bBUH880149R4r8f8ev8fXTpkKyDjf94hn6xkh69viaI1tb7Ws1cWqngRTn4iNaKz2msuAE0zYMw0xYDAMGDAVMeDk7pYBhbpiBlgD5shkBqgAMIABYAADwAAGgAGd2Gq4eu0TMUAFXLtyGHBARBUwWPye5wQMsAbMl/2XuCFTcer57e/Xng+rsOi1vNc740hVAe84BD8aR2ts5W9JPh/3WxYjeibG1jPS/jz93VPBqGpMvQhnq4Re3W+pr6AqJkz9vyIyrgu9Eihmeplq2V+yEctmwn8bt5ixrCtkfvmtiOxrQmt8pfeCRi/OW2Nf7oZMJhP2xjLNbmgGE47EMNV2dMbp6FIGVGzapj2Qqdo5T8esN/oBAAAAAAAAAADQyA9vU/ERUcApzAAAAABJRU5ErkJggg==";
+const REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships";
+const MEDIA_REL_TYPE = "http://schemas.microsoft.com/office/2007/relationships/media";
+
+// Ten-second warning (only when the timer is at least 10 s long) and time's up
+function audioCuesFor(seconds, style) {
+  const cues = [];
+  if (seconds >= 10) {
+    cues.push({ kind: "tenSeconds", atMs: (seconds - 10) * 1000 });
+  }
+  cues.push({ kind: "timesUp", atMs: seconds * 1000 });
+
+  return cues.map((cue, i) => ({
+    ...cue,
+    ms: style[cue.kind].ms,
+    spid: AUDIO_ID_BASE + i,
+    audioRelId: `rId${2 + i * 2}`,
+    mediaRelId: `rId${3 + i * 2}`,
+    target: `../media/audio-${cue.kind}.mp3`,
+  }));
+}
+
+function audioCueRelsXml(cues) {
+  return (
+    cues
+      .map(
+        (cue) =>
+          `<Relationship Id="${cue.audioRelId}" Type="${REL_NS}/audio" Target="${cue.target}"/>` +
+          `<Relationship Id="${cue.mediaRelId}" Type="${MEDIA_REL_TYPE}" Target="${cue.target}"/>`
+      )
+      .join("") +
+    `<Relationship Id="${AUDIO_ICON_REL_ID}" Type="${REL_NS}/image" Target="../media/audio-icon.png"/>`
+  );
+}
+
+function audioPicXml(cue, index) {
+  const size = 380000;
+  const x = 100000 + index * (size + 70000);
+  return (
+    `<p:pic><p:nvPicPr><p:cNvPr id="${cue.spid}" name="Audio ${cue.kind}"><a:hlinkClick r:id="" action="ppaction://media"/></p:cNvPr>` +
+    `<p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr>` +
+    `<a:audioFile r:link="${cue.audioRelId}"/><p:extLst><p:ext uri="{DAA4B4D4-6D71-4841-9C94-3DE7FCFB9230}">` +
+    `<p14:media xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" r:embed="${cue.mediaRelId}"/></p:ext></p:extLst></p:nvPr></p:nvPicPr>` +
+    `<p:blipFill><a:blip r:embed="${AUDIO_ICON_REL_ID}"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>` +
+    `<p:spPr><a:xfrm><a:off x="${x}" y="6350000"/><a:ext cx="${size}" cy="${size}"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>`
+  );
+}
+
+async function loadAudioStyle(styleKey) {
+  const style = AUDIO_STYLES[styleKey];
+  if (!style) {
+    throw new Error(`Unknown audio style: ${styleKey}`);
+  }
+
+  const files = {};
+  for (const kind of ["tenSeconds", "timesUp"]) {
+    const response = await fetch(style[kind].path);
+    if (!response.ok) {
+      throw new Error(`Failed to load audio file ${style[kind].path}`);
+    }
+    files[kind] = await response.arrayBuffer();
+  }
+  return { style, files };
 }
 
 // Replace the template timer with one that counts down from `seconds`; null removes it.
 // Boxes are stacked 00 (bottom) to N (top); each second the top one is hidden.
-function applyTimer(slideXml, seconds) {
+function applyTimer(slideXml, seconds, cues = []) {
   let xml = removeTimer(slideXml);
   if (!seconds) {
     return xml;
@@ -210,8 +306,9 @@ function applyTimer(slideXml, seconds) {
   for (let n = 0; n <= seconds; n += 1) {
     boxes.push(timerBoxXml(n, seconds));
   }
-  xml = xml.replace("</p:spTree>", `${boxes.join("")}</p:spTree>`);
-  return xml.replace("</p:sld>", `${timerTimingXml(seconds)}</p:sld>`);
+  const pics = cues.map((cue, i) => audioPicXml(cue, i));
+  xml = xml.replace("</p:spTree>", `${boxes.join("")}${pics.join("")}</p:spTree>`);
+  return xml.replace("</p:sld>", `${timerTimingXml(seconds, cues)}</p:sld>`);
 }
 
 // --- Title slide (slide1) ---
@@ -323,8 +420,9 @@ async function loadTemplateZip() {
 }
 
 // `verses[i]` is the array of { verse, text } for questions[i]; may be empty
-// `timer` is { first, additional } in seconds, or null for no timer
-export async function exportPowerPoint({ questions, verses = [], yearName, timer = null }) {
+// `timer` is { first, additional } in seconds, or null for no timer;
+// `audio` is an AUDIO_STYLES key (only used together with a timer) or null
+export async function exportPowerPoint({ questions, verses = [], yearName, timer = null, audio = null }) {
   if (!hasZipLib()) {
     throw new Error("JSZip library not loaded. Ensure assets/vendor/jszip.min.js is present.");
   }
@@ -352,13 +450,19 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
   // Minimal rels: only the slideLayout relationship (slideLayout2 is used by
   // the template question/answer slides). Omit the notes slide reference to
   // avoid broken back-references when the same notes file is reused.
-  const slideRels = (layout) =>
+  const slideRels = (layout, extra = "") =>
     `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>` +
     `<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">` +
     `<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/${layout}"/>` +
-    `</Relationships>`;
-  const qRels = slideRels("slideLayout2.xml");
+    `${extra}</Relationships>`;
   const aRels = slideRels("slideLayout2.xml");
+
+  const audioAssets = timer && audio ? await loadAudioStyle(audio) : null;
+  if (audioAssets) {
+    zip.file("ppt/media/audio-tenSeconds.mp3", audioAssets.files.tenSeconds);
+    zip.file("ppt/media/audio-timesUp.mp3", audioAssets.files.timesUp);
+    zip.file("ppt/media/audio-icon.png", AUDIO_ICON_PNG_BASE64, { base64: true });
+  }
 
   const generatedSlides = [];
 
@@ -379,14 +483,19 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     qXml = centerQuestionTitle(qXml);
     qXml = widenTitlePlaceholder(qXml);
     qXml = widenBodyPlaceholder(qXml);
-    qXml = applyTimer(qXml, timer ? secondsForQuestion(question, timer) : 0);
+    const seconds = timer ? secondsForQuestion(question, timer) : 0;
+    const cues = audioAssets ? audioCuesFor(seconds, audioAssets.style) : [];
+    qXml = applyTimer(qXml, seconds, cues);
     qXml = setBodyContent(qXml, [
       `According to ${ref}`,
       "",
       questionLabel(question),
     ]);
     zip.file(qSlide.path, qXml);
-    zip.file(`ppt/slides/_rels/slide${qSlide.n}.xml.rels`, qRels);
+    zip.file(
+      `ppt/slides/_rels/slide${qSlide.n}.xml.rels`,
+      slideRels("slideLayout2.xml", cues.length ? audioCueRelsXml(cues) : "")
+    );
 
     // Answer slide layout:
     //   Line 1: full question text
@@ -435,12 +544,16 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
   let contentTypes = await zip.file("[Content_Types].xml").async("string");
   contentTypes = contentTypes.replace(
     "</Types>",
-    generatedSlides
-      .map(
-        (slide) =>
-          `<Override PartName="/${slide.path}" ContentType="${SLIDE_CONTENT_TYPE}"/>`
-      )
-      .join("") + "</Types>"
+    (audioAssets
+      ? `<Default Extension="mp3" ContentType="audio/mpeg"/><Default Extension="png" ContentType="image/png"/>`
+      : "") +
+      generatedSlides
+        .map(
+          (slide) =>
+            `<Override PartName="/${slide.path}" ContentType="${SLIDE_CONTENT_TYPE}"/>`
+        )
+        .join("") +
+      "</Types>"
   );
   zip.file("[Content_Types].xml", contentTypes);
 
