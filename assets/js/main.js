@@ -28,7 +28,7 @@ import {
   saveState,
 } from "./storage.js";
 import { formatInteractiveAnswer } from "./question-formatters.js";
-import { formatNumberRanges, normalizeText, questionMatchesSelectedSources } from "./utils.js";
+import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
 
 const dataService = new DataService();
 const appState = {
@@ -868,23 +868,24 @@ async function downloadPowerPoint() {
 
   try {
     setStatus("Preparing PowerPoint…", "ok");
-    const entries = (await buildSelectedPeopleEntries()).filter((entry) => entry.questions.length);
-    if (!entries.length) {
+    const entries = await buildSelectedPeopleEntries();
+    const questions = shuffle(
+      entries.flatMap((entry) => entry.questions),
+      Date.now()
+    );
+    if (!questions.length) {
       setStatus("No selected people have questions to export.", "warn");
       return;
     }
 
-    for (const { person, questions } of entries) {
-      const verses = await Promise.all(questions.map(loadQuestionVerses));
-      await exportPowerPoint({
-        questions,
-        verses,
-        yearName: getActiveYear(person)?.name || "Current Year",
-        personName: person.name,
-      });
-    }
+    const verses = await Promise.all(questions.map(loadQuestionVerses));
+    await exportPowerPoint({
+      questions,
+      verses,
+      yearName: getActiveYear()?.name || "Current Year",
+    });
     setStatus(
-      `PowerPoint download started for ${entries.length} ${entries.length === 1 ? "person" : "people"}.`,
+      `PowerPoint download started with ${questions.length} questions from ${entries.length} ${entries.length === 1 ? "person" : "people"}.`,
       "ok"
     );
   } catch (error) {

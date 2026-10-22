@@ -1,4 +1,5 @@
 const SLIDE_W_16x9 = 12192000; // EMUs
+const ANSWER_RED = "FF0000";
 const TIMER_X_16x9 = 10992000; // leaves ~1.2" for timer at top-right in 16:9
 
 function hasZipLib() {
@@ -33,14 +34,14 @@ function verseRef(question) {
 }
 
 // Single body paragraph in the template's Georgia style
-// `text` is a string or an array of { text, bold } runs; `size` (1/100 pt) overrides font size
+// `text` is a string or an array of { text, color } runs; `size` (1/100 pt) overrides font size
 function xmlRuns(text, size) {
   const runs = Array.isArray(text) ? text : [{ text }];
   const sz = size ? ` sz="${size}"` : "";
   return runs
     .map(
       (run) =>
-        `<a:r><a:rPr lang="en-US"${sz}${run.bold ? ' b="1"' : ""}/><a:t>${xmlEscape(run.text)}</a:t></a:r>`
+        `<a:r><a:rPr lang="en-US"${sz}>${run.color ? `<a:solidFill><a:srgbClr val="${run.color}"/></a:solidFill>` : ""}</a:rPr><a:t>${xmlEscape(run.text)}</a:t></a:r>`
     )
     .join("");
 }
@@ -57,8 +58,8 @@ function xmlPara(text, spaceBefore = "0", size = null) {
   );
 }
 
-// Split verse text into runs, bolding the first case-insensitive match of the answer
-function boldAnswerRuns(text, answer) {
+// Split verse text into runs, coloring red the first case-insensitive match of the answer
+function redAnswerRuns(text, answer) {
   const needle = safeText(answer).trim();
   const index = needle ? text.toLowerCase().indexOf(needle.toLowerCase()) : -1;
   if (index < 0) {
@@ -66,14 +67,14 @@ function boldAnswerRuns(text, answer) {
   }
   return [
     { text: text.slice(0, index) },
-    { text: text.slice(index, index + needle.length), bold: true },
+    { text: text.slice(index, index + needle.length), color: ANSWER_RED },
     { text: text.slice(index + needle.length) },
   ].filter((run) => run.text);
 }
 
 function verseTextRuns(verses, answer) {
   const full = verses.map((v) => `${v.verse} ${v.text}`).join(" ");
-  return boldAnswerRuns(full, answer);
+  return redAnswerRuns(full, answer);
 }
 
 function xmlEmptyPara() {
@@ -244,7 +245,7 @@ async function loadTemplateZip() {
 }
 
 // `verses[i]` is the array of { verse, text } for questions[i]; may be empty
-export async function exportPowerPoint({ questions, verses = [], yearName, personName = "" }) {
+export async function exportPowerPoint({ questions, verses = [], yearName }) {
   if (!hasZipLib()) {
     throw new Error("JSZip library not loaded. Ensure assets/vendor/jszip.min.js is present.");
   }
@@ -311,7 +312,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName, perso
     //   Line 3: "Answer: {answer}"
     //   Line 4: empty
     //   Line 5: verse reference
-    //   Line 6: full Bible text with the answer in bold (when verses loaded)
+    //   Line 6: full Bible text with the answer in red (when verses loaded)
     let aXml = tmplA;
     aXml = setSlideLabel(aXml, "ANSWER", index);
     aXml = centerQuestionTitle(aXml);
@@ -340,7 +341,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName, perso
 
   const datePart = new Date().toISOString().slice(0, 10);
   const slug = (value) => safeText(value).replace(/[^\w-]+/g, "-").replace(/^-+|-+$/g, "");
-  const nameParts = [slug(personName), slug(safeText(yearName, "2026-2027"))].filter(Boolean);
+  const nameParts = [slug(safeText(yearName, "2026-2027"))];
   const fileName = `PBE-Quiz-${nameParts.join("-")}-${datePart}.pptx`;
   const blob = await zip.generateAsync({ type: "blob" });
   triggerDownload(blob, fileName);
