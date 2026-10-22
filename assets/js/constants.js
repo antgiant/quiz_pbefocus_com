@@ -31,13 +31,13 @@ export const DEFAULT_SETTINGS = {
   selectedTypes: [...QUESTION_TYPES],
 };
 
-// Audio cues for the PowerPoint timer. `ms` is the clip length, used for the
+// Audio cues for the PowerPoint and interactive timers (the ?v= suffix busts caches when a file changes). `ms` is the clip length, used for the
 // slide's play command; `tenSeconds` plays at 10 s left and `timesUp` at 0.
 export const AUDIO_STYLES = {
   classic: {
     label: "Classic",
-    tenSeconds: { path: "assets/audio/classic/10-seconds.mp3", ms: 1970 },
-    timesUp: { path: "assets/audio/classic/times-up.mp3", ms: 4560 },
+    tenSeconds: { path: "assets/audio/classic/10-seconds.mp3?v=2", ms: 3800 },
+    timesUp: { path: "assets/audio/classic/times-up.mp3?v=2", ms: 13800 },
   },
 };
 
