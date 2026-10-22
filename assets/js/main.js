@@ -55,6 +55,7 @@ const el = {
   sourceCheckboxes: document.getElementById("sourceCheckboxes"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
+  regenerateBtn: document.getElementById("regenerateBtn"),
   resetWeightsBtn: document.getElementById("resetWeightsBtn"),
   scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
   scopeModeVerseBtn: document.getElementById("scopeModeVerseBtn"),
@@ -961,6 +962,9 @@ async function generateAndRender() {
 
 function wireEvents() {
   el.togglePreviewBtn.addEventListener("click", togglePreview);
+  el.regenerateBtn.addEventListener("click", () => {
+    generateAndRender().catch((error) => setStatus(error.message, "warn"));
+  });
 
   el.printBtn.addEventListener("click", openPrintView);
   el.pptBtn.addEventListener("click", downloadPowerPoint);
