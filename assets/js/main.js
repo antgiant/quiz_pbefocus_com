@@ -9,6 +9,8 @@ import { exportPowerPoint } from "./exporters.js";
 import { generateQuestions } from "./quiz-engine.js";
 import {
   createPrintSheets,
+  interactivePossiblePoints,
+  interactiveTotals,
   renderDifficultyCheckboxes,
   renderInteractive,
   renderPeopleSelector,
@@ -18,6 +20,7 @@ import {
   renderSourceCheckboxes,
   renderScopeSelector,
   renderTypeCheckboxes,
+  renderVerseText,
   renderYearOptionsWithScope,
 } from "./renderers.js";
 import {
@@ -40,7 +43,7 @@ const appState = {
   interactive: {
     questions: [],
     index: 0,
-    correctCount: 0,
+    results: [],
     complete: false,
   },
   generationTimer: null,
@@ -1033,54 +1036,115 @@ function evaluateAnswer(question, answer) {
   return expected.includes(typed) && typed.length >= 4;
 }
 
-function bindInteractiveControls() {
-  const submitBtn = document.getElementById("interactiveSubmitBtn");
-  const revealBtn = document.getElementById("interactiveRevealBtn");
-  const skipBtn = document.getElementById("interactiveSkipBtn");
-  const input = document.getElementById("interactiveAnswerInput");
-  const feedback = document.getElementById("interactiveFeedback");
+const verseCache = new Map();
 
-  if (!submitBtn || !revealBtn || !skipBtn || !input || !feedback) {
+function showInteractive() {
+  renderInteractive(el.interactiveContainer, appState.interactive);
+  bindInteractiveControls();
+}
+
+function goToInteractiveQuestion(index) {
+  const state = appState.interactive;
+  state.complete = index >= state.questions.length;
+  state.index = Math.max(0, Math.min(index, state.questions.length - 1));
+  showInteractive();
+}
+
+// Fill in the full verse text under the reference once it has loaded
+async function fillInteractiveVerse(question, index) {
+  const target = document.getElementById("interactiveVerseText");
+  if (!target) {
     return;
   }
 
-  const question = appState.interactive.questions[appState.interactive.index];
-  const answerBlock = formatInteractiveAnswer(question);
+  if (!verseCache.has(question)) {
+    verseCache.set(question, loadVersesForQuestions([question]).then(([verses]) => verses));
+  }
+
+  const verses = await verseCache.get(question);
+  const current = document.getElementById("interactiveVerseText");
+  if (current && appState.interactive.index === index && !appState.interactive.complete) {
+    renderVerseText(current, verses, question.answer);
+  }
+}
+
+function bindInteractiveControls() {
+  const state = appState.interactive;
+  const prevBtn = document.getElementById("interactivePrevBtn");
+
+  if (state.complete) {
+    prevBtn?.addEventListener("click", () => goToInteractiveQuestion(state.questions.length - 1));
+    return;
+  }
+
+  const submitBtn = document.getElementById("interactiveSubmitBtn");
+  const revealBtn = document.getElementById("interactiveRevealBtn");
+  const nextBtn = document.getElementById("interactiveNextBtn");
+  const input = document.getElementById("interactiveAnswerInput");
+  const panel = document.getElementById("interactiveAnswerPanel");
+
+  if (!submitBtn || !revealBtn || !nextBtn || !prevBtn || !input || !panel) {
+    return;
+  }
+
+  const index = state.index;
+  const question = state.questions[index];
+  const result = state.results[index];
+
+  if (result.status !== "unanswered") {
+    fillInteractiveVerse(question, index);
+  }
+
+  // Re-render so the answer panel and running score reflect the new state
+  const refresh = () => {
+    showInteractive();
+    document.getElementById("interactiveAnswerPanel")?.scrollIntoView({ block: "nearest" });
+  };
+
+  input.addEventListener("input", () => {
+    result.input = input.value;
+  });
+
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      submitBtn.click();
+    }
+  });
 
   submitBtn.addEventListener("click", () => {
-    const correct = evaluateAnswer(question, input.value);
-    if (correct) {
-      appState.interactive.correctCount += 1;
-      feedback.textContent = "Correct.";
-      feedback.style.color = "#166534";
-    } else {
-      feedback.textContent = `${answerBlock.answer}\n${answerBlock.reference}`;
-      feedback.style.color = "#9a3412";
-      feedback.style.whiteSpace = "pre-line";
+    // Re-submitting the same text must not wipe points the user already adjusted
+    if (result.status === "submitted" && result.submittedInput === input.value) {
+      return;
     }
-    setTimeout(nextInteractiveQuestion, 600);
+    result.input = input.value;
+    result.submittedInput = input.value;
+    result.status = "submitted";
+    result.autoCorrect = Boolean(evaluateAnswer(question, input.value));
+    result.awarded = result.autoCorrect ? interactivePossiblePoints(question) : 0;
+    refresh();
   });
 
   revealBtn.addEventListener("click", () => {
-    feedback.textContent = `${answerBlock.answer}\n${answerBlock.reference}`;
-    feedback.style.color = "#5e5853";
-    feedback.style.whiteSpace = "pre-line";
+    if (result.status === "unanswered") {
+      result.status = "revealed";
+      result.awarded = 0;
+    }
+    refresh();
   });
 
-  skipBtn.addEventListener("click", () => {
-    nextInteractiveQuestion();
+  panel.addEventListener("change", (event) => {
+    if (event.target.name === "interactivePoints") {
+      result.awarded = Number(event.target.value);
+      const { earned, possible } = interactiveTotals(state);
+      const progress = el.interactiveContainer.querySelector(".interactive-progress");
+      if (progress) {
+        progress.textContent = `Question ${index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far`;
+      }
+    }
   });
-}
 
-function nextInteractiveQuestion() {
-  appState.interactive.index += 1;
-  if (appState.interactive.index >= appState.interactive.questions.length) {
-    appState.interactive.complete = true;
-  }
-  renderInteractive(el.interactiveContainer, appState.interactive);
-  if (!appState.interactive.complete) {
-    bindInteractiveControls();
-  }
+  prevBtn.addEventListener("click", () => goToInteractiveQuestion(index - 1));
+  nextBtn.addEventListener("click", () => goToInteractiveQuestion(index + 1));
 }
 
 function startInteractiveQuiz() {
@@ -1092,13 +1156,17 @@ function startInteractiveQuiz() {
   appState.interactive = {
     questions: appState.generatedQuestions,
     index: 0,
-    correctCount: 0,
+    results: appState.generatedQuestions.map(() => ({
+      input: "",
+      status: "unanswered",
+      autoCorrect: false,
+      awarded: 0,
+    })),
     complete: false,
   };
 
   el.interactivePanel.hidden = false;
-  renderInteractive(el.interactiveContainer, appState.interactive);
-  bindInteractiveControls();
+  showInteractive();
   setStatus("Interactive quiz started.", "ok");
 }
 

@@ -909,3 +909,62 @@ fieldset {
   gap: 0.5rem;
   font-weight: normal;
 }
+
+.interactive-answer {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--teal);
+  border-radius: var(--radius);
+  background: var(--teal-wash);
+}
+
+.interactive-answer p {
+  margin: 0.25rem 0;
+}
+
+.interactive-answer-text {
+  font-weight: 700;
+}
+
+.interactive-reference {
+  color: var(--muted);
+}
+
+.interactive-feedback:empty {
+  display: none;
+}
+
+.interactive-verse {
+  line-height: 1.5;
+}
+
+.answer-words {
+  color: #c00000;
+}
+
+.interactive-points {
+  margin: 0.75rem 0 0;
+  padding: 0.25rem 0.75rem 0.5rem;
+  border: 1px solid var(--fieldset-line);
+  border-radius: var(--radius);
+}
+
+.interactive-point-option {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  margin-right: 1rem;
+  font-weight: normal;
+}
+
+.interactive-point-option input[type="radio"] {
+  width: auto;
+  margin: 0;
+}
+
+.interactive-actions button {
+  width: auto;
+  flex: 1 1 8rem;
+}

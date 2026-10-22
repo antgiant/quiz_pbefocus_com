@@ -1,4 +1,4 @@
-import { formatInteractivePrompt } from "./question-formatters.js";
+import { formatInteractiveAnswer, formatInteractivePrompt, verseRuns } from "./question-formatters.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
 function formatRef(question) {
@@ -568,6 +568,39 @@ export function renderPreviewMeta(container, questions, settings, unmetMessages)
   container.textContent = lines.join("  •  ");
 }
 
+export function interactivePossiblePoints(question) {
+  return Math.max(1, Number(question.points) || 1);
+}
+
+export function interactiveTotals(state) {
+  let earned = 0;
+  let possible = 0;
+  state.questions.forEach((question, i) => {
+    possible += interactivePossiblePoints(question);
+    earned += state.results[i]?.awarded || 0;
+  });
+  return { earned, possible };
+}
+
+// Full verse text, with the words that answer the question in red
+export function renderVerseText(target, verses, answer) {
+  target.textContent = "";
+  if (!verses.length) {
+    target.textContent = "Verse text unavailable.";
+    return;
+  }
+  for (const run of verseRuns(verses, answer)) {
+    if (run.isAnswer) {
+      const mark = document.createElement("span");
+      mark.className = "answer-words";
+      mark.textContent = run.text;
+      target.append(mark);
+    } else {
+      target.append(run.text);
+    }
+  }
+}
+
 export function renderInteractive(container, state) {
   container.innerHTML = "";
 
@@ -577,11 +610,16 @@ export function renderInteractive(container, state) {
   }
 
   if (state.complete) {
+    const { earned, possible } = interactiveTotals(state);
+    const answered = state.results.filter((result) => result.status !== "unanswered").length;
     const summary = document.createElement("div");
     summary.className = "interactive-wrap";
     summary.innerHTML = `
-      <p class="interactive-progress">Completed ${state.questions.length} questions.</p>
-      <h3>Score: ${state.correctCount} / ${state.questions.length}</h3>
+      <p class="interactive-progress">Completed ${state.questions.length} questions (${answered} answered).</p>
+      <h3>Score: ${earned} / ${possible} points</h3>
+      <div class="interactive-actions">
+        <button type="button" id="interactivePrevBtn">Previous</button>
+      </div>
       <p>Use Start Interactive Quiz to run again.</p>
     `;
     container.append(summary);
@@ -589,27 +627,73 @@ export function renderInteractive(container, state) {
   }
 
   const current = state.questions[state.index];
+  const result = state.results[state.index];
   const prompt = formatInteractivePrompt(current);
   const wrap = document.createElement("div");
   wrap.className = "interactive-wrap";
   const promptHtml = prompt.prompt.replace(/\n/g, "<br>");
+  const isLast = state.index === state.questions.length - 1;
+  const { earned, possible } = interactiveTotals(state);
 
   wrap.innerHTML = `
-    <p class="interactive-progress">Question ${state.index + 1} of ${state.questions.length}</p>
+    <p class="interactive-progress">Question ${state.index + 1} of ${state.questions.length} &middot; ${earned} / ${possible} points so far</p>
     <p>${promptHtml}</p>
     <label>
       Your answer
       <input type="text" id="interactiveAnswerInput" autocomplete="off" />
     </label>
     <div class="interactive-actions">
+      <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
       <button type="button" id="interactiveSubmitBtn">Submit</button>
       <button type="button" id="interactiveRevealBtn">Reveal Answer</button>
-      <button type="button" id="interactiveSkipBtn">Skip</button>
+      <button type="button" id="interactiveNextBtn">${isLast ? "Finish" : "Next"}</button>
     </div>
-    <p id="interactiveFeedback"></p>
+    <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>
   `;
 
+  wrap.querySelector("#interactiveAnswerInput").value = result.input;
   container.append(wrap);
+
+  if (result.status !== "unanswered") {
+    renderInteractiveAnswerPanel(wrap.querySelector("#interactiveAnswerPanel"), current, result);
+  }
+}
+
+function renderInteractiveAnswerPanel(panel, question, result) {
+  const answerBlock = formatInteractiveAnswer(question);
+  const max = interactivePossiblePoints(question);
+  panel.hidden = false;
+  panel.innerHTML = `
+    <p id="interactiveFeedback" class="interactive-feedback"></p>
+    <p class="interactive-answer-text"></p>
+    <p class="interactive-reference"></p>
+    <p id="interactiveVerseText" class="interactive-verse">Loading verse text&hellip;</p>
+    <fieldset class="interactive-points">
+      <legend>Points awarded (out of ${max})</legend>
+    </fieldset>
+  `;
+
+  panel.querySelector(".interactive-answer-text").textContent = answerBlock.answer;
+  panel.querySelector(".interactive-reference").textContent = answerBlock.reference;
+  panel.querySelector("#interactiveFeedback").textContent =
+    result.status === "submitted"
+      ? result.autoCorrect
+        ? "Looks correct."
+        : "Compare your answer with the one below."
+      : "";
+
+  const points = panel.querySelector(".interactive-points");
+  for (let value = 0; value <= max; value += 1) {
+    const label = document.createElement("label");
+    label.className = "interactive-point-option";
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "interactivePoints";
+    radio.value = String(value);
+    radio.checked = value === result.awarded;
+    label.append(radio, ` ${value}`);
+    points.append(label);
+  }
 }
 
 export function createPrintSheets(template, entries) {

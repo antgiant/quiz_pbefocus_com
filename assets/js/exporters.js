@@ -1,3 +1,5 @@
+import { verseRuns } from "./question-formatters.js";
+
 const SLIDE_W_16x9 = 12192000; // EMUs
 const ANSWER_RED = "FF0000";
 const TIMER_X_16x9 = 10992000; // leaves ~1.2" for timer at top-right in 16:9
@@ -58,39 +60,10 @@ function xmlPara(text, spaceBefore = "0", size = null) {
   );
 }
 
-// Split verse text into runs, coloring red the first case-insensitive match of the answer
-function redAnswerRuns(text, answer) {
-  const needle = safeText(answer).trim();
-  const index = needle ? text.toLowerCase().indexOf(needle.toLowerCase()) : -1;
-  if (index < 0) {
-    return [{ text }];
-  }
-  return [
-    { text: text.slice(0, index) },
-    { text: text.slice(index, index + needle.length), color: ANSWER_RED },
-    { text: text.slice(index + needle.length) },
-  ].filter((run) => run.text);
-}
-
-// Bible API text can carry inline markup such as <i>…</i> and HTML entities
-function cleanVerseText(text) {
-  return safeText(text)
-    .replace(/<[^>]*>/g, "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(Number(dec)))
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function verseTextRuns(verses, answer) {
-  const full = verses.map((v) => `${v.verse} ${cleanVerseText(v.text)}`).join(" ");
-  return redAnswerRuns(full, answer);
+  return verseRuns(verses, answer).map((run) =>
+    run.isAnswer ? { text: run.text, color: ANSWER_RED } : { text: run.text }
+  );
 }
 
 function xmlEmptyPara() {
