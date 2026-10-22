@@ -1,7 +1,7 @@
 import {
   DEFAULT_PERSON_NAME,
   DEFAULT_SETTINGS,
-  QUESTION_TYPES,
+  QUESTION_TYPE_GROUP_IDS,
   STORAGE_KEY,
 } from "./constants.js";
 
@@ -9,7 +9,7 @@ function createDefaultProfile(name = DEFAULT_PERSON_NAME) {
   return {
     id: crypto.randomUUID(),
     name,
-    settings: { ...DEFAULT_SETTINGS, selectedTypes: [...QUESTION_TYPES] },
+    settings: { ...DEFAULT_SETTINGS, selectedTypes: [...QUESTION_TYPE_GROUP_IDS] },
     selectedScope: {},
   };
 }

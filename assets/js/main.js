@@ -6,7 +6,9 @@ import {
   DEFAULT_SETTINGS,
   QUESTION_DIFFICULTIES,
   QUESTION_SOURCES,
-  QUESTION_TYPES,
+  QUESTION_TYPE_GROUP_IDS,
+  normalizeSelectedTypeGroups,
+  questionTypeGroupId,
 } from "./constants.js";
 import { DataService } from "./data-service.js";
 import { exportPowerPoint } from "./exporters.js";
@@ -60,6 +62,7 @@ const el = {
   totalCountInput: document.getElementById("totalCountInput"),
   perVerseInput: document.getElementById("perVerseInput"),
   difficultyCheckboxes: document.getElementById("difficultyCheckboxes"),
+  difficultyWeightsCheck: document.getElementById("difficultyWeightsCheck"),
   sourceCheckboxes: document.getElementById("sourceCheckboxes"),
   typeCheckboxes: document.getElementById("typeCheckboxes"),
   scopeSelector: document.getElementById("scopeSelector"),
@@ -148,9 +151,14 @@ function ensureProfileState() {
   delete active.settings.difficulty;
   delete active.settings.humanReviewedOnly;
 
-  if (!Array.isArray(active.settings.selectedTypes) || !active.settings.selectedTypes.length) {
-    active.settings.selectedTypes = [...QUESTION_TYPES];
+  active.settings.selectedTypes = normalizeSelectedTypeGroups(active.settings.selectedTypes);
+  if (!active.settings.selectedTypes.length) {
+    active.settings.selectedTypes = [...QUESTION_TYPE_GROUP_IDS];
   }
+  if (!active.settings.difficultyWeights || typeof active.settings.difficultyWeights !== "object") {
+    active.settings.difficultyWeights = {};
+  }
+  active.settings.useDifficultyWeights = Boolean(active.settings.useDifficultyWeights);
 
   if (!active.selectedScope || typeof active.selectedScope !== "object") {
     active.selectedScope = {};
@@ -194,10 +202,12 @@ function renderControls() {
   renderDifficultyCheckboxes(
     el.difficultyCheckboxes,
     QUESTION_DIFFICULTIES,
-    settings.selectedDifficulties
+    settings.selectedDifficulties,
+    { useWeights: settings.useDifficultyWeights, weights: settings.difficultyWeights }
   );
+  el.difficultyWeightsCheck.checked = Boolean(settings.useDifficultyWeights);
   renderSourceCheckboxes(el.sourceCheckboxes, QUESTION_SOURCES, settings.selectedSources);
-  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
+  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPE_GROUP_IDS, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
@@ -292,7 +302,7 @@ function pruneSelectedVersesToScope(selectedVerses, scope) {
 function questionMatchesAvailabilityFilters(question, settings) {
   const typeSet = new Set(settings.selectedTypes || []);
   const difficultySet = new Set(settings.selectedDifficulties || []);
-  if (!typeSet.has(question.type)) {
+  if (!typeSet.has(questionTypeGroupId(question.type))) {
     return false;
   }
 
@@ -373,7 +383,7 @@ async function refreshScopeSelectorForFilters() {
   const shouldFilterAvailability =
     settings.selectedSources.length < QUESTION_SOURCES.length ||
     settings.selectedDifficulties.length < QUESTION_DIFFICULTIES.length ||
-    settings.selectedTypes.length < QUESTION_TYPES.length;
+    settings.selectedTypes.length < QUESTION_TYPE_GROUP_IDS.length;
 
   if (!shouldFilterAvailability) {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
@@ -428,6 +438,15 @@ function syncSettingsFromControls() {
     el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
   delete active.settings.difficulty;
+  active.settings.useDifficultyWeights = el.difficultyWeightsCheck.checked;
+  const difficultyWeights = {};
+  el.difficultyCheckboxes.querySelectorAll('input[data-role="difficulty-weight"]').forEach((input) => {
+    const value = parseFloat(input.value);
+    if (!input.disabled && Number.isFinite(value) && value >= 0) {
+      difficultyWeights[input.dataset.difficulty] = Math.min(value, 100);
+    }
+  });
+  active.settings.difficultyWeights = difficultyWeights;
 
   active.settings.selectedTypes = Array.from(
     el.typeCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
@@ -1480,7 +1499,28 @@ function wireEvents() {
     refreshScopeThenGenerate();
   });
 
-  el.difficultyCheckboxes.addEventListener("change", () => {
+  el.difficultyWeightsCheck.addEventListener("change", () => {
+    syncSettingsFromControls();
+    const settings = getActiveProfile(appState.storage).settings;
+    renderDifficultyCheckboxes(el.difficultyCheckboxes, QUESTION_DIFFICULTIES, settings.selectedDifficulties, {
+      useWeights: settings.useDifficultyWeights,
+      weights: settings.difficultyWeights,
+    });
+    queueRealtimeGenerate();
+  });
+
+  el.difficultyCheckboxes.addEventListener("change", (event) => {
+    if (event.target.dataset.role === "difficulty-weight") {
+      syncSettingsFromControls();
+      queueRealtimeGenerate();
+      return;
+    }
+    // Keep each percent box enabled only while its difficulty is checked
+    el.difficultyCheckboxes.querySelectorAll("label").forEach((label) => {
+      const box = label.querySelector('input[type="checkbox"]');
+      const weight = label.querySelector('input[data-role="difficulty-weight"]');
+      if (weight) weight.disabled = !box.checked;
+    });
     syncSettingsFromControls();
     refreshScopeThenGenerate();
   });

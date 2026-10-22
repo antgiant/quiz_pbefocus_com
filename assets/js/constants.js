@@ -6,8 +6,37 @@ export const QUESTION_TYPES = [
   "how_many",
   "list",
   "true_false",
+  "fill_in_blank",
   "other",
 ];
+
+// The question types offered in the UI; each groups the raw data types above
+export const QUESTION_TYPE_GROUPS = [
+  {
+    id: "short_answer",
+    label: "Short Answer",
+    types: ["who", "what", "where", "why", "how_many", "list", "other"],
+  },
+  { id: "fill_in_blank", label: "Fill in the Blank", types: ["fill_in_blank"] },
+  { id: "true_false", label: "True/False", types: ["true_false"] },
+];
+
+export const QUESTION_TYPE_GROUP_IDS = QUESTION_TYPE_GROUPS.map((group) => group.id);
+
+export function questionTypeGroupId(type) {
+  return QUESTION_TYPE_GROUPS.find((group) => group.types.includes(type))?.id || "short_answer";
+}
+
+// Saved profiles may hold raw types from before grouping; map them to group ids
+export function normalizeSelectedTypeGroups(selectedTypes) {
+  if (!Array.isArray(selectedTypes)) {
+    return [...QUESTION_TYPE_GROUP_IDS];
+  }
+  const groups = new Set(selectedTypes.map((type) =>
+    QUESTION_TYPE_GROUP_IDS.includes(type) ? type : questionTypeGroupId(type)
+  ));
+  return QUESTION_TYPE_GROUP_IDS.filter((id) => groups.has(id));
+}
 
 export const QUESTION_DIFFICULTIES = ["easy", "medium", "hard"];
 
@@ -28,7 +57,9 @@ export const DEFAULT_SETTINGS = {
   perVerse: 2,
   selectedDifficulties: [...QUESTION_DIFFICULTIES],
   selectedSources: [...QUESTION_SOURCES],
-  selectedTypes: [...QUESTION_TYPES],
+  selectedTypes: [...QUESTION_TYPE_GROUP_IDS],
+  useDifficultyWeights: false,
+  difficultyWeights: {},
 };
 
 // Audio cues for the PowerPoint and interactive timers (the ?v= suffix busts caches when a

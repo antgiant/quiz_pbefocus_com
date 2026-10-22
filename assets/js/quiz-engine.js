@@ -1,4 +1,4 @@
-import { QUESTION_DIFFICULTIES } from "./constants.js";
+import { QUESTION_DIFFICULTIES, questionTypeGroupId } from "./constants.js";
 import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
@@ -60,9 +60,8 @@ function buildCandidateStats(candidates) {
   };
 }
 
-function selectUnweighted(randomized, settings) {
+function selectUnweighted(randomized, settings, perVerseCounts = new Map()) {
   const selected = [];
-  const perVerseCounts = new Map();
 
   for (const question of randomized) {
     const verseKey = getVerseKey(question);
@@ -120,7 +119,7 @@ function resolveChapterWeights(candidates, selectedScope, chapterWeights) {
 // Repeatedly take from the chapter furthest below its target share, which
 // yields the requested mix and hands unfilled quota to chapters that still
 // have questions left.
-function selectWeighted(randomized, weights, settings, seed) {
+function selectWeighted(randomized, weights, settings, seed, perVerseCounts = new Map()) {
   const queues = new Map();
   for (const question of randomized) {
     const key = chapterKey(question.bookId, question.chapter);
@@ -135,7 +134,6 @@ function selectWeighted(randomized, weights, settings, seed) {
 
   const selected = [];
   const counts = new Map();
-  const perVerseCounts = new Map();
 
   while (selected.length < settings.totalCount) {
     let bestKey = null;
@@ -173,6 +171,60 @@ function selectWeighted(randomized, weights, settings, seed) {
   }
 
   return shuffle(selected, seed);
+}
+
+// Returns Map(difficulty -> share of the quiz, summing to 1) or null when the
+// user is not assigning percentages. Blank difficulties split what is left evenly.
+function resolveDifficultyWeights(difficultySet, settings) {
+  if (!settings.useDifficultyWeights) {
+    return null;
+  }
+
+  const difficulties = QUESTION_DIFFICULTIES.filter((difficulty) => difficultySet.has(difficulty));
+  const explicit = new Map();
+  for (const difficulty of difficulties) {
+    const value = Number(settings.difficultyWeights?.[difficulty]);
+    if (settings.difficultyWeights?.[difficulty] != null && Number.isFinite(value) && value >= 0) {
+      explicit.set(difficulty, value);
+    }
+  }
+
+  if (explicit.size === 0) {
+    return null;
+  }
+
+  const blank = difficulties.filter((difficulty) => !explicit.has(difficulty));
+  const explicitTotal = [...explicit.values()].reduce((sum, value) => sum + value, 0);
+  const blankShare = blank.length ? Math.max(0, 100 - explicitTotal) / blank.length : 0;
+  const raw = new Map(explicit);
+  for (const difficulty of blank) {
+    raw.set(difficulty, blankShare);
+  }
+
+  const total = [...raw.values()].reduce((sum, value) => sum + value, 0);
+  if (!(total > 0)) {
+    return null;
+  }
+  return new Map([...raw].map(([difficulty, value]) => [difficulty, value / total]));
+}
+
+// Whole-question targets per difficulty that add up to totalCount (largest remainder)
+function difficultyTargets(shares, totalCount) {
+  const targets = new Map();
+  const remainders = [];
+  let assigned = 0;
+  for (const [difficulty, share] of shares) {
+    const exact = share * totalCount;
+    const whole = Math.floor(exact);
+    targets.set(difficulty, whole);
+    assigned += whole;
+    remainders.push({ difficulty, fraction: exact - whole });
+  }
+  remainders.sort((a, b) => b.fraction - a.fraction);
+  for (let i = 0; assigned < totalCount && i < remainders.length; i += 1, assigned += 1) {
+    targets.set(remainders[i].difficulty, targets.get(remainders[i].difficulty) + 1);
+  }
+  return targets;
 }
 
 export async function generateQuestions({
@@ -231,7 +283,7 @@ export async function generateQuestions({
     questionMatchesSelectedSources(question, settings.selectedSources)
   );
 
-  candidates = candidates.filter((question) => typeSet.has(question.type));
+  candidates = candidates.filter((question) => typeSet.has(questionTypeGroupId(question.type)));
   candidates = candidates.filter((question) => difficultyMatch(question, difficultySet));
   const stats = buildCandidateStats(candidates);
 
@@ -245,9 +297,37 @@ export async function generateQuestions({
 
   const randomized = shuffle(candidates, seed);
   const weights = resolveChapterWeights(randomized, selectedScope, chapterWeights);
-  const selected = weights
-    ? selectWeighted(randomized, weights, settings, seed)
-    : selectUnweighted(randomized, settings);
+  const pick = (pool, count, perVerseCounts) => {
+    const limited = { ...settings, totalCount: count };
+    return weights
+      ? selectWeighted(pool, weights, limited, seed, perVerseCounts)
+      : selectUnweighted(pool, limited, perVerseCounts);
+  };
+
+  const difficultyShares = resolveDifficultyWeights(difficultySet, settings);
+  let selected;
+  if (difficultyShares) {
+    const perVerseCounts = new Map();
+    selected = [];
+    for (const [difficulty, target] of difficultyTargets(difficultyShares, settings.totalCount)) {
+      const pool = randomized.filter((question) => question.difficulty === difficulty);
+      selected.push(...pick(pool, target, perVerseCounts));
+    }
+
+    // Top up from any selected difficulty when a share runs out of questions
+    if (selected.length < settings.totalCount) {
+      const chosen = new Set(selected);
+      const rest = randomized.filter((question) => !chosen.has(question));
+      const extra = pick(rest, settings.totalCount - selected.length, perVerseCounts);
+      if (extra.length) {
+        unmet.push("Not enough questions to match the difficulty percentages exactly; other difficulties filled in.");
+      }
+      selected.push(...extra);
+    }
+    selected = shuffle(selected, seed);
+  } else {
+    selected = pick(randomized, settings.totalCount, new Map());
+  }
 
   if (selected.length < settings.totalCount) {
     unmet.push(
