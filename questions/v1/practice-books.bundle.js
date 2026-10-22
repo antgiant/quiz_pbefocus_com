@@ -1962,7 +1962,7 @@ window.PBE_PRACTICE_BOOKS = {
     "totalChapters": 1,
     "label": "3 John",
     "verseCounts": [
-      15
+      14
     ]
   },
   "jude": {

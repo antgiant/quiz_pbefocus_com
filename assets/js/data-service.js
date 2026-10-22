@@ -1,4 +1,5 @@
 import { QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
+import { VerseStore } from "./verse-store.js";
 
 const MANIFEST_PATH = "questions/v1/manifest.json";
 const CHAPTER_BASE_PATH = "questions/v1";
@@ -152,8 +153,28 @@ function normalizeQuestion(question, bookId, chapterJson) {
   };
 }
 
+// Intro commentary becomes "chapter 0": one passage per paragraph, labelled
+// with its section title (and part number when a section has several parts)
+export function buildIntroVerses(commentary) {
+  const verses = [];
+  for (const section of commentary || []) {
+    const parts = Array.isArray(section?.parts) ? section.parts : [];
+    parts.forEach((part, index) => {
+      const title = section.title || "Intro";
+      verses.push({
+        verse: verses.length + 1,
+        text: `<strong>${title}.</strong> ${part}`,
+        label: parts.length > 1 ? `${title} (Part ${index + 1}/${parts.length})` : title,
+      });
+    });
+  }
+  return verses;
+}
+
 export class DataService {
-  constructor() {
+  constructor({ store = new VerseStore() } = {}) {
+    this.store = store;
+    this.introByBookId = new Map();
     this.manifest = null;
     this.chapterCache = new Map();
     this.nkjvChapterCache = new Map();
@@ -161,10 +182,20 @@ export class DataService {
     this.nkjvInFlight = new Map();
   }
 
+  hasIntro(bookId) {
+    return this.introByBookId.has(bookId);
+  }
+
   async loadNkjvChapter(bookId, chapterNumber) {
     const chapterKey = chapterCacheKey(bookId, chapterNumber);
     if (this.nkjvChapterCache.has(chapterKey)) {
       return this.nkjvChapterCache.get(chapterKey);
+    }
+
+    if (Number(chapterNumber) === 0) {
+      const verses = buildIntroVerses(this.introByBookId.get(bookId));
+      this.nkjvChapterCache.set(chapterKey, verses);
+      return verses;
     }
 
     const numericBookId = extractNumericBookId(bookId);
@@ -177,15 +208,21 @@ export class DataService {
       return this.nkjvInFlight.get(requestKey);
     }
 
-    const request = fetch(`${NKJV_CHAPTER_API_BASE}/${numericBookId}/${chapterNumber}/`)
-      .then((response) => {
+    const request = this.store
+      .get(chapterKey)
+      .then(async (cached) => {
+        if (cached) {
+          return cached;
+        }
+        const response = await fetch(`${NKJV_CHAPTER_API_BASE}/${numericBookId}/${chapterNumber}/`);
         if (!response.ok) {
           throw new Error(`Failed to load NKJV chapter ${bookId} ${chapterNumber}: ${response.status}`);
         }
-        return response.json();
+        const fetched = parseNkjvVerses(await response.json());
+        this.store.set(chapterKey, fetched);
+        return fetched;
       })
-      .then((payload) => {
-        const verses = parseNkjvVerses(payload);
+      .then((verses) => {
         this.nkjvChapterCache.set(chapterKey, verses);
 
         for (const verse of verses) {
@@ -321,6 +358,11 @@ export class DataService {
       throw new Error(`Chapter not found: ${bookId} ${chapterNumber}`);
     }
 
+    if (chapterMeta.intro) {
+      this.chapterCache.set(key, []);
+      return [];
+    }
+
     let chapterJson = null;
     try {
       const response = await fetch(`${CHAPTER_BASE_PATH}/${chapterMeta.path}`);
@@ -429,6 +471,27 @@ export class DataService {
       existingIds.add(syntheticId);
       existingByNormalized.set(normalized, syntheticId);
     }
+
+    this.registerIntroChapters(manifest, practiceBooks);
+  }
+
+  // Books with commentary get an "Intro" pseudo-chapter 0 holding its text;
+  // it only produces fill-in-the-blank questions (no written questions exist)
+  registerIntroChapters(manifest, practiceBooks) {
+    const lookup = this.buildManifestBookLookup(manifest);
+    for (const [bookKey, meta] of Object.entries(practiceBooks)) {
+      const commentary = Array.isArray(meta?.commentary) ? meta.commentary : [];
+      const partCount = commentary.reduce((sum, section) => sum + (section.parts?.length || 0), 0);
+      const book = (manifest.books || []).find((item) => item.id === lookup.get(normalizeBookKey(bookKey)));
+      if (!book || partCount === 0) {
+        continue;
+      }
+
+      this.introByBookId.set(book.id, commentary);
+      if (!book.chapters.some((chapter) => chapter.number === 0)) {
+        book.chapters.unshift({ number: 0, path: null, verses: partCount, questions: 0, intro: true });
+      }
+    }
   }
 
   buildPracticeYearConfigs(rawPracticeYears, manifest) {
@@ -451,6 +514,8 @@ export class DataService {
       }
 
       const scopeSets = {};
+      const verseSets = {};
+      const wholeChapters = new Set();
 
       for (const selection of selections) {
         const sourceKey = normalizeBookKey(selection?.bookKey);
@@ -481,6 +546,33 @@ export class DataService {
             scopeSets[manifestBookId].add(chapter);
           }
         }
+
+        // A book's intro is studied along with the book from its first chapter
+        if (lower <= 1 && availableChapters.has(0)) {
+          scopeSets[manifestBookId].add(0);
+        }
+
+        // "include" limits a single chapter to some verse ranges (e.g. Ezra 8:15-36)
+        const key = `${manifestBookId}:${lower}`;
+        if (Array.isArray(selection.include) && lower === upper) {
+          verseSets[key] = verseSets[key] || new Set();
+          for (const [from, to] of selection.include) {
+            for (let verse = Number(from); verse <= Number(to); verse += 1) {
+              verseSets[key].add(verse);
+            }
+          }
+        } else {
+          for (let chapter = lower; chapter <= upper; chapter += 1) {
+            wholeChapters.add(`${manifestBookId}:${chapter}`);
+          }
+        }
+      }
+
+      const verses = {};
+      for (const [key, set] of Object.entries(verseSets)) {
+        if (!wholeChapters.has(key)) {
+          verses[key] = Array.from(set).sort((a, b) => a - b);
+        }
       }
 
       const scope = {};
@@ -495,6 +587,7 @@ export class DataService {
         id: yearId,
         name: yearId,
         scope,
+        verses,
       });
     }
 
@@ -535,6 +628,7 @@ export class DataService {
           ...existing,
           name: existing?.name || year.name,
           scope: mergedScope,
+          verses: { ...(year.verses || {}), ...(existing?.verses || {}) },
         });
         continue;
       }
