@@ -1179,21 +1179,28 @@ function bindInteractiveControls() {
     }
   });
 
-  submitBtn.addEventListener("click", () => {
+  // Returns false when the click was ignored (nothing changed)
+  const submitAnswer = () => {
     // Realistic mode: no late answers once time is up or the question was left
     if (state.options.realistic && result.expired && !result.autoSubmit) {
-      return;
+      return false;
     }
     // Re-submitting the same text must not wipe points the user already adjusted
     if (result.status === "submitted" && result.submittedInput === input.value) {
-      return;
+      return false;
     }
     result.input = input.value;
     result.submittedInput = input.value;
     result.status = "submitted";
     result.autoCorrect = Boolean(evaluateAnswer(question, input.value));
     result.awarded = result.autoCorrect ? interactivePossiblePoints(question) : 0;
-    refresh();
+    return true;
+  };
+
+  submitBtn.addEventListener("click", () => {
+    if (submitAnswer()) {
+      refresh();
+    }
   });
 
   revealBtn.addEventListener("click", () => {
@@ -1215,7 +1222,13 @@ function bindInteractiveControls() {
   });
 
   prevBtn.addEventListener("click", () => goToInteractiveQuestion(index - 1));
-  nextBtn.addEventListener("click", () => goToInteractiveQuestion(index + 1));
+  // Moving on counts as submitting whatever is in the box
+  nextBtn.addEventListener("click", () => {
+    if (result.status === "unanswered") {
+      submitAnswer();
+    }
+    goToInteractiveQuestion(index + 1);
+  });
 }
 
 // --- Interactive timer ---
