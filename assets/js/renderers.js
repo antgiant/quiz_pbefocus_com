@@ -941,8 +941,9 @@ function renderInteractiveAnswerPanel(panel, question, result) {
       if (result.status === "submitted") {
         const correct = Boolean(result.blankCorrect?.[index]);
         if (hinted) {
+          // Marked with a lightbulb; the "Hints used" note below says what that means
           item.className = "is-hinted";
-          item.textContent = `${word} (hint, counts as incorrect)`;
+          item.textContent = word;
         } else {
           item.className = correct ? "is-correct" : "is-incorrect";
           item.textContent = correct ? word : `${typed || "(blank)"} \u2192 ${word}`;

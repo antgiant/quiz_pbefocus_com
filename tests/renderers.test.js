@@ -194,7 +194,11 @@ describe("interactive fill in the blank", () => {
     expect(panel.hidden).toBe(false);
     expect(panel.textContent).toContain("0 of 2 blanks correct.");
     expect(panel.textContent).toContain("Hints used: 1");
-    expect(panel.textContent).toContain("gospel (hint, counts as incorrect)");
+    // The hinted word is listed plainly (lightbulb marker via CSS); the note explains it
+    const hintedItem = panel.querySelector(".fib-results .is-hinted");
+    expect(hintedItem.textContent).toBe("gospel");
+    expect(panel.textContent).not.toContain("(hint, counts as incorrect)");
+    expect(panel.textContent).toContain("Blanks filled by a hint count as incorrect");
     expect(panel.textContent).toContain("wrong → Son");
     expect(panel.querySelectorAll(".answer-words")).toHaveLength(2);
     // The hinted blank is not marked as a right or wrong answer; the typed one is

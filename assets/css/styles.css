@@ -174,7 +174,7 @@ a {
 .layout {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 1.5rem 2.5rem;
+  padding: 0 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 1.35rem;
@@ -1334,4 +1334,127 @@ input[aria-invalid="true"] {
 .import-list {
   margin: 0.5rem 0 0;
   padding-left: 1.25rem;
+}
+
+/* --- Accordion: setup and the interactive quiz take turns --- */
+
+.accordion {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.5rem 2.5rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.accordion-item[hidden],
+.accordion-region[hidden] {
+  display: none;
+}
+
+.accordion-heading {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.accordion-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.85rem 1.1rem;
+  text-align: left;
+  font-size: 1.1rem;
+  background: var(--panel-bg);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.accordion-toggle:hover {
+  transform: none;
+  border-color: var(--teal);
+}
+
+.accordion-toggle[aria-expanded="true"] {
+  background: var(--teal-soft);
+}
+
+.accordion-title {
+  flex: 0 0 auto;
+}
+
+.accordion-summary {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.accordion-toggle[aria-expanded="true"] .accordion-summary {
+  visibility: hidden;
+}
+
+.accordion-chevron {
+  flex: 0 0 auto;
+  width: 0.65rem;
+  height: 0.65rem;
+  margin-right: 0.25rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.16s ease;
+}
+
+.accordion-toggle[aria-expanded="true"] .accordion-chevron {
+  transform: rotate(-135deg);
+}
+
+.accordion-region {
+  margin-top: 0.9rem;
+}
+
+/* While the quiz is open it gets the whole page */
+body.quiz-open .hero,
+body.quiz-open .mission-statement,
+body.quiz-open .site-footer {
+  display: none;
+}
+
+body.quiz-open .accordion {
+  max-width: none;
+  padding: 1rem 1rem 2rem;
+}
+
+.quiz-region {
+  min-height: calc(100vh - 9rem);
+}
+
+.quiz-region .interactive-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.75rem;
+  font-size: 1.15rem;
+}
+
+.quiz-region .fib-verse {
+  font-size: 1.35rem;
+}
+
+@media (max-width: 540px) {
+  .accordion {
+    padding: 0 1rem 2rem;
+  }
+
+  .accordion-summary {
+    display: none;
+  }
+
+  .quiz-region .interactive-wrap {
+    padding: 1rem;
+    font-size: 1.05rem;
+  }
 }

@@ -104,7 +104,13 @@ const el = {
   previewPanel: document.getElementById("previewPanel"),
   previewMeta: document.getElementById("previewMeta"),
   previewList: document.getElementById("previewList"),
-  interactivePanel: document.getElementById("interactivePanel"),
+  settingsToggle: document.getElementById("settingsToggle"),
+  settingsRegion: document.getElementById("settingsRegion"),
+  settingsSummary: document.getElementById("settingsSummary"),
+  quizItem: document.getElementById("quizItem"),
+  quizToggle: document.getElementById("quizToggle"),
+  quizRegion: document.getElementById("quizRegion"),
+  quizSummary: document.getElementById("quizSummary"),
   interactiveContainer: document.getElementById("interactiveContainer"),
   questionCardTemplate: document.getElementById("questionCardTemplate"),
   printTemplate: document.getElementById("printTemplate"),
@@ -1348,11 +1354,54 @@ function evaluateAnswer(question, answer) {
 
 const verseCache = new Map();
 
+// Setup and the quiz take turns: opening one collapses the other. The quiz takes the
+// whole page while it is open, and pauses (keeping its time) while setup is open.
+function setAccordion(open) {
+  const quiz = open === "quiz";
+  el.settingsToggle.setAttribute("aria-expanded", String(!quiz));
+  el.settingsRegion.hidden = quiz;
+  el.quizToggle.setAttribute("aria-expanded", String(quiz));
+  el.quizRegion.hidden = !quiz;
+  document.body.classList.toggle("quiz-open", quiz);
+
+  if (quiz) {
+    showInteractive();
+    window.scrollTo({ top: 0 });
+  } else {
+    stopQuestionTimer();
+    updateQuizSummary();
+  }
+}
+
+function updateQuizSummary() {
+  const state = appState.interactive;
+  el.quizSummary.textContent = state.questions.length
+    ? `${state.complete ? "Finished" : interactiveProgressText(state)} - open to ${state.complete ? "review" : "resume"}`
+    : "";
+}
+
 function showInteractive() {
   stopQuestionTimer();
   renderInteractive(el.interactiveContainer, appState.interactive);
   bindInteractiveControls();
   startQuestionTimer();
+  updateQuizSummary();
+}
+
+// After an answer is shown, keep the whole answer on screen: the question and answer
+// together when they fit, otherwise the whole answer
+function keepAnswerInView() {
+  const panel = document.getElementById("interactiveAnswerPanel");
+  const wrap = el.interactiveContainer.querySelector(".interactive-wrap");
+  if (!panel || panel.hidden || !wrap) {
+    return;
+  }
+
+  if (wrap.getBoundingClientRect().height <= window.innerHeight) {
+    wrap.scrollIntoView({ block: "nearest" });
+  } else {
+    panel.scrollIntoView({ block: panel.getBoundingClientRect().height <= window.innerHeight ? "end" : "start" });
+  }
 }
 
 // Leaving a timed question without answering counts as the time running out
@@ -1465,7 +1514,7 @@ function bindInteractiveControls() {
   // Re-render so the answer panel and running score reflect the new state
   const refresh = () => {
     showInteractive();
-    document.getElementById("interactiveAnswerPanel")?.scrollIntoView({ block: "nearest" });
+    keepAnswerInView();
   };
 
   const readBlanks = () => blankInputs.map((box) => box.value);
@@ -1549,6 +1598,8 @@ function bindInteractiveControls() {
     const next = open.find((i) => !result.inputs[i]?.trim()) ?? open[0];
     if (next === undefined) return;
     result.inputs[next] = question.blankWords[next];
+    // Fill the box too: submitting reads the boxes, and the last hint submits straight away
+    blankInputs[next].value = question.blankWords[next];
     result.hinted.push(next);
     // With every blank given away there is nothing left to answer
     if (result.hinted.length === question.blankWords.length) {
@@ -1575,6 +1626,7 @@ function bindInteractiveControls() {
       if (progress) {
         progress.textContent = interactiveProgressText(state);
       }
+      updateQuizSummary();
     }
   });
 
@@ -1708,8 +1760,8 @@ async function startInteractiveQuiz() {
     complete: false,
   };
 
-  el.interactivePanel.hidden = false;
-  showInteractive();
+  el.quizItem.hidden = false;
+  setAccordion("quiz");
   setStatus("Interactive quiz started.", "ok");
 }
 
@@ -1772,6 +1824,16 @@ async function generateAndRender() {
 }
 
 function wireEvents() {
+  el.settingsToggle.addEventListener("click", () => {
+    if (el.settingsToggle.getAttribute("aria-expanded") !== "true") {
+      setAccordion("settings");
+    }
+  });
+  el.quizToggle.addEventListener("click", () => {
+    if (el.quizToggle.getAttribute("aria-expanded") !== "true") {
+      setAccordion("quiz");
+    }
+  });
   el.togglePreviewBtn.addEventListener("click", togglePreview);
   el.regenerateBtn.addEventListener("click", () => {
     generateAndRender().catch((error) => setStatus(error.message, "warn"));

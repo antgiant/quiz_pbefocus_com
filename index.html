@@ -56,6 +56,16 @@
         </p>
       </section>
 
+      <div class="accordion">
+      <section class="accordion-item" id="settingsItem">
+        <h2 class="accordion-heading">
+          <button type="button" id="settingsToggle" class="accordion-toggle" aria-expanded="true" aria-controls="settingsRegion">
+            <span class="accordion-title">Quiz Setup</span>
+            <span class="accordion-summary" id="settingsSummary">Change settings, print, or download a deck</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+        </h2>
+        <div id="settingsRegion" class="accordion-region" role="region" aria-labelledby="settingsToggle">
       <div class="layout">
       <section class="panel controls-panel">
         <h2>Generator Setup</h2>
@@ -192,9 +202,21 @@
         <div id="previewList" class="preview-list"></div>
       </section>
 
-      <section class="panel interactive-panel" id="interactivePanel" hidden>
-        <h2>Interactive Quiz</h2>
-        <div id="interactiveContainer"></div>
+      </div>
+        </div>
+      </section>
+
+      <section class="accordion-item" id="quizItem" hidden>
+        <h2 class="accordion-heading">
+          <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion">
+            <span class="accordion-title">Interactive Quiz</span>
+            <span class="accordion-summary" id="quizSummary"></span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+        </h2>
+        <div id="quizRegion" class="accordion-region quiz-region" role="region" aria-labelledby="quizToggle" hidden>
+          <div id="interactiveContainer"></div>
+        </div>
       </section>
       </div>
     </main>
