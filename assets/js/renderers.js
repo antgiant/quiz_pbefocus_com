@@ -680,7 +680,6 @@ export function renderInteractive(container, state) {
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
   const input = wrap.querySelector("#interactiveAnswerInput");
   input.value = result.input;
-  input.readOnly = Boolean(state.options?.realistic && result.expired);
 
   const timerNode = wrap.querySelector("#interactiveTimer");
   if (state.options?.timer && result.status === "unanswered") {

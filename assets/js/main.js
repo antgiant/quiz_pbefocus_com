@@ -925,7 +925,7 @@ function writeTimerPref(prefKey, pref) {
 }
 
 // Resolves to null (cancelled) or { timer, audio, realistic }: timer is null or { first, additional },
-// audio is an AUDIO_STYLES key or null, realistic locks the answer box at time's up
+// audio is an AUDIO_STYLES key or null, realistic auto-submits the answer at time's up
 // (audio and realistic only apply when there is a timer)
 function askTimerOptions(config) {
   const dialog = document.getElementById("timerDialog");
@@ -1290,11 +1290,7 @@ function startQuestionTimer() {
         playInteractiveCue(audioCueKey("timesUp", isLast));
       }
       if (state.options.realistic) {
-        const input = document.getElementById("interactiveAnswerInput");
-        if (input) {
-          input.readOnly = true;
-          result.input = input.value;
-        }
+        document.getElementById("interactiveSubmitBtn")?.click();
       }
     }
   };
