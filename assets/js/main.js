@@ -1156,6 +1156,8 @@ async function loadVersesForQuestions(questions) {
 const TIMER_PRESETS = {
   florida: { first: 10, additional: 5 },
   nad: { first: 30, additional: 10 },
+  // Nearpod slides time in 15 s steps, so NAD's timing is rounded to those (mostly up)
+  nearpod: { first: 30, additional: 10, roundTo: 15 },
 };
 
 // The PowerPoint and interactive dialogs remember their choices separately

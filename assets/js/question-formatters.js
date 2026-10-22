@@ -83,8 +83,22 @@ export function verseRuns(verses, answer) {
   ].filter((run) => run.text);
 }
 
-// Seconds allowed for a question: time for the first point plus extra time per additional point
+// Rounds a time to a whole number of `interval`-second steps, rounding up more
+// often than down: anything a third of a step or more past a step goes up to the
+// next one (e.g. with 15 s steps, 5 s over rounds up, 4 s over rounds down).
+export function roundTimeUp(seconds, interval) {
+  const remainder = seconds % interval;
+  if (remainder === 0) {
+    return seconds;
+  }
+  const down = seconds - remainder;
+  return Math.max(interval, remainder >= interval / 3 ? down + interval : down);
+}
+
+// Seconds allowed for a question: time for the first point plus extra time per
+// additional point, rounded to `timer.roundTo` second steps when the timer sets one
 export function secondsForQuestion(question, timer) {
   const points = Math.max(1, Number(question.points) || 1);
-  return Math.max(1, timer.first + (points - 1) * timer.additional);
+  const seconds = Math.max(1, timer.first + (points - 1) * timer.additional);
+  return timer.roundTo ? roundTimeUp(seconds, timer.roundTo) : seconds;
 }

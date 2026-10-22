@@ -153,6 +153,13 @@ npm test
 npm run test:coverage
 ```
 
+## Timers
+
+The PowerPoint and interactive timers offer Florida (10 s first point, 5 s each additional), NAD (30 s, 10 s),
+**Nearpod (NAD competition)** and a custom setting. Nearpod uses NAD timing rounded to 15-second steps, rounding up
+more often than down (anything 5 s or more past a step goes up): 1 pt = 30 s, 2 = 45 s, 3 = 60 s, 4 = 60 s,
+5 = 75 s, 6 = 90 s, 7 = 90 s, 8 = 105 s, and so on.
+
 ## Notes and Limits
 
 - Difficulty filters use the `difficulty` field in each question (`easy`, `medium`, or `hard`) and can include any combination of those values.
