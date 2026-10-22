@@ -1093,7 +1093,23 @@ function showInteractive() {
   startQuestionTimer();
 }
 
+// Leaving a timed question without answering counts as the time running out
+function expireCurrentQuestion() {
+  const state = appState.interactive;
+  if (!state.options?.timer || state.complete) return;
+
+  const result = state.results[state.index];
+  if (result && result.status === "unanswered" && !result.expired) {
+    stopQuestionTimer();
+    result.expired = true;
+    result.remainingMs = 0;
+    result.playedTen = true;
+    result.playedUp = true;
+  }
+}
+
 function goToInteractiveQuestion(index) {
+  expireCurrentQuestion();
   const state = appState.interactive;
   state.complete = index >= state.questions.length;
   state.index = Math.max(0, Math.min(index, state.questions.length - 1));
