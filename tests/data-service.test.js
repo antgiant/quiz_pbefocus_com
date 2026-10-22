@@ -49,7 +49,7 @@ describe("buildIntroVerses", () => {
     const verses = buildIntroVerses(PRACTICE_BOOKS.ruth.commentary);
     expect(verses.map((verse) => verse.verse)).toEqual([1, 2, 3]);
     expect(verses.map((verse) => verse.label)).toEqual(["Title (Part 1/2)", "Title (Part 2/2)", "Theme"]);
-    expect(verses[0].text).toBe("<strong>Title.</strong> First.");
+    expect(verses[0].text).toBe("First.");
   });
 
   it("returns nothing without commentary", () => {

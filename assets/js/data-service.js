@@ -164,7 +164,8 @@ export function buildIntroVerses(commentary) {
       const title = section.title || "Intro";
       verses.push({
         verse: verses.length + 1,
-        text: `<strong>${title}.</strong> ${part}`,
+        // The section title is in the reference label, so keep it out of the blanked text
+        text: part,
         label: parts.length > 1 ? `${title} (Part ${index + 1}/${parts.length})` : title,
       });
     });
