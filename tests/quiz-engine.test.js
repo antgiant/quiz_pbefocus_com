@@ -219,6 +219,17 @@ describe("mixing with written questions", () => {
     expect(unmet.join(" ")).toMatch(/Requested 20/);
   });
 
+  it("keeps generated questions from crowding out written ones by default", async () => {
+    // 12 verses x 3 difficulties = 36 generated candidates against 12 written ones
+    const { questions } = await run(
+      { selectedTypes: ["short_answer", "fill_in_blank"], totalCount: 12, perVerse: 3 },
+      service({ questions: written })
+    );
+    const generated = questions.filter((q) => q.generated).length;
+    expect(generated).toBeGreaterThan(0);
+    expect(generated).toBeLessThanOrEqual(8);
+  });
+
   it("does not generate fill-in-the-blank unless that type is selected", async () => {
     const dataService = service({ questions: written });
     const { questions } = await run({ selectedTypes: ["short_answer"] }, dataService);

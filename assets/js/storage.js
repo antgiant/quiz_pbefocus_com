@@ -67,6 +67,17 @@ export function addProfile(state, name) {
   return profile;
 }
 
+// Adds ready-made profiles after the existing people and makes the first one active
+export function addImportedProfiles(state, profiles) {
+  if (!profiles.length) {
+    return false;
+  }
+  state.profiles.push(...profiles);
+  state.activeProfileId = profiles[0].id;
+  state.selectedPrintPeopleIds = [...new Set([...state.selectedPrintPeopleIds, ...profiles.map((p) => p.id)])];
+  return true;
+}
+
 export function deleteActiveProfile(state) {
   if (state.profiles.length <= 1) {
     return false;

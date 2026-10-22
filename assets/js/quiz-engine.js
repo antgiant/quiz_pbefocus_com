@@ -359,6 +359,30 @@ export function reblankQuestions(questions, context, seed) {
   return finalizeFillInBlank(questions, context, seed);
 }
 
+// With no percentages set, each type's share follows how many questions it has,
+// but generated fill-in-the-blank counts once per verse rather than once per
+// difficulty, so it doesn't crowd out the written questions
+function naturalTypeShares(candidates, verseCount) {
+  if (!verseCount) {
+    return null;
+  }
+
+  const counts = new Map();
+  for (const question of candidates) {
+    if (!question.generated) {
+      const group = questionTypeGroupId(question.type);
+      counts.set(group, (counts.get(group) || 0) + 1);
+    }
+  }
+  if (counts.size === 0) {
+    return null;
+  }
+
+  counts.set(FIB_TYPE, verseCount);
+  const total = [...counts.values()].reduce((sum, count) => sum + count, 0);
+  return new Map([...counts].map(([group, count]) => [group, count / total]));
+}
+
 export async function generateQuestions({
   dataService,
   year,
@@ -459,7 +483,15 @@ export async function generateQuestions({
     }
   }
 
-  const stats = buildCandidateStats(candidates);
+  // Generated questions count once per verse, not once per difficulty
+  const writtenStats = buildCandidateStats(candidates.filter((question) => !question.generated));
+  const stats = {
+    questionCount: writtenStats.questionCount + versePool.length,
+    bookCount: new Set([
+      ...candidates.filter((question) => !question.generated).map((question) => question.bookId),
+      ...versePool.map((verse) => verse.id.split(":")[0]),
+    ]).size,
+  };
 
   if (candidates.length === 0) {
     return {
@@ -503,7 +535,8 @@ export async function generateQuestions({
     return chosen;
   };
 
-  const typeShares = resolveTypeWeights(typeSet, settings);
+  const typeShares =
+    resolveTypeWeights(typeSet, settings) || naturalTypeShares(randomized, versePool.length);
   const perVerseCounts = new Map();
   let selected;
   if (typeShares) {

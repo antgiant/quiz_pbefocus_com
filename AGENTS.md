@@ -14,3 +14,16 @@ pushed to GitHub, `quiz.pbefocus.com` DNS/CNAME live, GitHub Pages serving
 it), flip `quiz`'s `live` to `true` in `pbefocus.com/site-nav.js` and
 redeploy that repo — otherwise this app stays invisible from the other two
 sites' navs indefinitely.
+
+## Fill in the Blank
+
+- `assets/js/blank-engine.js` is pure (no DOM, no storage): difficulty bands, TF-IDF, blank selection. Keep it that
+  way so every output shares one result, and keep randomness seeded (`makeRng`).
+- Generated questions carry `segments` (`{text}` / `{blank, word}`), `blankWords` and `generated: true`; renderers,
+  print and PowerPoint read `segments` rather than re-deriving blanks.
+- `compromise` is vendored at `assets/vendor/compromise.min.js` (license in `licenses/compromise/`).
+
+## Testing
+
+- Run `npm test` before committing; add or update tests in `tests/` with code changes.
+- Tests load the vendored `compromise` file the same way the page does (see `tests/setup.js`).

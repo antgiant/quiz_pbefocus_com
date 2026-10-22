@@ -21,6 +21,14 @@ This project vendors third-party JavaScript libraries under `assets/vendor/`.
 - License: `MIT`
 - License text: `licenses/pptxgenjs/LICENSE`
 
+### compromise
+- Package: `compromise`
+- Version: `14.14.3`
+- Upstream: https://github.com/spencermountain/compromise
+- Vendored file: `assets/vendor/compromise.min.js`
+- License: `MIT`
+- License text: `licenses/compromise/LICENSE`
+
 ## Notes
 
 - The license files in `licenses/` are copied from the exact package versions listed above.

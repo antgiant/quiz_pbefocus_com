@@ -1,6 +1,7 @@
 import { QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
 import { VerseStore } from "./verse-store.js";
 
+export const CUSTOM_YEAR_ID = "custom-all";
 const MANIFEST_PATH = "questions/v1/manifest.json";
 const CHAPTER_BASE_PATH = "questions/v1";
 const YEARS_PATH = "questions/v1/years.json";
@@ -713,21 +714,38 @@ export class DataService {
     const bundledPracticeYears = getPracticeYearsBundle();
     if (bundledPracticeYears && typeof bundledPracticeYears === "object") {
       const practiceYears = this.buildPracticeYearConfigs(bundledPracticeYears, manifest);
-      return this.mergeYearConfigs(primaryYears, practiceYears);
+      return this.withCustomYear(this.mergeYearConfigs(primaryYears, practiceYears), manifest);
     }
 
     try {
       const practiceResponse = await fetch(PRACTICE_YEARS_PATH);
       if (!practiceResponse.ok) {
-        return primaryYears;
+        return this.withCustomYear(primaryYears, manifest);
       }
 
       const practicePayload = await practiceResponse.json();
       const practiceYears = this.buildPracticeYearConfigs(practicePayload, manifest);
-      return this.mergeYearConfigs(primaryYears, practiceYears);
+      return this.withCustomYear(this.mergeYearConfigs(primaryYears, practiceYears), manifest);
     } catch {
-      return primaryYears;
+      return this.withCustomYear(primaryYears, manifest);
     }
+  }
+
+  // "Custom - Entire Bible": pick any chapter of any book, like the study tool's
+  // custom option. Added last so seasons keep their order.
+  withCustomYear(years, manifest) {
+    if (years.some((year) => year.id === CUSTOM_YEAR_ID)) {
+      return years;
+    }
+    return [
+      ...years,
+      {
+        id: CUSTOM_YEAR_ID,
+        name: "Custom - Entire Bible",
+        scope: this.createDefaultYearConfig(manifest)[0].scope,
+        verses: {},
+      },
+    ];
   }
 
   countQuestionsInManifest(manifest) {

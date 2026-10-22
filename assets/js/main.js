@@ -14,6 +14,7 @@ import {
 import { validateCustomBlanks } from "./blank-engine.js";
 import { launchConfetti } from "./confetti.js";
 import { DataService } from "./data-service.js";
+import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
@@ -34,6 +35,7 @@ import {
   renderYearOptionsWithScope,
 } from "./renderers.js";
 import {
+  addImportedProfiles,
   addProfile,
   deleteActiveProfile,
   getActiveProfile,
@@ -1821,9 +1823,10 @@ function wireEvents() {
     }
   });
 
+  // An emptied name goes back to the saved one. Don't redraw the list here:
+  // that would swallow the click that caused the blur.
   el.profileNameInput.addEventListener("blur", () => {
     el.profileNameInput.value = getActiveProfile(appState.storage).name;
-    renderProfileArea();
   });
 
   wirePeopleList();
@@ -1954,6 +1957,60 @@ function wireEvents() {
   wireScopeEvents();
 }
 
+// The study tool links here with its presets in the URL hash
+function offerStudyToolImport() {
+  const payload = decodeImportHash(window.location.hash);
+  if (!payload) {
+    return;
+  }
+
+  const dialog = document.getElementById("importDialog");
+  const clearHash = () => window.history.replaceState(null, "", window.location.pathname + window.location.search);
+  const profiles = studyPresetsToProfiles(payload, {
+    manifest: appState.manifest,
+    years: appState.years,
+    existingNames: appState.storage.profiles.map((profile) => profile.name),
+  });
+
+  if (!profiles.length || typeof dialog?.showModal !== "function") {
+    clearHash();
+    if (!profiles.length) {
+      setStatus("Nothing to import from the study tool: no chapters were selected there.", "warn");
+    }
+    return;
+  }
+
+  const list = document.getElementById("importList");
+  list.replaceChildren(
+    ...profiles.map((profile) => {
+      const item = document.createElement("li");
+      item.textContent = profile.name;
+      return item;
+    })
+  );
+
+  const close = () => {
+    clearHash();
+    dialog.close();
+  };
+  document.getElementById("importCancelBtn").onclick = close;
+  dialog.addEventListener("cancel", clearHash, { once: true });
+  document.getElementById("importForm").onsubmit = () => {
+    addImportedProfiles(appState.storage, profiles);
+    saveState(appState.storage);
+    clearHash();
+    ensureProfileState();
+    renderProfileArea();
+    renderControls();
+    refreshScopeThenGenerate();
+    setStatus(
+      `Imported ${profiles.length} ${profiles.length === 1 ? "person" : "people"} from the study tool.`,
+      "ok"
+    );
+  };
+  dialog.showModal();
+}
+
 async function bootstrap() {
   try {
     appState.manifest = await dataService.loadManifest();
@@ -1979,6 +2036,7 @@ async function bootstrap() {
 
     setStatus("Ready. Questions update automatically as you change selections.", "ok");
     saveState(appState.storage);
+    offerStudyToolImport();
   } catch (error) {
     setStatus(`${error.message}. If running from file://, regenerate local bundle first.`, "warn");
   }

@@ -22,6 +22,10 @@ The app reads question files from `questions/v1` and runs without a backend, so 
 - Print view with question sheets and answer key sheets
 - PowerPoint deck export (client-side via vendored PptxGenJS)
 - Interactive quiz mode with scoring
+- Fill in the Blank questions generated from the NKJV verse text (see below)
+- Reorderable people list: drag, or use the arrows, to change the order
+- Intro/commentary passages for books that have them
+- One-click import of presets from the old PBE Study Tool
 
 ## Run Locally
 
@@ -66,6 +70,7 @@ No build step is required.
 - Manifest: `questions/v1/manifest.json`
 - Chapters: `questions/v1/by-chapter/<book-id>/<chapter>.json`
 - Year mapping: `questions/v1/years.json`
+- Practice books (with intro commentary) and seasons: `questions/v1/practice-books.json`, `practice-chapters-by-year.json`
 
 If `years.json` has no scope for a year, that year defaults to all books and chapters in the manifest.
 
@@ -98,6 +103,54 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 - Choosing custom verses limits generation to questions whose references overlap those verses.
 - Custom verse choices are saved per person profile in localStorage.
 
+## Fill in the Blank
+
+Fill in the Blank questions are generated from the verses themselves, so every verse in your scope can
+become a question. The blanked words are the most meaningful ones (names, nouns, verbs) chosen with the
+`compromise` NLP library plus TF-IDF scoring, ported from the PBE Study Tool.
+
+- **Match difficulty** (default): easy blanks up to 20% of a verse's words, medium over 20-40%, hard over
+  40-80%. Each question picks a random percent inside its band, so verses blank differently each time.
+  The difficulty filter and difficulty percentages work as they do for written questions.
+- **Set it myself**: override the bands with a number of blanks or a percent of the words. Questions are still
+  labelled easy/medium/hard by the share blanked, and only the difficulties you ticked are used.
+- Points equal the number of blanks, so the PowerPoint and interactive timers scale with them.
+- Written and generated questions can be mixed. With no percentages entered, a type's share follows how many
+  questions it has (generated questions count once per verse); enter percents beside the types to set the mix.
+- Generated questions skip the **Question Source** filter, since no author is involved.
+- Intro/commentary passages appear as an **Intro** entry per book (fill in the blank only).
+- Blanks are chosen once per quiz with a seeded random generator, so the preview, print view, PowerPoint
+  and interactive quiz all show the same blanks.
+
+Verse text is downloaded from bolls.life when a chapter is first needed and cached in IndexedDB, so repeat
+visits are instant and work offline for chapters you've already used.
+
+### Interactive quiz
+
+Each blank is a text box in the verse; Tab or Enter moves between them and Enter on the last one submits.
+**Hint** fills in the next blank. Hints never change the score, but the answer page notes how many were used.
+Finishing a quiz celebrates with confetti (not shown if your system asks for reduced motion) and offers
+**Practice again with new blanks**: the same verses with different words blanked.
+
+## People
+
+Each person keeps their own year, scope, verses, filters and fill-in-the-blank settings. Drag a person (or use
+the arrow buttons) to reorder; names, order and settings save as you change them. Tick **Print** to include
+someone in the printed quiz.
+
+### Importing from the PBE Study Tool
+
+The study tool links here with its presets in the URL (`#import=...`). The quiz builder asks before adding
+them as people set up for fill in the blank practice (same chapters, verses and blank counts).
+
+## Tests
+
+```bash
+npm install
+npm test
+npm run test:coverage
+```
+
 ## Notes and Limits
 
 - Difficulty filters use the `difficulty` field in each question (`easy`, `medium`, or `hard`) and can include any combination of those values.
@@ -113,4 +166,3 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 ## Next Enhancements
 
 - Add optional profile export/import JSON for sharing across devices.
-- Add fill-in-the-blank source integration when external API contract and CORS are finalized.
