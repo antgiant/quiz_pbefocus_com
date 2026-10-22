@@ -879,9 +879,106 @@ async function loadVersesForQuestions(questions) {
   );
 }
 
+const TIMER_PRESETS = {
+  florida: { first: 10, additional: 5 },
+  nad: { first: 30, additional: 10 },
+};
+const TIMER_PREF_KEY = "pbe_quiz_timer_pref_v1";
+
+function readTimerPref() {
+  try {
+    return JSON.parse(window.localStorage.getItem(TIMER_PREF_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function writeTimerPref(pref) {
+  try {
+    window.localStorage.setItem(TIMER_PREF_KEY, JSON.stringify(pref));
+  } catch {
+    // Remembering the choice is a convenience only
+  }
+}
+
+// Resolves to null (cancelled), { timer: null } (no timer) or { timer: { first, additional } }
+function askTimerOptions() {
+  const dialog = document.getElementById("timerDialog");
+  const form = document.getElementById("timerForm");
+  const customFields = document.getElementById("timerCustomFields");
+  const firstInput = document.getElementById("timerFirstInput");
+  const extraInput = document.getElementById("timerExtraInput");
+  const cancelBtn = document.getElementById("timerCancelBtn");
+  const modeInputs = [...form.querySelectorAll('input[name="timerMode"]')];
+
+  const pref = readTimerPref();
+  const mode = modeInputs.some((input) => input.value === pref.mode) ? pref.mode : "florida";
+  modeInputs.forEach((input) => {
+    input.checked = input.value === mode;
+  });
+  firstInput.value = pref.first ?? TIMER_PRESETS.florida.first;
+  extraInput.value = pref.additional ?? TIMER_PRESETS.florida.additional;
+
+  const selectedMode = () => modeInputs.find((input) => input.checked).value;
+  const syncCustom = () => {
+    customFields.hidden = selectedMode() !== "custom";
+  };
+  syncCustom();
+
+  return new Promise((resolve) => {
+    const finish = (result) => {
+      form.removeEventListener("change", syncCustom);
+      form.removeEventListener("submit", onSubmit);
+      cancelBtn.removeEventListener("click", onCancel);
+      dialog.removeEventListener("cancel", onCancel);
+      if (dialog.open) dialog.close();
+      resolve(result);
+    };
+
+    const onCancel = (event) => {
+      event.preventDefault();
+      finish(null);
+    };
+
+    const onSubmit = (event) => {
+      event.preventDefault();
+      const chosen = selectedMode();
+      let timer = null;
+      if (chosen === "custom") {
+        const first = Math.round(Number(firstInput.value));
+        const additional = Math.round(Number(extraInput.value));
+        if (!(first >= 1) || !(additional >= 0)) {
+          firstInput.reportValidity();
+          return;
+        }
+        timer = { first, additional };
+      } else if (chosen !== "none") {
+        timer = TIMER_PRESETS[chosen];
+      }
+      writeTimerPref({
+        mode: chosen,
+        first: Number(firstInput.value),
+        additional: Number(extraInput.value),
+      });
+      finish({ timer });
+    };
+
+    form.addEventListener("change", syncCustom);
+    form.addEventListener("submit", onSubmit);
+    cancelBtn.addEventListener("click", onCancel);
+    dialog.addEventListener("cancel", onCancel);
+    dialog.showModal();
+  });
+}
+
 async function downloadPowerPoint() {
   if (!appState.generatedQuestions.length) {
     setStatus("Generate questions first before exporting PowerPoint.", "warn");
+    return;
+  }
+
+  const options = await askTimerOptions();
+  if (!options) {
     return;
   }
 
@@ -903,6 +1000,7 @@ async function downloadPowerPoint() {
       questions,
       verses,
       yearName: getActiveYear()?.name || "Current Year",
+      timer: options.timer,
     });
     setStatus(
       `PowerPoint download started with ${questions.length} questions from ${entries.length} ${entries.length === 1 ? "person" : "people"}.` +

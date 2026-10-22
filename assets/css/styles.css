@@ -845,3 +845,67 @@ fieldset {
   margin: 0;
   padding: 0.15rem 0.3rem;
 }
+
+.timer-dialog {
+  max-width: 28rem;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--soft-shadow);
+}
+
+.timer-dialog::backdrop {
+  background: rgba(6, 40, 49, 0.45);
+}
+
+.timer-dialog h2 {
+  margin-top: 0;
+}
+
+.timer-option {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.timer-custom {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.25rem 0 0.5rem 1.5rem;
+}
+
+.timer-custom[hidden] {
+  display: none;
+}
+
+.timer-custom input {
+  width: 5rem;
+}
+
+.timer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.timer-dialog label.timer-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+}
+
+.timer-dialog label.timer-option input[type="radio"] {
+  width: auto;
+  margin: 0;
+}
+
+.timer-dialog .timer-custom label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+}

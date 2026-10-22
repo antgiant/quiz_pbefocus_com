@@ -149,10 +149,94 @@ function widenBodyPlaceholder(slideXml) {
     .replace('cx="8229600" cy="4561417"', 'cx="10972800" cy="4561417"');
 }
 
-// Move all countdown timer boxes to top-right of 16:9 slide
-// Template positions them at x="7955280" y="91440"
-function moveTimerToTopRight(slideXml) {
-  return slideXml.replace(/x="7955280" y="91440"/g, `x="${TIMER_X_16x9}" y="91440"`);
+// --- Countdown timer ---
+// The template ships a fixed 30 s timer: 31 stacked number boxes plus an
+// animation that hides one box per second. Rebuild it for any length instead.
+
+const TIMER_BOX_RE =
+  /<p:sp>(?:(?!<\/p:sp>)[\s\S])*?<a:off x="7955280" y="91440"\/>(?:(?!<\/p:sp>)[\s\S])*?<\/p:sp>/g;
+const TIMER_ID_BASE = 3000;
+const TIMER_YELLOW_AT = 10; // seconds remaining at which digits turn yellow
+
+function removeTimer(slideXml) {
+  return slideXml
+    .replace(TIMER_BOX_RE, "")
+    .replace(/<p:timing>[\s\S]*?<\/p:timing>/, "");
+}
+
+function secondsForQuestion(question, timer) {
+  const points = Math.max(1, Number(question.points) || 1);
+  return Math.max(1, timer.first + (points - 1) * timer.additional);
+}
+
+function timerBoxXml(n, seconds) {
+  const wide = seconds >= 100;
+  const cx = wide ? 1600000 : 1076770;
+  const x = wide ? SLIDE_W_16x9 - cx - 100000 : TIMER_X_16x9;
+  const color = n <= TIMER_YELLOW_AT ? '<a:srgbClr val="FFFF00"/>' : '<a:schemeClr val="dk1"/>';
+  const id = TIMER_ID_BASE + n;
+  return (
+    `<p:sp><p:nvSpPr><p:cNvPr id="${id}" name="Timer ${n}"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>` +
+    `<p:spPr><a:xfrm><a:off x="${x}" y="91440"/><a:ext cx="${cx}" cy="1015663"/></a:xfrm>` +
+    `<a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="4F5581"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr>` +
+    `<p:txBody><a:bodyPr spcFirstLastPara="1" wrap="square" lIns="91425" tIns="45700" rIns="91425" bIns="45700" anchor="t" anchorCtr="0"><a:spAutoFit/></a:bodyPr><a:lstStyle/>` +
+    `<a:p><a:pPr marL="0" marR="0" lvl="0" indent="0" algn="ctr" rtl="0"><a:spcBef><a:spcPts val="0"/></a:spcBef><a:spcAft><a:spcPts val="0"/></a:spcAft><a:buNone/></a:pPr>` +
+    `<a:r><a:rPr lang="en-US" sz="6000" b="1" i="0" u="none" strike="noStrike" cap="none"><a:solidFill>${color}</a:solidFill>` +
+    `<a:latin typeface="Arial"/><a:ea typeface="Arial"/><a:cs typeface="Arial"/><a:sym typeface="Arial"/></a:rPr>` +
+    `<a:t>${String(n).padStart(2, "0")}</a:t></a:r><a:endParaRPr/></a:p></p:txBody></p:sp>`
+  );
+}
+
+// One "hide" step per second: step 0 starts on click, the rest chain after the previous one
+function timerHideStep(step, nodeType, spid, ids) {
+  const outer = ids.next();
+  const effect = ids.next();
+  const set = ids.next();
+  return (
+    `<p:par><p:cTn id="${outer}" fill="hold"><p:stCondLst><p:cond delay="${step}"/></p:stCondLst><p:childTnLst>` +
+    `<p:par><p:cTn id="${effect}" presetID="1" presetClass="exit" presetSubtype="0" fill="hold" nodeType="${nodeType}">` +
+    `<p:stCondLst><p:cond delay="1000"/></p:stCondLst><p:childTnLst><p:set><p:cBhvr>` +
+    `<p:cTn id="${set}" dur="1" fill="hold"><p:stCondLst><p:cond delay="1"/></p:stCondLst></p:cTn>` +
+    `<p:tgtEl><p:spTgt spid="${spid}"/></p:tgtEl><p:attrNameLst><p:attrName>style.visibility</p:attrName></p:attrNameLst></p:cBhvr>` +
+    `<p:to><p:strVal val="hidden"/></p:to></p:set></p:childTnLst></p:cTn></p:par></p:childTnLst></p:cTn></p:par>`
+  );
+}
+
+function timerTimingXml(seconds) {
+  let next = 4;
+  const ids = { next: () => next++ };
+  const steps = [];
+  for (let step = 0; step < seconds; step += 1) {
+    steps.push(
+      timerHideStep(step, step === 0 ? "clickEffect" : "afterEffect", TIMER_ID_BASE + seconds - step, ids)
+    );
+  }
+  return (
+    `<p:timing><p:tnLst><p:par><p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot"><p:childTnLst>` +
+    `<p:seq concurrent="1" nextAc="seek"><p:cTn id="2" dur="indefinite" nodeType="mainSeq"><p:childTnLst>` +
+    `<p:par><p:cTn id="3" fill="hold"><p:stCondLst><p:cond delay="indefinite"/></p:stCondLst><p:childTnLst>` +
+    steps.join("") +
+    `</p:childTnLst></p:cTn></p:par></p:childTnLst></p:cTn>` +
+    `<p:prevCondLst><p:cond evt="onPrev" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:prevCondLst>` +
+    `<p:nextCondLst><p:cond evt="onNext" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:nextCondLst>` +
+    `</p:seq></p:childTnLst></p:cTn></p:par></p:tnLst></p:timing>`
+  );
+}
+
+// Replace the template timer with one that counts down from `seconds`; null removes it.
+// Boxes are stacked 00 (bottom) to N (top); each second the top one is hidden.
+function applyTimer(slideXml, seconds) {
+  let xml = removeTimer(slideXml);
+  if (!seconds) {
+    return xml;
+  }
+
+  const boxes = [];
+  for (let n = 0; n <= seconds; n += 1) {
+    boxes.push(timerBoxXml(n, seconds));
+  }
+  xml = xml.replace("</p:spTree>", `${boxes.join("")}</p:spTree>`);
+  return xml.replace("</p:sld>", `${timerTimingXml(seconds)}</p:sld>`);
 }
 
 // --- Title slide (slide1) ---
@@ -264,7 +348,8 @@ async function loadTemplateZip() {
 }
 
 // `verses[i]` is the array of { verse, text } for questions[i]; may be empty
-export async function exportPowerPoint({ questions, verses = [], yearName }) {
+// `timer` is { first, additional } in seconds, or null for no timer
+export async function exportPowerPoint({ questions, verses = [], yearName, timer = null }) {
   if (!hasZipLib()) {
     throw new Error("JSZip library not loaded. Ensure assets/vendor/jszip.min.js is present.");
   }
@@ -319,7 +404,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName }) {
     qXml = centerQuestionTitle(qXml);
     qXml = widenTitlePlaceholder(qXml);
     qXml = widenBodyPlaceholder(qXml);
-    qXml = moveTimerToTopRight(qXml);
+    qXml = applyTimer(qXml, timer ? secondsForQuestion(question, timer) : 0);
     qXml = setBodyContent(qXml, [
       `According to ${ref}`,
       "",
@@ -340,7 +425,6 @@ export async function exportPowerPoint({ questions, verses = [], yearName }) {
     aXml = centerQuestionTitle(aXml);
     aXml = widenTitlePlaceholder(aXml);
     aXml = widenBodyPlaceholder(aXml);
-    aXml = moveTimerToTopRight(aXml);
     aXml = setBodyContent(aXml, [
       questionLabel(question),
       "",
