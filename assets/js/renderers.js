@@ -1,4 +1,4 @@
-import { formatInteractiveAnswer, formatInteractivePrompt, verseRuns } from "./question-formatters.js";
+import { formatInteractiveAnswer, formatInteractivePrompt, secondsForQuestion, verseRuns } from "./question-formatters.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
 function formatRef(question) {
@@ -600,6 +600,14 @@ export function interactiveProgressText(state) {
   return `Question ${state.index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far · ${interactivePercent(state)} correct`;
 }
 
+export function interactiveTimerText(result) {
+  if (result.expired) {
+    return "Time's up";
+  }
+  const total = Math.ceil((result.remainingMs ?? 0) / 1000);
+  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
+}
+
 // Full verse text, with the words that answer the question in red
 export function renderVerseText(target, verses, answer) {
   target.textContent = "";
@@ -654,6 +662,7 @@ export function renderInteractive(container, state) {
 
   wrap.innerHTML = `
     <p class="interactive-progress"></p>
+    <p id="interactiveTimer" class="interactive-timer" hidden></p>
     <p>${promptHtml}</p>
     <label>
       Your answer
@@ -669,7 +678,19 @@ export function renderInteractive(container, state) {
   `;
 
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
-  wrap.querySelector("#interactiveAnswerInput").value = result.input;
+  const input = wrap.querySelector("#interactiveAnswerInput");
+  input.value = result.input;
+  input.readOnly = Boolean(state.options?.realistic && result.expired);
+
+  const timerNode = wrap.querySelector("#interactiveTimer");
+  if (state.options?.timer && result.status === "unanswered") {
+    if (result.remainingMs == null) {
+      result.remainingMs = secondsForQuestion(current, state.options.timer) * 1000;
+    }
+    timerNode.hidden = false;
+    timerNode.textContent = interactiveTimerText(result);
+    timerNode.classList.toggle("urgent", !result.expired && result.remainingMs <= 10000);
+  }
   container.append(wrap);
 
   if (result.status !== "unanswered") {

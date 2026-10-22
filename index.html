@@ -183,8 +183,8 @@
 
     <dialog id="timerDialog" class="timer-dialog">
       <form method="dialog" id="timerForm">
-        <h2>PowerPoint timer</h2>
-        <p class="timer-help">How would you like the timer on the question slide configured?</p>
+        <h2 id="timerDialogTitle">PowerPoint timer</h2>
+        <p class="timer-help" id="timerDialogQuestion">How would you like the timer on the question slide configured?</p>
         <label class="timer-option"><input type="radio" name="timerMode" value="none" checked /> No timer</label>
         <label class="timer-option"><input type="radio" name="timerMode" value="florida" /> Florida: 10 s first point, 5 s each additional point</label>
         <label class="timer-option"><input type="radio" name="timerMode" value="nad" /> NAD: 30 s first point, 10 s each additional point</label>
@@ -196,6 +196,9 @@
         <div class="timer-audio" id="timerAudioGroup">
           <label class="timer-option"><input type="checkbox" id="timerAudioCheck" /> Play audio cues (at 10 seconds left and at time's up)</label>
           <label class="timer-audio-style">Audio style <select id="timerAudioStyle"></select></label>
+        </div>
+        <div class="timer-audio" id="timerRealisticGroup" hidden>
+          <label class="timer-option"><input type="checkbox" id="timerRealisticCheck" /> Realistic mode (lock the answer box when time runs out)</label>
         </div>
         <div class="timer-actions">
           <button type="button" id="timerCancelBtn">Cancel</button>

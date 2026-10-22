@@ -13,6 +13,7 @@ import {
   createPrintSheets,
   interactivePossiblePoints,
   interactiveProgressText,
+  interactiveTimerText,
   renderDifficultyCheckboxes,
   renderInteractive,
   renderPeopleSelector,
@@ -32,7 +33,7 @@ import {
   loadState,
   saveState,
 } from "./storage.js";
-import { formatInteractiveAnswer } from "./question-formatters.js";
+import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
 import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
 
 const dataService = new DataService();
@@ -888,27 +889,43 @@ const TIMER_PRESETS = {
   florida: { first: 10, additional: 5 },
   nad: { first: 30, additional: 10 },
 };
-const TIMER_PREF_KEY = "pbe_quiz_timer_pref_v1";
 
-function readTimerPref() {
+// The PowerPoint and interactive dialogs remember their choices separately
+const POWERPOINT_DIALOG = {
+  prefKey: "pbe_quiz_timer_pref_v1",
+  title: "PowerPoint timer",
+  question: "How would you like the timer on the question slide configured?",
+  okLabel: "Download",
+  showRealistic: false,
+};
+const INTERACTIVE_DIALOG = {
+  prefKey: "pbe_quiz_interactive_timer_pref_v1",
+  title: "Interactive quiz timer",
+  question: "How would you like the timer on each question configured?",
+  okLabel: "Start",
+  showRealistic: true,
+};
+
+function readTimerPref(prefKey) {
   try {
-    return JSON.parse(window.localStorage.getItem(TIMER_PREF_KEY)) || {};
+    return JSON.parse(window.localStorage.getItem(prefKey)) || {};
   } catch {
     return {};
   }
 }
 
-function writeTimerPref(pref) {
+function writeTimerPref(prefKey, pref) {
   try {
-    window.localStorage.setItem(TIMER_PREF_KEY, JSON.stringify(pref));
+    window.localStorage.setItem(prefKey, JSON.stringify(pref));
   } catch {
     // Remembering the choice is a convenience only
   }
 }
 
-// Resolves to null (cancelled) or { timer, audio }: timer is null or { first, additional },
-// audio is an AUDIO_STYLES key or null (audio only applies when there is a timer)
-function askTimerOptions() {
+// Resolves to null (cancelled) or { timer, audio, realistic }: timer is null or { first, additional },
+// audio is an AUDIO_STYLES key or null, realistic locks the answer box at time's up
+// (audio and realistic only apply when there is a timer)
+function askTimerOptions(config) {
   const dialog = document.getElementById("timerDialog");
   const form = document.getElementById("timerForm");
   const customFields = document.getElementById("timerCustomFields");
@@ -918,9 +935,15 @@ function askTimerOptions() {
   const audioGroup = document.getElementById("timerAudioGroup");
   const audioCheck = document.getElementById("timerAudioCheck");
   const audioStyle = document.getElementById("timerAudioStyle");
+  const realisticGroup = document.getElementById("timerRealisticGroup");
+  const realisticCheck = document.getElementById("timerRealisticCheck");
   const modeInputs = [...form.querySelectorAll('input[name="timerMode"]')];
 
-  const pref = readTimerPref();
+  document.getElementById("timerDialogTitle").textContent = config.title;
+  document.getElementById("timerDialogQuestion").textContent = config.question;
+  document.getElementById("timerOkBtn").textContent = config.okLabel;
+
+  const pref = readTimerPref(config.prefKey);
   const mode = modeInputs.some((input) => input.value === pref.mode) ? pref.mode : "none";
   modeInputs.forEach((input) => {
     input.checked = input.value === mode;
@@ -934,11 +957,13 @@ function askTimerOptions() {
   }
   audioStyle.value = AUDIO_STYLES[pref.audioStyle] ? pref.audioStyle : DEFAULT_AUDIO_STYLE;
   audioCheck.checked = Boolean(pref.audioEnabled);
+  realisticCheck.checked = Boolean(pref.realistic);
 
   const selectedMode = () => modeInputs.find((input) => input.checked).value;
   const syncCustom = () => {
     customFields.hidden = selectedMode() !== "custom";
     audioGroup.hidden = selectedMode() === "none";
+    realisticGroup.hidden = selectedMode() === "none" || !config.showRealistic;
     audioStyle.disabled = !audioCheck.checked;
   };
   syncCustom();
@@ -973,14 +998,19 @@ function askTimerOptions() {
       } else if (chosen !== "none") {
         timer = TIMER_PRESETS[chosen];
       }
-      writeTimerPref({
+      writeTimerPref(config.prefKey, {
         mode: chosen,
         first: Number(firstInput.value),
         additional: Number(extraInput.value),
         audioEnabled: audioCheck.checked,
         audioStyle: audioStyle.value,
+        realistic: realisticCheck.checked,
       });
-      finish({ timer, audio: timer && audioCheck.checked ? audioStyle.value : null });
+      finish({
+        timer,
+        audio: timer && audioCheck.checked ? audioStyle.value : null,
+        realistic: Boolean(timer && config.showRealistic && realisticCheck.checked),
+      });
     };
 
     form.addEventListener("change", syncCustom);
@@ -997,7 +1027,7 @@ async function downloadPowerPoint() {
     return;
   }
 
-  const options = await askTimerOptions();
+  const options = await askTimerOptions(POWERPOINT_DIALOG);
   if (!options) {
     return;
   }
@@ -1057,8 +1087,10 @@ function evaluateAnswer(question, answer) {
 const verseCache = new Map();
 
 function showInteractive() {
+  stopQuestionTimer();
   renderInteractive(el.interactiveContainer, appState.interactive);
   bindInteractiveControls();
+  startQuestionTimer();
 }
 
 function goToInteractiveQuestion(index) {
@@ -1164,20 +1196,131 @@ function bindInteractiveControls() {
   nextBtn.addEventListener("click", () => goToInteractiveQuestion(index + 1));
 }
 
-function startInteractiveQuiz() {
+// --- Interactive timer ---
+
+function playInteractiveCue(kind) {
+  const audio = appState.interactive.audioElements?.[kind];
+  if (!audio) return;
+  audio.currentTime = 0;
+  audio.play().catch(() => {
+    // Autoplay can be blocked; the countdown still works without sound
+  });
+}
+
+function stopInteractiveAudio() {
+  for (const audio of Object.values(appState.interactive.audioElements || {})) {
+    audio.pause();
+  }
+}
+
+// Pause the running countdown (keeping the time left) and silence any cue
+function stopQuestionTimer() {
+  const run = appState.interactive.timerRun;
+  if (run) {
+    clearInterval(run.handle);
+    const result = appState.interactive.results[run.index];
+    if (result && !result.expired) {
+      result.remainingMs = Math.max(0, run.deadline - Date.now());
+    }
+    appState.interactive.timerRun = null;
+  }
+  stopInteractiveAudio();
+}
+
+// Count down the current question, resuming from the time left if revisited
+function startQuestionTimer() {
+  const state = appState.interactive;
+  const timer = state.options?.timer;
+  if (!timer || state.complete) return;
+
+  const index = state.index;
+  const question = state.questions[index];
+  const result = state.results[index];
+  if (result.status !== "unanswered" || result.expired) return;
+
+  const totalMs = secondsForQuestion(question, timer) * 1000;
+  if (result.remainingMs == null) {
+    result.remainingMs = totalMs;
+  }
+
+  const deadline = Date.now() + result.remainingMs;
+  const tick = () => {
+    const remaining = Math.max(0, deadline - Date.now());
+    result.remainingMs = remaining;
+
+    const node = document.getElementById("interactiveTimer");
+    if (node) {
+      node.textContent = interactiveTimerText(result);
+      node.classList.toggle("urgent", remaining <= 10000);
+    }
+
+    if (state.options.audio && !result.playedTen && totalMs >= 10000 && remaining <= 10000) {
+      result.playedTen = true;
+      playInteractiveCue("tenSeconds");
+    }
+
+    if (remaining <= 0) {
+      clearInterval(state.timerRun?.handle);
+      state.timerRun = null;
+      result.expired = true;
+      if (node) {
+        node.textContent = interactiveTimerText(result);
+      }
+      if (state.options.audio && !result.playedUp) {
+        result.playedUp = true;
+        playInteractiveCue("timesUp");
+      }
+      if (state.options.realistic) {
+        const input = document.getElementById("interactiveAnswerInput");
+        if (input) {
+          input.readOnly = true;
+          result.input = input.value;
+        }
+      }
+    }
+  };
+
+  state.timerRun = { index, deadline, handle: setInterval(tick, 200) };
+  tick();
+}
+
+async function startInteractiveQuiz() {
   if (!appState.generatedQuestions.length) {
     setStatus("Generate questions first before starting interactive mode.", "warn");
     return;
   }
 
+  const options = await askTimerOptions(INTERACTIVE_DIALOG);
+  if (!options) {
+    return;
+  }
+
+  stopQuestionTimer();
+
+  const audioElements = {};
+  if (options.audio) {
+    const style = AUDIO_STYLES[options.audio];
+    for (const kind of ["tenSeconds", "timesUp"]) {
+      audioElements[kind] = new Audio(style[kind].path);
+      audioElements[kind].preload = "auto";
+    }
+  }
+
   appState.interactive = {
     questions: appState.generatedQuestions,
     index: 0,
+    options,
+    audioElements,
+    timerRun: null,
     results: appState.generatedQuestions.map(() => ({
       input: "",
       status: "unanswered",
       autoCorrect: false,
       awarded: 0,
+      remainingMs: null,
+      expired: false,
+      playedTen: false,
+      playedUp: false,
     })),
     complete: false,
   };

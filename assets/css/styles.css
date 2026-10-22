@@ -992,3 +992,20 @@ fieldset {
 .timer-dialog .timer-audio-style select {
   width: auto;
 }
+
+.interactive-timer {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--teal-dark);
+}
+
+.interactive-timer.urgent {
+  color: var(--danger);
+}
+
+.interactive-wrap input[readonly] {
+  background: var(--surface-soft);
+  color: var(--muted);
+}

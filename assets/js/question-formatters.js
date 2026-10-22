@@ -73,3 +73,9 @@ export function verseRuns(verses, answer) {
     { text: text.slice(index + needle.length), isAnswer: false },
   ].filter((run) => run.text);
 }
+
+// Seconds allowed for a question: time for the first point plus extra time per additional point
+export function secondsForQuestion(question, timer) {
+  const points = Math.max(1, Number(question.points) || 1);
+  return Math.max(1, timer.first + (points - 1) * timer.additional);
+}

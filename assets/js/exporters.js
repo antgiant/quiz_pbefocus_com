@@ -1,5 +1,5 @@
 import { AUDIO_STYLES } from "./constants.js";
-import { verseRuns } from "./question-formatters.js";
+import { secondsForQuestion, verseRuns } from "./question-formatters.js";
 
 const SLIDE_W_16x9 = 12192000; // EMUs
 const ANSWER_RED = "FF0000";
@@ -136,11 +136,6 @@ function removeTimer(slideXml) {
   return slideXml
     .replace(TIMER_BOX_RE, "")
     .replace(/<p:timing>[\s\S]*?<\/p:timing>/, "");
-}
-
-function secondsForQuestion(question, timer) {
-  const points = Math.max(1, Number(question.points) || 1);
-  return Math.max(1, timer.first + (points - 1) * timer.additional);
 }
 
 function timerBoxXml(n, seconds) {
