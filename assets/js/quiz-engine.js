@@ -1,4 +1,17 @@
-import { QUESTION_DIFFICULTIES, questionTypeGroupId } from "./constants.js";
+import { DEFAULT_FILL_IN_BLANK, QUESTION_DIFFICULTIES, QUESTION_TYPE_GROUP_IDS, questionTypeGroupId } from "./constants.js";
+import {
+  buildBlankedVerse,
+  buildTfidfContext,
+  difficultyForPercent,
+  hashString,
+  makeRng,
+  pickBandBlankCount,
+  pickCustomBlankCount,
+  segmentsToAnswerText,
+  segmentsToText,
+  wordCountOf,
+} from "./blank-engine.js";
+import { formatVerseRef } from "./question-formatters.js";
 import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
@@ -173,15 +186,14 @@ function selectWeighted(randomized, weights, settings, seed, perVerseCounts = ne
   return shuffle(selected, seed);
 }
 
-// Returns Map(difficulty -> share of the quiz, summing to 1) or null when the
-// user is not assigning percentages. Blank difficulties split what is left evenly.
-function resolveDifficultyWeights(difficultySet, settings) {
-  const difficulties = QUESTION_DIFFICULTIES.filter((difficulty) => difficultySet.has(difficulty));
+// Returns Map(key -> share of the quiz, summing to 1) or null when the user is
+// not assigning percentages. Blank entries split what is left evenly.
+function resolveShares(keys, weights) {
   const explicit = new Map();
-  for (const difficulty of difficulties) {
-    const value = Number(settings.difficultyWeights?.[difficulty]);
-    if (settings.difficultyWeights?.[difficulty] != null && Number.isFinite(value) && value >= 0) {
-      explicit.set(difficulty, value);
+  for (const key of keys) {
+    const value = Number(weights?.[key]);
+    if (weights?.[key] != null && Number.isFinite(value) && value >= 0) {
+      explicit.set(key, value);
     }
   }
 
@@ -189,19 +201,31 @@ function resolveDifficultyWeights(difficultySet, settings) {
     return null;
   }
 
-  const blank = difficulties.filter((difficulty) => !explicit.has(difficulty));
+  const blank = keys.filter((key) => !explicit.has(key));
   const explicitTotal = [...explicit.values()].reduce((sum, value) => sum + value, 0);
   const blankShare = blank.length ? Math.max(0, 100 - explicitTotal) / blank.length : 0;
   const raw = new Map(explicit);
-  for (const difficulty of blank) {
-    raw.set(difficulty, blankShare);
+  for (const key of blank) {
+    raw.set(key, blankShare);
   }
 
   const total = [...raw.values()].reduce((sum, value) => sum + value, 0);
   if (!(total > 0)) {
     return null;
   }
-  return new Map([...raw].map(([difficulty, value]) => [difficulty, value / total]));
+  return new Map([...raw].map(([key, value]) => [key, value / total]));
+}
+
+function resolveDifficultyWeights(difficultySet, settings) {
+  return resolveShares(
+    QUESTION_DIFFICULTIES.filter((difficulty) => difficultySet.has(difficulty)),
+    settings.difficultyWeights
+  );
+}
+
+function resolveTypeWeights(typeSet, settings) {
+  const groups = QUESTION_TYPE_GROUP_IDS.filter((group) => typeSet.has(group));
+  return groups.length > 1 ? resolveShares(groups, settings.typeWeights) : null;
 }
 
 // Whole-question targets per difficulty that add up to totalCount (largest remainder)
@@ -223,6 +247,121 @@ function difficultyTargets(shares, totalCount) {
   return targets;
 }
 
+// --- Generated fill-in-the-blank questions ---
+
+const FIB_TYPE = "fill_in_blank";
+
+function fillInBlankSettings(settings) {
+  return { ...DEFAULT_FILL_IN_BLANK, ...(settings.fillInBlank || {}) };
+}
+
+// One lightweight candidate per verse (and per selected difficulty in
+// difficulty mode). The blanks themselves are only chosen for the questions
+// that get picked, so scanning a whole book stays cheap.
+function fillInBlankCandidates({ pair, verses, bookName, selectedVerseSets, difficultySet, config, seed }) {
+  const key = chapterKey(pair.bookId, pair.chapter);
+  const allowed = selectedVerseSets.get(key);
+  const candidates = [];
+  const pool = [];
+
+  for (const verse of verses) {
+    if (allowed && !allowed.has(Number(verse.verse))) {
+      continue;
+    }
+
+    const words = wordCountOf(verse.text);
+    if (words < 2) {
+      continue;
+    }
+
+    const verseId = `${pair.bookId}:${pair.chapter}:${verse.verse}`;
+    pool.push({ id: verseId, chapterKey: key, text: verse.text });
+
+    const make = (difficulty, count) => ({
+      id: `fib-${verseId}-${difficulty}`,
+      type: FIB_TYPE,
+      generated: true,
+      bookId: pair.bookId,
+      book: bookName,
+      chapter: pair.chapter,
+      startVerse: Number(verse.verse),
+      endVerse: Number(verse.verse),
+      refLabel: pair.chapter === 0 ? `${bookName} Intro: ${verse.label}` : undefined,
+      difficulty,
+      points: count,
+      blankCount: count,
+      verseId,
+      chapterKey: key,
+      verseText: verse.text,
+      validatedBy: "generated",
+      createdBy: "pbe-quiz-generator",
+      question: "",
+      answer: "",
+    });
+
+    if (config.mode === "custom") {
+      const rng = makeRng(hashString(`${seed}:${verseId}:custom`));
+      const count = pickCustomBlankCount(words, config, rng);
+      if (count) {
+        candidates.push(make(difficultyForPercent((count / words) * 100), count));
+      }
+      continue;
+    }
+
+    for (const difficulty of QUESTION_DIFFICULTIES) {
+      if (!difficultySet.has(difficulty)) {
+        continue;
+      }
+      const rng = makeRng(hashString(`${seed}:${verseId}:${difficulty}`));
+      const count = pickBandBlankCount(words, difficulty, rng);
+      if (count) {
+        candidates.push(make(difficulty, count));
+      }
+    }
+  }
+
+  return { candidates, pool };
+}
+
+// Choose the blanked words for generated questions and write the question and
+// answer text. Everything downstream (preview, print, PowerPoint, interactive)
+// reads this one result, so all outputs show the same blanks.
+export function finalizeFillInBlank(questions, context, seed) {
+  return questions.map((question) => {
+    if (!question.generated || question.type !== FIB_TYPE) {
+      return question;
+    }
+
+    const rng = makeRng(hashString(`${seed}:${question.id}:blanks`));
+    const { segments, words } = buildBlankedVerse({
+      text: question.verseText,
+      count: question.blankCount,
+      scores: {
+        verse: context?.verseLevel?.[question.verseId],
+        chapter: context?.chapterLevel?.[question.chapterKey],
+      },
+      rng,
+    });
+
+    const points = Math.max(1, words.length);
+    const ref = formatVerseRef(question);
+    return {
+      ...question,
+      segments,
+      blankWords: words,
+      points,
+      question: `According to ${ref}, fill in the ${points === 1 ? "blank" : "blanks"}: ${segmentsToText(segments)}`,
+      answer: words.join("; "),
+      fullText: segmentsToAnswerText(segments),
+    };
+  });
+}
+
+// Same verses, freshly chosen blanks (the interactive quiz's "practice again")
+export function reblankQuestions(questions, context, seed) {
+  return finalizeFillInBlank(questions, context, seed);
+}
+
 export async function generateQuestions({
   dataService,
   year,
@@ -231,6 +370,7 @@ export async function generateQuestions({
   chapterWeights,
   settings,
   seed,
+  onProgress = null,
 }) {
   const typeSet = new Set(settings.selectedTypes);
   const difficultySet = getSelectedDifficultySet(settings);
@@ -281,12 +421,53 @@ export async function generateQuestions({
 
   candidates = candidates.filter((question) => typeSet.has(questionTypeGroupId(question.type)));
   candidates = candidates.filter((question) => difficultyMatch(question, difficultySet));
+
+  // Generated fill-in-the-blank questions come from the verse text itself
+  let versePool = [];
+  if (typeSet.has(FIB_TYPE) && difficultySet.size > 0) {
+    const config = fillInBlankSettings(settings);
+    let done = 0;
+    const failed = [];
+    const chapterVerses = await Promise.all(
+      chapterPairs.map(async (pair) => {
+        const verses = await dataService.loadNkjvChapterWithRetry(pair.bookId, pair.chapter);
+        done += 1;
+        onProgress?.({ done, total: chapterPairs.length });
+        if (!verses.length) {
+          failed.push(`${dataService.bookName(pair.bookId)} ${pair.chapter || "Intro"}`);
+        }
+        return verses;
+      })
+    );
+
+    chapterPairs.forEach((pair, index) => {
+      const { candidates: generated, pool } = fillInBlankCandidates({
+        pair,
+        verses: chapterVerses[index],
+        bookName: dataService.bookName(pair.bookId),
+        selectedVerseSets,
+        difficultySet,
+        config,
+        seed,
+      });
+      const selectable = generated.filter((question) => difficultyMatch(question, difficultySet));
+      candidates.push(...selectable);
+      versePool.push(...pool);
+    });
+
+    if (failed.length) {
+      unmet.push(
+        `Couldn't download verses for ${failed.join(", ")}, so no fill-in-the-blank questions were made from them.`
+      );
+    }
+  }
+
   const stats = buildCandidateStats(candidates);
 
   if (candidates.length === 0) {
     return {
       questions: [],
-      unmet: ["No questions match the current filters. Try widening type, difficulty, or review filters."],
+      unmet: [...unmet, "No questions match the current filters. Try widening type, difficulty, or review filters."],
       stats,
     };
   }
@@ -301,28 +482,58 @@ export async function generateQuestions({
   };
 
   const difficultyShares = resolveDifficultyWeights(difficultySet, settings);
-  let selected;
-  if (difficultyShares) {
-    const perVerseCounts = new Map();
-    selected = [];
-    for (const [difficulty, target] of difficultyTargets(difficultyShares, settings.totalCount)) {
-      const pool = randomized.filter((question) => question.difficulty === difficulty);
-      selected.push(...pick(pool, target, perVerseCounts));
+
+  // Choose `count` questions from `pool`, honouring the difficulty percentages
+  const pickWithDifficulty = (pool, count, perVerseCounts) => {
+    if (!difficultyShares) {
+      return pick(pool, count, perVerseCounts);
+    }
+
+    let chosen = [];
+    for (const [difficulty, target] of difficultyTargets(difficultyShares, count)) {
+      chosen.push(...pick(pool.filter((question) => question.difficulty === difficulty), target, perVerseCounts));
     }
 
     // Top up from any selected difficulty when a share runs out of questions
-    if (selected.length < settings.totalCount) {
-      const chosen = new Set(selected);
-      const rest = randomized.filter((question) => !chosen.has(question));
-      const extra = pick(rest, settings.totalCount - selected.length, perVerseCounts);
+    if (chosen.length < count) {
+      const taken = new Set(chosen);
+      const extra = pick(pool.filter((question) => !taken.has(question)), count - chosen.length, perVerseCounts);
       if (extra.length) {
         unmet.push("Not enough questions to match the difficulty percentages exactly; other difficulties filled in.");
       }
+      chosen.push(...extra);
+    }
+    return chosen;
+  };
+
+  const typeShares = resolveTypeWeights(typeSet, settings);
+  const perVerseCounts = new Map();
+  let selected;
+  if (typeShares) {
+    selected = [];
+    for (const [group, target] of difficultyTargets(typeShares, settings.totalCount)) {
+      const pool = randomized.filter((question) => questionTypeGroupId(question.type) === group);
+      selected.push(...pickWithDifficulty(pool, target, perVerseCounts));
+    }
+
+    if (selected.length < settings.totalCount) {
+      const taken = new Set(selected);
+      const extra = pickWithDifficulty(
+        randomized.filter((question) => !taken.has(question)),
+        settings.totalCount - selected.length,
+        perVerseCounts
+      );
+      if (extra.length) {
+        unmet.push("Not enough questions to match the question type percentages exactly; other types filled in.");
+      }
       selected.push(...extra);
     }
-    selected = shuffle(selected, seed);
   } else {
-    selected = pick(randomized, settings.totalCount, new Map());
+    selected = pickWithDifficulty(randomized, settings.totalCount, perVerseCounts);
+  }
+
+  if (difficultyShares || typeShares) {
+    selected = shuffle(selected, seed);
   }
 
   if (selected.length < settings.totalCount) {
@@ -335,9 +546,12 @@ export async function generateQuestions({
     unmet.push("Year mapping not found. Default scope used.");
   }
 
+  const fibContext = versePool.length ? buildTfidfContext(versePool) : { verseLevel: {}, chapterLevel: {} };
+
   return {
-    questions: selected,
+    questions: finalizeFillInBlank(selected, fibContext, seed),
     unmet,
     stats,
+    fibContext,
   };
 }

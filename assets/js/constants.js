@@ -50,6 +50,18 @@ export const STORAGE_KEY = "pbe_quiz_profiles_v1";
 
 export const DEFAULT_PERSON_NAME = "Person 1";
 
+// Generated fill-in-the-blank questions. "difficulty" mode blanks easy up to 20%
+// of a verse's words, medium over 20-40% and hard over 40-80%; "custom" overrides
+// that with a number of blanks or a percent of the words.
+export const DEFAULT_FILL_IN_BLANK = {
+  mode: "difficulty",
+  unit: "count",
+  minBlanks: 1,
+  maxBlanks: 3,
+  minPercent: 10,
+  maxPercent: 40,
+};
+
 export const DEFAULT_SETTINGS = {
   mode: "print",
   yearId: "current-year",
@@ -59,6 +71,8 @@ export const DEFAULT_SETTINGS = {
   selectedSources: [...QUESTION_SOURCES],
   selectedTypes: [...QUESTION_TYPE_GROUP_IDS],
   difficultyWeights: {},
+  typeWeights: {},
+  fillInBlank: { ...DEFAULT_FILL_IN_BLANK },
 };
 
 // Audio cues for the PowerPoint and interactive timers (the ?v= suffix busts caches when a

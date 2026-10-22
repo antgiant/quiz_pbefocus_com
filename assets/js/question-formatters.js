@@ -1,4 +1,7 @@
 export function formatVerseRef(question) {
+  if (question.refLabel) {
+    return question.refLabel;
+  }
   const suffix =
     question.endVerse && question.endVerse !== question.startVerse
       ? `-${question.endVerse}`

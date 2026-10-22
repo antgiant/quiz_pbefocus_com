@@ -186,6 +186,26 @@ export class DataService {
     return this.introByBookId.has(bookId);
   }
 
+  bookName(bookId) {
+    return this.manifest?.books?.find((book) => book.id === bookId)?.name || String(bookId);
+  }
+
+  // The Bible API can drop requests, so retry before giving up (empty result)
+  async loadNkjvChapterWithRetry(bookId, chapterNumber, attempts = 3) {
+    for (let attempt = 0; attempt < attempts; attempt += 1) {
+      try {
+        const verses = await this.loadNkjvChapter(bookId, chapterNumber);
+        if (verses.length) return verses;
+      } catch {
+        // retry below
+      }
+      if (attempt < attempts - 1) {
+        await new Promise((resolve) => setTimeout(resolve, 400 * (attempt + 1)));
+      }
+    }
+    return [];
+  }
+
   async loadNkjvChapter(bookId, chapterNumber) {
     const chapterKey = chapterCacheKey(bookId, chapterNumber);
     if (this.nkjvChapterCache.has(chapterKey)) {
