@@ -33,16 +33,47 @@ function verseRef(question) {
 }
 
 // Single body paragraph in the template's Georgia style
-function xmlPara(text, spaceBefore = "0") {
+// `text` is a string or an array of { text, bold } runs; `size` (1/100 pt) overrides font size
+function xmlRuns(text, size) {
+  const runs = Array.isArray(text) ? text : [{ text }];
+  const sz = size ? ` sz="${size}"` : "";
+  return runs
+    .map(
+      (run) =>
+        `<a:r><a:rPr lang="en-US"${sz}${run.bold ? ' b="1"' : ""}/><a:t>${xmlEscape(run.text)}</a:t></a:r>`
+    )
+    .join("");
+}
+
+function xmlPara(text, spaceBefore = "0", size = null) {
   return (
     `<a:p><a:pPr marL="0" lvl="0" indent="0" algn="l" rtl="0">` +
     `<a:spcBef><a:spcPts val="${spaceBefore}"/></a:spcBef>` +
     `<a:spcAft><a:spcPts val="0"/></a:spcAft>` +
     `<a:buClr><a:schemeClr val="dk1"/></a:buClr>` +
     `<a:buSzPts val="3200"/><a:buFont typeface="Georgia"/><a:buNone/></a:pPr>` +
-    `<a:r><a:rPr lang="en-US"/><a:t>${xmlEscape(text)}</a:t></a:r>` +
+    xmlRuns(text, size) +
     `<a:endParaRPr/></a:p>`
   );
+}
+
+// Split verse text into runs, bolding the first case-insensitive match of the answer
+function boldAnswerRuns(text, answer) {
+  const needle = safeText(answer).trim();
+  const index = needle ? text.toLowerCase().indexOf(needle.toLowerCase()) : -1;
+  if (index < 0) {
+    return [{ text }];
+  }
+  return [
+    { text: text.slice(0, index) },
+    { text: text.slice(index, index + needle.length), bold: true },
+    { text: text.slice(index + needle.length) },
+  ].filter((run) => run.text);
+}
+
+function verseTextRuns(verses, answer) {
+  const full = verses.map((v) => `${v.verse} ${v.text}`).join(" ");
+  return boldAnswerRuns(full, answer);
 }
 
 function xmlEmptyPara() {
@@ -57,9 +88,11 @@ function xmlEmptyPara() {
 // Replace body placeholder content; empty string entries produce blank paragraphs
 function setBodyContent(slideXml, lines) {
   const paragraphs = lines
-    .map((line, i) =>
-      line === "" ? xmlEmptyPara() : xmlPara(line, i === 0 ? "0" : "640")
-    )
+    .map((line, i) => {
+      if (line === "") return xmlEmptyPara();
+      const spec = line.runs ? line : { runs: line };
+      return xmlPara(spec.runs, i === 0 ? "0" : "640", spec.size);
+    })
     .join("");
 
   return slideXml.replace(
@@ -210,7 +243,8 @@ async function loadTemplateZip() {
   }
 }
 
-export async function exportPowerPoint({ questions, yearName }) {
+// `verses[i]` is the array of { verse, text } for questions[i]; may be empty
+export async function exportPowerPoint({ questions, verses = [], yearName, personName = "" }) {
   if (!hasZipLib()) {
     throw new Error("JSZip library not loaded. Ensure assets/vendor/jszip.min.js is present.");
   }
@@ -277,6 +311,7 @@ export async function exportPowerPoint({ questions, yearName }) {
     //   Line 3: "Answer: {answer}"
     //   Line 4: empty
     //   Line 5: verse reference
+    //   Line 6: full Bible text with the answer in bold (when verses loaded)
     let aXml = tmplA;
     aXml = setSlideLabel(aXml, "ANSWER", index);
     aXml = centerQuestionTitle(aXml);
@@ -289,6 +324,9 @@ export async function exportPowerPoint({ questions, yearName }) {
       `Answer: ${safeText(question.answer, "")}`,
       "",
       ref,
+      ...(verses[i]?.length
+        ? [{ runs: verseTextRuns(verses[i], question.answer), size: 2400 }]
+        : []),
     ]);
     zip.file(`ppt/slides/slide${aSlideNum}.xml`, aXml);
     zip.file(`ppt/slides/_rels/slide${aSlideNum}.xml.rels`, aRels);
@@ -301,7 +339,9 @@ export async function exportPowerPoint({ questions, yearName }) {
   zip.file("ppt/presentation.xml", presXml);
 
   const datePart = new Date().toISOString().slice(0, 10);
-  const fileName = `PBE-Quiz-${safeText(yearName, "2026-2027").replace(/\s+/g, "-")}-${datePart}.pptx`;
+  const slug = (value) => safeText(value).replace(/[^\w-]+/g, "-").replace(/^-+|-+$/g, "");
+  const nameParts = [slug(personName), slug(safeText(yearName, "2026-2027"))].filter(Boolean);
+  const fileName = `PBE-Quiz-${nameParts.join("-")}-${datePart}.pptx`;
   const blob = await zip.generateAsync({ type: "blob" });
   triggerDownload(blob, fileName);
 }

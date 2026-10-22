@@ -778,38 +778,44 @@ function selectedPeople() {
   return appState.storage.profiles.filter((profile) => selectedIds.includes(profile.id));
 }
 
+// Questions for every selected person; the active profile reuses the
+// already-generated set, others are generated from their own profile.
+async function buildSelectedPeopleEntries() {
+  const activeId = getActiveProfile(appState.storage).id;
+  return Promise.all(
+    selectedPeople().map(async (profile) => {
+      let questions = appState.generatedQuestions;
+      if (profile.id !== activeId) {
+        const result = await generateQuestions({
+          dataService,
+          year: getActiveYear(profile),
+          selectedScope: getScopeForActive(profile),
+          selectedVerses: profile.selectedVerses || {},
+          chapterWeights: profile.chapterWeights || {},
+          settings: profile.settings,
+          seed: Date.now() + Math.floor(Math.random() * 1e6),
+        });
+        questions = result.questions;
+      }
+      return {
+        person: profile,
+        questions,
+        settingsLabel: buildSettingsLabel(profile),
+        scopeLabel: buildScopeLabel(profile),
+      };
+    })
+  );
+}
+
 async function openPrintView() {
   if (!appState.generatedQuestions.length) {
     setStatus("Generate questions first before opening print view.", "warn");
     return;
   }
 
-  const activeId = getActiveProfile(appState.storage).id;
   let entries;
   try {
-    entries = await Promise.all(
-      selectedPeople().map(async (profile) => {
-        let questions = appState.generatedQuestions;
-        if (profile.id !== activeId) {
-          const result = await generateQuestions({
-            dataService,
-            year: getActiveYear(profile),
-            selectedScope: getScopeForActive(profile),
-            selectedVerses: profile.selectedVerses || {},
-            chapterWeights: profile.chapterWeights || {},
-            settings: profile.settings,
-            seed: Date.now() + Math.floor(Math.random() * 1e6),
-          });
-          questions = result.questions;
-        }
-        return {
-          person: profile,
-          questions,
-          settingsLabel: buildSettingsLabel(profile),
-          scopeLabel: buildScopeLabel(profile),
-        };
-      })
-    );
+    entries = await buildSelectedPeopleEntries();
   } catch (error) {
     setStatus(error.message, "warn");
     return;
@@ -839,22 +845,48 @@ function togglePreview() {
   updatePreviewToggleText();
 }
 
+async function loadQuestionVerses(question) {
+  const start = Number(question.startVerse) || 1;
+  const end = Math.max(start, Number(question.endVerse) || start);
+  const verses = [];
+  for (let verse = start; verse <= end; verse += 1) {
+    try {
+      const loaded = await dataService.loadNkjvVerse(question.bookId, question.chapter, verse);
+      if (loaded?.text) verses.push(loaded);
+    } catch {
+      // Missing verse text should not block the export
+    }
+  }
+  return verses;
+}
+
 async function downloadPowerPoint() {
   if (!appState.generatedQuestions.length) {
     setStatus("Generate questions first before exporting PowerPoint.", "warn");
     return;
   }
 
-  const active = getActiveProfile(appState.storage);
-  const year = getActiveYear();
-
   try {
-    await exportPowerPoint({
-      questions: appState.generatedQuestions,
-      yearName: year?.name || "Current Year",
-      activePersonName: active.name,
-    });
-    setStatus("PowerPoint download started.", "ok");
+    setStatus("Preparing PowerPoint…", "ok");
+    const entries = (await buildSelectedPeopleEntries()).filter((entry) => entry.questions.length);
+    if (!entries.length) {
+      setStatus("No selected people have questions to export.", "warn");
+      return;
+    }
+
+    for (const { person, questions } of entries) {
+      const verses = await Promise.all(questions.map(loadQuestionVerses));
+      await exportPowerPoint({
+        questions,
+        verses,
+        yearName: getActiveYear(person)?.name || "Current Year",
+        personName: person.name,
+      });
+    }
+    setStatus(
+      `PowerPoint download started for ${entries.length} ${entries.length === 1 ? "person" : "people"}.`,
+      "ok"
+    );
   } catch (error) {
     setStatus(error.message || "PowerPoint export failed.", "warn");
   }
