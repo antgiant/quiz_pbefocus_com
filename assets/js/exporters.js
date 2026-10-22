@@ -1,4 +1,4 @@
-import { AUDIO_STYLES } from "./constants.js";
+import { AUDIO_CUE_KEYS, AUDIO_STYLES, audioCueKey } from "./constants.js";
 import { secondsForQuestion, verseRuns } from "./question-formatters.js";
 
 const SLIDE_W_16x9 = 12192000; // EMUs
@@ -228,13 +228,14 @@ const AUDIO_ICON_PNG_BASE64 =
 const REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships";
 const MEDIA_REL_TYPE = "http://schemas.microsoft.com/office/2007/relationships/media";
 
-// Ten-second warning (only when the timer is at least 10 s long) and time's up
-function audioCuesFor(seconds, style) {
+// Ten-second warning (only when the timer is at least 10 s long) and time's up;
+// the last question uses the style's "final" recordings
+function audioCuesFor(seconds, style, isLast) {
   const cues = [];
   if (seconds >= 10) {
-    cues.push({ kind: "tenSeconds", atMs: (seconds - 10) * 1000 });
+    cues.push({ kind: audioCueKey("tenSeconds", isLast), atMs: (seconds - 10) * 1000 });
   }
-  cues.push({ kind: "timesUp", atMs: seconds * 1000 });
+  cues.push({ kind: audioCueKey("timesUp", isLast), atMs: seconds * 1000 });
 
   return cues.map((cue, i) => ({
     ...cue,
@@ -279,7 +280,7 @@ async function loadAudioStyle(styleKey) {
   }
 
   const files = {};
-  for (const kind of ["tenSeconds", "timesUp"]) {
+  for (const kind of AUDIO_CUE_KEYS) {
     const response = await fetch(style[kind].path);
     if (!response.ok) {
       throw new Error(`Failed to load audio file ${style[kind].path}`);
@@ -453,11 +454,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
   const aRels = slideRels("slideLayout2.xml");
 
   const audioAssets = timer && audio ? await loadAudioStyle(audio) : null;
-  if (audioAssets) {
-    zip.file("ppt/media/audio-tenSeconds.mp3", audioAssets.files.tenSeconds);
-    zip.file("ppt/media/audio-timesUp.mp3", audioAssets.files.timesUp);
-    zip.file("ppt/media/audio-icon.png", AUDIO_ICON_PNG_BASE64, { base64: true });
-  }
+  const usedAudioKinds = new Set();
 
   const generatedSlides = [];
 
@@ -479,7 +476,10 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     qXml = widenTitlePlaceholder(qXml);
     qXml = widenBodyPlaceholder(qXml);
     const seconds = timer ? secondsForQuestion(question, timer) : 0;
-    const cues = audioAssets ? audioCuesFor(seconds, audioAssets.style) : [];
+    const cues = audioAssets
+      ? audioCuesFor(seconds, audioAssets.style, i === questions.length - 1)
+      : [];
+    cues.forEach((cue) => usedAudioKinds.add(cue.kind));
     qXml = applyTimer(qXml, seconds, cues);
     qXml = setBodyContent(qXml, [
       `According to ${ref}`,
@@ -516,6 +516,14 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     ]);
     zip.file(aSlide.path, aXml);
     zip.file(`ppt/slides/_rels/slide${aSlide.n}.xml.rels`, aRels);
+  }
+
+  // Each clip is stored once however many slides play it
+  if (audioAssets) {
+    for (const kind of usedAudioKinds) {
+      zip.file(`ppt/media/audio-${kind}.mp3`, audioAssets.files[kind]);
+    }
+    zip.file("ppt/media/audio-icon.png", AUDIO_ICON_PNG_BASE64, { base64: true });
   }
 
   // Update presentation: trim slide list, set 16:9

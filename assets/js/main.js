@@ -1,5 +1,7 @@
 import {
+  AUDIO_CUE_KEYS,
   AUDIO_STYLES,
+  audioCueKey,
   DEFAULT_AUDIO_STYLE,
   DEFAULT_SETTINGS,
   QUESTION_DIFFICULTIES,
@@ -1254,6 +1256,7 @@ function startQuestionTimer() {
   const result = state.results[index];
   if (result.status !== "unanswered" || result.expired) return;
 
+  const isLast = index === state.questions.length - 1;
   const totalMs = secondsForQuestion(question, timer) * 1000;
   if (result.remainingMs == null) {
     result.remainingMs = totalMs;
@@ -1272,7 +1275,7 @@ function startQuestionTimer() {
 
     if (state.options.audio && !result.playedTen && totalMs >= 10000 && remaining <= 10000) {
       result.playedTen = true;
-      playInteractiveCue("tenSeconds");
+      playInteractiveCue(audioCueKey("tenSeconds", isLast));
     }
 
     if (remaining <= 0) {
@@ -1284,7 +1287,7 @@ function startQuestionTimer() {
       }
       if (state.options.audio && !result.playedUp) {
         result.playedUp = true;
-        playInteractiveCue("timesUp");
+        playInteractiveCue(audioCueKey("timesUp", isLast));
       }
       if (state.options.realistic) {
         const input = document.getElementById("interactiveAnswerInput");
@@ -1316,7 +1319,7 @@ async function startInteractiveQuiz() {
   const audioElements = {};
   if (options.audio) {
     const style = AUDIO_STYLES[options.audio];
-    for (const kind of ["tenSeconds", "timesUp"]) {
+    for (const kind of AUDIO_CUE_KEYS) {
       audioElements[kind] = new Audio(style[kind].path);
       audioElements[kind].preload = "auto";
     }
