@@ -1,3 +1,4 @@
+import { QUESTION_TYPE_GROUPS } from "./constants.js";
 import { formatInteractiveAnswer, formatInteractivePrompt, secondsForQuestion, verseRuns } from "./question-formatters.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
@@ -11,6 +12,11 @@ function formatDifficulty(question) {
 }
 
 function formatQuestionType(type) {
+  const group = QUESTION_TYPE_GROUPS.find((candidate) => candidate.id === type);
+  if (group) {
+    return group.label;
+  }
+
   const normalizedType = String(type || "").trim().toLowerCase();
   if (normalizedType === "true_false") {
     return "True/False";
@@ -52,8 +58,9 @@ export function renderTypeCheckboxes(container, types, selectedTypes) {
   }
 }
 
-export function renderDifficultyCheckboxes(container, difficulties, selectedDifficulties) {
+export function renderDifficultyCheckboxes(container, difficulties, selectedDifficulties, weights = {}) {
   container.innerHTML = "";
+
   for (const difficulty of difficulties) {
     const label = document.createElement("label");
     const checkbox = document.createElement("input");
@@ -61,6 +68,25 @@ export function renderDifficultyCheckboxes(container, difficulties, selectedDiff
     checkbox.value = difficulty;
     checkbox.checked = selectedDifficulties.includes(difficulty);
     label.append(checkbox, document.createTextNode(formatDifficulty({ difficulty })));
+
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.max = "100";
+    input.step = "any";
+    input.placeholder = "auto";
+    input.inputMode = "decimal";
+    input.className = "difficulty-weight";
+    input.dataset.role = "difficulty-weight";
+    input.dataset.difficulty = difficulty;
+    input.disabled = !checkbox.checked;
+    input.title = "Share of questions at this difficulty. Leave blank to split the remainder evenly.";
+    input.setAttribute("aria-label", `${formatDifficulty({ difficulty })} percent of questions`);
+    if (Number.isFinite(weights[difficulty])) {
+      input.value = String(weights[difficulty]);
+    }
+    label.append(input, document.createTextNode("%"));
+
     container.append(label);
   }
 }
@@ -597,7 +623,7 @@ export function interactivePercent(state) {
 
 export function interactiveProgressText(state) {
   const { earned, possible } = interactiveTotals(state);
-  return `Question ${state.index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far · ${interactivePercent(state)} correct`;
+  return `Question ${state.index + 1} of ${state.questions.length} · ${earned} / ${possible} points so far · ${interactivePercent(state)}`;
 }
 
 export function interactiveTimerText(result) {
@@ -642,7 +668,7 @@ export function renderInteractive(container, state) {
     summary.className = "interactive-wrap";
     summary.innerHTML = `
       <p class="interactive-progress">Completed ${state.questions.length} questions (${answered} answered).</p>
-      <h3>Score: ${earned} / ${possible} points (${interactivePercent(state)} correct)</h3>
+      <h3>Score: ${earned} / ${possible} points (${interactivePercent(state)})</h3>
       <div class="interactive-actions">
         <button type="button" id="interactivePrevBtn">Previous</button>
       </div>
@@ -680,7 +706,8 @@ export function renderInteractive(container, state) {
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
   const input = wrap.querySelector("#interactiveAnswerInput");
   input.value = result.input;
-  input.readOnly = Boolean(state.options?.realistic && result.expired);
+  // Realistic mode gives one chance per question: once answered or left, it stays locked
+  input.readOnly = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
   const timerNode = wrap.querySelector("#interactiveTimer");
   if (state.options?.timer && result.status === "unanswered") {

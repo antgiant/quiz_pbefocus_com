@@ -6,7 +6,9 @@ import {
   DEFAULT_SETTINGS,
   QUESTION_DIFFICULTIES,
   QUESTION_SOURCES,
-  QUESTION_TYPES,
+  QUESTION_TYPE_GROUP_IDS,
+  normalizeSelectedTypeGroups,
+  questionTypeGroupId,
 } from "./constants.js";
 import { DataService } from "./data-service.js";
 import { exportPowerPoint } from "./exporters.js";
@@ -148,8 +150,12 @@ function ensureProfileState() {
   delete active.settings.difficulty;
   delete active.settings.humanReviewedOnly;
 
-  if (!Array.isArray(active.settings.selectedTypes) || !active.settings.selectedTypes.length) {
-    active.settings.selectedTypes = [...QUESTION_TYPES];
+  active.settings.selectedTypes = normalizeSelectedTypeGroups(active.settings.selectedTypes);
+  if (!active.settings.selectedTypes.length) {
+    active.settings.selectedTypes = [...QUESTION_TYPE_GROUP_IDS];
+  }
+  if (!active.settings.difficultyWeights || typeof active.settings.difficultyWeights !== "object") {
+    active.settings.difficultyWeights = {};
   }
 
   if (!active.selectedScope || typeof active.selectedScope !== "object") {
@@ -194,10 +200,11 @@ function renderControls() {
   renderDifficultyCheckboxes(
     el.difficultyCheckboxes,
     QUESTION_DIFFICULTIES,
-    settings.selectedDifficulties
+    settings.selectedDifficulties,
+    settings.difficultyWeights
   );
   renderSourceCheckboxes(el.sourceCheckboxes, QUESTION_SOURCES, settings.selectedSources);
-  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPES, settings.selectedTypes);
+  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPE_GROUP_IDS, settings.selectedTypes);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
@@ -292,7 +299,7 @@ function pruneSelectedVersesToScope(selectedVerses, scope) {
 function questionMatchesAvailabilityFilters(question, settings) {
   const typeSet = new Set(settings.selectedTypes || []);
   const difficultySet = new Set(settings.selectedDifficulties || []);
-  if (!typeSet.has(question.type)) {
+  if (!typeSet.has(questionTypeGroupId(question.type))) {
     return false;
   }
 
@@ -373,7 +380,7 @@ async function refreshScopeSelectorForFilters() {
   const shouldFilterAvailability =
     settings.selectedSources.length < QUESTION_SOURCES.length ||
     settings.selectedDifficulties.length < QUESTION_DIFFICULTIES.length ||
-    settings.selectedTypes.length < QUESTION_TYPES.length;
+    settings.selectedTypes.length < QUESTION_TYPE_GROUP_IDS.length;
 
   if (!shouldFilterAvailability) {
     renderScopeSelector(el.scopeSelector, appState.manifest, scope, {
@@ -428,6 +435,14 @@ function syncSettingsFromControls() {
     el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
   delete active.settings.difficulty;
+  const difficultyWeights = {};
+  el.difficultyCheckboxes.querySelectorAll('input[data-role="difficulty-weight"]').forEach((input) => {
+    const value = parseFloat(input.value);
+    if (!input.disabled && Number.isFinite(value) && value >= 0) {
+      difficultyWeights[input.dataset.difficulty] = Math.min(value, 100);
+    }
+  });
+  active.settings.difficultyWeights = difficultyWeights;
 
   active.settings.selectedTypes = Array.from(
     el.typeCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
@@ -925,7 +940,7 @@ function writeTimerPref(prefKey, pref) {
 }
 
 // Resolves to null (cancelled) or { timer, audio, realistic }: timer is null or { first, additional },
-// audio is an AUDIO_STYLES key or null, realistic locks the answer box at time's up
+// audio is an AUDIO_STYLES key or null, realistic auto-submits the answer at time's up
 // (audio and realistic only apply when there is a timer)
 function askTimerOptions(config) {
   const dialog = document.getElementById("timerDialog");
@@ -1179,17 +1194,28 @@ function bindInteractiveControls() {
     }
   });
 
-  submitBtn.addEventListener("click", () => {
+  // Returns false when the click was ignored (nothing changed)
+  const submitAnswer = () => {
+    // Realistic mode: no late answers once time is up or the question was left
+    if (state.options.realistic && result.expired && !result.autoSubmit) {
+      return false;
+    }
     // Re-submitting the same text must not wipe points the user already adjusted
     if (result.status === "submitted" && result.submittedInput === input.value) {
-      return;
+      return false;
     }
     result.input = input.value;
     result.submittedInput = input.value;
     result.status = "submitted";
     result.autoCorrect = Boolean(evaluateAnswer(question, input.value));
     result.awarded = result.autoCorrect ? interactivePossiblePoints(question) : 0;
-    refresh();
+    return true;
+  };
+
+  submitBtn.addEventListener("click", () => {
+    if (submitAnswer()) {
+      refresh();
+    }
   });
 
   revealBtn.addEventListener("click", () => {
@@ -1211,7 +1237,13 @@ function bindInteractiveControls() {
   });
 
   prevBtn.addEventListener("click", () => goToInteractiveQuestion(index - 1));
-  nextBtn.addEventListener("click", () => goToInteractiveQuestion(index + 1));
+  // Moving on counts as submitting whatever is in the box
+  nextBtn.addEventListener("click", () => {
+    if (result.status === "unanswered") {
+      submitAnswer();
+    }
+    goToInteractiveQuestion(index + 1);
+  });
 }
 
 // --- Interactive timer ---
@@ -1290,11 +1322,9 @@ function startQuestionTimer() {
         playInteractiveCue(audioCueKey("timesUp", isLast));
       }
       if (state.options.realistic) {
-        const input = document.getElementById("interactiveAnswerInput");
-        if (input) {
-          input.readOnly = true;
-          result.input = input.value;
-        }
+        result.autoSubmit = true;
+        document.getElementById("interactiveSubmitBtn")?.click();
+        result.autoSubmit = false;
       }
     }
   };
@@ -1465,7 +1495,18 @@ function wireEvents() {
     refreshScopeThenGenerate();
   });
 
-  el.difficultyCheckboxes.addEventListener("change", () => {
+  el.difficultyCheckboxes.addEventListener("change", (event) => {
+    if (event.target.dataset.role === "difficulty-weight") {
+      syncSettingsFromControls();
+      queueRealtimeGenerate();
+      return;
+    }
+    // Keep each percent box enabled only while its difficulty is checked
+    el.difficultyCheckboxes.querySelectorAll("label").forEach((label) => {
+      const box = label.querySelector('input[type="checkbox"]');
+      const weight = label.querySelector('input[data-role="difficulty-weight"]');
+      if (weight) weight.disabled = !box.checked;
+    });
     syncSettingsFromControls();
     refreshScopeThenGenerate();
   });

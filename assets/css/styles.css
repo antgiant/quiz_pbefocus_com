@@ -286,6 +286,11 @@ fieldset {
   font-weight: 600;
 }
 
+.chips input.difficulty-weight {
+  width: 4.5rem;
+  padding: 0.15rem 0.3rem;
+}
+
 .chips input[type="checkbox"] {
   width: auto;
   margin: 0;
