@@ -1,8 +1,18 @@
 import { QUESTION_TYPE_GROUPS } from "./constants.js";
-import { formatInteractiveAnswer, formatInteractivePrompt, secondsForQuestion, verseRuns } from "./question-formatters.js";
+import {
+  formatFillInBlankLead,
+  formatInteractiveAnswer,
+  formatInteractivePrompt,
+  secondsForQuestion,
+  verseRuns,
+} from "./question-formatters.js";
+import { normalizeText } from "./utils.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
 function formatRef(question) {
+  if (question.refLabel) {
+    return question.refLabel;
+  }
   return `${question.book} ${question.chapter}:${question.startVerse}-${question.endVerse}`;
 }
 
@@ -45,7 +55,7 @@ function formatQuestionSource(source) {
   return String(source || "");
 }
 
-export function renderTypeCheckboxes(container, types, selectedTypes) {
+export function renderTypeCheckboxes(container, types, selectedTypes, weights = {}) {
   container.innerHTML = "";
   for (const type of types) {
     const label = document.createElement("label");
@@ -54,6 +64,24 @@ export function renderTypeCheckboxes(container, types, selectedTypes) {
     checkbox.value = type;
     checkbox.checked = selectedTypes.includes(type);
     label.append(checkbox, document.createTextNode(formatQuestionType(type)));
+
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.max = "100";
+    input.step = "any";
+    input.placeholder = "auto";
+    input.inputMode = "decimal";
+    input.className = "difficulty-weight";
+    input.dataset.role = "type-weight";
+    input.dataset.type = type;
+    input.disabled = !checkbox.checked;
+    input.title = "Share of questions of this type. Leave blank to split the remainder evenly.";
+    input.setAttribute("aria-label", `${formatQuestionType(type)} percent of questions`);
+    if (Number.isFinite(weights[type])) {
+      input.value = String(weights[type]);
+    }
+    label.append(input, document.createTextNode("%"));
     container.append(label);
   }
 }
@@ -104,28 +132,63 @@ export function renderSourceCheckboxes(container, sources, selectedSources) {
   }
 }
 
-export function renderProfiles(select, profiles, activeProfileId) {
-  select.innerHTML = "";
-  for (const profile of profiles) {
-    const option = document.createElement("option");
-    option.value = profile.id;
-    option.textContent = profile.name;
-    option.selected = profile.id === activeProfileId;
-    select.append(option);
-  }
-}
-
-export function renderPeopleSelector(container, profiles, selectedIds) {
+// One row per person: drag handle, the person to build for, whether they are
+// in the printout, and move buttons (for keyboards and touch screens)
+export function renderPeopleList(container, profiles, activeProfileId, printIds) {
   container.innerHTML = "";
-  for (const profile of profiles) {
-    const label = document.createElement("label");
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.value = profile.id;
-    checkbox.checked = selectedIds.includes(profile.id);
-    label.append(checkbox, document.createTextNode(profile.name));
-    container.append(label);
-  }
+  profiles.forEach((profile, index) => {
+    const row = document.createElement("li");
+    row.className = "person-row";
+    row.dataset.id = profile.id;
+    row.draggable = true;
+    row.classList.toggle("is-active", profile.id === activeProfileId);
+
+    const handle = document.createElement("span");
+    handle.className = "drag-handle";
+    handle.setAttribute("aria-hidden", "true");
+    handle.textContent = "\u283F";
+
+    const pick = document.createElement("label");
+    pick.className = "person-pick";
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "activePerson";
+    radio.value = profile.id;
+    radio.checked = profile.id === activeProfileId;
+    const name = document.createElement("span");
+    name.className = "person-name";
+    name.textContent = profile.name;
+    pick.append(radio, name);
+
+    const print = document.createElement("label");
+    print.className = "person-print";
+    const printBox = document.createElement("input");
+    printBox.type = "checkbox";
+    printBox.value = profile.id;
+    printBox.dataset.role = "person-print";
+    printBox.checked = printIds.includes(profile.id);
+    printBox.setAttribute("aria-label", `Include ${profile.name} in the printed quiz`);
+    print.append(printBox, document.createTextNode("Print"));
+
+    const up = document.createElement("button");
+    up.type = "button";
+    up.className = "person-move";
+    up.dataset.role = "move-up";
+    up.textContent = "\u25B2";
+    up.disabled = index === 0;
+    up.setAttribute("aria-label", `Move ${profile.name} up`);
+
+    const down = document.createElement("button");
+    down.type = "button";
+    down.className = "person-move";
+    down.dataset.role = "move-down";
+    down.textContent = "\u25BC";
+    down.disabled = index === profiles.length - 1;
+    down.setAttribute("aria-label", `Move ${profile.name} down`);
+
+    row.append(handle, pick, print, up, down);
+    container.append(row);
+  });
 }
 
 export function renderYearOptions(select, years) {
@@ -402,7 +465,7 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       chapterToggle.checked = selectedChapters.includes(chapter.number);
       const chapterNumber = document.createElement("span");
       chapterNumber.className = "chapter-number";
-      chapterNumber.textContent = `Chapter ${chapter.number}`;
+      chapterNumber.textContent = chapter.number === 0 ? "Intro" : `Chapter ${chapter.number}`;
       chapterLabel.append(chapterToggle, chapterNumber);
 
       const weightLabel = document.createElement("label");
@@ -418,7 +481,10 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       weightInput.dataset.role = "chapter-weight";
       weightInput.dataset.bookId = book.id;
       weightInput.dataset.chapter = String(chapter.number);
-      weightInput.setAttribute("aria-label", `${book.name} chapter ${chapter.number} percent of questions`);
+      weightInput.setAttribute(
+        "aria-label",
+        `${book.name} ${chapter.number === 0 ? "intro" : `chapter ${chapter.number}`} percent of questions`
+      );
       weightInput.disabled = !chapterToggle.checked;
       const savedWeight = chapterWeights[chapterKey(book.id, chapter.number)];
       if (Number.isFinite(savedWeight)) {
@@ -566,7 +632,9 @@ export function renderPreview(previewList, template, questions) {
     const node = template.content.firstElementChild.cloneNode(true);
     node.querySelector("h3").textContent =
       `${formatQuestionType(question.type)} | ${formatDifficulty(question)} | ${question.points} pt`;
-    node.querySelector(".meta").textContent = `${formatRef(question)} | ${question.validatedBy}`;
+    node.querySelector(".meta").textContent = `${formatRef(question)} | ${
+      question.generated ? "Generated from verse text" : question.validatedBy
+    }`;
     node.querySelector(".question").textContent = question.question;
     node.querySelector(".answer").textContent = question.answer;
     previewList.append(node);
@@ -653,6 +721,54 @@ export function renderVerseText(target, verses, answer) {
   }
 }
 
+// The verse with a text box where each blank is. Boxes are all the same width so
+// the length of a word is never a clue.
+function renderBlankedVerse(target, question, result) {
+  target.textContent = "";
+  let blankIndex = 0;
+  for (const segment of question.segments) {
+    if (!segment.blank) {
+      target.append(segment.text);
+      continue;
+    }
+    const index = blankIndex;
+    blankIndex += 1;
+    const input = document.createElement("input");
+    input.type = "text";
+    input.className = "fib-input";
+    input.dataset.index = String(index);
+    input.autocomplete = "off";
+    input.autocapitalize = "off";
+    input.spellcheck = false;
+    input.value = result.inputs[index] || "";
+    input.setAttribute("aria-label", `Blank ${index + 1} of ${question.blankWords.length}`);
+
+    const hinted = result.hinted.includes(index);
+    const graded = result.status !== "unanswered";
+    // Realistic mode gives one chance per question: once answered or left, it stays locked
+    input.readOnly = hinted || graded || Boolean(result.stateRealisticLock);
+    input.classList.toggle("is-hinted", hinted);
+    if (graded && result.blankCorrect) {
+      const correct = result.blankCorrect[index];
+      input.classList.add(correct ? "is-correct" : "is-incorrect");
+      input.setAttribute("aria-label", `${input.getAttribute("aria-label")}, ${correct ? "correct" : "incorrect"}`);
+    }
+    target.append(input);
+  }
+}
+
+// How many blanks were right: every blank is graded on its own
+export function gradeBlanks(question, inputs) {
+  return question.blankWords.map((word, index) => {
+    const typed = normalizeText(inputs[index] || "");
+    return Boolean(typed) && typed === normalizeText(word);
+  });
+}
+
+export function interactiveHintsUsed(state) {
+  return state.results.reduce((sum, result) => sum + (result.hinted?.length || 0), 0);
+}
+
 export function renderInteractive(container, state) {
   container.innerHTML = "";
 
@@ -664,15 +780,23 @@ export function renderInteractive(container, state) {
   if (state.complete) {
     const { earned, possible } = interactiveTotals(state);
     const answered = state.results.filter((result) => result.status !== "unanswered").length;
+    const hints = interactiveHintsUsed(state);
+    const canPracticeAgain = state.questions.some((question) => question.generated);
     const summary = document.createElement("div");
     summary.className = "interactive-wrap";
     summary.innerHTML = `
       <p class="interactive-progress">Completed ${state.questions.length} questions (${answered} answered).</p>
       <h3>Score: ${earned} / ${possible} points (${interactivePercent(state)})</h3>
+      ${hints ? `<p class="interactive-hints-note">Hints used: ${hints}</p>` : ""}
       <div class="interactive-actions">
         <button type="button" id="interactivePrevBtn">Previous</button>
+        ${
+          canPracticeAgain
+            ? '<button type="button" id="interactivePracticeAgainBtn" class="primary">Practice again with new blanks</button>'
+            : ""
+        }
       </div>
-      <p>Use Start Interactive Quiz to run again.</p>
+      <p>Use Start Interactive Quiz to run again${canPracticeAgain ? ", or practice the same verses with different words blanked" : ""}.</p>
     `;
     container.append(summary);
     return;
@@ -680,22 +804,36 @@ export function renderInteractive(container, state) {
 
   const current = state.questions[state.index];
   const result = state.results[state.index];
+  if (current.segments && !result.inputs) {
+    result.inputs = current.blankWords.map(() => "");
+    result.hinted = [];
+  }
+  const isBlankQuiz = Boolean(current.segments);
   const prompt = formatInteractivePrompt(current);
   const wrap = document.createElement("div");
   wrap.className = "interactive-wrap";
   const promptHtml = prompt.prompt.replace(/\n/g, "<br>");
   const isLast = state.index === state.questions.length - 1;
+  const locked = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
-  wrap.innerHTML = `
-    <p class="interactive-progress"></p>
-    <p id="interactiveTimer" class="interactive-timer" hidden></p>
+  const answerArea = isBlankQuiz
+    ? `
+    <p class="fib-lead"></p>
+    <p id="interactiveFibVerse" class="fib-verse"></p>`
+    : `
     <p>${promptHtml}</p>
     <label>
       Your answer
       <input type="text" id="interactiveAnswerInput" autocomplete="off" />
-    </label>
+    </label>`;
+
+  wrap.innerHTML = `
+    <p class="interactive-progress"></p>
+    <p id="interactiveTimer" class="interactive-timer" hidden></p>
+    ${answerArea}
     <div class="interactive-actions">
       <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
+      ${isBlankQuiz ? '<button type="button" id="interactiveHintBtn"></button>' : ""}
       <button type="button" id="interactiveSubmitBtn">Submit</button>
       <button type="button" id="interactiveRevealBtn">Reveal Answer</button>
       <button type="button" id="interactiveNextBtn">${isLast ? "Finish" : "Next"}</button>
@@ -704,10 +842,26 @@ export function renderInteractive(container, state) {
   `;
 
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
-  const input = wrap.querySelector("#interactiveAnswerInput");
-  input.value = result.input;
-  // Realistic mode gives one chance per question: once answered or left, it stays locked
-  input.readOnly = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
+
+  if (isBlankQuiz) {
+    const points = interactivePossiblePoints(current);
+    wrap.querySelector(".fib-lead").textContent = `${formatFillInBlankLead(current)} (${points} ${
+      points === 1 ? "Pt." : "Pts."
+    })`;
+    result.stateRealisticLock = locked;
+    renderBlankedVerse(wrap.querySelector("#interactiveFibVerse"), current, result);
+
+    const hintBtn = wrap.querySelector("#interactiveHintBtn");
+    const hintsLeft = current.blankWords.length - result.hinted.length;
+    hintBtn.textContent = result.hinted.length ? `Hint (${result.hinted.length} used)` : "Hint";
+    hintBtn.disabled = locked || result.status !== "unanswered" || hintsLeft <= 0;
+    hintBtn.title = "Fills in the next blank. Hints don't change your score, but the answer page notes how many you used.";
+  } else {
+    const input = wrap.querySelector("#interactiveAnswerInput");
+    input.value = result.input;
+    // Realistic mode gives one chance per question: once answered or left, it stays locked
+    input.readOnly = locked;
+  }
 
   const timerNode = wrap.querySelector("#interactiveTimer");
   if (state.options?.timer && result.status === "unanswered") {
@@ -725,15 +879,31 @@ export function renderInteractive(container, state) {
   }
 }
 
+function renderBlankedAnswer(target, question) {
+  target.textContent = "";
+  for (const segment of question.segments) {
+    if (segment.blank) {
+      const mark = document.createElement("span");
+      mark.className = "answer-words";
+      mark.textContent = segment.word;
+      target.append(mark);
+    } else {
+      target.append(segment.text);
+    }
+  }
+}
+
 function renderInteractiveAnswerPanel(panel, question, result) {
   const answerBlock = formatInteractiveAnswer(question);
   const max = interactivePossiblePoints(question);
+  const isBlankQuiz = Boolean(question.segments);
   panel.hidden = false;
   panel.innerHTML = `
     <p id="interactiveFeedback" class="interactive-feedback"></p>
     <p class="interactive-answer-text"></p>
+    ${isBlankQuiz ? '<ol class="fib-results"></ol><p class="interactive-hints-note" hidden></p>' : ""}
     <p class="interactive-reference"></p>
-    <p id="interactiveVerseText" class="interactive-verse">Loading verse text&hellip;</p>
+    <p id="interactiveVerseText" class="interactive-verse">${isBlankQuiz ? "" : "Loading verse text&hellip;"}</p>
     <fieldset class="interactive-points">
       <legend>Points awarded (out of ${max})</legend>
     </fieldset>
@@ -741,12 +911,45 @@ function renderInteractiveAnswerPanel(panel, question, result) {
 
   panel.querySelector(".interactive-answer-text").textContent = answerBlock.answer;
   panel.querySelector(".interactive-reference").textContent = answerBlock.reference;
-  panel.querySelector("#interactiveFeedback").textContent =
-    result.status === "submitted"
-      ? result.autoCorrect
-        ? "Looks correct."
-        : "Compare your answer with the one below."
-      : "";
+
+  if (isBlankQuiz) {
+    const correctCount = (result.blankCorrect || []).filter(Boolean).length;
+    panel.querySelector("#interactiveFeedback").textContent =
+      result.status === "submitted"
+        ? `${correctCount} of ${question.blankWords.length} blanks correct.`
+        : "";
+
+    const list = panel.querySelector(".fib-results");
+    question.blankWords.forEach((word, index) => {
+      const item = document.createElement("li");
+      const hinted = result.hinted.includes(index);
+      const typed = (result.inputs[index] || "").trim();
+      if (result.status === "submitted") {
+        const correct = Boolean(result.blankCorrect?.[index]);
+        item.className = correct ? "is-correct" : "is-incorrect";
+        item.textContent = correct
+          ? `${word}${hinted ? " (hint)" : ""}`
+          : `${typed || "(blank)"} \u2192 ${word}`;
+      } else {
+        item.textContent = word;
+      }
+      list.append(item);
+    });
+
+    const note = panel.querySelector(".interactive-hints-note");
+    if (result.hinted.length) {
+      note.hidden = false;
+      note.textContent = `Hints used: ${result.hinted.length}`;
+    }
+    renderBlankedAnswer(panel.querySelector("#interactiveVerseText"), question);
+  } else {
+    panel.querySelector("#interactiveFeedback").textContent =
+      result.status === "submitted"
+        ? result.autoCorrect
+          ? "Looks correct."
+          : "Compare your answer with the one below."
+        : "";
+  }
 
   const points = panel.querySelector(".interactive-points");
   for (let value = 0; value <= max; value += 1) {
@@ -780,13 +983,31 @@ export function createPrintSheets(template, entries) {
     const questionList = questionSheet.querySelector(".print-questions");
     const answerList = answerSheet.querySelector(".print-answers");
 
-    questions.forEach((question, index) => {
+    questions.forEach((question) => {
       const q = document.createElement("li");
-      q.textContent = question.question;
-      questionList.append(q);
-
       const a = document.createElement("li");
-      a.textContent = question.answer;
+      if (question.segments) {
+        q.append(`${formatFillInBlankLead(question)} `);
+        a.append(`${formatFillInBlankLead(question)} `);
+        for (const segment of question.segments) {
+          if (!segment.blank) {
+            q.append(segment.text);
+            a.append(segment.text);
+            continue;
+          }
+          const blank = document.createElement("span");
+          blank.className = "print-blank";
+          q.append(blank);
+          const word = document.createElement("strong");
+          word.className = "print-answer-word";
+          word.textContent = segment.word;
+          a.append(word);
+        }
+      } else {
+        q.textContent = question.question;
+        a.textContent = question.answer;
+      }
+      questionList.append(q);
       answerList.append(a);
     });
 

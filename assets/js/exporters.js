@@ -1,5 +1,5 @@
 import { AUDIO_CUE_KEYS, AUDIO_STYLES, audioCueKey } from "./constants.js";
-import { secondsForQuestion, verseRuns } from "./question-formatters.js";
+import { formatVerseRef, secondsForQuestion, verseRuns } from "./question-formatters.js";
 
 const SLIDE_W_16x9 = 12192000; // EMUs
 const ANSWER_RED = "FF0000";
@@ -28,13 +28,7 @@ function questionLabel(question) {
   return `(${points} ${pointWord}) ${question.question}`;
 }
 
-function verseRef(question) {
-  const suffix =
-    question.endVerse && question.endVerse !== question.startVerse
-      ? `-${question.endVerse}`
-      : "";
-  return `${question.book} ${question.chapter}:${question.startVerse}${suffix}`;
-}
+const verseRef = formatVerseRef;
 
 // Single body paragraph in the template's Georgia style
 // `text` is a string or an array of { text, color } runs; `size` (1/100 pt) overrides font size
@@ -58,6 +52,13 @@ function xmlPara(text, spaceBefore = "0", size = null) {
     `<a:buSzPts val="3200"/><a:buFont typeface="Georgia"/><a:buNone/></a:pPr>` +
     xmlRuns(text, size) +
     `<a:endParaRPr/></a:p>`
+  );
+}
+
+// The generated verse with each blanked word in red
+function blankedVerseRuns(segments) {
+  return segments.map((segment) =>
+    segment.blank ? { text: segment.word, color: ANSWER_RED } : { text: segment.text }
   );
 }
 
@@ -484,7 +485,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     qXml = setBodyContent(qXml, [
       `According to ${ref}`,
       "",
-      questionLabel(question),
+      question.segments ? { runs: questionLabel(question), size: 2800 } : questionLabel(question),
     ]);
     zip.file(qSlide.path, qXml);
     zip.file(
@@ -504,16 +505,28 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     aXml = centerQuestionTitle(aXml);
     aXml = widenTitlePlaceholder(aXml);
     aXml = widenBodyPlaceholder(aXml);
-    aXml = setBodyContent(aXml, [
-      questionLabel(question),
-      "",
-      `Answer: ${safeText(question.answer, "")}`,
-      "",
-      ref,
-      ...(verses[i]?.length
-        ? [{ runs: verseTextRuns(verses[i], question.answer), size: 2400 }]
-        : []),
-    ]);
+    // Generated fill-in-the-blank questions already carry their verse, so the
+    // answer slide shows it with the blanked words filled in (in red)
+    aXml = setBodyContent(
+      aXml,
+      question.segments
+        ? [
+            `Answer: ${safeText(question.answer, "")}`,
+            "",
+            ref,
+            { runs: blankedVerseRuns(question.segments), size: 2800 },
+          ]
+        : [
+            questionLabel(question),
+            "",
+            `Answer: ${safeText(question.answer, "")}`,
+            "",
+            ref,
+            ...(verses[i]?.length
+              ? [{ runs: verseTextRuns(verses[i], question.answer), size: 2400 }]
+              : []),
+          ]
+    );
     zip.file(aSlide.path, aXml);
     zip.file(`ppt/slides/_rels/slide${aSlide.n}.xml.rels`, aRels);
   }

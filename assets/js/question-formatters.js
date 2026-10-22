@@ -9,6 +9,12 @@ export function formatVerseRef(question) {
   return `${question.book} ${question.chapter}:${question.startVerse}${suffix}`;
 }
 
+// "According to Mark 1:5, fill in the blanks:" - the text before a blanked verse
+export function formatFillInBlankLead(question) {
+  const blanks = Math.max(1, Number(question.points) || 1);
+  return `According to ${formatVerseRef(question)}, fill in the ${blanks === 1 ? "blank" : "blanks"}:`;
+}
+
 export function formatQuestionLabel(question) {
   const points = Number(question.points) || 1;
   const pointWord = points === 1 ? "Pt." : "Pts.";

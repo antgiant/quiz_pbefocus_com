@@ -14,6 +14,7 @@
     <script src="questions/v1/practice-books.bundle.js"></script>
     <script src="questions/v1/practice-years.bundle.js"></script>
     <script src="assets/vendor/pptx-template.bundle.js"></script>
+    <script src="assets/vendor/compromise.min.js"></script>
     <script src="assets/vendor/jszip.min.js" defer></script>
     <script src="assets/vendor/pptxgen.min.js" defer></script>
     <script type="module" src="assets/js/main.js" defer></script>
@@ -89,6 +90,51 @@
         <fieldset>
           <legend>Question types</legend>
           <div id="typeCheckboxes" class="chips"></div>
+          <p class="weight-help" id="typeMixHelp" hidden>
+            Optional: enter a percent beside a type to control how many questions use it.
+            Blank types share whatever percent is left evenly.
+          </p>
+        </fieldset>
+
+        <fieldset id="fillInBlankFieldset" hidden>
+          <legend>Fill in the Blank</legend>
+          <p class="weight-help">
+            Blanks come from each verse's most important words, so every verse in your scope can become a question.
+          </p>
+          <div class="blank-modes" role="radiogroup" aria-label="How many words to blank">
+            <label class="blank-mode">
+              <input type="radio" name="blankMode" value="difficulty" checked />
+              <span>
+                Match difficulty
+                <small>Easy: up to 20% of the words &middot; Medium: over 20&ndash;40% &middot; Hard: over 40&ndash;80%</small>
+              </span>
+            </label>
+            <label class="blank-mode">
+              <input type="radio" name="blankMode" value="custom" />
+              <span>
+                Set it myself
+                <small>Pick exactly how many words, or what share of each verse, to blank.</small>
+              </span>
+            </label>
+          </div>
+          <div id="blankCustomFields" class="blank-custom" hidden>
+            <div class="mode-toggle" role="group" aria-label="Blank amount unit">
+              <button id="blankUnitCountBtn" type="button" class="selector-mode-btn" aria-pressed="true">Number of blanks</button>
+              <button id="blankUnitPercentBtn" type="button" class="selector-mode-btn" aria-pressed="false">Percent of words</button>
+            </div>
+            <div class="grid-2">
+              <label>
+                <span id="blankMinLabel">Fewest blanks</span>
+                <input id="blankMinInput" type="number" min="1" step="1" inputmode="numeric" aria-describedby="blankError" />
+              </label>
+              <label>
+                <span id="blankMaxLabel">Most blanks</span>
+                <input id="blankMaxInput" type="number" min="1" step="1" inputmode="numeric" aria-describedby="blankError" />
+              </label>
+            </div>
+            <p id="blankError" class="validation-feedback" role="alert"></p>
+            <p id="blankCustomNote" class="hint"></p>
+          </div>
         </fieldset>
 
         <fieldset>
@@ -109,23 +155,22 @@
         <h2>People and Profiles</h2>
         <div class="profile-actions">
           <button id="newProfileBtn" type="button">New Person</button>
-          <button id="saveProfileBtn" type="button">Save Active Person</button>
           <button id="deleteProfileBtn" type="button" class="danger">Delete Active</button>
         </div>
 
         <label>
-          Active person
-          <select id="activeProfileSelect"></select>
-        </label>
-
-        <label>
           Person name
-          <input id="profileNameInput" type="text" placeholder="Enter name" />
+          <input id="profileNameInput" type="text" placeholder="Enter name" autocomplete="off" />
         </label>
 
-        <fieldset>
-          <legend>Include people in printable output</legend>
-          <div id="printPeopleSelector" class="chips"></div>
+        <fieldset class="people-fieldset">
+          <legend>People</legend>
+          <p class="weight-help" id="peopleHelp">
+            Choose who you are building for. Drag people (or use the arrows) to change their order.
+            Tick <em>Print</em> to include someone in the printed quiz.
+          </p>
+          <ol id="peopleList" class="people-list" aria-describedby="peopleHelp"></ol>
+          <p id="peopleAnnouncer" class="visually-hidden" role="status" aria-live="polite"></p>
         </fieldset>
       </section>
 

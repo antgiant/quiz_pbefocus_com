@@ -117,3 +117,18 @@ body.printing .print-sheet {
   width: 0.5in;
 }
 
+
+/* Fill in the blank: a ruled line to write on, and the answer word on the key */
+.print-blank {
+  display: inline-block;
+  min-width: 1in;
+  height: 1em;
+  margin: 0 0.05in;
+  border-bottom: 1px solid #000;
+  vertical-align: baseline;
+}
+
+.print-answer-word {
+  font-weight: 700;
+  text-decoration: underline;
+}

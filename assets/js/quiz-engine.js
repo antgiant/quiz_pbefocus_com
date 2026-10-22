@@ -11,7 +11,7 @@ import {
   segmentsToText,
   wordCountOf,
 } from "./blank-engine.js";
-import { formatVerseRef } from "./question-formatters.js";
+import { formatFillInBlankLead } from "./question-formatters.js";
 import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
@@ -344,13 +344,10 @@ export function finalizeFillInBlank(questions, context, seed) {
     });
 
     const points = Math.max(1, words.length);
-    const ref = formatVerseRef(question);
+    const finished = { ...question, segments, blankWords: words, points };
     return {
-      ...question,
-      segments,
-      blankWords: words,
-      points,
-      question: `According to ${ref}, fill in the ${points === 1 ? "blank" : "blanks"}: ${segmentsToText(segments)}`,
+      ...finished,
+      question: `${formatFillInBlankLead(finished)} ${segmentsToText(segments)}`,
       answer: words.join("; "),
       fullText: segmentsToAnswerText(segments),
     };

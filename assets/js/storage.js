@@ -5,11 +5,19 @@ import {
   STORAGE_KEY,
 } from "./constants.js";
 
+// 2: profiles gained fill-in-the-blank and question-type-mix settings
+export const SCHEMA_VERSION = 2;
+
 function createDefaultProfile(name = DEFAULT_PERSON_NAME) {
   return {
     id: crypto.randomUUID(),
     name,
-    settings: { ...DEFAULT_SETTINGS, selectedTypes: [...QUESTION_TYPE_GROUP_IDS] },
+    settings: {
+      ...DEFAULT_SETTINGS,
+      selectedTypes: [...QUESTION_TYPE_GROUP_IDS],
+      fillInBlank: { ...DEFAULT_SETTINGS.fillInBlank },
+      typeWeights: {},
+    },
     selectedScope: {},
   };
 }
@@ -20,7 +28,7 @@ export function loadState() {
     if (!raw) {
       const profile = createDefaultProfile();
       return {
-        schemaVersion: 1,
+        schemaVersion: SCHEMA_VERSION,
         activeProfileId: profile.id,
         profiles: [profile],
         selectedPrintPeopleIds: [profile.id],
@@ -32,11 +40,12 @@ export function loadState() {
       throw new Error("Invalid saved profile state");
     }
 
+    parsed.schemaVersion = SCHEMA_VERSION;
     return parsed;
   } catch {
     const profile = createDefaultProfile();
     return {
-      schemaVersion: 1,
+      schemaVersion: SCHEMA_VERSION,
       activeProfileId: profile.id,
       profiles: [profile],
       selectedPrintPeopleIds: [profile.id],
@@ -76,6 +85,23 @@ export function deleteActiveProfile(state) {
     state.selectedPrintPeopleIds = [state.activeProfileId];
   }
 
+  return true;
+}
+
+// Moves a person to `toIndex` in the list (0-based, position after the move)
+export function moveProfile(state, id, toIndex) {
+  const from = state.profiles.findIndex((profile) => profile.id === id);
+  if (from < 0) {
+    return false;
+  }
+
+  const to = Math.max(0, Math.min(toIndex, state.profiles.length - 1));
+  if (from === to) {
+    return false;
+  }
+
+  const [profile] = state.profiles.splice(from, 1);
+  state.profiles.splice(to, 0, profile);
   return true;
 }
 

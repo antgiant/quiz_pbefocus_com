@@ -1014,3 +1014,310 @@ fieldset {
   background: var(--surface-soft);
   color: var(--muted);
 }
+
+/* --- Accessibility helpers --- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.validation-feedback {
+  min-height: 1.1rem;
+  margin: 0.25rem 0 0;
+  color: var(--danger);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.validation-feedback:empty {
+  display: none;
+}
+
+.hint {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+input[aria-invalid="true"] {
+  border-color: var(--danger);
+}
+
+/* --- Fill in the Blank settings --- */
+
+.blank-modes {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.blank-mode {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--chip-border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.blank-mode:has(input:checked) {
+  border-color: var(--teal);
+  background: var(--teal-wash);
+}
+
+.blank-mode input[type="radio"] {
+  width: auto;
+  margin: 0.2rem 0 0;
+}
+
+.blank-mode small {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+.blank-custom {
+  margin-top: 0.75rem;
+}
+
+.blank-custom[hidden] {
+  display: none;
+}
+
+.mode-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+/* --- People list (drag to reorder) --- */
+
+.people-fieldset {
+  margin-top: 1rem;
+}
+
+.people-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.person-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto auto;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--chip-border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  position: relative;
+}
+
+.person-row.is-active {
+  border-color: var(--teal);
+  background: var(--teal-wash);
+}
+
+.person-row.is-dragging {
+  opacity: 0.45;
+}
+
+.person-row.drop-before::before,
+.person-row.drop-after::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--teal);
+}
+
+.person-row.drop-before::before {
+  top: -3px;
+}
+
+.person-row.drop-after::after {
+  bottom: -3px;
+}
+
+.drag-handle {
+  cursor: grab;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1;
+  user-select: none;
+}
+
+.person-pick,
+.person-print {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  min-width: 0;
+}
+
+.person-pick input,
+.person-print input {
+  width: auto;
+  margin: 0;
+}
+
+.person-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.person-print {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.person-move {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.person-move:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* --- Interactive fill in the blank --- */
+
+.fib-lead {
+  margin: 0.5rem 0 0.25rem;
+  font-weight: 700;
+}
+
+.fib-verse {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  line-height: 2.4;
+}
+
+.fib-input {
+  display: inline-block;
+  width: 9ch;
+  min-width: 6rem;
+  margin: 0 0.15rem;
+  padding: 0.15rem 0.35rem;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: 4px;
+}
+
+.fib-input.is-correct {
+  border-color: var(--ok);
+  background: color-mix(in srgb, var(--ok), white 88%);
+  color: var(--ink);
+}
+
+.fib-input.is-incorrect {
+  border-color: var(--danger);
+  background: color-mix(in srgb, var(--danger), white 90%);
+  color: var(--ink);
+}
+
+.fib-input.is-hinted {
+  font-style: italic;
+}
+
+.fib-results {
+  margin: 0.25rem 0 0.5rem;
+  padding-left: 1.4rem;
+}
+
+.fib-results .is-correct::marker {
+  content: "\2713  ";
+  color: var(--ok);
+}
+
+.fib-results .is-incorrect::marker {
+  content: "\2717  ";
+  color: var(--danger);
+}
+
+.interactive-hints-note {
+  margin: 0.25rem 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+@media (max-width: 540px) {
+  .person-row {
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+  }
+
+  .person-print {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+
+  .fib-verse {
+    line-height: 2.6;
+  }
+}
+
+/* --- Confetti --- */
+
+.confetti {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  z-index: 10000;
+  pointer-events: none;
+  animation: confetti-fall linear forwards;
+}
+
+.confetti.square {
+  border-radius: 2px;
+}
+
+.confetti.circle {
+  border-radius: 50%;
+}
+
+.confetti.strip {
+  width: 4px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+@keyframes confetti-fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotate(720deg) scale(0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .confetti {
+    display: none;
+  }
+}

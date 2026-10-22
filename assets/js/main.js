@@ -3,6 +3,7 @@ import {
   AUDIO_STYLES,
   audioCueKey,
   DEFAULT_AUDIO_STYLE,
+  DEFAULT_FILL_IN_BLANK,
   DEFAULT_SETTINGS,
   QUESTION_DIFFICULTIES,
   QUESTION_SOURCES,
@@ -10,20 +11,22 @@ import {
   normalizeSelectedTypeGroups,
   questionTypeGroupId,
 } from "./constants.js";
+import { validateCustomBlanks } from "./blank-engine.js";
+import { launchConfetti } from "./confetti.js";
 import { DataService } from "./data-service.js";
 import { exportPowerPoint } from "./exporters.js";
-import { generateQuestions } from "./quiz-engine.js";
+import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
   createPrintSheets,
+  gradeBlanks,
   interactivePossiblePoints,
   interactiveProgressText,
   interactiveTimerText,
   renderDifficultyCheckboxes,
   renderInteractive,
-  renderPeopleSelector,
+  renderPeopleList,
   renderPreview,
   renderPreviewMeta,
-  renderProfiles,
   renderSourceCheckboxes,
   renderScopeSelector,
   renderTypeCheckboxes,
@@ -35,6 +38,7 @@ import {
   deleteActiveProfile,
   getActiveProfile,
   loadState,
+  moveProfile,
   saveState,
 } from "./storage.js";
 import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
@@ -46,6 +50,8 @@ const appState = {
   years: [],
   manifest: null,
   generatedQuestions: [],
+  fibContext: null,
+  generationRun: 0,
   unmet: [],
   interactive: {
     questions: [],
@@ -70,11 +76,22 @@ const el = {
   scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
   scopeModeVerseBtn: document.getElementById("scopeModeVerseBtn"),
   newProfileBtn: document.getElementById("newProfileBtn"),
-  saveProfileBtn: document.getElementById("saveProfileBtn"),
   deleteProfileBtn: document.getElementById("deleteProfileBtn"),
-  activeProfileSelect: document.getElementById("activeProfileSelect"),
   profileNameInput: document.getElementById("profileNameInput"),
-  printPeopleSelector: document.getElementById("printPeopleSelector"),
+  peopleList: document.getElementById("peopleList"),
+  peopleAnnouncer: document.getElementById("peopleAnnouncer"),
+  typeMixHelp: document.getElementById("typeMixHelp"),
+  fillInBlankFieldset: document.getElementById("fillInBlankFieldset"),
+  blankModeRadios: document.querySelectorAll('input[name="blankMode"]'),
+  blankCustomFields: document.getElementById("blankCustomFields"),
+  blankUnitCountBtn: document.getElementById("blankUnitCountBtn"),
+  blankUnitPercentBtn: document.getElementById("blankUnitPercentBtn"),
+  blankMinLabel: document.getElementById("blankMinLabel"),
+  blankMaxLabel: document.getElementById("blankMaxLabel"),
+  blankMinInput: document.getElementById("blankMinInput"),
+  blankMaxInput: document.getElementById("blankMaxInput"),
+  blankError: document.getElementById("blankError"),
+  blankCustomNote: document.getElementById("blankCustomNote"),
   togglePreviewBtn: document.getElementById("togglePreviewBtn"),
   printBtn: document.getElementById("printBtn"),
   pptBtn: document.getElementById("pptBtn"),
@@ -157,6 +174,10 @@ function ensureProfileState() {
   if (!active.settings.difficultyWeights || typeof active.settings.difficultyWeights !== "object") {
     active.settings.difficultyWeights = {};
   }
+  if (!active.settings.typeWeights || typeof active.settings.typeWeights !== "object") {
+    active.settings.typeWeights = {};
+  }
+  active.settings.fillInBlank = { ...DEFAULT_FILL_IN_BLANK, ...(active.settings.fillInBlank || {}) };
 
   if (!active.selectedScope || typeof active.selectedScope !== "object") {
     active.selectedScope = {};
@@ -177,6 +198,13 @@ function ensureProfileState() {
 
 function getActiveYear(active = getActiveProfile(appState.storage)) {
   return appState.years.find((year) => year.id === active.settings.yearId) || appState.years[0] || null;
+}
+
+// Start from everything the year covers, including verse ranges within a chapter
+function seedScopeFromYear(active) {
+  const year = getActiveYear(active);
+  active.selectedScope = structuredClone(year?.scope || {});
+  active.selectedVerses = structuredClone(year?.verses || {});
 }
 
 function getScopeForActive(active = getActiveProfile(appState.storage)) {
@@ -204,7 +232,8 @@ function renderControls() {
     settings.difficultyWeights
   );
   renderSourceCheckboxes(el.sourceCheckboxes, QUESTION_SOURCES, settings.selectedSources);
-  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPE_GROUP_IDS, settings.selectedTypes);
+  renderTypeCheckboxes(el.typeCheckboxes, QUESTION_TYPE_GROUP_IDS, settings.selectedTypes, settings.typeWeights);
+  renderFillInBlankControls(settings);
   renderScopeSelector(el.scopeSelector, appState.manifest, getScopeForActive(), {
     scopeLimit: getActiveYear()?.scope || {},
     selectorMode: settings.selectorMode,
@@ -213,6 +242,63 @@ function renderControls() {
   });
   el.scopeSelector.scrollTop = 0;
   updateSelectorModeControls(settings.selectorMode);
+}
+
+// --- Fill in the Blank settings ---
+
+function renderFillInBlankControls(settings) {
+  const config = settings.fillInBlank;
+  const visible = settings.selectedTypes.includes("fill_in_blank");
+  el.fillInBlankFieldset.hidden = !visible;
+  el.typeMixHelp.hidden = settings.selectedTypes.length < 2;
+
+  el.blankModeRadios.forEach((radio) => {
+    radio.checked = radio.value === config.mode;
+  });
+  el.blankCustomFields.hidden = config.mode !== "custom";
+
+  const percent = config.unit === "percent";
+  el.blankUnitCountBtn.classList.toggle("is-active", !percent);
+  el.blankUnitPercentBtn.classList.toggle("is-active", percent);
+  el.blankUnitCountBtn.setAttribute("aria-pressed", percent ? "false" : "true");
+  el.blankUnitPercentBtn.setAttribute("aria-pressed", percent ? "true" : "false");
+  el.blankMinLabel.textContent = percent ? "Smallest percent of words" : "Fewest blanks";
+  el.blankMaxLabel.textContent = percent ? "Largest percent of words" : "Most blanks";
+  el.blankMinInput.max = percent ? "100" : "";
+  el.blankMaxInput.max = percent ? "100" : "";
+  el.blankMinInput.value = String(percent ? config.minPercent : config.minBlanks);
+  el.blankMaxInput.value = String(percent ? config.maxPercent : config.maxBlanks);
+  el.blankCustomNote.textContent = percent
+    ? "Each verse blanks a random share between these, rounded to whole words. Questions are still labelled easy, medium or hard by the share blanked, and only the difficulties you ticked are used."
+    : "Each verse blanks a random number of words between these (never more than the verse has). Questions are still labelled easy, medium or hard by the share blanked, and only the difficulties you ticked are used.";
+  showBlankErrors(config);
+}
+
+function showBlankErrors(config) {
+  const errors = validateCustomBlanks(config);
+  const showing = config.mode === "custom";
+  el.blankError.textContent = showing ? errors.max || errors.min || "" : "";
+  el.blankMinInput.setAttribute("aria-invalid", showing && errors.min ? "true" : "false");
+  el.blankMaxInput.setAttribute("aria-invalid", showing && errors.max ? "true" : "false");
+  return showing ? Object.keys(errors).length === 0 : true;
+}
+
+function syncFillInBlankFromControls(settings) {
+  const config = { ...DEFAULT_FILL_IN_BLANK, ...(settings.fillInBlank || {}) };
+  const checked = Array.from(el.blankModeRadios).find((radio) => radio.checked);
+  config.mode = checked?.value === "custom" ? "custom" : "difficulty";
+
+  const min = Number(el.blankMinInput.value);
+  const max = Number(el.blankMaxInput.value);
+  if (config.unit === "percent") {
+    config.minPercent = min;
+    config.maxPercent = max;
+  } else {
+    config.minBlanks = min;
+    config.maxBlanks = max;
+  }
+  settings.fillInBlank = config;
+  return showBlankErrors(config);
 }
 
 function updateSelectorModeControls(mode) {
@@ -317,6 +403,16 @@ function questionMatchesAvailabilityFilters(question, settings) {
 async function buildAvailabilityMap(settings) {
   const availability = new Map();
 
+  // Fill-in-the-blank is made from the verses themselves, so every chapter qualifies
+  if (settings.selectedTypes.includes("fill_in_blank") && settings.selectedDifficulties.length > 0) {
+    for (const book of appState.manifest.books) {
+      for (const chapter of book.chapters) {
+        availability.set(`${book.id}:${chapter.number}`, true);
+      }
+    }
+    return availability;
+  }
+
   await Promise.all(
     appState.manifest.books.flatMap((book) =>
       book.chapters.map(async (chapter) => {
@@ -411,16 +507,156 @@ async function refreshScopeSelectorForFilters() {
 }
 
 function renderProfileArea() {
-  renderProfiles(el.activeProfileSelect, appState.storage.profiles, appState.storage.activeProfileId);
-
   const active = getActiveProfile(appState.storage);
   el.profileNameInput.value = active.name;
 
-  renderPeopleSelector(
-    el.printPeopleSelector,
+  renderPeopleList(
+    el.peopleList,
     appState.storage.profiles,
+    appState.storage.activeProfileId,
     appState.storage.selectedPrintPeopleIds
   );
+}
+
+function announcePeople(message) {
+  el.peopleAnnouncer.textContent = "";
+  // Re-setting the text on the next frame makes screen readers repeat a message
+  window.requestAnimationFrame(() => {
+    el.peopleAnnouncer.textContent = message;
+  });
+}
+
+function activateProfile(id) {
+  appState.storage.activeProfileId = id;
+  ensureProfileState();
+  saveState(appState.storage);
+  renderProfileArea();
+  renderControls();
+  refreshScopeThenGenerate();
+}
+
+function reorderPerson(id, toIndex, focusRole = null) {
+  if (!moveProfile(appState.storage, id, toIndex)) {
+    return;
+  }
+  saveState(appState.storage);
+  renderProfileArea();
+
+  const profiles = appState.storage.profiles;
+  const position = profiles.findIndex((profile) => profile.id === id);
+  const row = el.peopleList.querySelector(`.person-row[data-id="${id}"]`);
+  const target =
+    (focusRole && row?.querySelector(`[data-role="${focusRole}"]:not(:disabled)`)) ||
+    row?.querySelector(".person-move:not(:disabled)");
+  target?.focus();
+  announcePeople(`${profiles[position].name} moved to position ${position + 1} of ${profiles.length}.`);
+}
+
+// Where a dragged person would land: before or after the row under the pointer
+function dropTarget(event) {
+  const row = event.target.closest?.(".person-row");
+  if (!row) {
+    return null;
+  }
+  const box = row.getBoundingClientRect();
+  return { row, after: event.clientY > box.top + box.height / 2 };
+}
+
+function clearDropMarkers() {
+  el.peopleList.querySelectorAll(".drop-before, .drop-after, .is-dragging").forEach((node) => {
+    node.classList.remove("drop-before", "drop-after", "is-dragging");
+  });
+}
+
+function wirePeopleList() {
+  let draggedId = null;
+
+  el.peopleList.addEventListener("change", (event) => {
+    const target = event.target;
+    if (target.name === "activePerson") {
+      activateProfile(target.value);
+      return;
+    }
+
+    if (target.dataset.role === "person-print") {
+      const selected = Array.from(
+        el.peopleList.querySelectorAll('input[data-role="person-print"]:checked')
+      ).map((checkbox) => checkbox.value);
+
+      if (!selected.length) {
+        selected.push(appState.storage.activeProfileId);
+        const activeBox = el.peopleList.querySelector(
+          `input[data-role="person-print"][value="${appState.storage.activeProfileId}"]`
+        );
+        if (activeBox) {
+          activeBox.checked = true;
+        }
+      }
+
+      appState.storage.selectedPrintPeopleIds = selected;
+      saveState(appState.storage);
+    }
+  });
+
+  el.peopleList.addEventListener("click", (event) => {
+    const button = event.target.closest?.(".person-move");
+    if (!button) {
+      return;
+    }
+    const row = button.closest(".person-row");
+    const index = appState.storage.profiles.findIndex((profile) => profile.id === row.dataset.id);
+    const up = button.dataset.role === "move-up";
+    reorderPerson(row.dataset.id, index + (up ? -1 : 1), button.dataset.role);
+  });
+
+  el.peopleList.addEventListener("dragstart", (event) => {
+    const row = event.target.closest?.(".person-row");
+    if (!row || event.target !== row) {
+      return;
+    }
+    draggedId = row.dataset.id;
+    event.dataTransfer.effectAllowed = "move";
+    event.dataTransfer.setData("text/plain", draggedId);
+    row.classList.add("is-dragging");
+  });
+
+  el.peopleList.addEventListener("dragover", (event) => {
+    if (!draggedId) {
+      return;
+    }
+    event.preventDefault();
+    event.dataTransfer.dropEffect = "move";
+    const target = dropTarget(event);
+    el.peopleList.querySelectorAll(".drop-before, .drop-after").forEach((node) => {
+      node.classList.remove("drop-before", "drop-after");
+    });
+    if (target && target.row.dataset.id !== draggedId) {
+      target.row.classList.add(target.after ? "drop-after" : "drop-before");
+    }
+  });
+
+  el.peopleList.addEventListener("drop", (event) => {
+    if (!draggedId) {
+      return;
+    }
+    event.preventDefault();
+    const target = dropTarget(event);
+    const id = draggedId;
+    draggedId = null;
+    clearDropMarkers();
+    if (!target || target.row.dataset.id === id) {
+      return;
+    }
+
+    const ids = appState.storage.profiles.map((profile) => profile.id).filter((other) => other !== id);
+    const targetIndex = ids.indexOf(target.row.dataset.id);
+    reorderPerson(id, targetIndex + (target.after ? 1 : 0));
+  });
+
+  el.peopleList.addEventListener("dragend", () => {
+    draggedId = null;
+    clearDropMarkers();
+  });
 }
 
 function syncSettingsFromControls() {
@@ -447,6 +683,15 @@ function syncSettingsFromControls() {
   active.settings.selectedTypes = Array.from(
     el.typeCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
+  const typeWeights = {};
+  el.typeCheckboxes.querySelectorAll('input[data-role="type-weight"]').forEach((input) => {
+    const value = parseFloat(input.value);
+    if (!input.disabled && Number.isFinite(value) && value >= 0) {
+      typeWeights[input.dataset.type] = Math.min(value, 100);
+    }
+  });
+  active.settings.typeWeights = typeWeights;
+  syncFillInBlankFromControls(active.settings);
 
   saveState(appState.storage);
 }
@@ -474,6 +719,7 @@ function syncScopeFromControls() {
   const active = getActiveProfile(appState.storage);
   const scope = {};
   const selectedVerses = {};
+  const previousVerses = active.selectedVerses || {};
 
   el.scopeSelector.querySelectorAll('[data-role="chapter-toggle"]').forEach((toggle) => {
     if (!toggle.checked) {
@@ -493,7 +739,12 @@ function syncScopeFromControls() {
       )
     );
 
+    // Chapter mode shows no verse boxes: keep any verse choices (e.g. from the year) as they were
     if (!verseToggles.length) {
+      const kept = previousVerses[chapterScopeKey(bookId, chapter)];
+      if (Array.isArray(kept)) {
+        selectedVerses[chapterScopeKey(bookId, chapter)] = kept;
+      }
       return;
     }
 
@@ -869,18 +1120,9 @@ function togglePreview() {
 }
 
 // Loads whole chapters (shared and de-duplicated by the data service) rather
-// than one request per verse, retrying once since the Bible API can drop requests.
-async function loadChapterVerses(bookId, chapter) {
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    try {
-      const verses = await dataService.loadNkjvChapter(bookId, chapter);
-      if (verses.length) return verses;
-    } catch {
-      // retry below
-    }
-    await new Promise((resolve) => setTimeout(resolve, 400 * (attempt + 1)));
-  }
-  return [];
+// than one request per verse, retrying since the Bible API can drop requests.
+function loadChapterVerses(bookId, chapter) {
+  return dataService.loadNkjvChapterWithRetry(bookId, chapter);
 }
 
 async function loadVersesForQuestions(questions) {
@@ -1062,7 +1304,7 @@ async function downloadPowerPoint() {
     }
 
     const verses = await loadVersesForQuestions(questions);
-    const missing = verses.filter((list) => !list.length).length;
+    const missing = verses.filter((list, index) => !list.length && !questions[index].generated).length;
     await exportPowerPoint({
       questions,
       verses,
@@ -1128,7 +1370,11 @@ function expireCurrentQuestion() {
 function goToInteractiveQuestion(index) {
   expireCurrentQuestion();
   const state = appState.interactive;
+  const wasComplete = state.complete;
   state.complete = index >= state.questions.length;
+  if (state.complete && !wasComplete) {
+    launchConfetti();
+  }
   state.index = Math.max(0, Math.min(index, state.questions.length - 1));
   showInteractive();
 }
@@ -1151,30 +1397,65 @@ async function fillInteractiveVerse(question, index) {
   }
 }
 
+// Same verses, different words blanked, in a new order
+function practiceAgain() {
+  const state = appState.interactive;
+  const seed = Date.now();
+  stopQuestionTimer();
+  const questions = shuffle(reblankQuestions(state.questions, state.fibContext, seed), seed);
+  appState.interactive = {
+    ...state,
+    questions,
+    index: 0,
+    complete: false,
+    timerRun: null,
+    results: questions.map(newInteractiveResult),
+  };
+  showInteractive();
+  setStatus("New blanks ready. Same verses, different words.", "ok");
+}
+
+function newInteractiveResult() {
+  return {
+    input: "",
+    status: "unanswered",
+    autoCorrect: false,
+    awarded: 0,
+    remainingMs: null,
+    expired: false,
+    playedTen: false,
+    playedUp: false,
+  };
+}
+
 function bindInteractiveControls() {
   const state = appState.interactive;
   const prevBtn = document.getElementById("interactivePrevBtn");
 
   if (state.complete) {
     prevBtn?.addEventListener("click", () => goToInteractiveQuestion(state.questions.length - 1));
+    document.getElementById("interactivePracticeAgainBtn")?.addEventListener("click", practiceAgain);
     return;
   }
 
   const submitBtn = document.getElementById("interactiveSubmitBtn");
   const revealBtn = document.getElementById("interactiveRevealBtn");
   const nextBtn = document.getElementById("interactiveNextBtn");
-  const input = document.getElementById("interactiveAnswerInput");
   const panel = document.getElementById("interactiveAnswerPanel");
-
-  if (!submitBtn || !revealBtn || !nextBtn || !prevBtn || !input || !panel) {
-    return;
-  }
 
   const index = state.index;
   const question = state.questions[index];
   const result = state.results[index];
+  const isBlankQuiz = Boolean(question.segments);
+  const input = document.getElementById("interactiveAnswerInput");
+  const blankInputs = Array.from(el.interactiveContainer.querySelectorAll(".fib-input"));
 
-  if (result.status !== "unanswered") {
+  if (!submitBtn || !revealBtn || !nextBtn || !prevBtn || !panel || (!isBlankQuiz && !input)) {
+    return;
+  }
+
+  // Generated questions already carry their verse; written ones fetch the full text
+  if (result.status !== "unanswered" && !isBlankQuiz) {
     fillInteractiveVerse(question, index);
   }
 
@@ -1184,15 +1465,39 @@ function bindInteractiveControls() {
     document.getElementById("interactiveAnswerPanel")?.scrollIntoView({ block: "nearest" });
   };
 
-  input.addEventListener("input", () => {
-    result.input = input.value;
-  });
+  const readBlanks = () => blankInputs.map((box) => box.value);
 
-  input.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      submitBtn.click();
+  if (isBlankQuiz) {
+    blankInputs.forEach((box, boxIndex) => {
+      box.addEventListener("input", () => {
+        result.inputs[boxIndex] = box.value;
+      });
+      // Enter moves along the blanks and submits from the last one
+      box.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") return;
+        event.preventDefault();
+        const next = blankInputs.slice(boxIndex + 1).find((other) => !other.readOnly);
+        if (next) {
+          next.focus();
+        } else {
+          submitBtn.click();
+        }
+      });
+    });
+    if (result.status === "unanswered" && !result.expired) {
+      blankInputs.find((box) => !box.readOnly && !box.value)?.focus({ preventScroll: true });
     }
-  });
+  } else {
+    input.addEventListener("input", () => {
+      result.input = input.value;
+    });
+
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        submitBtn.click();
+      }
+    });
+  }
 
   // Returns false when the click was ignored (nothing changed)
   const submitAnswer = () => {
@@ -1200,6 +1505,21 @@ function bindInteractiveControls() {
     if (state.options.realistic && result.expired && !result.autoSubmit) {
       return false;
     }
+
+    if (isBlankQuiz) {
+      const values = readBlanks();
+      if (result.status === "submitted") {
+        return false;
+      }
+      result.inputs = values;
+      result.status = "submitted";
+      // Blanks filled by a hint hold the right word, so hints never change the score
+      result.blankCorrect = gradeBlanks(question, values);
+      result.autoCorrect = result.blankCorrect.every(Boolean);
+      result.awarded = result.blankCorrect.filter(Boolean).length;
+      return true;
+    }
+
     // Re-submitting the same text must not wipe points the user already adjusted
     if (result.status === "submitted" && result.submittedInput === input.value) {
       return false;
@@ -1218,8 +1538,22 @@ function bindInteractiveControls() {
     }
   });
 
+  document.getElementById("interactiveHintBtn")?.addEventListener("click", () => {
+    if (result.status !== "unanswered") return;
+    result.inputs = readBlanks();
+    const open = question.blankWords.map((_, i) => i).filter((i) => !result.hinted.includes(i));
+    const next = open.find((i) => !result.inputs[i]?.trim()) ?? open[0];
+    if (next === undefined) return;
+    result.inputs[next] = question.blankWords[next];
+    result.hinted.push(next);
+    refresh();
+  });
+
   revealBtn.addEventListener("click", () => {
     if (result.status === "unanswered") {
+      if (isBlankQuiz) {
+        result.inputs = readBlanks();
+      }
       result.status = "revealed";
       result.awarded = 0;
     }
@@ -1357,20 +1691,12 @@ async function startInteractiveQuiz() {
 
   appState.interactive = {
     questions: appState.generatedQuestions,
+    fibContext: appState.fibContext,
     index: 0,
     options,
     audioElements,
     timerRun: null,
-    results: appState.generatedQuestions.map(() => ({
-      input: "",
-      status: "unanswered",
-      autoCorrect: false,
-      awarded: 0,
-      remainingMs: null,
-      expired: false,
-      playedTen: false,
-      playedUp: false,
-    })),
+    results: appState.generatedQuestions.map(newInteractiveResult),
     complete: false,
   };
 
@@ -1387,6 +1713,22 @@ async function generateAndRender() {
   const year = getActiveYear();
   const scope = getScopeForActive();
 
+  const config = active.settings.fillInBlank;
+  if (active.settings.selectedTypes.includes("fill_in_blank") && config.mode === "custom") {
+    if (Object.keys(validateCustomBlanks(config)).length) {
+      setStatus("Fix the Fill in the Blank settings to generate questions.", "warn");
+      return;
+    }
+  }
+
+  // Verse downloads can take a moment, so only the newest request may update the page
+  appState.generationRun += 1;
+  const run = appState.generationRun;
+  const usesVerses = active.settings.selectedTypes.includes("fill_in_blank");
+  if (usesVerses) {
+    setStatus("Preparing fill-in-the-blank questions…");
+  }
+
   const result = await generateQuestions({
     dataService,
     year,
@@ -1395,9 +1737,19 @@ async function generateAndRender() {
     chapterWeights: active.chapterWeights || {},
     settings: active.settings,
     seed: Date.now(),
+    onProgress: ({ done, total }) => {
+      if (run === appState.generationRun && done < total) {
+        setStatus(`Downloading verses… ${done} of ${total} chapters ready`);
+      }
+    },
   });
 
+  if (run !== appState.generationRun) {
+    return;
+  }
+
   appState.generatedQuestions = result.questions;
+  appState.fibContext = result.fibContext || null;
   appState.unmet = result.unmet;
 
   renderQuestionBankStats(result.stats);
@@ -1428,7 +1780,9 @@ function wireEvents() {
     renderProfileArea();
     renderControls();
     refreshScopeThenGenerate();
-    setStatus("Created a new person profile.", "ok");
+    el.profileNameInput.focus();
+    el.profileNameInput.select();
+    setStatus("Created a new person. Type a name above.", "ok");
   });
 
   el.deleteProfileBtn.addEventListener("click", () => {
@@ -1452,47 +1806,78 @@ function wireEvents() {
     setStatus("Deleted active profile.", "ok");
   });
 
-  el.saveProfileBtn.addEventListener("click", () => {
+  // Names save as you type; settings and scope already save as they change
+  el.profileNameInput.addEventListener("input", () => {
     const active = getActiveProfile(appState.storage);
-    active.name = el.profileNameInput.value.trim() || active.name;
-    syncSettingsFromControls();
-    syncScopeFromControls();
-    saveState(appState.storage);
-    renderProfileArea();
-    queueRealtimeGenerate();
-    setStatus("Saved active profile settings.", "ok");
-  });
-
-  el.activeProfileSelect.addEventListener("change", () => {
-    appState.storage.activeProfileId = el.activeProfileSelect.value;
-    ensureProfileState();
-    saveState(appState.storage);
-    renderProfileArea();
-    renderControls();
-    refreshScopeThenGenerate();
-  });
-
-  el.printPeopleSelector.addEventListener("change", () => {
-    const selected = Array.from(
-      el.printPeopleSelector.querySelectorAll('input[type="checkbox"]:checked')
-    ).map((checkbox) => checkbox.value);
-
-    if (!selected.length) {
-      const active = getActiveProfile(appState.storage);
-      selected.push(active.id);
-      const activeCheckbox = el.printPeopleSelector.querySelector(`input[value="${active.id}"]`);
-      if (activeCheckbox) {
-        activeCheckbox.checked = true;
-      }
+    const name = el.profileNameInput.value.trim();
+    if (!name) {
+      return;
     }
-
-    appState.storage.selectedPrintPeopleIds = selected;
+    active.name = name;
     saveState(appState.storage);
+    const label = el.peopleList.querySelector(`.person-row[data-id="${active.id}"] .person-name`);
+    if (label) {
+      label.textContent = name;
+    }
   });
 
-  el.typeCheckboxes.addEventListener("change", () => {
+  el.profileNameInput.addEventListener("blur", () => {
+    el.profileNameInput.value = getActiveProfile(appState.storage).name;
+    renderProfileArea();
+  });
+
+  wirePeopleList();
+
+  el.typeCheckboxes.addEventListener("change", (event) => {
+    if (event.target.dataset.role === "type-weight") {
+      syncSettingsFromControls();
+      queueRealtimeGenerate();
+      return;
+    }
+    // Keep each percent box enabled only while its type is checked
+    el.typeCheckboxes.querySelectorAll("label").forEach((label) => {
+      const box = label.querySelector('input[type="checkbox"]');
+      const weight = label.querySelector('input[data-role="type-weight"]');
+      if (weight) weight.disabled = !box.checked;
+    });
     syncSettingsFromControls();
+    renderFillInBlankControls(getActiveProfile(appState.storage).settings);
     refreshScopeThenGenerate();
+  });
+
+  el.blankModeRadios.forEach((radio) => {
+    radio.addEventListener("change", () => {
+      syncSettingsFromControls();
+      renderFillInBlankControls(getActiveProfile(appState.storage).settings);
+      queueRealtimeGenerate();
+    });
+  });
+
+  const setBlankUnit = (unit) => {
+    const settings = getActiveProfile(appState.storage).settings;
+    if (settings.fillInBlank.unit === unit) {
+      return;
+    }
+    syncSettingsFromControls();
+    settings.fillInBlank.unit = unit;
+    saveState(appState.storage);
+    renderFillInBlankControls(settings);
+    queueRealtimeGenerate();
+  };
+  el.blankUnitCountBtn.addEventListener("click", () => setBlankUnit("count"));
+  el.blankUnitPercentBtn.addEventListener("click", () => setBlankUnit("percent"));
+
+  [el.blankMinInput, el.blankMaxInput].forEach((input) => {
+    // Show problems while typing, but only regenerate once the values are valid
+    input.addEventListener("input", () => {
+      syncSettingsFromControls();
+    });
+    input.addEventListener("change", () => {
+      if (syncFillInBlankFromControls(getActiveProfile(appState.storage).settings)) {
+        saveState(appState.storage);
+        queueRealtimeGenerate();
+      }
+    });
   });
 
   el.difficultyCheckboxes.addEventListener("change", (event) => {
@@ -1519,8 +1904,7 @@ function wireEvents() {
   el.yearSelect.addEventListener("change", () => {
     const active = getActiveProfile(appState.storage);
     active.settings.yearId = el.yearSelect.value;
-    active.selectedScope = structuredClone(getActiveYear()?.scope || {});
-    active.selectedVerses = {};
+    seedScopeFromYear(active);
     saveState(appState.storage);
     renderControls();
     refreshScopeThenGenerate();
@@ -1583,7 +1967,7 @@ async function bootstrap() {
     }
 
     if (!Object.keys(active.selectedScope).length) {
-      active.selectedScope = structuredClone(getActiveYear()?.scope || {});
+      seedScopeFromYear(active);
     }
 
     renderProfileArea();
