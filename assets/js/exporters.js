@@ -561,6 +561,10 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
   const slug = (value) => safeText(value).replace(/[^\w-]+/g, "-").replace(/^-+|-+$/g, "");
   const nameParts = [slug(safeText(yearName, "2026-2027"))];
   const fileName = `PBE-Quiz-${nameParts.join("-")}-${datePart}.pptx`;
-  const blob = await zip.generateAsync({ type: "blob" });
+  const blob = await zip.generateAsync({
+    type: "blob",
+    compression: "DEFLATE",
+    compressionOptions: { level: 6 },
+  });
   triggerDownload(blob, fileName);
 }
