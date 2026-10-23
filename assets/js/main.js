@@ -13,7 +13,7 @@ import {
 } from "./constants.js";
 import { validateCustomBlanks } from "./blank-engine.js";
 import { launchConfetti } from "./confetti.js";
-import { DataService } from "./data-service.js";
+import { DataService, pickDefaultYear } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { loadVendor } from "./lazy-vendor.js";
@@ -2095,7 +2095,7 @@ async function bootstrap() {
 
     const active = getActiveProfile(appState.storage);
     if (!active.settings.yearId || !appState.years.some((year) => year.id === active.settings.yearId)) {
-      active.settings.yearId = appState.years[0].id;
+      active.settings.yearId = pickDefaultYear(appState.years).id;
     }
 
     if (!Object.keys(active.selectedScope).length) {

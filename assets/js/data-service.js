@@ -176,6 +176,30 @@ export function buildIntroVerses(commentary) {
   return verses;
 }
 
+// Seasons are named "2026-2027" and start in July, so in October 2026 the current
+// season is 2026-2027 and in March 2027 it still is.
+const SEASON_START_MONTH = 6;
+
+export function currentSeasonStart(now = new Date()) {
+  return now.getMonth() >= SEASON_START_MONTH ? now.getFullYear() : now.getFullYear() - 1;
+}
+
+// The season to open on: the current one, else the latest earlier season that has
+// chapters, else the first in the list
+export function pickDefaultYear(years, now = new Date()) {
+  const start = currentSeasonStart(now);
+  const seasons = (years || [])
+    .map((year) => ({ year, start: Number(/^(\d{4})-\d{4}$/.exec(String(year.name))?.[1]) }))
+    .filter((season) => Number.isInteger(season.start) && Object.keys(season.year.scope || {}).length > 0);
+
+  const exact = seasons.find((season) => season.start === start);
+  if (exact) {
+    return exact.year;
+  }
+  const earlier = seasons.filter((season) => season.start < start).sort((a, b) => b.start - a.start)[0];
+  return earlier?.year || years?.[0] || null;
+}
+
 function loadScriptOnce(src) {
   return new Promise((resolve, reject) => {
     const script = document.createElement("script");

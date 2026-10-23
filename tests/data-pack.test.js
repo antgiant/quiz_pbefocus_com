@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { DataService } from "../assets/js/data-service.js";
+import { DataService, currentSeasonStart, pickDefaultYear } from "../assets/js/data-service.js";
 import { loadVendor } from "../assets/js/lazy-vendor.js";
 import { PackStore } from "../assets/js/pack-store.js";
 
@@ -197,5 +197,32 @@ describe("loadVendor", () => {
 
   it("rejects an unknown bundle", async () => {
     await expect(loadVendor("nope")).rejects.toThrow(/Unknown vendor/);
+  });
+});
+
+describe("default season", () => {
+  const years = [
+    { id: "2011-2012", name: "2011-2012", scope: { "41-mark": [1] } },
+    { id: "2026-current", name: "2026-2027", scope: { "41-mark": [1] } },
+    { id: "2027-2028", name: "2027-2028", scope: { "23-isaiah": [34] } },
+    { id: "2030-2031", name: "2030-2031", scope: {} },
+    { id: "custom-all", name: "Custom - Entire Bible", scope: { "41-mark": [1] } },
+  ];
+
+  it("starts a season in July", () => {
+    expect(currentSeasonStart(new Date(2026, 5, 30))).toBe(2025);
+    expect(currentSeasonStart(new Date(2026, 6, 1))).toBe(2026);
+    expect(currentSeasonStart(new Date(2027, 2, 15))).toBe(2026);
+  });
+
+  it("opens on the current season", () => {
+    expect(pickDefaultYear(years, new Date(2026, 9, 23)).id).toBe("2026-current");
+    expect(pickDefaultYear(years, new Date(2027, 8, 1)).id).toBe("2027-2028");
+  });
+
+  it("falls back to the latest earlier season with chapters, then the first", () => {
+    expect(pickDefaultYear(years, new Date(2030, 9, 1)).id).toBe("2027-2028");
+    expect(pickDefaultYear(years, new Date(2005, 9, 1)).id).toBe("2011-2012");
+    expect(pickDefaultYear([{ id: "x", name: "Custom", scope: {} }], new Date()).id).toBe("x");
   });
 });

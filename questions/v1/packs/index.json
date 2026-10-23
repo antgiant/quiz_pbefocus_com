@@ -3,12 +3,12 @@
   "version": 1,
   "years": {
     "2011-2012": {
-      "path": "packs/2011-2012.6087c7e7a8a4.json",
-      "hash": "6087c7e7a8a4",
+      "path": "packs/2011-2012.1836bb8c5e56.json",
+      "hash": "1836bb8c5e56",
       "chapters": 16,
-      "questions": 2410,
-      "bytes": 1160175,
-      "gzipBytes": 153641
+      "questions": 2440,
+      "bytes": 1173337,
+      "gzipBytes": 154966
     },
     "2020-2021": {
       "path": "packs/2020-2021.272dc044b40d.json",
@@ -19,12 +19,12 @@
       "gzipBytes": 33299
     },
     "2026-2027": {
-      "path": "packs/2026-2027.e93b17e3f8a1.json",
-      "hash": "e93b17e3f8a1",
+      "path": "packs/2026-2027.774e0b371b5c.json",
+      "hash": "774e0b371b5c",
       "chapters": 31,
-      "questions": 3456,
-      "bytes": 1655741,
-      "gzipBytes": 208859
+      "questions": 3486,
+      "bytes": 1668903,
+      "gzipBytes": 210199
     }
   }
 }

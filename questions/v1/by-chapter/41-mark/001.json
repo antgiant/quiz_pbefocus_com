@@ -520,6 +520,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-004-004-2d7fd0ff",
+      "ref": {
+        "startVerse": 4,
+        "endVerse": 4
+      },
+      "question": "According to Mark 1:4, what was John doing in the wilderness?",
+      "answer": "baptizing, and preaching a baptism of repentance",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-004-004-2d7fd0ff"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-005-005-cfbcf204",
       "ref": {
         "startVerse": 5,
@@ -616,6 +635,25 @@
       "createdBy": "Karen Garcia",
       "createdOn": "2026-07-10T10:15:49-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-005-005-7403093e",
+      "ref": {
+        "startVerse": 5,
+        "endVerse": 5
+      },
+      "question": "According to Mark 1:5, which groups of people went out with John to the Jordan River?",
+      "answer": "all the land of Judea, those from Jerusalem",
+      "type": "list",
+      "points": 2,
+      "originalIds": [
+        "41-001-005-005-7403093e"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-006-006-ad0dfe4e",
@@ -734,6 +772,25 @@
       "createdBy": "Karen Garcia",
       "createdOn": "2026-07-10T10:15:49-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-006-006-40b5bae2",
+      "ref": {
+        "startVerse": 6,
+        "endVerse": 6
+      },
+      "question": "According to Mark 1:6, what was John clothed with?",
+      "answer": "camel's hair",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-006-006-40b5bae2"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-007-007-b3cc0fd7",
@@ -1255,6 +1312,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-010-010-40d00ebb",
+      "ref": {
+        "startVerse": 10,
+        "endVerse": 10
+      },
+      "question": "According to Mark 1:10, what did the Spirit descend as?",
+      "answer": "dove",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-010-010-40d00ebb"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-011-011-fa885704",
       "ref": {
         "startVerse": 11,
@@ -1633,6 +1709,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-013-013-2daf8129",
+      "ref": {
+        "startVerse": 13,
+        "endVerse": 13
+      },
+      "question": "According to Mark 1:13, how long was Jesus tempted in the wilderness?",
+      "answer": "forty days",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-013-013-2daf8129"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-014-014-eeacda43",
       "ref": {
         "startVerse": 14,
@@ -1732,6 +1827,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-014-014-dde3d1fb",
+      "ref": {
+        "startVerse": 14,
+        "endVerse": 14
+      },
+      "question": "According to Mark 1:14, what was Jesus preaching about?",
+      "answer": "the kingdom of God",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-014-014-dde3d1fb"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-015-015-e1e6d37b",
       "ref": {
         "startVerse": 15,
@@ -1825,6 +1939,25 @@
       "createdBy": "codex-gpt-5",
       "createdOn": "2026-07-09T12:47:56-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-015-015-2f384116",
+      "ref": {
+        "startVerse": 15,
+        "endVerse": 15
+      },
+      "question": "According to Mark 1:15, what did Jesus say to believe in?",
+      "answer": "the gospel",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-015-015-2f384116"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-016-016-17a51b80",
@@ -2055,6 +2188,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-017-017-520afdad",
+      "ref": {
+        "startVerse": 17,
+        "endVerse": 17
+      },
+      "question": "According to Mark 1:17, what did Jesus say He will make Simon and Andrew?",
+      "answer": "fishers of men",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-017-017-520afdad"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-018-018-59b80401",
       "ref": {
         "startVerse": 18,
@@ -2264,6 +2416,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-019-019-09281067",
+      "ref": {
+        "startVerse": 19,
+        "endVerse": 19
+      },
+      "question": "According to Mark 1:19, who did Jesus see mending their nets?",
+      "answer": "James the son of Zebedee, and John his brother",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-019-019-09281067"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-020-020-e6eea00d",
       "ref": {
         "startVerse": 20,
@@ -2386,6 +2557,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-020-020-b7efb0e3",
+      "ref": {
+        "startVerse": 20,
+        "endVerse": 20
+      },
+      "question": "According to Mark 1:20, who did James and John leave in their boat?",
+      "answer": "their father Zebedee, the hired servants",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-020-020-b7efb0e3"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-021-021-bef08ea4",
       "ref": {
         "startVerse": 21,
@@ -2505,6 +2695,25 @@
       "createdBy": "gemini-flash-lite-latest",
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-021-021-bfad4f72",
+      "ref": {
+        "startVerse": 21,
+        "endVerse": 21
+      },
+      "question": "According to Mark 1:21, when Jesus went to Capernaum, what did He do on the Sabbath?",
+      "answer": "He entered the synagogue and taught",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-021-021-bfad4f72"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-022-022-5c05275a",
@@ -2699,6 +2908,25 @@
       "createdBy": "gemini-flash-lite-latest",
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-023-023-d79d635c",
+      "ref": {
+        "startVerse": 23,
+        "endVerse": 23
+      },
+      "question": "According to Mark 1:23, what was wrong with the man in the synagogue?",
+      "answer": "he had an unclean spirit",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-023-023-d79d635c"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-024-024-a37a8c58",
@@ -3182,6 +3410,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-028-028-50b3b40f",
+      "ref": {
+        "startVerse": 28,
+        "endVerse": 28
+      },
+      "question": "According to Mark 1:28, where did Jesus's fame spread?",
+      "answer": "all the region of Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-028-028-50b3b40f"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-029-029-8468b420",
       "ref": {
         "startVerse": 29,
@@ -3278,6 +3525,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-029-029-bbc4567c",
+      "ref": {
+        "startVerse": 29,
+        "endVerse": 29
+      },
+      "question": "According to Mark 1:29, whose house did Jesus, James and John enter?",
+      "answer": "Simon and Andrew's",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-029-029-bbc4567c"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-030-030-77726f69",
       "ref": {
         "startVerse": 30,
@@ -3353,6 +3619,25 @@
       "createdBy": "gemini-flash-lite-latest",
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-030-030-aa4df919",
+      "ref": {
+        "startVerse": 30,
+        "endVerse": 30
+      },
+      "question": "According to Mark 1:30, what was Simon's wife's mother sick with?",
+      "answer": "a fever",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-030-030-aa4df919"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-031-031-1b6933b0",
@@ -3473,6 +3758,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-031-031-59351cc7",
+      "ref": {
+        "startVerse": 31,
+        "endVerse": 31
+      },
+      "question": "According to Mark 1:31, how did Jesus lift her up?",
+      "answer": "took her by the hand",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-031-031-59351cc7"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-032-032-42fa84df",
       "ref": {
         "startVerse": 32,
@@ -3569,6 +3873,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-032-032-d4e24896",
+      "ref": {
+        "startVerse": 32,
+        "endVerse": 32
+      },
+      "question": "According to Mark 1:32, when did the people of the town bring Jesus the people who were sick and demon possessed?",
+      "answer": "at evening, when the sun had set",
+      "type": "when",
+      "points": 2,
+      "originalIds": [
+        "41-001-032-032-d4e24896"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-033-033-f90f4ef2",
       "ref": {
         "startVerse": 33,
@@ -3650,6 +3973,25 @@
       "createdBy": "codex-gpt-5",
       "createdOn": "2026-07-09T12:47:56-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-033-033-53f62e3c",
+      "ref": {
+        "startVerse": 33,
+        "endVerse": 33
+      },
+      "question": "According to Mark 1:33, who was gathered together at the door?",
+      "answer": "the whole city",
+      "type": "who",
+      "points": 1,
+      "originalIds": [
+        "41-001-033-033-53f62e3c"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-034-034-1020a36b",
@@ -3780,6 +4122,25 @@
       "updatedOn": "2026-07-10T14:46:26+00:00"
     },
     {
+      "id": "41-001-034-034-8f6a2e99",
+      "ref": {
+        "startVerse": 34,
+        "endVerse": 34
+      },
+      "question": "According to Mark 1:34, why did Jesus not allow the demons to speak?",
+      "answer": "because they knew Him",
+      "type": "why",
+      "points": 1,
+      "originalIds": [
+        "41-001-034-034-8f6a2e99"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-035-035-caad610f",
       "ref": {
         "startVerse": 35,
@@ -3878,6 +4239,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-035-035-cdcb46e5",
+      "ref": {
+        "startVerse": 35,
+        "endVerse": 35
+      },
+      "question": "According to Mark 1:35, what did Jesus do when He went to a solitary place?",
+      "answer": "He prayed",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-035-035-cdcb46e5"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-036-036-b4e577a7",
       "ref": {
         "startVerse": 36,
@@ -3952,6 +4332,25 @@
       "createdBy": "codex-gpt-5",
       "createdOn": "2026-07-09T12:47:56-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-036-036-c93b281c",
+      "ref": {
+        "startVerse": 36,
+        "endVerse": 36
+      },
+      "question": "According to Mark 1:36, who was searching for Jesus?",
+      "answer": "Simon, those who were with him",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-036-036-c93b281c"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-037-037-8e20c2ee",
@@ -4031,6 +4430,25 @@
       ],
       "createdOn": "2026-07-09T12:47:56-04:00",
       "updatedOn": "2026-07-10T14:46:26+00:00"
+    },
+    {
+      "id": "41-001-037-037-176ed0ae",
+      "ref": {
+        "startVerse": 37,
+        "endVerse": 37
+      },
+      "question": "According to Mark 1:37, when Simon and those who were with him found Jesus what did they tell Him?",
+      "answer": "everyone is looking for You",
+      "type": "what",
+      "points": 1,
+      "originalIds": [
+        "41-001-037-037-176ed0ae"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-038-038-edd162d9",
@@ -4135,6 +4553,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-038-038-25c24fd3",
+      "ref": {
+        "startVerse": 38,
+        "endVerse": 38
+      },
+      "question": "According to Mark 1:38, what did Jesus say to Simon and those who were with him?",
+      "answer": "let us go into the next towns, that I may preach there also",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-038-038-25c24fd3"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-039-039-b9078372",
       "ref": {
         "startVerse": 39,
@@ -4216,6 +4653,25 @@
       ],
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-039-039-4547514f",
+      "ref": {
+        "startVerse": 39,
+        "endVerse": 39
+      },
+      "question": "According to Mark 1:39, which region was He preaching in their synagogues?",
+      "answer": "Galilee",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-039-039-4547514f"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-040-040-1d978b34",
@@ -4337,6 +4793,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-040-040-8cba0601",
+      "ref": {
+        "startVerse": 40,
+        "endVerse": 40
+      },
+      "question": "According to Mark 1:40, what did the leper say to Jesus when kneeling down to Him?",
+      "answer": "if You are willing, You can make me clean",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-040-040-8cba0601"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-041-041-0460a1cd",
       "ref": {
         "startVerse": 41,
@@ -4456,6 +4931,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-041-041-9c27e92d",
+      "ref": {
+        "startVerse": 41,
+        "endVerse": 41
+      },
+      "question": "According to Mark 1:41, how did Jesus move when about to heal the leper?",
+      "answer": "with compassion",
+      "type": "how",
+      "points": 1,
+      "originalIds": [
+        "41-001-041-041-9c27e92d"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-042-042-c122333f",
       "ref": {
         "startVerse": 42,
@@ -4535,6 +5029,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-042-042-e1018112",
+      "ref": {
+        "startVerse": 42,
+        "endVerse": 42
+      },
+      "question": "According to Mark 1:42, as soon as Jesus had spoken, what happened after?",
+      "answer": "immediately the leprosy left him, and he was cleansed",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-042-042-e1018112"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-043-043-265af99c",
       "ref": {
         "startVerse": 43,
@@ -4609,6 +5122,25 @@
       "createdBy": "gemini-flash-lite-latest",
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-043-043-1a1c9bdc",
+      "ref": {
+        "startVerse": 43,
+        "endVerse": 43
+      },
+      "question": "According to Mark 1:43, what did He tell the leper after He healed him?",
+      "answer": "He strictly warned him, send him away at once",
+      "type": "what",
+      "points": 2,
+      "originalIds": [
+        "41-001-043-043-1a1c9bdc"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     },
     {
       "id": "41-001-044-044-7599faba",
@@ -4729,6 +5261,25 @@
       "updatedOn": "2026-07-10T10:31:28-04:00"
     },
     {
+      "id": "41-001-044-044-ee801d2a",
+      "ref": {
+        "startVerse": 44,
+        "endVerse": 44
+      },
+      "question": "According to Mark 1:44, whose commands did Jesus reference to the leper? and what was its purpose?",
+      "answer": "Moses, as a testimony to them",
+      "type": "who",
+      "points": 2,
+      "originalIds": [
+        "41-001-044-044-ee801d2a"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "medium",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
+    },
+    {
       "id": "41-001-045-045-ad5a327b",
       "ref": {
         "startVerse": 45,
@@ -4830,6 +5381,25 @@
       "createdBy": "gemini-flash-lite-latest",
       "createdOn": "2026-06-03T08:35:00-04:00",
       "updatedOn": "2026-07-10T10:31:28-04:00"
+    },
+    {
+      "id": "41-001-045-045-f28f510d",
+      "ref": {
+        "startVerse": 45,
+        "endVerse": 45
+      },
+      "question": "According to Mark 1:45, where did the people of the towns come to Jesus?",
+      "answer": "from every direction",
+      "type": "where",
+      "points": 1,
+      "originalIds": [
+        "41-001-045-045-f28f510d"
+      ],
+      "validatedBy": "Leah Chitu",
+      "difficulty": "easy",
+      "createdBy": "Leah Chitu",
+      "createdOn": "2026-09-17T00:00:00-04:00",
+      "updatedOn": "2026-10-22T22:34:15-04:00"
     }
   ],
   "byVerse": {
@@ -4865,14 +5435,16 @@
       "41-001-004-004-5ddafc57",
       "41-001-004-004-eea49d98",
       "41-001-004-004-68794ae2",
-      "41-001-004-004-134b5303"
+      "41-001-004-004-134b5303",
+      "41-001-004-004-2d7fd0ff"
     ],
     "5": [
       "41-001-005-005-cfbcf204",
       "41-001-005-005-63e99a42",
       "41-001-005-005-23071a15",
       "41-001-005-005-2d0a4080",
-      "41-001-005-005-9ee55806"
+      "41-001-005-005-9ee55806",
+      "41-001-005-005-7403093e"
     ],
     "6": [
       "41-001-006-006-ad0dfe4e",
@@ -4880,7 +5452,8 @@
       "41-001-006-006-a97bb94f",
       "41-001-006-006-53651aed",
       "41-001-006-006-eaae3ef9",
-      "41-001-006-006-a732c3e3"
+      "41-001-006-006-a732c3e3",
+      "41-001-006-006-40b5bae2"
     ],
     "7": [
       "41-001-007-007-b3cc0fd7",
@@ -4914,7 +5487,8 @@
       "41-001-010-010-e71de1bd",
       "41-001-010-010-eda936e2",
       "41-001-010-010-12a008e6",
-      "41-001-010-010-85b1cb93"
+      "41-001-010-010-85b1cb93",
+      "41-001-010-010-40d00ebb"
     ],
     "11": [
       "41-001-011-011-fa885704",
@@ -4939,21 +5513,24 @@
       "41-001-013-013-7a39e74f",
       "41-001-013-013-45d78342",
       "41-001-013-013-5d95426d",
-      "41-001-013-013-6de99411"
+      "41-001-013-013-6de99411",
+      "41-001-013-013-2daf8129"
     ],
     "14": [
       "41-001-014-014-eeacda43",
       "41-001-014-014-909127e9",
       "41-001-014-014-fb58b3b1",
       "41-001-014-014-fafa8c9f",
-      "41-001-014-014-bb9c7073"
+      "41-001-014-014-bb9c7073",
+      "41-001-014-014-dde3d1fb"
     ],
     "15": [
       "41-001-015-015-e1e6d37b",
       "41-001-015-015-e8ffac31",
       "41-001-015-015-6085afa8",
       "41-001-015-015-57229029",
-      "41-001-015-015-45d04af0"
+      "41-001-015-015-45d04af0",
+      "41-001-015-015-2f384116"
     ],
     "16": [
       "41-001-016-016-17a51b80",
@@ -4969,7 +5546,8 @@
       "41-001-017-017-6dec4b70",
       "41-001-017-017-f36112f1",
       "41-001-017-017-f6430e29",
-      "41-001-017-017-4e5d31aa"
+      "41-001-017-017-4e5d31aa",
+      "41-001-017-017-520afdad"
     ],
     "18": [
       "41-001-018-018-59b80401",
@@ -4984,7 +5562,8 @@
       "41-001-019-019-6ce75ed0",
       "41-001-019-019-22544c38",
       "41-001-019-019-1acf5b56",
-      "41-001-019-019-5694b27d"
+      "41-001-019-019-5694b27d",
+      "41-001-019-019-09281067"
     ],
     "20": [
       "41-001-020-020-e6eea00d",
@@ -4992,7 +5571,8 @@
       "41-001-020-020-6a002725",
       "41-001-020-020-2d9580fc",
       "41-001-020-020-93ee2a64",
-      "41-001-020-020-56de9e8b"
+      "41-001-020-020-56de9e8b",
+      "41-001-020-020-b7efb0e3"
     ],
     "21": [
       "41-001-021-021-bef08ea4",
@@ -5000,7 +5580,8 @@
       "41-001-021-021-9ef017b8",
       "41-001-021-021-6b0f3b24",
       "41-001-021-021-56e7fb9d",
-      "41-001-021-021-4b4bb386"
+      "41-001-021-021-4b4bb386",
+      "41-001-021-021-bfad4f72"
     ],
     "22": [
       "41-001-022-022-5c05275a",
@@ -5014,7 +5595,8 @@
       "41-001-023-023-f8640e74",
       "41-001-023-023-749adc8e",
       "41-001-023-023-899a0b13",
-      "41-001-023-023-dfb39c94"
+      "41-001-023-023-dfb39c94",
+      "41-001-023-023-d79d635c"
     ],
     "24": [
       "41-001-024-024-a37a8c58",
@@ -5048,20 +5630,23 @@
       "41-001-028-028-c7c22aec",
       "41-001-028-028-c10c80da",
       "41-001-028-028-3aae8c3b",
-      "41-001-028-028-a0bb0f11"
+      "41-001-028-028-a0bb0f11",
+      "41-001-028-028-50b3b40f"
     ],
     "29": [
       "41-001-029-029-8468b420",
       "41-001-029-029-0626f063",
       "41-001-029-029-503e2d6a",
       "41-001-029-029-e7737686",
-      "41-001-029-029-3df115b7"
+      "41-001-029-029-3df115b7",
+      "41-001-029-029-bbc4567c"
     ],
     "30": [
       "41-001-030-030-77726f69",
       "41-001-030-030-da03e8a5",
       "41-001-030-030-b54772bb",
-      "41-001-030-030-bd4f3910"
+      "41-001-030-030-bd4f3910",
+      "41-001-030-030-aa4df919"
     ],
     "31": [
       "41-001-031-031-1b6933b0",
@@ -5069,20 +5654,23 @@
       "41-001-031-031-da9ef14e",
       "41-001-031-031-e203b541",
       "41-001-031-031-2a7c51e9",
-      "41-001-031-031-3cfb5607"
+      "41-001-031-031-3cfb5607",
+      "41-001-031-031-59351cc7"
     ],
     "32": [
       "41-001-032-032-42fa84df",
       "41-001-032-032-16e5b550",
       "41-001-032-032-43e0d3ec",
       "41-001-032-032-f0fcaa1a",
-      "41-001-032-032-3568db42"
+      "41-001-032-032-3568db42",
+      "41-001-032-032-d4e24896"
     ],
     "33": [
       "41-001-033-033-f90f4ef2",
       "41-001-033-033-8c04e56b",
       "41-001-033-033-1d5da98a",
-      "41-001-033-033-03cd26ce"
+      "41-001-033-033-03cd26ce",
+      "41-001-033-033-53f62e3c"
     ],
     "34": [
       "41-001-034-034-1020a36b",
@@ -5090,39 +5678,45 @@
       "41-001-034-034-4fec739d",
       "41-001-034-034-fec522c4",
       "41-001-034-034-ac874f01",
-      "41-001-034-034-9bede8a2"
+      "41-001-034-034-9bede8a2",
+      "41-001-034-034-8f6a2e99"
     ],
     "35": [
       "41-001-035-035-caad610f",
       "41-001-035-035-2ac6bd70",
       "41-001-035-035-c03ef394",
       "41-001-035-035-a33c600b",
-      "41-001-035-035-cfc3a046"
+      "41-001-035-035-cfc3a046",
+      "41-001-035-035-cdcb46e5"
     ],
     "36": [
       "41-001-036-036-b4e577a7",
       "41-001-036-036-a68b79c6",
       "41-001-036-036-d1522430",
-      "41-001-036-036-45f6777c"
+      "41-001-036-036-45f6777c",
+      "41-001-036-036-c93b281c"
     ],
     "37": [
       "41-001-037-037-8e20c2ee",
       "41-001-037-037-d1e790d0",
       "41-001-037-037-e153fba3",
-      "41-001-037-037-66f90ff4"
+      "41-001-037-037-66f90ff4",
+      "41-001-037-037-176ed0ae"
     ],
     "38": [
       "41-001-038-038-edd162d9",
       "41-001-038-038-ab69389a",
       "41-001-038-038-8f83e8fd",
       "41-001-038-038-a0c41178",
-      "41-001-038-038-95b931c9"
+      "41-001-038-038-95b931c9",
+      "41-001-038-038-25c24fd3"
     ],
     "39": [
       "41-001-039-039-b9078372",
       "41-001-039-039-3d83148b",
       "41-001-039-039-824ebf90",
-      "41-001-039-039-d76c1dbd"
+      "41-001-039-039-d76c1dbd",
+      "41-001-039-039-4547514f"
     ],
     "40": [
       "41-001-040-040-1d978b34",
@@ -5130,7 +5724,8 @@
       "41-001-040-040-a7a934c9",
       "41-001-040-040-01d1ad26",
       "41-001-040-040-71ced043",
-      "41-001-040-040-4156529f"
+      "41-001-040-040-4156529f",
+      "41-001-040-040-8cba0601"
     ],
     "41": [
       "41-001-041-041-0460a1cd",
@@ -5138,19 +5733,22 @@
       "41-001-041-041-0d6bc563",
       "41-001-041-041-2e67ef33",
       "41-001-041-041-c647120d",
-      "41-001-041-041-b26a6762"
+      "41-001-041-041-b26a6762",
+      "41-001-041-041-9c27e92d"
     ],
     "42": [
       "41-001-042-042-c122333f",
       "41-001-042-042-9dacb445",
       "41-001-042-042-3715f881",
-      "41-001-042-042-543a6d9f"
+      "41-001-042-042-543a6d9f",
+      "41-001-042-042-e1018112"
     ],
     "43": [
       "41-001-043-043-265af99c",
       "41-001-043-043-636e0480",
       "41-001-043-043-3b1d9549",
-      "41-001-043-043-916ff4f7"
+      "41-001-043-043-916ff4f7",
+      "41-001-043-043-1a1c9bdc"
     ],
     "44": [
       "41-001-044-044-7599faba",
@@ -5158,14 +5756,16 @@
       "41-001-044-044-0b58482e",
       "41-001-044-044-21381275",
       "41-001-044-044-158e07c7",
-      "41-001-044-044-ddc915d3"
+      "41-001-044-044-ddc915d3",
+      "41-001-044-044-ee801d2a"
     ],
     "45": [
       "41-001-045-045-ad5a327b",
       "41-001-045-045-22e67e80",
       "41-001-045-045-8d57a630",
       "41-001-045-045-2b05f065",
-      "41-001-045-045-fc6370cd"
+      "41-001-045-045-fc6370cd",
+      "41-001-045-045-f28f510d"
     ]
   }
 }
