@@ -1,0 +1,30 @@
+{
+  "schema": "pbe.year.pack.index.v1",
+  "version": 1,
+  "years": {
+    "2011-2012": {
+      "path": "packs/2011-2012.6087c7e7a8a4.json",
+      "hash": "6087c7e7a8a4",
+      "chapters": 16,
+      "questions": 2410,
+      "bytes": 1160175,
+      "gzipBytes": 153641
+    },
+    "2020-2021": {
+      "path": "packs/2020-2021.272dc044b40d.json",
+      "hash": "272dc044b40d",
+      "chapters": 8,
+      "questions": 607,
+      "bytes": 288376,
+      "gzipBytes": 33299
+    },
+    "2026-2027": {
+      "path": "packs/2026-2027.e93b17e3f8a1.json",
+      "hash": "e93b17e3f8a1",
+      "chapters": 31,
+      "questions": 3456,
+      "bytes": 1655741,
+      "gzipBytes": 208859
+    }
+  }
+}

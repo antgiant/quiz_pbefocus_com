@@ -175,3 +175,16 @@ more often than down (anything 5 s or more past a step goes up): 1 pt = 30 s, 2 
 ## Next Enhancements
 
 - Add optional profile export/import JSON for sharing across devices.
+
+## Question Data Pipeline
+
+Everything derived from `questions/v1/by-chapter/**` is generated, not hand-edited:
+
+- `manifest.json`: books, chapters, verse/question counts and a content `hash` per chapter
+- `packs/<season>.<hash>.json` and `packs/index.json`: one pack per season with all of its chapters
+- `practice-years.bundle.js`, `practice-books.bundle.js`: script-tag copies of the practice JSON files
+
+Seasons are defined in `practice-chapters-by-year.json` (upcoming seasons through 2035-2036 are already listed).
+To add questions or a season, edit the source files and push to `main`: the
+`Build question data` GitHub Action regenerates and commits the rest. To do it locally run
+`npm run build:data`; `npm run check:data` fails when generated files are stale (the test suite checks this too).
