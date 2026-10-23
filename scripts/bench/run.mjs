@@ -1,7 +1,12 @@
 // Measures cold and warm page loads of a static site directory under throttled CPU and
 // network, the way GitHub Pages would serve it (gzip, ETag, max-age=600).
 //
-//   node scripts/bench/run.mjs --site <dir> [--runs 7] [--label name] [--net fast4g|slow4g|none] [--cpu 4]
+//   node scripts/bench/run.mjs --site <dir> [--runs 7] [--label name] [--net fast4g|slow4g|none] [--cpu 4] [--sw] [--dwell 12]
+//
+// Scenarios: "cold" (empty profile), "warm" (second visit while the HTTP cache is
+// fresh) and "return" (a later visit, after the HTTP cache lifetime has passed, so every
+// file must be revalidated unless a service worker answers).
+// --sw opens the page with ?sw=1 so the service worker registers.
 //
 // Needs Playwright (PLAYWRIGHT_PATH=<dir containing node_modules/playwright> if it is
 // not installed here) and a Chromium (PW_CHROMIUM=<binary>).
@@ -22,6 +27,12 @@ const runs = Number(arg("runs", 7));
 const label = arg("label", path.basename(site));
 const netName = arg("net", "fast4g");
 const cpuRate = Number(arg("cpu", 4));
+const useServiceWorker = process.argv.includes("--sw");
+// GitHub Pages sends max-age=600; a short lifetime lets the "return" scenario wait it out
+const HTTP_MAX_AGE_SECONDS = 30;
+// Time spent on the first page before leaving, which background work (such as saving
+// verse analysis for later visits) gets to use
+const DWELL_SECONDS = Number(arg("dwell", 12));
 const NETWORKS = {
   // Lighthouse-style presets, bytes per second
   fast4g: { latency: 40, downloadThroughput: (10 * 1024 * 1024) / 8, uploadThroughput: (5 * 1024 * 1024) / 8 },
@@ -59,7 +70,7 @@ const server = http.createServer((req, res) => {
     entry = { body, etag: `"${createHash("md5").update(body).digest("hex")}"` };
     gzipCache.set(file, entry);
   }
-  const headers = { "content-type": type, "cache-control": "max-age=600", etag: entry.etag };
+  const headers = { "content-type": type, "cache-control": `max-age=${HTTP_MAX_AGE_SECONDS}`, etag: entry.etag };
   if (compressible) headers["content-encoding"] = "gzip";
   if (req.headers["if-none-match"] === entry.etag) {
     res.writeHead(304, headers).end();
@@ -75,19 +86,38 @@ const executablePath = process.env.PW_CHROMIUM || (existsSync("/opt/pw-browsers/
 const browser = await chromium.launch({ executablePath, // Request interception would switch the HTTP cache off, so outside hosts are blocked at DNS instead
   args: ["--enable-precise-memory-info", "--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE localhost"] });
 
+
 const BOLLS_LATENCY_MS = 150;
-const FAKE_CHAPTER_BODY = Buffer.from(
-  JSON.stringify(
-    Array.from({ length: 30 }, (_, index) => ({
-      verse: index + 1,
-      text: "And the Lord spoke to the people of old saying that every one should keep the commandments given by his servants in the land",
-    }))
-  )
-).toString("base64");
+
+// Distinct, scripture-like verses per chapter (seeded by the URL) so verse analysis does
+// real work, as it does with the live API
+const VOCABULARY = (
+  "Lord God Jesus Christ Spirit Father Moses Abraham David Israel Jerusalem Egypt people land king servant word " +
+  "heaven earth spoke said saying unto them whom shall will have been called came went gave took kept loved heard " +
+  "saw knew believed walked stood sat answered commanded written covenant righteousness mercy truth glory kingdom " +
+  "temple altar offering sacrifice prophet priest disciples crowd mountain sea boat bread water wine vineyard field " +
+  "seed harvest shepherd sheep flock lamb light darkness life death sin grace faith hope peace joy wisdom understanding " +
+  "the and of to in that he his for with them was not they him you it be is on by all as but who which from their " +
+  "were are have had said into upon every therefore because behold indeed however also again then thus now"
+).split(" ");
+
+function fakeChapterBody(url) {
+  let seed = 0;
+  for (const char of url) seed = (seed * 31 + char.charCodeAt(0)) >>> 0;
+  const random = () => {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    return seed / 4294967296;
+  };
+  const verses = Array.from({ length: 30 }, (_, index) => ({
+    verse: index + 1,
+    text: `${Array.from({ length: 12 + Math.floor(random() * 24) }, () => VOCABULARY[Math.floor(random() * VOCABULARY.length)]).join(" ")}.`,
+  }));
+  return Buffer.from(JSON.stringify(verses)).toString("base64");
+}
 
 const READY = /Generated \d+ questions|No questions generated/;
 
-async function measure(context) {
+async function measure(context, dwellSeconds = 0) {
   const page = await context.newPage();
   await page.addInitScript((pattern) => {
     window.__longTasks = 0;
@@ -131,13 +161,13 @@ async function measure(context) {
             { name: "content-type", value: "application/json" },
             { name: "access-control-allow-origin", value: "*" },
           ],
-          body: FAKE_CHAPTER_BODY,
+          body: fakeChapterBody(event.request.url),
         })
         .catch(() => {});
     }, BOLLS_LATENCY_MS);
   });
 
-  await page.goto(origin + "/index.html", { waitUntil: "commit" });
+  await page.goto(origin + "/index.html" + (useServiceWorker ? "?sw=1" : ""), { waitUntil: "commit" });
   await page.waitForFunction(() => window.__ready !== undefined, null, { timeout: 120000 });
   const result = await page.evaluate(() => {
     const resources = performance.getEntriesByType("resource").filter((r) => r.name.startsWith(location.origin));
@@ -152,15 +182,24 @@ async function measure(context) {
       longTaskMs: window.__longTasks,
     };
   });
+  if (useServiceWorker) {
+    // the next visit only benefits once the worker has installed
+    await page.evaluate(() => navigator.serviceWorker?.ready).catch(() => {});
+  }
+  if (dwellSeconds) {
+    await new Promise((resolve) => setTimeout(resolve, dwellSeconds * 1000));
+  }
   await page.close();
   return result;
 }
 
-const rows = { cold: [], warm: [] };
+const rows = { cold: [], warm: [], return: [] };
 for (let run = 0; run < runs; run += 1) {
   const context = await browser.newContext();
-  rows.cold.push(await measure(context));
+  rows.cold.push(await measure(context, DWELL_SECONDS));
   rows.warm.push(await measure(context));
+  await new Promise((resolve) => setTimeout(resolve, (HTTP_MAX_AGE_SECONDS + 1) * 1000));
+  rows.return.push(await measure(context));
   await context.close();
 }
 await browser.close();

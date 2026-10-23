@@ -1,10 +1,16 @@
 import { describe, expect, it } from "vitest";
 import {
   BLANK_BANDS,
+  analysisSize,
+  analyzeVerse,
   blankCountRange,
   buildBlankedVerse,
   buildTfidfContext,
+  clearAnalysis,
   difficultyForPercent,
+  exportAnalysis,
+  hasAnalysis,
+  importAnalysis,
   makeRng,
   normalizeTextForNlp,
   pickBandBlankCount,
@@ -204,5 +210,73 @@ describe("helpers", () => {
   it("counts words after stripping markup", () => {
     expect(wordCountOf("<b>One</b> two  three")).toBe(3);
     expect(wordCountOf("")).toBe(0);
+  });
+});
+
+describe("term analysis cache", () => {
+  const verseText = "In the beginning God created the heaven and the earth.";
+
+  it("blanks the same words from a cached analysis without the NLP library", () => {
+    clearAnalysis();
+    const first = buildBlankedVerse({ text: verseText, count: 3, rng: makeRng(7) });
+    expect(hasAnalysis(verseText)).toBe(true);
+
+    const saved = globalThis.nlp;
+    globalThis.nlp = undefined;
+    try {
+      const second = buildBlankedVerse({ text: verseText, count: 3, rng: makeRng(7) });
+      expect(second).toEqual(first);
+    } finally {
+      globalThis.nlp = saved;
+    }
+  });
+
+  it("does not keep a verse tagged without the NLP library", () => {
+    clearAnalysis();
+    const saved = globalThis.nlp;
+    globalThis.nlp = undefined;
+    try {
+      buildBlankedVerse({ text: verseText, count: 2, rng: makeRng(1) });
+      expect(hasAnalysis(verseText)).toBe(false);
+      expect(analyzeVerse(verseText)).toBe(false);
+    } finally {
+      globalThis.nlp = saved;
+    }
+  });
+
+  it("round-trips through export and import", () => {
+    clearAnalysis();
+    expect(analyzeVerse(verseText)).toBe(true);
+    const saved = exportAnalysis();
+
+    clearAnalysis();
+    expect(analysisSize()).toBe(0);
+    importAnalysis(saved);
+    importAnalysis([["bad"], null, "x"]);
+
+    expect(analysisSize()).toBe(1);
+    expect(hasAnalysis(verseText)).toBe(true);
+  });
+});
+
+describe("tf-idf context", () => {
+  const verses = [
+    { id: "b:1:1", chapterKey: "b:1", text: "The Lord is my shepherd" },
+    { id: "b:1:2", chapterKey: "b:1", text: "He makes me lie down in green pastures" },
+  ];
+
+  it("reuses the result for the same pool and scores verses on first read", () => {
+    const context = buildTfidfContext(verses);
+
+    expect(buildTfidfContext(verses)).toBe(context);
+    expect(Object.keys(context.verseLevel)).toEqual(["b:1:1", "b:1:2"]);
+    const scores = context.verseLevel["b:1:1"];
+    expect(Math.max(...Object.values(scores))).toBe(1);
+    expect(context.verseLevel["b:1:1"]).toBe(scores);
+  });
+
+  it("builds a new result when the pool changes", () => {
+    const context = buildTfidfContext(verses);
+    expect(buildTfidfContext(verses.slice(0, 1))).not.toBe(context);
   });
 });

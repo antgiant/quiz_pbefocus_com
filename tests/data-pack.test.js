@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { DataService, currentSeasonStart, pickDefaultYear } from "../assets/js/data-service.js";
 import { loadVendor } from "../assets/js/lazy-vendor.js";
+import { AnalysisStore } from "../assets/js/analysis-store.js";
 import { PackStore } from "../assets/js/pack-store.js";
 
 const MANIFEST = {
@@ -224,5 +225,22 @@ describe("default season", () => {
     expect(pickDefaultYear(years, new Date(2030, 9, 1)).id).toBe("2027-2028");
     expect(pickDefaultYear(years, new Date(2005, 9, 1)).id).toBe("2011-2012");
     expect(pickDefaultYear([{ id: "x", name: "Custom", scope: {} }], new Date()).id).toBe("x");
+  });
+});
+
+describe("AnalysisStore", () => {
+  it("saves and returns analysis entries", async () => {
+    const store = new AnalysisStore();
+    expect(await store.get()).toEqual([]);
+
+    await store.set([["a verse", [["a", 5]]]]);
+
+    expect(await store.get()).toEqual([["a verse", [["a", 5]]]]);
+  });
+
+  it("returns nothing when IndexedDB is unavailable", async () => {
+    const store = new AnalysisStore(null);
+    expect(await store.set([])).toBe(false);
+    expect(await store.get()).toEqual([]);
   });
 });

@@ -3,6 +3,7 @@ import {
   buildBlankedVerse,
   buildTfidfContext,
   difficultyForPercent,
+  hasAnalysis,
   hashString,
   makeRng,
   pickBandBlankCount,
@@ -451,8 +452,6 @@ export async function generateQuestions({
   let versePool = [];
   if (typeSet.has(FIB_TYPE) && difficultySet.size > 0) {
     const config = fillInBlankSettings(settings);
-    // Word choice needs the NLP library, which loads in the background at startup
-    await loadVendor("compromise").catch(() => {});
     let done = 0;
     const failed = [];
     const chapterVerses = await Promise.all(
@@ -584,10 +583,16 @@ export async function generateQuestions({
 
   const fibContext = versePool.length ? buildTfidfContext(versePool) : { verseLevel: {}, chapterLevel: {} };
 
+  // Tagging verses needs the NLP library, but verses analysed on an earlier visit do not
+  if (selected.some((question) => question.generated && question.type === FIB_TYPE && !hasAnalysis(question.verseText))) {
+    await loadVendor("compromise").catch(() => {});
+  }
+
   return {
     questions: finalizeFillInBlank(selected, fibContext, seed),
     unmet,
     stats,
     fibContext,
+    verseTexts: versePool.map((verse) => verse.text),
   };
 }

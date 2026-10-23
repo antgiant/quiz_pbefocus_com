@@ -9,7 +9,7 @@
 import { createHash } from "node:crypto";
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { gzipSync } from "node:zlib";
 
 export const MANIFEST_SCHEMA = "pbe.questions.manifest.v1";
@@ -155,7 +155,7 @@ export function buildYearPacks({ practiceYears, years, manifest, chapterJson }) 
     let questions = 0;
     for (const { bookId, number } of sorted) {
       const key = `${bookId}:${number}`;
-      body[key] = chapterJson.get(key);
+      body[key] = slimChapter(chapterJson.get(key));
       hashes[key] = manifest.books
         .find((book) => book.id === bookId)
         .chapters.find((chapter) => chapter.number === number).hash;
@@ -181,6 +181,22 @@ export function buildYearPacks({ practiceYears, years, manifest, chapterJson }) 
   return packs;
 }
 
+// Fields the app never reads; leaving them out keeps packs smaller
+const PACK_OMITTED_FIELDS = ["originalIds", "createdOn", "updatedOn"];
+
+export function slimChapter(chapter) {
+  return {
+    ...chapter,
+    questions: (chapter.questions || []).map((question) => {
+      const slim = { ...question };
+      for (const field of PACK_OMITTED_FIELDS) {
+        delete slim[field];
+      }
+      return slim;
+    }),
+  };
+}
+
 function safeFileName(value) {
   return String(value).replace(/[^A-Za-z0-9._-]+/g, "-");
 }
@@ -191,6 +207,50 @@ export function buildPackIndex(packs) {
     version: 1,
     years: Object.fromEntries(packs.map((pack) => [pack.yearId, pack.entry])),
   };
+}
+
+// Files the app needs to start; precached as one versioned set by the service worker
+const SHELL_DIRS = [
+  ["assets/css", /\.css$/],
+  ["assets/js", /\.js$/],
+];
+const SHELL_FILES = [
+  "index.html",
+  "favicon.ico",
+  "assets/apple-touch-icon.png",
+  "assets/hero-bible.webp",
+  "assets/pbefocus-logo.webp",
+  "assets/pbefocus-logo-dark.webp",
+  "assets/vendor/compromise.min.js",
+  "assets/vendor/jszip.min.js",
+];
+
+export async function buildServiceWorker(siteRoot, templateText) {
+  const files = new Set(SHELL_FILES);
+  for (const [dir, pattern] of SHELL_DIRS) {
+    try {
+      for (const name of await fs.readdir(path.join(siteRoot, dir))) {
+        if (pattern.test(name)) files.add(`${dir}/${name}`);
+      }
+    } catch {
+      // a site without this folder simply has nothing to precache from it
+    }
+  }
+
+  const present = [];
+  const hash = createHash("sha256").update(templateText);
+  for (const file of [...files].sort()) {
+    try {
+      hash.update(file).update(await fs.readFile(path.join(siteRoot, file)));
+      present.push(file);
+    } catch {
+      // optional files (an icon a fixture lacks) are left out of the precache
+    }
+  }
+
+  return templateText
+    .replace('"__VERSION__"', JSON.stringify(hash.digest("hex").slice(0, 10)))
+    .replace("__SHELL__", JSON.stringify(present, null, 2));
 }
 
 async function readJson(filePath) {
@@ -246,6 +306,9 @@ export async function planOutputs(v1Dir) {
   for (const pack of packs) {
     outputs.set(`packs/${pack.file}`, pack.content);
   }
+  const siteRoot = path.resolve(v1Dir, "..", "..");
+  const templatePath = path.join(path.dirname(fileURLToPath(import.meta.url)), "sw-template.js");
+  outputs.set("../../sw.js", await buildServiceWorker(siteRoot, await fs.readFile(templatePath, "utf8")));
   // The practice files have no trailing newline, so the script-tag copies are built to match
   if (practiceYears) {
     outputs.set(

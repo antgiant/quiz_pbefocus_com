@@ -11,12 +11,21 @@ import {
   normalizeSelectedTypeGroups,
   questionTypeGroupId,
 } from "./constants.js";
-import { validateCustomBlanks } from "./blank-engine.js";
+import { AnalysisStore } from "./analysis-store.js";
+import {
+  analysisSize,
+  analyzeVerse,
+  exportAnalysis,
+  hasAnalysis,
+  importAnalysis,
+  validateCustomBlanks,
+} from "./blank-engine.js";
 import { launchConfetti } from "./confetti.js";
 import { DataService, pickDefaultYear } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { loadVendor } from "./lazy-vendor.js";
+import { registerServiceWorker } from "./sw-register.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
   countedBlanks,
@@ -116,6 +125,79 @@ const el = {
   questionCardTemplate: document.getElementById("questionCardTemplate"),
   printTemplate: document.getElementById("printTemplate"),
 };
+
+// Verse tagging (the slow part of blanking) is saved between visits. Until enough is
+// saved, the NLP library downloads right away; once a season's verses are all saved
+// it is never loaded at all.
+const ANALYSIS_WARM_ENTRIES = 100;
+const ANALYSIS_FILL_LIMIT = 3000;
+const analysisStore = new AnalysisStore();
+let analysisSavedSize = 0;
+let analysisFillRun = 0;
+
+const analysisReady = analysisStore.get().then((entries) => {
+  importAnalysis(entries);
+  analysisSavedSize = analysisSize();
+  if (analysisSavedSize < ANALYSIS_WARM_ENTRIES) {
+    loadVendor("compromise").catch(() => {});
+  }
+});
+
+function saveAnalysis() {
+  if (analysisSize() !== analysisSavedSize) {
+    analysisSavedSize = analysisSize();
+    analysisStore.set(exportAnalysis());
+  }
+}
+
+function whenIdle(callback) {
+  if (typeof window.requestIdleCallback === "function") {
+    window.requestIdleCallback(callback, { timeout: 2000 });
+  } else {
+    setTimeout(() => callback({ timeRemaining: () => 10 }), 50);
+  }
+}
+
+// Tags the season's verses in idle time so the next visit needs no NLP library
+function scheduleAnalysisFill(texts) {
+  if (!Array.isArray(texts) || texts.length > ANALYSIS_FILL_LIMIT) {
+    return;
+  }
+  const pending = texts.filter((text) => !hasAnalysis(text));
+  if (pending.length === 0) {
+    saveAnalysis();
+    return;
+  }
+
+  analysisFillRun += 1;
+  const run = analysisFillRun;
+  loadVendor("compromise")
+    .then(() => {
+      let index = 0;
+      const step = (deadline) => {
+        if (run !== analysisFillRun) {
+          return;
+        }
+        while (index < pending.length && deadline.timeRemaining() > 4) {
+          analyzeVerse(pending[index]);
+          index += 1;
+        }
+        if (index < pending.length) {
+          whenIdle(step);
+        } else {
+          saveAnalysis();
+        }
+      };
+      whenIdle(step);
+    })
+    .catch(() => {});
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") {
+    saveAnalysis();
+  }
+});
 
 function setStatus(message, mode = "") {
   el.statusMessage.textContent = message;
@@ -1817,6 +1899,7 @@ async function generateAndRender() {
 
   appState.generatedQuestions = result.questions;
   appState.fibContext = result.fibContext || null;
+  scheduleAnalysisFill(result.verseTexts);
   appState.unmet = result.unmet;
 
   renderQuestionBankStats(result.stats);
@@ -2090,6 +2173,7 @@ async function bootstrap() {
   try {
     appState.manifest = await dataService.loadManifest();
     appState.years = await dataService.loadYears(appState.manifest);
+    await analysisReady;
 
     ensureProfileState();
 
@@ -2119,5 +2203,5 @@ async function bootstrap() {
 
 // Start the downloads the first render needs before the rest of startup runs
 dataService.prefetch();
-loadVendor("compromise").catch(() => {});
+registerServiceWorker();
 bootstrap();

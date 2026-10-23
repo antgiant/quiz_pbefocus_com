@@ -188,10 +188,22 @@ function inverseDocumentFrequency(termSets) {
 
 // Scores how distinctive each word is within each verse and within each
 // chapter of the pool being studied. `verses` is [{ id, chapterKey, text }].
+// The same pool is scored again whenever settings change, so the last result is reused
+let lastTfidf = { signature: null, context: null };
+
+function poolSignature(verses) {
+  return verses.map((verse) => `${verse.id}#${verse.text.length}`).join(",");
+}
+
 export function buildTfidfContext(verses) {
   const verseLevel = {};
   const chapterLevel = {};
   if (!verses.length) return { verseLevel, chapterLevel };
+
+  const signature = poolSignature(verses);
+  if (lastTfidf.signature === signature) return lastTfidf.context;
+  const context = { verseLevel, chapterLevel };
+  lastTfidf = { signature, context };
 
   const tokenized = verses.map((verse) => {
     const words = tokenizeText(cleanVerseText(verse.text));
@@ -199,8 +211,18 @@ export function buildTfidfContext(verses) {
   });
 
   const verseIdf = inverseDocumentFrequency(tokenized.map((verse) => verse.unique));
+  // Only the verses that get blanked are ever read, so each verse's scores are
+  // worked out the first time they are asked for
   for (const verse of tokenized) {
-    verseLevel[verse.id] = normalizeScores(combineTfIdf(verse.tf, verseIdf));
+    Object.defineProperty(verseLevel, verse.id, {
+      enumerable: true,
+      configurable: true,
+      get() {
+        const scores = normalizeScores(combineTfIdf(verse.tf, verseIdf));
+        Object.defineProperty(verseLevel, verse.id, { value: scores, enumerable: true, writable: true, configurable: true });
+        return scores;
+      },
+    });
   }
 
   const chapters = new Map();
@@ -214,7 +236,7 @@ export function buildTfidfContext(verses) {
     chapterLevel[key] = normalizeScores(combineTfIdf(tf, chapterIdf));
   }
 
-  return { verseLevel, chapterLevel };
+  return context;
 }
 
 // --- Word priority ---
@@ -284,7 +306,49 @@ function hasTag(term, tags) {
   return term.tags?.some((tag) => tags.includes(tag));
 }
 
-function scoreTerms(plainText, verseScores, chapterScores, rng) {
+// --- Term analysis cache ---
+// Tagging a verse is the slow part of blanking and always gives the same answer
+// for the same text, so results are kept (and can be saved between visits).
+// A term is [text, priority]; priority 0 marks punctuation. Results made without
+// the NLP library are not kept, so they never replace real ones.
+const analysisCache = new Map();
+
+export function hasAnalysis(text) {
+  return analysisCache.has(cleanVerseText(text));
+}
+
+export function analysisSize() {
+  return analysisCache.size;
+}
+
+export function exportAnalysis() {
+  return [...analysisCache];
+}
+
+export function importAnalysis(entries) {
+  for (const entry of Array.isArray(entries) ? entries : []) {
+    if (Array.isArray(entry) && typeof entry[0] === "string" && Array.isArray(entry[1])) {
+      analysisCache.set(entry[0], entry[1]);
+    }
+  }
+}
+
+export function clearAnalysis() {
+  analysisCache.clear();
+}
+
+// Tags a verse now (needs the NLP library) so later blanking of it is instant;
+// returns false when the library is not loaded
+export function analyzeVerse(text) {
+  const plain = cleanVerseText(text);
+  if (!plain || analysisCache.has(plain)) return true;
+  return Boolean(analyzeTerms(plain, true));
+}
+
+function analyzeTerms(plainText, store = false) {
+  const cached = analysisCache.get(plainText);
+  if (cached) return cached;
+
   const nlp = getNlp();
   const normalized = normalizeTextForNlp(plainText);
   const terms = nlp
@@ -293,26 +357,36 @@ function scoreTerms(plainText, verseScores, chapterScores, rng) {
         .flatMap((sentence) => sentence.terms || [])
     : plainText.split(/\s+/).map((word) => ({ text: word, tags: [] }));
 
-  return terms.map((term) => {
-    const lower = (term.text || "").toLowerCase();
-    let priority = 5;
-    if (FUNCTION_WORDS.has(lower)) {
-      priority = 4;
-    } else if (
-      PRIORITY_WORDS.has(lower) ||
-      hasTag(term, ["Person", "Place", "Organization", "Date", "Value", "Cardinal", "Ordinal"])
-    ) {
-      priority = 1;
-    } else if (hasTag(term, ["Noun", "Verb", "Gerund"])) {
-      priority = 2;
-    } else if (hasTag(term, ["Interjection", "Expression", "Adjective", "Adverb", "ProperNoun"])) {
-      priority = 3;
-    } else if (
-      hasTag(term, ["Preposition", "Conjunction", "Determiner", "Pronoun", "Articles", "StatesofBeingVerbs"])
-    ) {
-      priority = 4;
-    }
+  const analyzed = terms.map((term) => [term.text || "", termPriority(term)]);
+  if (nlp) {
+    analysisCache.set(plainText, analyzed);
+    return analyzed;
+  }
+  return store ? null : analyzed;
+}
 
+function termPriority(term) {
+  if (hasTag(term, ["Punctuation"])) return 0;
+
+  const lower = (term.text || "").toLowerCase();
+  if (FUNCTION_WORDS.has(lower)) return 4;
+  if (
+    PRIORITY_WORDS.has(lower) ||
+    hasTag(term, ["Person", "Place", "Organization", "Date", "Value", "Cardinal", "Ordinal"])
+  ) {
+    return 1;
+  }
+  if (hasTag(term, ["Noun", "Verb", "Gerund"])) return 2;
+  if (hasTag(term, ["Interjection", "Expression", "Adjective", "Adverb", "ProperNoun"])) return 3;
+  if (hasTag(term, ["Preposition", "Conjunction", "Determiner", "Pronoun", "Articles", "StatesofBeingVerbs"])) {
+    return 4;
+  }
+  return 5;
+}
+
+function scoreTerms(plainText, verseScores, chapterScores, rng) {
+  return analyzeTerms(plainText).map(([text, priority]) => {
+    const lower = text.toLowerCase();
     const tfidf =
       (verseScores[lower] || 0) * TFIDF_CONFIG.verseWeight +
       (chapterScores[lower] || 0) * TFIDF_CONFIG.chapterWeight;
@@ -321,11 +395,7 @@ function scoreTerms(plainText, verseScores, chapterScores, rng) {
       ((6 - priority) / 5) * TFIDF_CONFIG.priorityWeight +
       (rng() - 0.5) * TFIDF_CONFIG.jitter;
 
-    return {
-      text: term.text || "",
-      isPunct: hasTag(term, ["Punctuation"]),
-      finalScore,
-    };
+    return { text, isPunct: priority === 0, finalScore };
   });
 }
 

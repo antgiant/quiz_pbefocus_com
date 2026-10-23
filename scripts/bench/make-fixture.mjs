@@ -26,7 +26,7 @@ if (!arg("out")) {
 
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
-for (const entry of ["index.html", "assets", "questions", "scripts", "favicon.ico"]) {
+for (const entry of ["index.html", "assets", "questions", "scripts", "favicon.ico", "sw.js"]) {
   if (existsSync(path.join(src, entry))) {
     cpSync(path.join(src, entry), path.join(out, entry), { recursive: true });
   }

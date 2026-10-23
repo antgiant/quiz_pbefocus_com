@@ -1,8 +1,9 @@
 name: Build question data
 
 # Regenerates manifest.json (with chapter hashes), the per-season packs and the
-# script-tag bundles whenever question or season data changes, so adding a year
-# or new questions never needs a local build.
+# script-tag bundles and the service worker (sw.js, whose version tracks the app files)
+# whenever question, season or app data changes, so adding a year or new questions
+# never needs a local build.
 on:
   push:
     branches: [main]
@@ -13,6 +14,9 @@ on:
       - "questions/v1/years.json"
       - "scripts/build-data.mjs"
       - "scripts/build-local-bundle.mjs"
+      - "scripts/sw-template.js"
+      - "index.html"
+      - "assets/**"
   workflow_dispatch:
 
 permissions:
@@ -36,7 +40,7 @@ jobs:
           node scripts/build-local-bundle.mjs
       - name: Commit generated files
         run: |
-          git add questions/v1
+          git add questions/v1 sw.js
           if git diff --cached --quiet; then
             echo "Generated files already up to date."
             exit 0

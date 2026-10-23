@@ -134,6 +134,8 @@ describe("committed question data", () => {
     const fs = await import("node:fs/promises");
 
     for (const [relPath, content] of outputs) {
+      // sw.js tracks every app file, so the Action refreshes it instead of failing each edit
+      if (relPath.endsWith("sw.js")) continue;
       const current = await fs.readFile(path.join(v1Dir, relPath), "utf8");
       expect(current === content, `${relPath} is stale`).toBe(true);
     }
@@ -149,5 +151,30 @@ describe("committed question data", () => {
     expect(keys("2032-2033")).toEqual(["2corinthians", "1thessalonians", "2thessalonians", "1timothy", "2timothy"]);
     expect(years["2033-2034"]).toEqual([{ bookKey: "genesis", start: 1, end: 33 }]);
     expect(keys("2035-2036")).toEqual(["acts", "titus", "philemon", "jude"]);
+  });
+});
+
+describe("service worker", () => {
+  it("embeds a version that changes with the app files and lists the shell", async () => {
+    const fs = await import("node:fs/promises");
+    const os = await import("node:os");
+    const { buildServiceWorker, slimChapter } = await import("../scripts/build-data.mjs");
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "pbe-sw-"));
+    await fs.mkdir(path.join(root, "assets", "js"), { recursive: true });
+    await fs.writeFile(path.join(root, "index.html"), "<html></html>");
+    await fs.writeFile(path.join(root, "assets", "js", "main.js"), "one");
+    const template = 'const VERSION = "__VERSION__";\nconst SHELL = __SHELL__;';
+
+    const first = await buildServiceWorker(root, template);
+    expect(first).toContain("assets/js/main.js");
+    expect(first).toContain("index.html");
+    expect(first).not.toContain("assets/vendor/jszip.min.js");
+    expect(await buildServiceWorker(root, template)).toBe(first);
+
+    await fs.writeFile(path.join(root, "assets", "js", "main.js"), "two");
+    expect(await buildServiceWorker(root, template)).not.toBe(first);
+
+    expect(slimChapter({ chapter: 1, questions: [{ id: "a", originalIds: ["a"], createdOn: "x", updatedOn: "y", answer: "z" }] }))
+      .toEqual({ chapter: 1, questions: [{ id: "a", answer: "z" }] });
   });
 });
