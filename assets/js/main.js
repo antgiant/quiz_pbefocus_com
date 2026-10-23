@@ -16,6 +16,7 @@ import { launchConfetti } from "./confetti.js";
 import { DataService } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
+import { loadVendor } from "./lazy-vendor.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
   countedBlanks,
@@ -411,6 +412,9 @@ function questionMatchesAvailabilityFilters(question, settings) {
 
 async function buildAvailabilityMap(settings) {
   const availability = new Map();
+  const year = getActiveYear();
+  await dataService.loadYearPack(year);
+  const yearScope = year?.scope || {};
 
   // Fill-in-the-blank is made from the verses themselves, so every chapter qualifies
   if (settings.selectedTypes.includes("fill_in_blank") && settings.selectedDifficulties.length > 0) {
@@ -424,7 +428,8 @@ async function buildAvailabilityMap(settings) {
 
   await Promise.all(
     appState.manifest.books.flatMap((book) =>
-      book.chapters.map(async (chapter) => {
+      // The selector only lists the season's chapters, so only those need checking
+      book.chapters.filter((chapter) => yearScope[book.id]?.includes(chapter.number)).map(async (chapter) => {
         let chapterQuestions = [];
         try {
           chapterQuestions = await dataService.loadChapter(book.id, chapter.number);
@@ -2112,4 +2117,7 @@ async function bootstrap() {
   }
 }
 
+// Start the downloads the first render needs before the rest of startup runs
+dataService.prefetch();
+loadVendor("compromise").catch(() => {});
 bootstrap();

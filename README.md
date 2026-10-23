@@ -163,7 +163,7 @@ more often than down (anything 5 s or more past a step goes up): 1 pt = 30 s, 2 
 ## Notes and Limits
 
 - Difficulty filters use the `difficulty` field in each question (`easy`, `medium`, or `hard`) and can include any combination of those values.
-- PowerPoint export uses local vendored libraries in `assets/vendor/jszip.min.js` and `assets/vendor/pptxgen.min.js`, so CDN access is not required.
+- PowerPoint export uses the vendored `assets/vendor/jszip.min.js`, loaded when you download a deck, so CDN access is not required. (`assets/vendor/pptxgen.min.js` is still vendored but nothing loads it.)
 - The included sample deck (`2023-NAD-PBE-Practice-Test.pptx`) is used as style direction, not binary template injection.
 - If `manifest.json` references a missing chapter file, bundling skips that chapter and logs it.
 
@@ -188,3 +188,11 @@ Seasons are defined in `practice-chapters-by-year.json` (upcoming seasons throug
 To add questions or a season, edit the source files and push to `main`: the
 `Build question data` GitHub Action regenerates and commits the rest. To do it locally run
 `npm run build:data`; `npm run check:data` fails when generated files are stale (the test suite checks this too).
+
+## Loading and Speed
+
+Questions load one season at a time from `questions/v1/packs/` and are cached in IndexedDB, so the first
+load stays the same size as the question bank grows. See [docs/PERFORMANCE.md](docs/PERFORMANCE.md) for the design,
+how to measure it (`npm run bench`) and the before/after numbers.
+
+To open `index.html` straight from disk, run `node scripts/build-local-bundle.mjs` first; the app falls back to those bundles when `fetch` is blocked.

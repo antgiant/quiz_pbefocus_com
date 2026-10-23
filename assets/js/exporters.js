@@ -1,4 +1,5 @@
 import { AUDIO_CUE_KEYS, AUDIO_STYLES, audioCueKey } from "./constants.js";
+import { loadVendor } from "./lazy-vendor.js";
 import { formatVerseRef, secondsForQuestion, verseRuns } from "./question-formatters.js";
 
 const SLIDE_W_16x9 = 12192000; // EMUs
@@ -420,6 +421,7 @@ async function loadTemplateZip() {
 // `timer` is { first, additional } in seconds, or null for no timer;
 // `audio` is an AUDIO_STYLES key (only used together with a timer) or null
 export async function exportPowerPoint({ questions, verses = [], yearName, timer = null, audio = null }) {
+  await loadVendor("pptx").catch(() => {});
   if (!hasZipLib()) {
     throw new Error("JSZip library not loaded. Ensure assets/vendor/jszip.min.js is present.");
   }

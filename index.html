@@ -10,14 +10,27 @@
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/print.css?v=9fac6a8" media="print" />
-    <script src="questions/v1/local-data.bundle.js"></script>
-    <script src="questions/v1/practice-books.bundle.js"></script>
-    <script src="questions/v1/practice-years.bundle.js"></script>
-    <script src="assets/vendor/pptx-template.bundle.js"></script>
-    <script src="assets/vendor/compromise.min.js"></script>
-    <script src="assets/vendor/jszip.min.js" defer></script>
-    <script src="assets/vendor/pptxgen.min.js" defer></script>
-    <script type="module" src="assets/js/main.js" defer></script>
+    <!-- Start the startup data and the module graph downloading in parallel with the page -->
+    <link rel="preload" as="fetch" href="questions/v1/manifest.json" crossorigin />
+    <link rel="preload" as="fetch" href="questions/v1/packs/index.json" crossorigin />
+    <link rel="preload" as="fetch" href="questions/v1/years.json" crossorigin />
+    <link rel="preload" as="fetch" href="questions/v1/practice-chapters-by-year.json" crossorigin />
+    <link rel="preload" as="fetch" href="questions/v1/practice-books.json" crossorigin />
+    <link rel="modulepreload" href="assets/js/constants.js" />
+    <link rel="modulepreload" href="assets/js/utils.js" />
+    <link rel="modulepreload" href="assets/js/verse-store.js" />
+    <link rel="modulepreload" href="assets/js/pack-store.js" />
+    <link rel="modulepreload" href="assets/js/data-service.js" />
+    <link rel="modulepreload" href="assets/js/blank-engine.js" />
+    <link rel="modulepreload" href="assets/js/lazy-vendor.js" />
+    <link rel="modulepreload" href="assets/js/quiz-engine.js" />
+    <link rel="modulepreload" href="assets/js/question-formatters.js" />
+    <link rel="modulepreload" href="assets/js/exporters.js" />
+    <link rel="modulepreload" href="assets/js/renderers.js" />
+    <link rel="modulepreload" href="assets/js/storage.js" />
+    <link rel="modulepreload" href="assets/js/confetti.js" />
+    <link rel="modulepreload" href="assets/js/import-study.js" />
+    <script type="module" src="assets/js/main.js"></script>
     <script src="https://pbefocus.com/rogue-sheep.js" defer></script>
     <script src="https://pbefocus.com/site-nav.js" defer></script>
   </head>
@@ -26,7 +39,9 @@
       <div class="header-inner">
         <a class="brand" href="https://pbefocus.com" aria-label="PBEfocus.com home">
           <picture>
+            <source srcset="assets/pbefocus-logo-dark.webp" type="image/webp" media="(prefers-color-scheme: dark)">
             <source srcset="assets/pbefocus-logo-dark.png" media="(prefers-color-scheme: dark)">
+            <source srcset="assets/pbefocus-logo.webp" type="image/webp">
             <img src="assets/pbefocus-logo.png" alt="PBEfocus.com">
           </picture>
         </a>
@@ -42,7 +57,10 @@
 
     <main>
       <section class="hero" aria-label="PBEfocus visual banner">
-        <img src="assets/hero-bible.png" alt="">
+        <picture>
+          <source srcset="assets/hero-bible.webp" type="image/webp">
+          <img src="assets/hero-bible.png" alt="" fetchpriority="high">
+        </picture>
         <div class="hero-overlay"></div>
       </section>
 

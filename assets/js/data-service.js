@@ -1,4 +1,5 @@
 import { QUESTION_DIFFICULTIES, QUESTION_TYPES } from "./constants.js";
+import { PackStore } from "./pack-store.js";
 import { VerseStore } from "./verse-store.js";
 
 export const CUSTOM_YEAR_ID = "custom-all";
@@ -7,6 +8,8 @@ const CHAPTER_BASE_PATH = "questions/v1";
 const YEARS_PATH = "questions/v1/years.json";
 const PRACTICE_YEARS_PATH = "questions/v1/practice-chapters-by-year.json";
 const PRACTICE_BOOKS_PATH = "questions/v1/practice-books.json";
+const PACK_INDEX_PATH = "questions/v1/packs/index.json";
+const LOCAL_BUNDLE_PATH = "questions/v1/local-data.bundle.js";
 const NKJV_CHAPTER_API_BASE = "https://bolls.life/get-text/NKJV";
 const NKJV_VERSE_API_BASE = "https://bolls.life/get-verse/NKJV";
 
@@ -173,9 +176,23 @@ export function buildIntroVerses(commentary) {
   return verses;
 }
 
+function loadScriptOnce(src) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = src;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error(`Failed to load ${src}`));
+    document.head.append(script);
+  });
+}
+
 export class DataService {
-  constructor({ store = new VerseStore() } = {}) {
+  constructor({ store = new VerseStore(), packStore = new PackStore() } = {}) {
     this.store = store;
+    this.packStore = packStore;
+    this.jsonRequests = new Map();
+    this.packRequests = new Map();
+    this.chapterHashes = new Map();
     this.introByBookId = new Map();
     this.manifest = null;
     this.chapterCache = new Map();
@@ -333,6 +350,38 @@ export class DataService {
     );
   }
 
+  // One request per file however many callers ask; resolves null when it cannot be read
+  fetchJson(path) {
+    if (!this.jsonRequests.has(path)) {
+      const request = Promise.resolve()
+        .then(() => fetch(path))
+        .then((response) => (response.ok ? response.json() : null))
+        .catch(() => null);
+      this.jsonRequests.set(path, request);
+    }
+    return this.jsonRequests.get(path);
+  }
+
+  // Starts every startup file at once; the loaders below then reuse these requests
+  prefetch() {
+    for (const path of [MANIFEST_PATH, PACK_INDEX_PATH, YEARS_PATH, PRACTICE_BOOKS_PATH, PRACTICE_YEARS_PATH]) {
+      this.fetchJson(path);
+    }
+  }
+
+  setManifest(manifest) {
+    this.manifest = manifest;
+    this.chapterHashes = new Map();
+    for (const book of manifest.books || []) {
+      for (const chapter of book.chapters || []) {
+        if (chapter.hash) {
+          this.chapterHashes.set(chapterCacheKey(book.id, chapter.number), chapter.hash);
+        }
+      }
+    }
+    return manifest;
+  }
+
   async loadManifest() {
     if (this.manifest) {
       return this.manifest;
@@ -340,17 +389,78 @@ export class DataService {
 
     const localBundle = getLocalBundle();
     if (localBundle?.manifest) {
-      this.manifest = localBundle.manifest;
-      return this.manifest;
+      return this.setManifest(localBundle.manifest);
     }
 
-    const response = await fetch(MANIFEST_PATH);
-    if (!response.ok) {
-      throw new Error("Failed to load manifest.json");
+    const manifest = await this.fetchJson(MANIFEST_PATH);
+    if (manifest) {
+      return this.setManifest(manifest);
     }
 
-    this.manifest = await response.json();
-    return this.manifest;
+    // Opened from disk: fetch() is blocked, but a script tag can still read the local bundle
+    if (globalThis.location?.protocol === "file:") {
+      await Promise.all(
+        [LOCAL_BUNDLE_PATH, "questions/v1/practice-books.bundle.js", "questions/v1/practice-years.bundle.js"].map(
+          (src) => loadScriptOnce(src).catch(() => {})
+        )
+      );
+      if (getLocalBundle()?.manifest) {
+        return this.setManifest(getLocalBundle().manifest);
+      }
+    }
+
+    this.jsonRequests.delete(MANIFEST_PATH);
+    throw new Error("Failed to load manifest.json");
+  }
+
+  // Loads a season's questions in one request (cached in IndexedDB between visits)
+  // instead of one request per chapter. Anything it cannot supply still loads
+  // chapter by chapter, so a missing or stale pack only costs speed.
+  loadYearPack(year) {
+    if (!year) {
+      return Promise.resolve();
+    }
+    const requestKey = year.id || year.name;
+    if (!this.packRequests.has(requestKey)) {
+      this.packRequests.set(
+        requestKey,
+        this.loadYearPackUncached(year).catch((error) => {
+          console.warn(`Season pack unavailable for ${year.name}`, error);
+        })
+      );
+    }
+    return this.packRequests.get(requestKey);
+  }
+
+  async loadYearPackUncached(year) {
+    const index = await this.fetchJson(PACK_INDEX_PATH);
+    const packYearId = [year.name, year.id].find((candidate) => index?.years?.[candidate]);
+    if (!packYearId) {
+      return;
+    }
+    const entry = index.years[packYearId];
+
+    let pack = await this.packStore.get(packYearId, entry.hash);
+    if (!pack) {
+      pack = await this.fetchJson(`questions/v1/${entry.path}`);
+      if (!pack?.chapters) {
+        return;
+      }
+      this.packStore.set(packYearId, entry.hash, pack);
+    }
+
+    await this.loadManifest();
+    for (const [key, chapterJson] of Object.entries(pack.chapters)) {
+      // A pack built before the latest data push must not shadow newer chapters
+      if (this.chapterCache.has(key) || pack.hashes?.[key] !== this.chapterHashes.get(key)) {
+        continue;
+      }
+      const bookId = chapterJson.bookId || key.split(":")[0];
+      this.chapterCache.set(
+        key,
+        (chapterJson.questions || []).map((question) => normalizeQuestion(question, bookId, chapterJson))
+      );
+    }
   }
 
   async loadChapter(bookId, chapterNumber) {
@@ -380,14 +490,16 @@ export class DataService {
       throw new Error(`Chapter not found: ${bookId} ${chapterNumber}`);
     }
 
-    if (chapterMeta.intro) {
+    // Intro passages and chapters that only exist for verse text have no question file
+    if (chapterMeta.intro || chapterMeta.questions === 0) {
       this.chapterCache.set(key, []);
       return [];
     }
 
     let chapterJson = null;
     try {
-      const response = await fetch(`${CHAPTER_BASE_PATH}/${chapterMeta.path}`);
+      const version = chapterMeta.hash ? `?v=${chapterMeta.hash}` : "";
+      const response = await fetch(`${CHAPTER_BASE_PATH}/${chapterMeta.path}${version}`);
       if (!response.ok) {
         console.warn(`Skipping missing chapter file: ${chapterMeta.path}`);
         this.chapterCache.set(key, []);
@@ -634,7 +746,7 @@ export class DataService {
       if (byName.has(normalizedName)) {
         const existingId = byName.get(normalizedName);
         const existing = merged.get(existingId);
-        const existingScope = existing?.scope || {};
+        const existingScope = existing?.implicitScope ? {} : existing?.scope || {};
         const incomingScope = year.scope || {};
         const mergedScope = { ...existingScope };
 
@@ -649,6 +761,7 @@ export class DataService {
         merged.set(existingId, {
           ...existing,
           name: existing?.name || year.name,
+          implicitScope: undefined,
           scope: mergedScope,
           verses: { ...(year.verses || {}), ...(existing?.verses || {}) },
         });
@@ -667,14 +780,7 @@ export class DataService {
 
     let practiceBooks = getPracticeBooksBundle();
     if (!practiceBooks || typeof practiceBooks !== "object") {
-      try {
-        const booksResponse = await fetch(PRACTICE_BOOKS_PATH);
-        if (booksResponse.ok) {
-          practiceBooks = await booksResponse.json();
-        }
-      } catch {
-        practiceBooks = null;
-      }
+      practiceBooks = await this.fetchJson(PRACTICE_BOOKS_PATH);
     }
 
     this.ensurePracticeBooksInManifest(manifest, practiceBooks);
@@ -682,29 +788,11 @@ export class DataService {
     let primaryYears = [];
     const localBundle = getLocalBundle();
     if (localBundle?.years?.years?.length) {
-      primaryYears = localBundle.years.years.map((year) => ({
-        id: year.id,
-        name: year.name,
-        scope: year.scope && typeof year.scope === "object" ? year.scope : null,
-      })).map((year) => ({
-        ...year,
-        scope: year.scope || structuredClone(allScope),
-      }));
+      primaryYears = localBundle.years.years.map((year) => this.primaryYearConfig(year, allScope));
     } else {
-      try {
-        const response = await fetch(YEARS_PATH);
-        if (response.ok) {
-          const payload = await response.json();
-          if (Array.isArray(payload.years) && payload.years.length > 0) {
-            primaryYears = payload.years.map((year) => ({
-              id: year.id,
-              name: year.name,
-              scope: year.scope && typeof year.scope === "object" ? year.scope : structuredClone(allScope),
-            }));
-          }
-        }
-      } catch {
-        primaryYears = [];
+      const payload = await this.fetchJson(YEARS_PATH);
+      if (Array.isArray(payload?.years) && payload.years.length > 0) {
+        primaryYears = payload.years.map((year) => this.primaryYearConfig(year, allScope));
       }
     }
 
@@ -718,18 +806,24 @@ export class DataService {
       return this.withCustomYear(this.mergeYearConfigs(primaryYears, practiceYears), manifest);
     }
 
-    try {
-      const practiceResponse = await fetch(PRACTICE_YEARS_PATH);
-      if (!practiceResponse.ok) {
-        return this.withCustomYear(primaryYears, manifest);
-      }
-
-      const practicePayload = await practiceResponse.json();
-      const practiceYears = this.buildPracticeYearConfigs(practicePayload, manifest);
-      return this.withCustomYear(this.mergeYearConfigs(primaryYears, practiceYears), manifest);
-    } catch {
+    const practicePayload = await this.fetchJson(PRACTICE_YEARS_PATH);
+    if (!practicePayload) {
       return this.withCustomYear(primaryYears, manifest);
     }
+    const practiceYears = this.buildPracticeYearConfigs(practicePayload, manifest);
+    return this.withCustomYear(this.mergeYearConfigs(primaryYears, practiceYears), manifest);
+  }
+
+  // A years.json entry without a scope means "everything" until a season of the same
+  // name supplies the real chapters (see mergeYearConfigs)
+  primaryYearConfig(year, allScope) {
+    const hasScope = Boolean(year.scope) && typeof year.scope === "object";
+    return {
+      id: year.id,
+      name: year.name,
+      scope: hasScope ? year.scope : structuredClone(allScope),
+      ...(hasScope ? {} : { implicitScope: true }),
+    };
   }
 
   // "Custom - Entire Bible": pick any chapter of any book, like the study tool's

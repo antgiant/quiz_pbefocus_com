@@ -12,6 +12,7 @@ import {
   wordCountOf,
 } from "./blank-engine.js";
 import { formatFillInBlankLead } from "./question-formatters.js";
+import { loadVendor } from "./lazy-vendor.js";
 import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
@@ -412,6 +413,9 @@ export async function generateQuestions({
     };
   }
 
+  // One request for the whole season, rather than one per chapter
+  await dataService.loadYearPack?.(year);
+
   const loaded = await Promise.all(
     chapterPairs.map(({ bookId, chapter }) => dataService.loadChapter(bookId, chapter))
   );
@@ -447,6 +451,8 @@ export async function generateQuestions({
   let versePool = [];
   if (typeSet.has(FIB_TYPE) && difficultySet.size > 0) {
     const config = fillInBlankSettings(settings);
+    // Word choice needs the NLP library, which loads in the background at startup
+    await loadVendor("compromise").catch(() => {});
     let done = 0;
     const failed = [];
     const chapterVerses = await Promise.all(

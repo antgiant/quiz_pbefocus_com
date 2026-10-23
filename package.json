@@ -9,7 +9,9 @@
     "test:coverage": "vitest run --coverage",
     "build:bundle": "node scripts/build-local-bundle.mjs",
     "build:data": "node scripts/build-data.mjs",
-    "check:data": "node scripts/build-data.mjs --check"
+    "check:data": "node scripts/build-data.mjs --check",
+    "bench:fixture": "node scripts/bench/make-fixture.mjs",
+    "bench": "node scripts/bench/run.mjs"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^2.1.8",
