@@ -12,6 +12,7 @@ export class VerseStore {
   constructor(factory = globalThis.indexedDB) {
     this.factory = factory || null;
     this.dbPromise = null;
+    this.pendingReads = [];
   }
 
   open() {
@@ -38,21 +39,36 @@ export class VerseStore {
     return this.dbPromise;
   }
 
-  async get(key) {
-    const db = await this.open();
-    if (!db) return null;
+  // Reads requested in the same tick (a whole season's chapters) share one transaction
+  get(key) {
     return new Promise((resolve) => {
-      try {
-        const request = db.transaction(STORE, "readonly").objectStore(STORE).get(key);
-        request.onsuccess = () => {
-          const verses = request.result?.verses;
-          resolve(Array.isArray(verses) && verses.length ? verses : null);
-        };
-        request.onerror = () => resolve(null);
-      } catch {
-        resolve(null);
+      this.pendingReads.push({ key, resolve });
+      if (this.pendingReads.length === 1) {
+        queueMicrotask(() => this.flushReads());
       }
     });
+  }
+
+  async flushReads() {
+    const batch = this.pendingReads.splice(0);
+    const db = await this.open();
+    if (!db) {
+      batch.forEach((item) => item.resolve(null));
+      return;
+    }
+    try {
+      const store = db.transaction(STORE, "readonly").objectStore(STORE);
+      for (const item of batch) {
+        const request = store.get(item.key);
+        request.onsuccess = () => {
+          const verses = request.result?.verses;
+          item.resolve(Array.isArray(verses) && verses.length ? verses : null);
+        };
+        request.onerror = () => item.resolve(null);
+      }
+    } catch {
+      batch.forEach((item) => item.resolve(null));
+    }
   }
 
   async set(key, verses) {

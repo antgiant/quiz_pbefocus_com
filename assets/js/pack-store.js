@@ -46,7 +46,17 @@ export class PackStore {
         const request = db.transaction(STORE, "readonly").objectStore(STORE).get(yearId);
         request.onsuccess = () => {
           const record = request.result;
-          resolve(record && record.hash === hash && record.pack ? record.pack : null);
+          if (!record || record.hash !== hash) {
+            resolve(null);
+            return;
+          }
+          // Stored as text: one JSON.parse is much cheaper than rebuilding thousands of
+          // small objects from IndexedDB's structured clone
+          try {
+            resolve(record.json ? JSON.parse(record.json) : null);
+          } catch {
+            resolve(null);
+          }
         };
         request.onerror = () => resolve(null);
       } catch {
@@ -61,7 +71,7 @@ export class PackStore {
     return new Promise((resolve) => {
       try {
         const transaction = db.transaction(STORE, "readwrite");
-        transaction.objectStore(STORE).put({ yearId, hash, pack, savedAt: Date.now() });
+        transaction.objectStore(STORE).put({ yearId, hash, json: JSON.stringify(pack), savedAt: Date.now() });
         transaction.oncomplete = () => resolve(true);
         transaction.onerror = () => resolve(false);
         transaction.onabort = () => resolve(false);

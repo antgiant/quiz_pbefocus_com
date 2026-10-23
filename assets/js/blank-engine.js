@@ -195,6 +195,19 @@ function poolSignature(verses) {
   return verses.map((verse) => `${verse.id}#${verse.text.length}`).join(",");
 }
 
+// Defines obj[key] as a value worked out the first time it is read
+function lazyProperty(obj, key, compute) {
+  Object.defineProperty(obj, key, {
+    enumerable: true,
+    configurable: true,
+    get() {
+      const value = compute();
+      Object.defineProperty(obj, key, { value, enumerable: true, writable: true, configurable: true });
+      return value;
+    },
+  });
+}
+
 export function buildTfidfContext(verses) {
   const verseLevel = {};
   const chapterLevel = {};
@@ -207,22 +220,14 @@ export function buildTfidfContext(verses) {
 
   const tokenized = verses.map((verse) => {
     const words = tokenizeText(cleanVerseText(verse.text));
-    return { ...verse, words, tf: termFrequency(words), unique: [...new Set(words)] };
+    return { ...verse, words, unique: [...new Set(words)] };
   });
 
+  // Only the verses that get blanked are ever read, so the document frequencies are
+  // worked out up front but each verse's and chapter's scores on first read
   const verseIdf = inverseDocumentFrequency(tokenized.map((verse) => verse.unique));
-  // Only the verses that get blanked are ever read, so each verse's scores are
-  // worked out the first time they are asked for
   for (const verse of tokenized) {
-    Object.defineProperty(verseLevel, verse.id, {
-      enumerable: true,
-      configurable: true,
-      get() {
-        const scores = normalizeScores(combineTfIdf(verse.tf, verseIdf));
-        Object.defineProperty(verseLevel, verse.id, { value: scores, enumerable: true, writable: true, configurable: true });
-        return scores;
-      },
-    });
+    lazyProperty(verseLevel, verse.id, () => normalizeScores(combineTfIdf(termFrequency(verse.words), verseIdf)));
   }
 
   const chapters = new Map();
@@ -230,10 +235,9 @@ export function buildTfidfContext(verses) {
     if (!chapters.has(verse.chapterKey)) chapters.set(verse.chapterKey, []);
     chapters.get(verse.chapterKey).push(...verse.unique);
   }
-  const chapterTf = new Map([...chapters].map(([key, words]) => [key, termFrequency(words)]));
   const chapterIdf = inverseDocumentFrequency([...chapters.values()].map((words) => [...new Set(words)]));
-  for (const [key, tf] of chapterTf) {
-    chapterLevel[key] = normalizeScores(combineTfIdf(tf, chapterIdf));
+  for (const [key, words] of chapters) {
+    lazyProperty(chapterLevel, key, () => normalizeScores(combineTfIdf(termFrequency(words), chapterIdf)));
   }
 
   return context;

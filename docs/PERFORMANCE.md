@@ -51,12 +51,31 @@ To compare with an older version, check it out in a worktree and point `--src` a
 | Cold: first paint | 2.4 s | 0.24 s | 10.8 s | 0.5 s |
 | Cold: controls / questions | 2.7 s / 4.3 s | 0.57 s / 2.5 s | 12.2 s / 14.8 s | 1.4 s / 4.3 s |
 | Cold: data downloaded | 3.4 MB | 0.35 MB | - | 0.47 MB |
-| Warm: controls / questions | 1.2 s / 2.3 s | 0.49 s / 1.1 s | 1.1 s / 3.0 s | 0.48 s / 1.1 s |
-| Return visit: controls / questions | 1.2 s / 2.5 s | 0.48 s / 1.1 s | 1.7 s / 3.7 s | 0.51 s / 1.1 s |
+| Warm: controls / questions | 1.2 s / 2.3 s | 0.52 s / 0.94 s | 1.1 s / 3.0 s | 0.48 s / 1.0 s |
+| Return visit: controls / questions | 1.2 s / 2.5 s | 0.54 s / 1.0 s | 1.7 s / 3.7 s | 0.51 s / 1.0 s |
 | Return visit: network requests | 56 | 0 | 56 | 0 |
 
-A repeat visit is now about 1.1 s to questions on a throttled CPU, with no network at all. What remains is the browser starting up, reading IndexedDB and generating the preview.
+A repeat visit is now about 1 s to questions on a throttled CPU, with no network at all.
 With a Bible-sized bank the numbers are the same, because only the selected season loads (an earlier run: 13.2 s to questions before, 2.5 s after).
 
 Where the time went originally: a blocking 1.7 MB all-questions script re-parsed on every visit, two more blocking scripts, a 404 for every chapter with verse text but no questions,
 every chapter loaded just to find out which were selectable, 3 MB of PNG images, and the NLP library loaded and run on every visit.
+
+## Where a repeat visit's time goes (4x CPU, about 0.75 s from navigation to questions)
+
+Measured with `performance.mark` calls around each stage of an instrumented copy:
+
+| Stage | Time |
+|---|---|
+| Browser start, load and compile the module graph, reach `bootstrap` | ~155 ms |
+| Manifest, season list, analysis cache read | ~80 ms |
+| Render controls and the chapter selector | ~50 ms |
+| Read the season pack from IndexedDB and parse it | ~90 ms |
+| Read the season's verses from IndexedDB | ~60 ms |
+| Build fill-in-the-blank candidates, then select questions | ~80 ms |
+| Word scores (TF-IDF) | ~70 ms |
+| Blank the chosen verses and render the preview | ~40 ms |
+
+No single piece dominates any more. The largest, word scores, was 245 ms before they were made lazy (only the verses that get blanked are scored).
+Reading verses in one IndexedDB transaction and storing the pack as text trimmed the rest.
+The next steps would be shrinking the module graph (bundling and minifying) and skipping the candidate pass for fill-in-the-blank verses that are never picked.
