@@ -27,7 +27,7 @@ import { DataService, pickDefaultYear } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { loadVendor } from "./lazy-vendor.js";
-import { getAppVersion, registerServiceWorker, resetAppCache } from "./sw-register.js";
+import { registerServiceWorker } from "./sw-register.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
   countedBlanks,
@@ -2304,11 +2304,4 @@ registerServiceWorker({
   canReload: () => !appState.interactive.questions.length || appState.interactive.complete,
 });
 
-const versionPopover = document.getElementById("versionPopover");
-versionPopover?.addEventListener("toggle", async (event) => {
-  if (event.newState === "open") {
-    document.getElementById("versionText").textContent = (await getAppVersion()) || "not cached (online only)";
-  }
-});
-document.getElementById("resetCacheBtn")?.addEventListener("click", resetAppCache);
 bootstrap();
