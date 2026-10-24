@@ -1585,49 +1585,58 @@ function showInteractive() {
   updateQuizSummary();
 }
 
-// Focuses a blank and keeps it above the on-screen keyboard. iOS Safari doesn't shrink the page
-// for the keyboard, only the visual viewport, so the box is moved into the visible part once
-// the keyboard has opened (and straight away for keyboards that don't resize anything).
-function focusBlankBox(box) {
-  box.focus({ preventScroll: true });
+// Keeps an answer box above the on-screen keyboard without scrolling the question off the
+// top. iOS Safari doesn't shrink the page for the keyboard, only the visual viewport, and it
+// pans the page itself (usually too far) while the keyboard slides in, so the position is
+// settled once the keyboard has opened and again after it stops moving.
+function keepBoxClear(box) {
   const viewport = window.visualViewport;
   // iOS draws a prev/next/done bar above the keyboard that isn't part of the visual viewport
   const ACCESSORY_BAR = 64;
-  const reveal = () => {
+  const settle = () => {
     const visibleHeight = viewport ? viewport.height : window.innerHeight;
-    const rect = box.getBoundingClientRect();
-    // Offsets are relative to the visual viewport's top, which moves when iOS pans the page
-    const top = viewport ? rect.top - viewport.offsetTop : rect.top;
-    // Scroll only as far as needed, so the question above the box stays on screen when it can
-    const hidden = top + rect.height - (visibleHeight - ACCESSORY_BAR);
-    if (hidden > 0) {
-      window.scrollBy({ top: hidden + 12 });
-    } else if (top < 8) {
-      window.scrollBy({ top: top - 12 });
+    const offsetTop = viewport ? viewport.offsetTop : 0;
+    const boxRect = box.getBoundingClientRect();
+    const card = el.interactiveContainer.querySelector(".interactive-wrap") || box;
+    const cardTop = card.getBoundingClientRect().top - offsetTop;
+    // Scrolling down by `need` just clears the keyboard; scrolling by `allowed` puts the top of
+    // the question at the top of the screen. The box wins when both can't be had.
+    const need = boxRect.bottom - offsetTop + 12 - (visibleHeight - ACCESSORY_BAR);
+    const allowed = cardTop - 8;
+    const delta = need > allowed ? need : Math.min(Math.max(0, need), allowed);
+    if (Math.abs(delta) >= 1) {
+      window.scrollBy({ top: delta });
     }
   };
-  reveal();
+  settle();
   if (viewport) {
     const onResize = () => {
       viewport.removeEventListener("resize", onResize);
-      reveal();
+      settle();
     };
     viewport.addEventListener("resize", onResize);
     window.setTimeout(() => viewport.removeEventListener("resize", onResize), 1500);
   }
-  // iOS pans the page itself while the keyboard slides in, so look again after it settles
-  window.setTimeout(reveal, 350);
-  window.setTimeout(reveal, 700);
+  window.setTimeout(settle, 350);
+  window.setTimeout(settle, 700);
+}
+
+// Focusing a box also settles its position (see the focusin handler below)
+function focusBlankBox(box) {
+  box.focus({ preventScroll: true });
 }
 
 // A short page has nothing to scroll into, so while a blank is being typed in the page gets
 // extra room at the bottom (see body.typing-blank) for the box to be lifted clear of the keyboard
+const ANSWER_BOX = ".fib-input, #interactiveAnswerInput";
 document.addEventListener("focusin", (event) => {
-  if (event.target.matches?.(".fib-input")) document.body.classList.add("typing-blank");
+  if (!event.target.matches?.(ANSWER_BOX)) return;
+  document.body.classList.add("typing-blank");
+  keepBoxClear(event.target);
 });
 document.addEventListener("focusout", () => {
   window.setTimeout(() => {
-    if (!document.activeElement?.matches?.(".fib-input")) document.body.classList.remove("typing-blank");
+    if (!document.activeElement?.matches?.(ANSWER_BOX)) document.body.classList.remove("typing-blank");
   }, 150);
 });
 
