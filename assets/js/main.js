@@ -56,6 +56,7 @@ import {
   moveProfile,
   saveState,
 } from "./storage.js";
+import { confusableWords, matchesWithSlips } from "./answer-match.js";
 import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
 import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
 
@@ -1483,6 +1484,13 @@ async function downloadPowerPoint() {
   }
 }
 
+// Words from the question and the quiz's other answers: a typed word that is one of these is a
+// different answer, so it isn't forgiven as a misspelling
+function confusablesFor(question) {
+  const others = appState.interactive.questions.filter((other) => other !== question).map((other) => other.answer);
+  return confusableWords([question.question, ...others], question.answer);
+}
+
 function evaluateAnswer(question, answer) {
   const typed = normalizeText(answer);
   const expected = normalizeText(question.answer);
@@ -1501,7 +1509,11 @@ function evaluateAnswer(question, answer) {
     return true;
   }
 
-  return expected.includes(typed) && typed.length >= 4;
+  if (expected.includes(typed) && typed.length >= 4) {
+    return true;
+  }
+
+  return matchesWithSlips(typed, expected, confusablesFor(question));
 }
 
 const verseCache = new Map();
