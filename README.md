@@ -175,6 +175,8 @@ The NAD competition runs on Nearpod, which times in 15-second steps. Measured fr
 questions), 1-2 points ran 30 s, 3-5 points 45 s and 6-7 points 60 s, so NAD is 30 s plus 5 s per extra point, rounded to the
 nearest step (86% of the questions; the earlier 30 s plus 10 s, rounded mostly up, matched 59%). The counts behind this are
 in `tests/fixtures/nad-nearpod-steps.json`. A timer choice saved as "Nearpod" now loads as NAD.
+The interactive timer also waits for the question to be read (see above): Florida and Custom wait the English reading time, NAD waits
+twice as long (English then Spanish), and Custom lets you pick either.
 
 ## Notes and Limits
 
