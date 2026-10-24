@@ -1276,6 +1276,17 @@ input[aria-invalid="true"] {
   border-style: dashed;
 }
 
+/* Filled in by a hint, not typed: clearly the word, but marked as given */
+.fib-input.is-revealed {
+  color: var(--ink);
+  font-weight: 700;
+  background: color-mix(in srgb, var(--teal-soft), white 30%);
+}
+
+.interactive-wrap input.is-revealed[readonly] {
+  color: var(--ink);
+}
+
 .fib-results {
   margin: 0.25rem 0 0.5rem;
   padding-left: 1.4rem;

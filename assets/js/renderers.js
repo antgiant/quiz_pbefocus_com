@@ -769,8 +769,15 @@ function renderBlankedVerse(target, question, result) {
     if (peek) {
       input.placeholder = blankHint(question.blankWords[index]);
     }
-    input.readOnly = (hinted && !peek) || locked;
+    // The whole word was shown by a hint: put it in the box itself, styled apart from typing
+    const revealed = hinted && !peek;
+    if (revealed) {
+      input.value = question.blankWords[index];
+      input.title = "Shown by a hint, not typed";
+    }
+    input.readOnly = revealed || locked;
     input.classList.toggle("is-hinted", hinted);
+    input.classList.toggle("is-revealed", revealed);
     if (graded && result.blankCorrect) {
       // A blank filled by a hint counts as incorrect, but isn't marked as a wrong answer
       const mark = hinted ? "hint used, counts as incorrect" : result.blankCorrect[index] ? "correct" : "incorrect";
