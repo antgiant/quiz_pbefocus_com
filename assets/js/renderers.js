@@ -6,6 +6,7 @@ import {
   secondsForQuestion,
   verseRuns,
 } from "./question-formatters.js";
+import { confusableWords, matchesWithSlips } from "./answer-match.js";
 import { normalizeText } from "./utils.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
@@ -809,9 +810,13 @@ function renderBlankedVerse(target, question, result) {
 // Whether each blank was filled in correctly. A blank filled in by a hint is
 // right on its face, but it doesn't score: see countedBlanks.
 export function gradeBlanks(question, inputs) {
+  // Other words of the verse are a different answer, so a slip that lands on one isn't forgiven
+  const verseWords = question.segments.map((segment) => segment.text ?? segment.word ?? "");
   return question.blankWords.map((word, index) => {
     const typed = normalizeText(inputs[index] || "");
-    return Boolean(typed) && typed === normalizeText(word);
+    if (!typed) return false;
+    if (typed === normalizeText(word)) return true;
+    return matchesWithSlips(typed, word, confusableWords(verseWords, word));
   });
 }
 
