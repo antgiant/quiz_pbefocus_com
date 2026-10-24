@@ -1593,6 +1593,7 @@ function updateQuizSummary() {
 }
 
 function showInteractive() {
+  clearTypingRoom();
   stopQuestionTimer();
   renderInteractive(el.interactiveContainer, appState.interactive);
   bindInteractiveControls();
@@ -1620,6 +1621,12 @@ function keepBoxClear(box) {
     const allowed = cardTop - 8;
     const delta = need > allowed ? need : Math.min(Math.max(0, need), allowed);
     if (Math.abs(delta) >= 1) {
+      // A short page can't scroll far enough: add just the missing room at the bottom
+      const spare = document.documentElement.scrollHeight - (window.scrollY + window.innerHeight);
+      if (delta > spare) {
+        const room = parseFloat(document.body.style.paddingBottom) || 0;
+        document.body.style.paddingBottom = `${room + delta - Math.max(0, spare) + 8}px`;
+      }
       window.scrollBy({ top: delta });
     }
   };
@@ -1641,17 +1648,20 @@ function focusBlankBox(box) {
   box.focus({ preventScroll: true });
 }
 
-// A short page has nothing to scroll into, so while a blank is being typed in the page gets
-// extra room at the bottom (see body.typing-blank) for the box to be lifted clear of the keyboard
+// The extra bottom room (see keepBoxClear) only lasts while a box is being typed in. It is dropped
+// when the box loses focus and whenever the quiz re-renders, because a box removed from the page
+// while focused (on submit, say) never reports losing focus.
 const ANSWER_BOX = ".fib-input, #interactiveAnswerInput";
+function clearTypingRoom() {
+  document.body.style.paddingBottom = "";
+}
 document.addEventListener("focusin", (event) => {
   if (!event.target.matches?.(ANSWER_BOX)) return;
-  document.body.classList.add("typing-blank");
   keepBoxClear(event.target);
 });
 document.addEventListener("focusout", () => {
   window.setTimeout(() => {
-    if (!document.activeElement?.matches?.(ANSWER_BOX)) document.body.classList.remove("typing-blank");
+    if (!document.activeElement?.matches?.(ANSWER_BOX)) clearTypingRoom();
   }, 150);
 });
 
