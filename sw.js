@@ -13,9 +13,10 @@
 //  - The manifest and other small data files are served from cache and
 //    refreshed in the background, so new questions arrive on the next visit.
 
-const VERSION = "48cf8a24e0";
+const VERSION = "678814d11b";
 const SHELL = [
   "assets/apple-touch-icon.png",
+  "assets/css/brand.css",
   "assets/css/print.css",
   "assets/css/styles.css",
   "assets/hero-bible.webp",
@@ -36,8 +37,8 @@ const SHELL = [
   "assets/js/sw-register.js",
   "assets/js/utils.js",
   "assets/js/verse-store.js",
-  "assets/pbefocus-logo-dark.webp",
-  "assets/pbefocus-logo.webp",
+  "assets/site-mark-dark.svg",
+  "assets/site-mark.svg",
   "assets/vendor/compromise.min.js",
   "assets/vendor/jszip.min.js",
   "favicon.ico",

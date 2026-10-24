@@ -35,3 +35,13 @@ sites' navs indefinitely.
   (`sw.js` is left to the Action, since it changes with every app file; run `npm run check:data` to see it).
 - Keep startup free of per-chapter requests and of blocking scripts; load heavy libraries through `assets/js/lazy-vendor.js`.
   Check changes that touch loading with `npm run bench` (see `docs/PERFORMANCE.md`).
+
+## Branding (per-site accent)
+
+`assets/css/brand.css` is a **vendored copy** of `pbefocus.com/brand.css` -- do not edit it here. Change it in the
+`pbefocus.com` repo and run `node scripts/sync-brand.mjs` there to copy it into this repo. `index.html` sets
+`<html data-site="quiz">`, which makes the shared stylesheets use this site's ruby accent (the existing
+`--teal*` tokens are re-pointed, so most CSS needs no change). The header lockup (the site mark with "PBEfocus.com" above the site name, which replaces the shared
+PBEfocus.com logo) and the favicons come
+from `assets/site-mark*.svg` and `assets/favicon.svg`; they are listed in `SHELL_FILES` in `scripts/build-data.mjs`
+so they work offline. Status colors (`--danger`, `--ok`) are deliberately not part of the accent.

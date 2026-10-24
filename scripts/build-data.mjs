@@ -219,8 +219,8 @@ const SHELL_FILES = [
   "favicon.ico",
   "assets/apple-touch-icon.png",
   "assets/hero-bible.webp",
-  "assets/pbefocus-logo.webp",
-  "assets/pbefocus-logo-dark.webp",
+  "assets/site-mark.svg",
+  "assets/site-mark-dark.svg",
   "assets/vendor/compromise.min.js",
   "assets/vendor/jszip.min.js",
 ];
