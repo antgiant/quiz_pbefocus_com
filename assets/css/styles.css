@@ -989,6 +989,13 @@ fieldset {
   text-underline-offset: 0.2em;
 }
 
+/* Small words inside the answer: part of it, but earning nothing either way */
+.answer-words.is-minor {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* A blank a hint gave away: not a miss and not a win, so it keeps the text color */
 .answer-words.is-hinted {
   color: inherit;

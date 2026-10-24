@@ -384,6 +384,27 @@ function analyzeTerms(plainText, store = false) {
   return store ? null : analyzed;
 }
 
+// Words that carry the meaning of an answer: names, nouns, verbs, numbers and describing words.
+// Question words and small filler words (the, is, so, no...) are left out. With the NLP library
+// loaded the tagger decides; without it everything that isn't an ignored small word counts.
+const FILLER_WORDS = new Set(["no", "not", "so", "very", "just", "too", "now", "why", "how", "where", "because"]);
+
+export function contentWords(text) {
+  const plain = cleanVerseText(text);
+  if (!plain) return [];
+  const bare = (word) => String(word || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (!getNlp()) {
+    return plain
+      .split(/\s+/)
+      .map(bare)
+      .filter((word) => word && !isIgnoredWord(word) && !FILLER_WORDS.has(word));
+  }
+  return analyzeTerms(plain)
+    .filter(([, priority]) => priority >= 1 && priority <= 3)
+    .map(([word]) => bare(word))
+    .filter((word) => word && !FILLER_WORDS.has(word));
+}
+
 function termPriority(term) {
   if (hasTag(term, ["Punctuation"])) return 0;
 

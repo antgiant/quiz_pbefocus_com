@@ -137,6 +137,10 @@ spelling), vendored in `assets/vendor/spelling.js` (rebuild with `npm run build:
 `licenses/spelling/`). Words that sound alike but are a different answer (Jude/Judah) or appear elsewhere in the
 question, verse or quiz are not forgiven. Right and wrong answers differ by weight, underline and strike-through as well
 as color, so they read without telling red from green.
+Typed answers earn partial credit by their key words (names, nouns, verbs, numbers; small words like "why are you so"
+earn nothing), judged in `assets/js/answer-grader.js` with the NLP library's word types, a stemmer (make/making) and the
+spelling check above. A multi-point answer is split into one part per point where it can be ("...fearful? ...faith?"), and
+a part needs about two thirds of its key words. The points are only a starting point: the answer card still lets you change them.
 Finishing a quiz celebrates with confetti (not shown if your system asks for reduced motion) and offers
 **Practice again with new blanks**: the same verses with different words blanked.
 
