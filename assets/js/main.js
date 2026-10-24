@@ -1598,8 +1598,12 @@ function focusBlankBox(box) {
     const rect = box.getBoundingClientRect();
     // Offsets are relative to the visual viewport's top, which moves when iOS pans the page
     const top = viewport ? rect.top - viewport.offsetTop : rect.top;
-    if (top < 8 || top + rect.height > visibleHeight - ACCESSORY_BAR) {
-      window.scrollBy({ top: top - (visibleHeight - ACCESSORY_BAR) / 3 });
+    // Scroll only as far as needed, so the question above the box stays on screen when it can
+    const hidden = top + rect.height - (visibleHeight - ACCESSORY_BAR);
+    if (hidden > 0) {
+      window.scrollBy({ top: hidden + 12 });
+    } else if (top < 8) {
+      window.scrollBy({ top: top - 12 });
     }
   };
   reveal();
