@@ -41,6 +41,7 @@ sites' navs indefinitely.
 `assets/css/brand.css` is a **vendored copy** of `pbefocus.com/brand.css` -- do not edit it here. Change it in the
 `pbefocus.com` repo and run `node scripts/sync-brand.mjs` there to copy it into this repo. `index.html` sets
 `<html data-site="quiz">`, which makes the shared stylesheets use this site's ruby accent (the existing
-`--teal*` tokens are re-pointed, so most CSS needs no change). The header badge, mission-card mark and favicons come
+`--teal*` tokens are re-pointed, so most CSS needs no change). The header lockup (the site mark with "PBEfocus.com" above the site name, which replaces the shared
+PBEfocus.com logo) and the favicons come
 from `assets/site-mark*.svg` and `assets/favicon.svg`; they are listed in `SHELL_FILES` in `scripts/build-data.mjs`
 so they work offline. Status colors (`--danger`, `--ok`) are deliberately not part of the accent.
