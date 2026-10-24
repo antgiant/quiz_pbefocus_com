@@ -1683,3 +1683,13 @@ button:disabled {
 body.typing-blank {
   padding-bottom: 60vh;
 }
+
+/* iOS Safari zooms the page when a text field with a font under 16px gets focus. Keep every
+   field at 16px or more on touch screens (without blocking pinch zoom). */
+@media (pointer: coarse) {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  select,
+  textarea {
+    font-size: max(16px, 1em) !important;
+  }
+}
