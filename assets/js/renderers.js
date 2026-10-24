@@ -7,6 +7,7 @@ import {
   verseRuns,
 } from "./question-formatters.js";
 import { confusableWords, matchesWithSlips } from "./answer-match.js";
+import { readingSeconds } from "./reading-time.js";
 import { normalizeText } from "./utils.js";
 import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 
@@ -691,6 +692,11 @@ export function interactiveTimerText(result) {
   if (result.expired) {
     return "Time's up";
   }
+  // Reading time: the answer clock hasn't started
+  if (result.timerStarted === false && result.readRemainingMs != null) {
+    const wait = Math.ceil(result.readRemainingMs / 1000);
+    return `Timer starts in ${wait}s, or when you tap an answer box`;
+  }
   const total = Math.ceil((result.remainingMs ?? 0) / 1000);
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
 }
@@ -929,9 +935,15 @@ export function renderInteractive(container, state) {
     if (result.remainingMs == null) {
       result.remainingMs = secondsForQuestion(current, state.options.timer) * 1000;
     }
+    if (result.timerStarted === false && result.readRemainingMs == null) {
+      result.readRemainingMs = readingSeconds(current, state.options.timer) * 1000;
+    }
     timerNode.hidden = false;
     timerNode.textContent = interactiveTimerText(result);
-    timerNode.classList.toggle("urgent", !result.expired && result.remainingMs <= 10000);
+    timerNode.classList.toggle(
+      "urgent",
+      !result.expired && result.timerStarted !== false && result.remainingMs <= 10000
+    );
   }
   container.append(wrap);
 

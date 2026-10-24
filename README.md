@@ -141,6 +141,11 @@ Typed answers earn partial credit by their key words (names, nouns, verbs, numbe
 earn nothing), judged in `assets/js/answer-grader.js` with the NLP library's word types, a stemmer (make/making) and the
 spelling check above. A multi-point answer is split into one part per point where it can be ("...fearful? ...faith?"), and
 a part needs about two thirds of its key words. The points are only a starting point: the answer card still lets you change them.
+In the interactive quiz the answer timer waits for the question to be read, as in PBE: it starts when the estimated
+reading time is up or as soon as you tap an answer box, whichever comes first (`assets/js/reading-time.js`). Reading speed
+was checked against the 2026 NAD testing broadcast: English is read at 1.93 words/s (off by about 1.2 s on average), and
+NAD's English-and-Spanish lead-in runs at 0.83 words/s. State testing (Florida and Custom) is English only, so its lead-in is half
+of NAD's; NAD and Nearpod use the full one. The fixture of counts and seconds is in `tests/fixtures/`.
 Finishing a quiz celebrates with confetti (not shown if your system asks for reduced motion) and offers
 **Practice again with new blanks**: the same verses with different words blanked.
 
