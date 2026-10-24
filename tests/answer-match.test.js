@@ -1,23 +1,33 @@
 import { describe, expect, it } from "vitest";
-import { allowedSlips, confusableWords, editDistance, matchesWithSlips } from "../assets/js/answer-match.js";
+import { confusableWords, matchesWithSlips } from "../assets/js/answer-match.js";
 import { gradeBlanks } from "../assets/js/renderers.js";
-
-describe("editDistance", () => {
-  it("counts insertions, deletions, substitutions and swapped neighbours", () => {
-    expect(editDistance("philip", "phillip")).toBe(1);
-    expect(editDistance("repent", "repnet")).toBe(1);
-    expect(editDistance("jude", "judas")).toBe(2);
-    expect(editDistance("same", "same")).toBe(0);
-  });
-});
 
 describe("matchesWithSlips", () => {
   it("forgives a slip in a longer word", () => {
-    expect(allowedSlips("Philippians".toLowerCase())).toBe(2);
     expect(matchesWithSlips("Phillip", "Philip")).toBe(true);
     expect(matchesWithSlips("repnet", "repent")).toBe(true);
     expect(matchesWithSlips("Capernaum", "Capernaum")).toBe(true);
     expect(matchesWithSlips("Caperneum", "Capernaum")).toBe(true);
+  });
+
+  it("keeps names that only sound alike apart", () => {
+    expect(matchesWithSlips("Judah", "Jude")).toBe(false);
+    expect(matchesWithSlips("Judas", "Jude")).toBe(false);
+    expect(matchesWithSlips("Elisha", "Elijah")).toBe(false);
+    expect(matchesWithSlips("baptizer", "baptist")).toBe(false);
+  });
+
+  it("accepts common misspellings of biblical names", () => {
+    for (const [typed, expected] of [
+      ["Jeruslem", "Jerusalem"],
+      ["Mathew", "Matthew"],
+      ["Pharasee", "Pharisee"],
+      ["Isaac", "Issac"],
+      ["Nazereth", "Nazareth"],
+      ["Bartholemew", "Bartholomew"],
+    ]) {
+      expect(matchesWithSlips(typed, expected), `${typed} for ${expected}`).toBe(true);
+    }
   });
 
   it("holds short words to an exact match", () => {

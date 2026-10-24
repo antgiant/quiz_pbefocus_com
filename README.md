@@ -132,6 +132,11 @@ Tap a blank to type in it, then tap its **?** once for the first letter and leng
 A blank given away by a hint counts as incorrect in the default score (you can still
 adjust the points on the answer page), and the answer page notes how many hints were used. Using a hint on every
 blank submits the question automatically.
+Spelling slips are forgiven: answers are compared with Double Metaphone (sounds alike) and Jaro-Winkler (close
+spelling), vendored in `assets/vendor/spelling.js` (rebuild with `npm run build:vendor-spelling`; licenses in
+`licenses/spelling/`). Words that sound alike but are a different answer (Jude/Judah) or appear elsewhere in the
+question, verse or quiz are not forgiven. Right and wrong answers differ by weight, underline and strike-through as well
+as color, so they read without telling red from green.
 Finishing a quiz celebrates with confetti (not shown if your system asks for reduced motion) and offers
 **Practice again with new blanks**: the same verses with different words blanked.
 

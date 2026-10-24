@@ -223,6 +223,7 @@ const SHELL_FILES = [
   "assets/site-mark-dark.svg",
   "assets/vendor/compromise.min.js",
   "assets/vendor/jszip.min.js",
+  "assets/vendor/spelling.js",
 ];
 
 export async function buildServiceWorker(siteRoot, templateText) {

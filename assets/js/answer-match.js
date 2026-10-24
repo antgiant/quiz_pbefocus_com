@@ -1,39 +1,29 @@
 // Forgiving answer matching. Real PBE sessions don't mark an answer wrong for a spelling slip,
 // unless the slip makes it a different answer (typing "Judas" for "Jude" is a different person).
-// Pure: no DOM, no storage.
+// Spelling is judged by two libraries instead of hand-made rules: Double Metaphone (do the two
+// words sound the same?) and Jaro-Winkler (how close are the letters?), vendored in
+// assets/vendor/spelling.js. Pure: no DOM, no storage.
+import { doubleMetaphone, jaroWinkler } from "../vendor/spelling.js";
 import { normalizeText } from "./utils.js";
 
-// Edit distance where swapping two neighbouring letters counts as one slip
-export function editDistance(a, b) {
-  const rows = a.length + 1;
-  const cols = b.length + 1;
-  const table = Array.from({ length: rows }, (_, i) => [i, ...Array(cols - 1).fill(0)]);
-  for (let j = 0; j < cols; j += 1) table[0][j] = j;
-  for (let i = 1; i < rows; i += 1) {
-    for (let j = 1; j < cols; j += 1) {
-      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      table[i][j] = Math.min(table[i - 1][j] + 1, table[i][j - 1] + 1, table[i - 1][j - 1] + cost);
-      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
-        table[i][j] = Math.min(table[i][j], table[i - 2][j - 2] + 1);
-      }
-    }
-  }
-  return table[rows - 1][cols - 1];
-}
-
+// How alike two spellings must be. Judah/Jude sound the same but score 0.85, so they stay apart;
+// Phillip/Philip, repnet/repent and Caperneum/Capernaum score 0.95 or more.
+const SIMILARITY = 0.88;
 // Short words differ by one letter all the time (Paul/Saul, Mary/Mark), so they must be exact
-export function allowedSlips(word) {
-  if (word.length >= 9) return 2;
-  if (word.length >= 5) return 1;
-  return 0;
+const MIN_FORGIVEN_LENGTH = 4;
+
+function soundsAlike(a, b) {
+  const [primaryA, secondaryA] = doubleMetaphone(a);
+  const codesB = new Set(doubleMetaphone(b));
+  return [primaryA, secondaryA].some((code) => code && codesB.has(code));
 }
 
-// `others` holds words that would be a different answer (normalized). A typed word that is
-// one of them is never forgiven, however close it is to the expected word.
+// `others` holds words that would be a different answer (normalized). A typed word that is one of
+// them is never forgiven, however close it is to the expected word.
 function wordMatches(typed, expected, others) {
   if (typed === expected) return true;
-  if (others.has(typed)) return false;
-  return editDistance(typed, expected) <= allowedSlips(expected);
+  if (others.has(typed) || expected.length < MIN_FORGIVEN_LENGTH) return false;
+  return jaroWinkler(typed, expected) >= SIMILARITY && soundsAlike(typed, expected);
 }
 
 // Whether `typedText` counts as `expectedText`: the same words, each allowed a spelling slip
