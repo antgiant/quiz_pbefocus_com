@@ -480,6 +480,7 @@ fieldset {
 
 .chapter-selector-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
@@ -500,7 +501,8 @@ fieldset {
 
 .chapter-selector-row .scope-verse-details {
   margin-top: 0;
-  flex: 0 0 auto;
+  flex: 1 1 100%;
+  order: 3;
 }
 
 .scope-verse-details > summary {
@@ -508,6 +510,17 @@ fieldset {
   list-style: none;
   font-size: 0.76rem;
   color: var(--muted);
+}
+
+.scope-verse-details > summary::before {
+  content: "\25B8";
+  display: inline-block;
+  width: 1em;
+  transition: transform 0.15s;
+}
+
+.scope-verse-details[open] > summary::before {
+  transform: rotate(90deg);
 }
 
 .scope-verse-details > summary::-webkit-details-marker {

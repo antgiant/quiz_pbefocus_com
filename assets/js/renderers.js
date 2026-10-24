@@ -355,7 +355,6 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     options.scopeLimit && typeof options.scopeLimit === "object" ? options.scopeLimit : null;
   const selectedVerses = options.selectedVerses || {};
   const chapterWeights = options.chapterWeights || {};
-  const selectorMode = options.selectorMode === "verse" ? "verse" : "chapter";
 
   function chapterKey(bookId, chapterNumber) {
     return `${bookId}:${chapterNumber}`;
@@ -452,11 +451,11 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     bookLabel.append(bookToggle, bookName);
 
     const chapterWrap = document.createElement("div");
-    chapterWrap.className = selectorMode === "chapter" ? "scope-chapters chapter-grid" : "scope-chapters";
+    chapterWrap.className = "scope-chapters";
 
     for (const chapter of visibleChapters) {
       const chapterLabel = document.createElement("label");
-      chapterLabel.className = selectorMode === "chapter" ? "chapter-check chapter-option" : "chapter-check chapter-header";
+      chapterLabel.className = "chapter-check chapter-header";
       const chapterToggle = document.createElement("input");
       chapterToggle.type = "checkbox";
       chapterToggle.dataset.bookId = book.id;
@@ -492,14 +491,6 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       }
       weightLabel.append(weightInput, document.createTextNode("%"));
 
-      if (selectorMode === "chapter") {
-        const cell = document.createElement("div");
-        cell.className = "chapter-weight-cell";
-        cell.append(chapterLabel, weightLabel);
-        chapterWrap.append(cell);
-        continue;
-      }
-
       const chapterRow = document.createElement("div");
       chapterRow.className = "chapter-with-verses scope-chapter-row";
 
@@ -520,7 +511,8 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
 
       const verseSummary = document.createElement("summary");
       verseSummary.dataset.role = "verse-summary";
-  verseSummary.textContent = verseSummaryText === "Verses" ? "Verses" : `Verses: ${verseSummaryText}`;
+      verseSummary.textContent = verseSummaryText === "Verses" ? "Verses" : `Verses: ${verseSummaryText}`;
+      verseSummary.title = "Show or hide this chapter's verses";
       verseToggleWrap.append(verseSummary);
 
       const versesGrid = document.createElement("div");

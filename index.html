@@ -181,10 +181,7 @@
         </fieldset>
 
         <fieldset data-advanced>
-          <legend class="fieldset-header" role="group" aria-label="Selector mode">
-            <button id="scopeModeChapterBtn" type="button" class="selector-mode-btn">Chapter selector</button>
-            <button id="scopeModeVerseBtn" type="button" class="selector-mode-btn">Verse selector</button>
-          </legend>
+          <legend>Chapters and verses</legend>
           <p class="weight-help">
             Optional: enter a percent beside a chapter to control how many questions come from it.
             Blank chapters share whatever percent is left evenly.
@@ -220,10 +217,10 @@
       <section class="panel output-panel">
         <h2>Use these questions</h2>
         <div class="output-actions">
-          <button id="startInteractiveBtn" type="button" class="primary">Practice online</button>
+          <button id="startInteractiveBtn" type="button" class="primary">Interactive Quiz</button>
           <button id="printBtn" type="button">Print</button>
           <button id="pptBtn" type="button">Download PowerPoint</button>
-          <button id="regenerateBtn" type="button" title="Pick a different set of questions from the same settings">Shuffle questions</button>
+          <button id="regenerateBtn" type="button" title="Pick a different set of questions from the same settings">Generate new Question set</button>
         </div>
         <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
       </section>
@@ -244,7 +241,7 @@
         <h2 class="accordion-heading">
           <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion" aria-disabled="true">
             <span class="accordion-title">Interactive Quiz</span>
-            <span class="accordion-summary" id="quizSummary">Choose &ldquo;Practice online&rdquo; above to start</span>
+            <span class="accordion-summary" id="quizSummary">Choose &ldquo;Interactive Quiz&rdquo; above to start</span>
             <span class="accordion-chevron" aria-hidden="true"></span>
           </button>
         </h2>

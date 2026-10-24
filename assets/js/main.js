@@ -88,8 +88,6 @@ const el = {
   scopeSelector: document.getElementById("scopeSelector"),
   regenerateBtn: document.getElementById("regenerateBtn"),
   resetWeightsBtn: document.getElementById("resetWeightsBtn"),
-  scopeModeChapterBtn: document.getElementById("scopeModeChapterBtn"),
-  scopeModeVerseBtn: document.getElementById("scopeModeVerseBtn"),
   newProfileBtn: document.getElementById("newProfileBtn"),
   deleteProfileBtn: document.getElementById("deleteProfileBtn"),
   profileNameInput: document.getElementById("profileNameInput"),
@@ -339,7 +337,6 @@ function renderControls() {
     selectedVerses: active.selectedVerses,
   });
   el.scopeSelector.scrollTop = 0;
-  updateSelectorModeControls(settings.selectorMode);
   renderStyleSelect(settings);
   updateSimpleSummary();
 }
@@ -464,17 +461,6 @@ function syncFillInBlankFromControls(settings) {
   }
   settings.fillInBlank = config;
   return showBlankErrors(config);
-}
-
-function updateSelectorModeControls(mode) {
-  const normalizedMode = mode === "verse" ? "verse" : "chapter";
-  const chapterActive = normalizedMode === "chapter";
-
-  el.scopeModeChapterBtn.classList.toggle("is-active", chapterActive);
-  el.scopeModeVerseBtn.classList.toggle("is-active", !chapterActive);
-
-  el.scopeModeChapterBtn.setAttribute("aria-pressed", chapterActive ? "true" : "false");
-  el.scopeModeVerseBtn.setAttribute("aria-pressed", chapterActive ? "false" : "true");
 }
 
 function chapterScopeKey(bookId, chapter) {
@@ -1556,7 +1542,7 @@ function setAccordion(open) {
 function toggleSection(name) {
   if (name === "quiz") {
     if (!appState.interactive.questions.length) {
-      setStatus("Choose \u201cPractice online\u201d to start a quiz first.", "warn");
+      startInteractiveQuiz();
       return;
     }
     if (accordionOpen.quiz) {
@@ -1576,7 +1562,7 @@ function updateQuizSummary() {
   el.quizToggle.setAttribute("aria-disabled", String(!state.questions.length));
   el.quizSummary.textContent = state.questions.length
     ? `${state.complete ? "Finished" : interactiveProgressText(state)} - open to ${state.complete ? "review" : "resume"}`
-    : "Choose \u201cPractice online\u201d above to start";
+    : "Choose \u201cInteractive Quiz\u201d above to start";
 }
 
 function showInteractive() {
@@ -2218,28 +2204,6 @@ function wireEvents() {
     saveState(appState.storage);
     renderControls();
     refreshScopeThenGenerate();
-  });
-
-  el.scopeModeChapterBtn.addEventListener("click", () => {
-    const active = getActiveProfile(appState.storage);
-    if (active.settings.selectorMode === "chapter") {
-      return;
-    }
-    active.settings.selectorMode = "chapter";
-    saveState(appState.storage);
-    renderControls();
-    queueRealtimeGenerate();
-  });
-
-  el.scopeModeVerseBtn.addEventListener("click", () => {
-    const active = getActiveProfile(appState.storage);
-    if (active.settings.selectorMode === "verse") {
-      return;
-    }
-    active.settings.selectorMode = "verse";
-    saveState(appState.storage);
-    renderControls();
-    queueRealtimeGenerate();
   });
 
   el.resetWeightsBtn.addEventListener("click", () => {
