@@ -1316,7 +1316,6 @@ const POWERPOINT_DIALOG = {
   okLabel: "Download",
   showRealistic: false,
 };
-const BLANK_TAP_PREF_KEY = "pbe_quiz_blank_tap_v1";
 const INTERACTIVE_DIALOG = {
   prefKey: "pbe_quiz_interactive_timer_pref_v1",
   title: "Interactive quiz timer",
@@ -1737,19 +1736,30 @@ function bindInteractiveControls() {
         if (!result.opened.includes(blankIndex)) {
           result.opened.push(blankIndex);
         }
-        if (state.blankTap === "hint" && !result.hinted.includes(blankIndex)) {
-          result.hinted.push(blankIndex);
-          result.peeked.push(blankIndex);
-        }
         state.focusBlank = blankIndex;
         refresh();
       });
     });
 
-    el.interactiveContainer.querySelectorAll('input[name="blankTap"]').forEach((radio) => {
-      radio.addEventListener("change", () => {
-        state.blankTap = radio.value === "hint" ? "hint" : "type";
-        writeTimerPref(BLANK_TAP_PREF_KEY, { blankTap: state.blankTap });
+    // "?" once shows the first letter and length, twice fills in the whole word
+    el.interactiveContainer.querySelectorAll(".fib-help").forEach((help) => {
+      help.addEventListener("click", () => {
+        if (result.status !== "unanswered") return;
+        const blankIndex = Number(help.dataset.index);
+        result.inputs = readBlanks();
+        if (!result.hinted.includes(blankIndex)) {
+          result.hinted.push(blankIndex);
+          result.peeked.push(blankIndex);
+        } else {
+          result.peeked = result.peeked.filter((i) => i !== blankIndex);
+          result.inputs[blankIndex] = question.blankWords[blankIndex];
+        }
+        state.focusBlank = blankIndex;
+        // With every blank given away there is nothing left to answer
+        if (result.hinted.length === question.blankWords.length && result.peeked.length === 0) {
+          submitAnswer();
+        }
+        refresh();
       });
     });
 
@@ -1818,21 +1828,6 @@ function bindInteractiveControls() {
       return;
     }
     goToInteractiveQuestion(index + 1);
-  });
-
-  document.getElementById("interactiveHintBtn")?.addEventListener("click", () => {
-    if (result.status !== "unanswered") return;
-    result.inputs = readBlanks();
-    const open = question.blankWords.map((_, i) => i).filter((i) => !result.hinted.includes(i));
-    const next = open.find((i) => !result.inputs[i]?.trim()) ?? open[0];
-    if (next === undefined) return;
-    result.inputs[next] = question.blankWords[next];
-    result.hinted.push(next);
-    // With every blank given away there is nothing left to answer
-    if (result.hinted.length === question.blankWords.length) {
-      submitAnswer();
-    }
-    refresh();
   });
 
   panel.addEventListener("change", (event) => {
@@ -1964,7 +1959,6 @@ async function startInteractiveQuiz() {
     fibContext: appState.fibContext,
     index: 0,
     options,
-    blankTap: readTimerPref(BLANK_TAP_PREF_KEY).blankTap === "hint" ? "hint" : "type",
     audioElements,
     timerRun: null,
     results: appState.generatedQuestions.map(newInteractiveResult),
