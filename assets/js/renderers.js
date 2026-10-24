@@ -694,18 +694,22 @@ export function interactiveTimerText(result) {
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
 }
 
-// Full verse text, with the words that answer the question in red
-export function renderVerseText(target, verses, answer) {
+// Full verse text, with the words that answer the question highlighted. Given what the player
+// answered, words they got are green and the ones they missed stay red.
+export function renderVerseText(target, verses, answer, typed = null, allMatched = false) {
   target.textContent = "";
   if (!verses.length) {
     target.textContent = "Verse text unavailable.";
     return;
   }
-  for (const run of verseRuns(verses, answer)) {
+  for (const run of verseRuns(verses, answer, typed, allMatched)) {
     if (run.isAnswer) {
       const mark = document.createElement("span");
-      mark.className = "answer-words";
+      mark.className = run.matched ? "answer-words is-matched" : "answer-words";
       mark.textContent = run.text;
+      if (typed !== null) {
+        mark.title = run.matched ? "In your answer" : "Missing from your answer";
+      }
       target.append(mark);
     } else {
       target.append(run.text);

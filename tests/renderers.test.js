@@ -6,10 +6,11 @@ import {
   gradeBlanks,
   interactiveHintsUsed,
   renderInteractive,
+  renderVerseText,
   renderPeopleList,
   renderTypeCheckboxes,
 } from "../assets/js/renderers.js";
-import { formatFillInBlankLead, formatVerseRef } from "../assets/js/question-formatters.js";
+import { formatFillInBlankLead, formatVerseRef, verseRuns } from "../assets/js/question-formatters.js";
 import { launchConfetti } from "../assets/js/confetti.js";
 
 const fib = (overrides = {}) => ({
@@ -50,6 +51,37 @@ beforeEach(() => {
   document.body.innerHTML = "";
   container = document.createElement("div");
   document.body.append(container);
+});
+
+describe("answer highlighting", () => {
+  const verses = [{ verse: 1, text: "Jesus Christ the Son of God" }];
+
+  it("flags which words of the answer the player got", () => {
+    const runs = verseRuns(verses, "Son of God", "the son");
+    const words = runs.filter((run) => run.isAnswer).map((run) => [run.text, run.matched]);
+    expect(words).toEqual([["Son", true], ["of", false], ["God", false]]);
+  });
+
+  it("marks every answer word as matched when the answer was right", () => {
+    const runs = verseRuns(verses, "Son of God", "", true);
+    expect(runs.filter((run) => run.isAnswer).every((run) => run.matched)).toBe(true);
+  });
+
+  it("keeps the single answer run when no answer is given to compare", () => {
+    expect(verseRuns(verses, "Son of God").filter((run) => run.isAnswer)).toEqual([
+      { text: "Son of God", isAnswer: true },
+    ]);
+  });
+
+  it("colors matched words apart from missed ones", () => {
+    const target = document.createElement("p");
+    renderVerseText(target, verses, "Son of God", "son", false);
+    expect([...target.querySelectorAll(".answer-words")].map((n) => n.classList.contains("is-matched"))).toEqual([
+      true,
+      false,
+      false,
+    ]);
+  });
 });
 
 describe("formatters", () => {

@@ -984,6 +984,12 @@ fieldset {
   color: #c00000;
 }
 
+/* Words of the answer that the player got: green, so red keeps meaning "missed" */
+.answer-words.is-matched {
+  color: var(--ok);
+  font-weight: 600;
+}
+
 .interactive-points {
   margin: 0.75rem 0 0;
   padding: 0.25rem 0.75rem 0.5rem;
