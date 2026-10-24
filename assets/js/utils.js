@@ -178,3 +178,21 @@ export function questionMatchesSelectedSources(question, selectedSources) {
   const questionSources = new Set(getQuestionSources(question));
   return selectedSources.some((source) => questionSources.has(source));
 }
+
+// Resolves with `fallback` if `promise` hasn't settled after `ms`. Some browsers (iOS Safari in
+// particular) can leave an IndexedDB request pending forever, which must not freeze the app.
+export function withTimeout(promise, ms, fallback) {
+  return new Promise((resolve) => {
+    const timer = setTimeout(() => resolve(fallback), ms);
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      () => {
+        clearTimeout(timer);
+        resolve(fallback);
+      }
+    );
+  });
+}

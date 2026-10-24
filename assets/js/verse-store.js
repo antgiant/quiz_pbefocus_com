@@ -4,7 +4,12 @@
 // DataService keeps working when IndexedDB is unavailable (private browsing,
 // blocked storage, some file:// setups).
 
+import { withTimeout } from "./utils.js";
+
 const DB_NAME = "pbe-quiz-verses";
+// A stuck open (seen on iOS) is treated as "nothing saved" instead of freezing startup
+const DB_OPEN_TIMEOUT_MS = 3000;
+const DB_READ_TIMEOUT_MS = 4000;
 const DB_VERSION = 1;
 const STORE = "chapters";
 
@@ -20,7 +25,7 @@ export class VerseStore {
       return Promise.resolve(null);
     }
     if (!this.dbPromise) {
-      this.dbPromise = new Promise((resolve) => {
+      this.dbPromise = withTimeout(new Promise((resolve) => {
         try {
           const request = this.factory.open(DB_NAME, DB_VERSION);
           request.onupgradeneeded = () => {
@@ -34,19 +39,23 @@ export class VerseStore {
         } catch {
           resolve(null);
         }
-      });
+      }), DB_OPEN_TIMEOUT_MS, null);
     }
     return this.dbPromise;
   }
 
   // Reads requested in the same tick (a whole season's chapters) share one transaction
   get(key) {
-    return new Promise((resolve) => {
-      this.pendingReads.push({ key, resolve });
-      if (this.pendingReads.length === 1) {
-        queueMicrotask(() => this.flushReads());
-      }
-    });
+    return withTimeout(
+      new Promise((resolve) => {
+        this.pendingReads.push({ key, resolve });
+        if (this.pendingReads.length === 1) {
+          queueMicrotask(() => this.flushReads());
+        }
+      }),
+      DB_READ_TIMEOUT_MS,
+      null
+    );
   }
 
   async flushReads() {

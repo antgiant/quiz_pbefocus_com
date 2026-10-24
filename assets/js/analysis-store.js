@@ -2,7 +2,12 @@
 // is enough: later visits blank verses without loading the NLP library at all.
 // Every failure resolves to "nothing saved" (private browsing, blocked storage).
 
+import { withTimeout } from "./utils.js";
+
 const DB_NAME = "pbe-quiz-analysis";
+// A stuck open (seen on iOS) is treated as "nothing saved" instead of freezing startup
+const DB_OPEN_TIMEOUT_MS = 3000;
+const DB_READ_TIMEOUT_MS = 4000;
 const DB_VERSION = 1;
 const STORE = "analysis";
 const KEY = "terms";
@@ -18,7 +23,7 @@ export class AnalysisStore {
       return Promise.resolve(null);
     }
     if (!this.dbPromise) {
-      this.dbPromise = new Promise((resolve) => {
+      this.dbPromise = withTimeout(new Promise((resolve) => {
         try {
           const request = this.factory.open(DB_NAME, DB_VERSION);
           request.onupgradeneeded = () => {
@@ -32,7 +37,7 @@ export class AnalysisStore {
         } catch {
           resolve(null);
         }
-      });
+      }), DB_OPEN_TIMEOUT_MS, null);
     }
     return this.dbPromise;
   }
@@ -40,15 +45,19 @@ export class AnalysisStore {
   async get() {
     const db = await this.open();
     if (!db) return [];
-    return new Promise((resolve) => {
-      try {
-        const request = db.transaction(STORE, "readonly").objectStore(STORE).get(KEY);
-        request.onsuccess = () => resolve(Array.isArray(request.result?.entries) ? request.result.entries : []);
-        request.onerror = () => resolve([]);
-      } catch {
-        resolve([]);
-      }
-    });
+    return withTimeout(
+      new Promise((resolve) => {
+        try {
+          const request = db.transaction(STORE, "readonly").objectStore(STORE).get(KEY);
+          request.onsuccess = () => resolve(Array.isArray(request.result?.entries) ? request.result.entries : []);
+          request.onerror = () => resolve([]);
+        } catch {
+          resolve([]);
+        }
+      }),
+      DB_READ_TIMEOUT_MS,
+      []
+    );
   }
 
   async set(entries) {

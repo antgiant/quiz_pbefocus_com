@@ -278,30 +278,23 @@
       </div>
     </footer>
 
-    <!-- Inline on purpose: the reset must keep working even when a stale cached main.js is the problem -->
+    <!-- Inline on purpose: the reset and the "app didn't start" notice must keep working even when a
+         stale or broken cached script is the problem -->
     <script>
       (function () {
-        var popover = document.getElementById("versionPopover");
-        var text = document.getElementById("versionText");
-        if (!popover || !text) return;
-        popover.addEventListener("toggle", function (event) {
-          if (event.newState !== "open") return;
-          var worker = navigator.serviceWorker && navigator.serviceWorker.controller;
-          if (!worker) {
-            text.textContent = "not cached (online only)";
-            return;
-          }
-          var channel = new MessageChannel();
-          var timer = setTimeout(function () {
-            text.textContent = "old (needs a reset)";
-          }, 1500);
-          channel.port1.onmessage = function (reply) {
-            clearTimeout(timer);
-            text.textContent = String(reply.data);
-          };
-          worker.postMessage("version", [channel.port2]);
-        });
-        document.getElementById("resetCacheBtn").addEventListener("click", async function () {
+        function pause(ms) {
+          return new Promise(function (resolve) { setTimeout(resolve, ms); });
+        }
+        // A request that never answers (a stuck IndexedDB, a hung download) must not hang the reset
+        function capped(promise, ms) {
+          return Promise.race([Promise.resolve(promise).catch(function () {}), pause(ms)]);
+        }
+
+        // Everything that can keep an old copy alive: the service worker, its caches, the saved
+        // downloads (IndexedDB) and the browser's own HTTP cache of the app files. People, settings
+        // and answers live in localStorage and are kept.
+        async function resetAppCache(button) {
+          if (button) { button.disabled = true; button.textContent = "Resetting\u2026"; }
           try {
             var registrations = await navigator.serviceWorker.getRegistrations();
             await Promise.all(registrations.map(function (r) { return r.unregister(); }));
@@ -310,8 +303,74 @@
             var names = await caches.keys();
             await Promise.all(names.map(function (n) { return caches.delete(n); }));
           } catch (e) {}
+          var databases = ["pbe-quiz-analysis", "pbe-quiz-packs", "pbe-quiz-verses"];
+          await capped(Promise.all(databases.map(function (name) {
+            return new Promise(function (resolve) {
+              try {
+                var request = indexedDB.deleteDatabase(name);
+                request.onsuccess = request.onerror = request.onblocked = function () { resolve(); };
+              } catch (e) { resolve(); }
+            });
+          })), 2500);
+          // Pages lets browsers keep files for ten minutes, so ask the network for each app file
+          // again to replace what the HTTP cache holds
+          await capped((async function () {
+            var text = await (await fetch("sw.js", { cache: "reload" })).text();
+            var match = text.match(/const SHELL = (\[[\s\S]*?\]);/);
+            var files = ["./", "index.html", "sw.js"].concat(match ? JSON.parse(match[1]) : []);
+            await Promise.all(files.map(function (file) {
+              return fetch(file, { cache: "reload" }).catch(function () {});
+            }));
+          })(), 8000);
           location.reload();
-        });
+        }
+
+        var popover = document.getElementById("versionPopover");
+        var text = document.getElementById("versionText");
+        if (popover && text) {
+          popover.addEventListener("toggle", function (event) {
+            if (event.newState !== "open") return;
+            var worker = navigator.serviceWorker && navigator.serviceWorker.controller;
+            if (!worker) {
+              text.textContent = "not cached (online only)";
+              return;
+            }
+            var channel = new MessageChannel();
+            var timer = setTimeout(function () {
+              text.textContent = "old (needs a reset)";
+            }, 1500);
+            channel.port1.onmessage = function (reply) {
+              clearTimeout(timer);
+              text.textContent = String(reply.data);
+            };
+            worker.postMessage("version", [channel.port2]);
+          });
+        }
+        var resetButton = document.getElementById("resetCacheBtn");
+        if (resetButton) {
+          resetButton.addEventListener("click", function () { resetAppCache(resetButton); });
+        }
+
+        // If the app's script never gets as far as starting (a broken or mismatched cached file),
+        // say so and offer the reset instead of leaving dead buttons
+        function offerRecovery() {
+          if (window.__pbeReady || document.getElementById("recoveryBanner")) return;
+          var banner = document.createElement("div");
+          banner.id = "recoveryBanner";
+          banner.className = "update-banner";
+          banner.setAttribute("role", "alert");
+          var message = document.createElement("span");
+          message.textContent = "The app didn\u2019t start properly.";
+          var button = document.createElement("button");
+          button.type = "button";
+          button.textContent = "Reset app cache";
+          button.addEventListener("click", function () { resetAppCache(button); });
+          banner.append(message, button);
+          document.body.append(banner);
+        }
+        window.addEventListener("error", function () { setTimeout(offerRecovery, 1500); }, true);
+        window.addEventListener("unhandledrejection", function () { setTimeout(offerRecovery, 1500); });
+        setTimeout(offerRecovery, 8000);
       })();
     </script>
 
