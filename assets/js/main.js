@@ -1753,6 +1753,9 @@ function bindInteractiveControls() {
         } else {
           result.peeked = result.peeked.filter((i) => i !== blankIndex);
           result.inputs[blankIndex] = question.blankWords[blankIndex];
+          // Submitting reads the boxes, so the box must hold the word before the last blank submits
+          const box = blankInputs.find((candidate) => Number(candidate.dataset.index) === blankIndex);
+          if (box) box.value = question.blankWords[blankIndex];
         }
         state.focusBlank = blankIndex;
         // With every blank given away there is nothing left to answer
