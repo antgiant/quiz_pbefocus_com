@@ -1574,6 +1574,33 @@ function showInteractive() {
 
 // After an answer is shown, keep the whole answer on screen: the question and answer
 // together when they fit, otherwise the whole answer
+// Focuses a blank and keeps it above the on-screen keyboard. iOS Safari doesn't shrink the page
+// for the keyboard, only the visual viewport, so the box is moved into the visible part once
+// the keyboard has opened (and straight away for keyboards that don't resize anything).
+function focusBlankBox(box) {
+  box.focus({ preventScroll: true });
+  const viewport = window.visualViewport;
+  const reveal = () => {
+    const visibleHeight = viewport ? viewport.height : window.innerHeight;
+    const rect = box.getBoundingClientRect();
+    // Offsets are relative to the visual viewport's top, which moves when iOS pans the page
+    const top = viewport ? rect.top - viewport.offsetTop : rect.top;
+    if (top < 8 || top + rect.height > visibleHeight - 8) {
+      window.scrollBy({ top: top - visibleHeight / 3 });
+    }
+  };
+  reveal();
+  if (viewport) {
+    const onResize = () => {
+      viewport.removeEventListener("resize", onResize);
+      reveal();
+    };
+    viewport.addEventListener("resize", onResize);
+    window.setTimeout(() => viewport.removeEventListener("resize", onResize), 1500);
+  }
+  window.setTimeout(reveal, 350);
+}
+
 function keepAnswerInView() {
   const panel = document.getElementById("interactiveAnswerPanel");
   const wrap = el.interactiveContainer.querySelector(".interactive-wrap");
@@ -1769,9 +1796,10 @@ function bindInteractiveControls() {
     if (result.status === "unanswered" && !result.expired) {
       const wanted = blankInputs.find((box) => Number(box.dataset.index) === state.focusBlank);
       if (wanted) {
-        wanted.focus({ preventScroll: true });
+        focusBlankBox(wanted);
       } else if (state.focusBlank === undefined) {
-        blankInputs.find((box) => !box.readOnly && !box.value)?.focus({ preventScroll: true });
+        const empty = blankInputs.find((box) => !box.readOnly && !box.value);
+        if (empty) focusBlankBox(empty);
       }
       state.focusBlank = undefined;
     }
