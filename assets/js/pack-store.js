@@ -3,7 +3,12 @@
 // saving a new pack version replaces the old one, so the store never grows.
 // Every failure resolves to "not cached" (private browsing, blocked storage).
 
+import { withTimeout } from "./utils.js";
+
 const DB_NAME = "pbe-quiz-packs";
+// A stuck open (seen on iOS) is treated as "nothing saved" instead of freezing startup
+const DB_OPEN_TIMEOUT_MS = 3000;
+const DB_READ_TIMEOUT_MS = 4000;
 const DB_VERSION = 1;
 const STORE = "packs";
 
@@ -18,7 +23,7 @@ export class PackStore {
       return Promise.resolve(null);
     }
     if (!this.dbPromise) {
-      this.dbPromise = new Promise((resolve) => {
+      this.dbPromise = withTimeout(new Promise((resolve) => {
         try {
           const request = this.factory.open(DB_NAME, DB_VERSION);
           request.onupgradeneeded = () => {
@@ -32,7 +37,7 @@ export class PackStore {
         } catch {
           resolve(null);
         }
-      });
+      }), DB_OPEN_TIMEOUT_MS, null);
     }
     return this.dbPromise;
   }
@@ -41,7 +46,7 @@ export class PackStore {
   async get(yearId, hash) {
     const db = await this.open();
     if (!db) return null;
-    return new Promise((resolve) => {
+    return withTimeout(new Promise((resolve) => {
       try {
         const request = db.transaction(STORE, "readonly").objectStore(STORE).get(yearId);
         request.onsuccess = () => {
@@ -62,7 +67,7 @@ export class PackStore {
       } catch {
         resolve(null);
       }
-    });
+    }), DB_READ_TIMEOUT_MS, null);
   }
 
   async set(yearId, hash, pack) {

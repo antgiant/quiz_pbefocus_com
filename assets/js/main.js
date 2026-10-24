@@ -2394,6 +2394,13 @@ function offerStudyToolImport() {
 }
 
 async function bootstrap() {
+  // Buttons work from the start: a slow or failed data download must never leave them dead
+  try {
+    wireEvents();
+    window.__pbeReady = true;
+  } catch (error) {
+    setStatus(`${error.message}. Try Reset app cache in the footer.`, "warn");
+  }
   try {
     appState.manifest = await dataService.loadManifest();
     appState.years = await dataService.loadYears(appState.manifest);
@@ -2412,7 +2419,6 @@ async function bootstrap() {
 
     renderProfileArea();
     renderControls();
-    wireEvents();
     setSetupMode(readSetupMode());
     updateQuizSummary();
     await refreshScopeSelectorForFilters();
