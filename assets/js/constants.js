@@ -116,12 +116,13 @@ export const DEFAULT_AUDIO_STYLE = "classic";
 // Interactive and PowerPoint timer presets, in seconds
 export const TIMER_PRESETS = {
   florida: { first: 10, additional: 5 },
-  // NAD reads each question in English and Spanish, so its reading time before the clock starts
-  // is twice a state test's (see reading-time.js)
-  nad: { first: 30, additional: 10, bilingual: true },
   // The NAD competition runs on Nearpod, which times in 15 s steps. Measured from the 2025 and 2026
   // broadcasts (98 questions): 1-2 points ran 30 s, 3-5 points 45 s, 6-7 points 60 s, which is
-  // 30 s plus 5 s per extra point rounded to the nearest step (86% of questions; the earlier
-  // 30 s plus 10 s, rounded mostly up, fit 59%)
-  nearpod: { first: 30, additional: 5, roundTo: 15, roundMode: "nearest", bilingual: true },
+  // 30 s plus 5 s per extra point rounded to the nearest step (86% of questions; 30 s plus 10 s,
+  // rounded mostly up, fit 59%). NAD reads each question in English and Spanish, so its reading
+  // time before the clock starts is twice a state test's (see reading-time.js).
+  nad: { first: 30, additional: 5, roundTo: 15, roundMode: "nearest", bilingual: true },
 };
+
+// Timer choice saved before Nearpod and NAD became one preset
+export const LEGACY_TIMER_MODES = { nearpod: "nad" };

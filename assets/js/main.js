@@ -12,6 +12,7 @@ import {
   normalizeSelectedTypeGroups,
   quizStyleForTypes,
   questionTypeGroupId,
+  LEGACY_TIMER_MODES,
   TIMER_PRESETS,
 } from "./constants.js";
 import { AnalysisStore } from "./analysis-store.js";
@@ -1360,7 +1361,8 @@ function askTimerOptions(config) {
   document.getElementById("timerOkBtn").textContent = config.okLabel;
 
   const pref = readTimerPref(config.prefKey);
-  const mode = modeInputs.some((input) => input.value === pref.mode) ? pref.mode : "none";
+  const savedMode = LEGACY_TIMER_MODES[pref.mode] || pref.mode;
+  const mode = modeInputs.some((input) => input.value === savedMode) ? savedMode : "none";
   modeInputs.forEach((input) => {
     input.checked = input.value === mode;
   });
