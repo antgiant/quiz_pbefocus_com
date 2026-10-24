@@ -1457,8 +1457,7 @@ input[aria-invalid="true"] {
 
 /* While the quiz is open it gets the whole page */
 body.quiz-open .hero,
-body.quiz-open .mission-statement,
-body.quiz-open .site-footer {
+body.quiz-open .mission-statement {
   display: none;
 }
 
@@ -1519,8 +1518,7 @@ body.quiz-open .accordion {
 }
 
 .is-simple .layout > .controls-panel,
-.is-simple .layout > .output-panel,
-.is-simple .layout > .preview-panel {
+.is-simple .layout > .output-panel {
   grid-column: span 12;
 }
 
@@ -1546,14 +1544,6 @@ button:disabled {
 .output-actions button.primary {
   font-size: 1.05rem;
   padding: 0.75rem 0.9rem;
-}
-
-.preview-panel summary {
-  cursor: pointer;
-}
-
-.preview-panel summary h2 {
-  display: inline;
 }
 
 .accordion-toggle[aria-disabled="true"] {

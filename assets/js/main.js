@@ -115,7 +115,9 @@ const el = {
   startInteractiveBtn: document.getElementById("startInteractiveBtn"),
   statusMessage: document.getElementById("statusMessage"),
   printRoot: document.getElementById("printRoot"),
-  previewPanel: document.getElementById("previewPanel"),
+  previewToggle: document.getElementById("previewToggle"),
+  previewRegion: document.getElementById("previewRegion"),
+  previewSummary: document.getElementById("previewSummary"),
   previewMeta: document.getElementById("previewMeta"),
   previewList: document.getElementById("previewList"),
   settingsToggle: document.getElementById("settingsToggle"),
@@ -1508,12 +1510,14 @@ const verseCache = new Map();
 // Setup and the quiz are two sections that each open and close from their own header.
 // Opening the quiz tucks setup away so the quiz gets the page; the quiz keeps its time
 // while setup is open and only runs while it is the section being looked at.
-const accordionOpen = { settings: true, quiz: false };
+const accordionOpen = { settings: true, preview: false, quiz: false };
 
 function applyAccordion() {
-  const { settings, quiz } = accordionOpen;
+  const { settings, preview, quiz } = accordionOpen;
   el.settingsToggle.setAttribute("aria-expanded", String(settings));
   el.settingsRegion.hidden = !settings;
+  el.previewToggle.setAttribute("aria-expanded", String(preview));
+  el.previewRegion.hidden = !preview;
   el.quizToggle.setAttribute("aria-expanded", String(quiz));
   el.quizRegion.hidden = !quiz;
   document.body.classList.toggle("quiz-open", quiz);
@@ -1530,6 +1534,7 @@ function setAccordion(open) {
   if (open === "quiz") {
     accordionOpen.quiz = true;
     accordionOpen.settings = false;
+    accordionOpen.preview = false;
     applyAccordion();
     window.scrollTo({ top: 0 });
   } else {
@@ -1552,7 +1557,11 @@ function toggleSection(name) {
     }
     return;
   }
-  accordionOpen.settings = !accordionOpen.settings;
+  if (name === "preview") {
+    accordionOpen.preview = !accordionOpen.preview;
+  } else {
+    accordionOpen.settings = !accordionOpen.settings;
+  }
   applyAccordion();
 }
 
@@ -1572,8 +1581,6 @@ function showInteractive() {
   updateQuizSummary();
 }
 
-// After an answer is shown, keep the whole answer on screen: the question and answer
-// together when they fit, otherwise the whole answer
 // Focuses a blank and keeps it above the on-screen keyboard. iOS Safari doesn't shrink the page
 // for the keyboard, only the visual viewport, so the box is moved into the visible part once
 // the keyboard has opened (and straight away for keyboards that don't resize anything).
@@ -1601,6 +1608,8 @@ function focusBlankBox(box) {
   window.setTimeout(reveal, 350);
 }
 
+// After an answer is shown, keep the whole answer on screen: the question and answer
+// together when they fit, otherwise the whole answer
 function keepAnswerInView() {
   const panel = document.getElementById("interactiveAnswerPanel");
   const wrap = el.interactiveContainer.querySelector(".interactive-wrap");
@@ -2051,6 +2060,9 @@ async function generateAndRender() {
   renderQuestionBankStats(result.stats);
   renderPreview(el.previewList, el.questionCardTemplate, result.questions);
   renderPreviewMeta(el.previewMeta, result.questions, active.settings, result.unmet);
+  el.previewSummary.textContent = result.questions.length
+    ? `${result.questions.length} ${result.questions.length === 1 ? "question" : "questions"}`
+    : "No questions yet";
 
   const hasQuestions = result.questions.length > 0;
   for (const button of [el.printBtn, el.pptBtn, el.startInteractiveBtn]) {
@@ -2069,6 +2081,7 @@ async function generateAndRender() {
 function wireEvents() {
   el.settingsToggle.addEventListener("click", () => toggleSection("settings"));
   el.quizToggle.addEventListener("click", () => toggleSection("quiz"));
+  el.previewToggle.addEventListener("click", () => toggleSection("preview"));
   el.modeSimpleBtn.addEventListener("click", () => setSetupMode("simple"));
   el.modeAdvancedBtn.addEventListener("click", () => setSetupMode("advanced"));
   el.customizeBtn.addEventListener("click", () => setSetupMode("advanced", { focus: true }));
