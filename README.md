@@ -113,4 +113,3 @@ If `years.json` has no scope for a year, that year defaults to all books and cha
 ## Next Enhancements
 
 - Add optional profile export/import JSON for sharing across devices.
-- Add fill-in-the-blank source integration when external API contract and CORS are finalized.
