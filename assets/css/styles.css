@@ -1546,10 +1546,6 @@ button:disabled {
   padding: 0.75rem 0.9rem;
 }
 
-.accordion-toggle[aria-disabled="true"] {
-  cursor: default;
-  opacity: 0.75;
-}
 
 /* --- Tap-to-fill blanks --- */
 
