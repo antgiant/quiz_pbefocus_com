@@ -72,38 +72,3 @@ export function registerServiceWorker({ canReload = () => true } = {}) {
     window.addEventListener("load", register, { once: true });
   }
 }
-
-// The version of the files this page is running (they come from the active worker's cache)
-export function getAppVersion() {
-  const worker = navigator.serviceWorker?.controller;
-  if (!worker) {
-    return Promise.resolve(null);
-  }
-  return new Promise((resolve) => {
-    const channel = new MessageChannel();
-    const timer = window.setTimeout(() => resolve(null), 1500);
-    channel.port1.onmessage = (event) => {
-      window.clearTimeout(timer);
-      resolve(String(event.data));
-    };
-    worker.postMessage("version", [channel.port2]);
-  });
-}
-
-// Drops the service worker and every cache it made, then loads the site fresh from the
-// network. Profiles, settings and saved verses live in other storage and are kept.
-export async function resetAppCache() {
-  try {
-    const registrations = await navigator.serviceWorker?.getRegistrations?.();
-    await Promise.all((registrations || []).map((registration) => registration.unregister()));
-  } catch {
-    // keep going: clearing the caches still helps
-  }
-  try {
-    const names = await caches.keys();
-    await Promise.all(names.map((name) => caches.delete(name)));
-  } catch {
-    // no Cache API: the reload below is all that can be done
-  }
-  window.location.reload();
-}
