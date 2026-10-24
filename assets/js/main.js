@@ -115,9 +115,8 @@ const el = {
   startInteractiveBtn: document.getElementById("startInteractiveBtn"),
   statusMessage: document.getElementById("statusMessage"),
   printRoot: document.getElementById("printRoot"),
-  previewToggle: document.getElementById("previewToggle"),
-  previewRegion: document.getElementById("previewRegion"),
-  previewSummary: document.getElementById("previewSummary"),
+  previewBody: document.getElementById("previewBody"),
+  quizTitle: document.getElementById("quizTitle"),
   previewMeta: document.getElementById("previewMeta"),
   previewList: document.getElementById("previewList"),
   settingsToggle: document.getElementById("settingsToggle"),
@@ -1507,22 +1506,28 @@ function evaluateAnswer(question, answer) {
 
 const verseCache = new Map();
 
-// Setup and the quiz are two sections that each open and close from their own header.
-// Opening the quiz tucks setup away so the quiz gets the page; the quiz keeps its time
-// while setup is open and only runs while it is the section being looked at.
-const accordionOpen = { settings: true, preview: false, quiz: false };
+// Setup and the second section take turns. That section is the question preview until an
+// interactive quiz is started, then it is the quiz (so the questions can't be peeked at);
+// "Generate new Question set" turns it back into the preview. Opening the quiz tucks setup
+// away so the quiz gets the page; the quiz keeps its time while setup is open and only runs
+// while it is the section being looked at.
+const accordionOpen = { settings: true, quiz: false };
+
+const quizIsActive = () => appState.interactive.questions.length > 0;
 
 function applyAccordion() {
-  const { settings, preview, quiz } = accordionOpen;
+  const { settings, quiz } = accordionOpen;
+  const inQuiz = quizIsActive();
   el.settingsToggle.setAttribute("aria-expanded", String(settings));
   el.settingsRegion.hidden = !settings;
-  el.previewToggle.setAttribute("aria-expanded", String(preview));
-  el.previewRegion.hidden = !preview;
   el.quizToggle.setAttribute("aria-expanded", String(quiz));
   el.quizRegion.hidden = !quiz;
-  document.body.classList.toggle("quiz-open", quiz);
+  el.previewBody.hidden = inQuiz;
+  el.interactiveContainer.hidden = !inQuiz;
+  el.quizTitle.textContent = inQuiz ? "Interactive Quiz" : "Question preview";
+  document.body.classList.toggle("quiz-open", quiz && inQuiz);
 
-  if (quiz && !settings) {
+  if (quiz && inQuiz && !settings) {
     showInteractive();
   } else {
     stopQuestionTimer();
@@ -1534,7 +1539,6 @@ function setAccordion(open) {
   if (open === "quiz") {
     accordionOpen.quiz = true;
     accordionOpen.settings = false;
-    accordionOpen.preview = false;
     applyAccordion();
     window.scrollTo({ top: 0 });
   } else {
@@ -1545,32 +1549,32 @@ function setAccordion(open) {
 
 function toggleSection(name) {
   if (name === "quiz") {
-    if (!appState.interactive.questions.length) {
-      startInteractiveQuiz();
-      return;
+    accordionOpen.quiz = !accordionOpen.quiz;
+    // Setup steps aside only while a quiz is on screen
+    if (accordionOpen.quiz && quizIsActive()) {
+      accordionOpen.settings = false;
+      window.scrollTo({ top: 0 });
     }
-    if (accordionOpen.quiz) {
-      accordionOpen.quiz = false;
-      applyAccordion();
-    } else {
-      setAccordion("quiz");
-    }
-    return;
-  }
-  if (name === "preview") {
-    accordionOpen.preview = !accordionOpen.preview;
   } else {
     accordionOpen.settings = !accordionOpen.settings;
   }
   applyAccordion();
 }
 
+// Back to the question preview, dropping any quiz in progress
+function resetInteractive() {
+  stopQuestionTimer();
+  appState.interactive = { questions: [], index: 0, results: [], complete: false };
+}
+
 function updateQuizSummary() {
   const state = appState.interactive;
-  el.quizToggle.setAttribute("aria-disabled", String(!state.questions.length));
+  const count = appState.generatedQuestions.length;
   el.quizSummary.textContent = state.questions.length
     ? `${state.complete ? "Finished" : interactiveProgressText(state)} - open to ${state.complete ? "review" : "resume"}`
-    : "Choose \u201cInteractive Quiz\u201d above to start";
+    : count
+      ? `${count} ${count === 1 ? "question" : "questions"}`
+      : "No questions yet";
 }
 
 function showInteractive() {
@@ -2075,9 +2079,7 @@ async function generateAndRender() {
   renderQuestionBankStats(result.stats);
   renderPreview(el.previewList, el.questionCardTemplate, result.questions);
   renderPreviewMeta(el.previewMeta, result.questions, active.settings, result.unmet);
-  el.previewSummary.textContent = result.questions.length
-    ? `${result.questions.length} ${result.questions.length === 1 ? "question" : "questions"}`
-    : "No questions yet";
+  updateQuizSummary();
 
   const hasQuestions = result.questions.length > 0;
   for (const button of [el.printBtn, el.pptBtn, el.startInteractiveBtn]) {
@@ -2096,12 +2098,19 @@ async function generateAndRender() {
 function wireEvents() {
   el.settingsToggle.addEventListener("click", () => toggleSection("settings"));
   el.quizToggle.addEventListener("click", () => toggleSection("quiz"));
-  el.previewToggle.addEventListener("click", () => toggleSection("preview"));
   el.modeSimpleBtn.addEventListener("click", () => setSetupMode("simple"));
   el.modeAdvancedBtn.addEventListener("click", () => setSetupMode("advanced"));
   el.customizeBtn.addEventListener("click", () => setSetupMode("advanced", { focus: true }));
   el.styleSelect.addEventListener("change", () => applyQuizStyle(el.styleSelect.value));
   el.regenerateBtn.addEventListener("click", () => {
+    const state = appState.interactive;
+    if (state.questions.length && !state.complete && !window.confirm("Start over with a new question set? Your quiz progress will be lost.")) {
+      return;
+    }
+    if (state.questions.length) {
+      resetInteractive();
+      applyAccordion();
+    }
     generateAndRender().catch((error) => setStatus(error.message, "warn"));
   });
 
