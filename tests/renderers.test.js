@@ -272,9 +272,9 @@ describe("interactive fill in the blank", () => {
     // Unopened blanks are plain links of the same text, so length is no clue either
     expect([...container.querySelectorAll(".fib-blank")].map((blank) => blank.textContent)).toEqual(["_____", "_____"]);
     renderInteractive(container, { questions: [long], index: 0, options: {}, complete: false, results: [result({ opened: [0, 1] })] });
-    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["15ch", "15ch"]);
+    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["14ch", "14ch"]);
     renderInteractive(container, state({ opened: [0, 1] }));
-    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["9ch", "9ch"]);
+    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["8ch", "8ch"]);
   });
 
   it("leaves out the hints note when none were used", () => {

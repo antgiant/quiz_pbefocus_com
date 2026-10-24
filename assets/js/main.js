@@ -1773,16 +1773,26 @@ function bindInteractiveControls() {
       box.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") return;
         event.preventDefault();
-        const next = blankInputs.find((other) => Number(other.dataset.index) > boxIndex && !other.readOnly);
-        if (next) {
-          next.focus();
-        } else {
-          submitBtn.click();
+        // Move to the next blank that still needs an answer, opening it if it hasn't been tapped;
+        // only the last one submits
+        for (let next = boxIndex + 1; next < question.blankWords.length; next += 1) {
+          const nextBox = blankInputs.find((other) => Number(other.dataset.index) === next);
+          if (nextBox?.readOnly) continue;
+          if (nextBox) {
+            focusBlankBox(nextBox);
+          } else {
+            result.inputs = readBlanks();
+            if (!result.opened.includes(next)) result.opened.push(next);
+            state.focusBlank = next;
+            refresh();
+          }
+          return;
         }
+        submitBtn.click();
       });
     });
 
-    // Tapping an underscore opens a box to type in, or a hint, per the player's choice
+    // Tapping an underscore opens a box to type in
     el.interactiveContainer.querySelectorAll(".fib-blank").forEach((blank) => {
       blank.addEventListener("click", () => {
         if (result.status !== "unanswered") return;
