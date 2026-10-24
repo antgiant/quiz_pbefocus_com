@@ -1,14 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-site="quiz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="pbe-site" content="quiz">
     <title>PBE Quiz Builder</title>
-    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon.ico" sizes="48x48" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="icon" type="image/png" href="assets/favicon-192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <meta name="theme-color" content="#a3123a" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#071016" media="(prefers-color-scheme: dark)" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/brand.css" />
     <link rel="stylesheet" href="assets/css/print.css?v=9fac6a8" media="print" />
     <!-- Start the startup data and the module graph downloading in parallel with the page -->
     <link rel="preload" as="fetch" href="questions/v1/manifest.json" crossorigin />
@@ -46,6 +50,13 @@
             <img src="assets/pbefocus-logo.png" alt="PBEfocus.com">
           </picture>
         </a>
+        <a class="site-badge" href="/" aria-label="PBE Quiz Builder home">
+          <picture>
+            <source srcset="assets/site-mark-dark.svg" media="(prefers-color-scheme: dark)">
+            <img src="assets/site-mark.svg" alt="" width="52" height="46">
+          </picture>
+          <span>Quiz Builder</span>
+        </a>
         <nav class="primary-nav" aria-label="Primary navigation">
           <span data-pbe-site-nav style="display:contents">
             <a href="https://pbefocus.com">Home</a>
@@ -66,6 +77,10 @@
       </section>
 
       <section class="mission-statement" aria-labelledby="builder-heading">
+        <picture>
+          <source srcset="assets/site-mark-dark.svg" media="(prefers-color-scheme: dark)">
+          <img class="mission-mark" src="assets/site-mark.svg" alt="" width="117" height="104">
+        </picture>
         <h1 id="builder-heading">PBE Quiz Builder</h1>
         <p class="subtitle">
           Build printable quizzes, PowerPoint decks, and interactive web quizzes from your chapter question bank.
