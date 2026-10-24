@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import {
   createPrintSheets,
+  blankHint,
   countedBlanks,
   gradeBlanks,
   interactiveHintsUsed,
@@ -160,21 +161,55 @@ describe("interactive fill in the blank", () => {
     results: [result(resultOverrides)],
   });
 
-  it("shows a same-width box per blank and a hint button", () => {
+  it("shows an underscore to tap per blank and a hint button", () => {
     renderInteractive(container, state());
-    expect(container.querySelectorAll(".fib-input")).toHaveLength(2);
+    expect(container.querySelectorAll(".fib-blank")).toHaveLength(2);
+    expect(container.querySelector(".fib-blank").textContent).toBe("_____");
+    expect(container.querySelectorAll(".fib-input")).toHaveLength(0);
     expect(container.querySelector("#interactiveHintBtn").textContent).toBe("Hint");
     expect(container.querySelector(".fib-lead").textContent).toBe("According to Mark 1:5, fill in the blanks: (2 Pts.)");
     expect(container.querySelector("#interactiveFibVerse").textContent).not.toContain("gospel");
+  });
+
+  it("opens a box for tapped blanks and leaves the rest as underscores", () => {
+    renderInteractive(container, state({ opened: [1] }));
+    expect(container.querySelectorAll(".fib-blank")).toHaveLength(1);
+    const boxes = container.querySelectorAll(".fib-input");
+    expect(boxes).toHaveLength(1);
+    expect(boxes[0].dataset.index).toBe("1");
+    expect(boxes[0].readOnly).toBe(false);
+  });
+
+  it("shows a first-letter hint in a tapped blank that still takes typing", () => {
+    expect(blankHint("gospel")).toBe("g _ _ _ _ _");
+    renderInteractive(container, state({ inputs: ["", ""], opened: [0], peeked: [0], hinted: [0] }));
+    const box = container.querySelector(".fib-input");
+    expect(box.placeholder).toBe("g _ _ _ _ _");
+    expect(box.readOnly).toBe(false);
+    expect(box.classList.contains("is-hinted")).toBe(true);
+  });
+
+  it("uses one main button that checks, then moves on", () => {
+    renderInteractive(container, state());
+    expect(container.querySelector("#interactiveNextBtn")).toBeNull();
+    expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Check answer");
+    renderInteractive(container, state({ status: "submitted", inputs: ["gospel", "Son"], hinted: [], blankCorrect: [true, true] }));
+    expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Finish");
+    const two = state();
+    two.questions = [fib(), fib({ id: "fib-2" })];
+    two.results = [result({ status: "submitted", inputs: ["", ""], hinted: [], blankCorrect: [false, false] }), result()];
+    renderInteractive(container, two);
+    expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Next");
   });
 
   it("locks hinted blanks and counts hints", () => {
     const s = state({ inputs: ["gospel", ""], hinted: [0] });
     renderInteractive(container, s);
     const boxes = container.querySelectorAll(".fib-input");
+    expect(boxes).toHaveLength(1);
     expect(boxes[0].readOnly).toBe(true);
     expect(boxes[0].value).toBe("gospel");
-    expect(boxes[1].readOnly).toBe(false);
+    expect(container.querySelectorAll(".fib-blank")).toHaveLength(1);
     expect(container.querySelector("#interactiveHintBtn").textContent).toBe("Hint (1 used)");
     expect(interactiveHintsUsed(s)).toBe(1);
   });
@@ -221,9 +256,9 @@ describe("interactive fill in the blank", () => {
       complete: false,
       results: [result()],
     });
-    const widths = [...container.querySelectorAll(".fib-input")].map((box) => box.style.width);
+    const widths = [...container.querySelectorAll(".fib-blank")].map((box) => box.style.width);
     expect(widths).toEqual(["15ch", "15ch"]);
-    renderInteractive(container, state());
+    renderInteractive(container, state({ opened: [0, 1] }));
     expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["9ch", "9ch"]);
   });
 

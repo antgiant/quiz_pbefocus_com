@@ -721,11 +721,21 @@ export function renderVerseText(target, verses, answer) {
   }
 }
 
-// The verse with a text box where each blank is. Boxes are all the same width so
-// the length of a word is never a clue.
+// First letter and the length, e.g. "T _ _ _ _". Counts as a hint, so the blank doesn't score.
+export function blankHint(word) {
+  const letters = Array.from(String(word || ""));
+  return letters.length ? [letters[0], ...letters.slice(1).map(() => "_")].join(" ") : "";
+}
+
+// The verse with each blank shown as an underscore to tap. Tapping opens a text box (or a
+// hint, depending on the player's choice). Every blank in a question is the same width so the
+// length of a word is never a clue.
 function renderBlankedVerse(target, question, result) {
   target.textContent = "";
   const longestAnswer = Math.max(...question.blankWords.map((word) => word.length));
+  const width = `${Math.max(9, longestAnswer + 3)}ch`;
+  const opened = result.opened || [];
+  const peeked = result.peeked || [];
   let blankIndex = 0;
   for (const segment of question.segments) {
     if (!segment.blank) {
@@ -734,6 +744,25 @@ function renderBlankedVerse(target, question, result) {
     }
     const index = blankIndex;
     blankIndex += 1;
+    const label = `Blank ${index + 1} of ${question.blankWords.length}`;
+
+    const hinted = result.hinted.includes(index);
+    const graded = result.status !== "unanswered";
+    // Realistic mode gives one chance per question: once answered or left, it stays locked
+    const locked = graded || Boolean(result.stateRealisticLock);
+    const typed = Boolean((result.inputs[index] || "").length);
+    if (!(opened.includes(index) || typed || hinted || locked)) {
+      const blank = document.createElement("button");
+      blank.type = "button";
+      blank.className = "fib-blank";
+      blank.dataset.index = String(index);
+      blank.style.width = width;
+      blank.textContent = "_____";
+      blank.setAttribute("aria-label", `${label}, empty. Activate to fill in.`);
+      target.append(blank);
+      continue;
+    }
+
     const input = document.createElement("input");
     input.type = "text";
     input.className = "fib-input";
@@ -742,15 +771,15 @@ function renderBlankedVerse(target, question, result) {
     input.autocapitalize = "off";
     input.spellcheck = false;
     input.value = result.inputs[index] || "";
-    // Every box in a question is as wide as its longest answer (plus room to type), so
-    // nothing is cut off and the widths still don't say which word goes where
-    input.style.width = `${Math.max(9, longestAnswer + 3)}ch`;
-    input.setAttribute("aria-label", `Blank ${index + 1} of ${question.blankWords.length}`);
+    input.style.width = width;
+    input.setAttribute("aria-label", label);
 
-    const hinted = result.hinted.includes(index);
-    const graded = result.status !== "unanswered";
-    // Realistic mode gives one chance per question: once answered or left, it stays locked
-    input.readOnly = hinted || graded || Boolean(result.stateRealisticLock);
+    // A partial hint leaves the box open to type in; a full hint fills it in and locks it
+    const peek = peeked.includes(index);
+    if (peek) {
+      input.placeholder = blankHint(question.blankWords[index]);
+    }
+    input.readOnly = (hinted && !peek) || locked;
     input.classList.toggle("is-hinted", hinted);
     if (graded && result.blankCorrect) {
       // A blank filled by a hint counts as incorrect, but isn't marked as a wrong answer
@@ -821,6 +850,10 @@ export function renderInteractive(container, state) {
     result.inputs = current.blankWords.map(() => "");
     result.hinted = [];
   }
+  if (current.segments) {
+    result.opened = result.opened || [];
+    result.peeked = result.peeked || [];
+  }
   const isBlankQuiz = Boolean(current.segments);
   const prompt = formatInteractivePrompt(current);
   const wrap = document.createElement("div");
@@ -829,8 +862,18 @@ export function renderInteractive(container, state) {
   const isLast = state.index === state.questions.length - 1;
   const locked = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
+  // One main button: check the answer, then move on. Once time is up in realistic mode
+  // there is nothing left to check, so it only moves on.
+  const answered = result.status !== "unanswered" || locked;
+  const actionLabel = answered ? (isLast ? "Finish" : "Next") : "Check answer";
+
   const answerArea = isBlankQuiz
     ? `
+    <fieldset class="fib-tap">
+      <legend>When I tap a blank</legend>
+      <label><input type="radio" name="blankTap" value="type"${state.blankTap === "hint" ? "" : " checked"}> Type the word</label>
+      <label><input type="radio" name="blankTap" value="hint"${state.blankTap === "hint" ? " checked" : ""}> Show a hint (first letter and length; counts as incorrect)</label>
+    </fieldset>
     <p class="fib-lead"></p>
     <p id="interactiveFibVerse" class="fib-verse"></p>`
     : `
@@ -847,14 +890,14 @@ export function renderInteractive(container, state) {
     <div class="interactive-actions">
       <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
       ${isBlankQuiz ? '<button type="button" id="interactiveHintBtn"></button>' : ""}
-      <button type="button" id="interactiveSubmitBtn">Submit</button>
       <button type="button" id="interactiveRevealBtn">Reveal Answer</button>
-      <button type="button" id="interactiveNextBtn">${isLast ? "Finish" : "Next"}</button>
+      <button type="button" id="interactiveSubmitBtn" class="primary"></button>
     </div>
     <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>
   `;
 
   wrap.querySelector(".interactive-progress").textContent = interactiveProgressText(state);
+  wrap.querySelector("#interactiveSubmitBtn").textContent = actionLabel;
 
   if (isBlankQuiz) {
     const points = interactivePossiblePoints(current);

@@ -38,6 +38,22 @@ export function normalizeSelectedTypeGroups(selectedTypes) {
   return QUESTION_TYPE_GROUP_IDS.filter((id) => groups.has(id));
 }
 
+// The one-choice "style" of the simple setup screen; each is a set of the type groups above
+export const QUIZ_STYLES = [
+  { id: "mixed", label: "Mixed (recommended)", types: [...QUESTION_TYPE_GROUP_IDS] },
+  { id: "fill_in_blank", label: "Fill in the blank only", types: ["fill_in_blank"] },
+  { id: "short_answer", label: "Short answer only", types: ["short_answer"] },
+];
+
+// Which style matches the selected types, or "custom" when advanced setup picked something else
+export function quizStyleForTypes(selectedTypes) {
+  const chosen = new Set(selectedTypes || []);
+  const match = QUIZ_STYLES.find(
+    (style) => style.types.length === chosen.size && style.types.every((type) => chosen.has(type))
+  );
+  return match ? match.id : "custom";
+}
+
 export const QUESTION_DIFFICULTIES = ["easy", "medium", "hard"];
 
 export const QUESTION_SOURCES = [

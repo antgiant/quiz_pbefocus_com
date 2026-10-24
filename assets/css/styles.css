@@ -432,6 +432,7 @@ fieldset {
 
 .scope-chapters.chapter-grid {
   margin-top: 0.2rem;
+  grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr));
 }
 
 .chapter-grid {
@@ -490,6 +491,7 @@ fieldset {
 
 .chapter-number {
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .scope-verse-details {
@@ -835,8 +837,20 @@ fieldset {
 
 .chapter-weight-cell {
   display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.chapter-weight-cell .chapter-check {
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.chapter-weight-cell .chapter-weight {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .chapter-weight {
@@ -1456,5 +1470,126 @@ body.quiz-open .accordion {
   .quiz-region .interactive-wrap {
     padding: 1rem;
     font-size: 1.05rem;
+  }
+}
+
+
+/* --- Simple and advanced setup --- */
+
+.mode-switch {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 1080px;
+  margin: 0 auto 1rem;
+}
+
+.mode-switch button {
+  width: auto;
+  min-width: 7rem;
+  margin: 0;
+}
+
+.is-simple [data-advanced],
+.is-advanced [data-simple] {
+  display: none !important;
+}
+
+.is-simple .layout > .controls-panel,
+.is-simple .layout > .output-panel,
+.is-simple .layout > .preview-panel {
+  grid-column: span 12;
+}
+
+.simple-summary {
+  margin-top: 1rem;
+}
+
+.simple-summary p {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+}
+
+.simple-summary button {
+  width: auto;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.output-actions button.primary {
+  font-size: 1.05rem;
+  padding: 0.75rem 0.9rem;
+}
+
+.preview-panel summary {
+  cursor: pointer;
+}
+
+.preview-panel summary h2 {
+  display: inline;
+}
+
+.accordion-toggle[aria-disabled="true"] {
+  cursor: default;
+  opacity: 0.75;
+}
+
+/* --- Tap-to-fill blanks --- */
+
+.fib-blank {
+  display: inline-block;
+  min-width: 6rem;
+  max-width: 100%;
+  margin: 0 0.15rem;
+  padding: 0.1rem 0.35rem;
+  vertical-align: baseline;
+  border-style: dashed;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.fib-blank:hover {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.fib-input::placeholder {
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+.fib-tap {
+  margin: 0 0 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.fib-tap legend {
+  font-size: 0.85rem;
+}
+
+.fib-tap label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400;
+}
+
+.fib-tap input {
+  width: auto;
+  margin: 0;
+}
+
+@media (max-width: 540px) {
+  .output-actions button,
+  .mode-switch button,
+  .interactive-actions button {
+    min-height: 44px;
   }
 }

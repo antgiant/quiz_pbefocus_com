@@ -8,7 +8,9 @@ import {
   QUESTION_DIFFICULTIES,
   QUESTION_SOURCES,
   QUESTION_TYPE_GROUP_IDS,
+  QUIZ_STYLES,
   normalizeSelectedTypeGroups,
+  quizStyleForTypes,
   questionTypeGroupId,
 } from "./constants.js";
 import { AnalysisStore } from "./analysis-store.js";
@@ -105,7 +107,11 @@ const el = {
   blankMaxInput: document.getElementById("blankMaxInput"),
   blankError: document.getElementById("blankError"),
   blankCustomNote: document.getElementById("blankCustomNote"),
-  togglePreviewBtn: document.getElementById("togglePreviewBtn"),
+  modeSimpleBtn: document.getElementById("modeSimpleBtn"),
+  modeAdvancedBtn: document.getElementById("modeAdvancedBtn"),
+  styleSelect: document.getElementById("styleSelect"),
+  simpleSummary: document.getElementById("simpleSummary"),
+  customizeBtn: document.getElementById("customizeBtn"),
   printBtn: document.getElementById("printBtn"),
   pptBtn: document.getElementById("pptBtn"),
   startInteractiveBtn: document.getElementById("startInteractiveBtn"),
@@ -334,6 +340,73 @@ function renderControls() {
   });
   el.scopeSelector.scrollTop = 0;
   updateSelectorModeControls(settings.selectorMode);
+  renderStyleSelect(settings);
+  updateSimpleSummary();
+}
+
+// --- Simple and advanced setup ---
+
+const SETUP_MODE_KEY = "pbe_quiz_setup_mode_v1";
+
+function readSetupMode() {
+  try {
+    return window.localStorage.getItem(SETUP_MODE_KEY) === "advanced" ? "advanced" : "simple";
+  } catch {
+    return "simple";
+  }
+}
+
+// Simple shows a few solid choices; advanced shows every setting. Both edit the same
+// saved settings, so switching never loses anything.
+function setSetupMode(mode, { focus = false } = {}) {
+  const advanced = mode === "advanced";
+  el.settingsRegion.classList.toggle("is-advanced", advanced);
+  el.settingsRegion.classList.toggle("is-simple", !advanced);
+  el.modeSimpleBtn.classList.toggle("is-active", !advanced);
+  el.modeAdvancedBtn.classList.toggle("is-active", advanced);
+  el.modeSimpleBtn.setAttribute("aria-pressed", String(!advanced));
+  el.modeAdvancedBtn.setAttribute("aria-pressed", String(advanced));
+  try {
+    window.localStorage.setItem(SETUP_MODE_KEY, mode);
+  } catch {
+    // Remembering the choice is a convenience only
+  }
+  if (focus) {
+    el.scopeSelector.closest("fieldset")?.scrollIntoView({ block: "start" });
+  }
+}
+
+function renderStyleSelect(settings) {
+  const current = quizStyleForTypes(settings.selectedTypes);
+  el.styleSelect.innerHTML = "";
+  for (const style of QUIZ_STYLES) {
+    el.styleSelect.append(new Option(style.label, style.id));
+  }
+  if (current === "custom") {
+    el.styleSelect.append(new Option("Custom (set in Advanced)", "custom"));
+  }
+  el.styleSelect.value = current;
+}
+
+function applyQuizStyle(styleId) {
+  const style = QUIZ_STYLES.find((candidate) => candidate.id === styleId);
+  if (!style) {
+    return;
+  }
+  const settings = getActiveProfile(appState.storage).settings;
+  settings.selectedTypes = [...style.types];
+  // A percent mix only makes sense for the types it was written for
+  settings.typeWeights = {};
+  saveState(appState.storage);
+  renderControls();
+  refreshScopeThenGenerate();
+}
+
+function updateSimpleSummary() {
+  const active = getActiveProfile(appState.storage);
+  const scope = buildScopeLabel(active).replace(/^Scope /, "");
+  const people = appState.storage.profiles.length > 1 ? `${active.name} \u00b7 ` : "";
+  el.simpleSummary.textContent = `${people}${buildSettingsLabel(active)} \u00b7 ${scope}`;
 }
 
 // --- Fill in the Blank settings ---
@@ -798,6 +871,7 @@ function queueRealtimeGenerate() {
   }
 
   appState.generationTimer = window.setTimeout(() => {
+    appState.generationTimer = null;
     generateAndRender().catch((error) => setStatus(error.message, "warn"));
   }, 180);
 }
@@ -1143,6 +1217,15 @@ function buildScopeLabel(active = getActiveProfile(appState.storage)) {
   return parts.length ? `Scope ${parts.join("; ")}` : "Scope None selected";
 }
 
+// A change a moment ago may not have produced its questions yet: finish that first
+async function ensureFreshQuestions() {
+  if (appState.generationTimer) {
+    clearTimeout(appState.generationTimer);
+    appState.generationTimer = null;
+    await generateAndRender();
+  }
+}
+
 function selectedPeople() {
   const selectedIds = appState.storage.selectedPrintPeopleIds;
   return appState.storage.profiles.filter((profile) => selectedIds.includes(profile.id));
@@ -1178,8 +1261,9 @@ async function buildSelectedPeopleEntries() {
 }
 
 async function openPrintView() {
+  await ensureFreshQuestions();
   if (!appState.generatedQuestions.length) {
-    setStatus("Generate questions first before opening print view.", "warn");
+    setStatus("There are no questions to print yet. Adjust the setup above.", "warn");
     return;
   }
 
@@ -1204,15 +1288,6 @@ async function openPrintView() {
   window.addEventListener("afterprint", cleanupPrintView, { once: true });
   document.body.classList.add("printing");
   window.print();
-}
-
-function updatePreviewToggleText() {
-  el.togglePreviewBtn.textContent = el.previewPanel.hidden ? "Show Preview" : "Hide Preview";
-}
-
-function togglePreview() {
-  el.previewPanel.hidden = !el.previewPanel.hidden;
-  updatePreviewToggleText();
 }
 
 // Loads whole chapters (shared and de-duplicated by the data service) rather
@@ -1255,6 +1330,7 @@ const POWERPOINT_DIALOG = {
   okLabel: "Download",
   showRealistic: false,
 };
+const BLANK_TAP_PREF_KEY = "pbe_quiz_blank_tap_v1";
 const INTERACTIVE_DIALOG = {
   prefKey: "pbe_quiz_interactive_timer_pref_v1",
   title: "Interactive quiz timer",
@@ -1379,8 +1455,9 @@ function askTimerOptions(config) {
 }
 
 async function downloadPowerPoint() {
+  await ensureFreshQuestions();
   if (!appState.generatedQuestions.length) {
-    setStatus("Generate questions first before exporting PowerPoint.", "warn");
+    setStatus("There are no questions to export yet. Adjust the setup above.", "warn");
     return;
   }
 
@@ -1443,30 +1520,63 @@ function evaluateAnswer(question, answer) {
 
 const verseCache = new Map();
 
-// Setup and the quiz take turns: opening one collapses the other. The quiz takes the
-// whole page while it is open, and pauses (keeping its time) while setup is open.
-function setAccordion(open) {
-  const quiz = open === "quiz";
-  el.settingsToggle.setAttribute("aria-expanded", String(!quiz));
-  el.settingsRegion.hidden = quiz;
+// Setup and the quiz are two sections that each open and close from their own header.
+// Opening the quiz tucks setup away so the quiz gets the page; the quiz keeps its time
+// while setup is open and only runs while it is the section being looked at.
+const accordionOpen = { settings: true, quiz: false };
+
+function applyAccordion() {
+  const { settings, quiz } = accordionOpen;
+  el.settingsToggle.setAttribute("aria-expanded", String(settings));
+  el.settingsRegion.hidden = !settings;
   el.quizToggle.setAttribute("aria-expanded", String(quiz));
   el.quizRegion.hidden = !quiz;
   document.body.classList.toggle("quiz-open", quiz);
 
-  if (quiz) {
+  if (quiz && !settings) {
     showInteractive();
-    window.scrollTo({ top: 0 });
   } else {
     stopQuestionTimer();
     updateQuizSummary();
   }
 }
 
+function setAccordion(open) {
+  if (open === "quiz") {
+    accordionOpen.quiz = true;
+    accordionOpen.settings = false;
+    applyAccordion();
+    window.scrollTo({ top: 0 });
+  } else {
+    accordionOpen.settings = true;
+    applyAccordion();
+  }
+}
+
+function toggleSection(name) {
+  if (name === "quiz") {
+    if (!appState.interactive.questions.length) {
+      setStatus("Choose \u201cPractice online\u201d to start a quiz first.", "warn");
+      return;
+    }
+    if (accordionOpen.quiz) {
+      accordionOpen.quiz = false;
+      applyAccordion();
+    } else {
+      setAccordion("quiz");
+    }
+    return;
+  }
+  accordionOpen.settings = !accordionOpen.settings;
+  applyAccordion();
+}
+
 function updateQuizSummary() {
   const state = appState.interactive;
+  el.quizToggle.setAttribute("aria-disabled", String(!state.questions.length));
   el.quizSummary.textContent = state.questions.length
     ? `${state.complete ? "Finished" : interactiveProgressText(state)} - open to ${state.complete ? "review" : "resume"}`
-    : "";
+    : "Choose \u201cPractice online\u201d above to start";
 }
 
 function showInteractive() {
@@ -1559,6 +1669,8 @@ function practiceAgain() {
 function newInteractiveResult() {
   return {
     input: "",
+    opened: [],
+    peeked: [],
     status: "unanswered",
     autoCorrect: false,
     awarded: 0,
@@ -1581,7 +1693,6 @@ function bindInteractiveControls() {
 
   const submitBtn = document.getElementById("interactiveSubmitBtn");
   const revealBtn = document.getElementById("interactiveRevealBtn");
-  const nextBtn = document.getElementById("interactiveNextBtn");
   const panel = document.getElementById("interactiveAnswerPanel");
 
   const index = state.index;
@@ -1591,7 +1702,7 @@ function bindInteractiveControls() {
   const input = document.getElementById("interactiveAnswerInput");
   const blankInputs = Array.from(el.interactiveContainer.querySelectorAll(".fib-input"));
 
-  if (!submitBtn || !revealBtn || !nextBtn || !prevBtn || !panel || (!isBlankQuiz && !input)) {
+  if (!submitBtn || !revealBtn || !prevBtn || !panel || (!isBlankQuiz && !input)) {
     return;
   }
 
@@ -1606,10 +1717,16 @@ function bindInteractiveControls() {
     keepAnswerInView();
   };
 
-  const readBlanks = () => blankInputs.map((box) => box.value);
+  // Blanks nobody has tapped yet have no box, so fall back to what is stored
+  const readBlanks = () =>
+    question.blankWords.map((_, i) => {
+      const box = blankInputs.find((candidate) => Number(candidate.dataset.index) === i);
+      return box ? box.value : result.inputs?.[i] || "";
+    });
 
   if (isBlankQuiz) {
-    blankInputs.forEach((box, boxIndex) => {
+    blankInputs.forEach((box) => {
+      const boxIndex = Number(box.dataset.index);
       box.addEventListener("input", () => {
         result.inputs[boxIndex] = box.value;
       });
@@ -1617,7 +1734,7 @@ function bindInteractiveControls() {
       box.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") return;
         event.preventDefault();
-        const next = blankInputs.slice(boxIndex + 1).find((other) => !other.readOnly);
+        const next = blankInputs.find((other) => Number(other.dataset.index) > boxIndex && !other.readOnly);
         if (next) {
           next.focus();
         } else {
@@ -1625,8 +1742,40 @@ function bindInteractiveControls() {
         }
       });
     });
+
+    // Tapping an underscore opens a box to type in, or a hint, per the player's choice
+    el.interactiveContainer.querySelectorAll(".fib-blank").forEach((blank) => {
+      blank.addEventListener("click", () => {
+        if (result.status !== "unanswered") return;
+        const blankIndex = Number(blank.dataset.index);
+        result.inputs = readBlanks();
+        if (!result.opened.includes(blankIndex)) {
+          result.opened.push(blankIndex);
+        }
+        if (state.blankTap === "hint" && !result.hinted.includes(blankIndex)) {
+          result.hinted.push(blankIndex);
+          result.peeked.push(blankIndex);
+        }
+        state.focusBlank = blankIndex;
+        refresh();
+      });
+    });
+
+    el.interactiveContainer.querySelectorAll('input[name="blankTap"]').forEach((radio) => {
+      radio.addEventListener("change", () => {
+        state.blankTap = radio.value === "hint" ? "hint" : "type";
+        writeTimerPref(BLANK_TAP_PREF_KEY, { blankTap: state.blankTap });
+      });
+    });
+
     if (result.status === "unanswered" && !result.expired) {
-      blankInputs.find((box) => !box.readOnly && !box.value)?.focus({ preventScroll: true });
+      const wanted = blankInputs.find((box) => Number(box.dataset.index) === state.focusBlank);
+      if (wanted) {
+        wanted.focus({ preventScroll: true });
+      } else if (state.focusBlank === undefined) {
+        blankInputs.find((box) => !box.readOnly && !box.value)?.focus({ preventScroll: true });
+      }
+      state.focusBlank = undefined;
     }
   } else {
     input.addEventListener("input", () => {
@@ -1674,10 +1823,16 @@ function bindInteractiveControls() {
     return true;
   };
 
+  // One main button: it checks the answer, and once the answer is in, it moves on
+  const timeIsUp = () => Boolean(state.options?.realistic && result.expired && !result.autoSubmit);
   submitBtn.addEventListener("click", () => {
-    if (submitAnswer()) {
-      refresh();
+    if (result.status === "unanswered" && !timeIsUp()) {
+      if (submitAnswer()) {
+        refresh();
+      }
+      return;
     }
+    goToInteractiveQuestion(index + 1);
   });
 
   document.getElementById("interactiveHintBtn")?.addEventListener("click", () => {
@@ -1687,8 +1842,6 @@ function bindInteractiveControls() {
     const next = open.find((i) => !result.inputs[i]?.trim()) ?? open[0];
     if (next === undefined) return;
     result.inputs[next] = question.blankWords[next];
-    // Fill the box too: submitting reads the boxes, and the last hint submits straight away
-    blankInputs[next].value = question.blankWords[next];
     result.hinted.push(next);
     // With every blank given away there is nothing left to answer
     if (result.hinted.length === question.blankWords.length) {
@@ -1720,13 +1873,6 @@ function bindInteractiveControls() {
   });
 
   prevBtn.addEventListener("click", () => goToInteractiveQuestion(index - 1));
-  // Moving on counts as submitting whatever is in the box
-  nextBtn.addEventListener("click", () => {
-    if (result.status === "unanswered") {
-      submitAnswer();
-    }
-    goToInteractiveQuestion(index + 1);
-  });
 }
 
 // --- Interactive timer ---
@@ -1817,8 +1963,9 @@ function startQuestionTimer() {
 }
 
 async function startInteractiveQuiz() {
+  await ensureFreshQuestions();
   if (!appState.generatedQuestions.length) {
-    setStatus("Generate questions first before starting interactive mode.", "warn");
+    setStatus("There are no questions to practice yet. Adjust the setup above.", "warn");
     return;
   }
 
@@ -1843,13 +1990,13 @@ async function startInteractiveQuiz() {
     fibContext: appState.fibContext,
     index: 0,
     options,
+    blankTap: readTimerPref(BLANK_TAP_PREF_KEY).blankTap === "hint" ? "hint" : "type",
     audioElements,
     timerRun: null,
     results: appState.generatedQuestions.map(newInteractiveResult),
     complete: false,
   };
 
-  el.quizItem.hidden = false;
   setAccordion("quiz");
   setStatus("Interactive quiz started.", "ok");
 }
@@ -1906,25 +2053,27 @@ async function generateAndRender() {
   renderPreview(el.previewList, el.questionCardTemplate, result.questions);
   renderPreviewMeta(el.previewMeta, result.questions, active.settings, result.unmet);
 
+  const hasQuestions = result.questions.length > 0;
+  for (const button of [el.printBtn, el.pptBtn, el.startInteractiveBtn]) {
+    button.disabled = !hasQuestions;
+    button.title = hasQuestions ? "" : "No questions match this setup yet";
+  }
+  updateSimpleSummary();
+
   if (result.questions.length) {
-    setStatus(`Generated ${result.questions.length} questions.`, "ok");
+    setStatus(`Ready: ${result.questions.length} questions.`, "ok");
   } else {
     setStatus("No questions generated. Adjust filters and try again.", "warn");
   }
 }
 
 function wireEvents() {
-  el.settingsToggle.addEventListener("click", () => {
-    if (el.settingsToggle.getAttribute("aria-expanded") !== "true") {
-      setAccordion("settings");
-    }
-  });
-  el.quizToggle.addEventListener("click", () => {
-    if (el.quizToggle.getAttribute("aria-expanded") !== "true") {
-      setAccordion("quiz");
-    }
-  });
-  el.togglePreviewBtn.addEventListener("click", togglePreview);
+  el.settingsToggle.addEventListener("click", () => toggleSection("settings"));
+  el.quizToggle.addEventListener("click", () => toggleSection("quiz"));
+  el.modeSimpleBtn.addEventListener("click", () => setSetupMode("simple"));
+  el.modeAdvancedBtn.addEventListener("click", () => setSetupMode("advanced"));
+  el.customizeBtn.addEventListener("click", () => setSetupMode("advanced", { focus: true }));
+  el.styleSelect.addEventListener("change", () => applyQuizStyle(el.styleSelect.value));
   el.regenerateBtn.addEventListener("click", () => {
     generateAndRender().catch((error) => setStatus(error.message, "warn"));
   });
@@ -2188,8 +2337,9 @@ async function bootstrap() {
 
     renderProfileArea();
     renderControls();
-    updatePreviewToggleText();
     wireEvents();
+    setSetupMode(readSetupMode());
+    updateQuizSummary();
     await refreshScopeSelectorForFilters();
     await generateAndRender();
 

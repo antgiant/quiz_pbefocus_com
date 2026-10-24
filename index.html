@@ -80,14 +80,18 @@
         <h2 class="accordion-heading">
           <button type="button" id="settingsToggle" class="accordion-toggle" aria-expanded="true" aria-controls="settingsRegion">
             <span class="accordion-title">Quiz Setup</span>
-            <span class="accordion-summary" id="settingsSummary">Change settings, print, or download a deck</span>
+            <span class="accordion-summary" id="settingsSummary">Choose what to study, then practice, print, or download a deck</span>
             <span class="accordion-chevron" aria-hidden="true"></span>
           </button>
         </h2>
-        <div id="settingsRegion" class="accordion-region" role="region" aria-labelledby="settingsToggle">
+        <div id="settingsRegion" class="accordion-region is-simple" role="region" aria-labelledby="settingsToggle">
+      <div class="mode-switch" role="group" aria-label="Setup detail">
+        <button id="modeSimpleBtn" type="button" class="selector-mode-btn is-active" aria-pressed="true">Simple</button>
+        <button id="modeAdvancedBtn" type="button" class="selector-mode-btn" aria-pressed="false">Advanced</button>
+      </div>
       <div class="layout">
       <section class="panel controls-panel">
-        <h2>Generator Setup</h2>
+        <h2>Quiz Setup</h2>
         <fieldset>
           <legend>Season</legend>
           <label for="yearSelect">Year</label>
@@ -100,23 +104,33 @@
             <input id="totalCountInput" type="number" min="1" value="25" />
           </label>
 
-          <label>
+          <label data-simple>
+            Question style
+            <select id="styleSelect"></select>
+          </label>
+
+          <label data-advanced>
             Number per verse
             <input id="perVerseInput" type="number" min="1" value="2" />
           </label>
 
-          <fieldset class="compact-fieldset">
+          <fieldset class="compact-fieldset" data-advanced>
             <legend>Difficulty</legend>
             <div id="difficultyCheckboxes" class="chips"></div>
           </fieldset>
 
-          <fieldset class="compact-fieldset">
-            <legend>Question Source</legend>
+          <fieldset class="compact-fieldset" data-advanced>
+            <legend>Reviewed by</legend>
             <div id="sourceCheckboxes" class="chips"></div>
           </fieldset>
         </div>
 
-        <fieldset>
+        <div class="simple-summary" data-simple>
+          <p id="simpleSummary"></p>
+          <button id="customizeBtn" type="button">Choose chapters or people (Advanced)</button>
+        </div>
+
+        <fieldset data-advanced>
           <legend>Question types</legend>
           <div id="typeCheckboxes" class="chips"></div>
           <p class="weight-help" id="typeMixHelp" hidden>
@@ -125,7 +139,7 @@
           </p>
         </fieldset>
 
-        <fieldset id="fillInBlankFieldset" hidden>
+        <fieldset id="fillInBlankFieldset" hidden data-advanced>
           <legend>Fill in the Blank</legend>
           <p class="weight-help">
             Blanks come from each verse's most important words, so every verse in your scope can become a question.
@@ -166,7 +180,7 @@
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset data-advanced>
           <legend class="fieldset-header" role="group" aria-label="Selector mode">
             <button id="scopeModeChapterBtn" type="button" class="selector-mode-btn">Chapter selector</button>
             <button id="scopeModeVerseBtn" type="button" class="selector-mode-btn">Verse selector</button>
@@ -180,7 +194,7 @@
         </fieldset>
       </section>
 
-      <section class="panel profile-panel">
+      <section class="panel profile-panel" data-advanced>
         <h2>People and Profiles</h2>
         <div class="profile-actions">
           <button id="newProfileBtn" type="button">New Person</button>
@@ -204,32 +218,33 @@
       </section>
 
       <section class="panel output-panel">
-        <h2>Build Output</h2>
+        <h2>Use these questions</h2>
         <div class="output-actions">
-          <button id="regenerateBtn" type="button">Generate New Questions</button>
-          <button id="togglePreviewBtn" type="button">Show Preview</button>
-          <button id="printBtn" type="button">Open Print View</button>
+          <button id="startInteractiveBtn" type="button" class="primary">Practice online</button>
+          <button id="printBtn" type="button">Print</button>
           <button id="pptBtn" type="button">Download PowerPoint</button>
-          <button id="startInteractiveBtn" type="button">Start Interactive Quiz</button>
+          <button id="regenerateBtn" type="button" title="Pick a different set of questions from the same settings">Shuffle questions</button>
         </div>
         <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
       </section>
 
-      <section class="panel preview-panel" id="previewPanel" hidden>
-        <h2>Question Preview</h2>
-        <div id="previewMeta" class="preview-meta"></div>
-        <div id="previewList" class="preview-list"></div>
+      <section class="panel preview-panel" id="previewPanel">
+        <details open>
+          <summary><h2>Question preview</h2></summary>
+          <div id="previewMeta" class="preview-meta"></div>
+          <div id="previewList" class="preview-list"></div>
+        </details>
       </section>
 
       </div>
         </div>
       </section>
 
-      <section class="accordion-item" id="quizItem" hidden>
+      <section class="accordion-item" id="quizItem">
         <h2 class="accordion-heading">
-          <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion">
+          <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion" aria-disabled="true">
             <span class="accordion-title">Interactive Quiz</span>
-            <span class="accordion-summary" id="quizSummary"></span>
+            <span class="accordion-summary" id="quizSummary">Choose &ldquo;Practice online&rdquo; above to start</span>
             <span class="accordion-chevron" aria-hidden="true"></span>
           </button>
         </h2>
