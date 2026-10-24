@@ -881,7 +881,13 @@ fieldset {
 }
 
 .timer-dialog {
-  max-width: 28rem;
+  box-sizing: border-box;
+  /* Keep a gutter either side on phones so the dialog never looks wider than the screen */
+  width: min(28rem, calc(100vw - 2rem));
+  max-width: min(28rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
+  overflow-x: hidden;
+  overflow-y: auto;
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
   background: var(--surface);
