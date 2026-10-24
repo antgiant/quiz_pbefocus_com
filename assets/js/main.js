@@ -1678,7 +1678,6 @@ function bindInteractiveControls() {
   }
 
   const submitBtn = document.getElementById("interactiveSubmitBtn");
-  const revealBtn = document.getElementById("interactiveRevealBtn");
   const panel = document.getElementById("interactiveAnswerPanel");
 
   const index = state.index;
@@ -1688,7 +1687,7 @@ function bindInteractiveControls() {
   const input = document.getElementById("interactiveAnswerInput");
   const blankInputs = Array.from(el.interactiveContainer.querySelectorAll(".fib-input"));
 
-  if (!submitBtn || !revealBtn || !prevBtn || !panel || (!isBlankQuiz && !input)) {
+  if (!submitBtn || !prevBtn || !panel || (!isBlankQuiz && !input)) {
     return;
   }
 
@@ -1809,7 +1808,7 @@ function bindInteractiveControls() {
     return true;
   };
 
-  // One main button: it checks the answer, and once the answer is in, it moves on
+  // One main button: it submits the answer, and once the answer is in, it moves on
   const timeIsUp = () => Boolean(state.options?.realistic && result.expired && !result.autoSubmit);
   submitBtn.addEventListener("click", () => {
     if (result.status === "unanswered" && !timeIsUp()) {
@@ -1832,17 +1831,6 @@ function bindInteractiveControls() {
     // With every blank given away there is nothing left to answer
     if (result.hinted.length === question.blankWords.length) {
       submitAnswer();
-    }
-    refresh();
-  });
-
-  revealBtn.addEventListener("click", () => {
-    if (result.status === "unanswered") {
-      if (isBlankQuiz) {
-        result.inputs = readBlanks();
-      }
-      result.status = "revealed";
-      result.awarded = 0;
     }
     refresh();
   });

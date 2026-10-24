@@ -853,10 +853,10 @@ export function renderInteractive(container, state) {
   const isLast = state.index === state.questions.length - 1;
   const locked = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
-  // One main button: check the answer, then move on. Once time is up in realistic mode
-  // there is nothing left to check, so it only moves on.
+  // One main button: submit the answer, then move on. Once time is up in realistic mode
+  // there is nothing left to submit, so it only moves on.
   const answered = result.status !== "unanswered" || locked;
-  const actionLabel = answered ? (isLast ? "Finish" : "Next") : "Check answer";
+  const actionLabel = answered ? (isLast ? "Finish" : "Next") : "Submit";
 
   const answerArea = isBlankQuiz
     ? `
@@ -881,7 +881,6 @@ export function renderInteractive(container, state) {
     <div class="interactive-actions">
       <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
       ${isBlankQuiz ? '<button type="button" id="interactiveHintBtn"></button>' : ""}
-      <button type="button" id="interactiveRevealBtn">Reveal Answer</button>
       <button type="button" id="interactiveSubmitBtn" class="primary"></button>
     </div>
     <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>
