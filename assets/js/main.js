@@ -57,6 +57,7 @@ import {
   saveState,
 } from "./storage.js";
 import { gradeWritten, wordClassifier } from "./answer-grader.js";
+import { readingSeconds } from "./reading-time.js";
 import { confusableWords, matchesWithSlips } from "./answer-match.js";
 import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
 import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
@@ -1306,9 +1307,11 @@ async function loadVersesForQuestions(questions) {
 
 const TIMER_PRESETS = {
   florida: { first: 10, additional: 5 },
-  nad: { first: 30, additional: 10 },
+  // NAD reads each question in English and Spanish, so its reading time before the clock starts
+  // is twice a state test's (see reading-time.js)
+  nad: { first: 30, additional: 10, bilingual: true },
   // Nearpod slides time in 15 s steps, so NAD's timing is rounded to those (mostly up)
-  nearpod: { first: 30, additional: 10, roundTo: 15 },
+  nearpod: { first: 30, additional: 10, roundTo: 15, bilingual: true },
 };
 
 // The PowerPoint and interactive dialogs remember their choices separately
@@ -1657,6 +1660,7 @@ function clearTypingRoom() {
 }
 document.addEventListener("focusin", (event) => {
   if (!event.target.matches?.(ANSWER_BOX)) return;
+  beginAnswerClock();
   keepBoxClear(event.target);
 });
 document.addEventListener("focusout", () => {
@@ -1690,6 +1694,7 @@ function expireCurrentQuestion() {
   if (result && result.status === "unanswered" && !result.expired) {
     stopQuestionTimer();
     result.expired = true;
+    result.timerStarted = true;
     result.remainingMs = 0;
     result.playedTen = true;
     result.playedUp = true;
@@ -1755,6 +1760,8 @@ function newInteractiveResult() {
     autoCorrect: false,
     awarded: 0,
     remainingMs: null,
+    timerStarted: false,
+    readRemainingMs: null,
     expired: false,
     playedTen: false,
     playedUp: false,
@@ -1986,7 +1993,12 @@ function stopQuestionTimer() {
     clearInterval(run.handle);
     const result = appState.interactive.results[run.index];
     if (result && !result.expired) {
-      result.remainingMs = Math.max(0, run.deadline - Date.now());
+      const left = Math.max(0, run.deadline - Date.now());
+      if (run.phase === "reading") {
+        result.readRemainingMs = left;
+      } else {
+        result.remainingMs = left;
+      }
     }
     appState.interactive.timerRun = null;
   }
@@ -1994,6 +2006,19 @@ function stopQuestionTimer() {
 }
 
 // Count down the current question, resuming from the time left if revisited
+// Starts the answer clock for the question on screen: called when its reading time runs out or
+// when the player taps into an answer box, whichever comes first
+function beginAnswerClock() {
+  const state = appState.interactive;
+  if (!state.options?.timer || state.complete) return;
+  const result = state.results[state.index];
+  if (!result || result.timerStarted !== false || result.status !== "unanswered" || result.expired) return;
+  stopQuestionTimer();
+  result.timerStarted = true;
+  result.readRemainingMs = 0;
+  startQuestionTimer();
+}
+
 function startQuestionTimer() {
   const state = appState.interactive;
   const timer = state.options?.timer;
@@ -2003,6 +2028,30 @@ function startQuestionTimer() {
   const question = state.questions[index];
   const result = state.results[index];
   if (result.status !== "unanswered" || result.expired) return;
+
+  // The clock doesn't run while the question is being read: it starts when the estimated reading
+  // time is up, or as soon as the player taps an answer box (see beginAnswerClock)
+  if (result.timerStarted === false) {
+    if (result.readRemainingMs == null) {
+      result.readRemainingMs = readingSeconds(question, timer) * 1000;
+    }
+    const readDeadline = Date.now() + result.readRemainingMs;
+    const readTick = () => {
+      const left = Math.max(0, readDeadline - Date.now());
+      result.readRemainingMs = left;
+      const label = document.getElementById("interactiveTimer");
+      if (label) {
+        label.textContent = interactiveTimerText(result);
+        label.classList.remove("urgent");
+      }
+      if (left <= 0) {
+        beginAnswerClock();
+      }
+    };
+    state.timerRun = { index, deadline: readDeadline, phase: "reading", handle: setInterval(readTick, 200) };
+    readTick();
+    return;
+  }
 
   const isLast = index === state.questions.length - 1;
   const totalMs = secondsForQuestion(question, timer) * 1000;
