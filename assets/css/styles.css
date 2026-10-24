@@ -1250,10 +1250,11 @@ input[aria-invalid="true"] {
   display: inline-block;
   /* Width is set per question from its longest answer (see renderBlankedVerse) */
   width: 9ch;
-  min-width: 6rem;
+  min-width: 3.5rem;
   max-width: 100%;
-  margin: 0 0.15rem;
-  padding: 0.15rem 0.35rem;
+  margin: 0 0.1rem;
+  padding: 0 0.2rem;
+  line-height: 1.35;
   text-align: center;
   vertical-align: baseline;
   border-radius: 4px;
@@ -1274,6 +1275,17 @@ input[aria-invalid="true"] {
 .fib-input.is-hinted {
   font-style: italic;
   border-style: dashed;
+}
+
+/* Filled in by a hint, not typed: clearly the word, but marked as given */
+.fib-input.is-revealed {
+  color: var(--ink);
+  font-weight: 700;
+  background: color-mix(in srgb, var(--teal-soft), white 30%);
+}
+
+.interactive-wrap input.is-revealed[readonly] {
+  color: var(--ink);
 }
 
 .fib-results {
@@ -1446,8 +1458,7 @@ input[aria-invalid="true"] {
 
 /* While the quiz is open it gets the whole page */
 body.quiz-open .hero,
-body.quiz-open .mission-statement,
-body.quiz-open .site-footer {
+body.quiz-open .mission-statement {
   display: none;
 }
 
@@ -1508,8 +1519,7 @@ body.quiz-open .accordion {
 }
 
 .is-simple .layout > .controls-panel,
-.is-simple .layout > .output-panel,
-.is-simple .layout > .preview-panel {
+.is-simple .layout > .output-panel {
   grid-column: span 12;
 }
 
@@ -1537,18 +1547,6 @@ button:disabled {
   padding: 0.75rem 0.9rem;
 }
 
-.preview-panel summary {
-  cursor: pointer;
-}
-
-.preview-panel summary h2 {
-  display: inline;
-}
-
-.accordion-toggle[aria-disabled="true"] {
-  cursor: default;
-  opacity: 0.75;
-}
 
 /* --- Tap-to-fill blanks --- */
 
@@ -1668,4 +1666,8 @@ button:disabled {
 
 .version-popover p {
   margin: 0 0 0.6rem;
+}
+
+body.typing-blank {
+  padding-bottom: 60vh;
 }

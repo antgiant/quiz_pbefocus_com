@@ -233,28 +233,24 @@
         <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
       </section>
 
-      <section class="panel preview-panel" id="previewPanel">
-        <details open>
-          <summary><h2>Question preview</h2></summary>
-          <div id="previewMeta" class="preview-meta"></div>
-          <div id="previewList" class="preview-list"></div>
-        </details>
-      </section>
-
       </div>
         </div>
       </section>
 
       <section class="accordion-item" id="quizItem">
         <h2 class="accordion-heading">
-          <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion" aria-disabled="true">
-            <span class="accordion-title">Interactive Quiz</span>
-            <span class="accordion-summary" id="quizSummary">Choose &ldquo;Interactive Quiz&rdquo; above to start</span>
+          <button type="button" id="quizToggle" class="accordion-toggle" aria-expanded="false" aria-controls="quizRegion">
+            <span class="accordion-title" id="quizTitle">Question preview</span>
+            <span class="accordion-summary" id="quizSummary">No questions yet</span>
             <span class="accordion-chevron" aria-hidden="true"></span>
           </button>
         </h2>
         <div id="quizRegion" class="accordion-region quiz-region" role="region" aria-labelledby="quizToggle" hidden>
-          <div id="interactiveContainer"></div>
+          <div id="previewBody">
+            <div id="previewMeta" class="preview-meta"></div>
+            <div id="previewList" class="preview-list"></div>
+          </div>
+          <div id="interactiveContainer" hidden></div>
         </div>
       </section>
       </div>
@@ -281,6 +277,43 @@
         <button type="button" id="resetCacheBtn">Reset app cache</button>
       </div>
     </footer>
+
+    <!-- Inline on purpose: the reset must keep working even when a stale cached main.js is the problem -->
+    <script>
+      (function () {
+        var popover = document.getElementById("versionPopover");
+        var text = document.getElementById("versionText");
+        if (!popover || !text) return;
+        popover.addEventListener("toggle", function (event) {
+          if (event.newState !== "open") return;
+          var worker = navigator.serviceWorker && navigator.serviceWorker.controller;
+          if (!worker) {
+            text.textContent = "not cached (online only)";
+            return;
+          }
+          var channel = new MessageChannel();
+          var timer = setTimeout(function () {
+            text.textContent = "old (needs a reset)";
+          }, 1500);
+          channel.port1.onmessage = function (reply) {
+            clearTimeout(timer);
+            text.textContent = String(reply.data);
+          };
+          worker.postMessage("version", [channel.port2]);
+        });
+        document.getElementById("resetCacheBtn").addEventListener("click", async function () {
+          try {
+            var registrations = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(registrations.map(function (r) { return r.unregister(); }));
+          } catch (e) {}
+          try {
+            var names = await caches.keys();
+            await Promise.all(names.map(function (n) { return caches.delete(n); }));
+          } catch (e) {}
+          location.reload();
+        });
+      })();
+    </script>
 
     <div id="printRoot" class="print-root" aria-hidden="true"></div>
 

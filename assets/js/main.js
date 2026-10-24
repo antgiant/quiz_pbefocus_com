@@ -27,7 +27,7 @@ import { DataService, pickDefaultYear } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
 import { loadVendor } from "./lazy-vendor.js";
-import { getAppVersion, registerServiceWorker, resetAppCache } from "./sw-register.js";
+import { registerServiceWorker } from "./sw-register.js";
 import { generateQuestions, reblankQuestions } from "./quiz-engine.js";
 import {
   countedBlanks,
@@ -115,7 +115,8 @@ const el = {
   startInteractiveBtn: document.getElementById("startInteractiveBtn"),
   statusMessage: document.getElementById("statusMessage"),
   printRoot: document.getElementById("printRoot"),
-  previewPanel: document.getElementById("previewPanel"),
+  previewBody: document.getElementById("previewBody"),
+  quizTitle: document.getElementById("quizTitle"),
   previewMeta: document.getElementById("previewMeta"),
   previewList: document.getElementById("previewList"),
   settingsToggle: document.getElementById("settingsToggle"),
@@ -1505,20 +1506,28 @@ function evaluateAnswer(question, answer) {
 
 const verseCache = new Map();
 
-// Setup and the quiz are two sections that each open and close from their own header.
-// Opening the quiz tucks setup away so the quiz gets the page; the quiz keeps its time
-// while setup is open and only runs while it is the section being looked at.
+// Setup and the second section take turns. That section is the question preview until an
+// interactive quiz is started, then it is the quiz (so the questions can't be peeked at);
+// "Generate new Question set" turns it back into the preview. Opening the quiz tucks setup
+// away so the quiz gets the page; the quiz keeps its time while setup is open and only runs
+// while it is the section being looked at.
 const accordionOpen = { settings: true, quiz: false };
+
+const quizIsActive = () => appState.interactive.questions.length > 0;
 
 function applyAccordion() {
   const { settings, quiz } = accordionOpen;
+  const inQuiz = quizIsActive();
   el.settingsToggle.setAttribute("aria-expanded", String(settings));
   el.settingsRegion.hidden = !settings;
   el.quizToggle.setAttribute("aria-expanded", String(quiz));
   el.quizRegion.hidden = !quiz;
-  document.body.classList.toggle("quiz-open", quiz);
+  el.previewBody.hidden = inQuiz;
+  el.interactiveContainer.hidden = !inQuiz;
+  el.quizTitle.textContent = inQuiz ? "Interactive Quiz" : "Question preview";
+  document.body.classList.toggle("quiz-open", quiz && inQuiz);
 
-  if (quiz && !settings) {
+  if (quiz && inQuiz && !settings) {
     showInteractive();
   } else {
     stopQuestionTimer();
@@ -1540,28 +1549,32 @@ function setAccordion(open) {
 
 function toggleSection(name) {
   if (name === "quiz") {
-    if (!appState.interactive.questions.length) {
-      startInteractiveQuiz();
-      return;
+    accordionOpen.quiz = !accordionOpen.quiz;
+    // Setup steps aside only while a quiz is on screen
+    if (accordionOpen.quiz && quizIsActive()) {
+      accordionOpen.settings = false;
+      window.scrollTo({ top: 0 });
     }
-    if (accordionOpen.quiz) {
-      accordionOpen.quiz = false;
-      applyAccordion();
-    } else {
-      setAccordion("quiz");
-    }
-    return;
+  } else {
+    accordionOpen.settings = !accordionOpen.settings;
   }
-  accordionOpen.settings = !accordionOpen.settings;
   applyAccordion();
+}
+
+// Back to the question preview, dropping any quiz in progress
+function resetInteractive() {
+  stopQuestionTimer();
+  appState.interactive = { questions: [], index: 0, results: [], complete: false };
 }
 
 function updateQuizSummary() {
   const state = appState.interactive;
-  el.quizToggle.setAttribute("aria-disabled", String(!state.questions.length));
+  const count = appState.generatedQuestions.length;
   el.quizSummary.textContent = state.questions.length
     ? `${state.complete ? "Finished" : interactiveProgressText(state)} - open to ${state.complete ? "review" : "resume"}`
-    : "Choose \u201cInteractive Quiz\u201d above to start";
+    : count
+      ? `${count} ${count === 1 ? "question" : "questions"}`
+      : "No questions yet";
 }
 
 function showInteractive() {
@@ -1571,6 +1584,52 @@ function showInteractive() {
   startQuestionTimer();
   updateQuizSummary();
 }
+
+// Focuses a blank and keeps it above the on-screen keyboard. iOS Safari doesn't shrink the page
+// for the keyboard, only the visual viewport, so the box is moved into the visible part once
+// the keyboard has opened (and straight away for keyboards that don't resize anything).
+function focusBlankBox(box) {
+  box.focus({ preventScroll: true });
+  const viewport = window.visualViewport;
+  // iOS draws a prev/next/done bar above the keyboard that isn't part of the visual viewport
+  const ACCESSORY_BAR = 64;
+  const reveal = () => {
+    const visibleHeight = viewport ? viewport.height : window.innerHeight;
+    const rect = box.getBoundingClientRect();
+    // Offsets are relative to the visual viewport's top, which moves when iOS pans the page
+    const top = viewport ? rect.top - viewport.offsetTop : rect.top;
+    // Scroll only as far as needed, so the question above the box stays on screen when it can
+    const hidden = top + rect.height - (visibleHeight - ACCESSORY_BAR);
+    if (hidden > 0) {
+      window.scrollBy({ top: hidden + 12 });
+    } else if (top < 8) {
+      window.scrollBy({ top: top - 12 });
+    }
+  };
+  reveal();
+  if (viewport) {
+    const onResize = () => {
+      viewport.removeEventListener("resize", onResize);
+      reveal();
+    };
+    viewport.addEventListener("resize", onResize);
+    window.setTimeout(() => viewport.removeEventListener("resize", onResize), 1500);
+  }
+  // iOS pans the page itself while the keyboard slides in, so look again after it settles
+  window.setTimeout(reveal, 350);
+  window.setTimeout(reveal, 700);
+}
+
+// A short page has nothing to scroll into, so while a blank is being typed in the page gets
+// extra room at the bottom (see body.typing-blank) for the box to be lifted clear of the keyboard
+document.addEventListener("focusin", (event) => {
+  if (event.target.matches?.(".fib-input")) document.body.classList.add("typing-blank");
+});
+document.addEventListener("focusout", () => {
+  window.setTimeout(() => {
+    if (!document.activeElement?.matches?.(".fib-input")) document.body.classList.remove("typing-blank");
+  }, 150);
+});
 
 // After an answer is shown, keep the whole answer on screen: the question and answer
 // together when they fit, otherwise the whole answer
@@ -1718,16 +1777,26 @@ function bindInteractiveControls() {
       box.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") return;
         event.preventDefault();
-        const next = blankInputs.find((other) => Number(other.dataset.index) > boxIndex && !other.readOnly);
-        if (next) {
-          next.focus();
-        } else {
-          submitBtn.click();
+        // Move to the next blank that still needs an answer, opening it if it hasn't been tapped;
+        // only the last one submits
+        for (let next = boxIndex + 1; next < question.blankWords.length; next += 1) {
+          const nextBox = blankInputs.find((other) => Number(other.dataset.index) === next);
+          if (nextBox?.readOnly) continue;
+          if (nextBox) {
+            focusBlankBox(nextBox);
+          } else {
+            result.inputs = readBlanks();
+            if (!result.opened.includes(next)) result.opened.push(next);
+            state.focusBlank = next;
+            refresh();
+          }
+          return;
         }
+        submitBtn.click();
       });
     });
 
-    // Tapping an underscore opens a box to type in, or a hint, per the player's choice
+    // Tapping an underscore opens a box to type in
     el.interactiveContainer.querySelectorAll(".fib-blank").forEach((blank) => {
       blank.addEventListener("click", () => {
         if (result.status !== "unanswered") return;
@@ -1753,6 +1822,9 @@ function bindInteractiveControls() {
         } else {
           result.peeked = result.peeked.filter((i) => i !== blankIndex);
           result.inputs[blankIndex] = question.blankWords[blankIndex];
+          // Submitting reads the boxes, so the box must hold the word before the last blank submits
+          const box = blankInputs.find((candidate) => Number(candidate.dataset.index) === blankIndex);
+          if (box) box.value = question.blankWords[blankIndex];
         }
         state.focusBlank = blankIndex;
         // With every blank given away there is nothing left to answer
@@ -1766,9 +1838,10 @@ function bindInteractiveControls() {
     if (result.status === "unanswered" && !result.expired) {
       const wanted = blankInputs.find((box) => Number(box.dataset.index) === state.focusBlank);
       if (wanted) {
-        wanted.focus({ preventScroll: true });
+        focusBlankBox(wanted);
       } else if (state.focusBlank === undefined) {
-        blankInputs.find((box) => !box.readOnly && !box.value)?.focus({ preventScroll: true });
+        const empty = blankInputs.find((box) => !box.readOnly && !box.value);
+        if (empty) focusBlankBox(empty);
       }
       state.focusBlank = undefined;
     }
@@ -2020,6 +2093,7 @@ async function generateAndRender() {
   renderQuestionBankStats(result.stats);
   renderPreview(el.previewList, el.questionCardTemplate, result.questions);
   renderPreviewMeta(el.previewMeta, result.questions, active.settings, result.unmet);
+  updateQuizSummary();
 
   const hasQuestions = result.questions.length > 0;
   for (const button of [el.printBtn, el.pptBtn, el.startInteractiveBtn]) {
@@ -2043,6 +2117,14 @@ function wireEvents() {
   el.customizeBtn.addEventListener("click", () => setSetupMode("advanced", { focus: true }));
   el.styleSelect.addEventListener("change", () => applyQuizStyle(el.styleSelect.value));
   el.regenerateBtn.addEventListener("click", () => {
+    const state = appState.interactive;
+    if (state.questions.length && !state.complete && !window.confirm("Start over with a new question set? Your quiz progress will be lost.")) {
+      return;
+    }
+    if (state.questions.length) {
+      resetInteractive();
+      applyAccordion();
+    }
     generateAndRender().catch((error) => setStatus(error.message, "warn"));
   });
 
@@ -2304,11 +2386,4 @@ registerServiceWorker({
   canReload: () => !appState.interactive.questions.length || appState.interactive.complete,
 });
 
-const versionPopover = document.getElementById("versionPopover");
-versionPopover?.addEventListener("toggle", async (event) => {
-  if (event.newState === "open") {
-    document.getElementById("versionText").textContent = (await getAppVersion()) || "not cached (online only)";
-  }
-});
-document.getElementById("resetCacheBtn")?.addEventListener("click", resetAppCache);
 bootstrap();
