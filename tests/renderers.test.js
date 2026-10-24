@@ -161,12 +161,11 @@ describe("interactive fill in the blank", () => {
     results: [result(resultOverrides)],
   });
 
-  it("shows an underscore to tap per blank and a hint button", () => {
+  it("shows an underscore to tap per blank", () => {
     renderInteractive(container, state());
     expect(container.querySelectorAll(".fib-blank")).toHaveLength(2);
     expect(container.querySelector(".fib-blank").textContent).toBe("_____");
     expect(container.querySelectorAll(".fib-input")).toHaveLength(0);
-    expect(container.querySelector("#interactiveHintBtn").textContent).toBe("Hint");
     expect(container.querySelector(".fib-lead").textContent).toBe("According to Mark 1:5, fill in the blanks: (2 Pts.)");
     expect(container.querySelector("#interactiveFibVerse").textContent).not.toContain("gospel");
   });
@@ -187,6 +186,13 @@ describe("interactive fill in the blank", () => {
     expect(box.placeholder).toBe("g _ _ _ _ _");
     expect(box.readOnly).toBe(false);
     expect(box.classList.contains("is-hinted")).toBe(true);
+  });
+
+  it("offers a ? on open blanks until the whole word is shown", () => {
+    renderInteractive(container, state({ inputs: ["", ""], opened: [0, 1], peeked: [0], hinted: [0] }));
+    expect(container.querySelectorAll(".fib-help")).toHaveLength(2);
+    renderInteractive(container, state({ inputs: ["gospel", ""], opened: [0], hinted: [0] }));
+    expect(container.querySelector(".fib-help")).toBeNull();
   });
 
   it("uses one main button that checks, then moves on", () => {
@@ -210,7 +216,6 @@ describe("interactive fill in the blank", () => {
     expect(boxes[0].readOnly).toBe(true);
     expect(boxes[0].value).toBe("gospel");
     expect(container.querySelectorAll(".fib-blank")).toHaveLength(1);
-    expect(container.querySelector("#interactiveHintBtn").textContent).toBe("Hint (1 used)");
     expect(interactiveHintsUsed(s)).toBe(1);
   });
 
@@ -275,7 +280,7 @@ describe("interactive fill in the blank", () => {
   it("locks everything in realistic mode once time is up", () => {
     renderInteractive(container, state({ expired: true, remainingMs: 0 }, { realistic: true, timer: { first: 10, additional: 5 } }));
     expect([...container.querySelectorAll(".fib-input")].every((box) => box.readOnly)).toBe(true);
-    expect(container.querySelector("#interactiveHintBtn").disabled).toBe(true);
+    expect(container.querySelector(".fib-help")).toBeNull();
   });
 
   it("offers practice again with the hints total when finished", () => {
@@ -307,7 +312,7 @@ describe("interactive fill in the blank", () => {
     });
     expect(container.querySelector("#interactiveAnswerInput")).not.toBeNull();
     expect(container.querySelector(".fib-input")).toBeNull();
-    expect(container.querySelector("#interactiveHintBtn")).toBeNull();
+    expect(container.querySelector(".fib-help")).toBeNull();
   });
 });
 

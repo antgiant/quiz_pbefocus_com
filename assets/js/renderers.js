@@ -719,8 +719,7 @@ export function blankHint(word) {
   return letters.length ? [letters[0], ...letters.slice(1).map(() => "_")].join(" ") : "";
 }
 
-// The verse with each blank shown as an underscore to tap. Tapping opens a text box (or a
-// hint, depending on the player's choice). Every blank in a question is the same width so the
+// The verse with each blank shown as an underscore to tap. Tapping opens a text box. Every blank in a question is the same width so the
 // length of a word is never a clue.
 function renderBlankedVerse(target, question, result) {
   target.textContent = "";
@@ -781,6 +780,18 @@ function renderBlankedVerse(target, question, result) {
       input.setAttribute("aria-label", `${input.getAttribute("aria-label")}, ${mark}`);
     }
     target.append(input);
+
+    // "?" reveals the word in two taps: first letter and length, then the whole word
+    if (!locked && !(hinted && !peek)) {
+      const help = document.createElement("button");
+      help.type = "button";
+      help.className = "fib-help";
+      help.dataset.index = String(index);
+      help.textContent = "?";
+      help.title = hinted ? "Show the whole word (counts as incorrect)" : "Hint: first letter and length (counts as incorrect)";
+      help.setAttribute("aria-label", `${label}, ${hinted ? "show the whole word" : "show a hint"}`);
+      target.append(help);
+    }
   }
 }
 
@@ -860,11 +871,6 @@ export function renderInteractive(container, state) {
 
   const answerArea = isBlankQuiz
     ? `
-    <fieldset class="fib-tap">
-      <legend>When I tap a blank</legend>
-      <label><input type="radio" name="blankTap" value="type"${state.blankTap === "hint" ? "" : " checked"}> Type the word</label>
-      <label><input type="radio" name="blankTap" value="hint"${state.blankTap === "hint" ? " checked" : ""}> Show a hint (first letter and length; counts as incorrect)</label>
-    </fieldset>
     <p class="fib-lead"></p>
     <p id="interactiveFibVerse" class="fib-verse"></p>`
     : `
@@ -880,7 +886,6 @@ export function renderInteractive(container, state) {
     ${answerArea}
     <div class="interactive-actions">
       <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
-      ${isBlankQuiz ? '<button type="button" id="interactiveHintBtn"></button>' : ""}
       <button type="button" id="interactiveSubmitBtn" class="primary"></button>
     </div>
     <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>
@@ -896,12 +901,6 @@ export function renderInteractive(container, state) {
     })`;
     result.stateRealisticLock = locked;
     renderBlankedVerse(wrap.querySelector("#interactiveFibVerse"), current, result);
-
-    const hintBtn = wrap.querySelector("#interactiveHintBtn");
-    const hintsLeft = current.blankWords.length - result.hinted.length;
-    hintBtn.textContent = result.hinted.length ? `Hint (${result.hinted.length} used)` : "Hint";
-    hintBtn.disabled = locked || result.status !== "unanswered" || hintsLeft <= 0;
-    hintBtn.title = "Fills in the next blank. A blank filled by a hint counts as incorrect.";
   } else {
     const input = wrap.querySelector("#interactiveAnswerInput");
     input.value = result.input;
