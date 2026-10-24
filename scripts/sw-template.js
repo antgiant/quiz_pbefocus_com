@@ -5,7 +5,9 @@
 //  - App files: precached as one versioned set and served cache-first, so a
 //    returning visitor never waits on the network (or on GitHub Pages' 10-minute
 //    cache) to start the app. A new version installs in the background and takes
-//    over once every open tab is closed.
+//    over straight away (skipWaiting + claim): phones, iOS above all, rarely close a
+//    tab all the way, so waiting for that would leave people on old versions. The page
+//    then reloads itself or offers a Reload button (see assets/js/sw-register.js).
 //  - Season packs and chapters carry their content hash in the URL, so they are
 //    cached forever (old ones are pruned when the manifest changes).
 //  - The manifest and other small data files are served from cache and
@@ -34,6 +36,7 @@ self.addEventListener("install", (event) => {
     caches
       .open(SHELL_CACHE)
       .then((cache) => cache.addAll(SHELL.map((path) => new Request(path, { cache: "reload" }))))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -48,6 +51,7 @@ self.addEventListener("activate", (event) => {
             .map((name) => caches.delete(name))
         )
       )
+      .then(() => self.clients.claim())
   );
 });
 

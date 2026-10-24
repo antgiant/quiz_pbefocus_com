@@ -2353,5 +2353,6 @@ async function bootstrap() {
 
 // Start the downloads the first render needs before the rest of startup runs
 dataService.prefetch();
-registerServiceWorker();
+// Reload for a new version on its own unless a quiz is under way (that offers a button instead)
+registerServiceWorker({ canReload: () => !appState.interactive.questions.length });
 bootstrap();
