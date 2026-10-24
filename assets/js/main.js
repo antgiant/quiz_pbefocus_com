@@ -1348,6 +1348,8 @@ function askTimerOptions(config) {
   const customFields = document.getElementById("timerCustomFields");
   const firstInput = document.getElementById("timerFirstInput");
   const extraInput = document.getElementById("timerExtraInput");
+  const leadInRow = document.getElementById("timerLeadInRow");
+  const leadInSelect = document.getElementById("timerLeadInSelect");
   const cancelBtn = document.getElementById("timerCancelBtn");
   const audioGroup = document.getElementById("timerAudioGroup");
   const audioCheck = document.getElementById("timerAudioCheck");
@@ -1368,6 +1370,9 @@ function askTimerOptions(config) {
   });
   firstInput.value = pref.first ?? TIMER_PRESETS.florida.first;
   extraInput.value = pref.additional ?? TIMER_PRESETS.florida.additional;
+  // Only the interactive quiz waits for the question to be read
+  leadInRow.hidden = !config.showRealistic;
+  leadInSelect.value = pref.bilingual ? "bilingual" : "english";
 
   audioStyle.innerHTML = "";
   for (const [key, style] of Object.entries(AUDIO_STYLES)) {
@@ -1412,7 +1417,7 @@ function askTimerOptions(config) {
           firstInput.reportValidity();
           return;
         }
-        timer = { first, additional };
+        timer = { first, additional, bilingual: leadInSelect.value === "bilingual" };
       } else if (chosen !== "none") {
         timer = TIMER_PRESETS[chosen];
       }
@@ -1420,6 +1425,7 @@ function askTimerOptions(config) {
         mode: chosen,
         first: Number(firstInput.value),
         additional: Number(extraInput.value),
+        bilingual: leadInSelect.value === "bilingual",
         audioEnabled: audioCheck.checked,
         audioStyle: audioStyle.value,
         realistic: realisticCheck.checked,
