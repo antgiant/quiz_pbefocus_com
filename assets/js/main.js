@@ -1587,13 +1587,15 @@ function showInteractive() {
 function focusBlankBox(box) {
   box.focus({ preventScroll: true });
   const viewport = window.visualViewport;
+  // iOS draws a prev/next/done bar above the keyboard that isn't part of the visual viewport
+  const ACCESSORY_BAR = 64;
   const reveal = () => {
     const visibleHeight = viewport ? viewport.height : window.innerHeight;
     const rect = box.getBoundingClientRect();
     // Offsets are relative to the visual viewport's top, which moves when iOS pans the page
     const top = viewport ? rect.top - viewport.offsetTop : rect.top;
-    if (top < 8 || top + rect.height > visibleHeight - 8) {
-      window.scrollBy({ top: top - visibleHeight / 3 });
+    if (top < 8 || top + rect.height > visibleHeight - ACCESSORY_BAR) {
+      window.scrollBy({ top: top - (visibleHeight - ACCESSORY_BAR) / 3 });
     }
   };
   reveal();
@@ -1605,8 +1607,21 @@ function focusBlankBox(box) {
     viewport.addEventListener("resize", onResize);
     window.setTimeout(() => viewport.removeEventListener("resize", onResize), 1500);
   }
+  // iOS pans the page itself while the keyboard slides in, so look again after it settles
   window.setTimeout(reveal, 350);
+  window.setTimeout(reveal, 700);
 }
+
+// A short page has nothing to scroll into, so while a blank is being typed in the page gets
+// extra room at the bottom (see body.typing-blank) for the box to be lifted clear of the keyboard
+document.addEventListener("focusin", (event) => {
+  if (event.target.matches?.(".fib-input")) document.body.classList.add("typing-blank");
+});
+document.addEventListener("focusout", () => {
+  window.setTimeout(() => {
+    if (!document.activeElement?.matches?.(".fib-input")) document.body.classList.remove("typing-blank");
+  }, 150);
+});
 
 // After an answer is shown, keep the whole answer on screen: the question and answer
 // together when they fit, otherwise the whole answer
