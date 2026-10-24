@@ -309,6 +309,22 @@ describe("interactive fill in the blank", () => {
     expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["8ch", "8ch"]);
   });
 
+  it("colors each blank in the answer verse by whether it was right", () => {
+    renderInteractive(
+      container,
+      state({ status: "submitted", inputs: ["gospel", "x"], hinted: [], blankCorrect: [true, false], awarded: 1 })
+    );
+    const marks = [...container.querySelectorAll("#interactiveVerseText .answer-words")];
+    expect(marks.map((mark) => mark.classList.contains("is-matched"))).toEqual([true, false]);
+    renderInteractive(
+      container,
+      state({ status: "submitted", inputs: ["gospel", "Son"], hinted: [1], blankCorrect: [true, true], awarded: 1 })
+    );
+    const hinted = container.querySelectorAll("#interactiveVerseText .answer-words")[1];
+    expect(hinted.classList.contains("is-hinted")).toBe(true);
+    expect(hinted.classList.contains("is-matched")).toBe(false);
+  });
+
   it("leaves out the hints note when none were used", () => {
     renderInteractive(
       container,

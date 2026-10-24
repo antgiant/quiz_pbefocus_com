@@ -935,12 +935,23 @@ export function renderInteractive(container, state) {
   }
 }
 
-function renderBlankedAnswer(target, question) {
+// The verse with its blanks filled by the right words: green when that blank was answered
+// correctly, red when it was missed, and plain italic when a hint gave it away
+function renderBlankedAnswer(target, question, result) {
   target.textContent = "";
+  let blankIndex = 0;
   for (const segment of question.segments) {
     if (segment.blank) {
+      const index = blankIndex;
+      blankIndex += 1;
       const mark = document.createElement("span");
-      mark.className = "answer-words";
+      const hinted = result.hinted?.includes(index);
+      const correct = Boolean(result.blankCorrect?.[index]);
+      mark.className = hinted
+        ? "answer-words is-hinted"
+        : correct
+          ? "answer-words is-matched"
+          : "answer-words";
       mark.textContent = segment.word;
       target.append(mark);
     } else {
@@ -1002,7 +1013,7 @@ function renderInteractiveAnswerPanel(panel, question, result) {
       note.hidden = false;
       note.textContent = `Hints used: ${result.hinted.length}. Blanks filled by a hint count as incorrect (change the points below if you disagree).`;
     }
-    renderBlankedAnswer(panel.querySelector("#interactiveVerseText"), question);
+    renderBlankedAnswer(panel.querySelector("#interactiveVerseText"), question, result);
   } else {
     panel.querySelector("#interactiveFeedback").textContent =
       result.status === "submitted"
