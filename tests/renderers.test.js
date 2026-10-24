@@ -256,8 +256,10 @@ describe("interactive fill in the blank", () => {
       complete: false,
       results: [result()],
     });
-    const widths = [...container.querySelectorAll(".fib-blank")].map((box) => box.style.width);
-    expect(widths).toEqual(["15ch", "15ch"]);
+    // Unopened blanks are plain links of the same text, so length is no clue either
+    expect([...container.querySelectorAll(".fib-blank")].map((blank) => blank.textContent)).toEqual(["_____", "_____"]);
+    renderInteractive(container, { questions: [long], index: 0, options: {}, complete: false, results: [result({ opened: [0, 1] })] });
+    expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["15ch", "15ch"]);
     renderInteractive(container, state({ opened: [0, 1] }));
     expect([...container.querySelectorAll(".fib-input")].map((box) => box.style.width)).toEqual(["9ch", "9ch"]);
   });

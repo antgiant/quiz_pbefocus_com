@@ -756,7 +756,6 @@ function renderBlankedVerse(target, question, result) {
       blank.type = "button";
       blank.className = "fib-blank";
       blank.dataset.index = String(index);
-      blank.style.width = width;
       blank.textContent = "_____";
       blank.setAttribute("aria-label", `${label}, empty. Activate to fill in.`);
       target.append(blank);
