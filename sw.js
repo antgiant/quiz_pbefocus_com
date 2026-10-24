@@ -13,7 +13,7 @@
 //  - The manifest and other small data files are served from cache and
 //    refreshed in the background, so new questions arrive on the next visit.
 
-const VERSION = "1e3e7faa3a";
+const VERSION = "77335f0981";
 const SHELL = [
   "assets/apple-touch-icon.png",
   "assets/css/brand.css",
@@ -34,6 +34,7 @@ const SHELL = [
   "assets/js/pack-store.js",
   "assets/js/question-formatters.js",
   "assets/js/quiz-engine.js",
+  "assets/js/reading-time.js",
   "assets/js/renderers.js",
   "assets/js/storage.js",
   "assets/js/sw-register.js",
