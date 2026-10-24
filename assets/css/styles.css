@@ -980,8 +980,13 @@ fieldset {
   line-height: 1.5;
 }
 
+/* Right and wrong never rely on color alone (red/green look alike to many people): right is
+   bold with a solid underline, missed has a wavy underline, a hint-given word is italic with a
+   dotted one. */
 .answer-words {
-  color: #c00000;
+  color: var(--danger);
+  text-decoration: underline wavy;
+  text-underline-offset: 0.2em;
 }
 
 /* A blank a hint gave away: not a miss and not a win, so it keeps the text color */
@@ -989,12 +994,14 @@ fieldset {
   color: inherit;
   font-style: italic;
   font-weight: 600;
+  text-decoration: underline dotted;
 }
 
 /* Words of the answer that the player got: green, so red keeps meaning "missed" */
 .answer-words.is-matched {
   color: var(--ok);
-  font-weight: 600;
+  font-weight: 700;
+  text-decoration: underline solid;
 }
 
 .interactive-points {
@@ -1280,13 +1287,15 @@ input[aria-invalid="true"] {
 }
 
 .fib-input.is-correct {
-  border-color: var(--ok);
+  border: 2px solid var(--ok);
+  font-weight: 700;
   background: color-mix(in srgb, var(--ok), white 88%);
   color: var(--ink);
 }
 
 .fib-input.is-incorrect {
-  border-color: var(--danger);
+  border: 2px dashed var(--danger);
+  text-decoration: line-through;
   background: color-mix(in srgb, var(--danger), white 90%);
   color: var(--ink);
 }
