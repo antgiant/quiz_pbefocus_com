@@ -355,7 +355,6 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     options.scopeLimit && typeof options.scopeLimit === "object" ? options.scopeLimit : null;
   const selectedVerses = options.selectedVerses || {};
   const chapterWeights = options.chapterWeights || {};
-  const selectorMode = options.selectorMode === "verse" ? "verse" : "chapter";
 
   function chapterKey(bookId, chapterNumber) {
     return `${bookId}:${chapterNumber}`;
@@ -452,11 +451,11 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
     bookLabel.append(bookToggle, bookName);
 
     const chapterWrap = document.createElement("div");
-    chapterWrap.className = selectorMode === "chapter" ? "scope-chapters chapter-grid" : "scope-chapters";
+    chapterWrap.className = "scope-chapters";
 
     for (const chapter of visibleChapters) {
       const chapterLabel = document.createElement("label");
-      chapterLabel.className = selectorMode === "chapter" ? "chapter-check chapter-option" : "chapter-check chapter-header";
+      chapterLabel.className = "chapter-check chapter-header";
       const chapterToggle = document.createElement("input");
       chapterToggle.type = "checkbox";
       chapterToggle.dataset.bookId = book.id;
@@ -492,14 +491,6 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
       }
       weightLabel.append(weightInput, document.createTextNode("%"));
 
-      if (selectorMode === "chapter") {
-        const cell = document.createElement("div");
-        cell.className = "chapter-weight-cell";
-        cell.append(chapterLabel, weightLabel);
-        chapterWrap.append(cell);
-        continue;
-      }
-
       const chapterRow = document.createElement("div");
       chapterRow.className = "chapter-with-verses scope-chapter-row";
 
@@ -520,7 +511,8 @@ export function renderScopeSelector(container, manifest, selectedScope, options 
 
       const verseSummary = document.createElement("summary");
       verseSummary.dataset.role = "verse-summary";
-  verseSummary.textContent = verseSummaryText === "Verses" ? "Verses" : `Verses: ${verseSummaryText}`;
+      verseSummary.textContent = verseSummaryText === "Verses" ? "Verses" : `Verses: ${verseSummaryText}`;
+      verseSummary.title = "Show or hide this chapter's verses";
       verseToggleWrap.append(verseSummary);
 
       const versesGrid = document.createElement("div");
@@ -861,10 +853,10 @@ export function renderInteractive(container, state) {
   const isLast = state.index === state.questions.length - 1;
   const locked = Boolean(state.options?.realistic && (result.expired || result.status !== "unanswered"));
 
-  // One main button: check the answer, then move on. Once time is up in realistic mode
-  // there is nothing left to check, so it only moves on.
+  // One main button: submit the answer, then move on. Once time is up in realistic mode
+  // there is nothing left to submit, so it only moves on.
   const answered = result.status !== "unanswered" || locked;
-  const actionLabel = answered ? (isLast ? "Finish" : "Next") : "Check answer";
+  const actionLabel = answered ? (isLast ? "Finish" : "Next") : "Submit";
 
   const answerArea = isBlankQuiz
     ? `
@@ -889,7 +881,6 @@ export function renderInteractive(container, state) {
     <div class="interactive-actions">
       <button type="button" id="interactivePrevBtn"${state.index === 0 ? " disabled" : ""}>Previous</button>
       ${isBlankQuiz ? '<button type="button" id="interactiveHintBtn"></button>' : ""}
-      <button type="button" id="interactiveRevealBtn">Reveal Answer</button>
       <button type="button" id="interactiveSubmitBtn" class="primary"></button>
     </div>
     <div id="interactiveAnswerPanel" class="interactive-answer" hidden></div>

@@ -192,7 +192,7 @@ describe("interactive fill in the blank", () => {
   it("uses one main button that checks, then moves on", () => {
     renderInteractive(container, state());
     expect(container.querySelector("#interactiveNextBtn")).toBeNull();
-    expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Check answer");
+    expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Submit");
     renderInteractive(container, state({ status: "submitted", inputs: ["gospel", "Son"], hinted: [], blankCorrect: [true, true] }));
     expect(container.querySelector("#interactiveSubmitBtn").textContent).toBe("Finish");
     const two = state();
