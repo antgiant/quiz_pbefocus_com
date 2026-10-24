@@ -195,6 +195,14 @@ describe("interactive fill in the blank", () => {
     expect(container.querySelector(".fib-help")).toBeNull();
   });
 
+  it("puts a fully hinted word in the box even if no text was stored", () => {
+    renderInteractive(container, state({ inputs: ["", ""], opened: [0], hinted: [0] }));
+    const box = container.querySelector(".fib-input");
+    expect(box.value).toBe("gospel");
+    expect(box.readOnly).toBe(true);
+    expect(box.classList.contains("is-revealed")).toBe(true);
+  });
+
   it("uses one main button that checks, then moves on", () => {
     renderInteractive(container, state());
     expect(container.querySelector("#interactiveNextBtn")).toBeNull();
