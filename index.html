@@ -260,7 +260,15 @@
         </span>
         <a href="https://github.com/antgiant/pbefocus.com/discussions">Discussion</a>
       </nav>
-      <p>&copy; PBE Focus. All rights reserved.</p>
+      <p>
+        &copy; PBE Focus. All rights reserved.
+        <button type="button" id="versionBtn" class="version-btn" popovertarget="versionPopover">Version</button>
+      </p>
+      <div id="versionPopover" popover class="version-popover">
+        <p>App version: <strong id="versionText">unknown</strong></p>
+        <p class="hint">Seeing old buttons or text? Resetting clears the saved copy of the app and reloads it. Your people, settings and downloaded verses are kept.</p>
+        <button type="button" id="resetCacheBtn">Reset app cache</button>
+      </div>
     </footer>
 
     <div id="printRoot" class="print-root" aria-hidden="true"></div>

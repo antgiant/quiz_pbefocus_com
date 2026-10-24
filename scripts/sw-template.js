@@ -35,9 +35,26 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(SHELL_CACHE)
-      .then((cache) => cache.addAll(SHELL.map((path) => new Request(path, { cache: "reload" }))))
+      .then(async (cache) => {
+        // Code and the page must all arrive or the update would be half old, half new.
+        // Images and other extras that fail are skipped so one bad file can't block an update.
+        const results = await Promise.allSettled(
+          SHELL.map((path) => cache.add(new Request(path, { cache: "reload" })))
+        );
+        const failed = SHELL.filter((path, i) => results[i].status === "rejected" && /\.(js|css|html)$/.test(path));
+        if (failed.length) {
+          throw new Error(`Could not download: ${failed.join(", ")}`);
+        }
+      })
       .then(() => self.skipWaiting())
   );
+});
+
+// The page asks which version it is running; its files came from this worker's cache
+self.addEventListener("message", (event) => {
+  if (event.data === "version" && event.ports[0]) {
+    event.ports[0].postMessage(VERSION);
+  }
 });
 
 self.addEventListener("activate", (event) => {
