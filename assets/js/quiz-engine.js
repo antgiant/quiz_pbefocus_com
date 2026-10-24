@@ -10,7 +10,7 @@ import {
   pickCustomBlankCount,
   segmentsToAnswerText,
   segmentsToText,
-  wordCountOf,
+  blankableWordCount,
 } from "./blank-engine.js";
 import { formatFillInBlankLead } from "./question-formatters.js";
 import { loadVendor } from "./lazy-vendor.js";
@@ -271,7 +271,7 @@ function fillInBlankCandidates({ pair, verses, bookName, selectedVerseSets, diff
       continue;
     }
 
-    const words = wordCountOf(verse.text);
+    const words = blankableWordCount(verse.text);
     if (words < 2) {
       continue;
     }

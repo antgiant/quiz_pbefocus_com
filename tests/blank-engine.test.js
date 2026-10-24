@@ -19,6 +19,8 @@ import {
   segmentsToText,
   validateCustomBlanks,
   wordCountOf,
+  blankableWordCount,
+  isIgnoredWord,
 } from "../assets/js/blank-engine.js";
 
 const VERSE =
@@ -203,6 +205,39 @@ describe("normalizeTextForNlp", () => {
 
   it("keeps names that carry trailing punctuation", () => {
     expect(normalizeTextForNlp("then, Jacob, Esau")).toBe("then, Jacob, esau");
+  });
+});
+
+describe("ignored small words", () => {
+  const text = "For God so loved the world that he gave his only begotten Son";
+
+  it("leaves them out of the word count", () => {
+    expect(wordCountOf(text)).toBe(13);
+    // God, loved, world, gave, only, begotten, Son
+    expect(blankableWordCount(text)).toBe(7);
+    expect(isIgnoredWord("The")).toBe(true);
+    expect(isIgnoredWord("is,")).toBe(true);
+    expect(isIgnoredWord("Jesus")).toBe(false);
+  });
+
+  it("never blanks them, even when asked for more blanks than the verse has", () => {
+    for (let seed = 1; seed <= 40; seed += 1) {
+      const { words } = buildBlankedVerse({ text, count: 13, rng: makeRng(seed) });
+      expect(words.length).toBeLessThanOrEqual(7);
+      expect(words.filter(isIgnoredWord)).toEqual([]);
+    }
+  });
+
+  it("never blanks them without the NLP library either", () => {
+    const saved = globalThis.nlp;
+    globalThis.nlp = undefined;
+    try {
+      const { words } = buildBlankedVerse({ text, count: 13, rng: makeRng(3) });
+      expect(words.filter(isIgnoredWord)).toEqual([]);
+      expect(words.length).toBeGreaterThan(0);
+    } finally {
+      globalThis.nlp = saved;
+    }
   });
 });
 

@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import { DEFAULT_SETTINGS } from "../assets/js/constants.js";
-import { difficultyForPercent, wordCountOf } from "../assets/js/blank-engine.js";
+import { blankableWordCount, difficultyForPercent } from "../assets/js/blank-engine.js";
 import { finalizeFillInBlank, generateQuestions, reblankQuestions } from "../assets/js/quiz-engine.js";
 
 const LONG = "For God so loved the world that He gave His only begotten Son that whoever believes in Him should not perish but have everlasting life";
@@ -72,7 +72,7 @@ describe("generated fill-in-the-blank", () => {
   it("assigns each question to the difficulty band its blank share falls in", async () => {
     const { questions } = await run();
     for (const question of questions) {
-      const share = (question.points / wordCountOf(question.verseText)) * 100;
+      const share = (question.points / blankableWordCount(question.verseText)) * 100;
       expect(difficultyForPercent(share)).toBe(question.difficulty);
     }
   });
@@ -81,7 +81,7 @@ describe("generated fill-in-the-blank", () => {
     const { questions } = await run({ selectedDifficulties: ["hard"], totalCount: 6 });
     expect(new Set(questions.map((q) => q.difficulty))).toEqual(new Set(["hard"]));
     for (const question of questions) {
-      const share = (question.points / wordCountOf(question.verseText)) * 100;
+      const share = (question.points / blankableWordCount(question.verseText)) * 100;
       expect(share).toBeGreaterThan(40);
       expect(share).toBeLessThanOrEqual(80);
     }
@@ -122,7 +122,7 @@ describe("generated fill-in-the-blank", () => {
     expect(questions.length).toBeGreaterThan(0);
     for (const question of questions) {
       expect(question.difficulty).toBe("hard");
-      expect(question.points).toBe(Math.round(wordCountOf(question.verseText) / 2));
+      expect(question.points).toBe(Math.round(blankableWordCount(question.verseText) / 2));
     }
   });
 

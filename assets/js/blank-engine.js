@@ -23,9 +23,39 @@ export function difficultyForPercent(percent) {
   return "hard";
 }
 
+const STATE_OF_BEING_WORDS = ["am", "is", "are", "was", "were", "be", "being", "been"];
+
+// Small connecting words are ignored completely: they are never blanked and they don't
+// count towards the share of a verse that is blanked.
+export const IGNORED_WORDS = new Set([
+  "and", "or", "but", "nor", "yet", "so", "for",
+  "the", "a", "an",
+  "in", "on", "at", "to", "from", "by", "with", "about", "against", "between", "into", "through",
+  "during", "before", "after", "above", "below", "up", "down", "of", "off", "over", "under", "upon",
+  "i", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them", "my", "your", "his",
+  "their", "our",
+  "this", "that", "these", "those",
+  ...STATE_OF_BEING_WORDS,
+  "will", "would", "shall", "should", "can", "could", "may", "might", "must", "do", "does", "did",
+  "have", "has", "had",
+  "as", "if", "then", "than", "when", "while", "who", "whom", "whose", "which", "what", "there", "here",
+  "also", "its", "unto", "thee", "thou", "thy", "thine", "ye", "hath", "doth",
+]);
+
+export function isIgnoredWord(word) {
+  return IGNORED_WORDS.has(String(word || "").replace(/[^\w']/g, "").toLowerCase());
+}
+
 export function wordCountOf(text) {
   const plain = cleanVerseText(text);
   return plain ? plain.split(/\s+/).filter(Boolean).length : 0;
+}
+
+// The words of a verse that can be blanked: everything except the ignored small words.
+// This is what blank shares and counts are measured against.
+export function blankableWordCount(text) {
+  const plain = cleanVerseText(text);
+  return plain ? plain.split(/\s+/).filter((word) => word && !isIgnoredWord(word)).length : 0;
 }
 
 // Whole-word blank counts whose share of the verse falls inside the difficulty
@@ -245,21 +275,6 @@ export function buildTfidfContext(verses) {
 
 // --- Word priority ---
 
-const STATE_OF_BEING_WORDS = ["am", "is", "are", "was", "were", "be", "being", "been"];
-
-const FUNCTION_WORDS = new Set([
-  "and", "or", "but", "nor", "yet", "so", "for",
-  "the", "a", "an",
-  "in", "on", "at", "to", "from", "by", "with", "about", "against", "between", "into", "through",
-  "during", "before", "after", "above", "below", "up", "down", "of", "off", "over", "under", "upon",
-  "i", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them", "my", "your", "his",
-  "their", "our",
-  "this", "that", "these", "those",
-  ...STATE_OF_BEING_WORDS,
-  "will", "would", "shall", "should", "can", "could", "may", "might", "must", "do", "does", "did",
-  "have", "has", "had",
-]);
-
 // Biblical names and key terms: highest priority, and never lowercased for the tagger
 const PRIORITY_WORDS = new Set([
   "lord", "god", "jesus", "christ", "messiah", "savior", "redeemer", "spirit", "father", "holy", "almighty", "yahweh", "jehovah",
@@ -373,7 +388,7 @@ function termPriority(term) {
   if (hasTag(term, ["Punctuation"])) return 0;
 
   const lower = (term.text || "").toLowerCase();
-  if (FUNCTION_WORDS.has(lower)) return 4;
+  if (IGNORED_WORDS.has(lower)) return 4;
   if (
     PRIORITY_WORDS.has(lower) ||
     hasTag(term, ["Person", "Place", "Organization", "Date", "Value", "Cardinal", "Ordinal"])
@@ -410,12 +425,11 @@ export function buildBlankedVerse({ text, count, scores = {}, rng = Math.random 
   const plain = cleanVerseText(text);
   if (!plain) return { segments: [], words: [] };
 
-  const wordCount = plain.split(/\s+/).filter(Boolean).length;
-  const target = Math.max(0, Math.min(Math.floor(count), wordCount));
-
+  // Ignored words are never candidates, so a verse with too few real words blanks fewer
   const candidates = scoreTerms(plain, scores.verse || {}, scores.chapter || {}, rng).filter(
-    (term) => !term.isPunct && term.text.trim()
+    (term) => !term.isPunct && term.text.trim() && !isIgnoredWord(term.text)
   );
+  const target = Math.max(0, Math.min(Math.floor(count), candidates.length));
   const ranked = [...candidates].sort((a, b) => b.finalScore - a.finalScore);
   const pool = ranked.slice(0, Math.min(Math.max(target, 0) * 2, candidates.length));
 
