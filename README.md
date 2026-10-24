@@ -171,9 +171,10 @@ npm run test:coverage
 ## Timers
 
 The PowerPoint and interactive timers offer Florida (10 s first point, 5 s each additional), NAD (30 s, 10 s),
-**Nearpod (NAD competition)** and a custom setting. Nearpod uses NAD timing rounded to 15-second steps, rounding up
-more often than down (anything 5 s or more past a step goes up): 1 pt = 30 s, 2 = 45 s, 3 = 60 s, 4 = 60 s,
-5 = 75 s, 6 = 90 s, 7 = 90 s, 8 = 105 s, and so on.
+**Nearpod (NAD competition)** and a custom setting. The NAD competition runs on Nearpod, which times in 15-second steps.
+Measured from the 2025 and 2026 broadcasts (98 questions) 1-2 points ran 30 s, 3-5 points 45 s and 6-7 points 60 s, which is
+30 s plus 5 s per extra point, rounded to the nearest step (86% of the questions). The earlier rule (30 s plus 10 s per point,
+rounded mostly up) matched 59%. The counts behind this are in `tests/fixtures/nad-nearpod-steps.json`.
 
 ## Notes and Limits
 
