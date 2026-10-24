@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { TIMER_PRESETS } from "../assets/js/constants.js";
+import { LEGACY_TIMER_MODES, TIMER_PRESETS } from "../assets/js/constants.js";
 import { roundTimeUp, roundToNearestStep, secondsForQuestion } from "../assets/js/question-formatters.js";
 import steps from "./fixtures/nad-nearpod-steps.json";
 
@@ -64,19 +64,24 @@ describe("secondsForQuestion", () => {
   });
 });
 
-describe("the Nearpod preset against the 2025 and 2026 NAD broadcasts", () => {
+describe("the NAD preset against the 2025 and 2026 NAD broadcasts", () => {
   const share = (rows, timer) =>
     rows.filter(([points, step]) => seconds(points, timer) === step).length / rows.length;
   const all = [...steps.y2025, ...steps.y2026];
 
   it("uses 15 s steps from 30 s plus 5 s per extra point", () => {
-    const nearpod = TIMER_PRESETS.nearpod;
-    expect([1, 2, 3, 4, 5, 6, 7].map((points) => seconds(points, nearpod))).toEqual([30, 30, 45, 45, 45, 60, 60]);
+    const nad = TIMER_PRESETS.nad;
+    expect([1, 2, 3, 4, 5, 6, 7].map((points) => seconds(points, nad))).toEqual([30, 30, 45, 45, 45, 60, 60]);
+  });
+
+  it("is the only NAD preset: an old saved Nearpod choice maps to it", () => {
+    expect(TIMER_PRESETS.nearpod).toBeUndefined();
+    expect(LEGACY_TIMER_MODES.nearpod).toBe("nad");
   });
 
   it("matches most of the measured questions, and more than the old rule did", () => {
-    expect(share(all, TIMER_PRESETS.nearpod)).toBeGreaterThan(0.8);
-    expect(share(steps.y2025, TIMER_PRESETS.nearpod)).toBeGreaterThan(0.9);
-    expect(share(all, TIMER_PRESETS.nearpod)).toBeGreaterThan(share(all, { first: 30, additional: 10, roundTo: 15 }) + 0.2);
+    expect(share(all, TIMER_PRESETS.nad)).toBeGreaterThan(0.8);
+    expect(share(steps.y2025, TIMER_PRESETS.nad)).toBeGreaterThan(0.9);
+    expect(share(all, TIMER_PRESETS.nad)).toBeGreaterThan(share(all, { first: 30, additional: 10, roundTo: 15 }) + 0.2);
   });
 });

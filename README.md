@@ -170,11 +170,11 @@ npm run test:coverage
 
 ## Timers
 
-The PowerPoint and interactive timers offer Florida (10 s first point, 5 s each additional), NAD (30 s, 10 s),
-**Nearpod (NAD competition)** and a custom setting. The NAD competition runs on Nearpod, which times in 15-second steps.
-Measured from the 2025 and 2026 broadcasts (98 questions) 1-2 points ran 30 s, 3-5 points 45 s and 6-7 points 60 s, which is
-30 s plus 5 s per extra point, rounded to the nearest step (86% of the questions). The earlier rule (30 s plus 10 s per point,
-rounded mostly up) matched 59%. The counts behind this are in `tests/fixtures/nad-nearpod-steps.json`.
+The PowerPoint and interactive timers offer Florida (10 s first point, 5 s each additional), NAD and a custom setting.
+The NAD competition runs on Nearpod, which times in 15-second steps. Measured from the 2025 and 2026 broadcasts (98
+questions), 1-2 points ran 30 s, 3-5 points 45 s and 6-7 points 60 s, so NAD is 30 s plus 5 s per extra point, rounded to the
+nearest step (86% of the questions; the earlier 30 s plus 10 s, rounded mostly up, matched 59%). The counts behind this are
+in `tests/fixtures/nad-nearpod-steps.json`. A timer choice saved as "Nearpod" now loads as NAD.
 
 ## Notes and Limits
 
