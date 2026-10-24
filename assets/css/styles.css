@@ -1670,3 +1670,7 @@ button:disabled {
 .version-popover p {
   margin: 0 0 0.6rem;
 }
+
+body.typing-blank {
+  padding-bottom: 60vh;
+}
