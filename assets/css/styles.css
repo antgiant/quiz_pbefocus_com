@@ -984,6 +984,13 @@ fieldset {
   color: #c00000;
 }
 
+/* A blank a hint gave away: not a miss and not a win, so it keeps the text color */
+.answer-words.is-hinted {
+  color: inherit;
+  font-style: italic;
+  font-weight: 600;
+}
+
 /* Words of the answer that the player got: green, so red keeps meaning "missed" */
 .answer-words.is-matched {
   color: var(--ok);
