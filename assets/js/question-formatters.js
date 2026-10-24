@@ -111,8 +111,14 @@ export function roundTimeUp(seconds, interval) {
 
 // Seconds allowed for a question: time for the first point plus extra time per
 // additional point, rounded to `timer.roundTo` second steps when the timer sets one
+// Rounds to the closest whole step, never below one step (a tie goes up)
+export function roundToNearestStep(seconds, interval) {
+  return Math.max(interval, Math.floor(seconds / interval + 0.5) * interval);
+}
+
 export function secondsForQuestion(question, timer) {
   const points = Math.max(1, Number(question.points) || 1);
   const seconds = Math.max(1, timer.first + (points - 1) * timer.additional);
-  return timer.roundTo ? roundTimeUp(seconds, timer.roundTo) : seconds;
+  if (!timer.roundTo) return seconds;
+  return timer.roundMode === "nearest" ? roundToNearestStep(seconds, timer.roundTo) : roundTimeUp(seconds, timer.roundTo);
 }

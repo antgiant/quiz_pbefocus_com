@@ -12,6 +12,7 @@ import {
   normalizeSelectedTypeGroups,
   quizStyleForTypes,
   questionTypeGroupId,
+  TIMER_PRESETS,
 } from "./constants.js";
 import { AnalysisStore } from "./analysis-store.js";
 import {
@@ -1304,15 +1305,6 @@ async function loadVersesForQuestions(questions) {
     })
   );
 }
-
-const TIMER_PRESETS = {
-  florida: { first: 10, additional: 5 },
-  // NAD reads each question in English and Spanish, so its reading time before the clock starts
-  // is twice a state test's (see reading-time.js)
-  nad: { first: 30, additional: 10, bilingual: true },
-  // Nearpod slides time in 15 s steps, so NAD's timing is rounded to those (mostly up)
-  nearpod: { first: 30, additional: 10, roundTo: 15, bilingual: true },
-};
 
 // The PowerPoint and interactive dialogs remember their choices separately
 const POWERPOINT_DIALOG = {
