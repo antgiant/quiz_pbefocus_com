@@ -1250,10 +1250,11 @@ input[aria-invalid="true"] {
   display: inline-block;
   /* Width is set per question from its longest answer (see renderBlankedVerse) */
   width: 9ch;
-  min-width: 6rem;
+  min-width: 3.5rem;
   max-width: 100%;
-  margin: 0 0.15rem;
-  padding: 0.15rem 0.35rem;
+  margin: 0 0.1rem;
+  padding: 0 0.2rem;
+  line-height: 1.35;
   text-align: center;
   vertical-align: baseline;
   border-radius: 4px;

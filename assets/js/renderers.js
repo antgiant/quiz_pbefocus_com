@@ -724,7 +724,7 @@ export function blankHint(word) {
 function renderBlankedVerse(target, question, result) {
   target.textContent = "";
   const longestAnswer = Math.max(...question.blankWords.map((word) => word.length));
-  const width = `${Math.max(9, longestAnswer + 3)}ch`;
+  const width = `${Math.max(5, longestAnswer + 2)}ch`;
   const opened = result.opened || [];
   const peeked = result.peeked || [];
   let blankIndex = 0;
