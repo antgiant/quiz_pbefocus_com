@@ -1697,7 +1697,8 @@ async function fillInteractiveVerse(question, index) {
   const verses = await verseCache.get(question);
   const current = document.getElementById("interactiveVerseText");
   if (current && appState.interactive.index === index && !appState.interactive.complete) {
-    renderVerseText(current, verses, question.answer);
+    const result = appState.interactive.results[index];
+    renderVerseText(current, verses, question.answer, result.input ?? "", Boolean(result.autoCorrect));
   }
 }
 

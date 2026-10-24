@@ -1,3 +1,5 @@
+import { normalizeText } from "./utils.js";
+
 export function formatVerseRef(question) {
   if (question.refLabel) {
     return question.refLabel;
@@ -68,17 +70,36 @@ export function cleanVerseText(text) {
     .trim();
 }
 
-// Full verse text as runs; the first case-insensitive match of the answer is flagged
-export function verseRuns(verses, answer) {
+// Full verse text as runs; the first case-insensitive match of the answer is flagged.
+// With `typed` (what the player answered, or null for no check) the answer is split into
+// words, each flagged `matched` when the player's answer has that word (or `allMatched`).
+export function verseRuns(verses, answer, typed = null, allMatched = false) {
   const text = verses.map((v) => `${v.verse} ${cleanVerseText(v.text)}`).join(" ");
   const needle = String(answer || "").trim();
   const index = needle ? text.toLowerCase().indexOf(needle.toLowerCase()) : -1;
   if (index < 0) {
     return [{ text, isAnswer: false }];
   }
+  const found = text.slice(index, index + needle.length);
+  let answerRuns = [{ text: found, isAnswer: true }];
+  if (typed !== null) {
+    const said = new Set(normalizeText(typed).split(" ").filter(Boolean));
+    answerRuns = found
+      .split(/(\s+)/)
+      .filter(Boolean)
+      .map((part) =>
+        /^\s+$/.test(part)
+          ? { text: part, isAnswer: false }
+          : {
+              text: part,
+              isAnswer: true,
+              matched: allMatched || normalizeText(part).split(" ").filter(Boolean).every((word) => said.has(word)),
+            }
+      );
+  }
   return [
     { text: text.slice(0, index), isAnswer: false },
-    { text: text.slice(index, index + needle.length), isAnswer: true },
+    ...answerRuns,
     { text: text.slice(index + needle.length), isAnswer: false },
   ].filter((run) => run.text);
 }
