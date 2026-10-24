@@ -695,22 +695,22 @@ export function interactiveTimerText(result) {
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
 }
 
-// Full verse text, with the words that answer the question highlighted. Given what the player
-// answered, words they got are green and the ones they missed stay red.
-export function renderVerseText(target, verses, answer, typed = null, allMatched = false) {
+// Full verse text, with the words that answer the question highlighted. Given a classifier
+// (see answer-grader.js) the key words the player got are green, the ones they missed stay red,
+// and the small words between them are marked plainly.
+export function renderVerseText(target, verses, answer, classify = null) {
   target.textContent = "";
   if (!verses.length) {
     target.textContent = "Verse text unavailable.";
     return;
   }
-  for (const run of verseRuns(verses, answer, typed, allMatched)) {
+  for (const run of verseRuns(verses, answer, classify)) {
     if (run.isAnswer) {
       const mark = document.createElement("span");
-      mark.className = run.matched ? "answer-words is-matched" : "answer-words";
+      mark.className = `answer-words${run.state === "matched" ? " is-matched" : run.state === "minor" ? " is-minor" : ""}`;
       mark.textContent = run.text;
-      if (typed !== null) {
-        mark.title = run.matched ? "In your answer" : "Missing from your answer";
-      }
+      if (run.state === "matched") mark.title = "In your answer";
+      if (run.state === "missed") mark.title = "Missing from your answer";
       target.append(mark);
     } else {
       target.append(run.text);
@@ -1024,7 +1024,9 @@ function renderInteractiveAnswerPanel(panel, question, result) {
       result.status === "submitted"
         ? result.autoCorrect
           ? "Looks correct."
-          : "Compare your answer with the one below."
+          : result.autoAwarded > 0
+            ? `Partly right: ${result.autoAwarded} of ${max} ${max === 1 ? "point" : "points"}. Compare your answer with the one below.`
+            : "Compare your answer with the one below."
         : "";
   }
 

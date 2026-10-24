@@ -56,6 +56,7 @@ import {
   moveProfile,
   saveState,
 } from "./storage.js";
+import { gradeWritten, wordClassifier } from "./answer-grader.js";
 import { confusableWords, matchesWithSlips } from "./answer-match.js";
 import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
 import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
@@ -1509,7 +1510,9 @@ function evaluateAnswer(question, answer) {
     return true;
   }
 
-  if (expected.includes(typed) && typed.length >= 4) {
+  // A one-point answer may be a clear piece of the full answer; with several points a piece
+  // earns only the points of its key words (see gradeWritten)
+  if (interactivePossiblePoints(question) === 1 && expected.includes(typed) && typed.length >= 4) {
     return true;
   }
 
@@ -1710,7 +1713,8 @@ async function fillInteractiveVerse(question, index) {
   const current = document.getElementById("interactiveVerseText");
   if (current && appState.interactive.index === index && !appState.interactive.complete) {
     const result = appState.interactive.results[index];
-    renderVerseText(current, verses, question.answer, result.input ?? "", Boolean(result.autoCorrect));
+    const classify = wordClassifier(question.answer, result.input ?? "", confusablesFor(question), Boolean(result.autoCorrect));
+    renderVerseText(current, verses, question.answer, classify);
   }
 }
 
@@ -1908,8 +1912,17 @@ function bindInteractiveControls() {
     result.input = input.value;
     result.submittedInput = input.value;
     result.status = "submitted";
-    result.autoCorrect = Boolean(evaluateAnswer(question, input.value));
-    result.awarded = result.autoCorrect ? interactivePossiblePoints(question) : 0;
+    const possible = interactivePossiblePoints(question);
+    let earned = 0;
+    if (evaluateAnswer(question, input.value)) {
+      earned = possible;
+    } else if (question.type !== "true_false" && question.type !== "how_many") {
+      // Not the whole answer, but the key words it got can still earn points
+      earned = gradeWritten(question.answer, input.value, possible, confusablesFor(question)).awarded;
+    }
+    result.autoAwarded = earned;
+    result.autoCorrect = earned === possible;
+    result.awarded = earned;
     return true;
   };
 
@@ -2027,6 +2040,8 @@ function startQuestionTimer() {
 }
 
 async function startInteractiveQuiz() {
+  // Partial-credit grading of typed answers reads word types, which needs the NLP library
+  loadVendor("compromise").catch(() => {});
   await ensureFreshQuestions();
   if (!appState.generatedQuestions.length) {
     setStatus("There are no questions to practice yet. Adjust the setup above.", "warn");
