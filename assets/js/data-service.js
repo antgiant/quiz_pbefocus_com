@@ -223,6 +223,28 @@ export class DataService {
     this.nkjvChapterCache = new Map();
     this.nkjvVerseCache = new Map();
     this.nkjvInFlight = new Map();
+    this.customByChapter = new Map();
+    this.customWithoutChapter = [];
+  }
+
+  // The person's own questions (custom-questions.js), added to the chapters they belong to.
+  // Those with no book and chapter can't be placed in a chapter; they come from
+  // looseCustomQuestions() instead.
+  setCustomQuestions(questions) {
+    this.customByChapter = new Map();
+    this.customWithoutChapter = [];
+    for (const question of questions || []) {
+      if (question.bookId && Number.isInteger(question.chapter)) {
+        const key = chapterCacheKey(question.bookId, question.chapter);
+        this.customByChapter.set(key, [...(this.customByChapter.get(key) || []), question]);
+      } else {
+        this.customWithoutChapter.push(question);
+      }
+    }
+  }
+
+  looseCustomQuestions() {
+    return this.customWithoutChapter;
   }
 
   hasIntro(bookId) {
@@ -488,6 +510,12 @@ export class DataService {
   }
 
   async loadChapter(bookId, chapterNumber) {
+    const written = await this.loadWrittenChapter(bookId, chapterNumber);
+    const own = this.customByChapter.get(chapterCacheKey(bookId, chapterNumber));
+    return own ? [...written, ...own] : written;
+  }
+
+  async loadWrittenChapter(bookId, chapterNumber) {
     const key = chapterCacheKey(bookId, chapterNumber);
     if (this.chapterCache.has(key)) {
       return this.chapterCache.get(key);

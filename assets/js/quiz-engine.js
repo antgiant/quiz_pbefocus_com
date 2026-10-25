@@ -14,7 +14,8 @@ import {
 } from "./blank-engine.js";
 import { formatFillInBlankLead } from "./question-formatters.js";
 import { loadVendor } from "./lazy-vendor.js";
-import { questionMatchesSelectedSources, shuffle, uniqueById } from "./utils.js";
+import { hasChapter } from "./custom-questions.js";
+import { questionPassesSourceFilter, shuffle, uniqueById } from "./utils.js";
 
 function getSelectedDifficultySet(settings) {
   if (Array.isArray(settings.selectedDifficulties)) {
@@ -37,6 +38,10 @@ function difficultyMatch(question, selectedDifficulties) {
 }
 
 function getVerseKey(question) {
+  // The person's own questions may have no verse; each then counts as its own verse
+  if (question.custom && !(Number(question.startVerse) > 0)) {
+    return `own:${question.id}`;
+  }
   return `${question.bookId}:${question.chapter}:${question.startVerse}`;
 }
 
@@ -52,6 +57,11 @@ function questionMatchesSelectedVerses(question, selectedVerseSets) {
 
   if (verses.size === 0) {
     return false;
+  }
+
+  // A question of the person's own with no verse covers its whole chapter
+  if (!(Number(question.startVerse) > 0)) {
+    return true;
   }
 
   const start = Number(question.startVerse) || 0;
@@ -397,6 +407,7 @@ export async function generateQuestions({
 }) {
   const typeSet = new Set(settings.selectedTypes);
   const difficultySet = getSelectedDifficultySet(settings);
+  const ownOnly = settings.ownQuestions === "only";
   const unmet = [];
   const chapterPairs = [];
 
@@ -406,7 +417,14 @@ export async function generateQuestions({
     }
   }
 
-  if (chapterPairs.length === 0) {
+  // Own questions with no chapter aren't tied to the chapter picker, so they come along with
+  // whatever is chosen (or on their own when only those are wanted)
+  const looseOwn =
+    settings.ownQuestions !== "exclude" && (chapterPairs.length > 0 || ownOnly)
+      ? dataService.looseCustomQuestions?.() || []
+      : [];
+
+  if (chapterPairs.length === 0 && looseOwn.length === 0) {
     return {
       questions: [],
       unmet: ["No books/chapters selected for the active year."],
@@ -421,7 +439,7 @@ export async function generateQuestions({
     chapterPairs.map(({ bookId, chapter }) => dataService.loadChapter(bookId, chapter))
   );
 
-  let candidates = uniqueById(loaded.flat());
+  let candidates = uniqueById([...loaded.flat(), ...looseOwn]);
 
   const selectedVerseSets = new Map();
   for (const [key, verses] of Object.entries(selectedVerses || {})) {
@@ -441,16 +459,17 @@ export async function generateQuestions({
 
   candidates = candidates.filter((question) => questionMatchesSelectedVerses(question, selectedVerseSets));
 
-  candidates = candidates.filter((question) =>
-    questionMatchesSelectedSources(question, settings.selectedSources)
-  );
+  candidates = candidates.filter((question) => questionPassesSourceFilter(question, settings));
 
-  candidates = candidates.filter((question) => typeSet.has(questionTypeGroupId(question.type)));
+  // Asking for only their own questions means all of them, whichever type group they fall in
+  candidates = candidates.filter(
+    (question) => (ownOnly && question.custom) || typeSet.has(questionTypeGroupId(question.type))
+  );
   candidates = candidates.filter((question) => difficultyMatch(question, difficultySet));
 
   // Generated fill-in-the-blank questions come from the verse text itself
   let versePool = [];
-  if (typeSet.has(FIB_TYPE) && difficultySet.size > 0) {
+  if (typeSet.has(FIB_TYPE) && difficultySet.size > 0 && !ownOnly) {
     const config = fillInBlankSettings(settings);
     let done = 0;
     const failed = [];
@@ -510,9 +529,17 @@ export async function generateQuestions({
   const weights = resolveChapterWeights(randomized, selectedScope, chapterWeights);
   const pick = (pool, count, perVerseCounts) => {
     const limited = { ...settings, totalCount: count };
-    return weights
-      ? selectWeighted(pool, weights, limited, seed, perVerseCounts)
-      : selectUnweighted(pool, limited, perVerseCounts);
+    if (!weights) {
+      return selectUnweighted(pool, limited, perVerseCounts);
+    }
+    // Questions with no chapter have no chapter percentage, so they only fill what the
+    // chapters can't supply
+    const chosen = selectWeighted(pool.filter(hasChapter), weights, limited, seed, perVerseCounts);
+    if (chosen.length >= count) {
+      return chosen;
+    }
+    const rest = { ...settings, totalCount: count - chosen.length };
+    return [...chosen, ...selectUnweighted(pool.filter((question) => !hasChapter(question)), rest, perVerseCounts)];
   };
 
   const difficultyShares = resolveDifficultyWeights(difficultySet, settings);
@@ -540,8 +567,9 @@ export async function generateQuestions({
     return chosen;
   };
 
-  const typeShares =
-    resolveTypeWeights(typeSet, settings) || naturalTypeShares(randomized, versePool.length);
+  const typeShares = ownOnly
+    ? null
+    : resolveTypeWeights(typeSet, settings) || naturalTypeShares(randomized, versePool.length);
   const perVerseCounts = new Map();
   let selected;
   if (typeShares) {

@@ -3,6 +3,8 @@ import {
   formatFillInBlankLead,
   formatInteractiveAnswer,
   formatInteractivePrompt,
+  formatVerseRef,
+  hasVerseText,
   secondsForQuestion,
   verseRuns,
 } from "./question-formatters.js";
@@ -14,6 +16,10 @@ import { csvJoin, formatNumberRanges, nowLabel } from "./utils.js";
 function formatRef(question) {
   if (question.refLabel) {
     return question.refLabel;
+  }
+  // The person's own questions may have no reference, or no verse
+  if (question.custom) {
+    return formatVerseRef(question);
   }
   return `${question.book} ${question.chapter}:${question.startVerse}-${question.endVerse}`;
 }
@@ -52,6 +58,10 @@ function formatQuestionSource(source) {
 
   if (source === "human_generated") {
     return "Human Generated";
+  }
+
+  if (source === "custom") {
+    return "My own questions";
   }
 
   return String(source || "");
@@ -626,9 +636,12 @@ export function renderPreview(previewList, template, questions) {
     const node = template.content.firstElementChild.cloneNode(true);
     node.querySelector("h3").textContent =
       `${formatQuestionType(question.type)} | ${formatDifficulty(question)} | ${question.points} pt`;
-    node.querySelector(".meta").textContent = `${formatRef(question)} | ${
-      question.generated ? "Generated from verse text" : question.validatedBy
-    }`;
+    const origin = question.generated
+      ? "Generated from verse text"
+      : question.custom
+        ? "My own question"
+        : question.validatedBy;
+    node.querySelector(".meta").textContent = [formatRef(question), origin].filter(Boolean).join(" | ");
     node.querySelector(".question").textContent = question.question;
     node.querySelector(".answer").textContent = question.answer;
     previewList.append(node);
@@ -640,7 +653,10 @@ export function renderPreviewMeta(container, questions, settings, unmetMessages)
     formatDifficulty({ difficulty })
   );
   const typeLabels = (settings.selectedTypes || []).map((type) => formatQuestionType(type));
-  const sourceLabels = (settings.selectedSources || []).map((source) => formatQuestionSource(source));
+  const sourceLabels =
+    settings.ownQuestions === "only"
+      ? [formatQuestionSource("custom")]
+      : (settings.selectedSources || []).map((source) => formatQuestionSource(source));
   const lines = [
     `Selected: ${questions.length} questions`,
     `Sources: ${csvJoin(sourceLabels)}`,
@@ -987,7 +1003,7 @@ function renderInteractiveAnswerPanel(panel, question, result) {
     <p class="interactive-answer-text"></p>
     ${isBlankQuiz ? '<ol class="fib-results"></ol><p class="interactive-hints-note" hidden></p>' : ""}
     <p class="interactive-reference"></p>
-    <p id="interactiveVerseText" class="interactive-verse">${isBlankQuiz ? "" : "Loading verse text&hellip;"}</p>
+    <p id="interactiveVerseText" class="interactive-verse">${isBlankQuiz || !hasVerseText(question) ? "" : "Loading verse text&hellip;"}</p>
     <fieldset class="interactive-points">
       <legend>Points awarded (out of ${max})</legend>
     </fieldset>

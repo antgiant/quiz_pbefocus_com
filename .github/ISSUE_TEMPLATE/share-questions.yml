@@ -1,0 +1,32 @@
+name: Share my questions
+description: Send the questions you wrote in the Quiz Builder so they can be considered for everyone
+title: "Shared questions"
+labels: ["shared-questions"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing! The Quiz Builder opens this form from **My own questions** and downloads your spreadsheet.
+        Drag that file into the box below to attach it.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What you're sharing
+      description: Filled in for you by the Quiz Builder. Add anything a reviewer should know.
+    validations:
+      required: true
+  - type: textarea
+    id: spreadsheet
+    attributes:
+      label: Your spreadsheet
+      description: Drag your `.xlsx` file here (the Quiz Builder downloads `my-pbe-questions.xlsx`).
+      placeholder: Drop the spreadsheet here
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Permission
+      options:
+        - label: I wrote these questions (or have permission to share them) and I'm happy for them to be added to the shared question bank.
+          required: true

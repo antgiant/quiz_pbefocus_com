@@ -26,6 +26,10 @@ The app reads question files from `questions/v1` and runs without a backend, so 
 - Reorderable people list: drag, or use the arrows, to change the order
 - Intro/commentary passages for books that have them
 - One-click import of presets from the old PBE Study Tool
+- Your own questions: download a spreadsheet, fill in a question, answer and points (book, chapter and verse are
+  optional), and add it back. They are kept on the device (IndexedDB), can be mixed in or used on their own
+  ("Questions from" in simple and advanced setup), and can be shared with everyone through a pre-filled GitHub issue.
+  Questions without a reference can't be picked by chapter and show no verse text.
 
 ## Run Locally
 

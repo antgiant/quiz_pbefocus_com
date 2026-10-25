@@ -34,6 +34,8 @@
     <link rel="modulepreload" href="assets/js/storage.js" />
     <link rel="modulepreload" href="assets/js/confetti.js" />
     <link rel="modulepreload" href="assets/js/import-study.js" />
+    <link rel="modulepreload" href="assets/js/custom-questions.js" />
+    <link rel="modulepreload" href="assets/js/custom-store.js" />
     <link rel="modulepreload" href="assets/js/sw-register.js" />
     <script type="module" src="assets/js/main.js"></script>
     <script src="https://pbefocus.com/rogue-sheep.js" defer></script>
@@ -115,6 +117,11 @@
           <label data-simple>
             Question style
             <select id="styleSelect"></select>
+          </label>
+
+          <label id="ownQuestionsLabel" hidden>
+            Questions from
+            <select id="ownQuestionsSelect"></select>
           </label>
 
           <label data-advanced>
@@ -233,6 +240,32 @@
         <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
       </section>
 
+      <section class="panel custom-panel" aria-labelledby="customHeading">
+        <h2 id="customHeading">My own questions</h2>
+        <p class="weight-help">
+          Write your own questions in a spreadsheet and add them to your quizzes. Only the question, answer and points
+          are needed; a book, chapter and verse are optional. They stay on this device.
+        </p>
+        <div class="custom-actions">
+          <button id="customTemplateBtn" type="button">Download the spreadsheet</button>
+          <button id="customUploadBtn" type="button" class="primary">Add my filled-in spreadsheet</button>
+          <button id="customClearBtn" type="button" class="danger" hidden>Remove my questions</button>
+          <input id="customFileInput" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden />
+        </div>
+        <p id="customStatus" class="status" role="status" aria-live="polite"></p>
+        <ul id="customIssues" class="custom-issues" hidden></ul>
+        <div id="customShareNotice" class="share-notice" hidden>
+          <p id="customShareText"></p>
+          <div class="share-actions">
+            <button id="customShareBtn" type="button" class="primary">Share them</button>
+            <button id="customShareDismissBtn" type="button">Not now</button>
+          </div>
+          <p class="hint">
+            This opens a GitHub issue and downloads your spreadsheet. Drag the downloaded file into the issue to attach it.
+          </p>
+        </div>
+      </section>
+
       </div>
         </div>
       </section>
@@ -273,7 +306,7 @@
       </p>
       <div id="versionPopover" popover class="version-popover">
         <p>App version: <strong id="versionText">unknown</strong></p>
-        <p class="hint">Seeing old buttons or text? Resetting clears the saved copy of the app and reloads it. Your people, settings and downloaded verses are kept.</p>
+        <p class="hint">Seeing old buttons or text? Resetting clears the saved copy of the app and reloads it. Your people, settings, own questions and downloaded verses are kept.</p>
         <button type="button" id="resetCacheBtn">Reset app cache</button>
       </div>
     </footer>

@@ -485,8 +485,8 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
     cues.forEach((cue) => usedAudioKinds.add(cue.kind));
     qXml = applyTimer(qXml, seconds, cues);
     qXml = setBodyContent(qXml, [
-      `According to ${ref}`,
-      "",
+      // The person's own questions may have no reference
+      ...(ref ? [`According to ${ref}`, ""] : []),
       question.segments ? { runs: questionLabel(question), size: 2800 } : questionLabel(question),
     ]);
     zip.file(qSlide.path, qXml);
@@ -522,8 +522,7 @@ export async function exportPowerPoint({ questions, verses = [], yearName, timer
             questionLabel(question),
             "",
             `Answer: ${safeText(question.answer, "")}`,
-            "",
-            ref,
+            ...(ref ? ["", ref] : []),
             ...(verses[i]?.length
               ? [{ runs: verseTextRuns(verses[i], question.answer), size: 2400 }]
               : []),

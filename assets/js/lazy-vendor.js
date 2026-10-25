@@ -7,6 +7,11 @@ const VENDORS = {
     ready: () => typeof globalThis.nlp === "function",
     files: [{ src: "assets/vendor/compromise.min.js" }],
   },
+  // Just the zip reader, for the "my own questions" spreadsheet
+  jszip: {
+    ready: () => typeof globalThis.JSZip === "function",
+    files: [{ src: "assets/vendor/jszip.min.js" }],
+  },
   pptx: {
     ready: () => typeof globalThis.JSZip === "function",
     files: [

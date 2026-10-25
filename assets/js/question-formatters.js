@@ -1,12 +1,27 @@
+// The person's own questions may have no reference ("" then), or only a chapter
 export function formatVerseRef(question) {
   if (question.refLabel) {
     return question.refLabel;
+  }
+  if (!question.book || !Number.isInteger(question.chapter)) {
+    return "";
+  }
+  if (question.chapter === 0) {
+    return `${question.book} Intro`;
+  }
+  if (!(Number(question.startVerse) > 0)) {
+    return `${question.book} ${question.chapter}`;
   }
   const suffix =
     question.endVerse && question.endVerse !== question.startVerse
       ? `-${question.endVerse}`
       : "";
   return `${question.book} ${question.chapter}:${question.startVerse}${suffix}`;
+}
+
+// Whether the Bible text for the question's verses can be looked up and shown with its answer
+export function hasVerseText(question) {
+  return Boolean(question.bookId) && Number(question.startVerse) > 0;
 }
 
 // "According to Mark 1:5, fill in the blanks:" - the text before a blanked verse
@@ -25,8 +40,11 @@ export function formatInteractivePrompt(question) {
   const ref = formatVerseRef(question);
   const points = Number(question.points) || 1;
   const pointWord = points === 1 ? "Pt." : "Pts.";
-  const prefix = `(${points} ${pointWord}) According to ${ref}`;
+  const prefix = `(${points} ${pointWord})${ref ? ` According to ${ref}` : ""}`;
   const rawQuestion = safeQuestionText(question.question);
+  if (!ref) {
+    return { prompt: `${prefix} ${rawQuestion}` };
+  }
   const questionWithoutLead = rawQuestion.replace(
     new RegExp(`^According to ${escapeRegExp(ref)},?\\s*`, "i"),
     ""

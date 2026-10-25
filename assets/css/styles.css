@@ -1712,3 +1712,50 @@ button:disabled {
     font-size: max(16px, 1em) !important;
   }
 }
+
+/* --- My own questions --- */
+
+.custom-panel {
+  grid-column: span 12;
+}
+
+.custom-actions,
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.custom-actions button,
+.share-actions button {
+  width: auto;
+  margin: 0;
+}
+
+.custom-issues {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.share-notice {
+  margin-top: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--teal);
+  border-radius: var(--radius);
+}
+
+.share-notice p {
+  margin: 0 0 0.5rem;
+}
+
+.share-notice .hint {
+  margin: 0.5rem 0 0;
+}
+
+.custom-issues[hidden],
+.share-notice[hidden],
+#ownQuestionsLabel[hidden] {
+  display: none;
+}

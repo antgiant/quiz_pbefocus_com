@@ -143,6 +143,9 @@ export function isLikelyAiModelName(modelName) {
 }
 
 export function getQuestionSources(question) {
+  if (question?.custom) {
+    return ["custom"];
+  }
   const modelNames = normalizeQuestionCreatorNames(question?.createdBy);
   const humanReviewed = isHumanValidationActor(question?.validatedBy);
   const sources = new Set();
@@ -177,6 +180,16 @@ export function questionMatchesSelectedSources(question, selectedSources) {
 
   const questionSources = new Set(getQuestionSources(question));
   return selectedSources.some((source) => questionSources.has(source));
+}
+
+// The person's own questions follow their own choice (include / only / exclude); every other
+// question follows the "reviewed by" sources, and is left out when only their own are wanted
+export function questionPassesSourceFilter(question, settings) {
+  const mode = settings?.ownQuestions;
+  if (question?.custom) {
+    return mode !== "exclude";
+  }
+  return mode !== "only" && questionMatchesSelectedSources(question, settings?.selectedSources);
 }
 
 // Resolves with `fallback` if `promise` hasn't settled after `ms`. Some browsers (iOS Safari in

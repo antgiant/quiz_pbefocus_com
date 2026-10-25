@@ -62,6 +62,21 @@ export const QUESTION_SOURCES = [
   "human_generated",
 ];
 
+// What to do with the person's own questions (see custom-questions.js): mix them in with the
+// rest, use only them, or leave them out
+export const OWN_QUESTION_MODES = [
+  { id: "include", label: "All questions, mine included" },
+  { id: "only", label: "Only my own questions" },
+  { id: "exclude", label: "Leave my own questions out" },
+];
+
+export function normalizeOwnQuestionMode(mode) {
+  return OWN_QUESTION_MODES.some((option) => option.id === mode) ? mode : "include";
+}
+
+// Where "share my questions" opens a GitHub issue
+export const SHARE_REPO = "antgiant/quiz_pbefocus_com";
+
 export const STORAGE_KEY = "pbe_quiz_profiles_v1";
 
 export const DEFAULT_PERSON_NAME = "Person 1";
@@ -85,6 +100,7 @@ export const DEFAULT_SETTINGS = {
   perVerse: 2,
   selectedDifficulties: [...QUESTION_DIFFICULTIES],
   selectedSources: [...QUESTION_SOURCES],
+  ownQuestions: "include",
   selectedTypes: [...QUESTION_TYPE_GROUP_IDS],
   difficultyWeights: {},
   typeWeights: {},

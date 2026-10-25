@@ -13,7 +13,10 @@ import {
   quizStyleForTypes,
   questionTypeGroupId,
   LEGACY_TIMER_MODES,
+  OWN_QUESTION_MODES,
+  SHARE_REPO,
   TIMER_PRESETS,
+  normalizeOwnQuestionMode,
 } from "./constants.js";
 import { AnalysisStore } from "./analysis-store.js";
 import {
@@ -25,6 +28,13 @@ import {
   validateCustomBlanks,
 } from "./blank-engine.js";
 import { launchConfetti } from "./confetti.js";
+import { CustomStore } from "./custom-store.js";
+import {
+  buildShareIssueUrl,
+  customSignature,
+  mergeCustomQuestions,
+  rowsToQuestions,
+} from "./custom-questions.js";
 import { DataService, pickDefaultYear } from "./data-service.js";
 import { decodeImportHash, studyPresetsToProfiles } from "./import-study.js";
 import { exportPowerPoint } from "./exporters.js";
@@ -61,12 +71,16 @@ import {
 import { gradeWritten, wordClassifier } from "./answer-grader.js";
 import { readingSeconds } from "./reading-time.js";
 import { confusableWords, matchesWithSlips } from "./answer-match.js";
-import { formatInteractiveAnswer, secondsForQuestion } from "./question-formatters.js";
-import { formatNumberRanges, normalizeText, shuffle, questionMatchesSelectedSources } from "./utils.js";
+import { formatInteractiveAnswer, hasVerseText, secondsForQuestion } from "./question-formatters.js";
+import { formatNumberRanges, normalizeText, questionPassesSourceFilter, shuffle } from "./utils.js";
 
 const dataService = new DataService();
+const customStore = new CustomStore();
+// Read at once; the page waits for it in bootstrap
+const customQuestionsReady = customStore.get();
 const appState = {
   storage: loadState(),
+  custom: [],
   years: [],
   manifest: null,
   generatedQuestions: [],
@@ -113,6 +127,18 @@ const el = {
   modeSimpleBtn: document.getElementById("modeSimpleBtn"),
   modeAdvancedBtn: document.getElementById("modeAdvancedBtn"),
   styleSelect: document.getElementById("styleSelect"),
+  ownQuestionsLabel: document.getElementById("ownQuestionsLabel"),
+  ownQuestionsSelect: document.getElementById("ownQuestionsSelect"),
+  customTemplateBtn: document.getElementById("customTemplateBtn"),
+  customUploadBtn: document.getElementById("customUploadBtn"),
+  customClearBtn: document.getElementById("customClearBtn"),
+  customFileInput: document.getElementById("customFileInput"),
+  customStatus: document.getElementById("customStatus"),
+  customIssues: document.getElementById("customIssues"),
+  customShareNotice: document.getElementById("customShareNotice"),
+  customShareText: document.getElementById("customShareText"),
+  customShareBtn: document.getElementById("customShareBtn"),
+  customShareDismissBtn: document.getElementById("customShareDismissBtn"),
   simpleSummary: document.getElementById("simpleSummary"),
   customizeBtn: document.getElementById("customizeBtn"),
   printBtn: document.getElementById("printBtn"),
@@ -269,6 +295,12 @@ function ensureProfileState() {
   delete active.settings.difficulty;
   delete active.settings.humanReviewedOnly;
 
+  active.settings.ownQuestions = normalizeOwnQuestionMode(active.settings.ownQuestions);
+  // Without any questions of their own there is nothing to use "only" for
+  if (!appState.custom.length) {
+    active.settings.ownQuestions = "include";
+  }
+
   active.settings.selectedTypes = normalizeSelectedTypeGroups(active.settings.selectedTypes);
   if (!active.settings.selectedTypes.length) {
     active.settings.selectedTypes = [...QUESTION_TYPE_GROUP_IDS];
@@ -344,6 +376,7 @@ function renderControls() {
   });
   el.scopeSelector.scrollTop = 0;
   renderStyleSelect(settings);
+  renderOwnQuestionsSelect(settings);
   updateSimpleSummary();
 }
 
@@ -389,6 +422,17 @@ function renderStyleSelect(settings) {
     el.styleSelect.append(new Option("Custom (set in Advanced)", "custom"));
   }
   el.styleSelect.value = current;
+}
+
+// Shown in both simple and advanced setup, once the person has questions of their own
+function renderOwnQuestionsSelect(settings) {
+  el.ownQuestionsLabel.hidden = appState.custom.length === 0;
+  if (!el.ownQuestionsSelect.options.length) {
+    for (const mode of OWN_QUESTION_MODES) {
+      el.ownQuestionsSelect.append(new Option(mode.label, mode.id));
+    }
+  }
+  el.ownQuestionsSelect.value = normalizeOwnQuestionMode(settings.ownQuestions);
 }
 
 function applyQuizStyle(styleId) {
@@ -542,11 +586,12 @@ function pruneSelectedVersesToScope(selectedVerses, scope) {
 function questionMatchesAvailabilityFilters(question, settings) {
   const typeSet = new Set(settings.selectedTypes || []);
   const difficultySet = new Set(settings.selectedDifficulties || []);
-  if (!typeSet.has(questionTypeGroupId(question.type))) {
+  const ownOnly = settings.ownQuestions === "only";
+  if (!(ownOnly && question.custom) && !typeSet.has(questionTypeGroupId(question.type))) {
     return false;
   }
 
-  if (!questionMatchesSelectedSources(question, settings.selectedSources)) {
+  if (!questionPassesSourceFilter(question, settings)) {
     return false;
   }
 
@@ -564,7 +609,11 @@ async function buildAvailabilityMap(settings) {
   const yearScope = year?.scope || {};
 
   // Fill-in-the-blank is made from the verses themselves, so every chapter qualifies
-  if (settings.selectedTypes.includes("fill_in_blank") && settings.selectedDifficulties.length > 0) {
+  if (
+    settings.selectedTypes.includes("fill_in_blank") &&
+    settings.selectedDifficulties.length > 0 &&
+    settings.ownQuestions !== "only"
+  ) {
     for (const book of appState.manifest.books) {
       for (const chapter of book.chapters) {
         availability.set(`${book.id}:${chapter.number}`, true);
@@ -617,8 +666,7 @@ async function refreshScopeSelectorForFilters() {
     !settings.selectedTypes ||
     settings.selectedTypes.length === 0 ||
     settings.selectedDifficulties.length === 0 ||
-    !settings.selectedSources ||
-    settings.selectedSources.length === 0
+    (settings.ownQuestions !== "only" && (!settings.selectedSources || settings.selectedSources.length === 0))
   ) {
     active.selectedScope = {};
     active.selectedVerses = {};
@@ -635,6 +683,8 @@ async function refreshScopeSelectorForFilters() {
   }
 
   const shouldFilterAvailability =
+    settings.ownQuestions === "only" ||
+    settings.ownQuestions === "exclude" ||
     settings.selectedSources.length < QUESTION_SOURCES.length ||
     settings.selectedDifficulties.length < QUESTION_DIFFICULTIES.length ||
     settings.selectedTypes.length < QUESTION_TYPE_GROUP_IDS.length;
@@ -828,6 +878,9 @@ function syncSettingsFromControls() {
   active.settings.selectedSources = Array.from(
     el.sourceCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
+  if (!el.ownQuestionsLabel.hidden) {
+    active.settings.ownQuestions = normalizeOwnQuestionMode(el.ownQuestionsSelect.value);
+  }
   active.settings.selectedDifficulties = Array.from(
     el.difficultyCheckboxes.querySelectorAll('input[type="checkbox"]:checked')
   ).map((checkbox) => checkbox.value);
@@ -1164,7 +1217,8 @@ function wireScopeEvents() {
 
 function buildSettingsLabel(active = getActiveProfile(appState.storage)) {
   const year = getActiveYear(active);
-  return `Year ${year?.name || "Unknown"}`;
+  const own = active.settings.ownQuestions === "only" ? " | My own questions" : "";
+  return `Year ${year?.name || "Unknown"}${own}`;
 }
 
 function buildScopeLabel(active = getActiveProfile(appState.storage)) {
@@ -1291,6 +1345,10 @@ function loadChapterVerses(bookId, chapter) {
 async function loadVersesForQuestions(questions) {
   const chapters = new Map();
   for (const question of questions) {
+    // The person's own questions may have no verse to show
+    if (!hasVerseText(question)) {
+      continue;
+    }
     const key = `${question.bookId}:${question.chapter}`;
     if (!chapters.has(key)) {
       chapters.set(key, loadChapterVerses(question.bookId, question.chapter));
@@ -1299,6 +1357,9 @@ async function loadVersesForQuestions(questions) {
 
   return Promise.all(
     questions.map(async (question) => {
+      if (!hasVerseText(question)) {
+        return [];
+      }
       const chapterVerses = await chapters.get(`${question.bookId}:${question.chapter}`);
       const start = Number(question.startVerse) || 1;
       const end = Math.max(start, Number(question.endVerse) || start);
@@ -1470,7 +1531,9 @@ async function downloadPowerPoint() {
     }
 
     const verses = await loadVersesForQuestions(questions);
-    const missing = verses.filter((list, index) => !list.length && !questions[index].generated).length;
+    const missing = verses.filter(
+      (list, index) => !list.length && !questions[index].generated && hasVerseText(questions[index])
+    ).length;
     await exportPowerPoint({
       questions,
       verses,
@@ -1716,7 +1779,7 @@ function goToInteractiveQuestion(index) {
 // Fill in the full verse text under the reference once it has loaded
 async function fillInteractiveVerse(question, index) {
   const target = document.getElementById("interactiveVerseText");
-  if (!target) {
+  if (!target || !hasVerseText(question)) {
     return;
   }
 
@@ -2147,7 +2210,8 @@ async function generateAndRender() {
   const scope = getScopeForActive();
 
   const config = active.settings.fillInBlank;
-  if (active.settings.selectedTypes.includes("fill_in_blank") && config.mode === "custom") {
+  const ownOnly = active.settings.ownQuestions === "only";
+  if (!ownOnly && active.settings.selectedTypes.includes("fill_in_blank") && config.mode === "custom") {
     if (Object.keys(validateCustomBlanks(config)).length) {
       setStatus("Fix the Fill in the Blank settings to generate questions.", "warn");
       return;
@@ -2157,7 +2221,7 @@ async function generateAndRender() {
   // Verse downloads can take a moment, so only the newest request may update the page
   appState.generationRun += 1;
   const run = appState.generationRun;
-  const usesVerses = active.settings.selectedTypes.includes("fill_in_blank");
+  const usesVerses = !ownOnly && active.settings.selectedTypes.includes("fill_in_blank");
   if (usesVerses) {
     setStatus("Preparing fill-in-the-blank questions…");
   }
@@ -2203,6 +2267,218 @@ async function generateAndRender() {
   } else {
     setStatus("No questions generated. Adjust filters and try again.", "warn");
   }
+}
+
+// --- My own questions ---
+
+const CUSTOM_SHARED_KEY = "pbe_quiz_custom_shared_v1";
+const CUSTOM_FILE_NAME = "my-pbe-questions.xlsx";
+const MAX_ISSUES_SHOWN = 6;
+
+function readSharedSignature() {
+  try {
+    return window.localStorage.getItem(CUSTOM_SHARED_KEY);
+  } catch {
+    return null;
+  }
+}
+
+function writeSharedSignature(signature) {
+  try {
+    window.localStorage.setItem(CUSTOM_SHARED_KEY, signature);
+  } catch {
+    // The reminder just comes back next time
+  }
+}
+
+function setCustomQuestions(questions) {
+  appState.custom = questions;
+  dataService.setCustomQuestions(questions);
+}
+
+// `message` shows what just happened; otherwise the panel says how many questions there are
+function renderCustomPanel(message = "", mode = "") {
+  const count = appState.custom.length;
+  el.customClearBtn.hidden = count === 0;
+  el.customStatus.textContent =
+    message ||
+    (count ? `You have ${count} of your own ${count === 1 ? "question" : "questions"} on this device.` : "");
+  el.customStatus.className = mode ? `status ${mode}` : "status";
+
+  const unshared = count > 0 && readSharedSignature() !== customSignature(appState.custom);
+  el.customShareNotice.hidden = !unshared;
+  el.customShareText.textContent = `Want to share your ${count === 1 ? "question" : `${count} questions`} with everyone? Other quiz writers could use ${count === 1 ? "it" : "them"} too.`;
+}
+
+function renderCustomIssues(issues) {
+  el.customIssues.replaceChildren(
+    ...issues.slice(0, MAX_ISSUES_SHOWN).map((issue) => {
+      const item = document.createElement("li");
+      const place = issue.row ? `Row ${issue.row}` : "Spreadsheet";
+      item.textContent = `${place}${issue.skipped ? " (left out)" : ""}: ${issue.text}`;
+      return item;
+    })
+  );
+  if (issues.length > MAX_ISSUES_SHOWN) {
+    const more = document.createElement("li");
+    more.textContent = `…and ${issues.length - MAX_ISSUES_SHOWN} more.`;
+    el.customIssues.append(more);
+  }
+  el.customIssues.hidden = issues.length === 0;
+}
+
+function downloadBytes(bytes, fileName, type) {
+  const url = window.URL.createObjectURL(new Blob([bytes], { type }));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => window.URL.revokeObjectURL(url), 10000);
+}
+
+// The spreadsheet code is only needed when someone uses it, so it loads then
+async function spreadsheetTools() {
+  await loadVendor("jszip");
+  return { ...(await import("./custom-xlsx.js")), JSZip: globalThis.JSZip };
+}
+
+async function downloadCustomTemplate() {
+  if (!appState.manifest) {
+    renderCustomPanel("The book list is still loading. Try again in a moment.", "warn");
+    return;
+  }
+  try {
+    const { buildWorkbook, XLSX_MIME, JSZip } = await spreadsheetTools();
+    const bytes = await buildWorkbook(JSZip, { manifest: appState.manifest });
+    downloadBytes(bytes, "pbe-quiz-questions.xlsx", XLSX_MIME);
+    renderCustomPanel("Spreadsheet downloaded. Fill it in, then add it here.", "ok");
+  } catch (error) {
+    renderCustomPanel(`Couldn't make the spreadsheet: ${error.message}`, "warn");
+  }
+}
+
+async function addCustomSpreadsheet(file) {
+  renderCustomIssues([]);
+  if (!appState.manifest) {
+    renderCustomPanel("The book list is still loading. Try again in a moment.", "warn");
+    return;
+  }
+  renderCustomPanel("Reading your spreadsheet…");
+  try {
+    const { readWorkbookRows, JSZip } = await spreadsheetTools();
+    const rows = await readWorkbookRows(JSZip, await file.arrayBuffer());
+    const result = rowsToQuestions(rows, { manifest: appState.manifest });
+    if (result.error) {
+      throw new Error(result.error);
+    }
+    renderCustomIssues(result.issues);
+    if (!result.questions.length) {
+      renderCustomPanel("No questions were added. Each row needs a question and an answer.", "warn");
+      return;
+    }
+
+    const merged = mergeCustomQuestions(appState.custom, result.questions);
+    const saved = await customStore.set(merged.questions);
+    setCustomQuestions(merged.questions);
+
+    const parts = [];
+    if (merged.added) parts.push(`added ${merged.added}`);
+    if (merged.updated) parts.push(`updated ${merged.updated}`);
+    const skipped = result.issues.filter((issue) => issue.skipped).length;
+    renderCustomPanel(
+      `${parts.join(" and ").replace(/^./, (c) => c.toUpperCase())} ${merged.added + merged.updated === 1 ? "question" : "questions"}` +
+        (skipped ? `, left out ${skipped}` : "") +
+        `. They're mixed in with the other questions; choose "Only my own questions" to use just those.` +
+        (saved ? "" : " They couldn't be saved on this device, so they'll be gone when you close this page."),
+      saved ? "ok" : "warn"
+    );
+    renderControls();
+    refreshScopeThenGenerate();
+  } catch (error) {
+    renderCustomPanel(error.message || "Couldn't read that spreadsheet.", "warn");
+  }
+}
+
+async function removeCustomQuestions() {
+  const count = appState.custom.length;
+  if (!count || !window.confirm(`Remove all ${count} of your own questions from this device? This can't be undone.`)) {
+    return;
+  }
+  await customStore.set([]);
+  setCustomQuestions([]);
+  for (const profile of appState.storage.profiles) {
+    if (profile.settings) profile.settings.ownQuestions = "include";
+    delete profile.stashedScope;
+  }
+  saveState(appState.storage);
+  renderCustomIssues([]);
+  renderCustomPanel("Removed your own questions.", "ok");
+  renderControls();
+  refreshScopeThenGenerate();
+}
+
+// GitHub can't attach a file from a link, so the issue opens and the spreadsheet downloads
+// beside it, ready to drag in
+async function shareCustomQuestions() {
+  const questions = appState.custom;
+  if (!questions.length || !appState.manifest) {
+    return;
+  }
+  // Open the issue first, while the click still counts for the pop-up blocker
+  window.open(buildShareIssueUrl(SHARE_REPO, questions, CUSTOM_FILE_NAME), "_blank", "noopener");
+  try {
+    const { buildWorkbook, XLSX_MIME, JSZip } = await spreadsheetTools();
+    const bytes = await buildWorkbook(JSZip, { manifest: appState.manifest, questions });
+    downloadBytes(bytes, CUSTOM_FILE_NAME, XLSX_MIME);
+    writeSharedSignature(customSignature(questions));
+    renderCustomPanel(`Thank you! ${CUSTOM_FILE_NAME} is downloading. Drag it into the GitHub issue that just opened to attach it.`, "ok");
+  } catch (error) {
+    renderCustomPanel(`The issue opened, but the spreadsheet couldn't be made: ${error.message}`, "warn");
+  }
+}
+
+// Leaving "only my own", the chapters it narrowed the picker to would otherwise stay narrowed
+function changeOwnQuestionsMode(next) {
+  const active = getActiveProfile(appState.storage);
+  const previous = active.settings.ownQuestions;
+  if (next === "only" && previous !== "only") {
+    active.stashedScope = {
+      selectedScope: structuredClone(getScopeForActive(active)),
+      selectedVerses: structuredClone(active.selectedVerses || {}),
+    };
+  } else if (previous === "only" && next !== "only" && active.stashedScope) {
+    active.selectedScope = active.stashedScope.selectedScope;
+    active.selectedVerses = active.stashedScope.selectedVerses;
+    delete active.stashedScope;
+  }
+  active.settings.ownQuestions = next;
+  saveState(appState.storage);
+  renderControls();
+  refreshScopeThenGenerate();
+}
+
+function wireCustomEvents() {
+  el.ownQuestionsSelect.addEventListener("change", () =>
+    changeOwnQuestionsMode(normalizeOwnQuestionMode(el.ownQuestionsSelect.value))
+  );
+  el.customTemplateBtn.addEventListener("click", downloadCustomTemplate);
+  el.customUploadBtn.addEventListener("click", () => el.customFileInput.click());
+  el.customFileInput.addEventListener("change", async () => {
+    const file = el.customFileInput.files?.[0];
+    if (file) {
+      await addCustomSpreadsheet(file);
+    }
+    // So choosing the same file again still counts as a change
+    el.customFileInput.value = "";
+  });
+  el.customClearBtn.addEventListener("click", removeCustomQuestions);
+  el.customShareBtn.addEventListener("click", shareCustomQuestions);
+  el.customShareDismissBtn.addEventListener("click", () => {
+    writeSharedSignature(customSignature(appState.custom));
+    renderCustomPanel();
+  });
 }
 
 function wireEvents() {
@@ -2386,6 +2662,7 @@ function wireEvents() {
   );
 
   wireScopeEvents();
+  wireCustomEvents();
 }
 
 // The study tool links here with its presets in the URL hash
@@ -2454,6 +2731,8 @@ async function bootstrap() {
     appState.manifest = await dataService.loadManifest();
     appState.years = await dataService.loadYears(appState.manifest);
     await analysisReady;
+    setCustomQuestions(await customQuestionsReady);
+    renderCustomPanel();
 
     ensureProfileState();
 
